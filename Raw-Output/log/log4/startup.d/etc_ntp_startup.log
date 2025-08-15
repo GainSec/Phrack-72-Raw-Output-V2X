@@ -1,0 +1,3 @@
+started at Mon Jan  4 05:16:38 UTC 2010
+pidfile: /var/run/ntpd.pid
+ntp_opts: -g

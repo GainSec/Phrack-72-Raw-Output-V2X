@@ -1,0 +1,140 @@
+Jan 12 07:58:28 CB-9160 kernel: DMI: N/A N/A/COMe-mBTi10, BIOS MVV1R976 X64 10/10/2017
+Jan 12 07:58:28 CB-9160 kernel: e820: update [mem 0x00000000-0x00000fff] usable ==> reserved
+Jan 12 07:58:28 CB-9160 kernel: e820: remove [mem 0x000a0000-0x000fffff] usable
+Jan 12 07:58:28 CB-9160 kernel: MTRR default type: uncachable
+Jan 12 07:58:28 CB-9160 kernel: MTRR fixed ranges enabled:
+Jan 12 07:58:28 CB-9160 kernel:   00000-9FFFF write-back
+Jan 12 07:58:28 CB-9160 kernel:   A0000-BFFFF uncachable
+Jan 12 07:58:28 CB-9160 kernel:   C0000-FFFFF write-protect
+Jan 12 07:58:28 CB-9160 kernel: MTRR variable ranges enabled:
+Jan 12 07:58:28 CB-9160 kernel:   0 base 0FFC00000 mask FFFC00000 write-protect
+Jan 12 07:58:28 CB-9160 kernel:   1 base 000000000 mask FC0000000 write-back
+Jan 12 07:58:28 CB-9160 kernel:   2 base 03C000000 mask FFC000000 uncachable
+Jan 12 07:58:28 CB-9160 kernel:   3 base 03A000000 mask FFE000000 uncachable
+Jan 12 07:58:28 CB-9160 kernel:   4 disabled
+Jan 12 07:58:28 CB-9160 kernel:   5 disabled
+Jan 12 07:58:28 CB-9160 kernel:   6 disabled
+Jan 12 07:58:28 CB-9160 kernel:   7 disabled
+Jan 12 07:58:28 CB-9160 kernel: initial memory mapped: [mem 0x00000000-0x023fffff]
+Jan 12 07:58:28 CB-9160 kernel: Base memory trampoline at [c0098000] 98000 size 16384
+Jan 12 07:58:28 CB-9160 kernel: BRK [0x01e5c000, 0x01e5cfff] PGTABLE
+Jan 12 07:58:28 CB-9160 kernel: ACPI: Local APIC address 0xfee00000
+Jan 12 07:58:28 CB-9160 kernel: BRK [0x01e5d000, 0x01e5dfff] PGTABLE
+Jan 12 07:58:28 CB-9160 kernel: On node 0 totalpages: 196253
+Jan 12 07:58:28 CB-9160 kernel:   DMA zone: 40 pages used for memmap
+Jan 12 07:58:28 CB-9160 kernel:   DMA zone: 0 pages reserved
+Jan 12 07:58:28 CB-9160 kernel:   DMA zone: 3997 pages, LIFO batch:0
+Jan 12 07:58:28 CB-9160 kernel:   Normal zone: 1880 pages used for memmap
+Jan 12 07:58:28 CB-9160 kernel:   Normal zone: 192256 pages, LIFO batch:31
+Jan 12 07:58:28 CB-9160 kernel: ACPI: Local APIC address 0xfee00000
+Jan 12 07:58:28 CB-9160 kernel: ACPI: IRQ0 used by override.
+Jan 12 07:58:28 CB-9160 kernel: ACPI: IRQ9 used by override.
+Jan 12 07:58:28 CB-9160 kernel: pcpu-alloc: s52108 r0 d29812 u81920 alloc=20*4096
+Jan 12 07:58:28 CB-9160 kernel: pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
+Jan 12 07:58:28 CB-9160 kernel: CPU 0 irqstacks, hard=eec80000 soft=eec82000
+Jan 12 07:58:28 CB-9160 kernel: TSC deadline timer enabled
+Jan 12 07:58:28 CB-9160 kernel: CPU 1 irqstacks, hard=eed76000 soft=eed80000
+Jan 12 07:58:28 CB-9160 kernel: pci 0000:00:00.0: [8086:0f00] type 00 class 0x060000
+Jan 12 07:58:28 CB-9160 kernel: pci 0000:00:02.0: [8086:0f31] type 00 class 0x030000
+Jan 12 07:58:28 CB-9160 kernel: pci 0000:00:02.0: reg 0x10: [mem 0x50000000-0x503fffff]
+Jan 12 07:58:28 CB-9160 kernel: pci 0000:00:02.0: reg 0x18: [mem 0x40000000-0x4fffffff pref]
+Jan 12 07:58:28 CB-9160 kernel: pci 0000:00:02.0: reg 0x20: [io  0x2050-0x2057]
+Jan 12 07:58:28 CB-9160 kernel: pci 0000:00:12.0: [8086:0f16] type 00 class 0x080501
+Jan 12 07:58:28 CB-9160 kernel: pci 0000:00:12.0: reg 0x10: [mem 0x50713000-0x50713fff]
+Jan 12 07:58:28 CB-9160 kernel: pci 0000:00:12.0: reg 0x14: [mem 0x50712000-0x50712fff]
+Jan 12 07:58:28 CB-9160 kernel: pci 0000:00:12.0: PME# supported from D0 D3hot
+Jan 12 07:58:28 CB-9160 kernel: pci 0000:00:13.0: [8086:0f23] type 00 class 0x010601
+Jan 12 07:58:28 CB-9160 kernel: pci 0000:00:13.0: reg 0x10: [io  0x2048-0x204f]
+Jan 12 07:58:28 CB-9160 kernel: pci 0000:00:13.0: reg 0x14: [io  0x205c-0x205f]
+Jan 12 07:58:28 CB-9160 kernel: pci 0000:00:13.0: reg 0x18: [io  0x2040-0x2047]
+Jan 12 07:58:28 CB-9160 kernel: pci 0000:00:13.0: reg 0x1c: [io  0x2058-0x205b]
+Jan 12 07:58:28 CB-9160 kernel: pci 0000:00:13.0: reg 0x20: [io  0x2020-0x203f]
+Jan 12 07:58:28 CB-9160 kernel: pci 0000:00:13.0: reg 0x24: [mem 0x50714000-0x507147ff]
+Jan 12 07:58:28 CB-9160 kernel: pci 0000:00:13.0: PME# supported from D3hot
+Jan 12 07:58:28 CB-9160 kernel: pci 0000:00:14.0: [8086:0f35] type 00 class 0x0c0330
+Jan 12 07:58:28 CB-9160 kernel: pci 0000:00:14.0: reg 0x10: [mem 0x50700000-0x5070ffff 64bit]
+Jan 12 07:58:28 CB-9160 kernel: pci 0000:00:14.0: PME# supported from D3hot D3cold
+Jan 12 07:58:28 CB-9160 kernel: pci 0000:00:17.0: [8086:0f50] type 00 class 0x080501
+Jan 12 07:58:28 CB-9160 kernel: pci 0000:00:17.0: reg 0x10: [mem 0x50711000-0x50711fff]
+Jan 12 07:58:28 CB-9160 kernel: pci 0000:00:17.0: reg 0x14: [mem 0x50710000-0x50710fff]
+Jan 12 07:58:28 CB-9160 kernel: pci 0000:00:17.0: PME# supported from D0 D3hot
+Jan 12 07:58:28 CB-9160 kernel: pci 0000:00:1c.0: [8086:0f48] type 01 class 0x060400
+Jan 12 07:58:28 CB-9160 kernel: pci 0000:00:1c.0: PME# supported from D0 D3hot D3cold
+Jan 12 07:58:28 CB-9160 kernel: pci 0000:00:1c.1: [8086:0f4a] type 01 class 0x060400
+Jan 12 07:58:28 CB-9160 kernel: pci 0000:00:1c.1: PME# supported from D0 D3hot D3cold
+Jan 12 07:58:28 CB-9160 kernel: pci 0000:00:1c.2: [8086:0f4c] type 01 class 0x060400
+Jan 12 07:58:28 CB-9160 kernel: pci 0000:00:1c.2: PME# supported from D0 D3hot D3cold
+Jan 12 07:58:28 CB-9160 kernel: pci 0000:00:1c.3: [8086:0f4e] type 01 class 0x060400
+Jan 12 07:58:28 CB-9160 kernel: pci 0000:00:1c.3: PME# supported from D0 D3hot D3cold
+Jan 12 07:58:28 CB-9160 kernel: pci 0000:00:1f.0: [8086:0f1c] type 00 class 0x060100
+Jan 12 07:58:28 CB-9160 kernel: pci 0000:00:1f.3: [8086:0f12] type 00 class 0x0c0500
+Jan 12 07:58:28 CB-9160 kernel: pci 0000:00:1f.3: reg 0x10: [mem 0x50714800-0x5071481f]
+Jan 12 07:58:28 CB-9160 kernel: pci 0000:00:1f.3: reg 0x20: [io  0x2000-0x201f]
+Jan 12 07:58:28 CB-9160 kernel: pci 0000:04:00.0: [8086:157b] type 00 class 0x020000
+Jan 12 07:58:28 CB-9160 kernel: pci 0000:04:00.0: reg 0x10: [mem 0x50400000-0x5041ffff]
+Jan 12 07:58:28 CB-9160 kernel: pci 0000:04:00.0: reg 0x18: [io  0x1000-0x101f]
+Jan 12 07:58:28 CB-9160 kernel: pci 0000:04:00.0: reg 0x1c: [mem 0x50420000-0x50423fff]
+Jan 12 07:58:28 CB-9160 kernel: pci 0000:04:00.0: PME# supported from D0 D3hot D3cold
+Jan 12 07:58:28 CB-9160 kernel: pci 0000:00:1c.3:   bridge window [io  0x1000-0x1fff]
+Jan 12 07:58:28 CB-9160 kernel: pci 0000:00:1c.3:   bridge window [mem 0x50400000-0x504fffff]
+Jan 12 07:58:28 CB-9160 kernel: pci_bus 0000:00: on NUMA node 0
+Jan 12 07:58:28 CB-9160 kernel: libata version 3.00 loaded.
+Jan 12 07:58:28 CB-9160 kernel: PCI: pci_cache_line_size set to 64 bytes
+Jan 12 07:58:28 CB-9160 kernel: e820: reserve RAM buffer [mem 0x0009e000-0x0009ffff]
+Jan 12 07:58:28 CB-9160 kernel: pnp 00:00: Plug and Play ACPI device, IDs PNP0b00 (active)
+Jan 12 07:58:28 CB-9160 kernel: system 00:01: Plug and Play ACPI device, IDs PNP0c02 (active)
+Jan 12 07:58:28 CB-9160 kernel: pnp 00:02: Plug and Play ACPI device, IDs PNP0501 (active)
+Jan 12 07:58:28 CB-9160 kernel: pnp 00:03: Plug and Play ACPI device, IDs PNP0501 (active)
+Jan 12 07:58:28 CB-9160 kernel: system 00:04: Plug and Play ACPI device, IDs PNP0c02 (active)
+Jan 12 07:58:28 CB-9160 kernel: pci 0000:00:1c.0: bridge window [io  0x1000-0x0fff] to [bus 01] add_size 1000
+Jan 12 07:58:28 CB-9160 kernel: pci 0000:00:1c.0: bridge window [mem 0x00100000-0x000fffff 64bit pref] to [bus 01] add_size 200000 add_align 100000
+Jan 12 07:58:28 CB-9160 kernel: pci 0000:00:1c.0: bridge window [mem 0x00100000-0x000fffff] to [bus 01] add_size 200000 add_align 100000
+Jan 12 07:58:28 CB-9160 kernel: pci 0000:00:1c.1: bridge window [io  0x1000-0x0fff] to [bus 02] add_size 1000
+Jan 12 07:58:28 CB-9160 kernel: pci 0000:00:1c.1: bridge window [mem 0x00100000-0x000fffff 64bit pref] to [bus 02] add_size 200000 add_align 100000
+Jan 12 07:58:28 CB-9160 kernel: pci 0000:00:1c.1: bridge window [mem 0x00100000-0x000fffff] to [bus 02] add_size 200000 add_align 100000
+Jan 12 07:58:28 CB-9160 kernel: pci 0000:00:1c.2: bridge window [io  0x1000-0x0fff] to [bus 03] add_size 1000
+Jan 12 07:58:28 CB-9160 kernel: pci 0000:00:1c.2: bridge window [mem 0x00100000-0x000fffff 64bit pref] to [bus 03] add_size 200000 add_align 100000
+Jan 12 07:58:28 CB-9160 kernel: pci 0000:00:1c.2: bridge window [mem 0x00100000-0x000fffff] to [bus 03] add_size 200000 add_align 100000
+Jan 12 07:58:28 CB-9160 kernel: pci 0000:00:1c.3: bridge window [mem 0x00100000-0x000fffff 64bit pref] to [bus 04] add_size 200000 add_align 100000
+Jan 12 07:58:28 CB-9160 kernel: pci 0000:00:1c.0: res[14]=[mem 0x00100000-0x000fffff] res_to_dev_res add_size 200000 min_align 100000
+Jan 12 07:58:28 CB-9160 kernel: pci 0000:00:1c.0: res[14]=[mem 0x00100000-0x002fffff] res_to_dev_res add_size 200000 min_align 100000
+Jan 12 07:58:28 CB-9160 kernel: pci 0000:00:1c.0: res[15]=[mem 0x00100000-0x000fffff 64bit pref] res_to_dev_res add_size 200000 min_align 100000
+Jan 12 07:58:28 CB-9160 kernel: pci 0000:00:1c.0: res[15]=[mem 0x00100000-0x002fffff 64bit pref] res_to_dev_res add_size 200000 min_align 100000
+Jan 12 07:58:28 CB-9160 kernel: pci 0000:00:1c.1: res[14]=[mem 0x00100000-0x000fffff] res_to_dev_res add_size 200000 min_align 100000
+Jan 12 07:58:28 CB-9160 kernel: pci 0000:00:1c.1: res[14]=[mem 0x00100000-0x002fffff] res_to_dev_res add_size 200000 min_align 100000
+Jan 12 07:58:28 CB-9160 kernel: pci 0000:00:1c.1: res[15]=[mem 0x00100000-0x000fffff 64bit pref] res_to_dev_res add_size 200000 min_align 100000
+Jan 12 07:58:28 CB-9160 kernel: pci 0000:00:1c.1: res[15]=[mem 0x00100000-0x002fffff 64bit pref] res_to_dev_res add_size 200000 min_align 100000
+Jan 12 07:58:28 CB-9160 kernel: pci 0000:00:1c.2: res[14]=[mem 0x00100000-0x000fffff] res_to_dev_res add_size 200000 min_align 100000
+Jan 12 07:58:28 CB-9160 kernel: pci 0000:00:1c.2: res[14]=[mem 0x00100000-0x002fffff] res_to_dev_res add_size 200000 min_align 100000
+Jan 12 07:58:28 CB-9160 kernel: pci 0000:00:1c.2: res[15]=[mem 0x00100000-0x000fffff 64bit pref] res_to_dev_res add_size 200000 min_align 100000
+Jan 12 07:58:28 CB-9160 kernel: pci 0000:00:1c.2: res[15]=[mem 0x00100000-0x002fffff 64bit pref] res_to_dev_res add_size 200000 min_align 100000
+Jan 12 07:58:28 CB-9160 kernel: pci 0000:00:1c.3: res[15]=[mem 0x00100000-0x000fffff 64bit pref] res_to_dev_res add_size 200000 min_align 100000
+Jan 12 07:58:28 CB-9160 kernel: pci 0000:00:1c.3: res[15]=[mem 0x00100000-0x002fffff 64bit pref] res_to_dev_res add_size 200000 min_align 100000
+Jan 12 07:58:28 CB-9160 kernel: pci 0000:00:1c.0: res[13]=[io  0x1000-0x0fff] res_to_dev_res add_size 1000 min_align 1000
+Jan 12 07:58:28 CB-9160 kernel: pci 0000:00:1c.0: res[13]=[io  0x1000-0x1fff] res_to_dev_res add_size 1000 min_align 1000
+Jan 12 07:58:28 CB-9160 kernel: pci 0000:00:1c.1: res[13]=[io  0x1000-0x0fff] res_to_dev_res add_size 1000 min_align 1000
+Jan 12 07:58:28 CB-9160 kernel: pci 0000:00:1c.1: res[13]=[io  0x1000-0x1fff] res_to_dev_res add_size 1000 min_align 1000
+Jan 12 07:58:28 CB-9160 kernel: pci 0000:00:1c.2: res[13]=[io  0x1000-0x0fff] res_to_dev_res add_size 1000 min_align 1000
+Jan 12 07:58:28 CB-9160 kernel: pci 0000:00:1c.2: res[13]=[io  0x1000-0x1fff] res_to_dev_res add_size 1000 min_align 1000
+Jan 12 07:58:28 CB-9160 kernel: pci_bus 0000:00: resource 4 [io  0x0070-0x0077]
+Jan 12 07:58:28 CB-9160 kernel: pci_bus 0000:00: resource 5 [io  0x0000-0x006f window]
+Jan 12 07:58:28 CB-9160 kernel: pci_bus 0000:00: resource 6 [io  0x0078-0x0cf7 window]
+Jan 12 07:58:28 CB-9160 kernel: pci_bus 0000:00: resource 7 [io  0x0d00-0xffff window]
+Jan 12 07:58:28 CB-9160 kernel: pci_bus 0000:00: resource 8 [mem 0x000a0000-0x000bffff window]
+Jan 12 07:58:28 CB-9160 kernel: pci_bus 0000:00: resource 9 [mem 0x000c0000-0x000dffff window]
+Jan 12 07:58:28 CB-9160 kernel: pci_bus 0000:00: resource 10 [mem 0x000e0000-0x000fffff window]
+Jan 12 07:58:28 CB-9160 kernel: pci_bus 0000:00: resource 11 [mem 0x40000000-0x507ffffe window]
+Jan 12 07:58:28 CB-9160 kernel: pci_bus 0000:01: resource 0 [io  0x3000-0x3fff]
+Jan 12 07:58:28 CB-9160 kernel: pci_bus 0000:02: resource 0 [io  0x4000-0x4fff]
+Jan 12 07:58:28 CB-9160 kernel: pci_bus 0000:03: resource 0 [io  0x5000-0x5fff]
+Jan 12 07:58:28 CB-9160 kernel: pci_bus 0000:04: resource 0 [io  0x1000-0x1fff]
+Jan 12 07:58:28 CB-9160 kernel: pci_bus 0000:04: resource 1 [mem 0x50400000-0x504fffff]
+Jan 12 07:58:28 CB-9160 kernel: pci_bus 0000:04: resource 2 [mem 0x50500000-0x506fffff 64bit pref]
+Jan 12 07:58:28 CB-9160 kernel: PCI: CLS 64 bytes, default 64
+Jan 12 07:58:28 CB-9160 kernel: intel_idle: MWAIT substates: 0x3000020
+Jan 12 07:58:28 CB-9160 kernel: intel_idle: v0.4.1 model 0x37
+Jan 12 07:58:28 CB-9160 kernel: intel_idle: lapic_timer_reliable_states 0xffffffff
+Jan 12 07:58:28 CB-9160 kernel: ahci 0000:00:13.0: version 3.0
+Jan 12 07:58:28 CB-9160 kernel: xhci_hcd 0000:00:14.0: cache line size of 64 is not supported
+Jan 12 07:59:02 CB-9160 kernel: IPV6_SetupRadioChannelConfig Radio: 1 Filter Addr: 9aed552b7dda
+Jan 12 07:59:02 CB-9160 kernel: IPV6_SetupRadioChannelConfig Radio: 1 Filter Addr: 9aed552b7dda

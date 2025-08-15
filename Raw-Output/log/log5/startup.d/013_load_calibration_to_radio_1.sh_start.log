@@ -1,0 +1,26 @@
++ set -x
++ . /mnt/c3platpersistent/share/startup/common.sh
++++ basename /mnt/c3platpersistent/etc/startup.d//013_load_calibration_to_radio_1.sh
+++ APP_SCR=013_load_calibration_to_radio_1.sh
++++ readlink -f /mnt/c3platpersistent/etc/startup.d//013_load_calibration_to_radio_1.sh
+++ ACT_DIR=/mnt/c3platpersistent/etc/startup.d/013_load_calibration_to_radio_1.sh
++++ dirname /mnt/c3platpersistent/etc/startup.d/013_load_calibration_to_radio_1.sh
+++ ABS_PATH=/mnt/c3platpersistent/etc/startup.d
+++ LED_STARTUP_PID=/var/run/flash_pid.startup
+++ [[ -n /mnt/c3platpersistent ]]
+++ [[ -z USDoT-QualcommCCA ]]
+++ source /mnt/c3platpersistent/etc/roadside.cfg
++++ [[ false == false ]]
++++ [[ USDoT-QualcommCCA == ITSG5-HWEngland ]]
++++ export ROADSIDE_IPTABLES_ENABLED=false
++++ ROADSIDE_IPTABLES_ENABLED=false
++++ export CERTPATH=/mnt/c3platpersistent/share/its-g5-security-certs/
++++ CERTPATH=/mnt/c3platpersistent/share/its-g5-security-certs/
++ eeprom_address_memory=0x50
++ i2c_bus_address=10
++ debug=0
++ [[ false == true ]]
++ '[' xstart = xstart ']'
++ '[' xUSDoT-QualcommCCA = xUSDoT-QualcommRR -o xUSDoT-QualcommCCA = xUSDoT-QualcommCCA ']'
++ logger '013_load_calibration_to_radio_1.sh -D- Skip due to board configuration'
++ exit 0

@@ -1,0 +1,1285 @@
+++ mktemp -d
++ DIR=/tmp/tmp.wHL2ceHnGI
++ dpkg-deb -X /home/admin/kapsch-kdpkg_1.19.0-deb9-x86.deb /tmp/tmp.wHL2ceHnGI
+./
+./mnt/
+./mnt/c3platpersistent/
+./mnt/c3platpersistent/bin/
+./mnt/c3platpersistent/bin/kdpkg
+./mnt/c3platpersistent/bin/kdpkg-architecture
+./mnt/c3platpersistent/bin/kdpkg-buildflags
+./mnt/c3platpersistent/bin/kdpkg-buildpackage
+./mnt/c3platpersistent/bin/kdpkg-checkbuilddeps
+./mnt/c3platpersistent/bin/kdpkg-deb
+./mnt/c3platpersistent/bin/kdpkg-distaddfile
+./mnt/c3platpersistent/bin/kdpkg-divert
+./mnt/c3platpersistent/bin/kdpkg-genbuildinfo
+./mnt/c3platpersistent/bin/kdpkg-genchanges
+./mnt/c3platpersistent/bin/kdpkg-gencontrol
+./mnt/c3platpersistent/bin/kdpkg-gensymbols
+./mnt/c3platpersistent/bin/kdpkg-maintscript-helper
+./mnt/c3platpersistent/bin/kdpkg-mergechangelogs
+./mnt/c3platpersistent/bin/kdpkg-name
+./mnt/c3platpersistent/bin/kdpkg-parsechangelog
+./mnt/c3platpersistent/bin/kdpkg-query
+./mnt/c3platpersistent/bin/kdpkg-scanpackages
+./mnt/c3platpersistent/bin/kdpkg-scansources
+./mnt/c3platpersistent/bin/kdpkg-shlibdeps
+./mnt/c3platpersistent/bin/kdpkg-source
+./mnt/c3platpersistent/bin/kdpkg-split
+./mnt/c3platpersistent/bin/kdpkg-statoverride
+./mnt/c3platpersistent/bin/kdpkg-trigger
+./mnt/c3platpersistent/bin/kdpkg-vendor
+./mnt/c3platpersistent/bin/kdselect
+./mnt/c3platpersistent/libexec/
+./mnt/c3platpersistent/libexec/dpkg/
+./mnt/c3platpersistent/libexec/dpkg/methods/
+./mnt/c3platpersistent/libexec/dpkg/methods/disk/
+./mnt/c3platpersistent/libexec/dpkg/methods/disk/desc.cdrom
+./mnt/c3platpersistent/libexec/dpkg/methods/disk/desc.harddisk
+./mnt/c3platpersistent/libexec/dpkg/methods/disk/desc.mounted
+./mnt/c3platpersistent/libexec/dpkg/methods/disk/desc.nfs
+./mnt/c3platpersistent/libexec/dpkg/methods/disk/kinstall
+./mnt/c3platpersistent/libexec/dpkg/methods/disk/ksetup
+./mnt/c3platpersistent/libexec/dpkg/methods/disk/kupdate
+./mnt/c3platpersistent/libexec/dpkg/methods/disk/names
+./mnt/c3platpersistent/libexec/dpkg/methods/floppy/
+./mnt/c3platpersistent/libexec/dpkg/methods/floppy/desc.floppy
+./mnt/c3platpersistent/libexec/dpkg/methods/floppy/kinstall
+./mnt/c3platpersistent/libexec/dpkg/methods/floppy/ksetup
+./mnt/c3platpersistent/libexec/dpkg/methods/floppy/kupdate
+./mnt/c3platpersistent/libexec/dpkg/methods/floppy/names
+./mnt/c3platpersistent/libexec/dpkg/methods/ftp/
+./mnt/c3platpersistent/libexec/dpkg/methods/ftp/desc.ftp
+./mnt/c3platpersistent/libexec/dpkg/methods/ftp/kinstall
+./mnt/c3platpersistent/libexec/dpkg/methods/ftp/ksetup
+./mnt/c3platpersistent/libexec/dpkg/methods/ftp/kupdate
+./mnt/c3platpersistent/libexec/dpkg/methods/ftp/names
+./mnt/c3platpersistent/libexec/dpkg/methods/multicd/
+./mnt/c3platpersistent/libexec/dpkg/methods/multicd/desc.multi_cd
+./mnt/c3platpersistent/libexec/dpkg/methods/multicd/desc.multi_mount
+./mnt/c3platpersistent/libexec/dpkg/methods/multicd/desc.multi_nfs
+./mnt/c3platpersistent/libexec/dpkg/methods/multicd/kinstall
+./mnt/c3platpersistent/libexec/dpkg/methods/multicd/ksetup
+./mnt/c3platpersistent/libexec/dpkg/methods/multicd/kupdate
+./mnt/c3platpersistent/libexec/dpkg/methods/multicd/names
+./mnt/c3platpersistent/sbin/
+./mnt/c3platpersistent/sbin/kstart-stop-daemon
+./mnt/c3platpersistent/share/
+./mnt/c3platpersistent/share/dpkg/
+./mnt/c3platpersistent/share/dpkg/abitable
+./mnt/c3platpersistent/share/dpkg/architecture.mk
+./mnt/c3platpersistent/share/dpkg/buildflags.mk
+./mnt/c3platpersistent/share/dpkg/cputable
+./mnt/c3platpersistent/share/dpkg/default.mk
+./mnt/c3platpersistent/share/dpkg/no-pie-compile.specs
+./mnt/c3platpersistent/share/dpkg/no-pie-link.specs
+./mnt/c3platpersistent/share/dpkg/ostable
+./mnt/c3platpersistent/share/dpkg/pie-compile.specs
+./mnt/c3platpersistent/share/dpkg/pie-link.specs
+./mnt/c3platpersistent/share/dpkg/pkg-info.mk
+./mnt/c3platpersistent/share/dpkg/tupletable
+./mnt/c3platpersistent/share/dpkg/vendor.mk
+./mnt/c3platpersistent/share/man/
+./mnt/c3platpersistent/share/man/man1/
+./mnt/c3platpersistent/share/man/man1/kdpkg-architecture.1
+./mnt/c3platpersistent/share/man/man1/kdpkg-buildflags.1
+./mnt/c3platpersistent/share/man/man1/kdpkg-buildpackage.1
+./mnt/c3platpersistent/share/man/man1/kdpkg-checkbuilddeps.1
+./mnt/c3platpersistent/share/man/man1/kdpkg-deb.1
+./mnt/c3platpersistent/share/man/man1/kdpkg-distaddfile.1
+./mnt/c3platpersistent/share/man/man1/kdpkg-divert.1
+./mnt/c3platpersistent/share/man/man1/kdpkg-genbuildinfo.1
+./mnt/c3platpersistent/share/man/man1/kdpkg-genchanges.1
+./mnt/c3platpersistent/share/man/man1/kdpkg-gencontrol.1
+./mnt/c3platpersistent/share/man/man1/kdpkg-gensymbols.1
+./mnt/c3platpersistent/share/man/man1/kdpkg-maintscript-helper.1
+./mnt/c3platpersistent/share/man/man1/kdpkg-mergechangelogs.1
+./mnt/c3platpersistent/share/man/man1/kdpkg-name.1
+./mnt/c3platpersistent/share/man/man1/kdpkg-parsechangelog.1
+./mnt/c3platpersistent/share/man/man1/kdpkg-query.1
+./mnt/c3platpersistent/share/man/man1/kdpkg-scanpackages.1
+./mnt/c3platpersistent/share/man/man1/kdpkg-scansources.1
+./mnt/c3platpersistent/share/man/man1/kdpkg-shlibdeps.1
+./mnt/c3platpersistent/share/man/man1/kdpkg-source.1
+./mnt/c3platpersistent/share/man/man1/kdpkg-split.1
+./mnt/c3platpersistent/share/man/man1/kdpkg-statoverride.1
+./mnt/c3platpersistent/share/man/man1/kdpkg-trigger.1
+./mnt/c3platpersistent/share/man/man1/kdpkg-vendor.1
+./mnt/c3platpersistent/share/man/man1/kdpkg.1
+./mnt/c3platpersistent/share/man/man1/kdselect.1
+./mnt/c3platpersistent/share/man/man3/
+./mnt/c3platpersistent/share/man/man3/Dpkg.3
+./mnt/c3platpersistent/share/man/man3/Dpkg::Arch.3
+./mnt/c3platpersistent/share/man/man3/Dpkg::Build::Env.3
+./mnt/c3platpersistent/share/man/man3/Dpkg::Build::Info.3
+./mnt/c3platpersistent/share/man/man3/Dpkg::Build::Types.3
+./mnt/c3platpersistent/share/man/man3/Dpkg::BuildFlags.3
+./mnt/c3platpersistent/share/man/man3/Dpkg::BuildOptions.3
+./mnt/c3platpersistent/share/man/man3/Dpkg::BuildProfiles.3
+./mnt/c3platpersistent/share/man/man3/Dpkg::Changelog.3
+./mnt/c3platpersistent/share/man/man3/Dpkg::Changelog::Debian.3
+./mnt/c3platpersistent/share/man/man3/Dpkg::Changelog::Entry.3
+./mnt/c3platpersistent/share/man/man3/Dpkg::Changelog::Entry::Debian.3
+./mnt/c3platpersistent/share/man/man3/Dpkg::Changelog::Parse.3
+./mnt/c3platpersistent/share/man/man3/Dpkg::Checksums.3
+./mnt/c3platpersistent/share/man/man3/Dpkg::Compression.3
+./mnt/c3platpersistent/share/man/man3/Dpkg::Compression::FileHandle.3
+./mnt/c3platpersistent/share/man/man3/Dpkg::Compression::Process.3
+./mnt/c3platpersistent/share/man/man3/Dpkg::Conf.3
+./mnt/c3platpersistent/share/man/man3/Dpkg::Control.3
+./mnt/c3platpersistent/share/man/man3/Dpkg::Control::Changelog.3
+./mnt/c3platpersistent/share/man/man3/Dpkg::Control::Fields.3
+./mnt/c3platpersistent/share/man/man3/Dpkg::Control::FieldsCore.3
+./mnt/c3platpersistent/share/man/man3/Dpkg::Control::Hash.3
+./mnt/c3platpersistent/share/man/man3/Dpkg::Control::HashCore.3
+./mnt/c3platpersistent/share/man/man3/Dpkg::Control::Info.3
+./mnt/c3platpersistent/share/man/man3/Dpkg::Control::Tests.3
+./mnt/c3platpersistent/share/man/man3/Dpkg::Control::Tests::Entry.3
+./mnt/c3platpersistent/share/man/man3/Dpkg::Control::Types.3
+./mnt/c3platpersistent/share/man/man3/Dpkg::Deps.3
+./mnt/c3platpersistent/share/man/man3/Dpkg::Exit.3
+./mnt/c3platpersistent/share/man/man3/Dpkg::Gettext.3
+./mnt/c3platpersistent/share/man/man3/Dpkg::IPC.3
+./mnt/c3platpersistent/share/man/man3/Dpkg::Index.3
+./mnt/c3platpersistent/share/man/man3/Dpkg::Interface::Storable.3
+./mnt/c3platpersistent/share/man/man3/Dpkg::Path.3
+./mnt/c3platpersistent/share/man/man3/Dpkg::Source::Package.3
+./mnt/c3platpersistent/share/man/man3/Dpkg::Substvars.3
+./mnt/c3platpersistent/share/man/man3/Dpkg::Vendor.3
+./mnt/c3platpersistent/share/man/man3/Dpkg::Vendor::Debian.3
+./mnt/c3platpersistent/share/man/man3/Dpkg::Vendor::Default.3
+./mnt/c3platpersistent/share/man/man3/Dpkg::Vendor::Ubuntu.3
+./mnt/c3platpersistent/share/man/man3/Dpkg::Version.3
+./mnt/c3platpersistent/share/man/man5/
+./mnt/c3platpersistent/share/man/man5/kdeb-buildinfo.5
+./mnt/c3platpersistent/share/man/man5/kdeb-changelog.5
+./mnt/c3platpersistent/share/man/man5/kdeb-changes.5
+./mnt/c3platpersistent/share/man/man5/kdeb-conffiles.5
+./mnt/c3platpersistent/share/man/man5/kdeb-control.5
+./mnt/c3platpersistent/share/man/man5/kdeb-extra-override.5
+./mnt/c3platpersistent/share/man/man5/kdeb-old.5
+./mnt/c3platpersistent/share/man/man5/kdeb-origin.5
+./mnt/c3platpersistent/share/man/man5/kdeb-override.5
+./mnt/c3platpersistent/share/man/man5/kdeb-postinst.5
+./mnt/c3platpersistent/share/man/man5/kdeb-postrm.5
+./mnt/c3platpersistent/share/man/man5/kdeb-preinst.5
+./mnt/c3platpersistent/share/man/man5/kdeb-prerm.5
+./mnt/c3platpersistent/share/man/man5/kdeb-shlibs.5
+./mnt/c3platpersistent/share/man/man5/kdeb-split.5
+./mnt/c3platpersistent/share/man/man5/kdeb-src-control.5
+./mnt/c3platpersistent/share/man/man5/kdeb-src-files.5
+./mnt/c3platpersistent/share/man/man5/kdeb-substvars.5
+./mnt/c3platpersistent/share/man/man5/kdeb-symbols.5
+./mnt/c3platpersistent/share/man/man5/kdeb-triggers.5
+./mnt/c3platpersistent/share/man/man5/kdeb-version.5
+./mnt/c3platpersistent/share/man/man5/kdeb.5
+./mnt/c3platpersistent/share/man/man5/kdeb822.5
+./mnt/c3platpersistent/share/man/man5/kdpkg.cfg.5
+./mnt/c3platpersistent/share/man/man5/kdsc.5
+./mnt/c3platpersistent/share/man/man5/kdselect.cfg.5
+./mnt/c3platpersistent/share/man/man8/
+./mnt/c3platpersistent/share/man/man8/kstart-stop-daemon.8
+./mnt/c3platpersistent/share/perl5/
+./mnt/c3platpersistent/share/perl5/Dpkg/
+./mnt/c3platpersistent/share/perl5/Dpkg/Arch.pm
+./mnt/c3platpersistent/share/perl5/Dpkg/Build/
+./mnt/c3platpersistent/share/perl5/Dpkg/Build/Env.pm
+./mnt/c3platpersistent/share/perl5/Dpkg/Build/Info.pm
+./mnt/c3platpersistent/share/perl5/Dpkg/Build/Types.pm
+./mnt/c3platpersistent/share/perl5/Dpkg/BuildFlags.pm
+./mnt/c3platpersistent/share/perl5/Dpkg/BuildOptions.pm
+./mnt/c3platpersistent/share/perl5/Dpkg/BuildProfiles.pm
+./mnt/c3platpersistent/share/perl5/Dpkg/Changelog/
+./mnt/c3platpersistent/share/perl5/Dpkg/Changelog/Debian.pm
+./mnt/c3platpersistent/share/perl5/Dpkg/Changelog/Entry/
+./mnt/c3platpersistent/share/perl5/Dpkg/Changelog/Entry/Debian.pm
+./mnt/c3platpersistent/share/perl5/Dpkg/Changelog/Entry.pm
+./mnt/c3platpersistent/share/perl5/Dpkg/Changelog/Parse.pm
+./mnt/c3platpersistent/share/perl5/Dpkg/Changelog.pm
+./mnt/c3platpersistent/share/perl5/Dpkg/Checksums.pm
+./mnt/c3platpersistent/share/perl5/Dpkg/Compression/
+./mnt/c3platpersistent/share/perl5/Dpkg/Compression/FileHandle.pm
+./mnt/c3platpersistent/share/perl5/Dpkg/Compression/Process.pm
+./mnt/c3platpersistent/share/perl5/Dpkg/Compression.pm
+./mnt/c3platpersistent/share/perl5/Dpkg/Conf.pm
+./mnt/c3platpersistent/share/perl5/Dpkg/Control/
+./mnt/c3platpersistent/share/perl5/Dpkg/Control/Changelog.pm
+./mnt/c3platpersistent/share/perl5/Dpkg/Control/Fields.pm
+./mnt/c3platpersistent/share/perl5/Dpkg/Control/FieldsCore.pm
+./mnt/c3platpersistent/share/perl5/Dpkg/Control/Hash.pm
+./mnt/c3platpersistent/share/perl5/Dpkg/Control/HashCore.pm
+./mnt/c3platpersistent/share/perl5/Dpkg/Control/Info.pm
+./mnt/c3platpersistent/share/perl5/Dpkg/Control/Tests/
+./mnt/c3platpersistent/share/perl5/Dpkg/Control/Tests/Entry.pm
+./mnt/c3platpersistent/share/perl5/Dpkg/Control/Tests.pm
+./mnt/c3platpersistent/share/perl5/Dpkg/Control/Types.pm
+./mnt/c3platpersistent/share/perl5/Dpkg/Control.pm
+./mnt/c3platpersistent/share/perl5/Dpkg/Deps.pm
+./mnt/c3platpersistent/share/perl5/Dpkg/Dist/
+./mnt/c3platpersistent/share/perl5/Dpkg/Dist/Files.pm
+./mnt/c3platpersistent/share/perl5/Dpkg/ErrorHandling.pm
+./mnt/c3platpersistent/share/perl5/Dpkg/Exit.pm
+./mnt/c3platpersistent/share/perl5/Dpkg/File.pm
+./mnt/c3platpersistent/share/perl5/Dpkg/Getopt.pm
+./mnt/c3platpersistent/share/perl5/Dpkg/Gettext.pm
+./mnt/c3platpersistent/share/perl5/Dpkg/IPC.pm
+./mnt/c3platpersistent/share/perl5/Dpkg/Index.pm
+./mnt/c3platpersistent/share/perl5/Dpkg/Interface/
+./mnt/c3platpersistent/share/perl5/Dpkg/Interface/Storable.pm
+./mnt/c3platpersistent/share/perl5/Dpkg/Package.pm
+./mnt/c3platpersistent/share/perl5/Dpkg/Path.pm
+./mnt/c3platpersistent/share/perl5/Dpkg/Shlibs/
+./mnt/c3platpersistent/share/perl5/Dpkg/Shlibs/Cppfilt.pm
+./mnt/c3platpersistent/share/perl5/Dpkg/Shlibs/Objdump.pm
+./mnt/c3platpersistent/share/perl5/Dpkg/Shlibs/Symbol.pm
+./mnt/c3platpersistent/share/perl5/Dpkg/Shlibs/SymbolFile.pm
+./mnt/c3platpersistent/share/perl5/Dpkg/Shlibs.pm
+./mnt/c3platpersistent/share/perl5/Dpkg/Source/
+./mnt/c3platpersistent/share/perl5/Dpkg/Source/Archive.pm
+./mnt/c3platpersistent/share/perl5/Dpkg/Source/Functions.pm
+./mnt/c3platpersistent/share/perl5/Dpkg/Source/Package/
+./mnt/c3platpersistent/share/perl5/Dpkg/Source/Package/V1.pm
+./mnt/c3platpersistent/share/perl5/Dpkg/Source/Package/V2.pm
+./mnt/c3platpersistent/share/perl5/Dpkg/Source/Package/V3/
+./mnt/c3platpersistent/share/perl5/Dpkg/Source/Package/V3/Bzr.pm
+./mnt/c3platpersistent/share/perl5/Dpkg/Source/Package/V3/Custom.pm
+./mnt/c3platpersistent/share/perl5/Dpkg/Source/Package/V3/Git.pm
+./mnt/c3platpersistent/share/perl5/Dpkg/Source/Package/V3/Native.pm
+./mnt/c3platpersistent/share/perl5/Dpkg/Source/Package/V3/Quilt.pm
+./mnt/c3platpersistent/share/perl5/Dpkg/Source/Package.pm
+./mnt/c3platpersistent/share/perl5/Dpkg/Source/Patch.pm
+./mnt/c3platpersistent/share/perl5/Dpkg/Source/Quilt.pm
+./mnt/c3platpersistent/share/perl5/Dpkg/Substvars.pm
+./mnt/c3platpersistent/share/perl5/Dpkg/Util.pm
+./mnt/c3platpersistent/share/perl5/Dpkg/Vars.pm
+./mnt/c3platpersistent/share/perl5/Dpkg/Vendor/
+./mnt/c3platpersistent/share/perl5/Dpkg/Vendor/Debian.pm
+./mnt/c3platpersistent/share/perl5/Dpkg/Vendor/Default.pm
+./mnt/c3platpersistent/share/perl5/Dpkg/Vendor/Ubuntu.pm
+./mnt/c3platpersistent/share/perl5/Dpkg/Vendor.pm
+./mnt/c3platpersistent/share/perl5/Dpkg/Version.pm
+./mnt/c3platpersistent/share/perl5/Dpkg.pm
+./mnt/c3platpersistent/share/perl5/Dselect/
+./mnt/c3platpersistent/share/perl5/Dselect/Ftp.pm
++ pushd /tmp/tmp.wHL2ceHnGI//mnt/c3platpersistent/
+/tmp/tmp.wHL2ceHnGI/mnt/c3platpersistent /home/admin
+++ find -type d
++ for i in $(find -type d)
++ mkdir -p /mnt/c3platpersistent//.
++ for i in $(find -type d)
++ mkdir -p /mnt/c3platpersistent//./share
++ for i in $(find -type d)
++ mkdir -p /mnt/c3platpersistent//./share/perl5
++ for i in $(find -type d)
++ mkdir -p /mnt/c3platpersistent//./share/perl5/Dselect
++ for i in $(find -type d)
++ mkdir -p /mnt/c3platpersistent//./share/perl5/Dpkg
++ for i in $(find -type d)
++ mkdir -p /mnt/c3platpersistent//./share/perl5/Dpkg/Vendor
++ for i in $(find -type d)
++ mkdir -p /mnt/c3platpersistent//./share/perl5/Dpkg/Source
++ for i in $(find -type d)
++ mkdir -p /mnt/c3platpersistent//./share/perl5/Dpkg/Source/Package
++ for i in $(find -type d)
++ mkdir -p /mnt/c3platpersistent//./share/perl5/Dpkg/Source/Package/V3
++ for i in $(find -type d)
++ mkdir -p /mnt/c3platpersistent//./share/perl5/Dpkg/Shlibs
++ for i in $(find -type d)
++ mkdir -p /mnt/c3platpersistent//./share/perl5/Dpkg/Interface
++ for i in $(find -type d)
++ mkdir -p /mnt/c3platpersistent//./share/perl5/Dpkg/Dist
++ for i in $(find -type d)
++ mkdir -p /mnt/c3platpersistent//./share/perl5/Dpkg/Control
++ for i in $(find -type d)
++ mkdir -p /mnt/c3platpersistent//./share/perl5/Dpkg/Control/Tests
++ for i in $(find -type d)
++ mkdir -p /mnt/c3platpersistent//./share/perl5/Dpkg/Compression
++ for i in $(find -type d)
++ mkdir -p /mnt/c3platpersistent//./share/perl5/Dpkg/Changelog
++ for i in $(find -type d)
++ mkdir -p /mnt/c3platpersistent//./share/perl5/Dpkg/Changelog/Entry
++ for i in $(find -type d)
++ mkdir -p /mnt/c3platpersistent//./share/perl5/Dpkg/Build
++ for i in $(find -type d)
++ mkdir -p /mnt/c3platpersistent//./share/man
++ for i in $(find -type d)
++ mkdir -p /mnt/c3platpersistent//./share/man/man8
++ for i in $(find -type d)
++ mkdir -p /mnt/c3platpersistent//./share/man/man5
++ for i in $(find -type d)
++ mkdir -p /mnt/c3platpersistent//./share/man/man3
++ for i in $(find -type d)
++ mkdir -p /mnt/c3platpersistent//./share/man/man1
++ for i in $(find -type d)
++ mkdir -p /mnt/c3platpersistent//./share/dpkg
++ for i in $(find -type d)
++ mkdir -p /mnt/c3platpersistent//./sbin
++ for i in $(find -type d)
++ mkdir -p /mnt/c3platpersistent//./libexec
++ for i in $(find -type d)
++ mkdir -p /mnt/c3platpersistent//./libexec/dpkg
++ for i in $(find -type d)
++ mkdir -p /mnt/c3platpersistent//./libexec/dpkg/methods
++ for i in $(find -type d)
++ mkdir -p /mnt/c3platpersistent//./libexec/dpkg/methods/multicd
++ for i in $(find -type d)
++ mkdir -p /mnt/c3platpersistent//./libexec/dpkg/methods/ftp
++ for i in $(find -type d)
++ mkdir -p /mnt/c3platpersistent//./libexec/dpkg/methods/floppy
++ for i in $(find -type d)
++ mkdir -p /mnt/c3platpersistent//./libexec/dpkg/methods/disk
++ for i in $(find -type d)
++ mkdir -p /mnt/c3platpersistent//./bin
+++ find -type f
++ for i in $(find -type f)
+++ dirname ./share/perl5/Dselect/Ftp.pm
++ FD=./share/perl5/Dselect
++ mv ./share/perl5/Dselect/Ftp.pm /mnt/c3platpersistent//./share/perl5/Dselect
++ for i in $(find -type f)
+++ dirname ./share/perl5/Dpkg.pm
++ FD=./share/perl5
++ mv ./share/perl5/Dpkg.pm /mnt/c3platpersistent//./share/perl5
++ for i in $(find -type f)
+++ dirname ./share/perl5/Dpkg/Version.pm
++ FD=./share/perl5/Dpkg
++ mv ./share/perl5/Dpkg/Version.pm /mnt/c3platpersistent//./share/perl5/Dpkg
++ for i in $(find -type f)
+++ dirname ./share/perl5/Dpkg/Vendor.pm
++ FD=./share/perl5/Dpkg
++ mv ./share/perl5/Dpkg/Vendor.pm /mnt/c3platpersistent//./share/perl5/Dpkg
++ for i in $(find -type f)
+++ dirname ./share/perl5/Dpkg/Vendor/Ubuntu.pm
++ FD=./share/perl5/Dpkg/Vendor
++ mv ./share/perl5/Dpkg/Vendor/Ubuntu.pm /mnt/c3platpersistent//./share/perl5/Dpkg/Vendor
++ for i in $(find -type f)
+++ dirname ./share/perl5/Dpkg/Vendor/Default.pm
++ FD=./share/perl5/Dpkg/Vendor
++ mv ./share/perl5/Dpkg/Vendor/Default.pm /mnt/c3platpersistent//./share/perl5/Dpkg/Vendor
++ for i in $(find -type f)
+++ dirname ./share/perl5/Dpkg/Vendor/Debian.pm
++ FD=./share/perl5/Dpkg/Vendor
++ mv ./share/perl5/Dpkg/Vendor/Debian.pm /mnt/c3platpersistent//./share/perl5/Dpkg/Vendor
++ for i in $(find -type f)
+++ dirname ./share/perl5/Dpkg/Vars.pm
++ FD=./share/perl5/Dpkg
++ mv ./share/perl5/Dpkg/Vars.pm /mnt/c3platpersistent//./share/perl5/Dpkg
++ for i in $(find -type f)
+++ dirname ./share/perl5/Dpkg/Util.pm
++ FD=./share/perl5/Dpkg
++ mv ./share/perl5/Dpkg/Util.pm /mnt/c3platpersistent//./share/perl5/Dpkg
++ for i in $(find -type f)
+++ dirname ./share/perl5/Dpkg/Substvars.pm
++ FD=./share/perl5/Dpkg
++ mv ./share/perl5/Dpkg/Substvars.pm /mnt/c3platpersistent//./share/perl5/Dpkg
++ for i in $(find -type f)
+++ dirname ./share/perl5/Dpkg/Source/Quilt.pm
++ FD=./share/perl5/Dpkg/Source
++ mv ./share/perl5/Dpkg/Source/Quilt.pm /mnt/c3platpersistent//./share/perl5/Dpkg/Source
++ for i in $(find -type f)
+++ dirname ./share/perl5/Dpkg/Source/Patch.pm
++ FD=./share/perl5/Dpkg/Source
++ mv ./share/perl5/Dpkg/Source/Patch.pm /mnt/c3platpersistent//./share/perl5/Dpkg/Source
++ for i in $(find -type f)
+++ dirname ./share/perl5/Dpkg/Source/Package.pm
++ FD=./share/perl5/Dpkg/Source
++ mv ./share/perl5/Dpkg/Source/Package.pm /mnt/c3platpersistent//./share/perl5/Dpkg/Source
++ for i in $(find -type f)
+++ dirname ./share/perl5/Dpkg/Source/Package/V3/Quilt.pm
++ FD=./share/perl5/Dpkg/Source/Package/V3
++ mv ./share/perl5/Dpkg/Source/Package/V3/Quilt.pm /mnt/c3platpersistent//./share/perl5/Dpkg/Source/Package/V3
++ for i in $(find -type f)
+++ dirname ./share/perl5/Dpkg/Source/Package/V3/Native.pm
++ FD=./share/perl5/Dpkg/Source/Package/V3
++ mv ./share/perl5/Dpkg/Source/Package/V3/Native.pm /mnt/c3platpersistent//./share/perl5/Dpkg/Source/Package/V3
++ for i in $(find -type f)
+++ dirname ./share/perl5/Dpkg/Source/Package/V3/Git.pm
++ FD=./share/perl5/Dpkg/Source/Package/V3
++ mv ./share/perl5/Dpkg/Source/Package/V3/Git.pm /mnt/c3platpersistent//./share/perl5/Dpkg/Source/Package/V3
++ for i in $(find -type f)
+++ dirname ./share/perl5/Dpkg/Source/Package/V3/Custom.pm
++ FD=./share/perl5/Dpkg/Source/Package/V3
++ mv ./share/perl5/Dpkg/Source/Package/V3/Custom.pm /mnt/c3platpersistent//./share/perl5/Dpkg/Source/Package/V3
++ for i in $(find -type f)
+++ dirname ./share/perl5/Dpkg/Source/Package/V3/Bzr.pm
++ FD=./share/perl5/Dpkg/Source/Package/V3
++ mv ./share/perl5/Dpkg/Source/Package/V3/Bzr.pm /mnt/c3platpersistent//./share/perl5/Dpkg/Source/Package/V3
++ for i in $(find -type f)
+++ dirname ./share/perl5/Dpkg/Source/Package/V2.pm
++ FD=./share/perl5/Dpkg/Source/Package
++ mv ./share/perl5/Dpkg/Source/Package/V2.pm /mnt/c3platpersistent//./share/perl5/Dpkg/Source/Package
++ for i in $(find -type f)
+++ dirname ./share/perl5/Dpkg/Source/Package/V1.pm
++ FD=./share/perl5/Dpkg/Source/Package
++ mv ./share/perl5/Dpkg/Source/Package/V1.pm /mnt/c3platpersistent//./share/perl5/Dpkg/Source/Package
++ for i in $(find -type f)
+++ dirname ./share/perl5/Dpkg/Source/Functions.pm
++ FD=./share/perl5/Dpkg/Source
++ mv ./share/perl5/Dpkg/Source/Functions.pm /mnt/c3platpersistent//./share/perl5/Dpkg/Source
++ for i in $(find -type f)
+++ dirname ./share/perl5/Dpkg/Source/Archive.pm
++ FD=./share/perl5/Dpkg/Source
++ mv ./share/perl5/Dpkg/Source/Archive.pm /mnt/c3platpersistent//./share/perl5/Dpkg/Source
++ for i in $(find -type f)
+++ dirname ./share/perl5/Dpkg/Shlibs.pm
++ FD=./share/perl5/Dpkg
++ mv ./share/perl5/Dpkg/Shlibs.pm /mnt/c3platpersistent//./share/perl5/Dpkg
++ for i in $(find -type f)
+++ dirname ./share/perl5/Dpkg/Shlibs/SymbolFile.pm
++ FD=./share/perl5/Dpkg/Shlibs
++ mv ./share/perl5/Dpkg/Shlibs/SymbolFile.pm /mnt/c3platpersistent//./share/perl5/Dpkg/Shlibs
++ for i in $(find -type f)
+++ dirname ./share/perl5/Dpkg/Shlibs/Symbol.pm
++ FD=./share/perl5/Dpkg/Shlibs
++ mv ./share/perl5/Dpkg/Shlibs/Symbol.pm /mnt/c3platpersistent//./share/perl5/Dpkg/Shlibs
++ for i in $(find -type f)
+++ dirname ./share/perl5/Dpkg/Shlibs/Objdump.pm
++ FD=./share/perl5/Dpkg/Shlibs
++ mv ./share/perl5/Dpkg/Shlibs/Objdump.pm /mnt/c3platpersistent//./share/perl5/Dpkg/Shlibs
++ for i in $(find -type f)
+++ dirname ./share/perl5/Dpkg/Shlibs/Cppfilt.pm
++ FD=./share/perl5/Dpkg/Shlibs
++ mv ./share/perl5/Dpkg/Shlibs/Cppfilt.pm /mnt/c3platpersistent//./share/perl5/Dpkg/Shlibs
++ for i in $(find -type f)
+++ dirname ./share/perl5/Dpkg/Path.pm
++ FD=./share/perl5/Dpkg
++ mv ./share/perl5/Dpkg/Path.pm /mnt/c3platpersistent//./share/perl5/Dpkg
++ for i in $(find -type f)
+++ dirname ./share/perl5/Dpkg/Package.pm
++ FD=./share/perl5/Dpkg
++ mv ./share/perl5/Dpkg/Package.pm /mnt/c3platpersistent//./share/perl5/Dpkg
++ for i in $(find -type f)
+++ dirname ./share/perl5/Dpkg/Interface/Storable.pm
++ FD=./share/perl5/Dpkg/Interface
++ mv ./share/perl5/Dpkg/Interface/Storable.pm /mnt/c3platpersistent//./share/perl5/Dpkg/Interface
++ for i in $(find -type f)
+++ dirname ./share/perl5/Dpkg/Index.pm
++ FD=./share/perl5/Dpkg
++ mv ./share/perl5/Dpkg/Index.pm /mnt/c3platpersistent//./share/perl5/Dpkg
++ for i in $(find -type f)
+++ dirname ./share/perl5/Dpkg/IPC.pm
++ FD=./share/perl5/Dpkg
++ mv ./share/perl5/Dpkg/IPC.pm /mnt/c3platpersistent//./share/perl5/Dpkg
++ for i in $(find -type f)
+++ dirname ./share/perl5/Dpkg/Gettext.pm
++ FD=./share/perl5/Dpkg
++ mv ./share/perl5/Dpkg/Gettext.pm /mnt/c3platpersistent//./share/perl5/Dpkg
++ for i in $(find -type f)
+++ dirname ./share/perl5/Dpkg/Getopt.pm
++ FD=./share/perl5/Dpkg
++ mv ./share/perl5/Dpkg/Getopt.pm /mnt/c3platpersistent//./share/perl5/Dpkg
++ for i in $(find -type f)
+++ dirname ./share/perl5/Dpkg/File.pm
++ FD=./share/perl5/Dpkg
++ mv ./share/perl5/Dpkg/File.pm /mnt/c3platpersistent//./share/perl5/Dpkg
++ for i in $(find -type f)
+++ dirname ./share/perl5/Dpkg/Exit.pm
++ FD=./share/perl5/Dpkg
++ mv ./share/perl5/Dpkg/Exit.pm /mnt/c3platpersistent//./share/perl5/Dpkg
++ for i in $(find -type f)
+++ dirname ./share/perl5/Dpkg/ErrorHandling.pm
++ FD=./share/perl5/Dpkg
++ mv ./share/perl5/Dpkg/ErrorHandling.pm /mnt/c3platpersistent//./share/perl5/Dpkg
++ for i in $(find -type f)
+++ dirname ./share/perl5/Dpkg/Dist/Files.pm
++ FD=./share/perl5/Dpkg/Dist
++ mv ./share/perl5/Dpkg/Dist/Files.pm /mnt/c3platpersistent//./share/perl5/Dpkg/Dist
++ for i in $(find -type f)
+++ dirname ./share/perl5/Dpkg/Deps.pm
++ FD=./share/perl5/Dpkg
++ mv ./share/perl5/Dpkg/Deps.pm /mnt/c3platpersistent//./share/perl5/Dpkg
++ for i in $(find -type f)
+++ dirname ./share/perl5/Dpkg/Control.pm
++ FD=./share/perl5/Dpkg
++ mv ./share/perl5/Dpkg/Control.pm /mnt/c3platpersistent//./share/perl5/Dpkg
++ for i in $(find -type f)
+++ dirname ./share/perl5/Dpkg/Control/Types.pm
++ FD=./share/perl5/Dpkg/Control
++ mv ./share/perl5/Dpkg/Control/Types.pm /mnt/c3platpersistent//./share/perl5/Dpkg/Control
++ for i in $(find -type f)
+++ dirname ./share/perl5/Dpkg/Control/Tests.pm
++ FD=./share/perl5/Dpkg/Control
++ mv ./share/perl5/Dpkg/Control/Tests.pm /mnt/c3platpersistent//./share/perl5/Dpkg/Control
++ for i in $(find -type f)
+++ dirname ./share/perl5/Dpkg/Control/Tests/Entry.pm
++ FD=./share/perl5/Dpkg/Control/Tests
++ mv ./share/perl5/Dpkg/Control/Tests/Entry.pm /mnt/c3platpersistent//./share/perl5/Dpkg/Control/Tests
++ for i in $(find -type f)
+++ dirname ./share/perl5/Dpkg/Control/Info.pm
++ FD=./share/perl5/Dpkg/Control
++ mv ./share/perl5/Dpkg/Control/Info.pm /mnt/c3platpersistent//./share/perl5/Dpkg/Control
++ for i in $(find -type f)
+++ dirname ./share/perl5/Dpkg/Control/HashCore.pm
++ FD=./share/perl5/Dpkg/Control
++ mv ./share/perl5/Dpkg/Control/HashCore.pm /mnt/c3platpersistent//./share/perl5/Dpkg/Control
++ for i in $(find -type f)
+++ dirname ./share/perl5/Dpkg/Control/Hash.pm
++ FD=./share/perl5/Dpkg/Control
++ mv ./share/perl5/Dpkg/Control/Hash.pm /mnt/c3platpersistent//./share/perl5/Dpkg/Control
++ for i in $(find -type f)
+++ dirname ./share/perl5/Dpkg/Control/FieldsCore.pm
++ FD=./share/perl5/Dpkg/Control
++ mv ./share/perl5/Dpkg/Control/FieldsCore.pm /mnt/c3platpersistent//./share/perl5/Dpkg/Control
++ for i in $(find -type f)
+++ dirname ./share/perl5/Dpkg/Control/Fields.pm
++ FD=./share/perl5/Dpkg/Control
++ mv ./share/perl5/Dpkg/Control/Fields.pm /mnt/c3platpersistent//./share/perl5/Dpkg/Control
++ for i in $(find -type f)
+++ dirname ./share/perl5/Dpkg/Control/Changelog.pm
++ FD=./share/perl5/Dpkg/Control
++ mv ./share/perl5/Dpkg/Control/Changelog.pm /mnt/c3platpersistent//./share/perl5/Dpkg/Control
++ for i in $(find -type f)
+++ dirname ./share/perl5/Dpkg/Conf.pm
++ FD=./share/perl5/Dpkg
++ mv ./share/perl5/Dpkg/Conf.pm /mnt/c3platpersistent//./share/perl5/Dpkg
++ for i in $(find -type f)
+++ dirname ./share/perl5/Dpkg/Compression.pm
++ FD=./share/perl5/Dpkg
++ mv ./share/perl5/Dpkg/Compression.pm /mnt/c3platpersistent//./share/perl5/Dpkg
++ for i in $(find -type f)
+++ dirname ./share/perl5/Dpkg/Compression/Process.pm
++ FD=./share/perl5/Dpkg/Compression
++ mv ./share/perl5/Dpkg/Compression/Process.pm /mnt/c3platpersistent//./share/perl5/Dpkg/Compression
++ for i in $(find -type f)
+++ dirname ./share/perl5/Dpkg/Compression/FileHandle.pm
++ FD=./share/perl5/Dpkg/Compression
++ mv ./share/perl5/Dpkg/Compression/FileHandle.pm /mnt/c3platpersistent//./share/perl5/Dpkg/Compression
++ for i in $(find -type f)
+++ dirname ./share/perl5/Dpkg/Checksums.pm
++ FD=./share/perl5/Dpkg
++ mv ./share/perl5/Dpkg/Checksums.pm /mnt/c3platpersistent//./share/perl5/Dpkg
++ for i in $(find -type f)
+++ dirname ./share/perl5/Dpkg/Changelog.pm
++ FD=./share/perl5/Dpkg
++ mv ./share/perl5/Dpkg/Changelog.pm /mnt/c3platpersistent//./share/perl5/Dpkg
++ for i in $(find -type f)
+++ dirname ./share/perl5/Dpkg/Changelog/Parse.pm
++ FD=./share/perl5/Dpkg/Changelog
++ mv ./share/perl5/Dpkg/Changelog/Parse.pm /mnt/c3platpersistent//./share/perl5/Dpkg/Changelog
++ for i in $(find -type f)
+++ dirname ./share/perl5/Dpkg/Changelog/Entry.pm
++ FD=./share/perl5/Dpkg/Changelog
++ mv ./share/perl5/Dpkg/Changelog/Entry.pm /mnt/c3platpersistent//./share/perl5/Dpkg/Changelog
++ for i in $(find -type f)
+++ dirname ./share/perl5/Dpkg/Changelog/Entry/Debian.pm
++ FD=./share/perl5/Dpkg/Changelog/Entry
++ mv ./share/perl5/Dpkg/Changelog/Entry/Debian.pm /mnt/c3platpersistent//./share/perl5/Dpkg/Changelog/Entry
++ for i in $(find -type f)
+++ dirname ./share/perl5/Dpkg/Changelog/Debian.pm
++ FD=./share/perl5/Dpkg/Changelog
++ mv ./share/perl5/Dpkg/Changelog/Debian.pm /mnt/c3platpersistent//./share/perl5/Dpkg/Changelog
++ for i in $(find -type f)
+++ dirname ./share/perl5/Dpkg/BuildProfiles.pm
++ FD=./share/perl5/Dpkg
++ mv ./share/perl5/Dpkg/BuildProfiles.pm /mnt/c3platpersistent//./share/perl5/Dpkg
++ for i in $(find -type f)
+++ dirname ./share/perl5/Dpkg/BuildOptions.pm
++ FD=./share/perl5/Dpkg
++ mv ./share/perl5/Dpkg/BuildOptions.pm /mnt/c3platpersistent//./share/perl5/Dpkg
++ for i in $(find -type f)
+++ dirname ./share/perl5/Dpkg/BuildFlags.pm
++ FD=./share/perl5/Dpkg
++ mv ./share/perl5/Dpkg/BuildFlags.pm /mnt/c3platpersistent//./share/perl5/Dpkg
++ for i in $(find -type f)
+++ dirname ./share/perl5/Dpkg/Build/Types.pm
++ FD=./share/perl5/Dpkg/Build
++ mv ./share/perl5/Dpkg/Build/Types.pm /mnt/c3platpersistent//./share/perl5/Dpkg/Build
++ for i in $(find -type f)
+++ dirname ./share/perl5/Dpkg/Build/Info.pm
++ FD=./share/perl5/Dpkg/Build
++ mv ./share/perl5/Dpkg/Build/Info.pm /mnt/c3platpersistent//./share/perl5/Dpkg/Build
++ for i in $(find -type f)
+++ dirname ./share/perl5/Dpkg/Build/Env.pm
++ FD=./share/perl5/Dpkg/Build
++ mv ./share/perl5/Dpkg/Build/Env.pm /mnt/c3platpersistent//./share/perl5/Dpkg/Build
++ for i in $(find -type f)
+++ dirname ./share/perl5/Dpkg/Arch.pm
++ FD=./share/perl5/Dpkg
++ mv ./share/perl5/Dpkg/Arch.pm /mnt/c3platpersistent//./share/perl5/Dpkg
++ for i in $(find -type f)
+++ dirname ./share/man/man8/kstart-stop-daemon.8
++ FD=./share/man/man8
++ mv ./share/man/man8/kstart-stop-daemon.8 /mnt/c3platpersistent//./share/man/man8
++ for i in $(find -type f)
+++ dirname ./share/man/man5/kdselect.cfg.5
++ FD=./share/man/man5
++ mv ./share/man/man5/kdselect.cfg.5 /mnt/c3platpersistent//./share/man/man5
++ for i in $(find -type f)
+++ dirname ./share/man/man5/kdsc.5
++ FD=./share/man/man5
++ mv ./share/man/man5/kdsc.5 /mnt/c3platpersistent//./share/man/man5
++ for i in $(find -type f)
+++ dirname ./share/man/man5/kdpkg.cfg.5
++ FD=./share/man/man5
++ mv ./share/man/man5/kdpkg.cfg.5 /mnt/c3platpersistent//./share/man/man5
++ for i in $(find -type f)
+++ dirname ./share/man/man5/kdeb822.5
++ FD=./share/man/man5
++ mv ./share/man/man5/kdeb822.5 /mnt/c3platpersistent//./share/man/man5
++ for i in $(find -type f)
+++ dirname ./share/man/man5/kdeb.5
++ FD=./share/man/man5
++ mv ./share/man/man5/kdeb.5 /mnt/c3platpersistent//./share/man/man5
++ for i in $(find -type f)
+++ dirname ./share/man/man5/kdeb-version.5
++ FD=./share/man/man5
++ mv ./share/man/man5/kdeb-version.5 /mnt/c3platpersistent//./share/man/man5
++ for i in $(find -type f)
+++ dirname ./share/man/man5/kdeb-triggers.5
++ FD=./share/man/man5
++ mv ./share/man/man5/kdeb-triggers.5 /mnt/c3platpersistent//./share/man/man5
++ for i in $(find -type f)
+++ dirname ./share/man/man5/kdeb-symbols.5
++ FD=./share/man/man5
++ mv ./share/man/man5/kdeb-symbols.5 /mnt/c3platpersistent//./share/man/man5
++ for i in $(find -type f)
+++ dirname ./share/man/man5/kdeb-substvars.5
++ FD=./share/man/man5
++ mv ./share/man/man5/kdeb-substvars.5 /mnt/c3platpersistent//./share/man/man5
++ for i in $(find -type f)
+++ dirname ./share/man/man5/kdeb-src-files.5
++ FD=./share/man/man5
++ mv ./share/man/man5/kdeb-src-files.5 /mnt/c3platpersistent//./share/man/man5
++ for i in $(find -type f)
+++ dirname ./share/man/man5/kdeb-src-control.5
++ FD=./share/man/man5
++ mv ./share/man/man5/kdeb-src-control.5 /mnt/c3platpersistent//./share/man/man5
++ for i in $(find -type f)
+++ dirname ./share/man/man5/kdeb-split.5
++ FD=./share/man/man5
++ mv ./share/man/man5/kdeb-split.5 /mnt/c3platpersistent//./share/man/man5
++ for i in $(find -type f)
+++ dirname ./share/man/man5/kdeb-shlibs.5
++ FD=./share/man/man5
++ mv ./share/man/man5/kdeb-shlibs.5 /mnt/c3platpersistent//./share/man/man5
++ for i in $(find -type f)
+++ dirname ./share/man/man5/kdeb-prerm.5
++ FD=./share/man/man5
++ mv ./share/man/man5/kdeb-prerm.5 /mnt/c3platpersistent//./share/man/man5
++ for i in $(find -type f)
+++ dirname ./share/man/man5/kdeb-preinst.5
++ FD=./share/man/man5
++ mv ./share/man/man5/kdeb-preinst.5 /mnt/c3platpersistent//./share/man/man5
++ for i in $(find -type f)
+++ dirname ./share/man/man5/kdeb-postrm.5
++ FD=./share/man/man5
++ mv ./share/man/man5/kdeb-postrm.5 /mnt/c3platpersistent//./share/man/man5
++ for i in $(find -type f)
+++ dirname ./share/man/man5/kdeb-postinst.5
++ FD=./share/man/man5
++ mv ./share/man/man5/kdeb-postinst.5 /mnt/c3platpersistent//./share/man/man5
++ for i in $(find -type f)
+++ dirname ./share/man/man5/kdeb-override.5
++ FD=./share/man/man5
++ mv ./share/man/man5/kdeb-override.5 /mnt/c3platpersistent//./share/man/man5
++ for i in $(find -type f)
+++ dirname ./share/man/man5/kdeb-origin.5
++ FD=./share/man/man5
++ mv ./share/man/man5/kdeb-origin.5 /mnt/c3platpersistent//./share/man/man5
++ for i in $(find -type f)
+++ dirname ./share/man/man5/kdeb-old.5
++ FD=./share/man/man5
++ mv ./share/man/man5/kdeb-old.5 /mnt/c3platpersistent//./share/man/man5
++ for i in $(find -type f)
+++ dirname ./share/man/man5/kdeb-extra-override.5
++ FD=./share/man/man5
++ mv ./share/man/man5/kdeb-extra-override.5 /mnt/c3platpersistent//./share/man/man5
++ for i in $(find -type f)
+++ dirname ./share/man/man5/kdeb-control.5
++ FD=./share/man/man5
++ mv ./share/man/man5/kdeb-control.5 /mnt/c3platpersistent//./share/man/man5
++ for i in $(find -type f)
+++ dirname ./share/man/man5/kdeb-conffiles.5
++ FD=./share/man/man5
++ mv ./share/man/man5/kdeb-conffiles.5 /mnt/c3platpersistent//./share/man/man5
++ for i in $(find -type f)
+++ dirname ./share/man/man5/kdeb-changes.5
++ FD=./share/man/man5
++ mv ./share/man/man5/kdeb-changes.5 /mnt/c3platpersistent//./share/man/man5
++ for i in $(find -type f)
+++ dirname ./share/man/man5/kdeb-changelog.5
++ FD=./share/man/man5
++ mv ./share/man/man5/kdeb-changelog.5 /mnt/c3platpersistent//./share/man/man5
++ for i in $(find -type f)
+++ dirname ./share/man/man5/kdeb-buildinfo.5
++ FD=./share/man/man5
++ mv ./share/man/man5/kdeb-buildinfo.5 /mnt/c3platpersistent//./share/man/man5
++ for i in $(find -type f)
+++ dirname ./share/man/man3/Dpkg::Version.3
++ FD=./share/man/man3
++ mv ./share/man/man3/Dpkg::Version.3 /mnt/c3platpersistent//./share/man/man3
++ for i in $(find -type f)
+++ dirname ./share/man/man3/Dpkg::Vendor::Ubuntu.3
++ FD=./share/man/man3
++ mv ./share/man/man3/Dpkg::Vendor::Ubuntu.3 /mnt/c3platpersistent//./share/man/man3
++ for i in $(find -type f)
+++ dirname ./share/man/man3/Dpkg::Vendor::Default.3
++ FD=./share/man/man3
++ mv ./share/man/man3/Dpkg::Vendor::Default.3 /mnt/c3platpersistent//./share/man/man3
++ for i in $(find -type f)
+++ dirname ./share/man/man3/Dpkg::Vendor::Debian.3
++ FD=./share/man/man3
++ mv ./share/man/man3/Dpkg::Vendor::Debian.3 /mnt/c3platpersistent//./share/man/man3
++ for i in $(find -type f)
+++ dirname ./share/man/man3/Dpkg::Vendor.3
++ FD=./share/man/man3
++ mv ./share/man/man3/Dpkg::Vendor.3 /mnt/c3platpersistent//./share/man/man3
++ for i in $(find -type f)
+++ dirname ./share/man/man3/Dpkg::Substvars.3
++ FD=./share/man/man3
++ mv ./share/man/man3/Dpkg::Substvars.3 /mnt/c3platpersistent//./share/man/man3
++ for i in $(find -type f)
+++ dirname ./share/man/man3/Dpkg::Source::Package.3
++ FD=./share/man/man3
++ mv ./share/man/man3/Dpkg::Source::Package.3 /mnt/c3platpersistent//./share/man/man3
++ for i in $(find -type f)
+++ dirname ./share/man/man3/Dpkg::Path.3
++ FD=./share/man/man3
++ mv ./share/man/man3/Dpkg::Path.3 /mnt/c3platpersistent//./share/man/man3
++ for i in $(find -type f)
+++ dirname ./share/man/man3/Dpkg::Interface::Storable.3
++ FD=./share/man/man3
++ mv ./share/man/man3/Dpkg::Interface::Storable.3 /mnt/c3platpersistent//./share/man/man3
++ for i in $(find -type f)
+++ dirname ./share/man/man3/Dpkg::Index.3
++ FD=./share/man/man3
++ mv ./share/man/man3/Dpkg::Index.3 /mnt/c3platpersistent//./share/man/man3
++ for i in $(find -type f)
+++ dirname ./share/man/man3/Dpkg::IPC.3
++ FD=./share/man/man3
++ mv ./share/man/man3/Dpkg::IPC.3 /mnt/c3platpersistent//./share/man/man3
++ for i in $(find -type f)
+++ dirname ./share/man/man3/Dpkg::Gettext.3
++ FD=./share/man/man3
++ mv ./share/man/man3/Dpkg::Gettext.3 /mnt/c3platpersistent//./share/man/man3
++ for i in $(find -type f)
+++ dirname ./share/man/man3/Dpkg::Exit.3
++ FD=./share/man/man3
++ mv ./share/man/man3/Dpkg::Exit.3 /mnt/c3platpersistent//./share/man/man3
++ for i in $(find -type f)
+++ dirname ./share/man/man3/Dpkg::Deps.3
++ FD=./share/man/man3
++ mv ./share/man/man3/Dpkg::Deps.3 /mnt/c3platpersistent//./share/man/man3
++ for i in $(find -type f)
+++ dirname ./share/man/man3/Dpkg::Control::Types.3
++ FD=./share/man/man3
++ mv ./share/man/man3/Dpkg::Control::Types.3 /mnt/c3platpersistent//./share/man/man3
++ for i in $(find -type f)
+++ dirname ./share/man/man3/Dpkg::Control::Tests::Entry.3
++ FD=./share/man/man3
++ mv ./share/man/man3/Dpkg::Control::Tests::Entry.3 /mnt/c3platpersistent//./share/man/man3
++ for i in $(find -type f)
+++ dirname ./share/man/man3/Dpkg::Control::Tests.3
++ FD=./share/man/man3
++ mv ./share/man/man3/Dpkg::Control::Tests.3 /mnt/c3platpersistent//./share/man/man3
++ for i in $(find -type f)
+++ dirname ./share/man/man3/Dpkg::Control::Info.3
++ FD=./share/man/man3
++ mv ./share/man/man3/Dpkg::Control::Info.3 /mnt/c3platpersistent//./share/man/man3
++ for i in $(find -type f)
+++ dirname ./share/man/man3/Dpkg::Control::HashCore.3
++ FD=./share/man/man3
++ mv ./share/man/man3/Dpkg::Control::HashCore.3 /mnt/c3platpersistent//./share/man/man3
++ for i in $(find -type f)
+++ dirname ./share/man/man3/Dpkg::Control::Hash.3
++ FD=./share/man/man3
++ mv ./share/man/man3/Dpkg::Control::Hash.3 /mnt/c3platpersistent//./share/man/man3
++ for i in $(find -type f)
+++ dirname ./share/man/man3/Dpkg::Control::FieldsCore.3
++ FD=./share/man/man3
++ mv ./share/man/man3/Dpkg::Control::FieldsCore.3 /mnt/c3platpersistent//./share/man/man3
++ for i in $(find -type f)
+++ dirname ./share/man/man3/Dpkg::Control::Fields.3
++ FD=./share/man/man3
++ mv ./share/man/man3/Dpkg::Control::Fields.3 /mnt/c3platpersistent//./share/man/man3
++ for i in $(find -type f)
+++ dirname ./share/man/man3/Dpkg::Control::Changelog.3
++ FD=./share/man/man3
++ mv ./share/man/man3/Dpkg::Control::Changelog.3 /mnt/c3platpersistent//./share/man/man3
++ for i in $(find -type f)
+++ dirname ./share/man/man3/Dpkg::Control.3
++ FD=./share/man/man3
++ mv ./share/man/man3/Dpkg::Control.3 /mnt/c3platpersistent//./share/man/man3
++ for i in $(find -type f)
+++ dirname ./share/man/man3/Dpkg::Conf.3
++ FD=./share/man/man3
++ mv ./share/man/man3/Dpkg::Conf.3 /mnt/c3platpersistent//./share/man/man3
++ for i in $(find -type f)
+++ dirname ./share/man/man3/Dpkg::Compression::Process.3
++ FD=./share/man/man3
++ mv ./share/man/man3/Dpkg::Compression::Process.3 /mnt/c3platpersistent//./share/man/man3
++ for i in $(find -type f)
+++ dirname ./share/man/man3/Dpkg::Compression::FileHandle.3
++ FD=./share/man/man3
++ mv ./share/man/man3/Dpkg::Compression::FileHandle.3 /mnt/c3platpersistent//./share/man/man3
++ for i in $(find -type f)
+++ dirname ./share/man/man3/Dpkg::Compression.3
++ FD=./share/man/man3
++ mv ./share/man/man3/Dpkg::Compression.3 /mnt/c3platpersistent//./share/man/man3
++ for i in $(find -type f)
+++ dirname ./share/man/man3/Dpkg::Checksums.3
++ FD=./share/man/man3
++ mv ./share/man/man3/Dpkg::Checksums.3 /mnt/c3platpersistent//./share/man/man3
++ for i in $(find -type f)
+++ dirname ./share/man/man3/Dpkg::Changelog::Parse.3
++ FD=./share/man/man3
++ mv ./share/man/man3/Dpkg::Changelog::Parse.3 /mnt/c3platpersistent//./share/man/man3
++ for i in $(find -type f)
+++ dirname ./share/man/man3/Dpkg::Changelog::Entry::Debian.3
++ FD=./share/man/man3
++ mv ./share/man/man3/Dpkg::Changelog::Entry::Debian.3 /mnt/c3platpersistent//./share/man/man3
++ for i in $(find -type f)
+++ dirname ./share/man/man3/Dpkg::Changelog::Entry.3
++ FD=./share/man/man3
++ mv ./share/man/man3/Dpkg::Changelog::Entry.3 /mnt/c3platpersistent//./share/man/man3
++ for i in $(find -type f)
+++ dirname ./share/man/man3/Dpkg::Changelog::Debian.3
++ FD=./share/man/man3
++ mv ./share/man/man3/Dpkg::Changelog::Debian.3 /mnt/c3platpersistent//./share/man/man3
++ for i in $(find -type f)
+++ dirname ./share/man/man3/Dpkg::Changelog.3
++ FD=./share/man/man3
++ mv ./share/man/man3/Dpkg::Changelog.3 /mnt/c3platpersistent//./share/man/man3
++ for i in $(find -type f)
+++ dirname ./share/man/man3/Dpkg::BuildProfiles.3
++ FD=./share/man/man3
++ mv ./share/man/man3/Dpkg::BuildProfiles.3 /mnt/c3platpersistent//./share/man/man3
++ for i in $(find -type f)
+++ dirname ./share/man/man3/Dpkg::BuildOptions.3
++ FD=./share/man/man3
++ mv ./share/man/man3/Dpkg::BuildOptions.3 /mnt/c3platpersistent//./share/man/man3
++ for i in $(find -type f)
+++ dirname ./share/man/man3/Dpkg::BuildFlags.3
++ FD=./share/man/man3
++ mv ./share/man/man3/Dpkg::BuildFlags.3 /mnt/c3platpersistent//./share/man/man3
++ for i in $(find -type f)
+++ dirname ./share/man/man3/Dpkg::Build::Types.3
++ FD=./share/man/man3
++ mv ./share/man/man3/Dpkg::Build::Types.3 /mnt/c3platpersistent//./share/man/man3
++ for i in $(find -type f)
+++ dirname ./share/man/man3/Dpkg::Build::Info.3
++ FD=./share/man/man3
++ mv ./share/man/man3/Dpkg::Build::Info.3 /mnt/c3platpersistent//./share/man/man3
++ for i in $(find -type f)
+++ dirname ./share/man/man3/Dpkg::Build::Env.3
++ FD=./share/man/man3
++ mv ./share/man/man3/Dpkg::Build::Env.3 /mnt/c3platpersistent//./share/man/man3
++ for i in $(find -type f)
+++ dirname ./share/man/man3/Dpkg::Arch.3
++ FD=./share/man/man3
++ mv ./share/man/man3/Dpkg::Arch.3 /mnt/c3platpersistent//./share/man/man3
++ for i in $(find -type f)
+++ dirname ./share/man/man3/Dpkg.3
++ FD=./share/man/man3
++ mv ./share/man/man3/Dpkg.3 /mnt/c3platpersistent//./share/man/man3
++ for i in $(find -type f)
+++ dirname ./share/man/man1/kdselect.1
++ FD=./share/man/man1
++ mv ./share/man/man1/kdselect.1 /mnt/c3platpersistent//./share/man/man1
++ for i in $(find -type f)
+++ dirname ./share/man/man1/kdpkg.1
++ FD=./share/man/man1
++ mv ./share/man/man1/kdpkg.1 /mnt/c3platpersistent//./share/man/man1
++ for i in $(find -type f)
+++ dirname ./share/man/man1/kdpkg-vendor.1
++ FD=./share/man/man1
++ mv ./share/man/man1/kdpkg-vendor.1 /mnt/c3platpersistent//./share/man/man1
++ for i in $(find -type f)
+++ dirname ./share/man/man1/kdpkg-trigger.1
++ FD=./share/man/man1
++ mv ./share/man/man1/kdpkg-trigger.1 /mnt/c3platpersistent//./share/man/man1
++ for i in $(find -type f)
+++ dirname ./share/man/man1/kdpkg-statoverride.1
++ FD=./share/man/man1
++ mv ./share/man/man1/kdpkg-statoverride.1 /mnt/c3platpersistent//./share/man/man1
++ for i in $(find -type f)
+++ dirname ./share/man/man1/kdpkg-split.1
++ FD=./share/man/man1
++ mv ./share/man/man1/kdpkg-split.1 /mnt/c3platpersistent//./share/man/man1
++ for i in $(find -type f)
+++ dirname ./share/man/man1/kdpkg-source.1
++ FD=./share/man/man1
++ mv ./share/man/man1/kdpkg-source.1 /mnt/c3platpersistent//./share/man/man1
++ for i in $(find -type f)
+++ dirname ./share/man/man1/kdpkg-shlibdeps.1
++ FD=./share/man/man1
++ mv ./share/man/man1/kdpkg-shlibdeps.1 /mnt/c3platpersistent//./share/man/man1
++ for i in $(find -type f)
+++ dirname ./share/man/man1/kdpkg-scansources.1
++ FD=./share/man/man1
++ mv ./share/man/man1/kdpkg-scansources.1 /mnt/c3platpersistent//./share/man/man1
++ for i in $(find -type f)
+++ dirname ./share/man/man1/kdpkg-scanpackages.1
++ FD=./share/man/man1
++ mv ./share/man/man1/kdpkg-scanpackages.1 /mnt/c3platpersistent//./share/man/man1
++ for i in $(find -type f)
+++ dirname ./share/man/man1/kdpkg-query.1
++ FD=./share/man/man1
++ mv ./share/man/man1/kdpkg-query.1 /mnt/c3platpersistent//./share/man/man1
++ for i in $(find -type f)
+++ dirname ./share/man/man1/kdpkg-parsechangelog.1
++ FD=./share/man/man1
++ mv ./share/man/man1/kdpkg-parsechangelog.1 /mnt/c3platpersistent//./share/man/man1
++ for i in $(find -type f)
+++ dirname ./share/man/man1/kdpkg-name.1
++ FD=./share/man/man1
++ mv ./share/man/man1/kdpkg-name.1 /mnt/c3platpersistent//./share/man/man1
++ for i in $(find -type f)
+++ dirname ./share/man/man1/kdpkg-mergechangelogs.1
++ FD=./share/man/man1
++ mv ./share/man/man1/kdpkg-mergechangelogs.1 /mnt/c3platpersistent//./share/man/man1
++ for i in $(find -type f)
+++ dirname ./share/man/man1/kdpkg-maintscript-helper.1
++ FD=./share/man/man1
++ mv ./share/man/man1/kdpkg-maintscript-helper.1 /mnt/c3platpersistent//./share/man/man1
++ for i in $(find -type f)
+++ dirname ./share/man/man1/kdpkg-gensymbols.1
++ FD=./share/man/man1
++ mv ./share/man/man1/kdpkg-gensymbols.1 /mnt/c3platpersistent//./share/man/man1
++ for i in $(find -type f)
+++ dirname ./share/man/man1/kdpkg-gencontrol.1
++ FD=./share/man/man1
++ mv ./share/man/man1/kdpkg-gencontrol.1 /mnt/c3platpersistent//./share/man/man1
++ for i in $(find -type f)
+++ dirname ./share/man/man1/kdpkg-genchanges.1
++ FD=./share/man/man1
++ mv ./share/man/man1/kdpkg-genchanges.1 /mnt/c3platpersistent//./share/man/man1
++ for i in $(find -type f)
+++ dirname ./share/man/man1/kdpkg-genbuildinfo.1
++ FD=./share/man/man1
++ mv ./share/man/man1/kdpkg-genbuildinfo.1 /mnt/c3platpersistent//./share/man/man1
++ for i in $(find -type f)
+++ dirname ./share/man/man1/kdpkg-divert.1
++ FD=./share/man/man1
++ mv ./share/man/man1/kdpkg-divert.1 /mnt/c3platpersistent//./share/man/man1
++ for i in $(find -type f)
+++ dirname ./share/man/man1/kdpkg-distaddfile.1
++ FD=./share/man/man1
++ mv ./share/man/man1/kdpkg-distaddfile.1 /mnt/c3platpersistent//./share/man/man1
++ for i in $(find -type f)
+++ dirname ./share/man/man1/kdpkg-deb.1
++ FD=./share/man/man1
++ mv ./share/man/man1/kdpkg-deb.1 /mnt/c3platpersistent//./share/man/man1
++ for i in $(find -type f)
+++ dirname ./share/man/man1/kdpkg-checkbuilddeps.1
++ FD=./share/man/man1
++ mv ./share/man/man1/kdpkg-checkbuilddeps.1 /mnt/c3platpersistent//./share/man/man1
++ for i in $(find -type f)
+++ dirname ./share/man/man1/kdpkg-buildpackage.1
++ FD=./share/man/man1
++ mv ./share/man/man1/kdpkg-buildpackage.1 /mnt/c3platpersistent//./share/man/man1
++ for i in $(find -type f)
+++ dirname ./share/man/man1/kdpkg-buildflags.1
++ FD=./share/man/man1
++ mv ./share/man/man1/kdpkg-buildflags.1 /mnt/c3platpersistent//./share/man/man1
++ for i in $(find -type f)
+++ dirname ./share/man/man1/kdpkg-architecture.1
++ FD=./share/man/man1
++ mv ./share/man/man1/kdpkg-architecture.1 /mnt/c3platpersistent//./share/man/man1
++ for i in $(find -type f)
+++ dirname ./share/dpkg/vendor.mk
++ FD=./share/dpkg
++ mv ./share/dpkg/vendor.mk /mnt/c3platpersistent//./share/dpkg
++ for i in $(find -type f)
+++ dirname ./share/dpkg/tupletable
++ FD=./share/dpkg
++ mv ./share/dpkg/tupletable /mnt/c3platpersistent//./share/dpkg
++ for i in $(find -type f)
+++ dirname ./share/dpkg/pkg-info.mk
++ FD=./share/dpkg
++ mv ./share/dpkg/pkg-info.mk /mnt/c3platpersistent//./share/dpkg
++ for i in $(find -type f)
+++ dirname ./share/dpkg/pie-link.specs
++ FD=./share/dpkg
++ mv ./share/dpkg/pie-link.specs /mnt/c3platpersistent//./share/dpkg
++ for i in $(find -type f)
+++ dirname ./share/dpkg/pie-compile.specs
++ FD=./share/dpkg
++ mv ./share/dpkg/pie-compile.specs /mnt/c3platpersistent//./share/dpkg
++ for i in $(find -type f)
+++ dirname ./share/dpkg/ostable
++ FD=./share/dpkg
++ mv ./share/dpkg/ostable /mnt/c3platpersistent//./share/dpkg
++ for i in $(find -type f)
+++ dirname ./share/dpkg/no-pie-link.specs
++ FD=./share/dpkg
++ mv ./share/dpkg/no-pie-link.specs /mnt/c3platpersistent//./share/dpkg
++ for i in $(find -type f)
+++ dirname ./share/dpkg/no-pie-compile.specs
++ FD=./share/dpkg
++ mv ./share/dpkg/no-pie-compile.specs /mnt/c3platpersistent//./share/dpkg
++ for i in $(find -type f)
+++ dirname ./share/dpkg/default.mk
++ FD=./share/dpkg
++ mv ./share/dpkg/default.mk /mnt/c3platpersistent//./share/dpkg
++ for i in $(find -type f)
+++ dirname ./share/dpkg/cputable
++ FD=./share/dpkg
++ mv ./share/dpkg/cputable /mnt/c3platpersistent//./share/dpkg
++ for i in $(find -type f)
+++ dirname ./share/dpkg/buildflags.mk
++ FD=./share/dpkg
++ mv ./share/dpkg/buildflags.mk /mnt/c3platpersistent//./share/dpkg
++ for i in $(find -type f)
+++ dirname ./share/dpkg/architecture.mk
++ FD=./share/dpkg
++ mv ./share/dpkg/architecture.mk /mnt/c3platpersistent//./share/dpkg
++ for i in $(find -type f)
+++ dirname ./share/dpkg/abitable
++ FD=./share/dpkg
++ mv ./share/dpkg/abitable /mnt/c3platpersistent//./share/dpkg
++ for i in $(find -type f)
+++ dirname ./sbin/kstart-stop-daemon
++ FD=./sbin
++ mv ./sbin/kstart-stop-daemon /mnt/c3platpersistent//./sbin
++ for i in $(find -type f)
+++ dirname ./libexec/dpkg/methods/multicd/names
++ FD=./libexec/dpkg/methods/multicd
++ mv ./libexec/dpkg/methods/multicd/names /mnt/c3platpersistent//./libexec/dpkg/methods/multicd
++ for i in $(find -type f)
+++ dirname ./libexec/dpkg/methods/multicd/kupdate
++ FD=./libexec/dpkg/methods/multicd
++ mv ./libexec/dpkg/methods/multicd/kupdate /mnt/c3platpersistent//./libexec/dpkg/methods/multicd
++ for i in $(find -type f)
+++ dirname ./libexec/dpkg/methods/multicd/ksetup
++ FD=./libexec/dpkg/methods/multicd
++ mv ./libexec/dpkg/methods/multicd/ksetup /mnt/c3platpersistent//./libexec/dpkg/methods/multicd
++ for i in $(find -type f)
+++ dirname ./libexec/dpkg/methods/multicd/kinstall
++ FD=./libexec/dpkg/methods/multicd
++ mv ./libexec/dpkg/methods/multicd/kinstall /mnt/c3platpersistent//./libexec/dpkg/methods/multicd
++ for i in $(find -type f)
+++ dirname ./libexec/dpkg/methods/multicd/desc.multi_nfs
++ FD=./libexec/dpkg/methods/multicd
++ mv ./libexec/dpkg/methods/multicd/desc.multi_nfs /mnt/c3platpersistent//./libexec/dpkg/methods/multicd
++ for i in $(find -type f)
+++ dirname ./libexec/dpkg/methods/multicd/desc.multi_mount
++ FD=./libexec/dpkg/methods/multicd
++ mv ./libexec/dpkg/methods/multicd/desc.multi_mount /mnt/c3platpersistent//./libexec/dpkg/methods/multicd
++ for i in $(find -type f)
+++ dirname ./libexec/dpkg/methods/multicd/desc.multi_cd
++ FD=./libexec/dpkg/methods/multicd
++ mv ./libexec/dpkg/methods/multicd/desc.multi_cd /mnt/c3platpersistent//./libexec/dpkg/methods/multicd
++ for i in $(find -type f)
+++ dirname ./libexec/dpkg/methods/ftp/names
++ FD=./libexec/dpkg/methods/ftp
++ mv ./libexec/dpkg/methods/ftp/names /mnt/c3platpersistent//./libexec/dpkg/methods/ftp
++ for i in $(find -type f)
+++ dirname ./libexec/dpkg/methods/ftp/kupdate
++ FD=./libexec/dpkg/methods/ftp
++ mv ./libexec/dpkg/methods/ftp/kupdate /mnt/c3platpersistent//./libexec/dpkg/methods/ftp
++ for i in $(find -type f)
+++ dirname ./libexec/dpkg/methods/ftp/ksetup
++ FD=./libexec/dpkg/methods/ftp
++ mv ./libexec/dpkg/methods/ftp/ksetup /mnt/c3platpersistent//./libexec/dpkg/methods/ftp
++ for i in $(find -type f)
+++ dirname ./libexec/dpkg/methods/ftp/kinstall
++ FD=./libexec/dpkg/methods/ftp
++ mv ./libexec/dpkg/methods/ftp/kinstall /mnt/c3platpersistent//./libexec/dpkg/methods/ftp
++ for i in $(find -type f)
+++ dirname ./libexec/dpkg/methods/ftp/desc.ftp
++ FD=./libexec/dpkg/methods/ftp
++ mv ./libexec/dpkg/methods/ftp/desc.ftp /mnt/c3platpersistent//./libexec/dpkg/methods/ftp
++ for i in $(find -type f)
+++ dirname ./libexec/dpkg/methods/floppy/names
++ FD=./libexec/dpkg/methods/floppy
++ mv ./libexec/dpkg/methods/floppy/names /mnt/c3platpersistent//./libexec/dpkg/methods/floppy
++ for i in $(find -type f)
+++ dirname ./libexec/dpkg/methods/floppy/kupdate
++ FD=./libexec/dpkg/methods/floppy
++ mv ./libexec/dpkg/methods/floppy/kupdate /mnt/c3platpersistent//./libexec/dpkg/methods/floppy
++ for i in $(find -type f)
+++ dirname ./libexec/dpkg/methods/floppy/ksetup
++ FD=./libexec/dpkg/methods/floppy
++ mv ./libexec/dpkg/methods/floppy/ksetup /mnt/c3platpersistent//./libexec/dpkg/methods/floppy
++ for i in $(find -type f)
+++ dirname ./libexec/dpkg/methods/floppy/kinstall
++ FD=./libexec/dpkg/methods/floppy
++ mv ./libexec/dpkg/methods/floppy/kinstall /mnt/c3platpersistent//./libexec/dpkg/methods/floppy
++ for i in $(find -type f)
+++ dirname ./libexec/dpkg/methods/floppy/desc.floppy
++ FD=./libexec/dpkg/methods/floppy
++ mv ./libexec/dpkg/methods/floppy/desc.floppy /mnt/c3platpersistent//./libexec/dpkg/methods/floppy
++ for i in $(find -type f)
+++ dirname ./libexec/dpkg/methods/disk/names
++ FD=./libexec/dpkg/methods/disk
++ mv ./libexec/dpkg/methods/disk/names /mnt/c3platpersistent//./libexec/dpkg/methods/disk
++ for i in $(find -type f)
+++ dirname ./libexec/dpkg/methods/disk/kupdate
++ FD=./libexec/dpkg/methods/disk
++ mv ./libexec/dpkg/methods/disk/kupdate /mnt/c3platpersistent//./libexec/dpkg/methods/disk
++ for i in $(find -type f)
+++ dirname ./libexec/dpkg/methods/disk/ksetup
++ FD=./libexec/dpkg/methods/disk
++ mv ./libexec/dpkg/methods/disk/ksetup /mnt/c3platpersistent//./libexec/dpkg/methods/disk
++ for i in $(find -type f)
+++ dirname ./libexec/dpkg/methods/disk/kinstall
++ FD=./libexec/dpkg/methods/disk
++ mv ./libexec/dpkg/methods/disk/kinstall /mnt/c3platpersistent//./libexec/dpkg/methods/disk
++ for i in $(find -type f)
+++ dirname ./libexec/dpkg/methods/disk/desc.nfs
++ FD=./libexec/dpkg/methods/disk
++ mv ./libexec/dpkg/methods/disk/desc.nfs /mnt/c3platpersistent//./libexec/dpkg/methods/disk
++ for i in $(find -type f)
+++ dirname ./libexec/dpkg/methods/disk/desc.mounted
++ FD=./libexec/dpkg/methods/disk
++ mv ./libexec/dpkg/methods/disk/desc.mounted /mnt/c3platpersistent//./libexec/dpkg/methods/disk
++ for i in $(find -type f)
+++ dirname ./libexec/dpkg/methods/disk/desc.harddisk
++ FD=./libexec/dpkg/methods/disk
++ mv ./libexec/dpkg/methods/disk/desc.harddisk /mnt/c3platpersistent//./libexec/dpkg/methods/disk
++ for i in $(find -type f)
+++ dirname ./libexec/dpkg/methods/disk/desc.cdrom
++ FD=./libexec/dpkg/methods/disk
++ mv ./libexec/dpkg/methods/disk/desc.cdrom /mnt/c3platpersistent//./libexec/dpkg/methods/disk
++ for i in $(find -type f)
+++ dirname ./bin/kdselect
++ FD=./bin
++ mv ./bin/kdselect /mnt/c3platpersistent//./bin
++ for i in $(find -type f)
+++ dirname ./bin/kdpkg-vendor
++ FD=./bin
++ mv ./bin/kdpkg-vendor /mnt/c3platpersistent//./bin
++ for i in $(find -type f)
+++ dirname ./bin/kdpkg-trigger
++ FD=./bin
++ mv ./bin/kdpkg-trigger /mnt/c3platpersistent//./bin
++ for i in $(find -type f)
+++ dirname ./bin/kdpkg-statoverride
++ FD=./bin
++ mv ./bin/kdpkg-statoverride /mnt/c3platpersistent//./bin
++ for i in $(find -type f)
+++ dirname ./bin/kdpkg-split
++ FD=./bin
++ mv ./bin/kdpkg-split /mnt/c3platpersistent//./bin
++ for i in $(find -type f)
+++ dirname ./bin/kdpkg-source
++ FD=./bin
++ mv ./bin/kdpkg-source /mnt/c3platpersistent//./bin
++ for i in $(find -type f)
+++ dirname ./bin/kdpkg-shlibdeps
++ FD=./bin
++ mv ./bin/kdpkg-shlibdeps /mnt/c3platpersistent//./bin
++ for i in $(find -type f)
+++ dirname ./bin/kdpkg-scansources
++ FD=./bin
++ mv ./bin/kdpkg-scansources /mnt/c3platpersistent//./bin
++ for i in $(find -type f)
+++ dirname ./bin/kdpkg-scanpackages
++ FD=./bin
++ mv ./bin/kdpkg-scanpackages /mnt/c3platpersistent//./bin
++ for i in $(find -type f)
+++ dirname ./bin/kdpkg-query
++ FD=./bin
++ mv ./bin/kdpkg-query /mnt/c3platpersistent//./bin
++ for i in $(find -type f)
+++ dirname ./bin/kdpkg-parsechangelog
++ FD=./bin
++ mv ./bin/kdpkg-parsechangelog /mnt/c3platpersistent//./bin
++ for i in $(find -type f)
+++ dirname ./bin/kdpkg-name
++ FD=./bin
++ mv ./bin/kdpkg-name /mnt/c3platpersistent//./bin
++ for i in $(find -type f)
+++ dirname ./bin/kdpkg-mergechangelogs
++ FD=./bin
++ mv ./bin/kdpkg-mergechangelogs /mnt/c3platpersistent//./bin
++ for i in $(find -type f)
+++ dirname ./bin/kdpkg-maintscript-helper
++ FD=./bin
++ mv ./bin/kdpkg-maintscript-helper /mnt/c3platpersistent//./bin
++ for i in $(find -type f)
+++ dirname ./bin/kdpkg-gensymbols
++ FD=./bin
++ mv ./bin/kdpkg-gensymbols /mnt/c3platpersistent//./bin
++ for i in $(find -type f)
+++ dirname ./bin/kdpkg-gencontrol
++ FD=./bin
++ mv ./bin/kdpkg-gencontrol /mnt/c3platpersistent//./bin
++ for i in $(find -type f)
+++ dirname ./bin/kdpkg-genchanges
++ FD=./bin
++ mv ./bin/kdpkg-genchanges /mnt/c3platpersistent//./bin
++ for i in $(find -type f)
+++ dirname ./bin/kdpkg-genbuildinfo
++ FD=./bin
++ mv ./bin/kdpkg-genbuildinfo /mnt/c3platpersistent//./bin
++ for i in $(find -type f)
+++ dirname ./bin/kdpkg-divert
++ FD=./bin
++ mv ./bin/kdpkg-divert /mnt/c3platpersistent//./bin
++ for i in $(find -type f)
+++ dirname ./bin/kdpkg-distaddfile
++ FD=./bin
++ mv ./bin/kdpkg-distaddfile /mnt/c3platpersistent//./bin
++ for i in $(find -type f)
+++ dirname ./bin/kdpkg-deb
++ FD=./bin
++ mv ./bin/kdpkg-deb /mnt/c3platpersistent//./bin
++ for i in $(find -type f)
+++ dirname ./bin/kdpkg-checkbuilddeps
++ FD=./bin
++ mv ./bin/kdpkg-checkbuilddeps /mnt/c3platpersistent//./bin
++ for i in $(find -type f)
+++ dirname ./bin/kdpkg-buildpackage
++ FD=./bin
++ mv ./bin/kdpkg-buildpackage /mnt/c3platpersistent//./bin
++ for i in $(find -type f)
+++ dirname ./bin/kdpkg-buildflags
++ FD=./bin
++ mv ./bin/kdpkg-buildflags /mnt/c3platpersistent//./bin
++ for i in $(find -type f)
+++ dirname ./bin/kdpkg-architecture
++ FD=./bin
++ mv ./bin/kdpkg-architecture /mnt/c3platpersistent//./bin
++ for i in $(find -type f)
+++ dirname ./bin/kdpkg
++ FD=./bin
++ mv ./bin/kdpkg /mnt/c3platpersistent//./bin
++ find -ls
+ 32056151      0 drwxr-xr-x   6 1003     1003          120 Dec 22 23:21 .
+ 32056275      0 drwxr-xr-x   5 1003     1003          100 Dec 22 23:21 ./share
+ 32057529      0 drwxr-xr-x   4 1003     1003           80 May 27 20:22 ./share/perl5
+ 32057689      0 drwxr-xr-x   2 1003     1003           40 May 27 20:22 ./share/perl5/Dselect
+ 32057531      0 drwxr-xr-x  11 1003     1003          220 May 27 20:22 ./share/perl5/Dpkg
+ 32057675      0 drwxr-xr-x   2 1003     1003           40 May 27 20:22 ./share/perl5/Dpkg/Vendor
+ 32057639      0 drwxr-xr-x   3 1003     1003           60 May 27 20:22 ./share/perl5/Dpkg/Source
+ 32057645      0 drwxr-xr-x   3 1003     1003           60 May 27 20:22 ./share/perl5/Dpkg/Source/Package
+ 32057651      0 drwxr-xr-x   2 1003     1003           40 May 27 20:22 ./share/perl5/Dpkg/Source/Package/V3
+ 32057627      0 drwxr-xr-x   2 1003     1003           40 May 27 20:22 ./share/perl5/Dpkg/Shlibs
+ 32057619      0 drwxr-xr-x   2 1003     1003           40 May 27 20:22 ./share/perl5/Dpkg/Interface
+ 32057601      0 drwxr-xr-x   2 1003     1003           40 May 27 20:22 ./share/perl5/Dpkg/Dist
+ 32057575      0 drwxr-xr-x   3 1003     1003           60 May 27 20:22 ./share/perl5/Dpkg/Control
+ 32057589      0 drwxr-xr-x   2 1003     1003           40 May 27 20:22 ./share/perl5/Dpkg/Control/Tests
+ 32057565      0 drwxr-xr-x   2 1003     1003           40 May 27 20:22 ./share/perl5/Dpkg/Compression
+ 32057549      0 drwxr-xr-x   3 1003     1003           60 May 27 20:22 ./share/perl5/Dpkg/Changelog
+ 32057553      0 drwxr-xr-x   2 1003     1003           40 May 27 20:22 ./share/perl5/Dpkg/Changelog/Entry
+ 32057535      0 drwxr-xr-x   2 1003     1003           40 May 27 20:22 ./share/perl5/Dpkg/Build
+ 32056305      0 drwxr-xr-x   6 1003     1003          120 Dec 22 23:21 ./share/man
+ 32057525      0 drwxr-xr-x   2 1003     1003           40 May 27 20:22 ./share/man/man8
+ 32057471      0 drwxr-xr-x   2 1003     1003           40 May 27 20:22 ./share/man/man5
+ 32057385      0 drwxr-xr-x   2 1003     1003           40 May 27 20:22 ./share/man/man3
+ 32056307      0 drwxr-xr-x   2 1003     1003           40 May 27 20:22 ./share/man/man1
+ 32056277      0 drwxr-xr-x   2 1003     1003           40 May 27 20:22 ./share/dpkg
+ 32056271      0 drwxr-xr-x   2 1003     1003           40 May 27 20:22 ./sbin
+ 32056207      0 drwxr-xr-x   3 1003     1003           60 Dec 22 23:21 ./libexec
+ 32056209      0 drwxr-xr-x   3 1003     1003           60 Dec 22 23:21 ./libexec/dpkg
+ 32056211      0 drwxr-xr-x   6 1003     1003          120 Dec 22 23:21 ./libexec/dpkg/methods
+ 32056255      0 drwxr-xr-x   2 1003     1003           40 May 27 20:22 ./libexec/dpkg/methods/multicd
+ 32056243      0 drwxr-xr-x   2 1003     1003           40 May 27 20:22 ./libexec/dpkg/methods/ftp
+ 32056231      0 drwxr-xr-x   2 1003     1003           40 May 27 20:22 ./libexec/dpkg/methods/floppy
+ 32056213      0 drwxr-xr-x   2 1003     1003           40 May 27 20:22 ./libexec/dpkg/methods/disk
+ 32056153      0 drwxr-xr-x   2 1003     1003           40 May 27 20:22 ./bin
++ popd
+/home/admin
++ rm -rf /tmp/tmp.wHL2ceHnGI
++ [[ ! -e /mnt/c3platpersistent//var/lib/dpkg/status ]]
++ mkdir -p /mnt/c3platpersistent//var/lib/dpkg/updates/
++ for i in "${KDPKG_STATUS}" "${KDPKG_FORMAT_NEW}"
+++ dirname /mnt/c3platpersistent//var/lib/dpkg/status
++ mkdir -p /mnt/c3platpersistent//var/lib/dpkg
++ touch /mnt/c3platpersistent//var/lib/dpkg/status
++ for i in "${KDPKG_STATUS}" "${KDPKG_FORMAT_NEW}"
+++ dirname /mnt/c3platpersistent//var/lib/dpkg/info/format-new
++ mkdir -p /mnt/c3platpersistent//var/lib/dpkg/info
++ touch /mnt/c3platpersistent//var/lib/dpkg/info/format-new

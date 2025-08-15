@@ -1,0 +1,724 @@
+Jan  1 00:01:31 CB-9160 systemd[1]: Started Various fixups to make systemd work better on Debian.
+Jan  1 00:01:31 CB-9160 systemd[1]: Started Load/Save Random Seed.
+Jan  1 00:01:31 CB-9160 systemd[1]: Started Apply Kernel Variables.
+Jan  1 00:01:31 CB-9160 systemd[1]: Started Create Static Device Nodes in /dev.
+Jan  1 00:01:30 CB-9160 systemd[1]: Starting udev Kernel Device Manager...
+Jan  1 00:01:30 CB-9160 systemd[1]: Starting Local File Systems (Pre).
+Jan  1 00:01:30 CB-9160 systemd[1]: Reached target Local File Systems (Pre).
+Jan  1 00:01:31 CB-9160 systemd[1]: Started udev Kernel Device Manager.
+Jan  1 00:01:31 CB-9160 systemd[1]: Starting Copy rules generated while the root was ro...
+Jan  1 00:01:31 CB-9160 systemd[1]: Started Copy rules generated while the root was ro.
+Jan  1 00:01:31 CB-9160 systemd[1]: Starting system-systemd\x2dbacklight.slice.
+Jan  1 00:01:31 CB-9160 systemd[1]: Created slice system-systemd\x2dbacklight.slice.
+Jan  1 00:01:31 CB-9160 systemd[1]: Starting Load/Save Screen Backlight Brightness of backlight:acpi_video0...
+Jan  1 00:01:31 CB-9160 systemd[1]: Started Load/Save Screen Backlight Brightness of backlight:acpi_video0.
+Jan  1 00:01:31 CB-9160 systemd[1]: Found device /dev/ttyS0.
+Jan  1 00:01:31 CB-9160 systemd[1]: Found device /dev/disk/by-label/IMAGES.
+Jan  1 00:01:31 CB-9160 systemd[1]: Found device /dev/disk/by-label/PERSISTENT.
+Jan  1 00:01:31 CB-9160 systemd[1]: Mounting /mnt/c3platpersistent...
+Jan  1 00:01:31 CB-9160 systemd[1]: Mounting /mnt/c3platimages...
+Jan  1 00:01:31 CB-9160 systemd[1]: Mounted /mnt/c3platimages.
+Jan  1 00:01:31 CB-9160 systemd[1]: Mounted /mnt/c3platpersistent.
+Jan  1 00:01:31 CB-9160 systemd[1]: Starting Local File Systems.
+Jan  1 00:01:31 CB-9160 systemd[1]: Reached target Local File Systems.
+Jan  1 00:01:31 CB-9160 systemd[1]: Starting Remote File Systems.
+Jan  1 00:01:31 CB-9160 systemd[1]: Reached target Remote File Systems.
+Jan  1 00:01:31 CB-9160 systemd[1]: Starting Trigger Flushing of Journal to Persistent Storage...
+Jan  1 00:01:31 CB-9160 systemd[1]: Starting Create Volatile Files and Directories...
+Jan  1 00:01:31 CB-9160 systemd[1]: Starting LSB: Raise network interfaces....
+Jan  1 00:01:31 CB-9160 systemd[1]: Started Create Volatile Files and Directories.
+Jan  1 00:01:31 CB-9160 systemd[1]: Started Trigger Flushing of Journal to Persistent Storage.
+Jan  1 00:01:32 CB-9160 networking[271]: Configuring network interfaces.../etc/network/if-up.d/avahi-autoipd: 25: [: static: unexpected operator
+Jan  1 00:01:32 CB-9160 systemd[1]: Starting Update UTMP about System Boot/Shutdown...
+Jan  1 00:01:32 CB-9160 systemd[1]: Started Update UTMP about System Boot/Shutdown.
+Jan  1 00:01:38 CB-9160 ntpdate[361]: no servers can be used, exiting
+Jan  1 00:01:38 CB-9160 ntpdate[378]: no servers can be used, exiting
+Jan  1 00:01:38 CB-9160 networking[271]: done.
+Jan  1 00:01:38 CB-9160 systemd[1]: Started LSB: Raise network interfaces..
+Jan  1 00:01:38 CB-9160 systemd[1]: Starting System Initialization.
+Jan  1 00:01:38 CB-9160 systemd[1]: Reached target System Initialization.
+Jan  1 00:01:38 CB-9160 systemd[1]: Starting PC/SC Smart Card Daemon Activation Socket.
+Jan  1 00:01:38 CB-9160 systemd[1]: Listening on PC/SC Smart Card Daemon Activation Socket.
+Jan  1 00:01:38 CB-9160 systemd[1]: Starting D-Bus System Message Bus Socket.
+Jan  1 00:01:38 CB-9160 systemd[1]: Listening on D-Bus System Message Bus Socket.
+Jan  1 00:01:38 CB-9160 systemd[1]: Starting Sockets.
+Jan  1 00:01:38 CB-9160 systemd[1]: Reached target Sockets.
+Jan  1 00:01:38 CB-9160 systemd[1]: Starting Daily Cleanup of Temporary Directories.
+Jan  1 00:01:38 CB-9160 systemd[1]: Started Daily Cleanup of Temporary Directories.
+Jan  1 00:01:38 CB-9160 systemd[1]: Starting Timers.
+Jan  1 00:01:38 CB-9160 systemd[1]: Reached target Timers.
+Jan  1 00:01:38 CB-9160 systemd[1]: Starting Basic System.
+Jan  1 00:01:38 CB-9160 systemd[1]: Reached target Basic System.
+Jan  1 00:01:38 CB-9160 systemd[1]: Starting Self Monitoring and Reporting Technology (SMART) Daemon...
+Jan  1 00:01:38 CB-9160 systemd[1]: Started Self Monitoring and Reporting Technology (SMART) Daemon.
+Jan  1 00:01:38 CB-9160 systemd[1]: Starting Restore /etc/resolv.conf if the system crashed before the ppp link was shut down....
+Jan  1 00:01:38 CB-9160 systemd[1]: Starting Initialize hardware monitoring sensors...
+Jan  1 00:01:38 CB-9160 systemd[1]: Starting Internet superserver...
+Jan  1 00:01:38 CB-9160 systemd[1]: Started Internet superserver.
+Jan  1 00:01:38 CB-9160 systemd[1]: Starting LEO I2C Initialization...
+Jan  1 00:01:38 CB-9160 systemd[1]: Starting Regular background program processing daemon...
+Jan  1 00:01:38 CB-9160 systemd[1]: Started Regular background program processing daemon.
+Jan  1 00:01:38 CB-9160 systemd[1]: Started getty on tty2-tty6 if dbus and logind are not available.
+Jan  1 00:01:38 CB-9160 systemd[1]: Starting Login Service...
+Jan  1 00:01:38 CB-9160 systemd[1]: Starting LSB: Start/stop sysstat's sadc...
+Jan  1 00:01:38 CB-9160 systemd[1]: Starting D-Bus System Message Bus...
+Jan  1 00:01:38 CB-9160 systemd[1]: Started D-Bus System Message Bus.
+Jan  1 00:01:38 CB-9160 smartd[388]: smartd 6.4 2014-10-07 r4002 [i686-linux-3.16.35-c3p+] (local build)
+Jan  1 00:01:38 CB-9160 smartd[388]: Copyright (C) 2002-14, Bruce Allen, Christian Franke, www.smartmontools.org
+Jan  1 00:01:38 CB-9160 smartd[388]: Opened configuration file /etc/smartd.conf
+Jan  1 00:01:38 CB-9160 smartd[388]: Drive: DEVICESCAN, implied '-a' Directive on line 21 of file /etc/smartd.conf
+Jan  1 00:01:38 CB-9160 smartd[388]: Configuration file /etc/smartd.conf was parsed, found DEVICESCAN, scanning devices
+Jan  1 00:01:39 CB-9160 smartd[388]: Problem creating device name scan list
+Jan  1 00:01:39 CB-9160 smartd[388]: In the system's table of devices NO devices found to scan
+Jan  1 00:01:39 CB-9160 smartd[388]: Unable to monitor any SMART enabled devices. Try debug (-d) option. Exiting...
+Jan  1 00:01:39 CB-9160 systemd[1]: Starting System Logger Daemon...
+Jan  1 00:01:39 CB-9160 systemd[1]: smartd.service: main process exited, code=exited, status=17/n/a
+Jan  1 00:01:39 CB-9160 systemd[1]: Unit smartd.service entered failed state.
+Jan  1 00:01:39 CB-9160 systemd[1]: Started Restore /etc/resolv.conf if the system crashed before the ppp link was shut down..
+Jan  1 00:01:39 CB-9160 systemd[1]: Started LSB: Start/stop sysstat's sadc.
+Jan  1 00:01:39 CB-9160 sensors[413]: acpitz-virtual-0
+Jan  1 00:01:39 CB-9160 sensors[413]: Adapter: Virtual device
+Jan  1 00:01:39 CB-9160 sensors[413]: temp1:        +45.0°C  (crit = +103.0°C)
+Jan  1 00:01:39 CB-9160 sensors[413]: coretemp-isa-0000
+Jan  1 00:01:39 CB-9160 sensors[413]: Adapter: ISA adapter
+Jan  1 00:01:39 CB-9160 sensors[413]: Core 0:       +49.0°C  (high = +110.0°C, crit = +110.0°C)
+Jan  1 00:01:39 CB-9160 sensors[413]: Core 2:       +53.0°C  (high = +110.0°C, crit = +110.0°C)
+Jan  1 00:01:39 CB-9160 systemd[1]: Started Initialize hardware monitoring sensors.
+Jan  1 00:01:39 CB-9160 systemd[1]: Started Login Service.
+Jan  1 00:01:39 CB-9160 systemd[1]: Started System Logger Daemon.
+Jan  1 00:01:39 CB-9160 i2cinit.sh[394]: No RTC offset value found in EEPROM
+Jan  1 00:01:39 CB-9160 systemd[1]: Started LEO I2C Initialization.
+Jan  1 00:01:39 CB-9160 systemd[1]: Starting LEO EEPROM handler...
+Jan  1 00:01:39 CB-9160 eeprom_handler.sh[551]: gpg: directory `/root/.gnupg' created
+Jan  1 00:01:39 CB-9160 eeprom_handler.sh[551]: gpg: new configuration file `/root/.gnupg/gpg.conf' created
+Jan  1 00:01:39 CB-9160 eeprom_handler.sh[551]: gpg: WARNING: options in `/root/.gnupg/gpg.conf' are not yet active during this run
+Jan  1 00:01:39 CB-9160 eeprom_handler.sh[551]: gpg: keyring `/root/.gnupg/secring.gpg' created
+Jan  1 00:01:39 CB-9160 eeprom_handler.sh[551]: gpg: keyring `/root/.gnupg/pubring.gpg' created
+Jan  1 00:01:39 CB-9160 eeprom_handler.sh[551]: gpg: /root/.gnupg/trustdb.gpg: trustdb created
+Jan  1 00:01:39 CB-9160 eeprom_handler.sh[551]: gpg: key E024F748 was created 248456159 seconds in the future (time warp or clock problem)
+Jan  1 00:01:39 CB-9160 eeprom_handler.sh[551]: gpg: key E024F748 was created 248456159 seconds in the future (time warp or clock problem)
+Jan  1 00:01:39 CB-9160 eeprom_handler.sh[551]: gpg: key E024F748 was created 248456159 seconds in the future (time warp or clock problem)
+Jan  1 00:01:39 CB-9160 eeprom_handler.sh[551]: gpg: key E024F748: public key "Roland Lezuo (EEPROM signing key) <rlezuo@m42-embedded.at>" imported
+Jan  1 00:01:39 CB-9160 eeprom_handler.sh[551]: gpg: Total number processed: 1
+Jan  1 00:01:39 CB-9160 eeprom_handler.sh[551]: gpg:               imported: 1  (RSA: 1)
+Jan  1 00:01:40 CB-9160 eeprom_handler.sh[551]: not exploding o.operating_hours
+Jan  1 00:01:40 CB-9160 eeprom_handler.sh[551]: In-place eehash is : f1ac74e3136fc265545f55e2e8776a30e641bbec59d34516bda10d9eb60b4ec9
+Jan  1 00:01:40 CB-9160 eeprom_handler.sh[551]: Computed eehash is : f1ac74e3136fc265545f55e2e8776a30e641bbec59d34516bda10d9eb60b4ec9
+Jan  1 00:01:40 CB-9160 eeprom_handler.sh[551]: detected fingerprint='B882ED3CABAC231251D5ECCEBF34459EE024F748'
+Jan  1 00:01:40 CB-9160 eeprom_handler.sh[551]: reference fingerprint='B882ED3CABAC231251D5ECCEBF34459EE024F748'
+Jan  1 00:01:40 CB-9160 eeprom_handler.sh[551]: result hash/signature check = ok
+Jan  1 00:01:40 CB-9160 eeprom_handler.sh[551]: INFO: eth0 IPv4: dhcp
+Jan  1 00:01:40 CB-9160 eeprom_handler.sh[551]: Created symlink from /etc/systemd/system/multi-user.target.wants/systemd-networkd.service to /lib/systemd/system/systemd-networkd.service.
+Jan  1 00:01:40 CB-9160 systemd[1]: Reloading.
+Jan  1 00:01:40 CB-9160 systemd[1]: Starting Network Service...
+Jan  1 00:01:40 CB-9160 systemd-networkd[656]: eth0            : gained carrier
+Jan  1 00:01:40 CB-9160 systemd-networkd[656]: lo              : gained carrier
+Jan  1 00:01:40 CB-9160 systemd-networkd[656]: eth0            : link configured
+Jan  1 00:01:40 CB-9160 systemd[1]: Started Network Service.
+Jan  1 00:01:40 CB-9160 systemd-networkd[656]: eth0            : DHCPv4 address 192.168.1.171/24 via 192.168.1.1
+Jan  1 00:01:40 CB-9160 systemd-networkd[656]: eth0            : link configured
+Jan  1 00:01:40 CB-9160 dbus[399]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service'
+Jan  1 00:01:40 CB-9160 systemd[1]: Starting Hostname Service...
+Jan  1 00:01:40 CB-9160 systemd[1]: Starting Network Name Resolution...
+Jan  1 00:01:40 CB-9160 systemd-hostnamed[662]: Warning: nss-myhostname is not installed. Changing the local hostname might make it unresolveable. Please install nss-myhostname!
+Jan  1 00:01:40 CB-9160 dbus[399]: [system] Successfully activated service 'org.freedesktop.hostname1'
+Jan  1 00:01:40 CB-9160 systemd[1]: Started Hostname Service.
+Jan  1 00:01:41 CB-9160 systemd[1]: Started Network Name Resolution.
+Jan  1 00:01:41 CB-9160 eeprom_handler.sh[551]: yes: standard output: Broken pipe
+Jan  1 00:01:41 CB-9160 eeprom_handler.sh[551]: yes: write error
+Jan  1 00:01:41 CB-9160 eeprom_handler.sh[551]: yes: standard output: Broken pipe
+Jan  1 00:01:41 CB-9160 eeprom_handler.sh[551]: yes: write error
+Jan  1 00:01:41 CB-9160 eeprom_handler.sh[551]: yes: standard output: Broken pipe
+Jan  1 00:01:41 CB-9160 eeprom_handler.sh[551]: yes: write error
+Jan  1 00:01:41 CB-9160 eeprom_handler.sh[551]: yes: standard output: Broken pipe
+Jan  1 00:01:41 CB-9160 eeprom_handler.sh[551]: yes: write error
+Jan  1 00:01:41 CB-9160 eeprom_handler.sh[551]: INFO: Omitting updating of EEPROM device
+Jan  1 00:01:41 CB-9160 eeprom_handler.sh[551]: Synchronizing state for avahi-daemon.service with sysvinit using update-rc.d...
+Jan  1 00:01:41 CB-9160 eeprom_handler.sh[551]: Executing /usr/sbin/update-rc.d avahi-daemon defaults
+Jan  1 00:01:41 CB-9160 eeprom_handler.sh[551]: insserv: warning: current start runlevel(s) (empty) of script `avahi-daemon' overrides LSB defaults (2 3 4 5).
+Jan  1 00:01:41 CB-9160 eeprom_handler.sh[551]: insserv: warning: current stop runlevel(s) (0 1 2 3 4 5 6) of script `avahi-daemon' overrides LSB defaults (0 1 6).
+Jan  1 00:01:41 CB-9160 eeprom_handler.sh[551]: insserv: warning: current start runlevel(s) (empty) of script `avahi-daemon' overrides LSB defaults (2 3 4 5).
+Jan  1 00:01:41 CB-9160 eeprom_handler.sh[551]: insserv: warning: current stop runlevel(s) (0 1 2 3 4 5 6) of script `avahi-daemon' overrides LSB defaults (0 1 6).
+Jan  1 00:01:41 CB-9160 systemd[1]: Reloading.
+Jan  1 00:01:41 CB-9160 eeprom_handler.sh[551]: Executing /usr/sbin/update-rc.d avahi-daemon enable
+Jan  1 00:01:41 CB-9160 systemd[1]: Reloading.
+Jan  1 00:01:42 CB-9160 eeprom_handler.sh[551]: Created symlink from /etc/systemd/system/dbus-org.freedesktop.Avahi.service to /lib/systemd/system/avahi-daemon.service.
+Jan  1 00:01:42 CB-9160 eeprom_handler.sh[551]: Created symlink from /etc/systemd/system/sockets.target.wants/avahi-daemon.socket to /lib/systemd/system/avahi-daemon.socket.
+Jan  1 00:01:42 CB-9160 systemd[1]: Reloading.
+Jan  1 00:01:42 CB-9160 systemd[1]: Starting Avahi mDNS/DNS-SD Stack Activation Socket.
+Jan  1 00:01:42 CB-9160 systemd[1]: Listening on Avahi mDNS/DNS-SD Stack Activation Socket.
+Jan  1 00:01:42 CB-9160 systemd[1]: Starting Avahi mDNS/DNS-SD Stack...
+Jan  1 00:01:42 CB-9160 systemd[1]: Failed to reset devices.list on /system.slice: Invalid argument
+Jan  1 00:01:42 CB-9160 avahi-daemon[736]: Found user 'avahi' (UID 109) and group 'avahi' (GID 115).
+Jan  1 00:01:42 CB-9160 avahi-daemon[736]: Successfully dropped root privileges.
+Jan  1 00:01:42 CB-9160 avahi-daemon[736]: avahi-daemon 0.6.31 starting up.
+Jan  1 00:01:42 CB-9160 avahi-daemon[736]: WARNING: No NSS support for mDNS detected, consider installing nss-mdns!
+Jan  1 00:01:42 CB-9160 avahi-daemon[736]: Successfully called chroot().
+Jan  1 00:01:42 CB-9160 avahi-daemon[736]: Successfully dropped remaining capabilities.
+Jan  1 00:01:42 CB-9160 avahi-daemon[736]: Loading service file /services/default.service.
+Jan  1 00:01:42 CB-9160 avahi-daemon[736]: Joining mDNS multicast group on interface eth0.IPv4 with address 192.168.1.171.
+Jan  1 00:01:42 CB-9160 avahi-daemon[736]: New relevant interface eth0.IPv4 for mDNS.
+Jan  1 00:01:42 CB-9160 avahi-daemon[736]: Network interface enumeration completed.
+Jan  1 00:01:42 CB-9160 avahi-daemon[736]: Registering new address record for 192.168.1.171 on eth0.IPv4.
+Jan  1 00:01:42 CB-9160 avahi-daemon[736]: Registering new address record for 192.168.1.172 on eth0.IPv4.
+Jan  1 00:01:42 CB-9160 avahi-daemon[736]: Registering HINFO record with values 'I686'/'LINUX'.
+Jan  1 00:01:42 CB-9160 systemd[1]: Started Avahi mDNS/DNS-SD Stack.
+Jan  1 00:01:42 CB-9160 eeprom_handler.sh[551]: Synchronizing state for avahi-dnsconfd.service with sysvinit using update-rc.d...
+Jan  1 00:01:42 CB-9160 eeprom_handler.sh[551]: Executing /usr/sbin/update-rc.d avahi-dnsconfd defaults
+Jan  1 00:01:42 CB-9160 eeprom_handler.sh[551]: insserv: warning: current start runlevel(s) (empty) of script `avahi-dnsconfd' overrides LSB defaults (2 3 4 5).
+Jan  1 00:01:42 CB-9160 eeprom_handler.sh[551]: insserv: warning: current stop runlevel(s) (0 1 2 3 4 5 6) of script `avahi-dnsconfd' overrides LSB defaults (0 1 6).
+Jan  1 00:01:42 CB-9160 systemd[1]: Reloading.
+Jan  1 00:01:43 CB-9160 eeprom_handler.sh[551]: Executing /usr/sbin/update-rc.d avahi-dnsconfd enable
+Jan  1 00:01:43 CB-9160 systemd[1]: Reloading.
+Jan  1 00:01:43 CB-9160 avahi-daemon[736]: Server startup complete. Host name is PZB00986.local. Local service cookie is 382832856.
+Jan  1 00:01:43 CB-9160 systemd[1]: Reloading.
+Jan  1 00:01:44 CB-9160 systemd[1]: Starting Avahi DNS Configuration Daemon...
+Jan  1 00:01:44 CB-9160 systemd[1]: Failed to reset devices.list on /system.slice: Invalid argument
+Jan  1 00:01:44 CB-9160 systemd[1]: Started Avahi DNS Configuration Daemon.
+Jan  1 00:01:44 CB-9160 avahi-dnsconfd[779]: Successfully connected to Avahi daemon.
+Jan  1 00:01:44 CB-9160 eeprom_handler.sh[551]: INFO: Entering avahi_hw_inventory.sh start
+Jan  1 00:01:44 CB-9160 eeprom_handler.sh[551]: start hw_inventory avahi service
+Jan  1 00:01:44 CB-9160 eeprom_handler.sh[551]: service started with pid : 829
+Jan  1 00:01:44 CB-9160 eeprom_handler.sh[551]: INFO: Updating /etc/shadow
+Jan  1 00:01:44 CB-9160 eeprom_handler.sh[551]: /etc/eeprom-cb/s.users does not exist
+Jan  1 00:01:44 CB-9160 systemd[1]: Started LEO EEPROM handler.
+Jan  1 00:01:44 CB-9160 systemd[1]: Starting Network.
+Jan  1 00:01:44 CB-9160 systemd[1]: Reached target Network.
+Jan  1 00:01:44 CB-9160 systemd[1]: Starting OpenBSD Secure Shell server...
+Jan  1 00:01:44 CB-9160 systemd[1]: Starting LEO Initialization...
+Jan  1 00:01:44 CB-9160 systemd[1]: Starting Gainsec Persistent Service...
+Jan  1 00:01:44 CB-9160 systemd[1]: Started Gainsec Persistent Service.
+Jan  1 00:01:44 CB-9160 systemd[1]: Starting /etc/rc.local Compatibility...
+Jan  1 00:01:44 CB-9160 systemd[1]: Starting Permit User Sessions...
+Jan  1 00:01:44 CB-9160 avahi-daemon[736]: Service "Kapsch-CB_9160-00:e0:6a:01:71:6b" (/services/default.service) successfully established.
+Jan  1 00:01:44 CB-9160 systemd[1]: Started /etc/rc.local Compatibility.
+Jan  1 00:01:44 CB-9160 systemd[1]: Started Permit User Sessions.
+Jan  1 00:01:44 CB-9160 systemd[1]: Starting Getty on tty1...
+Jan  1 00:01:44 CB-9160 systemd[1]: Started Getty on tty1.
+Jan  1 00:01:44 CB-9160 systemd[1]: Starting Serial Getty on ttyS0...
+Jan  1 00:01:44 CB-9160 systemd[1]: Started Serial Getty on ttyS0.
+Jan  1 00:01:44 CB-9160 systemd[1]: Starting Login Prompts.
+Jan  1 00:01:44 CB-9160 systemd[1]: Reached target Login Prompts.
+Jan  1 00:01:44 CB-9160 systemd[1]: Started OpenBSD Secure Shell server.
+Jan  4 05:16:29 CB-9160 systemd[1]: Time has been changed
+Jan  4 05:16:29 CB-9160 systemd[1]: Started LEO Initialization.
+Jan  4 05:16:29 CB-9160 systemd[1]: Starting LEO Kapsch Application...
+Jan  4 05:16:29 CB-9160 startup.sh[908]: ++ basename /mnt/c3platpersistent/startup.sh
+Jan  4 05:16:29 CB-9160 startup.sh[908]: + APP_SCR=startup.sh
+Jan  4 05:16:29 CB-9160 startup.sh[908]: ++ readlink -f /mnt/c3platpersistent/startup.sh
+Jan  4 05:16:29 CB-9160 startup.sh[908]: + SCRIPT=/mnt/c3platpersistent/startup.sh
+Jan  4 05:16:29 CB-9160 startup.sh[908]: ++ dirname /mnt/c3platpersistent/startup.sh
+Jan  4 05:16:29 CB-9160 startup.sh[908]: + ABSPATH=/mnt/c3platpersistent
+Jan  4 05:16:29 CB-9160 startup.sh[908]: + export STARTUP_LOG_PATH=/var/log/startup.d
+Jan  4 05:16:29 CB-9160 startup.sh[908]: + STARTUP_LOG_PATH=/var/log/startup.d
+Jan  4 05:16:29 CB-9160 startup.sh[908]: + export KAPSCH_ROOT=/mnt/c3platpersistent
+Jan  4 05:16:29 CB-9160 startup.sh[908]: + KAPSCH_ROOT=/mnt/c3platpersistent
+Jan  4 05:16:29 CB-9160 startup.sh[908]: + export PATH=/mnt/c3platpersistent/bin:/mnt/c3platpersistent/opt/its-g5/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+Jan  4 05:16:29 CB-9160 startup.sh[908]: + PATH=/mnt/c3platpersistent/bin:/mnt/c3platpersistent/opt/its-g5/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+Jan  4 05:16:29 CB-9160 startup.sh[908]: + export STARTUPD_PATH=/mnt/c3platpersistent/etc/startup.d/
+Jan  4 05:16:29 CB-9160 startup.sh[908]: + STARTUPD_PATH=/mnt/c3platpersistent/etc/startup.d/
+Jan  4 05:16:29 CB-9160 startup.sh[908]: + mkdir -p /mnt/c3platpersistent/var/log/coredump
+Jan  4 05:16:29 CB-9160 startup.sh[908]: + echo /mnt/c3platpersistent/var/log/coredump/%e_sig%s_%t.core
+Jan  4 05:16:29 CB-9160 startup.sh[908]: + ulimit -c unlimited
+Jan  4 05:16:29 CB-9160 startup.sh[908]: + export DEVEL=false
+Jan  4 05:16:29 CB-9160 startup.sh[908]: + DEVEL=false
+Jan  4 05:16:29 CB-9160 startup.sh[908]: + grep -q -- -DEVEL
+Jan  4 05:16:29 CB-9160 startup.sh[908]: + cat /etc/leo_version
+Jan  4 05:16:29 CB-9160 startup.sh[908]: ++ cat /mnt/c3platpersistent/etc/issue
+Jan  4 05:16:29 CB-9160 startup.sh[908]: ++ head -n 1
+Jan  4 05:16:29 CB-9160 startup.sh[908]: + export VARIANTRS=USDoT-QualcommCCA
+Jan  4 05:16:29 CB-9160 startup.sh[908]: + VARIANTRS=USDoT-QualcommCCA
+Jan  4 05:16:29 CB-9160 startup.sh[908]: + false
+Jan  4 05:16:29 CB-9160 startup.sh[908]: + logger 'startup.sh - variant is USDoT-QualcommCCA [Debug = ]'
+Jan  4 05:16:29 CB-9160 startup.sh[908]: + export STARTUPLOG=false
+Jan  4 05:16:29 CB-9160 startup.sh[908]: + STARTUPLOG=false
+Jan  4 05:16:29 CB-9160 startup.sh[908]: + true
+Jan  4 05:16:29 CB-9160 startup.sh[908]: + export STARTUPLOG=true
+Jan  4 05:16:29 CB-9160 startup.sh[908]: + STARTUPLOG=true
+Jan  4 05:16:29 CB-9160 startup.sh[908]: + logger 'startup.sh - forced startup logging'
+Jan  4 05:16:29 CB-9160 startup.sh[908]: + source /mnt/c3platpersistent/etc/roadside.cfg
+Jan  4 05:16:29 CB-9160 startup.sh[908]: ++ [[ false == false ]]
+Jan  4 05:16:29 CB-9160 startup.sh[908]: ++ [[ USDoT-QualcommCCA == ITSG5-HWEngland ]]
+Jan  4 05:16:29 CB-9160 startup.sh[908]: ++ export ROADSIDE_IPTABLES_ENABLED=false
+Jan  4 05:16:29 CB-9160 startup.sh[908]: ++ ROADSIDE_IPTABLES_ENABLED=false
+Jan  4 05:16:29 CB-9160 startup.sh[908]: ++ export CERTPATH=/mnt/c3platpersistent/share/its-g5-security-certs/
+Jan  4 05:16:29 CB-9160 startup.sh[908]: ++ CERTPATH=/mnt/c3platpersistent/share/its-g5-security-certs/
+Jan  4 05:16:29 CB-9160 startup.sh[908]: + '[' start = start ']'
+Jan  4 05:16:29 CB-9160 startup.sh[908]: ++ sort -V
+Jan  4 05:16:29 CB-9160 startup.sh[908]: ++ ls /mnt/c3platpersistent/etc/startup.d//000_begin.sh /mnt/c3platpersistent/etc/startup.d//001_configure_ld.so.cache.sh /mnt/c3platpersistent/etc/startup.d//004_create_admin_users.sh /mnt/c3platpersistent/etc/startup.d//005_led_flash.sh /mnt/c3platpersistent/etc/startup.d//008_handle_optionboard.sh /mnt/c3platpersistent/etc/startup.d//009_reset_radios.sh /mnt/c3platpersistent/etc/startup.d//010_load_firmware_radio_1.sh /mnt/c3platpersistent/etc/startup.d//011_remove_unused_driver.sh /mnt/c3platpersistent/etc/startup.d//012_load_llc_driver.sh /mnt/c3platpersistent/etc/startup.d//013_load_calibration_to_radio_1.sh /mnt/c3platpersistent/etc/startup.d//050_ssd.sh /mnt/c3platpersistent/etc/startup.d//070_setup_kapsch_bash.sh /mnt/c3platpersistent/etc/startup.d//100_check_production_data.sh /mnt/c3platpersistent/etc/startup.d//200_prepare_its-g5.sh /mnt/c3platpersistent/etc/startup.d//201_prepare_its_cca.sh /mnt/c3platpersistent/etc/startup.d//220_gpsd.sh /mnt/c3platpersistent/etc/startup.d//221_ntpd.sh /mnt/c3platpersistent/etc/startup.d//800_dircolors.sh /mnt/c3platpersistent/etc/startup.d//897_wait_cca_ready_flash.sh /mnt/c3platpersistent/etc/startup.d//898_wait_cca_ready_check.sh /mnt/c3platpersistent/etc/startup.d//900_prepare_cca.sh /mnt/c3platpersistent/etc/startup.d//940_application_startup.sh /mnt/c3platpersistent/etc/startup.d//953_cfgdb2stack.sh /mnt/c3platpersistent/etc/startup.d//955_snmpd.sh /mnt/c3platpersistent/etc/startup.d//960_ee2snmp.sh /mnt/c3platpersistent/etc/startup.d//971_backup-service.sh /mnt/c3platpersistent/etc/startup.d//990_led_green.sh /mnt/c3platpersistent/etc/startup.d//998_cron_jobs.sh /mnt/c3platpersistent/etc/startup.d//999_end.sh
+Jan  4 05:16:29 CB-9160 startup.sh[908]: + for unit in '`ls $STARTUPD_PATH/*.sh | sort -V`'
+Jan  4 05:16:29 CB-9160 startup.sh[908]: + start_stop_unit /mnt/c3platpersistent/etc/startup.d//000_begin.sh start
+Jan  4 05:16:29 CB-9160 startup.sh[908]: + unit=/mnt/c3platpersistent/etc/startup.d//000_begin.sh
+Jan  4 05:16:29 CB-9160 startup.sh[908]: ++ basename /mnt/c3platpersistent/etc/startup.d//000_begin.sh
+Jan  4 05:16:29 CB-9160 startup.sh[908]: + name=000_begin.sh
+Jan  4 05:16:29 CB-9160 startup.sh[908]: + '[' -x /mnt/c3platpersistent/etc/startup.d//000_begin.sh ']'
+Jan  4 05:16:29 CB-9160 startup.sh[908]: + logger 'startup.sh - going to execute /mnt/c3platpersistent/etc/startup.d//000_begin.sh'
+Jan  4 05:16:29 CB-9160 startup.sh[908]: + sleep 0.1
+Jan  4 05:16:29 CB-9160 startup.sh[908]: + [[ false == true ]]
+Jan  4 05:16:29 CB-9160 startup.sh[908]: + [[ true == true ]]
+Jan  4 05:16:29 CB-9160 startup.sh[908]: + mkdir -p /var/log/startup.d
+Jan  4 05:16:29 CB-9160 startup.sh[908]: + /mnt/c3platpersistent/etc/startup.d//000_begin.sh start
+Jan  4 05:16:31 CB-9160 systemd[1]: Time has been changed
+Jan  4 05:16:31 CB-9160 startup.sh[908]: + sleep 0.1
+Jan  4 05:16:31 CB-9160 startup.sh[908]: + for unit in '`ls $STARTUPD_PATH/*.sh | sort -V`'
+Jan  4 05:16:31 CB-9160 startup.sh[908]: + start_stop_unit /mnt/c3platpersistent/etc/startup.d//001_configure_ld.so.cache.sh start
+Jan  4 05:16:31 CB-9160 startup.sh[908]: + unit=/mnt/c3platpersistent/etc/startup.d//001_configure_ld.so.cache.sh
+Jan  4 05:16:31 CB-9160 startup.sh[908]: ++ basename /mnt/c3platpersistent/etc/startup.d//001_configure_ld.so.cache.sh
+Jan  4 05:16:31 CB-9160 startup.sh[908]: + name=001_configure_ld.so.cache.sh
+Jan  4 05:16:31 CB-9160 startup.sh[908]: + '[' -x /mnt/c3platpersistent/etc/startup.d//001_configure_ld.so.cache.sh ']'
+Jan  4 05:16:31 CB-9160 startup.sh[908]: + logger 'startup.sh - going to execute /mnt/c3platpersistent/etc/startup.d//001_configure_ld.so.cache.sh'
+Jan  4 05:16:31 CB-9160 startup.sh[908]: + sleep 0.1
+Jan  4 05:16:31 CB-9160 startup.sh[908]: + [[ false == true ]]
+Jan  4 05:16:31 CB-9160 startup.sh[908]: + [[ true == true ]]
+Jan  4 05:16:31 CB-9160 startup.sh[908]: + mkdir -p /var/log/startup.d
+Jan  4 05:16:31 CB-9160 startup.sh[908]: + /mnt/c3platpersistent/etc/startup.d//001_configure_ld.so.cache.sh start
+Jan  4 05:16:32 CB-9160 startup.sh[908]: + sleep 0.1
+Jan  4 05:16:33 CB-9160 startup.sh[908]: + for unit in '`ls $STARTUPD_PATH/*.sh | sort -V`'
+Jan  4 05:16:33 CB-9160 startup.sh[908]: + start_stop_unit /mnt/c3platpersistent/etc/startup.d//004_create_admin_users.sh start
+Jan  4 05:16:33 CB-9160 startup.sh[908]: + unit=/mnt/c3platpersistent/etc/startup.d//004_create_admin_users.sh
+Jan  4 05:16:33 CB-9160 startup.sh[908]: ++ basename /mnt/c3platpersistent/etc/startup.d//004_create_admin_users.sh
+Jan  4 05:16:33 CB-9160 startup.sh[908]: + name=004_create_admin_users.sh
+Jan  4 05:16:33 CB-9160 startup.sh[908]: + '[' -x /mnt/c3platpersistent/etc/startup.d//004_create_admin_users.sh ']'
+Jan  4 05:16:33 CB-9160 startup.sh[908]: + logger 'startup.sh - going to execute /mnt/c3platpersistent/etc/startup.d//004_create_admin_users.sh'
+Jan  4 05:16:33 CB-9160 startup.sh[908]: + sleep 0.1
+Jan  4 05:16:33 CB-9160 startup.sh[908]: + [[ false == true ]]
+Jan  4 05:16:33 CB-9160 startup.sh[908]: + [[ true == true ]]
+Jan  4 05:16:33 CB-9160 startup.sh[908]: + mkdir -p /var/log/startup.d
+Jan  4 05:16:33 CB-9160 startup.sh[908]: + /mnt/c3platpersistent/etc/startup.d//004_create_admin_users.sh start
+Jan  4 05:16:33 CB-9160 startup.sh[908]: + sleep 0.1
+Jan  4 05:16:33 CB-9160 startup.sh[908]: + for unit in '`ls $STARTUPD_PATH/*.sh | sort -V`'
+Jan  4 05:16:33 CB-9160 startup.sh[908]: + start_stop_unit /mnt/c3platpersistent/etc/startup.d//005_led_flash.sh start
+Jan  4 05:16:33 CB-9160 startup.sh[908]: + unit=/mnt/c3platpersistent/etc/startup.d//005_led_flash.sh
+Jan  4 05:16:33 CB-9160 startup.sh[908]: ++ basename /mnt/c3platpersistent/etc/startup.d//005_led_flash.sh
+Jan  4 05:16:33 CB-9160 startup.sh[908]: + name=005_led_flash.sh
+Jan  4 05:16:33 CB-9160 startup.sh[908]: + '[' -x /mnt/c3platpersistent/etc/startup.d//005_led_flash.sh ']'
+Jan  4 05:16:33 CB-9160 startup.sh[908]: + logger 'startup.sh - going to execute /mnt/c3platpersistent/etc/startup.d//005_led_flash.sh'
+Jan  4 05:16:33 CB-9160 startup.sh[908]: + sleep 0.1
+Jan  4 05:16:33 CB-9160 startup.sh[908]: + [[ false == true ]]
+Jan  4 05:16:33 CB-9160 startup.sh[908]: + [[ true == true ]]
+Jan  4 05:16:33 CB-9160 startup.sh[908]: + mkdir -p /var/log/startup.d
+Jan  4 05:16:33 CB-9160 startup.sh[908]: + /mnt/c3platpersistent/etc/startup.d//005_led_flash.sh start
+Jan  4 05:16:34 CB-9160 startup.sh[908]: + sleep 0.1
+Jan  4 05:16:34 CB-9160 startup.sh[908]: + for unit in '`ls $STARTUPD_PATH/*.sh | sort -V`'
+Jan  4 05:16:34 CB-9160 startup.sh[908]: + start_stop_unit /mnt/c3platpersistent/etc/startup.d//008_handle_optionboard.sh start
+Jan  4 05:16:34 CB-9160 startup.sh[908]: + unit=/mnt/c3platpersistent/etc/startup.d//008_handle_optionboard.sh
+Jan  4 05:16:34 CB-9160 startup.sh[908]: ++ basename /mnt/c3platpersistent/etc/startup.d//008_handle_optionboard.sh
+Jan  4 05:16:34 CB-9160 startup.sh[908]: + name=008_handle_optionboard.sh
+Jan  4 05:16:34 CB-9160 startup.sh[908]: + '[' -x /mnt/c3platpersistent/etc/startup.d//008_handle_optionboard.sh ']'
+Jan  4 05:16:34 CB-9160 startup.sh[908]: + logger 'startup.sh - going to execute /mnt/c3platpersistent/etc/startup.d//008_handle_optionboard.sh'
+Jan  4 05:16:34 CB-9160 startup.sh[908]: + sleep 0.1
+Jan  4 05:16:34 CB-9160 startup.sh[908]: + [[ false == true ]]
+Jan  4 05:16:34 CB-9160 startup.sh[908]: + [[ true == true ]]
+Jan  4 05:16:34 CB-9160 startup.sh[908]: + mkdir -p /var/log/startup.d
+Jan  4 05:16:34 CB-9160 startup.sh[908]: + /mnt/c3platpersistent/etc/startup.d//008_handle_optionboard.sh start
+Jan  4 05:16:34 CB-9160 avahi-daemon[736]: Withdrawing workstation service for wwan0.
+Jan  4 05:16:34 CB-9160 startup.sh[908]: + sleep 0.1
+Jan  4 05:16:34 CB-9160 startup.sh[908]: + for unit in '`ls $STARTUPD_PATH/*.sh | sort -V`'
+Jan  4 05:16:34 CB-9160 startup.sh[908]: + start_stop_unit /mnt/c3platpersistent/etc/startup.d//009_reset_radios.sh start
+Jan  4 05:16:34 CB-9160 startup.sh[908]: + unit=/mnt/c3platpersistent/etc/startup.d//009_reset_radios.sh
+Jan  4 05:16:34 CB-9160 startup.sh[908]: ++ basename /mnt/c3platpersistent/etc/startup.d//009_reset_radios.sh
+Jan  4 05:16:34 CB-9160 startup.sh[908]: + name=009_reset_radios.sh
+Jan  4 05:16:34 CB-9160 startup.sh[908]: + '[' -x /mnt/c3platpersistent/etc/startup.d//009_reset_radios.sh ']'
+Jan  4 05:16:34 CB-9160 startup.sh[908]: + logger 'startup.sh - going to execute /mnt/c3platpersistent/etc/startup.d//009_reset_radios.sh'
+Jan  4 05:16:34 CB-9160 startup.sh[908]: + sleep 0.1
+Jan  4 05:16:35 CB-9160 startup.sh[908]: + [[ false == true ]]
+Jan  4 05:16:35 CB-9160 startup.sh[908]: + [[ true == true ]]
+Jan  4 05:16:35 CB-9160 startup.sh[908]: + mkdir -p /var/log/startup.d
+Jan  4 05:16:35 CB-9160 startup.sh[908]: + /mnt/c3platpersistent/etc/startup.d//009_reset_radios.sh start
+Jan  4 05:16:35 CB-9160 startup.sh[908]: + sleep 0.1
+Jan  4 05:16:35 CB-9160 startup.sh[908]: + for unit in '`ls $STARTUPD_PATH/*.sh | sort -V`'
+Jan  4 05:16:35 CB-9160 startup.sh[908]: + start_stop_unit /mnt/c3platpersistent/etc/startup.d//010_load_firmware_radio_1.sh start
+Jan  4 05:16:35 CB-9160 startup.sh[908]: + unit=/mnt/c3platpersistent/etc/startup.d//010_load_firmware_radio_1.sh
+Jan  4 05:16:35 CB-9160 startup.sh[908]: ++ basename /mnt/c3platpersistent/etc/startup.d//010_load_firmware_radio_1.sh
+Jan  4 05:16:35 CB-9160 startup.sh[908]: + name=010_load_firmware_radio_1.sh
+Jan  4 05:16:35 CB-9160 startup.sh[908]: + '[' -x /mnt/c3platpersistent/etc/startup.d//010_load_firmware_radio_1.sh ']'
+Jan  4 05:16:35 CB-9160 startup.sh[908]: + logger 'startup.sh - going to execute /mnt/c3platpersistent/etc/startup.d//010_load_firmware_radio_1.sh'
+Jan  4 05:16:35 CB-9160 startup.sh[908]: + sleep 0.1
+Jan  4 05:16:35 CB-9160 startup.sh[908]: + [[ false == true ]]
+Jan  4 05:16:35 CB-9160 startup.sh[908]: + [[ true == true ]]
+Jan  4 05:16:35 CB-9160 startup.sh[908]: + mkdir -p /var/log/startup.d
+Jan  4 05:16:35 CB-9160 startup.sh[908]: + /mnt/c3platpersistent/etc/startup.d//010_load_firmware_radio_1.sh start
+Jan  4 05:16:35 CB-9160 startup.sh[908]: + sleep 0.1
+Jan  4 05:16:35 CB-9160 startup.sh[908]: + for unit in '`ls $STARTUPD_PATH/*.sh | sort -V`'
+Jan  4 05:16:35 CB-9160 startup.sh[908]: + start_stop_unit /mnt/c3platpersistent/etc/startup.d//011_remove_unused_driver.sh start
+Jan  4 05:16:35 CB-9160 startup.sh[908]: + unit=/mnt/c3platpersistent/etc/startup.d//011_remove_unused_driver.sh
+Jan  4 05:16:35 CB-9160 startup.sh[908]: ++ basename /mnt/c3platpersistent/etc/startup.d//011_remove_unused_driver.sh
+Jan  4 05:16:35 CB-9160 startup.sh[908]: + name=011_remove_unused_driver.sh
+Jan  4 05:16:35 CB-9160 startup.sh[908]: + '[' -x /mnt/c3platpersistent/etc/startup.d//011_remove_unused_driver.sh ']'
+Jan  4 05:16:35 CB-9160 startup.sh[908]: + logger 'startup.sh - going to execute /mnt/c3platpersistent/etc/startup.d//011_remove_unused_driver.sh'
+Jan  4 05:16:35 CB-9160 startup.sh[908]: + sleep 0.1
+Jan  4 05:16:35 CB-9160 startup.sh[908]: + [[ false == true ]]
+Jan  4 05:16:35 CB-9160 startup.sh[908]: + [[ true == true ]]
+Jan  4 05:16:35 CB-9160 startup.sh[908]: + mkdir -p /var/log/startup.d
+Jan  4 05:16:35 CB-9160 startup.sh[908]: + /mnt/c3platpersistent/etc/startup.d//011_remove_unused_driver.sh start
+Jan  4 05:16:35 CB-9160 startup.sh[908]: + sleep 0.1
+Jan  4 05:16:35 CB-9160 startup.sh[908]: + for unit in '`ls $STARTUPD_PATH/*.sh | sort -V`'
+Jan  4 05:16:35 CB-9160 startup.sh[908]: + start_stop_unit /mnt/c3platpersistent/etc/startup.d//012_load_llc_driver.sh start
+Jan  4 05:16:35 CB-9160 startup.sh[908]: + unit=/mnt/c3platpersistent/etc/startup.d//012_load_llc_driver.sh
+Jan  4 05:16:35 CB-9160 startup.sh[908]: ++ basename /mnt/c3platpersistent/etc/startup.d//012_load_llc_driver.sh
+Jan  4 05:16:35 CB-9160 startup.sh[908]: + name=012_load_llc_driver.sh
+Jan  4 05:16:35 CB-9160 startup.sh[908]: + '[' -x /mnt/c3platpersistent/etc/startup.d//012_load_llc_driver.sh ']'
+Jan  4 05:16:35 CB-9160 startup.sh[908]: + logger 'startup.sh - going to execute /mnt/c3platpersistent/etc/startup.d//012_load_llc_driver.sh'
+Jan  4 05:16:35 CB-9160 startup.sh[908]: + sleep 0.1
+Jan  4 05:16:35 CB-9160 startup.sh[908]: + [[ false == true ]]
+Jan  4 05:16:35 CB-9160 startup.sh[908]: + [[ true == true ]]
+Jan  4 05:16:35 CB-9160 startup.sh[908]: + mkdir -p /var/log/startup.d
+Jan  4 05:16:35 CB-9160 startup.sh[908]: + /mnt/c3platpersistent/etc/startup.d//012_load_llc_driver.sh start
+Jan  4 05:16:35 CB-9160 startup.sh[908]: + sleep 0.1
+Jan  4 05:16:36 CB-9160 startup.sh[908]: + for unit in '`ls $STARTUPD_PATH/*.sh | sort -V`'
+Jan  4 05:16:36 CB-9160 startup.sh[908]: + start_stop_unit /mnt/c3platpersistent/etc/startup.d//013_load_calibration_to_radio_1.sh start
+Jan  4 05:16:36 CB-9160 startup.sh[908]: + unit=/mnt/c3platpersistent/etc/startup.d//013_load_calibration_to_radio_1.sh
+Jan  4 05:16:36 CB-9160 startup.sh[908]: ++ basename /mnt/c3platpersistent/etc/startup.d//013_load_calibration_to_radio_1.sh
+Jan  4 05:16:36 CB-9160 startup.sh[908]: + name=013_load_calibration_to_radio_1.sh
+Jan  4 05:16:36 CB-9160 startup.sh[908]: + '[' -x /mnt/c3platpersistent/etc/startup.d//013_load_calibration_to_radio_1.sh ']'
+Jan  4 05:16:36 CB-9160 startup.sh[908]: + logger 'startup.sh - going to execute /mnt/c3platpersistent/etc/startup.d//013_load_calibration_to_radio_1.sh'
+Jan  4 05:16:36 CB-9160 startup.sh[908]: + sleep 0.1
+Jan  4 05:16:36 CB-9160 startup.sh[908]: + [[ false == true ]]
+Jan  4 05:16:36 CB-9160 startup.sh[908]: + [[ true == true ]]
+Jan  4 05:16:36 CB-9160 startup.sh[908]: + mkdir -p /var/log/startup.d
+Jan  4 05:16:36 CB-9160 startup.sh[908]: + /mnt/c3platpersistent/etc/startup.d//013_load_calibration_to_radio_1.sh start
+Jan  4 05:16:36 CB-9160 startup.sh[908]: + sleep 0.1
+Jan  4 05:16:36 CB-9160 startup.sh[908]: + for unit in '`ls $STARTUPD_PATH/*.sh | sort -V`'
+Jan  4 05:16:36 CB-9160 startup.sh[908]: + start_stop_unit /mnt/c3platpersistent/etc/startup.d//050_ssd.sh start
+Jan  4 05:16:36 CB-9160 startup.sh[908]: + unit=/mnt/c3platpersistent/etc/startup.d//050_ssd.sh
+Jan  4 05:16:36 CB-9160 startup.sh[908]: ++ basename /mnt/c3platpersistent/etc/startup.d//050_ssd.sh
+Jan  4 05:16:36 CB-9160 startup.sh[908]: + name=050_ssd.sh
+Jan  4 05:16:36 CB-9160 startup.sh[908]: + '[' -x /mnt/c3platpersistent/etc/startup.d//050_ssd.sh ']'
+Jan  4 05:16:36 CB-9160 startup.sh[908]: + logger 'startup.sh - going to execute /mnt/c3platpersistent/etc/startup.d//050_ssd.sh'
+Jan  4 05:16:36 CB-9160 startup.sh[908]: + sleep 0.1
+Jan  4 05:16:36 CB-9160 startup.sh[908]: + [[ false == true ]]
+Jan  4 05:16:36 CB-9160 startup.sh[908]: + [[ true == true ]]
+Jan  4 05:16:36 CB-9160 startup.sh[908]: + mkdir -p /var/log/startup.d
+Jan  4 05:16:36 CB-9160 startup.sh[908]: + /mnt/c3platpersistent/etc/startup.d//050_ssd.sh start
+Jan  4 05:16:36 CB-9160 startup.sh[908]: + sleep 0.1
+Jan  4 05:16:36 CB-9160 startup.sh[908]: + for unit in '`ls $STARTUPD_PATH/*.sh | sort -V`'
+Jan  4 05:16:36 CB-9160 startup.sh[908]: + start_stop_unit /mnt/c3platpersistent/etc/startup.d//070_setup_kapsch_bash.sh start
+Jan  4 05:16:36 CB-9160 startup.sh[908]: + unit=/mnt/c3platpersistent/etc/startup.d//070_setup_kapsch_bash.sh
+Jan  4 05:16:36 CB-9160 startup.sh[908]: ++ basename /mnt/c3platpersistent/etc/startup.d//070_setup_kapsch_bash.sh
+Jan  4 05:16:36 CB-9160 startup.sh[908]: + name=070_setup_kapsch_bash.sh
+Jan  4 05:16:36 CB-9160 startup.sh[908]: + '[' -x /mnt/c3platpersistent/etc/startup.d//070_setup_kapsch_bash.sh ']'
+Jan  4 05:16:36 CB-9160 startup.sh[908]: + logger 'startup.sh - going to execute /mnt/c3platpersistent/etc/startup.d//070_setup_kapsch_bash.sh'
+Jan  4 05:16:36 CB-9160 startup.sh[908]: + sleep 0.1
+Jan  4 05:16:36 CB-9160 startup.sh[908]: + [[ false == true ]]
+Jan  4 05:16:36 CB-9160 startup.sh[908]: + [[ true == true ]]
+Jan  4 05:16:36 CB-9160 startup.sh[908]: + mkdir -p /var/log/startup.d
+Jan  4 05:16:36 CB-9160 startup.sh[908]: + /mnt/c3platpersistent/etc/startup.d//070_setup_kapsch_bash.sh start
+Jan  4 05:16:36 CB-9160 startup.sh[908]: + sleep 0.1
+Jan  4 05:16:36 CB-9160 startup.sh[908]: + for unit in '`ls $STARTUPD_PATH/*.sh | sort -V`'
+Jan  4 05:16:36 CB-9160 startup.sh[908]: + start_stop_unit /mnt/c3platpersistent/etc/startup.d//100_check_production_data.sh start
+Jan  4 05:16:36 CB-9160 startup.sh[908]: + unit=/mnt/c3platpersistent/etc/startup.d//100_check_production_data.sh
+Jan  4 05:16:36 CB-9160 startup.sh[908]: ++ basename /mnt/c3platpersistent/etc/startup.d//100_check_production_data.sh
+Jan  4 05:16:36 CB-9160 startup.sh[908]: + name=100_check_production_data.sh
+Jan  4 05:16:36 CB-9160 startup.sh[908]: + '[' -x /mnt/c3platpersistent/etc/startup.d//100_check_production_data.sh ']'
+Jan  4 05:16:36 CB-9160 startup.sh[908]: + logger 'startup.sh - going to execute /mnt/c3platpersistent/etc/startup.d//100_check_production_data.sh'
+Jan  4 05:16:36 CB-9160 startup.sh[908]: + sleep 0.1
+Jan  4 05:16:36 CB-9160 startup.sh[908]: + [[ false == true ]]
+Jan  4 05:16:36 CB-9160 startup.sh[908]: + [[ true == true ]]
+Jan  4 05:16:36 CB-9160 startup.sh[908]: + mkdir -p /var/log/startup.d
+Jan  4 05:16:36 CB-9160 startup.sh[908]: + /mnt/c3platpersistent/etc/startup.d//100_check_production_data.sh start
+Jan  4 05:16:36 CB-9160 startup.sh[908]: + sleep 0.1
+Jan  4 05:16:37 CB-9160 startup.sh[908]: + for unit in '`ls $STARTUPD_PATH/*.sh | sort -V`'
+Jan  4 05:16:37 CB-9160 startup.sh[908]: + start_stop_unit /mnt/c3platpersistent/etc/startup.d//200_prepare_its-g5.sh start
+Jan  4 05:16:37 CB-9160 startup.sh[908]: + unit=/mnt/c3platpersistent/etc/startup.d//200_prepare_its-g5.sh
+Jan  4 05:16:37 CB-9160 startup.sh[908]: ++ basename /mnt/c3platpersistent/etc/startup.d//200_prepare_its-g5.sh
+Jan  4 05:16:37 CB-9160 startup.sh[908]: + name=200_prepare_its-g5.sh
+Jan  4 05:16:37 CB-9160 startup.sh[908]: + '[' -x /mnt/c3platpersistent/etc/startup.d//200_prepare_its-g5.sh ']'
+Jan  4 05:16:37 CB-9160 startup.sh[908]: + logger 'startup.sh - going to execute /mnt/c3platpersistent/etc/startup.d//200_prepare_its-g5.sh'
+Jan  4 05:16:37 CB-9160 startup.sh[908]: + sleep 0.1
+Jan  4 05:16:37 CB-9160 startup.sh[908]: + [[ false == true ]]
+Jan  4 05:16:37 CB-9160 startup.sh[908]: + [[ true == true ]]
+Jan  4 05:16:37 CB-9160 startup.sh[908]: + mkdir -p /var/log/startup.d
+Jan  4 05:16:37 CB-9160 startup.sh[908]: + /mnt/c3platpersistent/etc/startup.d//200_prepare_its-g5.sh start
+Jan  4 05:16:37 CB-9160 startup.sh[908]: + sleep 0.1
+Jan  4 05:16:37 CB-9160 startup.sh[908]: + for unit in '`ls $STARTUPD_PATH/*.sh | sort -V`'
+Jan  4 05:16:37 CB-9160 startup.sh[908]: + start_stop_unit /mnt/c3platpersistent/etc/startup.d//201_prepare_its_cca.sh start
+Jan  4 05:16:37 CB-9160 startup.sh[908]: + unit=/mnt/c3platpersistent/etc/startup.d//201_prepare_its_cca.sh
+Jan  4 05:16:37 CB-9160 startup.sh[908]: ++ basename /mnt/c3platpersistent/etc/startup.d//201_prepare_its_cca.sh
+Jan  4 05:16:37 CB-9160 startup.sh[908]: + name=201_prepare_its_cca.sh
+Jan  4 05:16:37 CB-9160 startup.sh[908]: + '[' -x /mnt/c3platpersistent/etc/startup.d//201_prepare_its_cca.sh ']'
+Jan  4 05:16:37 CB-9160 startup.sh[908]: + logger 'startup.sh - going to execute /mnt/c3platpersistent/etc/startup.d//201_prepare_its_cca.sh'
+Jan  4 05:16:37 CB-9160 startup.sh[908]: + sleep 0.1
+Jan  4 05:16:37 CB-9160 startup.sh[908]: + [[ false == true ]]
+Jan  4 05:16:37 CB-9160 startup.sh[908]: + [[ true == true ]]
+Jan  4 05:16:37 CB-9160 startup.sh[908]: + mkdir -p /var/log/startup.d
+Jan  4 05:16:37 CB-9160 startup.sh[908]: + /mnt/c3platpersistent/etc/startup.d//201_prepare_its_cca.sh start
+Jan  4 05:16:37 CB-9160 startup.sh[908]: + sleep 0.1
+Jan  4 05:16:37 CB-9160 startup.sh[908]: + for unit in '`ls $STARTUPD_PATH/*.sh | sort -V`'
+Jan  4 05:16:37 CB-9160 startup.sh[908]: + start_stop_unit /mnt/c3platpersistent/etc/startup.d//220_gpsd.sh start
+Jan  4 05:16:37 CB-9160 startup.sh[908]: + unit=/mnt/c3platpersistent/etc/startup.d//220_gpsd.sh
+Jan  4 05:16:37 CB-9160 startup.sh[908]: ++ basename /mnt/c3platpersistent/etc/startup.d//220_gpsd.sh
+Jan  4 05:16:37 CB-9160 startup.sh[908]: + name=220_gpsd.sh
+Jan  4 05:16:37 CB-9160 startup.sh[908]: + '[' -x /mnt/c3platpersistent/etc/startup.d//220_gpsd.sh ']'
+Jan  4 05:16:37 CB-9160 startup.sh[908]: + logger 'startup.sh - going to execute /mnt/c3platpersistent/etc/startup.d//220_gpsd.sh'
+Jan  4 05:16:37 CB-9160 startup.sh[908]: + sleep 0.1
+Jan  4 05:16:37 CB-9160 startup.sh[908]: + [[ false == true ]]
+Jan  4 05:16:37 CB-9160 startup.sh[908]: + [[ true == true ]]
+Jan  4 05:16:37 CB-9160 startup.sh[908]: + mkdir -p /var/log/startup.d
+Jan  4 05:16:37 CB-9160 startup.sh[908]: + /mnt/c3platpersistent/etc/startup.d//220_gpsd.sh start
+Jan  4 05:16:37 CB-9160 systemd[1]: Starting GPS (Global Positioning System) Daemon Sockets.
+Jan  4 05:16:37 CB-9160 systemd[1]: gpsd.socket failed to listen on sockets: Cannot assign requested address
+Jan  4 05:16:37 CB-9160 systemd[1]: Failed to listen on GPS (Global Positioning System) Daemon Sockets.
+Jan  4 05:16:37 CB-9160 systemd[1]: Dependency failed for GPS (Global Positioning System) Daemon.
+Jan  4 05:16:37 CB-9160 systemd[1]: Unit gpsd.socket entered failed state.
+Jan  4 05:16:37 CB-9160 startup.sh[908]: + sleep 0.1
+Jan  4 05:16:37 CB-9160 startup.sh[908]: + for unit in '`ls $STARTUPD_PATH/*.sh | sort -V`'
+Jan  4 05:16:37 CB-9160 startup.sh[908]: + start_stop_unit /mnt/c3platpersistent/etc/startup.d//221_ntpd.sh start
+Jan  4 05:16:37 CB-9160 startup.sh[908]: + unit=/mnt/c3platpersistent/etc/startup.d//221_ntpd.sh
+Jan  4 05:16:37 CB-9160 startup.sh[908]: ++ basename /mnt/c3platpersistent/etc/startup.d//221_ntpd.sh
+Jan  4 05:16:37 CB-9160 startup.sh[908]: + name=221_ntpd.sh
+Jan  4 05:16:37 CB-9160 startup.sh[908]: + '[' -x /mnt/c3platpersistent/etc/startup.d//221_ntpd.sh ']'
+Jan  4 05:16:37 CB-9160 startup.sh[908]: + logger 'startup.sh - going to execute /mnt/c3platpersistent/etc/startup.d//221_ntpd.sh'
+Jan  4 05:16:37 CB-9160 startup.sh[908]: + sleep 0.1
+Jan  4 05:16:38 CB-9160 startup.sh[908]: + [[ false == true ]]
+Jan  4 05:16:38 CB-9160 startup.sh[908]: + [[ true == true ]]
+Jan  4 05:16:38 CB-9160 startup.sh[908]: + mkdir -p /var/log/startup.d
+Jan  4 05:16:38 CB-9160 startup.sh[908]: + /mnt/c3platpersistent/etc/startup.d//221_ntpd.sh start
+Jan  4 05:16:38 CB-9160 systemd[1]: Starting Network is Online.
+Jan  4 05:16:38 CB-9160 systemd[1]: Reached target Network is Online.
+Jan  4 05:16:38 CB-9160 systemd[1]: Starting LSB: Start NTP daemon...
+Jan  4 05:16:38 CB-9160 ntpd[1499]: ntpd 4.2.8p10@1.3728-o Mon Oct  2 12:06:40 UTC 2017 (1): Starting
+Jan  4 05:16:38 CB-9160 ntpd[1499]: Command line: /usr/sbin/ntpd -p /var/run/ntpd.pid -c /etc/ntpd.conf -g
+Jan  4 05:16:38 CB-9160 ntp[1492]: Starting NTP server: ntpd.
+Jan  4 05:16:38 CB-9160 systemd[1]: Started LSB: Start NTP daemon.
+Jan  4 05:16:38 CB-9160 ntpd[1501]: proto: precision = 0.982 usec (-20)
+Jan  4 05:16:38 CB-9160 ntpd[1501]: line 29 column 0 syntax error, unexpected T_String, expecting $end
+Jan  4 05:16:38 CB-9160 ntpd[1501]: syntax error in /etc/ntpd.conf line 29, column 0
+Jan  4 05:16:38 CB-9160 ntpd[1501]: syntax error in /etc/ntpd.conf line 29, column 0
+Jan  4 05:16:38 CB-9160 ntpd[1501]: syntax error in /etc/ntpd.conf line 29, column 0
+Jan  4 05:16:38 CB-9160 ntpd[1501]: restrict default: KOD does nothing without LIMITED.
+Jan  4 05:16:38 CB-9160 ntpd[1501]: restrict ::: KOD does nothing without LIMITED.
+Jan  4 05:16:38 CB-9160 ntpd[1501]: switching logging to file /var/log/ntp.log
+Jan  4 05:16:39 CB-9160 startup.sh[908]: + sleep 0.1
+Jan  4 05:16:39 CB-9160 startup.sh[908]: + for unit in '`ls $STARTUPD_PATH/*.sh | sort -V`'
+Jan  4 05:16:39 CB-9160 startup.sh[908]: + start_stop_unit /mnt/c3platpersistent/etc/startup.d//800_dircolors.sh start
+Jan  4 05:16:39 CB-9160 startup.sh[908]: + unit=/mnt/c3platpersistent/etc/startup.d//800_dircolors.sh
+Jan  4 05:16:39 CB-9160 startup.sh[908]: ++ basename /mnt/c3platpersistent/etc/startup.d//800_dircolors.sh
+Jan  4 05:16:39 CB-9160 startup.sh[908]: + name=800_dircolors.sh
+Jan  4 05:16:39 CB-9160 startup.sh[908]: + '[' -x /mnt/c3platpersistent/etc/startup.d//800_dircolors.sh ']'
+Jan  4 05:16:39 CB-9160 startup.sh[908]: + logger 'startup.sh - going to execute /mnt/c3platpersistent/etc/startup.d//800_dircolors.sh'
+Jan  4 05:16:39 CB-9160 startup.sh[908]: + sleep 0.1
+Jan  4 05:16:39 CB-9160 startup.sh[908]: + [[ false == true ]]
+Jan  4 05:16:39 CB-9160 startup.sh[908]: + [[ true == true ]]
+Jan  4 05:16:39 CB-9160 startup.sh[908]: + mkdir -p /var/log/startup.d
+Jan  4 05:16:39 CB-9160 startup.sh[908]: + /mnt/c3platpersistent/etc/startup.d//800_dircolors.sh start
+Jan  4 05:16:39 CB-9160 startup.sh[908]: + sleep 0.1
+Jan  4 05:16:39 CB-9160 startup.sh[908]: + for unit in '`ls $STARTUPD_PATH/*.sh | sort -V`'
+Jan  4 05:16:39 CB-9160 startup.sh[908]: + start_stop_unit /mnt/c3platpersistent/etc/startup.d//897_wait_cca_ready_flash.sh start
+Jan  4 05:16:39 CB-9160 startup.sh[908]: + unit=/mnt/c3platpersistent/etc/startup.d//897_wait_cca_ready_flash.sh
+Jan  4 05:16:39 CB-9160 startup.sh[908]: ++ basename /mnt/c3platpersistent/etc/startup.d//897_wait_cca_ready_flash.sh
+Jan  4 05:16:39 CB-9160 startup.sh[908]: + name=897_wait_cca_ready_flash.sh
+Jan  4 05:16:39 CB-9160 startup.sh[908]: + '[' -x /mnt/c3platpersistent/etc/startup.d//897_wait_cca_ready_flash.sh ']'
+Jan  4 05:16:39 CB-9160 startup.sh[908]: + logger 'startup.sh - going to execute /mnt/c3platpersistent/etc/startup.d//897_wait_cca_ready_flash.sh'
+Jan  4 05:16:39 CB-9160 startup.sh[908]: + sleep 0.1
+Jan  4 05:16:39 CB-9160 startup.sh[908]: + [[ false == true ]]
+Jan  4 05:16:39 CB-9160 startup.sh[908]: + [[ true == true ]]
+Jan  4 05:16:39 CB-9160 startup.sh[908]: + mkdir -p /var/log/startup.d
+Jan  4 05:16:39 CB-9160 startup.sh[908]: + /mnt/c3platpersistent/etc/startup.d//897_wait_cca_ready_flash.sh start
+Jan  4 05:16:39 CB-9160 startup.sh[908]: + sleep 0.1
+Jan  4 05:16:39 CB-9160 startup.sh[908]: + for unit in '`ls $STARTUPD_PATH/*.sh | sort -V`'
+Jan  4 05:16:39 CB-9160 startup.sh[908]: + start_stop_unit /mnt/c3platpersistent/etc/startup.d//898_wait_cca_ready_check.sh start
+Jan  4 05:16:39 CB-9160 startup.sh[908]: + unit=/mnt/c3platpersistent/etc/startup.d//898_wait_cca_ready_check.sh
+Jan  4 05:16:39 CB-9160 startup.sh[908]: ++ basename /mnt/c3platpersistent/etc/startup.d//898_wait_cca_ready_check.sh
+Jan  4 05:16:39 CB-9160 startup.sh[908]: + name=898_wait_cca_ready_check.sh
+Jan  4 05:16:39 CB-9160 startup.sh[908]: + '[' -x /mnt/c3platpersistent/etc/startup.d//898_wait_cca_ready_check.sh ']'
+Jan  4 05:16:39 CB-9160 startup.sh[908]: + logger 'startup.sh - going to execute /mnt/c3platpersistent/etc/startup.d//898_wait_cca_ready_check.sh'
+Jan  4 05:16:39 CB-9160 startup.sh[908]: + sleep 0.1
+Jan  4 05:16:39 CB-9160 startup.sh[908]: + [[ false == true ]]
+Jan  4 05:16:39 CB-9160 startup.sh[908]: + [[ true == true ]]
+Jan  4 05:16:39 CB-9160 startup.sh[908]: + mkdir -p /var/log/startup.d
+Jan  4 05:16:39 CB-9160 startup.sh[908]: + /mnt/c3platpersistent/etc/startup.d//898_wait_cca_ready_check.sh start
+Jan  4 05:19:22 CB-9160 startup.sh[908]: + sleep 0.1
+Jan  4 05:19:22 CB-9160 startup.sh[908]: + for unit in '`ls $STARTUPD_PATH/*.sh | sort -V`'
+Jan  4 05:19:22 CB-9160 startup.sh[908]: + start_stop_unit /mnt/c3platpersistent/etc/startup.d//900_prepare_cca.sh start
+Jan  4 05:19:22 CB-9160 startup.sh[908]: + unit=/mnt/c3platpersistent/etc/startup.d//900_prepare_cca.sh
+Jan  4 05:19:22 CB-9160 startup.sh[908]: ++ basename /mnt/c3platpersistent/etc/startup.d//900_prepare_cca.sh
+Jan  4 05:19:22 CB-9160 startup.sh[908]: + name=900_prepare_cca.sh
+Jan  4 05:19:22 CB-9160 startup.sh[908]: + '[' -x /mnt/c3platpersistent/etc/startup.d//900_prepare_cca.sh ']'
+Jan  4 05:19:22 CB-9160 startup.sh[908]: + logger 'startup.sh - going to execute /mnt/c3platpersistent/etc/startup.d//900_prepare_cca.sh'
+Jan  4 05:19:22 CB-9160 startup.sh[908]: + sleep 0.1
+Jan  4 05:19:22 CB-9160 startup.sh[908]: + [[ false == true ]]
+Jan  4 05:19:22 CB-9160 startup.sh[908]: + [[ true == true ]]
+Jan  4 05:19:22 CB-9160 startup.sh[908]: + mkdir -p /var/log/startup.d
+Jan  4 05:19:22 CB-9160 startup.sh[908]: + /mnt/c3platpersistent/etc/startup.d//900_prepare_cca.sh start
+Jan  4 05:20:37 CB-9160 startup.sh[908]: + sleep 0.1
+Jan  4 05:20:37 CB-9160 startup.sh[908]: + for unit in '`ls $STARTUPD_PATH/*.sh | sort -V`'
+Jan  4 05:20:37 CB-9160 startup.sh[908]: + start_stop_unit /mnt/c3platpersistent/etc/startup.d//940_application_startup.sh start
+Jan  4 05:20:37 CB-9160 startup.sh[908]: + unit=/mnt/c3platpersistent/etc/startup.d//940_application_startup.sh
+Jan  4 05:20:37 CB-9160 startup.sh[908]: ++ basename /mnt/c3platpersistent/etc/startup.d//940_application_startup.sh
+Jan  4 05:20:37 CB-9160 startup.sh[908]: + name=940_application_startup.sh
+Jan  4 05:20:37 CB-9160 startup.sh[908]: + '[' -x /mnt/c3platpersistent/etc/startup.d//940_application_startup.sh ']'
+Jan  4 05:20:37 CB-9160 startup.sh[908]: + logger 'startup.sh - going to execute /mnt/c3platpersistent/etc/startup.d//940_application_startup.sh'
+Jan  4 05:20:37 CB-9160 startup.sh[908]: + sleep 0.1
+Jan  4 05:20:37 CB-9160 startup.sh[908]: + [[ false == true ]]
+Jan  4 05:20:37 CB-9160 startup.sh[908]: + [[ true == true ]]
+Jan  4 05:20:37 CB-9160 startup.sh[908]: + mkdir -p /var/log/startup.d
+Jan  4 05:20:37 CB-9160 startup.sh[908]: + /mnt/c3platpersistent/etc/startup.d//940_application_startup.sh start
+Jan  4 05:20:40 CB-9160 startup.sh[908]: + sleep 0.1
+Jan  4 05:20:40 CB-9160 startup.sh[908]: + for unit in '`ls $STARTUPD_PATH/*.sh | sort -V`'
+Jan  4 05:20:40 CB-9160 startup.sh[908]: + start_stop_unit /mnt/c3platpersistent/etc/startup.d//953_cfgdb2stack.sh start
+Jan  4 05:20:40 CB-9160 startup.sh[908]: + unit=/mnt/c3platpersistent/etc/startup.d//953_cfgdb2stack.sh
+Jan  4 05:20:40 CB-9160 startup.sh[908]: ++ basename /mnt/c3platpersistent/etc/startup.d//953_cfgdb2stack.sh
+Jan  4 05:20:40 CB-9160 startup.sh[908]: + name=953_cfgdb2stack.sh
+Jan  4 05:20:40 CB-9160 startup.sh[908]: + '[' -x /mnt/c3platpersistent/etc/startup.d//953_cfgdb2stack.sh ']'
+Jan  4 05:20:40 CB-9160 startup.sh[908]: + logger 'startup.sh - going to execute /mnt/c3platpersistent/etc/startup.d//953_cfgdb2stack.sh'
+Jan  4 05:20:40 CB-9160 startup.sh[908]: + sleep 0.1
+Jan  4 05:20:40 CB-9160 startup.sh[908]: + [[ false == true ]]
+Jan  4 05:20:40 CB-9160 startup.sh[908]: + [[ true == true ]]
+Jan  4 05:20:40 CB-9160 startup.sh[908]: + mkdir -p /var/log/startup.d
+Jan  4 05:20:40 CB-9160 startup.sh[908]: + /mnt/c3platpersistent/etc/startup.d//953_cfgdb2stack.sh start
+Jan  4 05:20:40 CB-9160 startup.sh[908]: + sleep 0.1
+Jan  4 05:20:40 CB-9160 startup.sh[908]: + for unit in '`ls $STARTUPD_PATH/*.sh | sort -V`'
+Jan  4 05:20:40 CB-9160 startup.sh[908]: + start_stop_unit /mnt/c3platpersistent/etc/startup.d//955_snmpd.sh start
+Jan  4 05:20:40 CB-9160 startup.sh[908]: + unit=/mnt/c3platpersistent/etc/startup.d//955_snmpd.sh
+Jan  4 05:20:40 CB-9160 startup.sh[908]: ++ basename /mnt/c3platpersistent/etc/startup.d//955_snmpd.sh
+Jan  4 05:20:40 CB-9160 startup.sh[908]: + name=955_snmpd.sh
+Jan  4 05:20:40 CB-9160 startup.sh[908]: + '[' -x /mnt/c3platpersistent/etc/startup.d//955_snmpd.sh ']'
+Jan  4 05:20:40 CB-9160 startup.sh[908]: + logger 'startup.sh - going to execute /mnt/c3platpersistent/etc/startup.d//955_snmpd.sh'
+Jan  4 05:20:40 CB-9160 startup.sh[908]: + sleep 0.1
+Jan  4 05:20:40 CB-9160 snmpd[16291]: Created directory: /var/run/net-snmp
+Jan  4 05:20:40 CB-9160 snmpd[16291]: Created directory: /var/run/net-snmp/mib_indexes
+Jan  4 05:20:40 CB-9160 startup.sh[908]: + [[ false == true ]]
+Jan  4 05:20:40 CB-9160 startup.sh[908]: + [[ true == true ]]
+Jan  4 05:20:40 CB-9160 startup.sh[908]: + mkdir -p /var/log/startup.d
+Jan  4 05:20:40 CB-9160 startup.sh[908]: + /mnt/c3platpersistent/etc/startup.d//955_snmpd.sh start
+Jan  4 05:20:40 CB-9160 startup.sh[908]: + sleep 0.1
+Jan  4 05:20:40 CB-9160 startup.sh[908]: + for unit in '`ls $STARTUPD_PATH/*.sh | sort -V`'
+Jan  4 05:20:40 CB-9160 startup.sh[908]: + start_stop_unit /mnt/c3platpersistent/etc/startup.d//960_ee2snmp.sh start
+Jan  4 05:20:40 CB-9160 startup.sh[908]: + unit=/mnt/c3platpersistent/etc/startup.d//960_ee2snmp.sh
+Jan  4 05:20:40 CB-9160 startup.sh[908]: ++ basename /mnt/c3platpersistent/etc/startup.d//960_ee2snmp.sh
+Jan  4 05:20:40 CB-9160 startup.sh[908]: + name=960_ee2snmp.sh
+Jan  4 05:20:40 CB-9160 startup.sh[908]: + '[' -x /mnt/c3platpersistent/etc/startup.d//960_ee2snmp.sh ']'
+Jan  4 05:20:40 CB-9160 startup.sh[908]: + logger 'startup.sh - going to execute /mnt/c3platpersistent/etc/startup.d//960_ee2snmp.sh'
+Jan  4 05:20:40 CB-9160 startup.sh[908]: + sleep 0.1
+Jan  4 05:20:40 CB-9160 snmpd[16291]: Cannot statfs /localroot: No such file or directory
+Jan  4 05:20:40 CB-9160 systemd[1]: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 16291 (snmpd)
+Jan  4 05:20:40 CB-9160 systemd[1]: Mounting Arbitrary Executable File Formats File System...
+Jan  4 05:20:40 CB-9160 startup.sh[908]: + [[ false == true ]]
+Jan  4 05:20:40 CB-9160 startup.sh[908]: + [[ true == true ]]
+Jan  4 05:20:40 CB-9160 startup.sh[908]: + mkdir -p /var/log/startup.d
+Jan  4 05:20:40 CB-9160 startup.sh[908]: + /mnt/c3platpersistent/etc/startup.d//960_ee2snmp.sh start
+Jan  4 05:20:40 CB-9160 systemd[1]: Mounted Arbitrary Executable File Formats File System.
+Jan  4 05:20:41 CB-9160 startup.sh[908]: + sleep 0.1
+Jan  4 05:20:41 CB-9160 startup.sh[908]: + for unit in '`ls $STARTUPD_PATH/*.sh | sort -V`'
+Jan  4 05:20:41 CB-9160 startup.sh[908]: + start_stop_unit /mnt/c3platpersistent/etc/startup.d//971_backup-service.sh start
+Jan  4 05:20:41 CB-9160 startup.sh[908]: + unit=/mnt/c3platpersistent/etc/startup.d//971_backup-service.sh
+Jan  4 05:20:41 CB-9160 startup.sh[908]: ++ basename /mnt/c3platpersistent/etc/startup.d//971_backup-service.sh
+Jan  4 05:20:41 CB-9160 startup.sh[908]: + name=971_backup-service.sh
+Jan  4 05:20:41 CB-9160 startup.sh[908]: + '[' -x /mnt/c3platpersistent/etc/startup.d//971_backup-service.sh ']'
+Jan  4 05:20:41 CB-9160 startup.sh[908]: + logger 'startup.sh - going to execute /mnt/c3platpersistent/etc/startup.d//971_backup-service.sh'
+Jan  4 05:20:41 CB-9160 startup.sh[908]: + sleep 0.1
+Jan  4 05:20:41 CB-9160 startup.sh[908]: + [[ false == true ]]
+Jan  4 05:20:41 CB-9160 startup.sh[908]: + [[ true == true ]]
+Jan  4 05:20:41 CB-9160 startup.sh[908]: + mkdir -p /var/log/startup.d
+Jan  4 05:20:41 CB-9160 startup.sh[908]: + /mnt/c3platpersistent/etc/startup.d//971_backup-service.sh start
+Jan  4 05:20:41 CB-9160 snmpd[16291]: Turning on AgentX master support.
+Jan  4 05:20:41 CB-9160 snmpd[16291]: dlsym failed: can't find 'init_rsuG5ForwardTable'
+Jan  4 05:20:41 CB-9160 snmpd[16291]: dlsym failed: can't find 'init_rsuG5SRMStatusTable'
+Jan  4 05:20:41 CB-9160 snmpd[16291]: Created directory: /var/agentx
+Jan  4 05:20:41 CB-9160 snmpd[16402]: NET-SNMP version 5.7.3
+Jan  4 05:20:41 CB-9160 systemd[1]: Stopping Regular background program processing daemon...
+Jan  4 05:20:41 CB-9160 systemd[1]: Starting Regular background program processing daemon...
+Jan  4 05:20:41 CB-9160 systemd[1]: Started Regular background program processing daemon.
+Jan  4 05:20:42 CB-9160 startup.sh[908]: + sleep 0.1
+Jan  4 05:20:42 CB-9160 startup.sh[908]: + for unit in '`ls $STARTUPD_PATH/*.sh | sort -V`'
+Jan  4 05:20:42 CB-9160 startup.sh[908]: + start_stop_unit /mnt/c3platpersistent/etc/startup.d//990_led_green.sh start
+Jan  4 05:20:42 CB-9160 startup.sh[908]: + unit=/mnt/c3platpersistent/etc/startup.d//990_led_green.sh
+Jan  4 05:20:42 CB-9160 startup.sh[908]: ++ basename /mnt/c3platpersistent/etc/startup.d//990_led_green.sh
+Jan  4 05:20:42 CB-9160 startup.sh[908]: + name=990_led_green.sh
+Jan  4 05:20:42 CB-9160 startup.sh[908]: + '[' -x /mnt/c3platpersistent/etc/startup.d//990_led_green.sh ']'
+Jan  4 05:20:42 CB-9160 startup.sh[908]: + logger 'startup.sh - going to execute /mnt/c3platpersistent/etc/startup.d//990_led_green.sh'
+Jan  4 05:20:42 CB-9160 startup.sh[908]: + sleep 0.1
+Jan  4 05:20:42 CB-9160 startup.sh[908]: + [[ false == true ]]
+Jan  4 05:20:42 CB-9160 startup.sh[908]: + [[ true == true ]]
+Jan  4 05:20:42 CB-9160 startup.sh[908]: + mkdir -p /var/log/startup.d
+Jan  4 05:20:42 CB-9160 startup.sh[908]: + /mnt/c3platpersistent/etc/startup.d//990_led_green.sh start
+Jan  4 05:20:42 CB-9160 startup.sh[908]: + sleep 0.1
+Jan  4 05:20:42 CB-9160 startup.sh[908]: + for unit in '`ls $STARTUPD_PATH/*.sh | sort -V`'
+Jan  4 05:20:42 CB-9160 startup.sh[908]: + start_stop_unit /mnt/c3platpersistent/etc/startup.d//998_cron_jobs.sh start
+Jan  4 05:20:42 CB-9160 startup.sh[908]: + unit=/mnt/c3platpersistent/etc/startup.d//998_cron_jobs.sh
+Jan  4 05:20:42 CB-9160 startup.sh[908]: ++ basename /mnt/c3platpersistent/etc/startup.d//998_cron_jobs.sh
+Jan  4 05:20:42 CB-9160 startup.sh[908]: + name=998_cron_jobs.sh
+Jan  4 05:20:42 CB-9160 startup.sh[908]: + '[' -x /mnt/c3platpersistent/etc/startup.d//998_cron_jobs.sh ']'
+Jan  4 05:20:42 CB-9160 startup.sh[908]: + logger 'startup.sh - going to execute /mnt/c3platpersistent/etc/startup.d//998_cron_jobs.sh'
+Jan  4 05:20:42 CB-9160 startup.sh[908]: + sleep 0.1
+Jan  4 05:20:43 CB-9160 startup.sh[908]: + [[ false == true ]]
+Jan  4 05:20:43 CB-9160 startup.sh[908]: + [[ true == true ]]
+Jan  4 05:20:43 CB-9160 startup.sh[908]: + mkdir -p /var/log/startup.d
+Jan  4 05:20:43 CB-9160 startup.sh[908]: + /mnt/c3platpersistent/etc/startup.d//998_cron_jobs.sh start
+Jan  4 05:20:43 CB-9160 systemd[1]: Stopping Regular background program processing daemon...
+Jan  4 05:20:43 CB-9160 systemd[1]: Starting Regular background program processing daemon...
+Jan  4 05:20:43 CB-9160 systemd[1]: Started Regular background program processing daemon.
+Jan  4 05:20:43 CB-9160 startup.sh[908]: + sleep 0.1
+Jan  4 05:20:43 CB-9160 startup.sh[908]: + for unit in '`ls $STARTUPD_PATH/*.sh | sort -V`'
+Jan  4 05:20:43 CB-9160 startup.sh[908]: + start_stop_unit /mnt/c3platpersistent/etc/startup.d//999_end.sh start
+Jan  4 05:20:43 CB-9160 startup.sh[908]: + unit=/mnt/c3platpersistent/etc/startup.d//999_end.sh
+Jan  4 05:20:43 CB-9160 startup.sh[908]: ++ basename /mnt/c3platpersistent/etc/startup.d//999_end.sh
+Jan  4 05:20:43 CB-9160 startup.sh[908]: + name=999_end.sh
+Jan  4 05:20:43 CB-9160 startup.sh[908]: + '[' -x /mnt/c3platpersistent/etc/startup.d//999_end.sh ']'
+Jan  4 05:20:43 CB-9160 startup.sh[908]: + logger 'startup.sh - going to execute /mnt/c3platpersistent/etc/startup.d//999_end.sh'
+Jan  4 05:20:43 CB-9160 startup.sh[908]: + sleep 0.1
+Jan  4 05:20:43 CB-9160 startup.sh[908]: + [[ false == true ]]
+Jan  4 05:20:43 CB-9160 startup.sh[908]: + [[ true == true ]]
+Jan  4 05:20:43 CB-9160 startup.sh[908]: + mkdir -p /var/log/startup.d
+Jan  4 05:20:43 CB-9160 startup.sh[908]: + /mnt/c3platpersistent/etc/startup.d//999_end.sh start
+Jan  4 05:20:43 CB-9160 startup.sh[908]: + sleep 0.1
+Jan  4 05:20:43 CB-9160 startup.sh[908]: + exit
+Jan  4 05:20:43 CB-9160 systemd[1]: Started LEO Kapsch Application.
+Jan  4 05:20:43 CB-9160 systemd[1]: Starting Multi-User System.
+Jan  4 05:20:43 CB-9160 systemd[1]: Reached target Multi-User System.
+Jan  4 05:20:43 CB-9160 systemd[1]: Starting watchdog daemon...
+Jan  4 05:20:43 CB-9160 systemd[1]: Starting Graphical Interface.
+Jan  4 05:20:43 CB-9160 systemd[1]: Reached target Graphical Interface.
+Jan  4 05:20:43 CB-9160 systemd[1]: Starting Update UTMP about System Runlevel Changes...
+Jan  4 05:20:43 CB-9160 systemd[1]: Started Update UTMP about System Runlevel Changes.
+Jan  4 05:20:43 CB-9160 sh[16589]: watchdog: adding /etc/watchdog.d/test-sshd.sh to list of auto-repair binaries
+Jan  4 05:20:43 CB-9160 sh[16589]: watchdog: adding /etc/watchdog.d/supervision_wrapper.sh to list of auto-repair binaries
+Jan  4 05:20:43 CB-9160 systemd[1]: Started watchdog daemon.
+Jan  4 05:20:43 CB-9160 systemd[1]: Startup finished in 6.920s (kernel) + 4min 29.906s (userspace) = 4min 36.827s.
+Jan  4 05:20:43 CB-9160 watchdog[16592]: starting daemon (5.14):
+Jan  4 05:20:43 CB-9160 watchdog[16592]: int=1s realtime=yes sync=no soft=no mla=0 mem=0
+Jan  4 05:20:43 CB-9160 watchdog[16592]: ping: no machine to check
+Jan  4 05:20:43 CB-9160 watchdog[16592]: file: no file to check
+Jan  4 05:20:43 CB-9160 watchdog[16592]: pidfile: no server process to check
+Jan  4 05:20:43 CB-9160 watchdog[16592]: interface: no interface to check
+Jan  4 05:20:43 CB-9160 watchdog[16592]: temperature: no sensors to check
+Jan  4 05:20:43 CB-9160 watchdog[16592]: test=none(0) repair=none(0) alive=/dev/watchdog heartbeat=none to=root no_act=no force=no
+Jan  4 05:20:43 CB-9160 watchdog[16592]: watchdog now set to 60 seconds
+Jan  4 05:20:43 CB-9160 watchdog[16592]: hardware watchdog identity: KEMPLD Watchdog
+Jan  4 05:31:17 CB-9160 systemd[1]: Starting Cleanup of Temporary Directories...
+Jan  4 05:31:17 CB-9160 systemd[1]: Started Cleanup of Temporary Directories.
+Jan  4 05:59:54 CB-9160 snmpd[16402]: Received TERM or STOP signal...  shutting down...
+Jan  4 05:59:54 CB-9160 snmpd[23574]: Cannot statfs /localroot: No such file or directory
+Jan  4 05:59:54 CB-9160 snmpd[23574]: Turning on AgentX master support.
+Jan  4 05:59:54 CB-9160 snmpd[23574]: dlsym failed: can't find 'init_rsuG5ForwardTable'
+Jan  4 05:59:54 CB-9160 snmpd[23574]: dlsym failed: can't find 'init_rsuG5SRMStatusTable'
+Jan  4 05:59:54 CB-9160 snmpd[23581]: NET-SNMP version 5.7.3
+Jan  4 06:01:14 CB-9160 dbus[399]: [system] Activating via systemd: service name='org.bluez' unit='dbus-org.bluez.service'
+Jan  4 06:01:14 CB-9160 systemd[1]: Starting Bluetooth service...
+Jan  4 06:01:14 CB-9160 bluetoothd[23915]: Bluetooth daemon 5.23
+Jan  4 06:01:14 CB-9160 dbus[399]: [system] Successfully activated service 'org.bluez'
+Jan  4 06:01:14 CB-9160 systemd[1]: Started Bluetooth service.
+Jan  4 06:01:14 CB-9160 bluetoothd[23915]: Starting SDP server
+Jan  4 06:01:14 CB-9160 bluetoothd[23915]: kernel lacks bnep-protocol support
+Jan  4 06:01:14 CB-9160 bluetoothd[23915]: System does not support network plugin
+Jan  4 06:01:14 CB-9160 bluetoothd[23915]: Failed to open RFKILL control device
+Jan  4 06:01:14 CB-9160 bluetoothd[23915]: Bluetooth management interface 1.6 initialized
+Jan  4 06:01:14 CB-9160 dbus[399]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service'
+Jan  4 06:01:14 CB-9160 systemd[1]: Starting Hostname Service...
+Jan  4 06:01:14 CB-9160 systemd[1]: Failed to reset devices.list on /system.slice: Invalid argument
+Jan  4 06:01:14 CB-9160 systemd-hostnamed[23921]: Warning: nss-myhostname is not installed. Changing the local hostname might make it unresolveable. Please install nss-myhostname!
+Jan  4 06:01:14 CB-9160 dbus[399]: [system] Successfully activated service 'org.freedesktop.hostname1'
+Jan  4 06:01:14 CB-9160 systemd[1]: Started Hostname Service.
+Jan  4 06:02:10 CB-9160 bluetoothd[24074]: Bluetooth daemon 5.23
+Jan  4 06:02:10 CB-9160 bluetoothd[24074]: Unable to get on D-Bus
+Jan  4 06:04:45 CB-9160 bluetoothd[23915]: Sap driver initialization failed.
+Jan  4 06:04:45 CB-9160 bluetoothd[23915]: sap-server: Operation not permitted (1)
+Jan  4 06:04:45 CB-9160 bluetoothd[23915]: hci0 Load Connection Parameters failed: Unknown Command (0x01)
+Jan  4 06:04:45 CB-9160 systemd[1]: Starting Bluetooth.
+Jan  4 06:04:45 CB-9160 systemd[1]: Reached target Bluetooth.
+Jan  4 06:05:08 CB-9160 bluetoothd[24578]: Bluetooth daemon 5.23
+Jan  4 06:05:08 CB-9160 bluetoothd[24578]: Unable to get on D-Bus
+Jan  4 06:05:10 CB-9160 bluetoothd[24588]: Bluetooth daemon 5.23
+Jan  4 06:05:10 CB-9160 bluetoothd[24588]: Unable to get on D-Bus
+Jan  4 06:05:14 CB-9160 bluetoothd[24597]: Bluetooth daemon 5.23
+Jan  4 06:05:14 CB-9160 bluetoothd[24597]: Unable to get on D-Bus

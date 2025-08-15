@@ -1,0 +1,50 @@
+﻿C  T   D
+T  Y C I
+R  P F A
+L  E G G #P #D #C Device Name
+== = = = == == == =============================================================
+68 R - -  -  1 14 Acpi(PNP0A03,0)
+13A D - -  2  -  -<UNKNOWN>
+13B D - -  2  -  -<UNKNOWN>
+19D B - -  1  1  2 Acpi(PNP0A03,0)/Pci(1F|0)
+19E D - -  1  -  - Acpi(PNP0A03,0)/Pci(1F|0)/Acpi(PNP0A05,0)
+19F D - -  1  -  - Acpi(PNP0A03,0)/Pci(1F|0)/Acpi(PNP0A05,1)
+1A1 D - -  1  -  - Acpi(PNP0A03,0)/Pci(1F|0)/Acpi(PNP0A05,1)/Acpi(PNP0501,1)
+1A2 D - -  1  -  - Acpi(PNP0A03,0)/Pci(1F|0)/Acpi(PNP0A05,1)/Acpi(PNP0501,2)
+1A3 B - -  1  1  1 Acpi(PNP0A03,0)/Pci(1F|0)/Acpi(PNP0A05,1)/Acpi(PNP0501,1)/Uart(115200,N,8,1)/UartFlowCtrl(None)
+1A4 B - -  1  4  2 Acpi(PNP0A03,0)/Pci(1F|0)/Acpi(PNP0A05,1)/Acpi(PNP0501,1)/Uart(115200,N,8,1)/UartFlowCtrl(None)/VenPcAnsi()
+1A5 B - -  1  1  1 Acpi(PNP0A03,0)/Pci(2|0)
+1A7 B - -  1  3  1 Acpi(PNP0A03,0)/Pci(2|0)/AcpiAdr(80010100)
+1A8 B - -  1  2 15 eXtensible Host Controller (USB 3.0)
+1A9 D - -  1  2  - SD Host Controller
+1AA R - -  -  2  2 Acpi(PNP0A03,0)/Pci(17|0)/Ctrl(0)
+1AB D - -  1  2  - SD Host Controller
+1AC R - -  -  2  1 Acpi(PNP0A03,0)/Pci(12|0)/Ctrl(0)
+1AD D - -  1  3  - Acpi(PNP0A03,0)/Pci(13|0)
+1B4 D - -  1  -  - Acpi(PNP0A03,0)/Pci(1F|0)/Acpi(PNP0A05,1)/Acpi(PNP0501,2)/Uart(115200,N,8,1)/UartFlowCtrl(None)
+1B5 D - -  1  -  - Acpi(PNP0A03,0)/Pci(0|0)
+1B6 D - -  1  -  - Acpi(PNP0A03,0)/Pci(1A|0)
+1B7 D - -  1  -  - Acpi(PNP0A03,0)/Pci(1C|0)
+1B8 D - -  1  -  - Acpi(PNP0A03,0)/Pci(1C|1)
+1B9 D - -  1  -  - Acpi(PNP0A03,0)/Pci(1C|2)
+1BA D - -  1  -  - Acpi(PNP0A03,0)/Pci(1C|3)
+1BB D - -  1  -  - Acpi(PNP0A03,0)/Pci(1C|3)/Pci(0|0)
+1BC D - -  1  -  - Acpi(PNP0A03,0)/Pci(1F|3)
+1C1 D - -  1  -  - Acpi(PNP0A03,0)/Pci(14|0)/Usb(0,0)
+1C2 D - -  1  -  - Acpi(PNP0A03,0)/Pci(14|0)/Usb(2,0)
+1C3 D - -  1  -  - Acpi(PNP0A03,0)/Pci(14|0)/Usb(2,1)
+1C4 D - -  1  -  - Acpi(PNP0A03,0)/Pci(14|0)/Usb(2,2)
+1C5 D - -  1  -  - Acpi(PNP0A03,0)/Pci(14|0)/Usb(2,3)
+1C6 D - -  1  -  - Acpi(PNP0A03,0)/Pci(14|0)/Usb(2,4)
+1C7 D - -  1  -  - Acpi(PNP0A03,0)/Pci(14|0)/Usb(2,5)
+1C8 D - -  1  -  - Acpi(PNP0A03,0)/Pci(14|0)/Usb(3,0)
+1C9 D - -  1  -  - Acpi(PNP0A03,0)/Pci(14|0)/Usb(3,0)/Usb(0,0)
+1CA D - -  1  -  - Acpi(PNP0A03,0)/Pci(14|0)/Usb(3,0)/Usb(0,1)
+1CB B - -  1  3  1 Acpi(PNP0A03,0)/Pci(14|0)/Usb(3,0)/Usb(1,0)
+1CC D - -  1  -  - Acpi(PNP0A03,0)/Pci(14|0)/Usb(3,0)/Usb(1,1)
+1CD D - -  1  -  - Acpi(PNP0A03,0)/Pci(14|0)/Usb(3,0)/Usb(1,2)
+1CE D - -  1  -  - Acpi(PNP0A03,0)/Pci(14|0)/Usb(3,0)/Usb(1,3)
+1CF D - -  1  -  - Acpi(PNP0A03,0)/Pci(14|0)/Usb(3,0)/Usb(1,4)
+1D3 D - -  1  2  - Acpi(PNP0A03,0)/Pci(17|0)/Ctrl(0)/HD(Part1,Sig9AA750BD)
+1D4 D - -  1  1  - Acpi(PNP0A03,0)/Pci(17|0)/Ctrl(0)/HD(Part2,Sig9AA750BD)
+1D5 D - -  1  2  - Acpi(PNP0A03,0)/Pci(12|0)/Ctrl(0)/HD(Part1,Sig08A7EE3A)

@@ -1,0 +1,115 @@
++ . /mnt/c3platpersistent/share/startup/common.sh
+++ source /etc/os-release
++++ PRETTY_NAME='Debian GNU/Linux 9 (stretch)'
++++ NAME='Debian GNU/Linux'
++++ VERSION_ID=9
++++ VERSION='9 (stretch)'
++++ VERSION_CODENAME=stretch
++++ ID=debian
++++ HOME_URL=https://www.debian.org/
++++ SUPPORT_URL=https://www.debian.org/support
++++ BUG_REPORT_URL=https://bugs.debian.org/
+++ export DEBIAN_VERSION=9
+++ DEBIAN_VERSION=9
+++ export LD_LIBRARY_PATH=/mnt/c3platpersistent/lib/deb9:/mnt/c3platpersistent/lib
+++ LD_LIBRARY_PATH=/mnt/c3platpersistent/lib/deb9:/mnt/c3platpersistent/lib
++++ basename -- /mnt/c3platpersistent/etc/startup.d//010_load_firmware_radio_1.sh
+++ APP_SCR=010_load_firmware_radio_1.sh
++++ readlink -f -- /mnt/c3platpersistent/etc/startup.d//010_load_firmware_radio_1.sh
+++ ACT_DIR=/mnt/c3platpersistent/etc/startup.d/010_load_firmware_radio_1.sh
++++ dirname /mnt/c3platpersistent/etc/startup.d/010_load_firmware_radio_1.sh
+++ ABS_PATH=/mnt/c3platpersistent/etc/startup.d
+++ ENABLE_LED_HANDLER=false
+++ LED_STARTUP_PID=/var/run/flash_pid.startup
+++ LED_HANDLER_IP=127.0.0.1
+++ LED_HANDLER_PORT=6001
+++ LED_HANDLER_AIRLINK_STATISTICS=tx
+++ ETH_IF=eth0
+++ [[ -n /mnt/c3platpersistent ]]
++++ cat /mnt/c3platpersistent/etc/issue
++++ head -n 1
+++ export VARIANTRS=USDoT-NAStack
+++ VARIANTRS=USDoT-NAStack
+++ export WATCHDOG_SCRIPTS_PATH=/var/run/supervision/scripts
+++ WATCHDOG_SCRIPTS_PATH=/var/run/supervision/scripts
+++ mkdir -p /var/run/supervision/scripts
+++ [[ false == false ]]
+++ export ROADSIDE_IPTABLES_ENABLED=true
+++ ROADSIDE_IPTABLES_ENABLED=true
+++ export CERTPATH=/mnt/c3platpersistent/share/its-g5-security-certs/
+++ CERTPATH=/mnt/c3platpersistent/share/its-g5-security-certs/
+++ export GPSD_DEBUG=0
+++ GPSD_DEBUG=0
+++ export GPSD_OPTS=
+++ GPSD_OPTS=
+++ [[ 9 == 9 ]]
+++ export PPSDEVICE=/dev/pps1
+++ PPSDEVICE=/dev/pps1
+++ export GPSD_CYCLE_TIME=1.0
+++ GPSD_CYCLE_TIME=1.0
+++ [[ USDoT-NAStack =~ .*CCA.* ]]
+++ [[ USDoT-NAStack =~ USDoT-QualcommRR ]]
+++ export ENABLED_RADIOS=:NXP:
+++ ENABLED_RADIOS=:NXP:
+++ [[ -e /etc/eeprom-cb/a.dualradio.mode ]]
+++ [[ -e /mnt/c3platpersistent/etc/roadside.cfg ]]
+++ source /mnt/c3platpersistent/etc/roadside.cfg
++++ export AEROLINK_BASE=/mnt/c3platpersistent/etc/aerolink/ieee
++++ AEROLINK_BASE=/mnt/c3platpersistent/etc/aerolink/ieee
++++ export AEROLINK_CONFIG_DIR=/mnt/c3platpersistent/etc/aerolink/ieee/config/
++++ AEROLINK_CONFIG_DIR=/mnt/c3platpersistent/etc/aerolink/ieee/config/
++++ export AEROLINK_STATE_DIR=/mnt/c3platpersistent/etc/aerolink/ieee/state/
++++ AEROLINK_STATE_DIR=/mnt/c3platpersistent/etc/aerolink/ieee/state/
++++ export INIT_TARGET=./share/urb/cfgdb2stack.usdot.urb
++++ INIT_TARGET=./share/urb/cfgdb2stack.usdot.urb
++ NXP_DEVID=1fc9:0102
++ FWFILE=/mnt/c3platpersistent/opt/11p/firmware/firmware_alps.bin
++ '[' xstart = xstart ']'
++ [[ :NXP: =~ .*:NXP:.* ]]
++ '[' -e /mnt/c3platpersistent/opt/11p/firmware/firmware_alps.bin ']'
+++ dfu-util -d1fc9:0102 -l
+++ grep 'Found Runtime'
++ RADIODEVS='Found Runtime: [1fc9:0102] ver=0100, devnum=5, cfg=1, intf=0, path="1-1", alt=0, name="UNKNOWN", serial="UNKNOWN"'
++ '[' -z 'Found Runtime: [1fc9:0102] ver=0100, devnum=5, cfg=1, intf=0, path="1-1", alt=0, name="UNKNOWN", serial="UNKNOWN"' ']'
+++ echo 'Found Runtime: [1fc9:0102] ver=0100, devnum=5, cfg=1, intf=0, path="1-1", alt=0, name="UNKNOWN", serial="UNKNOWN"'
+++ head -n1
+++ cut -d '"' -f 2
+++ cut -d , -f 5-
++ RADIOPATH=1-1
++ logger '010_load_firmware_radio_1.sh -I- found devices:'
++ IFS='
+'
++ for D in ${RADIODEVS}
++ logger '010_load_firmware_radio_1.sh -I- Found Runtime: [1fc9:0102] ver=0100, devnum=5, cfg=1, intf=0, path="1-1", alt=0, name="UNKNOWN", serial="UNKNOWN"'
++ logger '010_load_firmware_radio_1.sh -I- selecting first path 1-1'
++ /mnt/c3platpersistent/bin/dfu-util -d1fc9:0102 -p1-1 -D /mnt/c3platpersistent/opt/11p/firmware/firmware_alps.bin -R
+dfu-util 0.9
+
+Copyright 2005-2009 Weston Schmidt, Harald Welte and OpenMoko Inc.
+Copyright 2010-2016 Tormod Volden and Stefan Schmidt
+This program is Free Software and has ABSOLUTELY NO WARRANTY
+Please report bugs to http://sourceforge.net/p/dfu-util/tickets/
+
+dfu-util: Invalid DFU suffix signature
+dfu-util: A valid DFU suffix will be required in a future dfu-util release!!!
+Deducing device DFU version from functional descriptor length
+Opening DFU capable USB device...
+ID 1fc9:0102
+Run-time device DFU version 0100
+Claiming USB DFU Runtime Interface...
+Determining device status: state = dfuIDLE, status = 0
+dfu-util: WARNING: Runtime device already in DFU state ?!?
+Claiming USB DFU Interface...
+Setting Alternate Setting #0 ...
+Determining device status: state = dfuIDLE, status = 0
+dfuIDLE, continuing
+DFU mode device DFU version 0100
+Device returned transfer size 4096
+Copying data from PC to DFU device
+Download	[                         ]   0%            0 bytesDownload	[                         ]   3%        16384 bytesDownload	[=                        ]   4%        20480 bytesDownload	[==                       ]   8%        36864 bytesDownload	[===                      ]  12%        53248 bytesDownload	[===                      ]  13%        57344 bytesDownload	[====                     ]  16%        69632 bytesDownload	[=====                    ]  20%        90112 bytesDownload	[=====                    ]  21%        94208 bytesDownload	[======                   ]  24%       106496 bytesDownload	[=======                  ]  28%       122880 bytesDownload	[=======                  ]  31%       135168 bytesDownload	[========                 ]  32%       139264 bytesDownload	[=========                ]  36%       159744 bytesDownload	[==========               ]  40%       176128 bytesDownload	[===========              ]  44%       192512 bytesDownload	[============             ]  48%       208896 bytesDownload	[============             ]  49%       212992 bytesDownload	[=============            ]  52%       229376 bytesDownload	[==============           ]  56%       245760 bytesDownload	[==============           ]  58%       253952 bytesDownload	[===============          ]  60%       262144 bytesDownload	[================         ]  64%       278528 bytesDownload	[================         ]  67%       294912 bytesDownload	[=================        ]  68%       299008 bytesDownload	[==================       ]  72%       315392 bytesDownload	[===================      ]  76%       331776 bytesDownload	[====================     ]  80%       348160 bytesDownload	[=====================    ]  84%       368640 bytesDownload	[=====================    ]  85%       372736 bytesDownload	[======================   ]  88%       385024 bytesDownload	[=======================  ]  92%       401408 bytesDownload	[=======================  ]  95%       413696 bytesDownload	[======================== ]  96%       417792 bytesDownload	[=========================] 100%       430560 bytes
+Download done.
+state(8) = dfuMANIFEST-WAIT-RESET, status(0) = No error condition is present
+Done!
+dfu-util: can't detach
+Resetting USB to switch back to runtime mode
++ logger '010_load_firmware_radio_1.sh -I- done'

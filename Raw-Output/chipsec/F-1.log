@@ -1,0 +1,48 @@
+
+################################################################
+##                                                            ##
+##  CHIPSEC: Platform Hardware Security Assessment Framework  ##
+##                                                            ##
+################################################################
+[CHIPSEC] Version  : 1.13.8
+[CHIPSEC] Arguments: spi dump firmware.bin
+
+
+[CHIPSEC] OS      : uefi   
+[CHIPSEC] Python  : 3.6.8 (64-bit) - Enabled GIL
+[CHIPSEC] Helper  : EfiHelper 
+[CHIPSEC] Platform: Bay Trail SoC
+[CHIPSEC]    CPUID: 30679
+[CHIPSEC]      VID: 8086
+[CHIPSEC]      DID: 0F00
+[CHIPSEC]      RID: 11
+[CHIPSEC] Executing command 'spi' with args ['dump', 'firmware.bin']
+
+[CHIPSEC] Dumping entire SPI flash memory to 'firmware.bin'
+[CHIPSEC] it may take a few minutes (use DEBUG or VERBOSE logger options to see progress)
+[CHIPSEC] BIOS region: base = 0x00400000, limit = 0x007FFFFF
+[CHIPSEC] Dumping 0x00800000 bytes (to the end of BIOS region)
+[spi] Reading 0x800000 bytes from SPI at FLA = 0x0 (in 131072 0x40-byte chunks + 0x0-byte remainder)
+___________________________________________________|
+---------------------------------------------------
+SPI read complete
+[CHIPSEC] Completed SPI flash dump to 'firmware.bin'
+[CHIPSEC] Time elapsed 378.000
+
+################################################################
+##                                                            ##
+##  CHIPSEC: Platform Hardware Security Assessment Framework  ##
+##                                                            ##
+################################################################
+[CHIPSEC] Version  : 1.13.8
+[CHIPSEC] Arguments: spi dump bios.bin --region BIOS
+
+
+################################################################
+##                                                            ##
+##  CHIPSEC: Platform Hardware Security Assessment Framework  ##
+##                                                            ##
+################################################################
+[CHIPSEC] Version  : 1.13.8
+[CHIPSEC] Arguments: spi dump me.bin --region ME
+

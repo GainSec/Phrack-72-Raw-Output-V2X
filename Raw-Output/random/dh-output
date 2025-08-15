@@ -1,0 +1,471 @@
+﻿Handle dump
+  1: Image(DxeCore) 
+  2: 
+  3: 
+  4: 
+  5: Decompress 
+  6: DevPath (MemMap(11:FFC90000-FFEEFFFF))
+  7: DevPath (MemMap(11:39FA5000-39FB4FFF))
+  8: DevPath (?)
+  9: 
+  A: Image(ReportStatusCodeRouterRuntimeDxe) 
+  B: 
+  C: Image(PlatformStatusCodeHandlerDxe) 
+  D: Image(SecurityStubDxe) 
+  E: 
+  F: Image(PcdDxe) 
+ 10: 
+ 11: Image(KEMaEAPI) 
+ 12: 
+ 13: Image(MARSInit) 
+ 14: Image(SystemRuntimeDxe) 
+ 15: 
+ 16: Image(SystemStatusCodePort80Rt) 
+ 17: Image(SystemCmosDxe) 
+ 18: 
+ 19: Image(SystemDevicePathDxe) 
+ 1A: 
+ 1B: Image(SystemNullMemoryTestDxe) 
+ 1C: 
+ 1D: Image(SystemSmbiosBcp) 
+ 1E: Image(SystemiCryptSvcDxe) 
+ 1F: Image(SystemAcpiSupportDxe) 
+ 20: 
+ 21: 
+ 22: Image(SystemHiiDatabaseDxe) 
+ 23: 
+ 24: Image(SystemImageDecoderDxe) 
+ 25: Image(SystemCapsulePolicyDxe) 
+ 26: Image(FvOnFv2Thunk) 
+ 27: Image(CpuIoDxe) 
+ 28: 
+ 29: Image(DataHubDxe) 
+ 2A: 
+ 2B: Image(DpcDxe) 
+ 2C: 
+ 2D: Image(S3SaveStateDxe) 
+ 2E: 
+ 2F: Image(CpuIo2Dxe) 
+ 30: 
+ 31: Image(SystemDiagnosticSummaryScreenDxe) 
+ 32: 
+ 33: DevPath (..CE,0000000098D1643600000000))
+ 34: Image(SystemFormBrowserCoreDxe) 
+ 35: DevPath (..CE,0000000018A3643600000000))
+ 36: 
+ 37: Image(SystemFormBrowserSimpleTextViewDxe) 
+ 38: DevPath (..CE,00000000985C643600000000))
+ 39: 
+ 3A: Image(SystemFormBrowserGraphicalTextViewDxe) 
+ 3B: DevPath (..CE,0000000098C9623600000000))
+ 3C: 
+ 3D: Image(SmmControl) 
+ 3E: Image(IntelPchLegacyInterrupt) 
+ 3F: 
+ 40: Image(ActiveBios) 
+ 41: 
+ 42: Image(PchReset) 
+ 43: 
+ 44: 
+ 45: Image(PchSpiRuntime) 
+ 46: 
+ 47: Image(PchPolicyInitDxe) 
+ 48: 
+ 49: Image(PlatformHiiAdvancedDxe) 
+ 4A: DevPath (..42,000000000000000000000000))
+ 4B: Image(VlvGpioDxe) 
+ 4C: Image(SeCPolicyInitDxe) 
+ 4D: Image(FaultTolerantWriteDxe) 
+ 4E: Image(SystemMetronomeDxe) 
+ 4F: 
+ 50: Image(System8259InterruptControllerDxe) 
+ 51: 
+ 52: Image(SystemBootMenuDxe) 
+ 53: Image(SystemSmbiosDxe) 
+ 54: 
+ 55: Image(SystemFontDxe) 
+ 56: Image(SystemFormBrowserSimpleTextViewLayoutDxe) 
+ 57: Image(SystemFormBrowserGraphicalTextViewLayoutDxe) 
+ 58: Image(SystemFrameworkHiiDatabaseDxe) 
+ 59: 
+ 5A: 
+ 5B: 
+ 5C: 
+ 5D: 
+ 5E: 
+ 5F: 
+ 60: Image(PchSmbusDxe) 
+ 61: 
+ 62: Image(SmmControl2OnSmmControlThunk) 
+ 63: Image(BootScriptSaveOnS3SaveStateThunk) 
+ 64: 
+ 65: 
+ 66: Image(PciHostBridge) 
+ 67: 
+ 68: PciRootBridgeIo DevPath (Acpi(PNP0A03,0))
+ 69: Image(SmmAccess) 
+ 6A: 
+ 6B: Image(PchGlobalSmiControl) 
+ 6C: 
+ 6D: Image(SmmAccessOnSmmAccess2Thunk) 
+ 6E: Image(PiSmmIpl) 
+ 6F: 
+ 70: Image(PlatformFlashDxe) 
+ 71: 
+ 72: Image(ReportStatusCodeRouterSmm) 
+ 73: Image(CpuIo2Smm) 
+ 74: Image(PchSmiDispatcher) 
+ 75: 
+ 76: Image(SmramSaveInfoHandlerSmm) 
+ 77: Image(StatusCodeHandlerSmm) 
+ 78: Image(FrameworkSmmStatusCodeOnPiSmmStatusCodeThunk) 
+ 79: 
+ 7A: Image(PchBiosWriteProtect) 
+ 7B: Image(PchFlashControllerDxe) 
+ 7C: Image(W25Q64FlashPartDxe) 
+ 7D: 
+ 7E: Image(MX25L64XFlashPartDxe) 
+ 7F: 
+ 80: Image(S25FL164KFlashPartDxe) 
+ 81: 
+ 82: Image(W25Q64FlashPartRt) 
+ 83: 
+ 84: Image(SystemFirmwareDeviceDxe) 
+ 85: 
+ 86: Image(SystemVariableDxe) 
+ 87: 
+ 88: 
+ 89: Image(SystemCapsuleRt) 
+ 8A: 
+ 8B: Image(SystemMonotonicCounterRt) 
+ 8C: 
+ 8D: Image(SystemSecureBootDxe) 
+ 8E: Image(SystemBootManagerDxe) 
+ 8F: Image(SystemDiagnosticSplashScreenDxe) 
+ 90: 
+ 91: DevPath (..CE,00000000981A553600000000))
+ 92: Image(SystemUsbMemoryManagerDxe) 
+ 93: 
+ 94: Image(SctPolicyManagerDxe) 
+ 95: 
+ 96: Image(SystemSecureConfigDxe) 
+ 97: Image(PchS3Support) 
+ 98: Image(PchS3Peim) 
+ 99: Image(PnpDxe) 
+ 9A: Image(PlatformInfoDxe) 
+ 9B: Image(PlatformCpuInfoDxe) 
+ 9C: Image(PciPlatform) 
+ 9D: 
+ 9E: 
+ 9F: Image(PlatformCpuPolicy) 
+ A0: 
+ A1: Image(PlatformGOPPolicy) 
+ A2: Image(AcpiDebug) 
+ A3: Image(SystemUsbDatabaseDxe) 
+ A4: 
+ A5: Image(SystemUsbSupportPolicyDxe) 
+ A6: 
+ A7: Image(MpCpu) 
+ A8: 
+ A9: 
+ AA: Image(SmbiosMemory) 
+ AB: Image(PiSmmCpuDxeSmm) 
+ AC: 
+ AD: Image(SmmBaseHelper) 
+ AE: 
+ AF: Image(SmmSwDispatch2OnSmmSwDispatchThunk) 
+ B0: Image(SmmLockBox) 
+ B1: 
+ B2: Image(PiSmmCommunicationSmm) 
+ B3: Image(KEMrCPLDDxe) 
+ B4: 
+ B5: Image(AcpiS3SaveDxe) 
+ B6: Image(SystemRtcRt) 
+ B7: 
+ B8: Image(SystemUsbSwitchDxe) 
+ B9: 
+ BA: Image(SystemNUserUserManagerDxe) 
+ BB: Image(SmartTimer) 
+ BC: 
+ BD: Image(PpmPolicy) 
+ BE: 
+ BF: Image(AcpiPlatform) 
+ C0: 
+ C1: Image(BootScriptExecutorDxe) 
+ C2: 
+ C3: Image(SmmBaseOnSmmBase2Thunk) 
+ C4: Image(PchInitSmm) 
+ C5: Image(PlatformEccHanderSmm) 
+ C6: Image(KEUDGCpldUartDxe) DriverBinding 
+ C7: Image(KEMrWDTDxe) 
+ C8: 
+ C9: Image(KEMaEEEPDxe) 
+ CA: 
+ CB: Image(kJTAGDXE) 
+ CC: 
+ CD: Image(KEMhS5ECODxe) 
+ CE: Image(SystemStatusCodePort80Smm) 
+ CF: Image(SystemStatusCodePort80Smm) 
+ D0: Image(SystemSecureFlashSleepTrapSmm) 
+ D1: 
+ D2: Image(SystemSecureFlashSleepTrapSmm) 
+ D3: 
+ D4: Image(SystemCmosSmm) 
+ D5: Image(SystemCmosSmm) 
+ D6: 
+ D7: Image(SystemWatchdogTimerDxe) 
+ D8: 
+ D9: Image(SystemSmbiosEventLogDxe) 
+ DA: 
+ DB: Image(SystemSwSmiAllocatorSmm) 
+ DC: Image(SystemSwSmiAllocatorSmm) 
+ DD: Image(SystemBusIsaRtcSmm) 
+ DE: Image(SystemBusIsaRtcSmm) 
+ DF: 
+ E0: Image(SystemIdeAtaAtapiPassThruSmm) 
+ E1: Image(SystemIdeAtaAtapiPassThruSmm) 
+ E2: Image(SystemAhciAtaAtapiPassThruSmm) 
+ E3: Image(SystemAhciAtaAtapiPassThruSmm) 
+ E4: Image(SystemSmmRuntimeRt) 
+ E5: Image(SystemSmmRuntimeRt) 
+ E6: 
+ E7: Image(SystemXhciDxe) DriverBinding 
+ E8: Image(SystemEhciDxe) DriverBinding 
+ E9: Image(SystemUsbMassStorageDxe) DriverBinding 
+ EA: Image(SystemNUserPasswordCredentialDxe) 
+ EB: 
+ EC: DevPath (..CE,0000000018AB4D3600000000))
+ ED: Image(DxePlatform) 
+ EE: 
+ EF: 
+ F0: 
+ F1: 
+ F2: 
+ F3: 
+ F4: 
+ F5: 
+ F6: 
+ F7: 
+ F8: 
+ F9: Image(PlatformFlashSmm) 
+ FA: Image(PlatformFlashSmm) 
+ FB: 
+ FC: Image(LpssDxe) 
+ FD: Image(PowerManagementDxe2) 
+ FE: Image(InstallExitPmAuth) 
+ FF: Image(PlatformSmm2) 
+ 100: Image(PlatformSmm2) 
+ 101: 
+ 102: Image(PlatformSmm) 
+ 103: Image(PchFlashControllerSmm) 
+ 104: Image(W25Q64FlashPartSmm) 
+ 105: Image(W25Q64FlashPartSmm) 
+ 106: 
+ 107: Image(MX25L64XFlashPartSmm) 
+ 108: Image(MX25L64XFlashPartSmm) 
+ 109: 
+ 10A: Image(S25FL164KFlashPartSmm) 
+ 10B: Image(S25FL164KFlashPartSmm) 
+ 10C: 
+ 10D: Image(W83627DHGSioDxe) DriverBinding 
+ 10E: Image(KEMrBootCntDxe) 
+ 10F: Image(KemSetupDxe) 
+ 110: 
+ 111: Image(KEMhSMBEFI) 
+ 112: Image(KSlicTableDxe) 
+ 113: Image(BlockIoDxe) DriverBinding ComponentName 
+ 114: Image(KeyboardDxe) DriverBinding ComponentName 
+ 115: Image(BiosSnp16) DriverBinding ComponentName 
+ 116: Image(ScsiBus) DriverBinding ComponentName 
+ 117: Image(ScsiDisk) DriverBinding ComponentName 
+ 118: Image(UefiPxeBcDxe) DriverBinding ComponentName 
+ 119: Image(SystemMemoryManagerRt) 
+ 11A: 
+ 11B: Image(SystemSwSmiAllocatorDxe) 
+ 11C: 
+ 11D: Image(SystemPciBusDxe) DriverBinding 
+ 11E: 
+ 11F: Image(SystemPciIsaBusDxe) DriverBinding 
+ 120: Image(SystemIsaSerialDxe) DriverBinding 
+ 121: Image(SystemPs2MouseDxe) DriverBinding 
+ 122: Image(SystemPs2KeyboardDxe) DriverBinding 
+ 123: Image(SystemIdeBusDxe) DriverBinding 
+ 124: Image(SystemIdeAtaAtapiPassThruDxe) DriverBinding 
+ 125: Image(SystemAhciBusDxe) DriverBinding 
+ 126: Image(SystemAhciAtaAtapiPassThruDxe) DriverBinding 
+ 127: Image(SystemUsbBusDxe) DriverBinding 
+ 128: Image(SystemUsbKbDxe) DriverBinding 
+ 129: Image(SystemUsbMouseDxe) DriverBinding 
+ 12A: Image(SystemUsbDatabaseSmm) 
+ 12B: Image(SystemUsbDatabaseSmm) 
+ 12C: Image(SystemUsbSwitchSmm) 
+ 12D: Image(SystemUsbSwitchSmm) 
+ 12E: Image(SystemUsbMemoryManagerSmm) 
+ 12F: Image(SystemUsbMemoryManagerSmm) 
+ 130: Image(SystemUsbSupportPolicySmm) 
+ 131: Image(SystemUsbSupportPolicySmm) 
+ 132: Image(SystemConPlatformDxe) DriverBinding 
+ 133: DriverBinding 
+ 134: Image(SystemConSplitterDxe) DriverBinding 
+ 135: DriverBinding 
+ 136: DriverBinding 
+ 137: DriverBinding 
+ 138: DriverBinding 
+ 139: Txtout 
+ 13A: Txtin SimplePointer 
+ 13B: Txtout GraphicsOutput 
+ 13C: Image(SystemGraphicsConsoleDxe) DriverBinding 
+ 13D: 
+ 13E: Image(SystemTerminalDxe) DriverBinding 
+ 13F: Image(SystemTextConsoleVgaDxe) DriverBinding 
+ 140: Image(SystemDiskIoDxe) DriverBinding 
+ 141: Image(SystemPartitionDxe) DriverBinding 
+ 142: Image(SystemSetupMainDxe) 
+ 143: 
+ 144: Image(SystemSetupExitDxe) 
+ 145: DevPath (..42,000000009800000000000000))
+ 146: Image(SystemEnglishDxe) 
+ 147: UnicodeCollation 
+ 148: 
+ 149: Image(EfiSystemPartCapsuleStorage) 
+ 14A: 
+ 14B: Image(SctPartCapsuleStorage) 
+ 14C: 
+ 14D: Image(PchInitDxe) 
+ 14E: Image(VlvInitDxe) 
+ 14F: 
+ 150: 
+ 151: Image(Dptf) 
+ 152: Image(MmcMediaDevice) DriverBinding ComponentName 
+ 153: Image(SataController) DriverBinding 
+ 154: Image(MmcHost) DriverBinding ComponentName 
+ 155: Image(SDCardDevice) DriverBinding ComponentName 
+ 156: Image(VlvPlatformDxe) 
+ 157: 
+ 158: Image(961578FE-B6B7-44C3-AF35-6BC705CD2B1F) DriverBinding ComponentName 
+ 159: Image(PchPcieSmm) 
+ 15A: Image(PowerManagement2) 
+ 15B: Image(KEMhDISP) 
+ 15C: 
+ 15D: Image(KEMaSMBIOSDxe) 
+ 15E: Image(NCT7802YDxe) 
+ 15F: Image(SystemUserMasterHddPwdDxe) 
+ 160: DevPath (..CE,00000000184F483600000000))
+ 161: Image(SystemHddPwdOem) 
+ 162: Image(SystemSmmAhciAspiLegacyRt) 
+ 163: Image(SystemSmmAhciAspiLegacyRt) 
+ 164: Image(SystemSmmCommunicationSmm) 
+ 165: Image(SystemSecurityTpmDxe) 
+ 166: Image(SystemHiiImageDisplayDxe) 
+ 167: Image(LegacyBiosMiscSmm) 
+ 168: Image(LegacyBiosMiscSmm) 
+ 169: Image(SystemSmmSdMemLegacySmm) 
+ 16A: 
+ 16B: Image(SystemSmmSdMemLegacySmm) 
+ 16C: Image(SystemFirmwareDeviceSmm) 
+ 16D: Image(SystemFirmwareDeviceSmm) 
+ 16E: Image(SystemAcpiTablesSmm) 
+ 16F: Image(SystemAcpiTablesSmm) 
+ 170: 
+ 171: 
+ 172: Image(PiSaveStateAccess) 
+ 173: Image(PiSaveStateAccess) 
+ 174: Image(SystemFlashCommunicationDxe) 
+ 175: 
+ 176: 
+ 177: Image(SystemSmmServicesSmm) 
+ 178: Image(SystemSmmServicesSmm) 
+ 179: Image(SystemLegacySetupSecurityDxe) 
+ 17A: DevPath (..42,010000009800000000000000))
+ 17B: Image(SystemAcpiTablesDxe) 
+ 17C: Image(PlatformCsmDxe) 
+ 17D: 
+ 17E: Image(SystemVariableSmm) 
+ 17F: Image(SystemVariableSmm) 
+ 180: 
+ 181: 
+ 182: Image(SystemUserMasterHddPwdSmm) 
+ 183: Image(SctSmmToEdkIISmm) 
+ 184: 
+ 185: Image(SystemFlashCommunicationSmm) 
+ 186: Image(SystemFlashCommunicationSmm) 
+ 187: Image(SmbiosBcpSmm) 
+ 188: Image(SmbiosBcpSmm) 
+ 189: 
+ 18A: Image(SystemSmBiosSmm) 
+ 18B: Image(SystemSmBiosSmm) 
+ 18C: Image(SystemSmbiosEventLogSmm) 
+ 18D: Image(SystemSmbiosEventLogSmm) 
+ 18E: 
+ 18F: Image(SystemSecurityTpmSmm) 
+ 190: Image(SystemSecurityTpmSmm) 
+ 191: Image(SystemXhciResetSystem) 
+ 192: Image(SystemXhciResetSystem) 
+ 193: Image(RasErrLogSmm) 
+ 194: Image(RasErrLogSmm) 
+ 195: 
+ 196: Image(SystemVgaDxe) DriverBinding 
+ 197: Image(SystemLegacyBiosDxe) 
+ 198: 
+ 199: 
+ 19A: Image(SystemSplashDxe) 
+ 19B: DevPath (..CE,000000001831983500000000))
+ 19C: 
+ 19D: PciIo DevPath (Acpi(PNP0A03,0)/Pci(1F|0))
+ 19E: DevPath (..0)/Pci(1F|0)/Acpi(PNP0A05,0))
+ 19F: DevPath (..0)/Pci(1F|0)/Acpi(PNP0A05,1))
+ 1A0: DevPath (..CE,0000000098A0973500000000))
+ 1A1: IsaIo DevPath (..i(PNP0A05,1)/Acpi(PNP0501,1))
+ 1A2: IsaIo DevPath (..i(PNP0A05,1)/Acpi(PNP0501,2))
+ 1A3: SerialIo DevPath (..00,N,8,1)/UartFlowCtrl(None))
+ 1A4: Txtin Txtout ConIn ConOut DevPath (..rtFlowCtrl(None)/VenPcAnsi())
+ 1A5: PciIo DevPath (Acpi(PNP0A03,0)/Pci(2|0))
+ 1A6: 
+ 1A7: Txtout GraphicsOutput EdidDiscovered EdidActive ConOut DevPath (..)/Pci(2|0)/AcpiAdr(80010100))
+ 1A8: PciIo UsbHc2 DevPath (Acpi(PNP0A03,0)/Pci(14|0))
+ 1A9: PciIo DevPath (Acpi(PNP0A03,0)/Pci(17|0))
+ 1AA: DiskIo BlkIo DevPath (..PNP0A03,0)/Pci(17|0)/Ctrl(0))
+ 1AB: PciIo DevPath (Acpi(PNP0A03,0)/Pci(12|0))
+ 1AC: DiskIo BlkIo DevPath (..PNP0A03,0)/Pci(12|0)/Ctrl(0))
+ 1AD: PciIo ExtScsiPassThru DevPath (Acpi(PNP0A03,0)/Pci(13|0))
+ 1AE: Image(SystemAhciBusSmm) 
+ 1AF: Image(SystemAhciBusSmm) 
+ 1B0: 
+ 1B1: Image(SystemSmmUsbLegacySmm) 
+ 1B2: 
+ 1B3: Image(SystemSmmUsbLegacySmm) 
+ 1B4: SerialIo DevPath (..00,N,8,1)/UartFlowCtrl(None))
+ 1B5: PciIo DevPath (Acpi(PNP0A03,0)/Pci(0|0))
+ 1B6: PciIo DevPath (Acpi(PNP0A03,0)/Pci(1A|0))
+ 1B7: PciIo DevPath (Acpi(PNP0A03,0)/Pci(1C|0))
+ 1B8: PciIo DevPath (Acpi(PNP0A03,0)/Pci(1C|1))
+ 1B9: PciIo DevPath (Acpi(PNP0A03,0)/Pci(1C|2))
+ 1BA: PciIo DevPath (Acpi(PNP0A03,0)/Pci(1C|3))
+ 1BB: PciIo DevPath (..NP0A03,0)/Pci(1C|3)/Pci(0|0))
+ 1BC: PciIo DevPath (Acpi(PNP0A03,0)/Pci(1F|3))
+ 1BD: 
+ 1BE: Image(KEMoPLATFORMMENUDxe) 
+ 1BF: 
+ 1C0: Image(SystemBootMenuDxe) 
+ 1C1: UsbIo DevPath (..NP0A03,0)/Pci(14|0)/Usb(0,0))
+ 1C2: UsbIo DevPath (..NP0A03,0)/Pci(14|0)/Usb(2,0))
+ 1C3: UsbIo DevPath (..NP0A03,0)/Pci(14|0)/Usb(2,1))
+ 1C4: UsbIo DevPath (..NP0A03,0)/Pci(14|0)/Usb(2,2))
+ 1C5: UsbIo DevPath (..NP0A03,0)/Pci(14|0)/Usb(2,3))
+ 1C6: UsbIo DevPath (..NP0A03,0)/Pci(14|0)/Usb(2,4))
+ 1C7: UsbIo DevPath (..NP0A03,0)/Pci(14|0)/Usb(2,5))
+ 1C8: UsbIo DevPath (..NP0A03,0)/Pci(14|0)/Usb(3,0))
+ 1C9: UsbIo DevPath (../Pci(14|0)/Usb(3,0)/Usb(0,0))
+ 1CA: UsbIo DevPath (../Pci(14|0)/Usb(3,0)/Usb(0,1))
+ 1CB: Txtin UsbIo ConIn DevPath (../Pci(14|0)/Usb(3,0)/Usb(1,0))
+ 1CC: UsbIo DevPath (../Pci(14|0)/Usb(3,0)/Usb(1,1))
+ 1CD: UsbIo DevPath (../Pci(14|0)/Usb(3,0)/Usb(1,2))
+ 1CE: UsbIo DevPath (../Pci(14|0)/Usb(3,0)/Usb(1,3))
+ 1CF: UsbIo DevPath (../Pci(14|0)/Usb(3,0)/Usb(1,4))
+ 1D0: DevPath (..42,020000009800000000000000))
+ 1D1: Image(Shell) ShellInt 
+ 1D2: 
+ 1D3: Fs DiskIo BlkIo DevPath (..trl(0)/HD(Part1,Sig9AA750BD))
+ 1D4: DiskIo BlkIo DevPath (..trl(0)/HD(Part2,Sig9AA750BD))
+ 1D5: Fs DiskIo BlkIo DevPath (..trl(0)/HD(Part1,Sig08A7EE3A))
+ 1D6: Txtout DevPath (..g08A7EE3A)/\output/dh-output)

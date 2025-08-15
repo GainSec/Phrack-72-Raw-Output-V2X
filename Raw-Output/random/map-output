@@ -1,0 +1,19 @@
+﻿Device mapping table
+  fs0   :HardDisk - Alias hd21b blk0 
+         Acpi(PNP0A03,0)/Pci(12|0)/Ctrl(0)/HD(Part1,Sig08A7EE3A)
+  fs1   :HardDisk - Alias hd25b blk1 
+         Acpi(PNP0A03,0)/Pci(17|0)/Ctrl(0)/HD(Part1,Sig9AA750BD)
+  blk0  :HardDisk - Alias hd21b fs0 
+         Acpi(PNP0A03,0)/Pci(12|0)/Ctrl(0)/HD(Part1,Sig08A7EE3A)
+  blk1  :HardDisk - Alias hd25b fs1 
+         Acpi(PNP0A03,0)/Pci(17|0)/Ctrl(0)/HD(Part1,Sig9AA750BD)
+  blk2  :HardDisk - Alias (null)
+         Acpi(PNP0A03,0)/Pci(17|0)/Ctrl(0)/HD(Part2,Sig9AA750BD)
+  blk3  :BlockDevice - Alias (null)
+         Acpi(PNP0A03,0)/Pci(12|0)/Ctrl(0)
+  blk4  :BlockDevice - Alias (null)
+         Acpi(PNP0A03,0)/Pci(17|0)/Ctrl(0)
+  hd21b :HardDisk - Alias fs0 blk0 
+         Acpi(PNP0A03,0)/Pci(12|0)/Ctrl(0)/HD(Part1,Sig08A7EE3A)
+  hd25b :HardDisk - Alias fs1 blk1 
+         Acpi(PNP0A03,0)/Pci(17|0)/Ctrl(0)/HD(Part1,Sig9AA750BD)

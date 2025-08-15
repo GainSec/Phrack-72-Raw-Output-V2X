@@ -1,0 +1,423 @@
++ . /mnt/c3platpersistent/share/startup/common.sh
+++ source /etc/os-release
++++ PRETTY_NAME='Debian GNU/Linux 9 (stretch)'
++++ NAME='Debian GNU/Linux'
++++ VERSION_ID=9
++++ VERSION='9 (stretch)'
++++ VERSION_CODENAME=stretch
++++ ID=debian
++++ HOME_URL=https://www.debian.org/
++++ SUPPORT_URL=https://www.debian.org/support
++++ BUG_REPORT_URL=https://bugs.debian.org/
+++ export DEBIAN_VERSION=9
+++ DEBIAN_VERSION=9
+++ export LD_LIBRARY_PATH=/mnt/c3platpersistent/lib/deb9:/mnt/c3platpersistent/lib
+++ LD_LIBRARY_PATH=/mnt/c3platpersistent/lib/deb9:/mnt/c3platpersistent/lib
++++ basename -- /mnt/c3platpersistent/etc/startup.d//001_configure_ld.so.cache.sh
+++ APP_SCR=001_configure_ld.so.cache.sh
++++ readlink -f -- /mnt/c3platpersistent/etc/startup.d//001_configure_ld.so.cache.sh
+++ ACT_DIR=/mnt/c3platpersistent/etc/startup.d/001_configure_ld.so.cache.sh
++++ dirname /mnt/c3platpersistent/etc/startup.d/001_configure_ld.so.cache.sh
+++ ABS_PATH=/mnt/c3platpersistent/etc/startup.d
+++ ENABLE_LED_HANDLER=false
+++ LED_STARTUP_PID=/var/run/flash_pid.startup
+++ LED_HANDLER_IP=127.0.0.1
+++ LED_HANDLER_PORT=6001
+++ LED_HANDLER_AIRLINK_STATISTICS=tx
+++ ETH_IF=eth0
+++ [[ -n /mnt/c3platpersistent ]]
++++ cat /mnt/c3platpersistent/etc/issue
++++ head -n 1
+++ export VARIANTRS=USDoT-NAStack
+++ VARIANTRS=USDoT-NAStack
+++ export WATCHDOG_SCRIPTS_PATH=/var/run/supervision/scripts
+++ WATCHDOG_SCRIPTS_PATH=/var/run/supervision/scripts
+++ mkdir -p /var/run/supervision/scripts
+++ [[ false == false ]]
+++ export ROADSIDE_IPTABLES_ENABLED=true
+++ ROADSIDE_IPTABLES_ENABLED=true
+++ export CERTPATH=/mnt/c3platpersistent/share/its-g5-security-certs/
+++ CERTPATH=/mnt/c3platpersistent/share/its-g5-security-certs/
+++ export GPSD_DEBUG=0
+++ GPSD_DEBUG=0
+++ export GPSD_OPTS=
+++ GPSD_OPTS=
+++ [[ 9 == 9 ]]
+++ export PPSDEVICE=/dev/pps1
+++ PPSDEVICE=/dev/pps1
+++ export GPSD_CYCLE_TIME=1.0
+++ GPSD_CYCLE_TIME=1.0
+++ [[ USDoT-NAStack =~ .*CCA.* ]]
+++ [[ USDoT-NAStack =~ USDoT-QualcommRR ]]
+++ export ENABLED_RADIOS=:NXP:
+++ ENABLED_RADIOS=:NXP:
+++ [[ -e /etc/eeprom-cb/a.dualradio.mode ]]
+++ [[ -e /mnt/c3platpersistent/etc/roadside.cfg ]]
+++ source /mnt/c3platpersistent/etc/roadside.cfg
++++ export AEROLINK_BASE=/mnt/c3platpersistent/etc/aerolink/ieee
++++ AEROLINK_BASE=/mnt/c3platpersistent/etc/aerolink/ieee
++++ export AEROLINK_CONFIG_DIR=/mnt/c3platpersistent/etc/aerolink/ieee/config/
++++ AEROLINK_CONFIG_DIR=/mnt/c3platpersistent/etc/aerolink/ieee/config/
++++ export AEROLINK_STATE_DIR=/mnt/c3platpersistent/etc/aerolink/ieee/state/
++++ AEROLINK_STATE_DIR=/mnt/c3platpersistent/etc/aerolink/ieee/state/
++++ export INIT_TARGET=./share/urb/cfgdb2stack.usdot.urb
++++ INIT_TARGET=./share/urb/cfgdb2stack.usdot.urb
++ '[' xstart = xstart ']'
++ logger '001_configure_ld.so.cache.sh -D- executing ---'
++ find /mnt/c3platpersistent/lib -type d
++ /sbin/ldconfig -X -v
+/sbin/ldconfig: Can't stat /lib/i686-linux-gnu: No such file or directory
+/sbin/ldconfig: Can't stat /usr/lib/i686-linux-gnu: No such file or directory
+/sbin/ldconfig: Path `/lib/i386-linux-gnu' given more than once
+/sbin/ldconfig: Path `/usr/lib/i386-linux-gnu' given more than once
+/mnt/c3platpersistent/lib:
+	libasn1per.so -> libasn1per.so
+	libviicsec.so.1 -> libviicsec.so.1
+	libboost_filesystem.so.1.66.0 -> libboost_filesystem.so.1.66.0
+	libasn1ber.so -> libasn1ber.so
+	libasn1rt.so -> libasn1rt.so
+	libboost_regex.so.1.66.0 -> libboost_regex.so.1.66.0
+	libasn1oer.so -> libasn1oer.so
+	libnetsnmphelpers.so.35 -> libnetsnmphelpers.so.35.0.0
+	libasn1json.so -> libasn1json.so
+	libboost_program_options.so.1.66.0 -> libboost_program_options.so.1.66.0
+	libprotoc.so.20 -> libprotoc.so.20.0.1
+	libboost_system.so.1.66.0 -> libboost_system.so.1.66.0
+	libsfmt.so -> libsfmt.so
+	libs_ntp.so -> libs_ntp.so
+	libparamcfg.so -> libparamcfg.so
+	libasn1xml.so -> libasn1xml.so
+	libutils-time-al.so.0 -> libutils-time-al.so.0.1
+	libtelux_cca_al.so -> libtelux_cca_al.so
+	libmisbehaviorReport.so.1 -> libmisbehaviorReport.so.1
+	libprotobuf-lite.so.20 -> libprotobuf-lite.so.20.0.1
+	libaerolinkPKI.so.1 -> libaerolinkPKI.so.1
+	libpcap.so.1 -> libpcap.so.1.9.0
+	libcurl.so.4 -> libcurl.so.4.5.0
+	libv2xCryptoPal.so.2.6 -> libv2xCryptoPal.so.2.6.0
+	libosa.so -> libosa.so
+	libnetsnmp.so.35 -> libnetsnmp.so.35.0.0
+	libmanagement.so -> libmanagement.so
+	libcommontools.so -> libcommontools.so
+	liblog4cplus-1.2.so.5 -> liblog4cplus.so
+	libnetsnmpmibs.so.35 -> libnetsnmpmibs.so.35.0.0
+	libcppnetlib-client-connections.so.0 -> libcppnetlib-client-connections.so.0.13.0
+	libboost_thread.so.1.66.0 -> libboost_thread.so.1.66.0
+	libgps.so.27 -> libgps.so.27.0.0
+	libmkitstime.so -> libmkitstime.so
+	libv2xCrypto.so.2.6 -> libv2xCrypto.so.2.6.0
+	libprotobuf.so.20 -> libprotobuf.so.20.0.1
+	libxml_parser.so -> libxml_parser.so
+	libcppnetlib-uri.so.0 -> libcppnetlib-uri.so.0.13.0
+	libnetsnmptrapd.so.35 -> libnetsnmptrapd.so.35.0.0
+	libgpsdpacket.so.27 -> libgpsdpacket.so.27.0.0
+	libLLC.so -> libLLC.so
+/sbin/ldconfig: /mnt/c3platpersistent/lib/libc2x.so.1 is not a symbolic link
+
+	libc2x.so.1 -> libc2x.so.1.0
+	libjson-c.so.4 -> libjson-c.so.4.0.0
+	libmodbus.so.5 -> libmodbus.so.5.1.0
+	libosa_queues.so -> libosa_queues.so
+	libpuretools.so -> libpuretools.so
+	libcppnetlib-server-parsers.so.0 -> libcppnetlib-server-parsers.so.0.13.0
+	libnetsnmpagent.so.35 -> libnetsnmpagent.so.35.0.0
+	libal-ubloxv13.so -> libal-ubloxv13.so
+	libal.so -> librr_al.so
+	libssl.so.1.1 -> libssl.so.1.1
+	libcrypto.so.1.1 -> libcrypto.so.1.1
+	lib59log.so -> lib59log.so
+	liblogging.so -> liblogging.so
+/mnt/c3platpersistent/lib/python2.7:
+/mnt/c3platpersistent/lib/python2.7/site-packages:
+/mnt/c3platpersistent/lib/python2.7/site-packages/requests-2.23.0-py2.7.egg:
+/mnt/c3platpersistent/lib/python2.7/site-packages/requests-2.23.0-py2.7.egg/requests:
+/mnt/c3platpersistent/lib/python2.7/site-packages/requests-2.23.0-py2.7.egg/EGG-INFO:
+/mnt/c3platpersistent/lib/python2.7/site-packages/__pycache__:
+/mnt/c3platpersistent/lib/python2.7/site-packages/urllib3-1.25.11-py2.7.egg:
+/mnt/c3platpersistent/lib/python2.7/site-packages/urllib3-1.25.11-py2.7.egg/EGG-INFO:
+/mnt/c3platpersistent/lib/python2.7/site-packages/urllib3-1.25.11-py2.7.egg/urllib3:
+/mnt/c3platpersistent/lib/python2.7/site-packages/urllib3-1.25.11-py2.7.egg/urllib3/util:
+/mnt/c3platpersistent/lib/python2.7/site-packages/urllib3-1.25.11-py2.7.egg/urllib3/contrib:
+/mnt/c3platpersistent/lib/python2.7/site-packages/urllib3-1.25.11-py2.7.egg/urllib3/contrib/_securetransport:
+/mnt/c3platpersistent/lib/python2.7/site-packages/urllib3-1.25.11-py2.7.egg/urllib3/packages:
+/mnt/c3platpersistent/lib/python2.7/site-packages/urllib3-1.25.11-py2.7.egg/urllib3/packages/ssl_match_hostname:
+/mnt/c3platpersistent/lib/python2.7/site-packages/urllib3-1.25.11-py2.7.egg/urllib3/packages/backports:
+/mnt/c3platpersistent/lib/python2.7/site-packages/certifi-2020.12.5-py2.7.egg:
+/mnt/c3platpersistent/lib/python2.7/site-packages/certifi-2020.12.5-py2.7.egg/EGG-INFO:
+/mnt/c3platpersistent/lib/python2.7/site-packages/certifi-2020.12.5-py2.7.egg/certifi:
+/mnt/c3platpersistent/lib/engines-1.1:
+/lib/i386-linux-gnu:
+	libz.so.1 -> libz.so.1.2.8
+	libwrap.so.0 -> libwrap.so.0.7.6
+	libuuid.so.1 -> libuuid.so.1.3.0
+	libutil.so.1 -> libutil-2.24.so
+	libusb-1.0.so.0 -> libusb-1.0.so.0.1.0
+	libudev.so.1 -> libudev.so.1.6.5
+	libtinfo.so.5 -> libtinfo.so.5.9
+	libthread_db.so.1 -> libthread_db-1.0.so
+	libsystemd.so.0 -> libsystemd.so.0.17.0
+	libss.so.2 -> libss.so.2.0
+	libsmartcols.so.1 -> libsmartcols.so.1.1.0
+	libslang.so.2 -> libslang.so.2.3.1
+	libsepol.so.1 -> libsepol.so.1
+	libselinux.so.1 -> libselinux.so.1
+	libseccomp.so.2 -> libseccomp.so.2.3.1
+	librt.so.1 -> librt-2.24.so
+	libresolv.so.2 -> libresolv-2.24.so
+	libreadline.so.7 -> libreadline.so.7.0
+	libpthread.so.0 -> libpthread-2.24.so
+	libprocps.so.6 -> libprocps.so.6.0.0
+	libpopt.so.0 -> libpopt.so.0.0.0
+	libpcre.so.3 -> libpcre.so.3.13.3
+	libpcprofile.so -> libpcprofile.so
+	libpci.so.3 -> libpci.so.3.5.2
+	libparted.so.2 -> libparted.so.2.0.1
+	libpamc.so.0 -> libpamc.so.0.82.1
+	libpam_misc.so.0 -> libpam_misc.so.0.82.0
+	libpam.so.0 -> libpam.so.0.83.1
+	libnss_resolve.so.2 -> libnss_resolve.so.2
+	libnss_nisplus.so.2 -> libnss_nisplus-2.24.so
+	libnss_nis.so.2 -> libnss_nis-2.24.so
+	libnss_hesiod.so.2 -> libnss_hesiod-2.24.so
+	libnss_files.so.2 -> libnss_files-2.24.so
+	libnss_dns.so.2 -> libnss_dns-2.24.so
+	libnss_compat.so.2 -> libnss_compat-2.24.so
+	libnsl.so.1 -> libnsl-2.24.so
+	libnl-genl-3.so.200 -> libnl-genl-3.so.200.22.0
+	libnl-3.so.200 -> libnl-3.so.200.22.0
+	libncursesw.so.5 -> libncursesw.so.5.9
+	libncurses.so.5 -> libncurses.so.5.9
+	libmount.so.1 -> libmount.so.1.1.0
+	libmnl.so.0 -> libmnl.so.0.2.0
+	libmemusage.so -> libmemusage.so
+	libm.so.6 -> libm-2.24.so
+	liblzma.so.5 -> liblzma.so.5.2.2
+	libkmod.so.2 -> libkmod.so.2.3.1
+	libkeyutils.so.1 -> libkeyutils.so.1.5
+	libjson-c.so.3 -> libjson-c.so.3.0.1
+	libiw.so.30 -> libiw.so.30
+	libisc-export.so.160 -> libisc-export.so.160.0.0
+	libidn.so.11 -> libidn.so.11.6.16
+	libhistory.so.7 -> libhistory.so.7.0
+	libgpg-error.so.0 -> libgpg-error.so.0.21.0
+	libglib-2.0.so.0 -> libglib-2.0.so.0.5000.3
+	libgcrypt.so.20 -> libgcrypt.so.20.1.6
+	libgcc_s.so.1 -> libgcc_s.so.1
+	libfdisk.so.1 -> libfdisk.so.1.1.0
+	libext2fs.so.2 -> libext2fs.so.2.4
+	libexpat.so.1 -> libexpat.so.1.6.2
+	libe2p.so.2 -> libe2p.so.2.3
+	libdns-export.so.162 -> libdns-export.so.162.1.3
+	libdl.so.2 -> libdl-2.24.so
+	libdevmapper.so.1.02.1 -> libdevmapper.so.1.02.1
+	libdbus-1.so.3 -> libdbus-1.so.3.14.16
+	libcryptsetup.so.4 -> libcryptsetup.so.4.7.0
+	libcrypt.so.1 -> libcrypt-2.24.so
+	libcom_err.so.2 -> libcom_err.so.2.1
+	libcidn.so.1 -> libcidn-2.24.so
+	libcap.so.2 -> libcap.so.2.25
+	libcap-ng.so.0 -> libcap-ng.so.0.0.0
+	libc.so.6 -> libc-2.24.so
+	libbz2.so.1.0 -> libbz2.so.1.0.4
+	libbsd.so.0 -> libbsd.so.0.8.3
+	libblkid.so.1 -> libblkid.so.1.1.0
+	libaudit.so.1 -> libaudit.so.1.0.0
+	libattr.so.1 -> libattr.so.1.1.0
+	libapparmor.so.1 -> libapparmor.so.1.4.0
+	libanl.so.1 -> libanl-2.24.so
+	libaio.so.1 -> libaio.so.1.0.1
+	libacl.so.1 -> libacl.so.1.1.0
+	libSegFault.so -> libSegFault.so
+	libBrokenLocale.so.1 -> libBrokenLocale-2.24.so
+/sbin/ldconfig: /lib/i386-linux-gnu/ld-2.24.so is the dynamic linker, ignoring
+
+	ld-linux.so.2 -> ld-2.24.so
+/usr/lib/i386-linux-gnu:
+	libyaml-0.so.2 -> libyaml-0.so.2.0.5
+	libyajl.so.2 -> libyajl.so.2.1.0
+	libxtables.so.12 -> libxtables.so.12.0.0
+	libxml2.so.2 -> libxml2.so.2.9.4
+	libxml-security-c.so.17 -> libxml-security-c.so.17.0.3
+	libxerces-c-3.1.so -> libxerces-c-3.1.so
+	libxcb.so.1 -> libxcb.so.1.1.0
+	libxcb-shm.so.0 -> libxcb-shm.so.0.0.0
+	libxcb-render.so.0 -> libxcb-render.so.0.0.0
+	libxapian.so.30 -> libxapian.so.30.3.0
+	libutempter.so.0 -> libutempter.so.1.1.6
+	libustr-1.0.so.1 -> libustr-1.0.so.1.0.4
+	libunistring.so.0 -> libunistring.so.0.1.2
+	libtiff.so.5 -> libtiff.so.5.2.6
+	libtic.so.5 -> libtic.so.5.9
+	libthai.so.0 -> libthai.so.0.3.0
+	libtcl8.6.so -> libtcl8.6.so.0
+	libtasn1.so.6 -> libtasn1.so.6.5.3
+	libstdc++.so.6 -> libstdc++.so.6.0.22
+	libssl.so.1.1 -> libssl.so.1.1
+	libssl.so.1.0.2 -> libssl.so.1.0.2
+	libssh2.so.1 -> libssh2.so.1.0.1
+	libsqlite3.so.0 -> libsqlite3.so.0.8.6
+	libsnmp.so.30 -> libsnmp.so.30.0.3
+	libslapi-2.4.so.2 -> libslapi-2.4.so.2.10.7
+	libsigsegv.so.2 -> libsigsegv.so.2.0.3
+	libsensors.so.4 -> libsensors.so.4.4.0
+	libsemanage.so.1 -> libsemanage.so.1
+	libsctp.so.1 -> libsctp.so.1.0.17
+	libsasl2.so.2 -> libsasl2.so.2.0.25
+	libruby-2.3.so.2.3 -> libruby-2.3.so.2.3.0
+	librtmp.so.1 -> librtmp.so.1
+	librsvg-2.so.2 -> librsvg-2.so.2.40.16
+	librrd.so.8 -> librrd.so.8.0.0
+	libquadmath.so.0 -> libquadmath.so.0.0.0
+	libpython3.5m.so.1.0 -> libpython3.5m.so.1.0
+	libpsl.so.5 -> libpsl.so.5.1.1
+	libpng16.so.16 -> libpng16.so.16.28.0
+	libpixman-1.so.0 -> libpixman-1.so.0.34.0
+	libpipeline.so.1 -> libpipeline.so.1.4.1
+	libperl.so.5.24 -> libperl.so.5.24.1
+	libpcsclite.so.1 -> libpcsclite.so.1.0.0
+	libpcreposix.so.3 -> libpcreposix.so.3.13.3
+	libpcap.so.0.8 -> libpcap.so.1.8.1
+	libpangoft2-1.0.so.0 -> libpangoft2-1.0.so.0.4000.5
+	libpangocairo-1.0.so.0 -> libpangocairo-1.0.so.0.4000.5
+	libpango-1.0.so.0 -> libpango-1.0.so.0.4000.5
+	libpanelw.so.5 -> libpanelw.so.5.9
+	libpanel.so.5 -> libpanel.so.5.9
+	libp11-kit.so.0 -> libp11-kit.so.0.2.0
+	libopts.so.25 -> libopts.so.25.16.1
+	libopcodes-2.28-system.so -> libopcodes-2.28-system.so
+	libodbccr.so.2 -> libodbccr.so.2.0.0
+	libodbc.so.2 -> libodbc.so.2.0.0
+	libnpth.so.0 -> libnpth.so.0.0.6
+	libnl-route-3.so.200 -> libnl-route-3.so.200.22.0
+	libnghttp2.so.14 -> libnghttp2.so.14.12.3
+	libnfnetlink.so.0 -> libnfnetlink.so.0.2.0
+	libnewt.so.0.52 -> libnewt.so.0.52.19
+	libnettle.so.6 -> libnettle.so.6.3
+	libnetsnmptrapd.so.30 -> libnetsnmptrapd.so.30.0.3
+	libnetsnmpmibs.so.30 -> libnetsnmpmibs.so.30.0.3
+	libnetsnmphelpers.so.30 -> libnetsnmphelpers.so.30.0.3
+	libnetsnmpagent.so.30 -> libnetsnmpagent.so.30.0.3
+	libnetsnmp.so.30 -> libnetsnmp.so.30.0.3
+	libnetfilter_conntrack.so.3 -> libnetfilter_conntrack.so.3.6.0
+	libnet.so.1 -> libnet.so.1.7.0
+	libmpfr.so.4 -> libmpfr.so.4.1.5
+	libmpdec.so.2 -> libmpdec.so.2.4.2
+	libmongoc-1.0.so.0 -> libmongoc-1.0.so.0.0.0
+	libmenuw.so.5 -> libmenuw.so.5.9
+	libmenu.so.5 -> libmenu.so.5.9
+	liblz4.so.1 -> liblz4.so.1.7.1
+	liblwres.so.141 -> liblwres.so.141.0.3
+	liblua5.2.so.0 -> liblua5.2.so.0.0.0
+	liblua5.2-c++.so.0 -> liblua5.2-c++.so.0.0.0
+	libltdl.so.7 -> libltdl.so.7.3.1
+	liblognorm.so.5 -> liblognorm.so.5.0.0
+	liblogging-stdlog.so.0 -> liblogging-stdlog.so.0.0.0
+	libldap_r-2.4.so.2 -> libldap_r-2.4.so.2.10.7
+	liblber-2.4.so.2 -> liblber-2.4.so.2.10.7
+	libksba.so.8 -> libksba.so.8.11.6
+	libkrb5support.so.0 -> libkrb5support.so.0.1
+	libkrb5.so.3 -> libkrb5.so.3.3
+	libk5crypto.so.3 -> libk5crypto.so.3.1
+	libjpeg.so.62 -> libjpeg.so.62.2.0
+	libjbig.so.0 -> libjbig.so.0
+	libivykis.so.0 -> libivykis.so.0.3.5
+	libisccfg.so.140 -> libisccfg.so.140.3.0
+	libisccc.so.140 -> libisccc.so.140.0.4
+	libisc.so.160 -> libisc.so.160.0.0
+	libisc-pkcs11.so.160 -> libisc-pkcs11.so.160.0.0
+	libiptc.so.0 -> libiptc.so.0.0.0
+	libip6tc.so.0 -> libip6tc.so.0.1.0
+	libip4tc.so.0 -> libip4tc.so.0.1.0
+	libidn2.so.0 -> libidn2.so.0.1.4
+	libicuuc.so.57 -> libicuuc.so.57.1
+	libicutu.so.57 -> libicutu.so.57.1
+	libicutest.so.57 -> libicutest.so.57.1
+	libiculx.so.57 -> libiculx.so.57.1
+	libicule.so.57 -> libicule.so.57.1
+	libicuio.so.57 -> libicuio.so.57.1
+	libicui18n.so.57 -> libicui18n.so.57.1
+	libicudata.so.57 -> libicudata.so.57.1
+	libhogweed.so.4 -> libhogweed.so.4.3
+	libharfbuzz.so.0 -> libharfbuzz.so.0.10400.2
+	libgtk-x11-2.0.so.0 -> libgtk-x11-2.0.so.0.2400.31
+	libgthread-2.0.so.0 -> libgthread-2.0.so.0.5000.3
+	libgssapi_krb5.so.2 -> libgssapi_krb5.so.2.2
+	libgraphite2.so.3 -> libgraphite2.so.3.0.1
+	libgps.so.22 -> libgps.so.22.0.0
+	libgpm.so.2 -> libgpm.so.2
+	libgpgme.so.11 -> libgpgme.so.11.17.0
+	libgobject-2.0.so.0 -> libgobject-2.0.so.0.5000.3
+	libgnutls.so.30 -> libgnutls.so.30.13.1
+	libgmp.so.10 -> libgmp.so.10.3.2
+	libgmodule-2.0.so.0 -> libgmodule-2.0.so.0.5000.3
+	libgio-2.0.so.0 -> libgio-2.0.so.0.5000.3
+	libgfortran.so.3 -> libgfortran.so.3.0.0
+	libgdk_pixbuf_xlib-2.0.so.0 -> libgdk_pixbuf_xlib-2.0.so.0.3600.5
+	libgdk_pixbuf-2.0.so.0 -> libgdk_pixbuf-2.0.so.0.3600.5
+	libgdk-x11-2.0.so.0 -> libgdk-x11-2.0.so.0.2400.31
+	libgdbm_compat.so.3 -> libgdbm_compat.so.3.0.0
+	libgdbm.so.3 -> libgdbm.so.3.0.0
+	libfreetype.so.6 -> libfreetype.so.6.12.3
+	libformw.so.5 -> libformw.so.5.9
+	libform.so.5 -> libform.so.5.9
+	libfontconfig.so.1 -> libfontconfig.so.1.8.0
+	libffi.so.6 -> libffi.so.6.0.4
+	libfastjson.so.4 -> libfastjson.so.4.0.0
+	libexpatw.so.1 -> libexpatw.so.1.6.2
+	libevtlog.so.0 -> libevtlog.so.0.0.0
+	libevent-2.0.so.5 -> libevent-2.0.so.5.1.9
+	libestr.so.0 -> libestr.so.0.0.0
+	libelf.so.1 -> libelf-0.168.so
+	libefivar.so.1 -> libefivar.so.1.30
+	libefiboot.so.1 -> libefiboot.so.1.30
+	libedit.so.2 -> libedit.so.2.0.55
+	libdns.so.162 -> libdns.so.162.1.3
+	libdns-pkcs11.so.162 -> libdns-pkcs11.so.162.1.3
+	libdebconfclient.so.0 -> libdebconfclient.so.0.0.0
+	libdbi.so.1 -> libdbi.so.1.1.0
+	libdb-5.3.so -> libdb-5.3.so
+	libdatrie.so.1 -> libdatrie.so.1.3.3
+	libdaemon.so.0 -> libdaemon.so.0.5.0
+	libcurl-gnutls.so.4 -> libcurl-gnutls.so.4.4.0
+	libcups.so.2 -> libcups.so.2
+	libcrypto.so.1.1 -> libcrypto.so.1.1
+	libcrypto.so.1.0.2 -> libcrypto.so.1.0.2
+	libcroco-0.6.so.3 -> libcroco-0.6.so.3.0.1
+	libcairo.so.2 -> libcairo.so.2.11400.8
+	libbson-1.0.so.0 -> libbson-1.0.so.0.0.0
+	libbluetooth.so.3 -> libbluetooth.so.3.18.14
+	libbind9.so.140 -> libbind9.so.140.0.10
+	libbfd-2.28-system.so -> libbfd-2.28-system.so
+	libavahi-core.so.7 -> libavahi-core.so.7.0.2
+	libavahi-common.so.3 -> libavahi-common.so.3.5.3
+	libavahi-client.so.3 -> libavahi-client.so.3.2.9
+	libatomic.so.1 -> libatomic.so.1.2.0
+	libatk-1.0.so.0 -> libatk-1.0.so.0.22209.1
+	libassuan.so.0 -> libassuan.so.0.7.3
+	libapt-private.so.0.0 -> libapt-private.so.0.0.0
+	libapt-pkg.so.5.0 -> libapt-pkg.so.5.0.1
+	libapt-inst.so.2.0 -> libapt-inst.so.2.0.0
+	libXrender.so.1 -> libXrender.so.1.3.0
+	libXrandr.so.2 -> libXrandr.so.2.2.0
+	libXinerama.so.1 -> libXinerama.so.1.0.0
+	libXi.so.6 -> libXi.so.6.1.0
+	libXfixes.so.3 -> libXfixes.so.3.1.0
+	libXext.so.6 -> libXext.so.6.4.0
+	libXdmcp.so.6 -> libXdmcp.so.6.0.0
+	libXdamage.so.1 -> libXdamage.so.1.1.0
+	libXcursor.so.1 -> libXcursor.so.1.0.2
+	libXcomposite.so.1 -> libXcomposite.so.1.0.0
+	libXau.so.6 -> libXau.so.6.0.0
+	libX11.so.6 -> libX11.so.6.3.0
+	libGeoIP.so.1 -> libGeoIP.so.1.6.9
+/usr/local/lib:
+/lib:
+/usr/lib:
+	libwvutils.so.4.6 -> libwvutils.so.4.6
+	libwvstreams.so.4.6 -> libwvstreams.so.4.6
+	libwvdbus.so.4.6 -> libwvdbus.so.4.6
+	libwvbase.so.4.6 -> libwvbase.so.4.6
+	libuniconf.so.4.6 -> libuniconf.so.4.6
+	libpyglib-2.0-python2.7.so.0 -> libpyglib-2.0-python2.7.so.0.0.0
+/usr/lib/i386-linux-gnu/sse2: (hwcap: 0x0000000004000000)
+	libxapian.so.30 -> libxapian.so.30.3.0

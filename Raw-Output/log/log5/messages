@@ -1,0 +1,655 @@
+Jan  1 00:01:39 CB-9160 syslog-ng[412]: syslog-ng starting up; version='3.5.6'
+Jan  1 00:01:40 CB-9160 kernel: i2c i2c-9: FD value=2
+Jan  1 00:01:40 CB-9160 kernel: rtc-rv8803 9-0032: rtc core: registered rv8803 as rtc0
+Jan  1 00:01:40 CB-9160 kernel: i2c i2c-9: new_device: Instantiated device rv8803 at 0x32
+Jan  1 00:01:45 CB-9160 kernel: pps_gpio_init:
+Jan  1 00:01:45 CB-9160 kernel: pin 12 special handling for PPS (1).
+Jan  1 00:01:45 CB-9160 kernel: pps pps0: new PPS source pps-gpio.-1
+Jan  1 00:01:45 CB-9160 kernel: pps pps0: Registered IRQ 111 as PPS source
+Jan  1 00:01:45 CB-9160 kernel: pps_gpio_init: PPS_GPIO device registered OK
+Jan  4 05:16:29 CB-9160 logger: startup.sh - variant is USDoT-QualcommCCA [Debug = ]
+Jan  4 05:16:29 CB-9160 logger: startup.sh - forced startup logging
+Jan  4 05:16:29 CB-9160 logger: startup.sh - going to execute /mnt/c3platpersistent/etc/startup.d//000_begin.sh
+Jan  4 05:16:29 CB-9160 logger: 000_begin.sh -I- Begin of start script execution
+Jan  4 05:16:31 CB-9160 logger: 000_begin.sh -I- System clock from RTC done
+Jan  4 05:16:31 CB-9160 logger: startup.sh - going to execute /mnt/c3platpersistent/etc/startup.d//001_configure_ld.so.cache.sh
+Jan  4 05:16:31 CB-9160 logger: 001_configure_ld.so.cache.sh -D- executing ---
+Jan  4 05:16:33 CB-9160 logger: startup.sh - going to execute /mnt/c3platpersistent/etc/startup.d//004_create_admin_users.sh
+Jan  4 05:16:33 CB-9160 logger: 004_create_admin_users.sh -I- Start ---
+Jan  4 05:16:33 CB-9160 logger: 004_create_admin_users.sh -D- adding user admin (info: USDoT-QualcommCCA)
+Jan  4 05:16:33 CB-9160 logger: 004_create_admin_users.sh -D- default user "admin" generated
+Jan  4 05:16:33 CB-9160 logger: startup.sh - going to execute /mnt/c3platpersistent/etc/startup.d//005_led_flash.sh
+Jan  4 05:16:34 CB-9160 logger: startup.sh - going to execute /mnt/c3platpersistent/etc/startup.d//008_handle_optionboard.sh
+Jan  4 05:16:34 CB-9160 logger: 008_handle_optionboard.sh -I- Unregistering EEPROM devices with Linux I2C subsystem
+Jan  1 00:01:51 CB-9160 kernel: i2c i2c-9: delete_device: Deleting device pcf8574 at 0x24
+Jan  4 05:16:34 CB-9160 logger: 008_handle_optionboard.sh -I- CCA-Board Reset : ON ---
+Jan  1 00:01:51 CB-9160 kernel: usb 1-3: USB disconnect, device number 3
+Jan  1 00:01:51 CB-9160 kernel: qmi_wwan 1-3:1.4 wwan0: unregister 'qmi_wwan' usb-0000:00:14.0-3, WWAN/QMI device
+Jan  4 05:16:34 CB-9160 logger: 008_handle_optionboard.sh -I- CCA-Board Reset : OFF ---
+Jan  4 05:16:34 CB-9160 logger: 008_handle_optionboard.sh -I- Reset of CCA done, checking if ready to be done later ---
+Jan  4 05:16:34 CB-9160 logger: startup.sh - going to execute /mnt/c3platpersistent/etc/startup.d//009_reset_radios.sh
+Jan  4 05:16:35 CB-9160 logger: 009_reset_radios.sh -I- resetting radios on startup, might have been a reboot
+Jan  1 00:01:52 CB-9160 kernel: usb 1-1: USB disconnect, device number 2
+Jan  4 05:16:35 CB-9160 logger: 009_reset_radios.sh -I- Keep NXP radios in reset, Done.
+Jan  4 05:16:35 CB-9160 logger: startup.sh - going to execute /mnt/c3platpersistent/etc/startup.d//010_load_firmware_radio_1.sh
+Jan  4 05:16:35 CB-9160 logger: 010_load_firmware_radio_1.sh -I- Skip due to board configuration
+Jan  4 05:16:35 CB-9160 logger: startup.sh - going to execute /mnt/c3platpersistent/etc/startup.d//011_remove_unused_driver.sh
+Jan  4 05:16:35 CB-9160 logger: 011_remove_unused_driver.sh -I- unloading NXP ko file
+Jan  4 05:16:35 CB-9160 logger: startup.sh - going to execute /mnt/c3platpersistent/etc/startup.d//012_load_llc_driver.sh
+Jan  4 05:16:35 CB-9160 logger: 012_load_llc_driver.sh -D- Skip due to board configuration
+Jan  4 05:16:36 CB-9160 logger: startup.sh - going to execute /mnt/c3platpersistent/etc/startup.d//013_load_calibration_to_radio_1.sh
+Jan  4 05:16:36 CB-9160 logger: 013_load_calibration_to_radio_1.sh -D- Skip due to board configuration
+Jan  4 05:16:36 CB-9160 logger: startup.sh - going to execute /mnt/c3platpersistent/etc/startup.d//050_ssd.sh
+Jan  4 05:16:36 CB-9160 logger: startup.sh - going to execute /mnt/c3platpersistent/etc/startup.d//070_setup_kapsch_bash.sh
+Jan  4 05:16:36 CB-9160 logger: 070_setup_kapsch_bash.sh -I- Start ---
+Jan  4 05:16:36 CB-9160 logger: 070_setup_kapsch_bash.sh -I- Done ---
+Jan  4 05:16:36 CB-9160 logger: startup.sh - going to execute /mnt/c3platpersistent/etc/startup.d//100_check_production_data.sh
+Jan  4 05:16:36 CB-9160 logger: 100_check_production_data.sh -D- Done. ---
+Jan  4 05:16:37 CB-9160 logger: startup.sh - going to execute /mnt/c3platpersistent/etc/startup.d//200_prepare_its-g5.sh
+Jan  4 05:16:37 CB-9160 logger: 200_prepare_its-g5.sh -I- enter its-g5 prepare ---
+Jan  4 05:16:37 CB-9160 logger: 200_prepare_its-g5.sh -D- Skip rest due to board configuration
+Jan  4 05:16:37 CB-9160 logger: startup.sh - going to execute /mnt/c3platpersistent/etc/startup.d//201_prepare_its_cca.sh
+Jan  4 05:16:37 CB-9160 logger: 201_prepare_its_cca.sh -I- Config its-g5 to run with CCA  ---
+Jan  4 05:16:37 CB-9160 logger: startup.sh - going to execute /mnt/c3platpersistent/etc/startup.d//220_gpsd.sh
+Jan  4 05:16:37 CB-9160 logger: Startup::GPSD using device /dev/ttyGNSS
+Jan  4 05:16:37 CB-9160 logger: Startup::GPSD PPS source switchted to GNSS
+Jan  4 05:16:37 CB-9160 logger: startup.sh - going to execute /mnt/c3platpersistent/etc/startup.d//221_ntpd.sh
+Jan  4 05:16:38 CB-9160 logger: startup::distributing PPS source thru kernel on /dev/pps0
+Jan  4 05:16:39 CB-9160 logger: startup::NTPD started. pid=1501
+Jan  4 05:16:39 CB-9160 logger: startup.sh - going to execute /mnt/c3platpersistent/etc/startup.d//800_dircolors.sh
+Jan  4 05:16:39 CB-9160 logger: 800_dircolors.sh - setting more readable output colors
+Jan  4 05:16:39 CB-9160 logger: 800_dircolors.sh - Done.
+Jan  4 05:16:39 CB-9160 logger: startup.sh - going to execute /mnt/c3platpersistent/etc/startup.d//897_wait_cca_ready_flash.sh
+Jan  4 05:16:39 CB-9160 logger: 897_wait_cca_ready_flash.sh -D- Stop LED flash  ---
+Jan  4 05:16:39 CB-9160 logger: startup.sh - going to execute /mnt/c3platpersistent/etc/startup.d//898_wait_cca_ready_check.sh
+Jan  4 05:16:40 CB-9160 logger: 898_wait_cca_ready_check.sh -I- Check if CCA board become ready in time ---
+Jan  1 00:01:59 CB-9160 kernel: usb 1-3: new high-speed USB device number 7 using xhci_hcd
+Jan  1 00:01:59 CB-9160 kernel: qmi_wwan 1-3:1.4: cdc-wdm0: USB WDM device
+Jan  1 00:01:59 CB-9160 kernel: qmi_wwan 1-3:1.4 wwan0: register 'qmi_wwan' at usb-0000:00:14.0-3, WWAN/QMI device, 52:83:31:8b:6d:ef
+Jan  1 00:01:59 CB-9160 kernel: usb-storage 1-3:1.5: USB Mass Storage device detected
+Jan  1 00:01:59 CB-9160 kernel: scsi3 : usb-storage 1-3:1.5
+Jan  1 00:02:00 CB-9160 kernel: scsi 3:0:0:0: Direct-Access     Linux    File-Stor Gadget 0318 PQ: 0 ANSI: 2
+Jan  1 00:02:00 CB-9160 kernel: sd 3:0:0:0: Attached scsi generic sg0 type 0
+Jan  1 00:02:00 CB-9160 kernel: sd 3:0:0:0: [sda] Attached SCSI removable disk
+Jan  4 05:16:45 CB-9160 logger: 898_wait_cca_ready_check.sh -I- UpTime in seconds[proc]: 38 (Timeout = 100)
+Jan  4 05:16:45 CB-9160 logger: 898_wait_cca_ready_check.sh -I- We are waiting til UpTime does exceed 178 (38)
+Jan  4 05:16:45 CB-9160 logger: 898_wait_cca_ready_check.sh -I- Required interface is available now [L:126]
+Jan  4 05:16:45 CB-9160 logger: 898_wait_cca_ready_check.sh -D- wwan0     Link encap:Ethernet  HWaddr a2:78:b1:4b:77:f1  
+          BROADCAST MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+Jan  4 05:16:47 CB-9160 logger: 898_wait_cca_ready_check.sh -I-  wwan0 interface found ...
+Jan  4 05:16:47 CB-9160 logger: 898_wait_cca_ready_check.sh -I- UpTime in seconds[proc]: 40 (Timeout = 178)
+Jan  4 05:16:47 CB-9160 logger: 898_wait_cca_ready_check.sh -I- /mnt/c3platpersistent/opt/platform-tools/adb was executing successfully, rmnet is up and running (Tmo/Now : 178 / 40)...
+Jan  4 05:16:47 CB-9160 logger: 898_wait_cca_ready_check.sh =D= From "rmnet" ready to applications started on CCA takes app. 20-25 seconds ... [L:357] =D=
+Jan  4 05:16:47 CB-9160 logger: 898_wait_cca_ready_check.sh =D= We must not proceed faster as GPS fix will take some time anyhow =D=
+Jan  4 05:17:12 CB-9160 logger: 898_wait_cca_ready_check.sh -I- UpTime in seconds[proc]: 65 (Timeout = 178)
+Jan  4 05:17:12 CB-9160 logger: 898_wait_cca_ready_check.sh =D= Continue with test applications to check radio status (Tmo/Now : 178 / 65)... =D=
+Jan  4 05:17:15 CB-9160 logger: 898_wait_cca_ready_check.sh -I- CV2X qmux started, PID = 4030  ---
+Jan  4 05:17:15 CB-9160 qmi-wait: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/qmi-wait.c:73] QMI server started in 400 milliseconds
+Jan  4 05:17:15 CB-9160 logger: 898_wait_cca_ready_check.sh -I- CV2X qmi-wait returned : 0  ---
+Jan  4 05:17:16 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-daemon.c:226] Starting the CV2X Daemon
+Jan  4 05:17:16 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-daemon.c:59] Starting V2X mode
+Jan  4 05:17:17 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:433] Initialized QMI clients
+Jan  4 05:17:17 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:464] Registered NAS callback
+Jan  4 05:17:17 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:491] Registered WDS callback
+Jan  4 05:17:17 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:511] Registered LOC callback
+Jan  4 05:17:17 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:554] Started GPS engine with minimum interval 100
+Jan  4 05:17:17 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:597] Read V2X radio status
+Jan  4 05:17:17 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-daemon.c:87] Starting V2X radio
+Jan  4 05:17:17 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:618] Started V2X radio
+Jan  4 05:17:17 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 05:17:17 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:708] Found V2X_IP profile, idx=2, name=v2x_ip
+Jan  4 05:17:17 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:713] Found V2X_NON_IP profile, idx=3, name=v2x_non_ip
+Jan  4 05:17:17 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:743] APN profiles setup done
+Jan  4 05:17:17 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:933] Started data services successfully, handle=134538032
+Jan  4 05:17:18 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:868] Received DSI_EVT_WDS_CONNECTED: network_type=1
+Jan  4 05:17:18 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:170] Received WDS callback for generic client
+Jan  4 05:17:18 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:196] connection=2, reconfiguration=0 ip_family=6, tech_name=-32764
+Jan  4 05:17:18 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:491] Registered WDS callback
+Jan  4 05:17:18 CB-9160 logger: 898_wait_cca_ready_check.sh -I- CV2X daemon started, PID = 4292  ---
+Jan  4 05:17:18 CB-9160 logger: 898_wait_cca_ready_check.sh -I- Start xtra_daemon
+Jan  4 05:17:18 CB-9160 logger: 898_wait_cca_ready_check.sh -I- CV2X xtra-daemon started, PID = 4436 [L:164]  ---
+Jan  4 05:17:18 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:901] Notifying waiting thread of condition: COND_START_DATA_CALL
+Jan  4 05:17:18 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-daemon.c:40] Calling system(bringup_iface.sh wwan0 80f8:f80:f80f:80f8:787e:6697:f7ac:5345/64)
+Jan  4 05:17:18 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-daemon.c:136] V2X mode started
+Jan  4 05:17:18 CB-9160 logger: 898_wait_cca_ready_check.sh -I- cv2x-daemon found
+Jan  4 05:17:18 CB-9160 logger: 898_wait_cca_ready_check.sh -I- qmux found
+Jan  4 05:17:18 CB-9160 logger: 898_wait_cca_ready_check.sh -I- qmux should be up now ...
+Jan  4 05:17:18 CB-9160 logger: 898_wait_cca_ready_check.sh -I- UpTime in seconds[proc]: 72 (Timeout = 178)
+Jan  4 05:17:20 CB-9160 logger: 898_wait_cca_ready_check.sh -I- Module started but no GPS FIX yet [L:147]
+Jan  4 05:17:20 CB-9160 logger: 898_wait_cca_ready_check.sh -I- CV2X status not OK (Tmo/Now : 178 / 72) ...
+Jan  4 05:17:25 CB-9160 logger: 898_wait_cca_ready_check.sh -I- UpTime in seconds[proc]: 79 (Timeout = 178)
+Jan  4 05:17:26 CB-9160 logger: 898_wait_cca_ready_check.sh -I- Module started but no GPS FIX yet [L:147]
+Jan  4 05:17:26 CB-9160 logger: 898_wait_cca_ready_check.sh -I- CV2X status not OK (Tmo/Now : 178 / 79) ...
+Jan  4 05:17:31 CB-9160 logger: 898_wait_cca_ready_check.sh -I- UpTime in seconds[proc]: 85 (Timeout = 178)
+Jan  4 05:17:32 CB-9160 logger: 898_wait_cca_ready_check.sh -I- Module started but no GPS FIX yet [L:147]
+Jan  4 05:17:32 CB-9160 logger: 898_wait_cca_ready_check.sh -I- CV2X status not OK (Tmo/Now : 178 / 85) ...
+Jan  4 05:17:37 CB-9160 logger: 898_wait_cca_ready_check.sh -I- UpTime in seconds[proc]: 91 (Timeout = 178)
+Jan  4 05:17:39 CB-9160 logger: 898_wait_cca_ready_check.sh -I- Module started but no GPS FIX yet [L:147]
+Jan  4 05:17:39 CB-9160 logger: 898_wait_cca_ready_check.sh -I- CV2X status not OK (Tmo/Now : 178 / 91) ...
+Jan  1 00:02:59 CB-9160 kernel: xtra-client: XTRA data injected
+Jan  4 05:17:41 CB-9160 xtra-daemon: [I][daemon_loop:540] XTRA data injection complete
+Jan  4 05:17:44 CB-9160 logger: 898_wait_cca_ready_check.sh -I- UpTime in seconds[proc]: 97 (Timeout = 178)
+Jan  4 05:19:15 CB-9160 logger: 898_wait_cca_ready_check.sh -I- Module started but no GPS FIX yet [L:147]
+Jan  4 05:19:15 CB-9160 logger: 898_wait_cca_ready_check.sh -I- CV2X status not OK (Tmo/Now : 178 / 97) ...
+Jan  4 05:19:20 CB-9160 logger: 898_wait_cca_ready_check.sh -I- UpTime in seconds[proc]: 194 (Timeout = 178)
+Jan  4 05:19:20 CB-9160 logger: 898_wait_cca_ready_check.sh -I- Stop wait_cca_flash on OK  ---
+Jan  4 05:19:20 CB-9160 logger: 898_wait_cca_ready_check.sh -I- Turn CCA LED OFF  ---
+Jan  4 05:19:21 CB-9160 logger: 898_wait_cca_ready_check.sh -I- Return to normal flash sequence  ---
+Jan  4 05:19:21 CB-9160 logger: 898_wait_cca_ready_check.sh -I- Timeout reached! 178 / 194
+Jan  4 05:19:21 CB-9160 logger: 898_wait_cca_ready_check.sh -I- stop_cv2x_apps()  ---
+Jan  4 05:19:21 CB-9160 logger: 898_wait_cca_ready_check.sh -I- Stopping 4292 now
+Jan  4 05:19:21 CB-9160 logger: 898_wait_cca_ready_check.sh -I- qmux found
+Jan  4 05:19:22 CB-9160 logger: 898_wait_cca_ready_check.sh -I- Check CCA board done ---
+Jan  4 05:19:22 CB-9160 logger: startup.sh - going to execute /mnt/c3platpersistent/etc/startup.d//900_prepare_cca.sh
+Jan  4 05:19:22 CB-9160 logger: 900_prepare_cca.sh -I- starting CV2X prepare ---
+Jan  4 05:19:22 CB-9160 logger: 900_prepare_cca.sh -I- qmux found
+Jan  4 05:19:23 CB-9160 qmi-wait: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/qmi-wait.c:73] QMI server started in 300 milliseconds
+Jan  4 05:19:23 CB-9160 logger: 900_prepare_cca.sh -I- CV2X qmi-wait returned : 0  ---
+Jan  4 05:19:24 CB-9160 logger: 900_prepare_cca.sh -I- [L:312]  ---
+Jan  4 05:19:24 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-daemon.c:226] Starting the CV2X Daemon
+Jan  4 05:19:24 CB-9160 logger: 900_prepare_cca.sh -I- CV2X daemon started, PID = 13262  ---
+Jan  4 05:19:24 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-daemon.c:59] Starting V2X mode
+Jan  4 05:19:24 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:433] Initialized QMI clients
+Jan  4 05:19:24 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:464] Registered NAS callback
+Jan  4 05:19:24 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:491] Registered WDS callback
+Jan  4 05:19:24 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:511] Registered LOC callback
+Jan  4 05:19:24 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:554] Started GPS engine with minimum interval 100
+Jan  4 05:19:24 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:597] Read V2X radio status
+Jan  4 05:19:24 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-daemon.c:98] V2X radio already started
+Jan  4 05:19:24 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:708] Found V2X_IP profile, idx=2, name=v2x_ip
+Jan  4 05:19:24 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:713] Found V2X_NON_IP profile, idx=3, name=v2x_non_ip
+Jan  4 05:19:24 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:743] APN profiles setup done
+Jan  4 05:19:24 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:933] Started data services successfully, handle=134538032
+Jan  4 05:19:25 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:868] Received DSI_EVT_WDS_CONNECTED: network_type=1
+Jan  4 05:19:25 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:170] Received WDS callback for generic client
+Jan  4 05:19:25 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:196] connection=2, reconfiguration=0 ip_family=6, tech_name=-32764
+Jan  4 05:19:25 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:491] Registered WDS callback
+Jan  4 05:19:25 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:901] Notifying waiting thread of condition: COND_START_DATA_CALL
+Jan  4 05:19:26 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-daemon.c:40] Calling system(bringup_iface.sh wwan0 80f8:f80:f80f:80f8:4439:f3f5:4215:bff4/64)
+Jan  4 05:19:26 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-daemon.c:136] V2X mode started
+Jan  4 05:19:29 CB-9160 logger: 900_prepare_cca.sh -I- [L:323]  ---
+Jan  4 05:19:29 CB-9160 logger: 900_prepare_cca.sh -I- CV2X daemons should be running  ---
+Jan  4 05:19:29 CB-9160 logger: 900_prepare_cca.sh -I- cv2x-daemon found
+Jan  4 05:19:29 CB-9160 logger: 900_prepare_cca.sh -I- qmux found
+Jan  4 05:19:29 CB-9160 logger: 900_prepare_cca.sh -I- Stop xtra_daemon
+Jan  4 05:19:29 CB-9160 logger: 900_prepare_cca.sh -I- killing xtra-daemon
+Jan  4 05:19:30 CB-9160 logger: 900_prepare_cca.sh -I- Start xtra_daemon
+Jan  4 05:19:30 CB-9160 logger: 900_prepare_cca.sh -I- CV2X xtra-daemon started, PID = 13543 [L:192]  ---
+Jan  4 05:19:30 CB-9160 logger: 900_prepare_cca.sh -I- UpTime in seconds[proc]: 204 (Timeout = 60)
+Jan  4 05:19:31 CB-9160 logger: 900_prepare_cca.sh -I- CV2X config check done, result stored : /var/log/cv2x.config.startup.log ---
+Jan  4 05:19:31 CB-9160 logger: 900_prepare_cca.sh -I- CCA ready but no GPS FIX yet
+Jan  4 05:19:36 CB-9160 logger: 900_prepare_cca.sh -I- UpTime in seconds[proc]: 210 (Timeout = 264)
+Jan  4 05:19:36 CB-9160 logger: 900_prepare_cca.sh -I- CV2X get-v2x-status not OK Tmo/Now : 264 / 210 ...
+Jan  4 05:19:38 CB-9160 logger: 900_prepare_cca.sh -I- CV2X config check done, result stored : /var/log/cv2x.config.startup.log ---
+Jan  4 05:19:38 CB-9160 logger: 900_prepare_cca.sh -I- CCA ready but no GPS FIX yet
+Jan  4 05:19:43 CB-9160 logger: 900_prepare_cca.sh -I- UpTime in seconds[proc]: 216 (Timeout = 264)
+Jan  4 05:19:43 CB-9160 logger: 900_prepare_cca.sh -I- CV2X get-v2x-status not OK Tmo/Now : 264 / 216 ...
+Jan  1 00:05:00 CB-9160 kernel: xtra-client: XTRA data injected
+Jan  4 05:19:43 CB-9160 xtra-daemon: [I][daemon_loop:540] XTRA data injection complete
+Jan  1 00:05:31 CB-9160 kernel: FAT-fs (mmcblk0p1): Volume was not properly unmounted. Some data may be corrupt. Please run fsck.
+Jan  4 05:20:19 CB-9160 logger: 900_prepare_cca.sh -I- CV2X config check done, result stored : /var/log/cv2x.config.startup.log ---
+Jan  4 05:20:19 CB-9160 logger: 900_prepare_cca.sh -I- CCA ready but no GPS FIX yet
+Jan  4 05:20:24 CB-9160 logger: 900_prepare_cca.sh -I- UpTime in seconds[proc]: 258 (Timeout = 264)
+Jan  4 05:20:24 CB-9160 logger: 900_prepare_cca.sh -I- CV2X get-v2x-status not OK Tmo/Now : 264 / 258 ...
+Jan  4 05:20:26 CB-9160 logger: 900_prepare_cca.sh -I- CV2X config check done, result stored : /var/log/cv2x.config.startup.log ---
+Jan  4 05:20:26 CB-9160 logger: 900_prepare_cca.sh -I- CCA ready but no GPS FIX yet
+Jan  4 05:20:31 CB-9160 logger: 900_prepare_cca.sh -I- UpTime in seconds[proc]: 264 (Timeout = 264)
+Jan  4 05:20:31 CB-9160 logger: 900_prepare_cca.sh -I- CV2X get-v2x-status not OK Tmo/Now : 264 / 264 ...
+Jan  4 05:20:32 CB-9160 logger: 900_prepare_cca.sh -I- CV2X config check done, result stored : /var/log/cv2x.config.startup.log ---
+Jan  4 05:20:32 CB-9160 logger: 900_prepare_cca.sh -I- CCA ready but no GPS FIX yet
+Jan  4 05:20:37 CB-9160 logger: 900_prepare_cca.sh -I- UpTime in seconds[proc]: 271 (Timeout = 264)
+Jan  4 05:20:37 CB-9160 logger: 900_prepare_cca.sh -I- CV2X get-v2x-status not OK Tmo/Now : 264 / 271 ...
+Jan  4 05:20:37 CB-9160 logger: 900_prepare_cca.sh -I- Done.
+Jan  4 05:20:37 CB-9160 logger: startup.sh - going to execute /mnt/c3platpersistent/etc/startup.d//940_application_startup.sh
+Jan  4 05:20:37 CB-9160 logger: 940_application_startup.sh -D- Execute appl/10_appl_prepare.sh with parameters ---
+Jan  4 05:20:37 CB-9160 logger: /mnt/c3platpersistent/etc/startup.d//940_application_startup.sh - going to execute /mnt/c3platpersistent/etc/startup.d/appl/10_appl_prepare.sh
+Jan  4 05:20:38 CB-9160 logger: 940_application_startup.sh -D- Execute appl/20_appl_stack.sh with parameters ---
+Jan  4 05:20:38 CB-9160 logger: /mnt/c3platpersistent/etc/startup.d//940_application_startup.sh - going to execute /mnt/c3platpersistent/etc/startup.d/appl/20_appl_stack.sh
+Jan  4 05:20:38 CB-9160 logger: 940_application_startup.sh -D- Execute appl/30_appl_utilities.sh with parameters ---
+Jan  4 05:20:38 CB-9160 logger: /mnt/c3platpersistent/etc/startup.d//940_application_startup.sh - going to execute /mnt/c3platpersistent/etc/startup.d/appl/30_appl_utilities.sh
+Jan  4 05:20:38 CB-9160 logger: 30_appl_utilities.sh -I- Started backup_clean.sh with pid "16104"
+Jan  4 05:20:38 CB-9160 logger: 30_appl_utilities.sh -I- Prepare templates if any given  ---
+Jan  4 05:20:39 CB-9160 logger: 940_application_startup.sh -D- Execute appl/90_supervise.sh with parameters ---
+Jan  4 05:20:39 CB-9160 logger: /mnt/c3platpersistent/etc/startup.d//940_application_startup.sh - going to execute /mnt/c3platpersistent/etc/startup.d/appl/90_supervise.sh
+Jan  4 05:20:39 CB-9160 logger: 90_supervise.sh -I- Started run_tests.sh with ids "16149"
+Jan  4 05:20:39 CB-9160 logger: 940_application_startup.sh -D- Execute appl/99_appl_done.sh with parameters ---
+Jan  4 05:20:39 CB-9160 logger: /mnt/c3platpersistent/etc/startup.d//940_application_startup.sh - going to execute /mnt/c3platpersistent/etc/startup.d/appl/99_appl_done.sh
+Jan  4 05:20:39 CB-9160 logger: 99_appl_done.sh -I- All done ...
+Jan  4 05:20:40 CB-9160 logger: startup.sh - going to execute /mnt/c3platpersistent/etc/startup.d//953_cfgdb2stack.sh
+Jan  4 05:20:40 CB-9160 logger: startup.sh - going to execute /mnt/c3platpersistent/etc/startup.d//955_snmpd.sh
+Jan  4 05:20:40 CB-9160 logger: 955_snmpd.sh -I-- Start snmp daemon  ---
+Jan  4 05:20:40 CB-9160 logger: startup.sh - going to execute /mnt/c3platpersistent/etc/startup.d//960_ee2snmp.sh
+Jan  4 05:20:40 CB-9160 logger: 960_ee2snmp.sh -I- Fill configuration database with producation data  ---
+Jan  4 05:20:41 CB-9160 logger: startup.sh - going to execute /mnt/c3platpersistent/etc/startup.d//971_backup-service.sh
+Jan  4 05:20:42 CB-9160 logger: startup.sh - going to execute /mnt/c3platpersistent/etc/startup.d//990_led_green.sh
+Jan  4 05:20:42 CB-9160 logger: 990_led_green.sh -D- Stop LED flash  ---
+Jan  4 05:20:42 CB-9160 logger: startup.sh - going to execute /mnt/c3platpersistent/etc/startup.d//998_cron_jobs.sh
+Jan  4 05:20:43 CB-9160 logger: 998_cron_jobs.sh -I- Fill prepared cron job entries  ---
+Jan  4 05:20:43 CB-9160 logger: startup.sh - going to execute /mnt/c3platpersistent/etc/startup.d//999_end.sh
+Jan  4 05:20:43 CB-9160 logger: 999_end.sh - all startup executed (mode=start)
+Jan  1 00:08:16 CB-9160 kernel: Bits 55-60 of /proc/PID/pagemap entries are about to stop being page-shift some time soon. See the linux/Documentation/vm/pagemap.txt for details.
+Jan  1 00:08:52 CB-9160 kernel: ICMPv6: process `cp' is using deprecated sysctl (syscall) net.ipv6.neigh.default.base_reachable_time - use net.ipv6.neigh.default.base_reachable_time_ms instead
+Jan  1 00:08:52 CB-9160 kernel: nr_pdflush_threads exported in /proc is scheduled for removal
+Jan  1 00:08:52 CB-9160 kernel: cp: The scan_unevictable_pages sysctl/node-interface has been disabled for lack of a legitimate use case.  If you have one, please send an email to linux-mm@kvack.org.
+Jan  4 05:34:03 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-daemon.c:50] V2X in active state
+Jan  4 05:34:03 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 05:34:03 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 05:34:04 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 05:34:04 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 05:34:05 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 05:34:05 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 05:34:06 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 05:34:06 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 05:34:07 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 05:34:07 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 05:34:08 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 05:34:08 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 05:34:09 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 05:34:09 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 05:34:10 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 05:34:10 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 05:34:11 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 05:34:11 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 05:34:12 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 05:34:12 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 05:34:13 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 05:34:13 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 05:34:14 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 05:34:14 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 05:34:15 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 05:34:15 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 05:34:16 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 05:34:16 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 05:34:18 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 05:34:18 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 05:34:19 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 05:34:19 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 05:34:20 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 05:34:20 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 05:34:21 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 05:34:21 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 05:34:22 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 05:34:22 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 05:34:23 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 05:34:23 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 05:34:24 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 05:34:24 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 05:34:25 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 05:34:25 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 05:34:26 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 05:34:26 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 05:34:27 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 05:34:27 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 05:34:39 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 05:34:39 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 05:34:40 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 05:34:40 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 05:34:41 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 05:34:41 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 05:34:42 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 05:34:42 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 05:34:43 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 05:34:44 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 05:34:44 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 05:34:45 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 05:34:45 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 05:34:56 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 05:34:57 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 05:34:57 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 05:34:58 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 05:34:58 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 05:34:59 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 05:34:59 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 05:35:00 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 05:35:00 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 05:37:05 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 05:37:05 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 05:37:13 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 05:37:13 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 05:37:14 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 05:37:14 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 05:37:15 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 05:37:15 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 05:37:16 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 05:37:16 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 05:37:17 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 05:37:17 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 05:37:18 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 05:37:18 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 05:37:19 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 05:37:19 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 05:37:20 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 05:37:20 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 05:37:21 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 05:37:21 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 05:37:22 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 05:37:22 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 05:37:23 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 05:37:23 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 05:37:24 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 05:37:24 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 05:37:25 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 05:37:26 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 05:37:26 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 05:37:26 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 05:37:27 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 05:37:36 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 05:37:37 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 05:37:37 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 05:37:38 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 05:37:38 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 05:37:39 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 05:37:39 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 05:37:40 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 05:37:40 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 05:37:41 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 05:37:41 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 05:37:42 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 05:37:42 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 05:37:43 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 05:37:44 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 05:37:44 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 05:37:50 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 05:37:50 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 05:37:50 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 05:37:51 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 05:37:51 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 05:37:52 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 05:37:52 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 05:37:53 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 05:37:53 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 05:37:54 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 05:37:54 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 05:37:55 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 05:37:56 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 05:37:56 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 05:37:56 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 05:37:57 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 05:37:57 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 05:37:58 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 05:38:00 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 05:38:01 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 05:38:01 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 05:38:02 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 05:38:02 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 05:38:06 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 05:38:06 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 05:38:07 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 05:38:07 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 05:38:08 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 05:38:09 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 05:38:10 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 05:38:12 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 05:38:13 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 05:38:13 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 05:38:14 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 05:38:15 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 05:38:15 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 05:38:16 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 05:38:16 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 05:38:16 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 05:38:17 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 05:38:44 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 05:38:45 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 05:38:45 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 05:38:46 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 05:38:46 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 05:38:47 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 05:38:47 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 05:41:07 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 05:41:07 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 05:41:08 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 05:41:08 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 05:41:09 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 05:41:09 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 05:41:10 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 05:41:10 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 05:41:11 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 05:41:11 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 05:41:12 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 05:45:05 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 05:45:06 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 05:45:06 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 05:45:36 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 05:45:36 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 05:45:37 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 05:45:37 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 05:45:38 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 05:45:38 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 05:45:44 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 05:45:44 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 05:45:45 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 05:45:45 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 05:45:46 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 05:45:46 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 05:45:47 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 05:45:48 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 05:45:48 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 05:45:48 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 05:45:49 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 05:45:49 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 05:45:50 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 05:45:50 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 05:47:04 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 05:47:04 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 05:47:05 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 05:47:05 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 05:47:06 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 05:47:06 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 05:47:07 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 05:47:07 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 05:47:08 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 05:47:08 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 05:47:09 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 05:47:11 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 05:47:11 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 05:47:11 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 05:47:12 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 05:47:12 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 05:47:13 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 05:47:13 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 05:47:14 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 05:47:14 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 05:47:21 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 05:47:21 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 05:47:22 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 05:59:54 CB-9160 syslog-ng[412]: Writing to the user terminal has blocked for writing, disabling for 10 minutes; user='root'
+Jan  1 00:46:35 CB-9160 kernel: Bluetooth: Core ver 2.19
+Jan  1 00:46:35 CB-9160 kernel: NET: Registered protocol family 31
+Jan  1 00:46:35 CB-9160 kernel: Bluetooth: HCI device and connection manager initialized
+Jan  1 00:46:35 CB-9160 kernel: Bluetooth: HCI socket layer initialized
+Jan  1 00:46:35 CB-9160 kernel: Bluetooth: L2CAP socket layer initialized
+Jan  1 00:46:35 CB-9160 kernel: Bluetooth: SCO socket layer initialized
+Jan  1 00:48:46 CB-9160 kernel: usb 1-4.2: USB disconnect, device number 6
+Jan  4 06:03:33 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 06:03:35 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 06:03:58 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 06:04:20 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 06:04:42 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 06:04:43 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 06:04:44 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  1 00:50:06 CB-9160 kernel: usb 1-4.2: new full-speed USB device number 8 using xhci_hcd
+Jan  1 00:50:06 CB-9160 kernel: usbcore: registered new interface driver btusb
+Jan  4 06:04:52 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 06:26:38 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 06:26:40 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 06:26:40 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 06:26:41 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 06:26:41 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 06:26:42 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 06:26:42 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 06:26:46 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 06:26:46 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 06:26:47 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 06:26:47 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 06:26:48 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 06:28:28 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 06:28:29 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 06:28:29 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 06:28:39 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 06:28:39 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 06:28:40 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 06:29:01 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 06:29:04 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 06:29:06 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 06:29:11 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 06:29:12 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 06:29:15 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 06:29:16 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 06:29:18 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 06:29:23 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 06:29:24 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 06:29:26 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 06:29:28 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 06:29:40 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 06:29:41 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 06:29:41 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 06:29:49 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 06:30:18 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 06:30:19 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 06:30:19 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 06:30:22 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 06:30:22 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 06:30:23 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 06:30:29 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 06:30:30 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 06:30:30 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 06:30:50 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 06:31:01 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 06:31:02 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 06:31:02 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 06:31:03 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 06:31:56 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 06:31:57 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 06:31:57 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 06:32:01 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 06:35:24 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 06:35:25 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 06:35:25 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 06:35:26 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 06:35:26 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 06:35:27 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 06:35:42 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 06:35:43 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 06:35:43 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 06:35:44 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 06:35:54 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 06:35:55 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 06:35:55 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 06:36:00 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 06:36:00 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 06:36:01 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 06:36:01 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 06:36:02 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 06:38:01 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 06:38:02 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 06:38:02 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 06:39:02 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 06:39:02 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 06:39:03 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 06:39:23 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 06:39:24 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 06:39:24 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 06:39:47 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 06:39:47 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 06:39:48 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 06:40:40 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 06:40:41 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 06:40:43 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 06:40:44 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 06:40:47 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 06:40:48 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 06:40:48 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 06:40:49 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 06:40:50 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 06:40:51 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 06:40:51 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 06:40:52 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 06:46:25 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 06:46:25 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 06:57:41 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 06:57:42 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 06:57:42 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 06:57:43 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 06:57:43 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 06:57:44 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 06:58:07 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 06:58:08 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 06:58:08 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 06:58:09 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 06:58:09 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 06:58:10 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 06:58:49 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 06:58:50 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 06:58:50 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 06:58:52 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 07:10:40 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 07:10:42 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 07:10:44 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 07:10:45 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 07:10:46 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 07:11:08 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 07:11:10 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 07:11:15 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 07:11:17 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 07:11:55 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 07:11:56 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 07:11:59 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 07:12:01 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 07:12:03 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 07:12:05 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 07:12:09 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 07:12:11 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 07:12:12 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 07:12:14 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 07:12:15 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 07:12:17 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 07:12:18 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 07:12:20 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 07:12:22 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 07:12:24 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 07:12:25 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 07:12:27 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 07:12:29 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 07:12:31 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 07:12:34 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 07:12:35 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 07:12:38 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 07:12:44 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 07:12:46 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 07:12:48 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 07:12:49 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 07:12:50 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 07:12:56 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 07:12:57 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 07:12:59 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 07:13:00 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 07:13:03 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 07:13:05 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 07:13:50 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 07:13:52 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 07:13:54 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 07:13:56 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 07:13:58 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 07:13:59 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 07:14:12 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 07:14:14 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 07:14:16 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 07:14:17 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 07:14:25 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 07:14:27 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 07:14:29 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 07:14:31 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 07:14:32 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 07:14:34 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 07:14:37 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 07:15:02 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 07:15:02 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 07:15:06 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 07:15:08 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0
+Jan  4 07:15:10 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=2, rx_status=2, cbr_value=0
+Jan  4 07:15:11 CB-9160 cv2x-daemon: [I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:150] tx_status=1, rx_status=1, cbr_value=0

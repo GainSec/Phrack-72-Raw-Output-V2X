@@ -1,0 +1,21 @@
+Cannot statfs /localroot: No such file or directory
+Turning on AgentX master support.
+<I>configpath.c:33 "executable path is /mnt/c3platpersistent/sbin"
+<I>configpath.c:48 "searching for path config file in ./configpath.cfg"
+<I>configpath.c:48 "searching for path config file in /mnt/c3platpersistent/sbin/configpath.cfg"
+<I>configpath.c:48 "searching for path config file in /mnt/c3platpersistent/sbin/../etc//configpath.cfg"
+<I>configpath.c:76 "config path is /mnt/c3platpersistent//etc (read from /mnt/c3platpersistent/sbin/../etc//configpath.cfg)"
+2010-01-04 05:20:41 <I>main: rsuMIBCommon.c:16 "this is snmp2config (version 1.1-beta-USDoT-QualcommCCA)"
+2010-01-04 05:20:41 <I>cdb: configdb_ro.c:217 "registering db change notification callback"
+2010-01-04 05:20:41 <I>main: rsuDsrcChannelModeTable.c:70 "now fetching data for idx 1 and caching"
+2010-01-04 05:20:41 <I>main: rsuDsrcChannelModeTable.c:174 "extracting index from 0x81b79b0 to 0xb6e8d337"
+2010-01-04 05:20:41 <I>main: rsuDsrcChannelModeTable.c:70 "now fetching data for idx 2 and caching"
+2010-01-04 05:20:41 <I>main: rsuDsrcChannelModeTable.c:174 "extracting index from 0x81b7a18 to 0xb6e8d337"
+2010-01-04 05:20:41 <I>main: rsuInterfaceLogTable.c:72 "now fetching data for idx 1 and caching"
+2010-01-04 05:20:41 <I>main: rsuInterfaceLogTable.c:178 "extracting index from 0x8181c60 to 0xb6e90538"
+2010-01-04 05:20:41 <I>main: rsuInterfaceLogTable.c:72 "now fetching data for idx 2 and caching"
+2010-01-04 05:20:41 <I>main: rsuInterfaceLogTable.c:178 "extracting index from 0x8181cb8 to 0xb6e90538"
+dlsym failed: can't find 'init_rsuG5ForwardTable'
+dlsym failed: can't find 'init_rsuG5SRMStatusTable'
+Error opening specified endpoint "udp:0.0.0.0:161"
+Server Exiting with code 1

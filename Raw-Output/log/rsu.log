@@ -1,0 +1,623 @@
+01/17 02:29:24.027 [3047044864] INFO  application.core - Using logging parameters from ./log4cplus.properties
+01/17 02:29:24.028 [3047044864] INFO  application.core - Starting eTrans DSRC application, version: eTrans Default Device Software -> Build info : 1.2.3-DEVELOPMENT-kapsch-rsu Dec 23 2020 00:59:44
+01/17 02:29:24.028 [3047044864] INFO  syslog - Starting eTrans DSRC application.
+01/17 02:29:24.028 [3047044864] INFO  application.core - Loading options from local config file...
+01/17 02:29:24.034 [3047044864] INFO  etrans.signalhandler - Adding signal handler for 2
+01/17 02:29:24.034 [3047044864] INFO  etrans.signalhandler - Adding signal handler for 15
+01/17 02:29:24.037 [3047044864] INFO  device.dsrc - Initializing device.
+01/17 02:29:24.038 [3047044864] INFO  v13.radiodriver - Initialize UbloxV13RadioDriver
+01/17 02:29:24.063 [3047044864] INFO  application.core - Using 2016 version of J2735 spec
+01/17 02:29:24.064 [3047044864] INFO  gpsclient.gpsd - Starting gpsd connection to localhost:2947
+01/17 02:29:24.067 [3047044864] INFO  gpsclient.gpsd - Connection to gpsd successful
+01/17 02:29:24.067 [3047044864] INFO  application.core - Initializing application security
+01/17 02:29:24.067 [3047044864] INFO  onboardsecurity.connection - Initializing OBSConnectionManager
+01/17 02:29:24.068 [3047044864] INFO  json.configuration - Reading OnboardSecurity configuration file: /mnt/c3platpersistent/etc/aerolink/ieee/obs_config_rsu.json
+01/17 02:29:24.072 [3047044864] INFO  security.onboardsecurity - Initializing library version: 6.8.0.0
+01/17 02:29:24.354 [3047044864] INFO  onboardsecurity.connection - Registering network availability callback
+01/17 02:29:24.354 [3047044864] INFO  onboardsecurity.connection - Initializing OBSConnectionManager
+01/17 02:29:24.364 [3047044864] INFO  security.onboardsecurity - Registering callbacks for id changes
+01/17 02:29:24.365 [3047044864] INFO  security.onboardsecurity - Using country code: 840
+01/17 02:29:24.365 [3047044864] INFO  application.core - Initializing bluetooth connections, enabled: 1
+01/17 02:29:24.365 [3047044864] INFO  device.dsrc - Setting up radio channel parameters, radio: 0 access type: CONTINUOUS default channel: 172 service channel: 0
+01/17 02:29:24.365 [3047044864] INFO  device.dsrc - Setting up radio channel parameters, radio: 1 access type: CONTINUOUS default channel: 178 service channel: 0
+01/17 02:29:24.365 [3047044864] INFO  device.dsrc - Registering parameters for message: 20 with PSID: 0x20 tx channel: 172 tx Power: -1 data rate: 0
+01/17 02:29:24.365 [3047044864] INFO  device.dsrc - Registering parameters for message: 18 with PSID: 0x82 tx channel: 172 tx Power: -1 data rate: 0
+01/17 02:29:24.365 [3047044864] INFO  device.dsrc - Registering parameters for message: 19 with PSID: 0x82 tx channel: 172 tx Power: -1 data rate: 0
+01/17 02:29:24.366 [3047044864] INFO  device.dsrc - Registering parameters for message: 27 with PSID: 0x83 tx channel: 172 tx Power: -1 data rate: 0
+01/17 02:29:24.366 [3047044864] INFO  device.dsrc - Registering parameters for message: 29 with PSID: 0x204096 tx channel: 172 tx Power: -1 data rate: 0
+01/17 02:29:24.366 [3047044864] INFO  device.dsrc - Registering parameters for message: 30 with PSID: 0x204095 tx channel: 172 tx Power: -1 data rate: 0
+01/17 02:29:24.366 [3047044864] INFO  device.dsrc - Registering parameters for message: 31 with PSID: 0x83 tx channel: 172 tx Power: -1 data rate: 0
+01/17 02:29:24.366 [3047044864] INFO  device.dsrc - Registering parameters for message: 32 with PSID: 0x27 tx channel: 172 tx Power: -1 data rate: 0
+01/17 02:29:24.366 [3047044864] INFO  device.dsrc - Registering parameters for message: 23 with PSID: 0x82 tx channel: 172 tx Power: -1 data rate: 0
+01/17 02:29:24.366 [3047044864] INFO  device.dsrc - Registering parameters for message: 201 with PSID: 0x20 tx channel: 172 tx Power: -1 data rate: 0
+01/17 02:29:24.366 [3047044864] INFO  device.dsrc - Registering parameters for message: 26 with PSID: 0x84 tx channel: 172 tx Power: -1 data rate: 0
+01/17 02:29:24.367 [3047044864] INFO  device.dsrc - Registering parameters for message: 25 with PSID: 0x84 tx channel: 172 tx Power: -1 data rate: 0
+01/17 02:29:24.367 [3047044864] INFO  device.dsrc - Registering parameters for message: 22 with PSID: 0x83 tx channel: 172 tx Power: -1 data rate: 0
+01/17 02:29:24.367 [3047044864] INFO  device.dsrc - Registering parameters for message: 28 with PSID: 0x80 tx channel: 172 tx Power: -1 data rate: 0
+01/17 02:29:24.367 [3047044864] INFO  device.dsrc - Registering parameters for message: 203 with PSID: 0x82 tx channel: 172 tx Power: -1 data rate: 0
+01/17 02:29:24.367 [3047044864] INFO  device.dsrc - Registering parameters for message: 34 with PSID: 0x28 tx channel: 172 tx Power: -1 data rate: 0
+01/17 02:29:24.367 [3047044864] INFO  device.dsrc - Registering parameters for message: 33 with PSID: 0x29 tx channel: 172 tx Power: -1 data rate: 0
+01/17 02:29:24.367 [3047044864] INFO  device.dsrc - Registering parameters for message: 35 with PSID: 0x30 tx channel: 172 tx Power: -1 data rate: 0
+01/17 02:29:24.377 [3047044864] INFO  waveprotocol.deviceradiointerface - initializeRadio
+01/17 02:29:24.377 [3047044864] INFO  v13.radiodriver - Setting channel configuration for radio 0
+01/17 02:29:24.377 [3047044864] INFO  v13.radiodriver - Setting channel configuration for radio 1
+01/17 02:29:24.377 [3047044864] INFO  kapschubloxv13.device - Setting MAC address from EEPROM entries
+01/17 02:29:24.378 [3047044864] INFO  utilities.macfromeeprom - Reading eeprom MAC file: /etc/eeprom-cb/p.radio1.a.mac
+01/17 02:29:24.378 [3047044864] INFO  kapschubloxv13.device - Setting radio 1 MAC to: 00E06A01485B
+01/17 02:29:24.378 [3047044864] INFO  v13.radiodriver - Set MAC address for radio 0 to 00E06A01485B
+01/17 02:29:24.378 [3047044864] INFO  utilities.macfromeeprom - Reading eeprom MAC file: /etc/eeprom-cb/p.radio1.b.mac
+01/17 02:29:24.378 [3047044864] INFO  kapschubloxv13.device - Setting radio 2 MAC to: 00E06A01485C
+01/17 02:29:24.378 [3047044864] INFO  v13.radiodriver - Set MAC address for radio 1 to 00E06A01485C
+01/17 02:29:24.379 [3047044864] INFO  component.devicedebug - Initializing Bluetooth connection
+01/17 02:29:24.379 [3047044864] INFO  bluetooth.device - Registering bluetooth service: eTrans Bluetooth Debugging
+01/17 02:29:24.379 [3047044864] ERROR bluetooth.bluez - Bluetooth Initialization: SDP connect failed to return a session!
+01/17 02:29:24.379 [3047044864] WARN  bluetooth.bluez - Check that the Bluetooth daemon is running on the unit.
+01/17 02:29:24.379 [3047044864] ERROR bluetooth.device - Service registration failed.
+01/17 02:29:24.380 [3047044864] INFO  service.socket - Setting up TCP debugging at port 19008
+01/17 02:29:24.380 [3047044864] INFO  domain.ghostprocessor - Initializing domain ghost processing
+01/17 02:29:24.394 [3047044864] INFO  udp.forwarder - Setting up UDP forwarder to address: 127.255.255.255:12109
+01/17 02:29:24.394 [3047044864] INFO  component.rsu - Initializing RSU Processing
+01/17 02:29:24.394 [3047044864] INFO  rsu.scheduledsender - Loaded 0 messages
+01/17 02:29:24.395 [3047044864] INFO  forward.udp - Setting up ImmediateForwardUDPListener at port: 1516
+01/17 02:29:24.395 [3047044864] INFO  json.configuration - Reading RSU configuration file: rsu_configuration.json
+01/17 02:29:24.400 [3047044864] INFO  rsu.configuration - Reading RSU configuration document
+01/17 02:29:24.400 [3047044864] INFO  json.configuration - Reading RSU Runtime configuration file: rsu_configuration.json.runtime
+01/17 02:29:24.405 [3047044864] INFO  configuration.runtime - Reading RSU runtime data document
+01/17 02:29:24.405 [3047044864] INFO  v13.radiodriver - Setting channel configuration for radio 0
+01/17 02:29:24.405 [3047044864] INFO  v13.radiodriver - Setting channel configuration for radio 1
+01/17 02:29:24.406 [3047044864] INFO  rsu.processor - Mac: 00E06A01485B
+01/17 02:29:24.406 [3047044864] INFO  rsu.configuration - updateStoreAndRepeatConfiguration
+01/17 02:29:24.406 [3047044864] INFO  pedestrian.txprocessor - Initializing PedestrianTransmitProcessor
+01/17 02:29:24.407 [3047044864] INFO  rsu.processor - Setting device tx power to: 19.5
+01/17 02:29:24.407 [3047044864] INFO  rsu.processor - Set WSA control channel to: 178
+01/17 02:29:24.407 [3047044864] INFO  rsu.processor - RSU initialization completed sucessfully!
+01/17 02:29:24.407 [3047044864] INFO  vehicle.algorithm - Setting up collision algorithm
+01/17 02:29:24.407 [3047044864] INFO  vehicle.algorithm - Setting up intersection light warning algorithm
+01/17 02:29:24.407 [3047044864] INFO  vehicle.algorithm - Setting up pedestrian warning algorithm
+01/17 02:29:24.407 [3047044864] INFO  vehicle.algorithm - Setting up EEBL Algorithm
+01/17 02:29:24.407 [3047044864] INFO  vehicle.algorithm - Setting up Road Condition Alert algorithms
+01/17 02:29:24.408 [3047044864] INFO  vehicle.algorithm - Setting up Speed Warning algorithms
+01/17 02:29:24.408 [3047044864] INFO  vehicle.algorithm - Setting up TravelInformation Warning
+01/17 02:29:24.408 [3047044864] INFO  vehicle.algorithm - Setting up SecurityStatus Warning algorithms
+01/17 02:29:24.408 [3047044864] INFO  component.install - Running check for update installation
+01/17 02:29:24.408 [3047044864] INFO  device.install - No directory available at: 
+01/17 02:29:24.408 [3047044864] INFO  application.core - Connecting device debugging log message publishing to appender: BLUETOOTH
+01/17 02:29:24.408 [3047044864] INFO  waveprotocol.device - systemInitializationComplete
+01/17 02:29:24.408 [3047044864] INFO  application.core - Starting main loop, blockUntilDeviceStopped: 1
+01/17 02:29:24.408 [3047044864] INFO  syslog - Entering processing loop
+01/17 02:29:24.409 [3047044864] INFO  waveprotocol.deviceradiointerface - startReceiveProcessing
+01/17 02:29:24.409 [3047044864] INFO  v13.radiodriver - Start receive processing
+01/17 02:29:24.411 [2805971776] INFO  device.dsrc - Starting transmit loop
+01/17 02:29:25.011 [2805971776] INFO  device.dsrc - GPS fix type changed to: NoFix
+01/17 02:29:33.405 [2814364480] WARN  v13.radiodriver - MKx_Recv returned error code: -1
+01/17 02:29:33.542 [3036674880] INFO  device.networkavailability - Changing network availability to: 1
+01/17 02:29:33.542 [3036674880] INFO  security.onboardsecurity - Network availability changed to: 1 informing connection manager
+01/17 02:29:33.543 [3036674880] INFO  onboardsecurity.connection - Calling network availability callback: 1
+01/17 02:30:05.413 [2814364480] WARN  v13.radiodriver - MKx_Recv returned error code: -1
+01/17 02:30:34.745 [3047044864] INFO  etrans.signalhandler - Handling signal 15
+01/17 02:30:34.745 [3047044864] WARN  application.core - Handling OBU signal 15.
+01/17 02:30:34.745 [3047044864] WARN  syslog - Stopping device processing
+01/17 02:30:34.745 [3047044864] INFO  device.dsrc - Stopping device processing ...
+01/17 02:30:34.876 [3047044864] INFO  rsu.mapmsgmanager - Cleaning up MapMessageDomainManager
+01/17 02:30:34.881 [3047044864] INFO  kapschubloxv13.device - Cleaning up Kapsch Ublox V13 device
+01/17 02:30:35.084 [2814364480] WARN  v13.radiodriver - MKx_Recv returned error code: -32
+01/17 02:30:35.084 [3047044864] INFO  v13.radiodriver - rxAllocCalls: 0, rxAllocFrees: 0 rxQueueDrops: 0
+01/17 02:30:35.098 [3047044864] INFO  waveprotocol.device - Cleaning up Wave Protocol device
+01/17 02:30:36.056 [3047044864] INFO  device.dsrc - Successfully sent 0 packets.
+01/17 02:30:36.056 [3047044864] INFO  device.dsrc - Successfully received 0 packets.
+01/17 02:30:36.057 [3047044864] INFO  device.dsrc - Successfully received 0 packets on listener.
+01/17 02:30:36.871 [3047044864] INFO  device.system - Device shutdown complete
+01/17 02:30:38.686 [3046909696] INFO  application.core - Using logging parameters from ./log4cplus.properties
+01/17 02:30:38.686 [3046909696] INFO  application.core - Starting eTrans DSRC application, version: eTrans Default Device Software -> Build info : 1.2.3-DEVELOPMENT-kapsch-rsu Dec 23 2020 00:59:44
+01/17 02:30:38.686 [3046909696] INFO  syslog - Starting eTrans DSRC application.
+01/17 02:30:38.687 [3046909696] INFO  application.core - Loading options from local config file...
+01/17 02:30:38.691 [3046909696] INFO  etrans.signalhandler - Adding signal handler for 2
+01/17 02:30:38.691 [3046909696] INFO  etrans.signalhandler - Adding signal handler for 15
+01/17 02:30:38.691 [3046909696] INFO  device.dsrc - Initializing device.
+01/17 02:30:38.692 [3046909696] INFO  v13.radiodriver - Initialize UbloxV13RadioDriver
+01/17 02:30:38.706 [3046909696] INFO  application.core - Using 2016 version of J2735 spec
+01/17 02:30:38.707 [3046909696] INFO  gpsclient.gpsd - Starting gpsd connection to localhost:2947
+01/17 02:30:38.709 [3046909696] INFO  gpsclient.gpsd - Connection to gpsd successful
+01/17 02:30:38.709 [3046909696] INFO  application.core - Initializing application security
+01/17 02:30:38.709 [3046909696] INFO  onboardsecurity.connection - Initializing OBSConnectionManager
+01/17 02:30:38.710 [3046909696] INFO  json.configuration - Reading OnboardSecurity configuration file: /mnt/c3platpersistent/etc/aerolink/ieee/obs_config_rsu.json
+01/17 02:30:38.710 [3046909696] INFO  security.onboardsecurity - Initializing library version: 6.8.0.0
+01/17 02:30:38.867 [3046909696] INFO  onboardsecurity.connection - Registering network availability callback
+01/17 02:30:38.868 [3046909696] INFO  onboardsecurity.connection - Initializing OBSConnectionManager
+01/17 02:30:38.869 [3046909696] INFO  security.onboardsecurity - Registering callbacks for id changes
+01/17 02:30:38.869 [3046909696] INFO  security.onboardsecurity - Using country code: 840
+01/17 02:30:38.869 [3046909696] INFO  application.core - Initializing bluetooth connections, enabled: 1
+01/17 02:30:38.870 [3046909696] INFO  device.dsrc - Setting up radio channel parameters, radio: 0 access type: CONTINUOUS default channel: 172 service channel: 0
+01/17 02:30:38.870 [3046909696] INFO  device.dsrc - Setting up radio channel parameters, radio: 1 access type: CONTINUOUS default channel: 178 service channel: 0
+01/17 02:30:38.870 [3046909696] INFO  device.dsrc - Registering parameters for message: 20 with PSID: 0x20 tx channel: 172 tx Power: -1 data rate: 0
+01/17 02:30:38.870 [3046909696] INFO  device.dsrc - Registering parameters for message: 18 with PSID: 0x82 tx channel: 172 tx Power: -1 data rate: 0
+01/17 02:30:38.870 [3046909696] INFO  device.dsrc - Registering parameters for message: 19 with PSID: 0x82 tx channel: 172 tx Power: -1 data rate: 0
+01/17 02:30:38.870 [3046909696] INFO  device.dsrc - Registering parameters for message: 27 with PSID: 0x83 tx channel: 172 tx Power: -1 data rate: 0
+01/17 02:30:38.870 [3046909696] INFO  device.dsrc - Registering parameters for message: 29 with PSID: 0x204096 tx channel: 172 tx Power: -1 data rate: 0
+01/17 02:30:38.870 [3046909696] INFO  device.dsrc - Registering parameters for message: 30 with PSID: 0x204095 tx channel: 172 tx Power: -1 data rate: 0
+01/17 02:30:38.871 [3046909696] INFO  device.dsrc - Registering parameters for message: 31 with PSID: 0x83 tx channel: 172 tx Power: -1 data rate: 0
+01/17 02:30:38.871 [3046909696] INFO  device.dsrc - Registering parameters for message: 32 with PSID: 0x27 tx channel: 172 tx Power: -1 data rate: 0
+01/17 02:30:38.871 [3046909696] INFO  device.dsrc - Registering parameters for message: 23 with PSID: 0x82 tx channel: 172 tx Power: -1 data rate: 0
+01/17 02:30:38.871 [3046909696] INFO  device.dsrc - Registering parameters for message: 201 with PSID: 0x20 tx channel: 172 tx Power: -1 data rate: 0
+01/17 02:30:38.871 [3046909696] INFO  device.dsrc - Registering parameters for message: 26 with PSID: 0x84 tx channel: 172 tx Power: -1 data rate: 0
+01/17 02:30:38.871 [3046909696] INFO  device.dsrc - Registering parameters for message: 25 with PSID: 0x84 tx channel: 172 tx Power: -1 data rate: 0
+01/17 02:30:38.871 [3046909696] INFO  device.dsrc - Registering parameters for message: 22 with PSID: 0x83 tx channel: 172 tx Power: -1 data rate: 0
+01/17 02:30:38.871 [3046909696] INFO  device.dsrc - Registering parameters for message: 28 with PSID: 0x80 tx channel: 172 tx Power: -1 data rate: 0
+01/17 02:30:38.872 [3046909696] INFO  device.dsrc - Registering parameters for message: 203 with PSID: 0x82 tx channel: 172 tx Power: -1 data rate: 0
+01/17 02:30:38.872 [3046909696] INFO  device.dsrc - Registering parameters for message: 34 with PSID: 0x28 tx channel: 172 tx Power: -1 data rate: 0
+01/17 02:30:38.872 [3046909696] INFO  device.dsrc - Registering parameters for message: 33 with PSID: 0x29 tx channel: 172 tx Power: -1 data rate: 0
+01/17 02:30:38.872 [3046909696] INFO  device.dsrc - Registering parameters for message: 35 with PSID: 0x30 tx channel: 172 tx Power: -1 data rate: 0
+01/17 02:30:38.878 [3046909696] INFO  waveprotocol.deviceradiointerface - initializeRadio
+01/17 02:30:38.878 [3046909696] INFO  v13.radiodriver - Setting channel configuration for radio 0
+01/17 02:30:38.878 [3046909696] INFO  v13.radiodriver - Setting channel configuration for radio 1
+01/17 02:30:38.879 [3046909696] INFO  kapschubloxv13.device - Setting MAC address from EEPROM entries
+01/17 02:30:38.879 [3046909696] INFO  utilities.macfromeeprom - Reading eeprom MAC file: /etc/eeprom-cb/p.radio1.a.mac
+01/17 02:30:38.879 [3046909696] INFO  kapschubloxv13.device - Setting radio 1 MAC to: 00E06A01485B
+01/17 02:30:38.879 [3046909696] INFO  v13.radiodriver - Set MAC address for radio 0 to 00E06A01485B
+01/17 02:30:38.879 [3046909696] INFO  utilities.macfromeeprom - Reading eeprom MAC file: /etc/eeprom-cb/p.radio1.b.mac
+01/17 02:30:38.879 [3046909696] INFO  kapschubloxv13.device - Setting radio 2 MAC to: 00E06A01485C
+01/17 02:30:38.879 [3046909696] INFO  v13.radiodriver - Set MAC address for radio 1 to 00E06A01485C
+01/17 02:30:38.880 [3046909696] INFO  component.devicedebug - Initializing Bluetooth connection
+01/17 02:30:38.880 [3046909696] INFO  bluetooth.device - Registering bluetooth service: eTrans Bluetooth Debugging
+01/17 02:30:38.880 [3046909696] ERROR bluetooth.bluez - Bluetooth Initialization: SDP connect failed to return a session!
+01/17 02:30:38.880 [3046909696] WARN  bluetooth.bluez - Check that the Bluetooth daemon is running on the unit.
+01/17 02:30:38.880 [3046909696] ERROR bluetooth.device - Service registration failed.
+01/17 02:30:38.881 [3046909696] INFO  service.socket - Setting up TCP debugging at port 19008
+01/17 02:30:38.881 [3046909696] INFO  domain.ghostprocessor - Initializing domain ghost processing
+01/17 02:30:38.882 [3046909696] INFO  udp.forwarder - Setting up UDP forwarder to address: 127.255.255.255:12109
+01/17 02:30:38.882 [3046909696] INFO  component.rsu - Initializing RSU Processing
+01/17 02:30:38.882 [3046909696] INFO  rsu.scheduledsender - Loaded 0 messages
+01/17 02:30:38.882 [3046909696] INFO  forward.udp - Setting up ImmediateForwardUDPListener at port: 1516
+01/17 02:30:38.883 [3046909696] INFO  json.configuration - Reading RSU configuration file: rsu_configuration.json
+01/17 02:30:38.883 [3046909696] INFO  rsu.configuration - Reading RSU configuration document
+01/17 02:30:38.883 [3046909696] INFO  json.configuration - Reading RSU Runtime configuration file: rsu_configuration.json.runtime
+01/17 02:30:38.884 [3046909696] INFO  configuration.runtime - Reading RSU runtime data document
+01/17 02:30:38.884 [3046909696] INFO  v13.radiodriver - Setting channel configuration for radio 0
+01/17 02:30:38.884 [3046909696] INFO  v13.radiodriver - Setting channel configuration for radio 1
+01/17 02:30:38.884 [3046909696] INFO  rsu.processor - Mac: 00E06A01485B
+01/17 02:30:38.884 [3046909696] INFO  rsu.configuration - updateStoreAndRepeatConfiguration
+01/17 02:30:38.885 [3046909696] INFO  pedestrian.txprocessor - Initializing PedestrianTransmitProcessor
+01/17 02:30:38.885 [3046909696] INFO  rsu.processor - Setting device tx power to: 19.5
+01/17 02:30:38.885 [3046909696] INFO  rsu.processor - Set WSA control channel to: 178
+01/17 02:30:38.885 [3046909696] INFO  rsu.processor - RSU initialization completed sucessfully!
+01/17 02:30:38.885 [3046909696] INFO  vehicle.algorithm - Setting up collision algorithm
+01/17 02:30:38.886 [3046909696] INFO  vehicle.algorithm - Setting up intersection light warning algorithm
+01/17 02:30:38.886 [3046909696] INFO  vehicle.algorithm - Setting up pedestrian warning algorithm
+01/17 02:30:38.886 [3046909696] INFO  vehicle.algorithm - Setting up EEBL Algorithm
+01/17 02:30:38.886 [3046909696] INFO  vehicle.algorithm - Setting up Road Condition Alert algorithms
+01/17 02:30:38.886 [3046909696] INFO  vehicle.algorithm - Setting up Speed Warning algorithms
+01/17 02:30:38.886 [3046909696] INFO  vehicle.algorithm - Setting up TravelInformation Warning
+01/17 02:30:38.886 [3046909696] INFO  vehicle.algorithm - Setting up SecurityStatus Warning algorithms
+01/17 02:30:38.886 [3046909696] INFO  component.install - Running check for update installation
+01/17 02:30:38.886 [3046909696] INFO  device.install - No directory available at: 
+01/17 02:30:38.887 [3046909696] INFO  application.core - Connecting device debugging log message publishing to appender: BLUETOOTH
+01/17 02:30:38.887 [3046909696] INFO  waveprotocol.device - systemInitializationComplete
+01/17 02:30:38.887 [3046909696] INFO  application.core - Starting main loop, blockUntilDeviceStopped: 1
+01/17 02:30:38.887 [3046909696] INFO  syslog - Entering processing loop
+01/17 02:30:38.887 [3046909696] INFO  waveprotocol.deviceradiointerface - startReceiveProcessing
+01/17 02:30:38.887 [3046909696] INFO  v13.radiodriver - Start receive processing
+01/17 02:30:38.888 [2805971776] INFO  device.dsrc - Starting transmit loop
+01/17 02:30:39.288 [2805971776] INFO  device.dsrc - GPS fix type changed to: NoFix
+01/17 02:30:48.193 [3038493504] INFO  device.networkavailability - Changing network availability to: 1
+01/17 02:30:48.193 [3038493504] INFO  security.onboardsecurity - Network availability changed to: 1 informing connection manager
+01/17 02:30:48.193 [3038493504] INFO  onboardsecurity.connection - Calling network availability callback: 1
+01/17 02:31:09.413 [2814364480] WARN  v13.radiodriver - MKx_Recv returned error code: -1
+01/17 02:33:17.429 [2814364480] WARN  v13.radiodriver - MKx_Recv returned error code: -1
+01/17 02:34:19.396 [2849950528] INFO  service.socket - Creating new client connection
+01/17 02:34:19.397 [2849950528] INFO  service.socket - Debugging TCP connection initiated, sending initial info.
+01/17 02:34:19.398 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.398 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.399 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.399 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.400 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.400 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.400 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.403 [2849950528] ERROR connection.socket - Error parsing JSON from socket client: 
+01/17 02:34:19.403 [2849950528] ERROR connection.socket - Error parsing JSON from socket client: 
+01/17 02:34:19.404 [2849950528] INFO  connection.socket - Client connection disconnecting
+01/17 02:34:19.405 [2849950528] INFO  service.socket - Creating new client connection
+01/17 02:34:19.406 [2849950528] INFO  service.socket - Debugging TCP connection initiated, sending initial info.
+01/17 02:34:19.407 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.407 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.407 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.407 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.408 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.408 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.408 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.409 [2849950528] ERROR connection.socket - Error parsing JSON from socket client: GET / HTTP/1.0
+01/17 02:34:19.410 [2849950528] ERROR connection.socket - Error parsing JSON from socket client: 
+01/17 02:34:19.412 [2849950528] INFO  connection.socket - Client connection disconnecting
+01/17 02:34:19.412 [2849950528] INFO  service.socket - Creating new client connection
+01/17 02:34:19.412 [2849950528] INFO  service.socket - Debugging TCP connection initiated, sending initial info.
+01/17 02:34:19.414 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.414 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.414 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.414 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.415 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.415 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.415 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.416 [2849950528] ERROR connection.socket - Error parsing JSON from socket client: OPTIONS / HTTP/1.0
+01/17 02:34:19.416 [2849950528] ERROR connection.socket - Error parsing JSON from socket client: 
+01/17 02:34:19.418 [2849950528] INFO  connection.socket - Client connection disconnecting
+01/17 02:34:19.419 [2849950528] INFO  service.socket - Creating new client connection
+01/17 02:34:19.419 [2849950528] INFO  service.socket - Debugging TCP connection initiated, sending initial info.
+01/17 02:34:19.420 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.420 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.421 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.421 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.422 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.422 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.422 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.423 [2849950528] ERROR connection.socket - Error parsing JSON from socket client: OPTIONS / RTSP/1.0
+01/17 02:34:19.423 [2849950528] ERROR connection.socket - Error parsing JSON from socket client: 
+01/17 02:34:19.425 [2849950528] INFO  connection.socket - Client connection disconnecting
+01/17 02:34:19.425 [2849950528] INFO  service.socket - Creating new client connection
+01/17 02:34:19.425 [2849950528] INFO  service.socket - Debugging TCP connection initiated, sending initial info.
+01/17 02:34:19.427 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.427 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.427 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.427 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.428 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.428 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.428 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.430 [2849950528] INFO  connection.socket - Client connection disconnecting
+01/17 02:34:19.431 [2849950528] INFO  service.socket - Creating new client connection
+01/17 02:34:19.432 [2849950528] INFO  service.socket - Debugging TCP connection initiated, sending initial info.
+01/17 02:34:19.433 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.433 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.433 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.433 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.434 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.434 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.434 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.437 [2849950528] INFO  connection.socket - Client connection disconnecting
+01/17 02:34:19.438 [2849950528] INFO  service.socket - Creating new client connection
+01/17 02:34:19.438 [2849950528] INFO  service.socket - Debugging TCP connection initiated, sending initial info.
+01/17 02:34:19.439 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.440 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.440 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.440 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.441 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.441 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.441 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.443 [2849950528] INFO  connection.socket - Client connection disconnecting
+01/17 02:34:19.444 [2849950528] INFO  service.socket - Creating new client connection
+01/17 02:34:19.444 [2849950528] INFO  service.socket - Debugging TCP connection initiated, sending initial info.
+01/17 02:34:19.446 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.446 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.446 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.446 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.447 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.447 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.447 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.448 [2849950528] ERROR connection.socket - Error parsing JSON from socket client: HELP
+01/17 02:34:19.450 [2849950528] INFO  connection.socket - Client connection disconnecting
+01/17 02:34:19.451 [2849950528] INFO  service.socket - Creating new client connection
+01/17 02:34:19.451 [2849950528] INFO  service.socket - Debugging TCP connection initiated, sending initial info.
+01/17 02:34:19.452 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.452 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.453 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.453 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.453 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.454 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.454 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.455 [2849950528] ERROR connection.socket - Error parsing JSON from socket client:   S  O ?G×÷º,îê²`~ó ý‚{¹Õ–Èw›æÄÛ<=Ûoïn  (   
+01/17 02:34:19.457 [2849950528] INFO  connection.socket - Client connection disconnecting
+01/17 02:34:19.458 [2849950528] INFO  service.socket - Creating new client connection
+01/17 02:34:19.459 [2849950528] INFO  service.socket - Debugging TCP connection initiated, sending initial info.
+01/17 02:34:19.460 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.460 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.460 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.461 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.461 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.461 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.462 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.463 [2849950528] ERROR connection.socket - Error parsing JSON from socket client:   *%à     Cookie: mstshash=nmap
+01/17 02:34:19.464 [2849950528] INFO  connection.socket - Client connection disconnecting
+01/17 02:34:19.466 [2849950528] INFO  service.socket - Creating new client connection
+01/17 02:34:19.466 [2849950528] INFO  service.socket - Debugging TCP connection initiated, sending initial info.
+01/17 02:34:19.468 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.468 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.468 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.468 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.469 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.469 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.469 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.470 [2849950528] ERROR connection.socket - Error parsing JSON from socket client:   i  eU§ärandom1random2random3random4   / 
+01/17 02:34:19.473 [2849950528] INFO  connection.socket - Client connection disconnecting
+01/17 02:34:19.475 [2849950528] INFO  service.socket - Creating new client connection
+01/17 02:34:19.475 [2849950528] INFO  service.socket - Debugging TCP connection initiated, sending initial info.
+01/17 02:34:19.476 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.476 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.477 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.477 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.477 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.478 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.478 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.478 [2849950528] ERROR connection.socket - Error parsing JSON from socket client:    qjn0k¡¢
+01/17 02:34:19.480 [2849950528] INFO  connection.socket - Client connection disconnecting
+01/17 02:34:19.481 [2849950528] INFO  service.socket - Creating new client connection
+01/17 02:34:19.481 [2849950528] INFO  service.socket - Debugging TCP connection initiated, sending initial info.
+01/17 02:34:19.483 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.483 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.483 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.483 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.484 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.484 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.484 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.487 [2849950528] INFO  connection.socket - Client connection disconnecting
+01/17 02:34:19.488 [2849950528] INFO  service.socket - Creating new client connection
+01/17 02:34:19.488 [2849950528] INFO  service.socket - Debugging TCP connection initiated, sending initial info.
+01/17 02:34:19.489 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.490 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.490 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.490 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.491 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.491 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.491 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.494 [2849950528] INFO  connection.socket - Client connection disconnecting
+01/17 02:34:19.494 [2849950528] INFO  service.socket - Creating new client connection
+01/17 02:34:19.495 [2849950528] INFO  service.socket - Debugging TCP connection initiated, sending initial info.
+01/17 02:34:19.496 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.496 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.496 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.496 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.497 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.497 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.498 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.498 [2849950528] ERROR connection.socket - Error parsing JSON from socket client: GET /nice%20ports%2C/Tri%6Eity.txt%2ebak HTTP/1.0
+01/17 02:34:19.499 [2849950528] ERROR connection.socket - Error parsing JSON from socket client: 
+01/17 02:34:19.503 [2849950528] INFO  connection.socket - Client connection disconnecting
+01/17 02:34:19.504 [2849950528] INFO  service.socket - Creating new client connection
+01/17 02:34:19.504 [2849950528] INFO  service.socket - Debugging TCP connection initiated, sending initial info.
+01/17 02:34:19.506 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.506 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.506 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.506 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.507 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.507 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.507 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.508 [2849950528] ERROR connection.socket - Error parsing JSON from socket client: default
+01/17 02:34:19.510 [2849950528] INFO  connection.socket - Client connection disconnecting
+01/17 02:34:19.512 [2849950528] INFO  service.socket - Creating new client connection
+01/17 02:34:19.512 [2849950528] INFO  service.socket - Debugging TCP connection initiated, sending initial info.
+01/17 02:34:19.513 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.514 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.514 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.514 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.515 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.515 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.515 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.516 [2849950528] ERROR connection.socket - Error parsing JSON from socket client: 0„   -c„   $ 
+01/17 02:34:19.516 [2849950528] ERROR connection.socket - Error parsing JSON from socket client:  
+01/17 02:34:19.519 [2849950528] INFO  connection.socket - Client connection disconnecting
+01/17 02:34:19.521 [2849950528] INFO  service.socket - Creating new client connection
+01/17 02:34:19.521 [2849950528] INFO  service.socket - Debugging TCP connection initiated, sending initial info.
+01/17 02:34:19.522 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.522 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.522 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.523 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.523 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.524 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.524 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.526 [2849950528] INFO  connection.socket - Client connection disconnecting
+01/17 02:34:19.527 [2849950528] INFO  service.socket - Creating new client connection
+01/17 02:34:19.527 [2849950528] INFO  service.socket - Debugging TCP connection initiated, sending initial info.
+01/17 02:34:19.529 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.529 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.529 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.529 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.530 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.530 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.530 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.531 [2849950528] ERROR connection.socket - Error parsing JSON from socket client: OPTIONS sip:nm SIP/2.0
+01/17 02:34:19.531 [2849950528] ERROR connection.socket - Error parsing JSON from socket client: Via: SIP/2.0/TCP nm;branch=foo
+01/17 02:34:19.531 [2849950528] ERROR connection.socket - Error parsing JSON from socket client: From: <sip:nm@nm>;tag=root
+01/17 02:34:19.532 [2849950528] ERROR connection.socket - Error parsing JSON from socket client: To: <sip:nm2@nm2>
+01/17 02:34:19.532 [2849950528] ERROR connection.socket - Error parsing JSON from socket client: Call-ID: 50000
+01/17 02:34:19.532 [2849950528] ERROR connection.socket - Error parsing JSON from socket client: CSeq: 42 OPTIONS
+01/17 02:34:19.532 [2849950528] ERROR connection.socket - Error parsing JSON from socket client: Max-Forwards: 70
+01/17 02:34:19.532 [2849950528] ERROR connection.socket - Error parsing JSON from socket client: Content-Length: 0
+01/17 02:34:19.532 [2849950528] ERROR connection.socket - Error parsing JSON from socket client: Contact: <sip:nm@nm>
+01/17 02:34:19.533 [2849950528] ERROR connection.socket - Error parsing JSON from socket client: Accept: application/sdp
+01/17 02:34:19.533 [2849950528] ERROR connection.socket - Error parsing JSON from socket client: 
+01/17 02:34:19.533 [2849950528] INFO  connection.socket - Client connection disconnecting
+01/17 02:34:19.535 [2849950528] INFO  service.socket - Creating new client connection
+01/17 02:34:19.535 [2849950528] INFO  service.socket - Debugging TCP connection initiated, sending initial info.
+01/17 02:34:19.536 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.536 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.537 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.537 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.538 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.538 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.538 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.540 [2849950528] INFO  connection.socket - Client connection disconnecting
+01/17 02:34:19.541 [2849950528] INFO  service.socket - Creating new client connection
+01/17 02:34:19.542 [2849950528] INFO  service.socket - Debugging TCP connection initiated, sending initial info.
+01/17 02:34:19.543 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.543 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.543 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.543 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.544 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.544 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.544 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.551 [2849950528] INFO  connection.socket - Client connection disconnecting
+01/17 02:34:19.567 [2849950528] INFO  service.socket - Creating new client connection
+01/17 02:34:19.568 [2849950528] INFO  service.socket - Debugging TCP connection initiated, sending initial info.
+01/17 02:34:19.569 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.569 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.569 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.569 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.570 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.570 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.570 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.574 [2849950528] INFO  connection.socket - Client connection disconnecting
+01/17 02:34:19.575 [2849950528] INFO  service.socket - Creating new client connection
+01/17 02:34:19.575 [2849950528] INFO  service.socket - Debugging TCP connection initiated, sending initial info.
+01/17 02:34:19.576 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.577 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.577 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.577 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.578 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.578 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.578 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.581 [2849950528] INFO  connection.socket - Client connection disconnecting
+01/17 02:34:19.583 [2849950528] INFO  service.socket - Creating new client connection
+01/17 02:34:19.583 [2849950528] INFO  service.socket - Debugging TCP connection initiated, sending initial info.
+01/17 02:34:19.584 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.584 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.585 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.585 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.585 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.586 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.586 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.589 [2849950528] INFO  connection.socket - Client connection disconnecting
+01/17 02:34:19.589 [2849950528] INFO  service.socket - Creating new client connection
+01/17 02:34:19.590 [2849950528] INFO  service.socket - Debugging TCP connection initiated, sending initial info.
+01/17 02:34:19.591 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.591 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.591 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.592 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.592 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.592 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.593 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.596 [2849950528] INFO  connection.socket - Client connection disconnecting
+01/17 02:34:19.598 [2849950528] INFO  service.socket - Creating new client connection
+01/17 02:34:19.599 [2849950528] INFO  service.socket - Debugging TCP connection initiated, sending initial info.
+01/17 02:34:19.600 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.600 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.600 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.600 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.601 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.601 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.601 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.604 [2849950528] INFO  connection.socket - Client connection disconnecting
+01/17 02:34:19.605 [2849950528] INFO  service.socket - Creating new client connection
+01/17 02:34:19.605 [2849950528] INFO  service.socket - Debugging TCP connection initiated, sending initial info.
+01/17 02:34:19.606 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.607 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.607 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.607 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.608 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.608 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.608 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.611 [2849950528] INFO  connection.socket - Client connection disconnecting
+01/17 02:34:19.612 [2849950528] INFO  service.socket - Creating new client connection
+01/17 02:34:19.612 [2849950528] INFO  service.socket - Debugging TCP connection initiated, sending initial info.
+01/17 02:34:19.613 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.613 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.613 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.614 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.614 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.615 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.615 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.617 [2849950528] INFO  connection.socket - Client connection disconnecting
+01/17 02:34:19.618 [2849950528] INFO  service.socket - Creating new client connection
+01/17 02:34:19.618 [2849950528] INFO  service.socket - Debugging TCP connection initiated, sending initial info.
+01/17 02:34:19.620 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.620 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.620 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.620 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.621 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.621 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.621 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.624 [2849950528] INFO  connection.socket - Client connection disconnecting
+01/17 02:34:19.628 [2849950528] INFO  service.socket - Creating new client connection
+01/17 02:34:19.628 [2849950528] INFO  service.socket - Debugging TCP connection initiated, sending initial info.
+01/17 02:34:19.630 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.630 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.630 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.630 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.631 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.631 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.631 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.632 [2849950528] ERROR connection.socket - Error parsing JSON from socket client: GET / HTTP/1.0
+01/17 02:34:19.632 [2849950528] ERROR connection.socket - Error parsing JSON from socket client: 
+01/17 02:34:19.634 [2849950528] INFO  connection.socket - Client connection disconnecting
+01/17 02:34:19.639 [2849950528] INFO  service.socket - Creating new client connection
+01/17 02:34:19.640 [2849950528] INFO  service.socket - Debugging TCP connection initiated, sending initial info.
+01/17 02:34:19.641 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.641 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.641 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.641 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.642 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.642 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:19.642 [2849950528] ERROR debug.processor - Could not determine type.
+01/17 02:34:20.737 [2849950528] INFO  connection.socket - Client connection disconnecting
+01/17 02:35:38.868 [2866735936] WARN  security.onboardsecurity - Not setting up randomization yet as no certs available
+01/17 02:35:38.868 [2866735936] INFO  security.onboardsecurity - IdChangeDoneCallback
+01/17 02:37:33.513 [2814364480] WARN  v13.radiodriver - MKx_Recv returned error code: -1
+01/17 02:37:53.088 [2805971776] INFO  device.dsrc - GPS fix type changed to: TwoDimensionalFix
+01/17 02:37:53.088 [2805971776] INFO  device.dsrc - GPS fix started with lat: 41.711286 lon: -73.867283
+01/17 02:38:16.088 [2805971776] INFO  device.dsrc - GPS fix type changed to: NoFix
+01/17 02:40:38.869 [2866735936] WARN  security.onboardsecurity - Not setting up randomization yet as no certs available
+01/17 02:40:38.869 [2866735936] INFO  security.onboardsecurity - IdChangeDoneCallback
+01/17 02:41:49.188 [2805971776] INFO  device.dsrc - GPS fix type changed to: ThreeDimensionalFix
+01/17 02:41:49.188 [2805971776] INFO  device.dsrc - GPS fix started with lat: 41.709623 lon: -73.863811
+01/17 02:41:51.088 [2805971776] INFO  device.dsrc - GPS fix type changed to: NoFix
+01/17 02:41:53.088 [2805971776] INFO  device.dsrc - GPS fix type changed to: ThreeDimensionalFix
+01/17 02:41:53.088 [2805971776] INFO  device.dsrc - GPS fix started with lat: 41.709417 lon: -73.86337
+01/17 02:41:53.188 [2805971776] INFO  device.dsrc - GPS fix type changed to: NoFix
+01/17 02:42:34.088 [2805971776] INFO  device.dsrc - GPS fix type changed to: ThreeDimensionalFix
+01/17 02:42:34.088 [2805971776] INFO  device.dsrc - GPS fix started with lat: 41.709361 lon: -73.86319
+01/17 02:42:34.188 [2805971776] INFO  device.dsrc - GPS fix type changed to: NoFix
+01/17 02:42:41.088 [2805971776] INFO  device.dsrc - GPS fix type changed to: ThreeDimensionalFix
+01/17 02:42:41.088 [2805971776] INFO  device.dsrc - GPS fix started with lat: 41.709328 lon: -73.863131
+01/17 02:42:41.188 [2805971776] INFO  device.dsrc - GPS fix type changed to: NoFix
+01/17 02:42:42.088 [2805971776] INFO  device.dsrc - GPS fix type changed to: ThreeDimensionalFix
+01/17 02:42:42.088 [2805971776] INFO  device.dsrc - GPS fix started with lat: 41.709309 lon: -73.863116
+01/17 02:42:42.188 [2805971776] INFO  device.dsrc - GPS fix type changed to: NoFix
+01/17 02:43:06.088 [2805971776] INFO  device.dsrc - GPS fix type changed to: ThreeDimensionalFix
+01/17 02:43:06.088 [2805971776] INFO  device.dsrc - GPS fix started with lat: 41.709332 lon: -73.863161
+01/17 02:43:26.188 [2805971776] INFO  device.dsrc - GPS fix type changed to: NoFix
+01/17 02:43:31.088 [2805971776] INFO  device.dsrc - GPS fix type changed to: ThreeDimensionalFix
+01/17 02:43:31.088 [2805971776] INFO  device.dsrc - GPS fix started with lat: 41.709445 lon: -73.863248
+01/17 02:45:38.869 [2866735936] WARN  security.onboardsecurity - Not setting up randomization yet as no certs available
+01/17 02:45:38.869 [2866735936] INFO  security.onboardsecurity - IdChangeDoneCallback
+01/17 02:45:53.088 [2805971776] INFO  device.dsrc - GPS fix started with lat: 41.709617 lon: -73.863662
+01/17 02:46:05.488 [2814364480] WARN  v13.radiodriver - MKx_Recv returned error code: -1
+01/17 02:46:22.088 [2805971776] INFO  device.dsrc - GPS fix started with lat: 41.709419 lon: -73.863402
+01/17 02:50:38.869 [2866735936] WARN  security.onboardsecurity - Not setting up randomization yet as no certs available
+01/17 02:50:38.870 [2866735936] INFO  security.onboardsecurity - IdChangeDoneCallback
+01/17 02:53:38.088 [2805971776] INFO  device.dsrc - GPS fix started with lat: 41.709286 lon: -73.863128
+01/17 02:55:38.870 [2866735936] WARN  security.onboardsecurity - Not setting up randomization yet as no certs available
+01/17 02:55:38.870 [2866735936] INFO  security.onboardsecurity - IdChangeDoneCallback
+01/17 03:00:38.870 [2866735936] WARN  security.onboardsecurity - Not setting up randomization yet as no certs available
+01/17 03:00:38.870 [2866735936] INFO  security.onboardsecurity - IdChangeDoneCallback
+01/17 03:03:09.555 [2814364480] WARN  v13.radiodriver - MKx_Recv returned error code: -1
+01/17 03:04:49.088 [2805971776] INFO  device.dsrc - GPS fix started with lat: 41.709381 lon: -73.863316
+01/17 03:05:38.871 [2866735936] WARN  security.onboardsecurity - Not setting up randomization yet as no certs available
+01/17 03:05:38.871 [2866735936] INFO  security.onboardsecurity - IdChangeDoneCallback
+01/17 03:06:18.088 [2805971776] INFO  device.dsrc - GPS fix started with lat: 41.709294 lon: -73.863278
+01/17 03:08:03.088 [2805971776] INFO  device.dsrc - GPS fix started with lat: 41.709254 lon: -73.863147
+01/17 03:10:38.871 [2866735936] WARN  security.onboardsecurity - Not setting up randomization yet as no certs available
+01/17 03:10:38.871 [2866735936] INFO  security.onboardsecurity - IdChangeDoneCallback
+01/17 03:15:38.872 [2866735936] WARN  security.onboardsecurity - Not setting up randomization yet as no certs available
+01/17 03:15:38.872 [2866735936] INFO  security.onboardsecurity - IdChangeDoneCallback
+01/17 03:20:38.872 [2866735936] WARN  security.onboardsecurity - Not setting up randomization yet as no certs available
+01/17 03:20:38.872 [2866735936] INFO  security.onboardsecurity - IdChangeDoneCallback
+01/17 03:25:38.872 [2866735936] WARN  security.onboardsecurity - Not setting up randomization yet as no certs available
+01/17 03:25:38.873 [2866735936] INFO  security.onboardsecurity - IdChangeDoneCallback
+01/17 03:30:38.873 [2866735936] WARN  security.onboardsecurity - Not setting up randomization yet as no certs available
+01/17 03:30:38.873 [2866735936] INFO  security.onboardsecurity - IdChangeDoneCallback
+01/17 03:35:38.873 [2866735936] WARN  security.onboardsecurity - Not setting up randomization yet as no certs available
+01/17 03:35:38.873 [2866735936] INFO  security.onboardsecurity - IdChangeDoneCallback
+01/17 03:37:17.554 [2814364480] WARN  v13.radiodriver - MKx_Recv returned error code: -1
+01/17 03:40:38.874 [2866735936] WARN  security.onboardsecurity - Not setting up randomization yet as no certs available
+01/17 03:40:38.874 [2866735936] INFO  security.onboardsecurity - IdChangeDoneCallback
+01/17 03:45:38.874 [2866735936] WARN  security.onboardsecurity - Not setting up randomization yet as no certs available
+01/17 03:45:38.874 [2866735936] INFO  security.onboardsecurity - IdChangeDoneCallback
+01/17 03:50:38.874 [2866735936] WARN  security.onboardsecurity - Not setting up randomization yet as no certs available
+01/17 03:50:38.875 [2866735936] INFO  security.onboardsecurity - IdChangeDoneCallback
+01/17 03:55:38.875 [2866735936] WARN  security.onboardsecurity - Not setting up randomization yet as no certs available
+01/17 03:55:38.875 [2866735936] INFO  security.onboardsecurity - IdChangeDoneCallback
+01/17 04:00:38.875 [2866735936] WARN  security.onboardsecurity - Not setting up randomization yet as no certs available
+01/17 04:00:38.875 [2866735936] INFO  security.onboardsecurity - IdChangeDoneCallback
+01/17 04:05:38.876 [2866735936] WARN  security.onboardsecurity - Not setting up randomization yet as no certs available
+01/17 04:05:38.876 [2866735936] INFO  security.onboardsecurity - IdChangeDoneCallback
+01/17 04:10:38.876 [2866735936] WARN  security.onboardsecurity - Not setting up randomization yet as no certs available
+01/17 04:10:38.876 [2866735936] INFO  security.onboardsecurity - IdChangeDoneCallback
+01/17 04:15:38.877 [2866735936] WARN  security.onboardsecurity - Not setting up randomization yet as no certs available
+01/17 04:15:38.877 [2866735936] INFO  security.onboardsecurity - IdChangeDoneCallback
+01/17 04:20:38.877 [2866735936] WARN  security.onboardsecurity - Not setting up randomization yet as no certs available
+01/17 04:20:38.877 [2866735936] INFO  security.onboardsecurity - IdChangeDoneCallback

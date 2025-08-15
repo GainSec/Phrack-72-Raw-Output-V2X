@@ -1,0 +1,26 @@
++ set -x
++ . /mnt/c3platpersistent/share/startup/common.sh
++++ basename /mnt/c3platpersistent/etc/startup.d//800_dircolors.sh
+++ APP_SCR=800_dircolors.sh
++++ readlink -f /mnt/c3platpersistent/etc/startup.d//800_dircolors.sh
+++ ACT_DIR=/mnt/c3platpersistent/etc/startup.d/800_dircolors.sh
++++ dirname /mnt/c3platpersistent/etc/startup.d/800_dircolors.sh
+++ ABS_PATH=/mnt/c3platpersistent/etc/startup.d
+++ LED_STARTUP_PID=/var/run/flash_pid.startup
+++ [[ -n /mnt/c3platpersistent ]]
+++ [[ -z USDoT-QualcommCCA ]]
+++ source /mnt/c3platpersistent/etc/roadside.cfg
++++ [[ false == false ]]
++++ [[ USDoT-QualcommCCA == ITSG5-HWEngland ]]
++++ export ROADSIDE_IPTABLES_ENABLED=false
++++ ROADSIDE_IPTABLES_ENABLED=false
++++ export CERTPATH=/mnt/c3platpersistent/share/its-g5-security-certs/
++++ CERTPATH=/mnt/c3platpersistent/share/its-g5-security-certs/
++ '[' xstart = xstart ']'
++ logger '800_dircolors.sh - setting more readable output colors'
++ dircolors -p
++ sed -i -e 's/DIR 01;34/DIR 01;94/g' /mnt/c3platpersistent/.dircolors
++ cp /mnt/c3platpersistent/.dircolors /root
++ cp /mnt/c3platpersistent/.dircolors /home/kapsch
++ rm /mnt/c3platpersistent/.dircolors
++ logger '800_dircolors.sh - Done.'

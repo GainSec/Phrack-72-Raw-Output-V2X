@@ -1,0 +1,44 @@
++ set -xe
++ . /mnt/c3platpersistent/share/startup/common.sh
++++ basename /mnt/c3platpersistent/etc/startup.d//004_create_admin_users.sh
+++ APP_SCR=004_create_admin_users.sh
++++ readlink -f /mnt/c3platpersistent/etc/startup.d//004_create_admin_users.sh
+++ ACT_DIR=/mnt/c3platpersistent/etc/startup.d/004_create_admin_users.sh
++++ dirname /mnt/c3platpersistent/etc/startup.d/004_create_admin_users.sh
+++ ABS_PATH=/mnt/c3platpersistent/etc/startup.d
+++ LED_STARTUP_PID=/var/run/flash_pid.startup
+++ [[ -n /mnt/c3platpersistent ]]
+++ [[ -z USDoT-QualcommCCA ]]
+++ source /mnt/c3platpersistent/etc/roadside.cfg
++++ [[ false == false ]]
++++ [[ USDoT-QualcommCCA == ITSG5-HWEngland ]]
++++ export ROADSIDE_IPTABLES_ENABLED=false
++++ ROADSIDE_IPTABLES_ENABLED=false
++++ export CERTPATH=/mnt/c3platpersistent/share/its-g5-security-certs/
++++ CERTPATH=/mnt/c3platpersistent/share/its-g5-security-certs/
++ '[' xstart = xstart ']'
++ logger '004_create_admin_users.sh -I- Start ---'
++ IFS='
+'
+++ cat /mnt/c3platpersistent/etc/admin.accounts
++ for LINE in '$(cat "${KAPSCH_ROOT}/etc/admin.accounts")'
++ IFS=';'
++ read -r -a INFO
++ [[ -n '' ]]
++ GECOS=USDoT-QualcommCCA
++ logger '004_create_admin_users.sh -D- adding user admin (info: USDoT-QualcommCCA)'
++ sudo adduser --disabled-login admin --gecos USDoT-QualcommCCA
+Adding user `admin' ...
+Adding new group `admin' (1001) ...
+Adding new user `admin' (1001) with group `admin' ...
+Creating home directory `/home/admin' ...
+Copying files from `/etc/skel' ...
++ echo admin:pesco
++ sudo chpasswd
++ [[ -n '' ]]
++ sudo usermod -a -G sudo admin
++ [[ -e /mnt/c3platpersistent/etc/ssh/admin.keys/admin.pub ]]
++ [[ -n '' ]]
++ logger '004_create_admin_users.sh -D- default user "admin" generated'
++ chmod 0400 /mnt/c3platpersistent/etc/admin.accounts
++ chown root:root /mnt/c3platpersistent/etc/admin.accounts

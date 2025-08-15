@@ -1,0 +1,443 @@
+this is the json configuration file:
+
+{
+    "systemDescription": {
+        "mibVersion": "rsuMIB 4.1 rev201812060000Z",
+        "firmwareVersion": "1.19.0-deb9-x86 1002",
+        "firmwareVersionFile": "",
+        "manufacturer": "Kapsch",
+        "locationDescription": "",
+        "id": "PEM00054"
+    },
+    "operatingMode": 4,
+    "channelConfiguration": [
+        {
+            "radioName": "wave0",
+            "channelMode": 0,
+            "controlChannel": 172,
+            "serviceChannel": 172
+        },
+        {
+            "radioName": "wave1",
+            "channelMode": 0,
+            "controlChannel": 178,
+            "serviceChannel": 178
+        }
+    ],
+    "storeAndRepeat": []
+
+this is the application's help menu:
+
+kapschrsu --help
+eTrans Default Device Software -> Build info : 1.2.3-DEVELOPMENT-kapsch-rsu Dec 23 2020 00:59:44
+  --help                                Prints usage message
+  --version                             Print out version information for the 
+                                        application and exit
+  --list_loggers                        Print out the list of loggers within 
+                                        the application and exit
+  --config_dir arg (=.)                 The location of application 
+                                        configuration files
+  --j2735_version arg (=2016)           The version of the J2735 spec used.  
+                                        Valid values are 2009, 2016[default]
+  --warn_spat_without_map arg (=0)      Log warning when SPAT is received 
+                                        without MAP
+  --onboardsecurity_configuration arg   Device security configuration file
+  --default_security_enabled arg (=1)   Enable default 1609.2 security for 
+                                        unsecured messages
+  --bluetooth_enabled arg (=1)          Enable bluetooth connections from the 
+                                        device
+  --message_generation_timing arg (=100)
+                                        Number of milliseconds between sending 
+                                        messages
+  --message_receive_enabled arg (=1)    Enable message receiving from the 
+                                        device
+  --message_process_raw_with_security arg (=0)
+                                        Do raw message processing with the 
+                                        security header added
+  --device_network_check_hosts arg (=www.google.com)
+                                        Hosts to use to see if the network is 
+                                        available
+  --message_forward_udp_port arg (=0)   Message Forward UDP Port
+  --dot3_receiver_port arg (=0)         Port to receive 1609.3 UDP messages
+  --dot3_forwarder_port arg (=0)        Port to forward 1609.3 UDP messages to
+  --dot3_forwarder_address arg          Address to forward 1609.3 UDP messages 
+                                        to
+  --wsm_rx_udp_dest_port arg (=0)       WSM UDPForwarder Destination Port
+  --wsm_rx_udp_dest_ip arg              WSM UDPForwarder Destination IP
+  --wsm_tx_udp_dest_port arg (=0)       WSM Transmit UDPForwarder Destination 
+                                        Port
+  --wsm_tx_udp_dest_ip arg              WSM Transmit UDPForwarder Destination 
+                                        IP
+  --tci_udp_receiver_port arg           Test Control interface UDP Receiver 
+                                        Port
+  --wsa_configuration_file arg          WSA configuration file name, JSON 
+                                        format
+  --wsa_expiration_time arg (=5000)     WSA expiration time in milliseconds
+  --psid_service_used arg               List of PSIDs (hex without 0x) that a 
+                                        device responds to from a WSA
+  --wsm_forward_rssi arg (=0)           Include RSSI in Forwarded WSM packet
+  --radio_0_access_type arg (=CONTINUOUS)
+                                        Access method for the radio when 
+                                        listening
+  --radio_0_default_channel arg (=172)  Default channel to listen to for this 
+                                        radio
+  --radio_0_service_channel arg         Service channel to listen to for this 
+                                        radio
+  --radio_1_access_type arg (=CONTINUOUS)
+                                        Access method for the radio when 
+                                        listening
+  --radio_1_default_channel arg (=178)  Default channel to listen to for this 
+                                        radio
+  --radio_1_service_channel arg         Service channel to listen to for this 
+                                        radio
+  --radio_bsm_psid arg (=32)            PSID to use for Basic Safety messages
+  --radio_bsm_txchannel arg (=172)      TxChannel to use for Basic Safety 
+                                        messages
+  --radio_bsm_txpower arg (=-1)         TxPower to use for Basic Safety 
+                                        messages
+  --radio_bsm_datarate arg (=0)         Data rate in mbps to use for Basic 
+                                        Safety messages, 0 uses device default
+  --radio_map_psid arg (=130)           PSID to use for MAP messages
+  --radio_map_txchannel arg (=172)      TxChannel to use for MAP messages
+  --radio_map_txpower arg (=-1)         TxPower to use for MAP messages
+  --radio_map_datarate arg (=0)         Data rate in mbps to use for MAP 
+                                        messages, 0 uses device default
+  --radio_spat_psid arg (=130)          PSID to use for SPAT messages
+  --radio_spat_txchannel arg (=172)     TxChannel to use for SPAT messages
+  --radio_spat_txpower arg (=-1)        TxPower to use for SPAT messages
+  --radio_spat_datarate arg (=0)        Data rate in mbps to use for SPAT 
+                                        messages, 0 uses device default
+  --radio_rsa_psid arg (=131)           PSID to use for Roadside Alert messages
+  --radio_rsa_txchannel arg (=172)      TxChannel to use for Roadside Alert 
+                                        messages
+  --radio_rsa_txpower arg (=-1)         TxPower to use for Roadside Alert 
+                                        messages
+  --radio_rsa_datarate arg (=0)         Data rate in mbps to use for Roadside 
+                                        Alert messages, 0 uses device default
+  --radio_srm_psid arg (=2113686)       PSID to use for Signal Request messages
+  --radio_srm_txchannel arg (=172)      TxChannel to use for Signal Request 
+                                        messages
+  --radio_srm_txpower arg (=-1)         TxPower to use for Signal Request 
+                                        messages
+  --radio_srm_datarate arg (=0)         Data rate in mbps to use for Signal 
+                                        Request messages, 0 uses device default
+  --radio_ssm_psid arg (=2113685)       PSID to use for Signal Status messages
+  --radio_ssm_txchannel arg (=172)      TxChannel to use for Signal Status 
+                                        messages
+  --radio_ssm_txpower arg (=-1)         TxPower to use for Signal Status 
+                                        messages
+  --radio_ssm_datarate arg (=0)         Data rate in mbps to use for Signal 
+                                        Status messages, 0 uses device default
+  --radio_tim_psid arg (=131)           PSID to use for Traveler Info messages
+  --radio_tim_txchannel arg (=172)      TxChannel to use for Traveler Info 
+                                        messages
+  --radio_tim_txpower arg (=-1)         TxPower to use for Traveler Info 
+                                        messages
+  --radio_tim_datarate arg (=0)         Data rate in mbps to use for Traveler 
+                                        Info messages, 0 uses device default
+  --radio_psm_psid arg (=39)            PSID to use for Personal Safety 
+                                        messages
+  --radio_psm_txchannel arg (=172)      TxChannel to use for Personal Safety 
+                                        messages
+  --radio_psm_txpower arg (=-1)         TxPower to use for Personal Safety 
+                                        messages
+  --radio_psm_datarate arg (=0)         Data rate in mbps to use for Personal 
+                                        Safety messages, 0 uses device default
+  --radio_ica_psid arg (=130)           PSID to use for Intersection Collision 
+                                        Avoidances
+  --radio_ica_txchannel arg (=172)      TxChannel to use for Intersection 
+                                        Collision Avoidances
+  --radio_ica_txpower arg (=-1)         TxPower to use for Intersection 
+                                        Collision Avoidances
+  --radio_ica_datarate arg (=0)         Data rate in mbps to use for 
+                                        Intersection Collision Avoidances, 0 
+                                        uses device default
+  --radio_vcw_psid arg (=32)            PSID to use for Vehicle Collision 
+                                        Warning messages
+  --radio_vcw_txchannel arg (=172)      TxChannel to use for Vehicle Collision 
+                                        Warning messages
+  --radio_vcw_txpower arg (=-1)         TxPower to use for Vehicle Collision 
+                                        Warning messages
+  --radio_vcw_datarate arg (=0)         Data rate in mbps to use for Vehicle 
+                                        Collision Warning messages, 0 uses 
+                                        device default
+  --radio_pvd_psid arg (=132)           PSID to use for Probe Vehicle Data 
+                                        messages
+  --radio_pvd_txchannel arg (=172)      TxChannel to use for Probe Vehicle Data
+                                        messages
+  --radio_pvd_txpower arg (=-1)         TxPower to use for Probe Vehicle Data 
+                                        messages
+  --radio_pvd_datarate arg (=0)         Data rate in mbps to use for Probe 
+                                        Vehicle Data messages, 0 uses device 
+                                        default
+  --radio_pdm_psid arg (=132)           PSID to use for Probe Data Managements
+  --radio_pdm_txchannel arg (=172)      TxChannel to use for Probe Data 
+                                        Managements
+  --radio_pdm_txpower arg (=-1)         TxPower to use for Probe Data 
+                                        Managements
+  --radio_pdm_datarate arg (=0)         Data rate in mbps to use for Probe Data
+                                        Managements, 0 uses device default
+  --radio_eva_psid arg (=131)           PSID to use for Emergency Vehicle Alert
+                                        messages
+  --radio_eva_txchannel arg (=172)      TxChannel to use for Emergency Vehicle 
+                                        Alert messages
+  --radio_eva_txpower arg (=-1)         TxPower to use for Emergency Vehicle 
+                                        Alert messages
+  --radio_eva_datarate arg (=0)         Data rate in mbps to use for Emergency 
+                                        Vehicle Alert messages, 0 uses device 
+                                        default
+  --radio_rtcm_psid arg (=128)          PSID to use for Differential GPS 
+                                        Correction messages
+  --radio_rtcm_txchannel arg (=172)     TxChannel to use for Differential GPS 
+                                        Correction messages
+  --radio_rtcm_txpower arg (=-1)        TxPower to use for Differential GPS 
+                                        Correction messages
+  --radio_rtcm_datarate arg (=0)        Data rate in mbps to use for 
+                                        Differential GPS Correction messages, 0
+                                        uses device default
+  --radio_vpw_psid arg (=130)           PSID to use for Vehicle Pedestrian 
+                                        Warning messages
+  --radio_vpw_txchannel arg (=172)      TxChannel to use for Vehicle Pedestrian
+                                        Warning messages
+  --radio_vpw_txpower arg (=-1)         TxPower to use for Vehicle Pedestrian 
+                                        Warning messages
+  --radio_vpw_datarate arg (=0)         Data rate in mbps to use for Vehicle 
+                                        Pedestrian Warning messages, 0 uses 
+                                        device default
+  --radio_tam_psid arg (=40)            PSID to use for Toll Advertisement 
+                                        Messages
+  --radio_tam_txchannel arg (=172)      TxChannel to use for Toll Advertisement
+                                        Messages
+  --radio_tam_txpower arg (=-1)         TxPower to use for Toll Advertisement 
+                                        Messages
+  --radio_tam_datarate arg (=0)         Data rate in mbps to use for Toll 
+                                        Advertisement Messages, 0 uses device 
+                                        default
+  --radio_tum_psid arg (=41)            PSID to use for Toll Usage Messages
+  --radio_tum_txchannel arg (=172)      TxChannel to use for Toll Usage 
+                                        Messages
+  --radio_tum_txpower arg (=-1)         TxPower to use for Toll Usage Messages
+  --radio_tum_datarate arg (=0)         Data rate in mbps to use for Toll Usage
+                                        Messages, 0 uses device default
+  --radio_trm_psid arg (=48)            PSID to use for Toll Receipt Messages
+  --radio_trm_txchannel arg (=172)      TxChannel to use for Toll Receipt 
+                                        Messages
+  --radio_trm_txpower arg (=-1)         TxPower to use for Toll Receipt 
+                                        Messages
+  --radio_trm_datarate arg (=0)         Data rate in mbps to use for Toll 
+                                        Receipt Messages, 0 uses device default
+  --vehicle_id arg                      Vehicle id, 4 byte hex value, use 0 for
+                                        random
+  --vehicle_id_control arg (=0)         Vehicle id control, 0=random 1=half 
+                                        random 2=fixed
+  --vehicle_class arg (=PASSENGER)      Vehicle classifer, PASSENGER, 
+                                        TRANSITBUS, SPECIAL or POLICE_LIGHT
+  --vehicle_type arg (=0)               VehicleType from J2735, 0-15
+  --vehicle_message_generation arg (=1) Enable vehicle message generation from 
+                                        the device
+  --vehicle_use_minimum_tx_info arg (=0)
+                                        Use J2945 minimum transmission 
+                                        requirements
+  --vehicle_tx_new_gps_only arg (=0)    Only generate BSMs is new GPS data is 
+                                        available
+  --vehicle_tx_initial_delay arg (=0)   Initial delay before transmitting BSMs 
+                                        in ms
+  --vehicle_tx_dead_reckoning_required arg (=0)
+                                        Require active GPS dead reckoning to 
+                                        transmite BSMs
+  --vehicle_block_cert_change_distance arg (=2000)
+                                        Number of meters required to change 
+                                        certificates, use 0 to disable
+  --vehicle_add_gravity_vertical_accel arg (=0)
+                                        Include the force of gravity in the 
+                                        vertical acceleration output
+  --message_generation_enabled arg      [DEPRECATED] Use vehicle_message_genera
+                                        tion instead
+  --vehicle_message_generation_type arg (=0)
+                                        Vehicle message generation type (0=BSM,
+                                        1 = EVA)
+  --vehicle_length arg (=485)           Vehicle length in CM
+  --vehicle_width arg (=182)            Vehicle width in CM
+  --vehicle_bsm_data arg                Vehicle BSM data to use in place of GPS
+  --obd_enabled arg (=0)                Enable gathering information over the 
+                                        OBD interface
+  --vehicle_gps_data_file arg           CSV file with GPS data to be used 
+                                        instead of actual GPS
+  --vehicle_heading_latch_speed arg (=0.5)
+                                        Vehicle heading latch in m/s
+  --vehicle_heading_persist_file arg    File name to persist vehicle heading 
+                                        across restarts
+  --vehicle_heading_use_location_points arg (=0)
+                                        Calculate the heading from the points 
+                                        travelled instead of getting directly 
+                                        from the GPS
+  --vehicle_latitude_offset arg (=0)    Latitude offset in degrees
+  --vehicle_longitude_offset arg (=0)   Longitude offset in degrees
+  --vehicle_elevation_offset arg (=0)   Elevation offset in meters
+  --vehicle_antenna_offset_x arg (=0)   Antenna X offset in meters
+  --vehicle_antenna_offset_y arg (=0)   Antenna Y offset in meters
+  --vehicle_antenna_offset_z arg (=0)   Antenna Z offset in meters
+  --vehicle_accel_lat_offset arg (=0)   Accel lat offset in m/s^2
+  --vehicle_accel_lon_offset arg (=0)   Accel lon offset in m/s^
+  --vehicle_accel_vert_offset arg (=0)  Accel vert offset in m/s^
+  --vehicle_pvd_interval arg (=0)       Probe data interval in msec
+  --vehicle_pvd_on_probe_service arg (=0)
+                                        Enable PVD on probe message service 
+                                        available
+  --vehicle_vad_conf_file arg           VAD configuration file
+  --enable_congestion_control arg (=0)  Enable BSM congestion control
+  --warning_csv_logging arg (=0)        Enable logging CSV output for vehicle 
+                                        warning to the USB drive
+  --use_danlaw_path_history_generation arg (=1)
+                                        Use the Danlaw Path History algorithm
+  --path_history_storage_location arg   The storage to persist Path History 
+                                        across device restarts
+  --path_history_log_directory arg      Directory for storing path history logs
+  --path_history_reset_distance arg (=20)
+                                        Distance traveled while powered down 
+                                        that resets path history
+  --use_danlaw_path_prediction_generation arg (=1)
+                                        Use the Danlaw Path Prediction 
+                                        algorithm
+  --path_prediction_log_directory arg   Directory for storing path prediction 
+                                        logs
+  --logging_enabled arg (=0)            Enable message logging to the USB drive
+  --logging_ignore_tx arg (=0)          Do not log transmitted messages to the 
+                                        USB drive
+  --csv_logging arg (=0)                Enable logging CSV output to the USB 
+                                        drive
+  --csv_log_location arg                Set the CSV log output location
+  --csv_log_verbose arg (=0)            Enable verbose CSV logging (only 
+                                        applies if CSV logging enabled)
+  --range_csv_logging arg (=0)          Enable logging CSV output for DSRC 
+                                        Range to the USB drive
+  --logging_json_enabled arg (=0)       Enable JSON logging
+  --http_forward_uri arg                HTTP Forwarding uri including scheme
+  --http_forward_user arg               HTTP Forwarding user name to pass along
+  --http_forward_password arg           HTTP Forwarding password to pass along
+  --http_forward_timeout arg (=1)       HTTP Forwarding timeout for HTTP 
+                                        response (seconds)
+  --http_forward_update_timing arg (=500)
+                                        Time in msec for how often updates to 
+                                        every object should be sent.
+  --udp_forward_address arg             UDP Forward Address (IP4 or 6)
+  --udp_forward_port arg (=5566)        UDP Forward Port
+  --udp_forward_received_msgs arg (=1)  Forward received messages to the UDP 
+                                        location
+  --device_debugging_enabled arg (=1)   Enable debugging connections from the 
+                                        device
+  --tcp_debugging_enabled arg (=1)      Enable tcp connections from the device
+  --tcp_debugging_port arg (=19008)     Port for TCP debugging connections
+  --websocket_debugging_uri arg         URI for websocket debugging connections
+  --websocket_debugging_topic arg       Topic for websocket debugging 
+                                        connections
+  --websocket_debugging_username arg    User for websocket debugging 
+                                        connections
+  --websocket_debugging_password arg    Password for websocket debugging 
+                                        connections
+  --ri_udp_address arg                  RI UDP client address (IP4 or 6)
+  --ri_udp_port arg (=7891)             RI UDP client port
+  --ri_udp_json arg (=0)                If true then messages are sent in JSON 
+                                        format instead of Protobuf
+  --ri_ws_address arg                   RI Websocket client address
+  --ri_ws_username arg                  RI Websocket client username
+  --ri_ws_password arg                  RI Websocket client password
+  --ghost_processing_enabled arg (=1)   Enable ghost processing on domain 
+                                        objects
+  --ghost_processing_expire_time arg (=1500)
+                                        Expiration time for objects to ghost 
+                                        (msec)
+  --cellular_server_uri arg             Cellular server URI
+  --cellular_server_topic arg           Cellular server topic name
+  --cellular_server_username arg        Cellular server auth username
+  --cellular_server_password arg        Cellular server auth password
+  --websocket_receiver_server_uri arg   Websocket receiver server URI
+  --websocket_receiver_server_topic arg Websocket receiver server topic name
+  --websocket_receiver_server_username arg
+                                        Websocket receiverserver auth username
+  --websocket_receiver_server_password arg
+                                        Websocket receiver server auth password
+  --logging_replay_file arg             Logging file to replay on device
+  --logging_replay_repeat arg (=0)      Repeat log file replay indefinitely
+  --logging_replay_set_system_clock arg (=1)
+                                        Set the system clock to match the 
+                                        replay while it is running
+  --udp_receiver_port arg               UDP Receiver Port, messages will be 
+                                        forwarded on or processed as received
+  --network_availability_notification_enabled arg (=1)
+                                        Enable network availability 
+                                        notification
+  --rsu_configuration_file arg          RSU Configuration file
+  --rsu_udp_forward_port arg (=1516)    RSU port for UDP message forwarding
+  --enable_rsu_snmp arg (=0)            Enable RSU SNMP MIB
+  --snmp_agentx_socket arg              Connection string for AgentX connection
+                                        to master, e.g. tcp:localhost:161
+  --snmp_allow_operate_mode_updates arg (=0)
+                                        Allow SNMP updates while in operate 
+                                        mode
+  --cloud_address arg                   Cloud address to connect to
+  --cloud_port arg (=255)               Port for cloud server
+  --cloud_enable_mapspat arg (=0)       Enable sending of MAP and SPAT payloads
+                                        to cloud
+  --cloud_disable_forward_tx arg (=0)   Disable forwarding of transmitted 
+                                        message payloads to cloud
+  --cloud_connect_timeout arg (=15)     Connect timeout in seconds
+  --message_generation_static_content arg
+                                        A hex string with static content that 
+                                        will be used instead of any other 
+                                        generated content
+  --camera_vehicle_prefix arg           Vehicle id prefix for camera generated 
+                                        vehicles
+  --collision_aware_threshold arg (=6)  Collision aware time to collide 
+                                        threshold in seconds
+  --collision_inform_threshold arg (=4.5)
+                                        Collision inform time to collide 
+                                        threshold in seconds
+  --collision_warning_threshold arg (=3)
+                                        Collision warning time to collide 
+                                        threshold in seconds
+  --collision_intersection_threshold arg (=1.5)
+                                        Collision intersection threshold 
+                                        crossing time in seconds
+  --intersection_light_warning_threshold arg (=0)
+                                        Intersection light warning threshold 
+                                        time in seconds, 0 means no time limit
+  --intersection_light_warning_min_speed arg (=4.5)
+                                        Intersection light warning minimum 
+                                        speed in meters per sec
+  --intersection_light_warning_safety_buffer arg (=1)
+                                        Intersection light warning safety 
+                                        buffer in seconds
+  --intersection_light_warning_on_green  arg (=1)
+                                        Intersection light warning on green
+  --eebl_threshold arg (=-4)            EEBL Acceleration Threshold in 
+                                        meters/sec (provide a negative value)
+  --toll_payment_enable arg (=0)        Enable Toll Payment
+  --vehicle_signal_request_processing arg (=0)
+                                        Enable vehicle signal request 
+                                        processing
+  --vehicle_signal_request_from_user arg (=0)
+                                        Require user input to perform vehicle 
+                                        signal request processing
+  --vehicle_signal_request_role arg (=0)
+                                        vehicle request role
+  --vehicle_signal_request_cancelation_period arg (=0)
+                                        vehicle priority request cancelation 
+                                        period
+  --stalled_vehicle_processing arg (=0) Enable stalled vehicle processing to 
+                                        generate TIME messages
+  --pvd_host arg                        Host to connect to for PVD data
+  --emergency_server_uri arg            Emergency notification server URI
+  --emergency_server_topic arg          Emergency notification server topic 
+                                        name
+  --emergency_server_username arg       Emergency notification auth username
+  --emergency_server_password arg       Emergency notification auth password
+  --parking_config arg                  Config for transmitting parking lot 
+                                        information
+  --parking_client_enabled arg (=0)     Enable or disable parking lot client
+  --update_installer_enabled arg (=1)   Enable or disable update installation 
+                                        processing
+
+I want to modify the configuration file to use the following args:
+
+kapschrsu --default_security_enabled=0 --csv_log_verbose=1 --logging_enabled=1 --csv_logging=1 --csv_log_location=/home/kapsch/microSD/csvlogs --device_debugging_enabled=1 --vehicle_signal_request_processing=1 --toll_payment_enable=1 --radio_pvd_txchannel=172 --radio_pvd_txpower=33 --radio_pdm_txpower=33 --radio_pdm_txchannel=172 --radio_eva_txchannel=172 --radio_eva_txpower=33 --radio_vcw_txchannel=172 --radio_vcw_txpower=33 --radio_ica_txpower=33 --radio_ica_txchannel=172  --radio_psm_txchannel=172 --radio_psm_txpower=33 --radio_tim_txchannel=172 --radio_tim_txpower=33 --radio_ssm_txpower=33 --radio_ssm_txchannel=172 --radio_srm_txpower=33 --radio_srm_txchannel=172 --radio_rsa_txpower=33 --radio_rsa_txchannel=172 --radio_spat_txpower=33 --radio_spat_txchannel=172 --radio_map_txpower=33 --radio_map_txchannel=172 --radio_bsm_txpower=33 --radio_bsm_txchannel=172 --message_receive_enabled=1 --radio_1_default_channel=172 --radio_1_service_channel=172

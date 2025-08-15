@@ -1,0 +1,19 @@
++ set -x
+++ basename /mnt/c3platpersistent/etc/startup.d/appl/30_appl_utilities.sh
++ APP_SCR=30_appl_utilities.sh
++ APPLICATION=backup_clean.sh
++ RUN_SCR=/mnt/c3platpersistent/share/CCA
++ Samples=/mnt/c3platpersistent/share/imis_app
++ '[' xstart = xstart ']'
++ '[' xUSDoT-QualcommCCA = xUSDoT-QualcommCCA ']'
++ '[' -x /mnt/c3platpersistent/share/CCA/backup_clean.sh ']'
++ Pid1=16104
++ echo 16104
++ sh /mnt/c3platpersistent/share/CCA/backup_clean.sh update_clean
++ sleep 0.1
++ logger '30_appl_utilities.sh -I- Started backup_clean.sh with pid "16104"'
++ sleep 0.1
++ logger '30_appl_utilities.sh -I- Prepare templates if any given  ---'
+++ ls '/mnt/c3platpersistent/share/imis_app/*.xml'
+ls: cannot access /mnt/c3platpersistent/share/imis_app/*.xml: No such file or directory
++ exit 0

@@ -1,0 +1,679 @@
+[    0.000000] Booting Linux on physical CPU 0x0
+[    0.000000] Initializing cgroup subsys cpu
+[    0.000000] Initializing cgroup subsys cpuacct
+[    0.000000] Linux version 3.18.71 (ficosa@F595387) (gcc version 5.2.0 (GCC) ) #1 PREEMPT Thu Aug 16 14:55:29 CEST 2018
+[    0.000000] CPU: ARMv7 Processor [410fc075] revision 5 (ARMv7), cr=10c53c7d
+[    0.000000] CPU: PIPT / VIPT nonaliasing data cache, VIPT aliasing instruction cache
+[    0.000000] Machine model: Qualcomm Technologies, Inc. MDM 9650 v1.1 CV2X
+[    0.000000] Reserved memory: reserved region for node 'peripheral1_region@0x87800000': base 0x87800000, size 4 MiB
+[    0.000000] Reserved memory: reserved region for node 'peripheral2_region@0x87d00000': base 0x87d00000, size 3 MiB
+[    0.000000] Reserved memory: reserved region for node 'mss_region@88000000': base 0x88000000, size 110 MiB
+[    0.000000] Removed memory: created DMA memory pool at 0x87800000, size 4 MiB
+[    0.000000] Reserved memory: initialized node peripheral1_region@0x87800000, compatible id removed-dma-pool
+[    0.000000] Removed memory: created DMA memory pool at 0x87d00000, size 3 MiB
+[    0.000000] Reserved memory: initialized node peripheral2_region@0x87d00000, compatible id removed-dma-pool
+[    0.000000] Removed memory: created DMA memory pool at 0x88000000, size 110 MiB
+[    0.000000] Reserved memory: initialized node mss_region@88000000, compatible id removed-dma-pool
+[    0.000000] Reserved memory: allocated memory for 'audio_region@0' node: base 0x8fc00000, size 4 MiB
+[    0.000000] Reserved memory: created CMA memory pool at 0x8fc00000, size 4 MiB
+[    0.000000] Reserved memory: initialized node audio_region@0, compatible id shared-dma-pool
+[    0.000000] Reserved memory: allocated memory for 'qseecom_region@0' node: base 0x8f800000, size 4 MiB
+[    0.000000] Reserved memory: created CMA memory pool at 0x8f800000, size 4 MiB
+[    0.000000] Reserved memory: initialized node qseecom_region@0, compatible id shared-dma-pool
+[    0.000000] cma: Reserved 12 MiB at 0x86c00000
+[    0.000000] Memory policy: Data cache writeback
+[    0.000000] On node 0 totalpages: 63744
+[    0.000000] free_area_init_node: node 0, pgdat c0ea71f8, node_mem_map cf579000
+[    0.000000]   Normal zone: 576 pages used for memmap
+[    0.000000]   Normal zone: 0 pages reserved
+[    0.000000]   Normal zone: 63744 pages, LIFO batch:15
+[    0.000000] CPU: All CPU(s) started in SVC mode.
+[    0.000000] pcpu-alloc: s0 r0 d32768 u32768 alloc=1*32768
+[    0.000000] pcpu-alloc: [0] 0 
+[    0.000000] Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 63168
+[    0.000000] Kernel command line: noinitrd ro console=ttyHSL0,115200,n8 androidboot.hardware=qcom ehci-hcd.park=3 msm_rtb.filter=0x37 lpm_levels.sleep_disabled=1 earlycon=msm_hsl_uart,0x78b1000 androidboot.serialno=91dc40e9 androidboot.authorized_kernel=true androidboot.baseband=msm rootfstype=ubifs rootflags=bulk_read root=ubi0:rootfs ubi.mtd=16
+[    0.000000] PID hash table entries: 1024 (order: 0, 4096 bytes)
+[    0.000000] Dentry cache hash table entries: 32768 (order: 5, 131072 bytes)
+[    0.000000] Inode-cache hash table entries: 16384 (order: 4, 65536 bytes)
+[    0.000000] Memory: 102000K/254976K available (9638K kernel code, 709K rwdata, 4072K rodata, 337K init, 1611K bss, 132496K reserved, 20480K cma-reserved)
+[    0.000000] Virtual kernel memory layout:
+[    0.000000]     vector  : 0xffff0000 - 0xffff1000   (   4 kB)
+[    0.000000]     fixmap  : 0xffc00000 - 0xfff00000   (3072 kB)
+[    0.000000] 	   vmalloc : 0xd0000000 - 0xff000000   ( 752 MB)
+[    0.000000] 	   lowmem  : 0xc8000000 - 0xd0000000   ( 128 MB)
+[    0.000000] 	   vmalloc : 0xc7d00000 - 0xc8000000   (   3 MB)
+[    0.000000] 	   lowmem  : 0xc7c00000 - 0xc7d00000   (   1 MB)
+[    0.000000] 	   vmalloc : 0xc7800000 - 0xc8000000   (   8 MB)
+[    0.000000] 	   lowmem  : 0xc0000000 - 0xc7800000   ( 120 MB)
+[    0.000000]     modules : 0xbf000000 - 0xc0000000   (  16 MB)
+[    0.000000]       .text : 0xc0008000 - 0xc0971a44   (9639 kB)
+[    0.000000]       .init : 0xc0da8000 - 0xc0dfc7f4   ( 338 kB)
+[    0.000000]       .data : 0xc0dfe000 - 0xc0eaf6dc   ( 710 kB)
+[    0.000000]        .bss : 0xc0eaf7a0 - 0xc10424c4   (1612 kB)
+[    0.000000] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=1, Nodes=1
+[    0.000000] Preemptible hierarchical RCU implementation.
+[    0.000000] 
+[    0.000000] **********************************************************
+[    0.000000] **   NOTICE NOTICE NOTICE NOTICE NOTICE NOTICE NOTICE   **
+[    0.000000] **                                                      **
+[    0.000000] ** trace_printk() being used. Allocating extra memory.  **
+[    0.000000] **                                                      **
+[    0.000000] ** This means that this is a DEBUG kernel and it is     **
+[    0.000000] ** unsafe for produciton use.                           **
+[    0.000000] **                                                      **
+[    0.000000] ** If you see this message and you are not debugging    **
+[    0.000000] ** the kernel, report this immediately to your vendor!  **
+[    0.000000] **                                                      **
+[    0.000000] **   NOTICE NOTICE NOTICE NOTICE NOTICE NOTICE NOTICE   **
+[    0.000000] **********************************************************
+[    0.000000] NR_IRQS:16 nr_irqs:16 16
+[    0.000000] GIC CPU mask not found - kernel will fail to boot.
+[    0.000000] GIC CPU mask not found - kernel will fail to boot.
+[    0.000000] mpm_init_irq_domain(): Cannot find irq controller for qcom,gpio-parent
+[    0.000000] MPM 1 irq mapping errored -517
+[    0.000000] Architected mmio timer(s) running at 19.20MHz (virt).
+[    0.000007] sched_clock: 56 bits at 19MHz, resolution 52ns, wraps every 3579139424256ns
+[    0.000018] Switching to timer-based delay loop, resolution 52ns
+[    0.000032] Switched to clocksource arch_mem_counter
+[    0.000481] Console: colour dummy device 80x30
+[    0.000496] Calibrating delay loop (skipped), value calculated using timer frequency.. 38.40 BogoMIPS (lpj=192000)
+[    0.000507] pid_max: default: 32768 minimum: 301
+[    0.000575] Mount-cache hash table entries: 1024 (order: 0, 4096 bytes)
+[    0.000585] Mountpoint-cache hash table entries: 1024 (order: 0, 4096 bytes)
+[    0.000968] Initializing cgroup subsys freezer
+[    0.000987] Initializing cgroup subsys debug
+[    0.001009] CPU: Testing write buffer coherency: ok
+[    0.001248] Setting up static identity map for 0x80970e40 - 0x80970e98
+[    0.002219] MSM Memory Dump base table set up
+[    0.002246] MSM Memory Dump apps data table set up
+[    0.004903] VFP support v0.3: implementor 41 architecture 2 part 30 variant 7 rev 5
+[    0.006028] pinctrl core: initialized pinctrl subsystem
+[    0.006294] regulator-dummy: no parameters
+[    0.029004] NET: Registered protocol family 16
+[    0.030291] DMA: preallocated 256 KiB pool for atomic coherent allocations
+[    0.060091] cpuidle: using governor ladder
+[    0.090084] cpuidle: using governor menu
+[    0.120083] cpuidle: using governor qcom
+[    0.126084] platform 4080000.qcom,mss: assigned reserved memory node mss_region@88000000
+[    0.128179] msm_watchdog b017000.qcom,wdt: wdog absent resource not present
+[    0.128408] msm_watchdog b017000.qcom,wdt: MSM Watchdog Initialized
+[    0.129869] spmi_pmic_arb 200f000.qcom,spmi: PMIC Arb Version-2 0x20010000
+[    0.131799] platform soc:qcom,msm-audio-ion: assigned reserved memory node audio_region@0
+[    0.134808] hw-breakpoint: found 5 (+1 reserved) breakpoint and 4 watchpoint registers.
+[    0.134820] hw-breakpoint: maximum watchpoint size is 8 bytes.
+[    0.135460] gpiochip_add: registered GPIOs 0 to 99 on device: 1000000.pinctrl
+[    0.135475] GPIO chip 1000000.pinctrl: created GPIO range 0->99 ==> 1000000.pinctrl PIN 0->99
+[    0.135894] __of_mpm_init(): MPM driver mapping exists
+[    0.136212] msm_rpm_glink_dt_parse: qcom,rpm-glink compatible not matches
+[    0.136223] msm_rpm_dev_probe: APSS-RPM communication over SMD
+[    0.136233] smd_open() before smd_init()
+[    0.136703] msm_mpm_dev_probe(): Cannot get clk resource for XO: -517
+[    0.138253] smd_channel_probe_now: allocation table not initialized
+[    0.140938] glink_rpm_native_probe: TOC id -2017344770 is not valid
+[    0.143474] msm-thermal soc:qcom,msm-thermal: msm_thermal:Failed reading node=/soc/qcom,msm-thermal, key=qcom,core-limit-temp. err=-22. KTM continues
+[    0.143492] msm-thermal soc:qcom,msm-thermal: probe_freq_mitigation:Failed reading node=/soc/qcom,msm-thermal, key=qcom,freq-mitigation-temp. err=-22. KTM continues
+[    0.143509] msm-thermal soc:qcom,msm-thermal: probe_therm_reset:Failed reading node=/soc/qcom,msm-thermal, key=qcom,therm-reset-temp err=-22. KTM continues
+[    0.143521] msm_thermal:get_kernel_cluster_info CPU0 topology not initialized.
+[    0.143558] msm_thermal:vdd_restriction_reg_init Defer regulator vdd-dig probe
+[    0.143567] msm_thermal:probe_vdd_rstr Err regulator init. err:-517. KTM continues.
+[    0.143578] msm-thermal soc:qcom,msm-thermal: probe_vdd_rstr:Failed reading node=/soc/qcom,msm-thermal, key=qcom,min-level. err=-517. KTM continues
+[    0.143588] msm_thermal:msm_thermal_dev_probe Failed reading node=/soc/qcom,msm-thermal, key=qcom,online-hotplug-core. err:-517
+[    0.144235] sps:sps is ready.
+[    0.144987] exit: IPA_USB init success!
+[    0.146451] msm_rpm_glink_dt_parse: qcom,rpm-glink compatible not matches
+[    0.146464] msm_rpm_dev_probe: APSS-RPM communication over SMD
+[    0.147119] pmd9650_s1: 800 mV normal idle 
+[    0.147590] pmd9650_s2: 1256 mV normal idle 
+[    0.148010] pmd9650_s3: 1024 mV normal idle 
+[    0.148445] pmd9650_s4: 1856 mV normal idle 
+[    0.148880] pmd9650_s5_level: 0 <--> 0 mV at 0 mV normal idle 
+[    0.149184] pmd9650_s5_level_ao: 0 <--> 0 mV at 0 mV normal idle 
+[    0.149503] pmd9650_s5_floor_level: 0 <--> 0 mV at 0 mV normal idle 
+[    0.149930] pmd9650_l1: 1224 mV normal idle 
+[    0.150489] pmd9650_l2: 1200 mV normal idle 
+[    0.150930] pmd9650_l3: 1000 mV normal idle 
+[    0.151366] pmd9650_l4: 928 mV normal idle 
+[    0.151813] pmd9650_l5: 1800 mV normal idle 
+[    0.152259] pmd9650_l6: 1800 mV normal idle 
+[    0.152659] pmd9650_l7: 1800 <--> 2848 mV at 1800 mV normal idle 
+[    0.153054] pmd9650_l8: 1000 mV normal idle 
+[    0.153463] pmd9650_l9_level: 0 <--> 0 mV at 0 mV normal idle 
+[    0.153875] pmd9650_l10: 3088 mV normal idle 
+[    0.154288] pmd9650_l11: 1800 <--> 2848 mV at 1800 mV normal idle 
+[    0.154703] pmd9650_l12: 2704 mV normal idle 
+[    0.154982] msm_mpm_dev_probe(): Cannot get clk resource for XO: -517
+[    0.155338] msm-thermal soc:qcom,msm-thermal: msm_thermal:Failed reading node=/soc/qcom,msm-thermal, key=qcom,core-limit-temp. err=-22. KTM continues
+[    0.155354] msm-thermal soc:qcom,msm-thermal: probe_freq_mitigation:Failed reading node=/soc/qcom,msm-thermal, key=qcom,freq-mitigation-temp. err=-22. KTM continues
+[    0.155370] msm-thermal soc:qcom,msm-thermal: probe_therm_reset:Failed reading node=/soc/qcom,msm-thermal, key=qcom,therm-reset-temp err=-22. KTM continues
+[    0.155381] msm_thermal:get_kernel_cluster_info CPU0 topology not initialized.
+[    0.156238] cpu cpu0: dev_pm_opp_get_opp_count: device OPP not found (-19)
+[    0.156251] msm_thermal:get_cpu_freq_plan_len Error reading CPU0 freq table len. error:-19
+[    0.160830] qcom,gcc-9650 1800000.qcom,gcc: Registered RPM clocks.
+[    0.162817] qcom,gcc-9650 1800000.qcom,gcc: Registered GCC clocks.
+[    0.163089] clock-a7 b010008.qcom,clock-a7: No speed/PVS binning available. Defaulting to 0!
+[    0.163138] a7ssmux: set OPP pair(200000000 Hz: 64 uV) on cpu0
+[    0.163157] a7ssmux: set OPP pair(1286400000 Hz: 384 uV) on cpu0
+[    0.211175] gpiochip_find_base: found new base at 1019
+[    0.211270] gpiochip_add: registered GPIOs 1019 to 1023 on device: pmd9650-gpio
+[    0.211568] qpnp_pin_check_constraints: invalid vin select 1 value for gpio 9
+[    0.211581] qcom,qpnp-pin qpnp-pin-3: _qpnp_pin_config: unable to set default config for pmic pin 9
+[    0.211648] qcom,qpnp-pin: probe of qpnp-pin-3 failed with error -22
+[    0.211990] KPI: Bootloader start count = 27138
+[    0.212001] KPI: Bootloader end count = 71998
+[    0.212008] KPI: Bootloader display count = 2354148887
+[    0.212015] KPI: Bootloader load kernel count = 35022
+[    0.212023] KPI: Kernel MPM timestamp = 89293
+[    0.212029] KPI: Kernel MPM Clock frequency = 32768
+[    0.212046] socinfo_print: v0.10, id=283, ver=1.1, raw_id=50, raw_ver=1, hw_plat=30, hw_plat_ver=65536
+[    0.212046]  accessory_chip=1, hw_plat_subtype=1, pmic_model=65551, pmic_die_revision=131072 foundry_id=3 serial_number=2447130857
+[    0.212304] of_get_named_gpiod_flags: can't parse 'gpio' property of node '/soc/codec_buck_vreg[0]'
+[    0.212426] codec_1.8v: no parameters
+[    0.212558] of_get_named_gpiod_flags: parsed 'gpio' property of node '/soc/rome_vreg[0]' - status (-517)
+[    0.212629] of_get_named_gpiod_flags: parsed 'gpio' property of node '/soc/sdc_vreg[0]' - status (0)
+[    0.212738] sdc_vreg: no parameters
+[    0.213004] vgaarb: loaded
+[    0.213091] qcom,qpnp-misc qpnp-misc-2: probe successful
+[    0.213322] of_get_named_gpiod_flags: parsed 'qcom,gpio-connect' property of node '/soc/wcd9xxx-irq[0]' - status (0)
+[    0.213679] SCSI subsystem initialized
+[    0.214157] usbcore: registered new interface driver usbfs
+[    0.214218] usbcore: registered new interface driver hub
+[    0.214352] usbcore: registered new device driver usb
+[    0.214881] i2c-msm-v2 78b7000.i2c: probing driver i2c-msm-v2
+[    0.214951] AXI: msm_bus_scale_register_client(): msm_bus_scale_register_client: Bus driver not ready.
+[    0.214963] i2c-msm-v2 78b7000.i2c: msm_bus_scale_register_client(mstr-id:86):0 (not a problem)
+[    0.215987] pps_core: LinuxPPS API ver. 1 registered
+[    0.216000] pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+[    0.216026] PTP clock support registered
+[    0.216512] cpufreq: driver msm up and running
+[    0.216984] platform soc:qcom,ion:qcom,ion-heap@28: assigned reserved memory node audio_region@0
+[    0.217182] platform soc:qcom,ion:qcom,ion-heap@27: assigned reserved memory node qseecom_region@0
+[    0.217423] ION heap system created
+[    0.217603] ION heap audio created at 0x8fc00000 with size 400000
+[    0.217618] ION heap qsecom created at 0x8f800000 with size 400000
+[    0.217841] msm_bus_fabric_init_driver
+[    0.218016] msm_bus_device 580000.ad-hoc-bus: Coresight support absent for bus: 0
+[    0.218067] msm_bus_device 580000.ad-hoc-bus: Coresight support absent for bus: 4096
+[    0.218112] msm_bus_device 580000.ad-hoc-bus: Coresight support absent for bus: 1024
+[    0.224681] qcom,qpnp-power-on qpnp-power-on-1: PMIC@SID0 Power-on reason: Triggered from PON1 (secondary PMIC) and 'cold' boot
+[    0.224706] qcom,qpnp-power-on qpnp-power-on-1: PMIC@SID0: Unknown power-off reason
+[    0.224897] input: qpnp_pon as /devices/virtual/input/input0
+[    0.225200] PMIC@SID0: PMD9655 v2.0 options: 0, 0, 0, 0
+[    0.225496] ipa get_ipa_dts_configuration:5520 failed to read qcom,throughput-thresholds
+[    0.225713] ipa ipa3_smp2p_probe:6067 ipa3_ctx was not initialized
+[    0.225721] ipa: ipa_plat_drv_probe failed
+[    0.225894] ipa ipa3_smp2p_probe:6067 ipa3_ctx was not initialized
+[    0.225902] ipa: ipa_plat_drv_probe failed
+[    0.226601] ipa ipa3_uc_state_check:302 uC interface not initialized
+[    0.231152] of_get_named_gpiod_flags: parsed 'gpios' property of node '/soc/qcom,ipa@07B00000/qcom,smp2pgpio_map_ipa_1_out[0]' - status (-517)
+[    0.231231] of_get_named_gpiod_flags: parsed 'gpios' property of node '/soc/qcom,ipa@07B00000/qcom,smp2pgpio_map_ipa_1_in[0]' - status (-517)
+[    0.231446] gdsc_pcie: no parameters
+[    0.231655] gdsc_usb30: no parameters
+[    0.232330] Advanced Linux Sound Architecture Driver Initialized.
+[    0.232827] Bluetooth: cf1e7ed8
+[    0.232866] NET: Registered protocol family 31
+[    0.232875] Bluetooth: cf1e7ed8
+[    0.232887] Bluetooth: cf1e7ed0Bluetooth: cf1e7ec0
+[    0.232915] Bluetooth: cf1e7ec0<6>[    0.233156] cfg80211: Calling CRDA to update world regulatory domain
+[    0.233182] cfg80211: World regulatory domain updated:
+[    0.233189] cfg80211:  DFS Master region: unset
+[    0.233196] cfg80211:   (start_freq - end_freq @ bandwidth), (max_antenna_gain, max_eirp), (dfs_cac_time)
+[    0.233206] cfg80211:   (2402000 KHz - 2472000 KHz @ 40000 KHz), (N/A, 2000 mBm), (N/A)
+[    0.233215] cfg80211:   (2457000 KHz - 2482000 KHz @ 40000 KHz), (N/A, 2000 mBm), (N/A)
+[    0.233224] cfg80211:   (2474000 KHz - 2494000 KHz @ 20000 KHz), (N/A, 2000 mBm), (N/A)
+[    0.233233] cfg80211:   (5170000 KHz - 5250000 KHz @ 80000 KHz), (N/A, 2000 mBm), (N/A)
+[    0.233242] cfg80211:   (5250000 KHz - 5330000 KHz @ 80000 KHz), (N/A, 2000 mBm), (N/A)
+[    0.233250] cfg80211:   (5490000 KHz - 5710000 KHz @ 80000 KHz), (N/A, 2000 mBm), (N/A)
+[    0.233259] cfg80211:   (5735000 KHz - 5835000 KHz @ 80000 KHz), (N/A, 2000 mBm), (N/A)
+[    0.233268] cfg80211:   (57240000 KHz - 63720000 KHz @ 2160000 KHz), (N/A, 0 mBm), (N/A)
+[    0.233579] pcie:pcie_init.
+[    0.235105] of_get_named_gpiod_flags: parsed 'gpio' property of node '/soc/rome_vreg[0]' - status (-517)
+[    0.235249] of_get_named_gpiod_flags: parsed 'gpios' property of node '/soc/qcom,ipa@07B00000/qcom,smp2pgpio_map_ipa_1_out[0]' - status (-517)
+[    0.235359] of_get_named_gpiod_flags: parsed 'gpios' property of node '/soc/qcom,ipa@07B00000/qcom,smp2pgpio_map_ipa_1_in[0]' - status (-517)
+[    0.235938] Switched to clocksource arch_mem_counter
+[    0.256135] NET: Registered protocol family 2
+[    0.256666] TCP established hash table entries: 2048 (order: 1, 8192 bytes)
+[    0.256693] TCP bind hash table entries: 2048 (order: 1, 8192 bytes)
+[    0.256714] TCP: Hash tables configured (established 2048 bind 2048)
+[    0.256751] TCP: reno registered
+[    0.256762] UDP hash table entries: 256 (order: 0, 4096 bytes)
+[    0.256777] UDP-Lite hash table entries: 256 (order: 0, 4096 bytes)
+[    0.256896] NET: Registered protocol family 1
+[    0.256936] PCI: CLS 0 bytes, default 64
+[    0.257117] of_get_named_gpiod_flags: parsed 'gpio' property of node '/soc/rome_vreg[0]' - status (-517)
+[    0.257261] of_get_named_gpiod_flags: parsed 'gpios' property of node '/soc/qcom,ipa@07B00000/qcom,smp2pgpio_map_ipa_1_out[0]' - status (-517)
+[    0.257372] of_get_named_gpiod_flags: parsed 'gpios' property of node '/soc/qcom,ipa@07B00000/qcom,smp2pgpio_map_ipa_1_in[0]' - status (-517)
+[    0.258709] hw perfevents: enabled with armv7_cortex_a7 PMU driver, 5 counters available
+[    0.259793] futex hash table entries: 256 (order: -1, 3072 bytes)
+[    0.266692] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 246)
+[    0.266713] io scheduler noop registered
+[    0.266726] io scheduler deadline registered
+[    0.266751] io scheduler cfq registered (default)
+[    0.266826] gpiochip_find_base: found new base at 992
+[    0.266913] gpiochip_add: registered GPIOs 992 to 1023 on device: smp2p
+[    0.267029] gpiochip_find_base: found new base at 960
+[    0.267100] gpiochip_add: registered GPIOs 960 to 991 on device: smp2p
+[    0.267130] gpiochip_find_base: found new base at 928
+[    0.267203] gpiochip_add: registered GPIOs 928 to 959 on device: smp2p
+[    0.267310] gpiochip_find_base: found new base at 896
+[    0.267384] gpiochip_add: registered GPIOs 896 to 927 on device: smp2p
+[    0.267413] gpiochip_find_base: found new base at 864
+[    0.267482] gpiochip_add: registered GPIOs 864 to 895 on device: slave-kernel
+[    0.267564] gpiochip_find_base: found new base at 864
+[    0.267633] gpiochip_add: registered GPIOs 864 to 895 on device: master-kernel
+[    0.267701] gpiochip_find_base: found new base at 864
+[    0.267767] gpiochip_add: registered GPIOs 864 to 895 on device: ipa
+[    0.267834] gpiochip_find_base: found new base at 864
+[    0.267900] gpiochip_add: registered GPIOs 864 to 895 on device: ipa
+[    0.271802] apr_tal_link_state_cb: edge[mpss] link state[0]
+[    0.271818] apr_tal_link_state_cb: edge[lpass] link state[0]
+[    0.272222] scm_call failed with error code -1
+[    0.272235] msm_audio_protect_memory_region: SCM call failed, scm_call_ret -5 tz_resp 0
+[    0.273774] msm_rpm_log_probe: OK
+[    0.276052] pil-q6v5-mss 4080000.qcom,mss: Failed to find the pas_id.
+[    0.276119] of_get_named_gpiod_flags: parsed 'qcom,gpio-proxy-unvote' property of node '/soc/qcom,mss@4080000[0]' - status (-517)
+[    0.276927] msm_serial_hs module loaded
+[    0.277194] msm_serial_hsl_probe: detected port #0 (ttyHSL0)
+[    0.277234] AXI: get_pdata(): Error: Client name not found
+[    0.277242] AXI: msm_bus_cl_get_pdata(): client has to provide missing entry for successful registration
+[    0.277248] msm_serial_hsl_probe: Bus scaling is disabled
+[    0.277346] 78b1000.serial: ttyHSL0 at MMIO 0x78b1000 (irq = 26, base_baud = 460800) is a MSM
+[    0.277647] msm_serial_hsl_init: driver initialized
+[    0.291112] brd: module loaded
+[    0.293341] loop: module loaded
+[    0.293652] QSEECOM: qseecom_probe: qseecom.qsee_version = 0x1000000
+[    0.293683] QSEECOM: qseecom_retrieve_ce_data: Device does not support PFE/FDE
+[    0.293694] QSEECOM: qseecom_probe: qseecom clocks handled by other subsystem
+[    0.293703] QSEECOM: qseecom_probe: qsee reentrancy support phase is not defined, setting to default 0
+[    0.293822] QSEECOM: qseecom_probe: secure app region addr=0x87800000 size=0x200000
+[    0.294320] QSEECOM: qseecom_probe: qseecom.whitelist_support = 1
+[    0.295988] i2c-core: driver [tabla-i2c-core] using legacy suspend method
+[    0.296000] i2c-core: driver [tabla-i2c-core] using legacy resume method
+[    0.296093] i2c-core: driver [wcd9xxx-i2c-core] using legacy suspend method
+[    0.296101] i2c-core: driver [wcd9xxx-i2c-core] using legacy resume method
+[    0.296193] i2c-core: driver [tasha-i2c-core] using legacy suspend method
+[    0.296200] i2c-core: driver [tasha-i2c-core] using legacy resume method
+[    0.296620] SCSI Media Changer driver v0.25 
+[    0.301458] sps: BAM device 0x07984000 is not registered yet.
+[    0.301681] sps:BAM 0x07984000 is registered.
+[    0.301700] msm_nand_bam_init: msm_nand_bam_init: BAM device registered: bam_handle 0xc6218400
+[    0.301930] sps:BAM 0x07984000 (va:0xc7aa0000) enabled: ver:0x19, number of pipes:7
+[    0.304371] msm_nand_parse_smem_ptable: Parsing partition table info from SMEM
+[    0.304406] msm_nand_parse_smem_ptable: SMEM partition table found: ver: 4 len: 17
+[    0.304430] msm_nand_version_check: nand_major:1, nand_minor:5, qpic_major:1, qpic_minor:5
+[    0.304648] msm_nand_flash_onfi_probe: Found an ONFI compliant device MT29F4G08ABBDA3W    ,
+[    0.304659] msm_nand_scan: NAND Id: 0x1590ac2c Buswidth: 8Bits Density: 512 MByte
+[    0.304667] msm_nand_scan: pagesize: 2048 Erasesize: 131072 oobsize: 64 (in Bytes)
+[    0.304673] msm_nand_scan: BCH ECC: 4 Bit
+[    0.304686] msm_nand_scan: CFG0: 0x2a0408c0,           CFG1: 0x0804745c
+[    0.304686]             RAWCFG0: 0x2c8400c0,        RAWCFG1: 0x0005055d
+[    0.304686]           ECCBUFCFG: 0x00000203,      ECCBCHCFG: 0x42040700
+[    0.304686]           RAWECCCFG: 0x42000701, BAD BLOCK BYTE: 0x000001d1
+[    0.304706] Creating 17 MTD partitions on "7980000.nand":
+[    0.304717] 0x000000000000-0x000000140000 : "sbl"
+[    0.305353] 0x000000140000-0x000000280000 : "mibib"
+[    0.305898] 0x000000280000-0x000000d80000 : "efs2"
+[    0.306446] 0x000000d80000-0x000000fc0000 : "tz"
+[    0.306951] 0x000000fc0000-0x000001020000 : "devcfg"
+[    0.307444] 0x000001020000-0x000001080000 : "apdp"
+[    0.307932] 0x000001080000-0x000001120000 : "rpm"
+[    0.308456] 0x000001120000-0x0000011e0000 : "aboot"
+[    0.308990] 0x0000011e0000-0x000001c40000 : "boot"
+[    0.309517] 0x000001c40000-0x000001c80000 : "scrub"
+[    0.310170] 0x000001c80000-0x000005f80000 : "modem"
+[    0.310742] 0x000005f80000-0x000006100000 : "misc"
+[    0.311262] 0x000006100000-0x000006b60000 : "recovery"
+[    0.311759] 0x000006b60000-0x000006ce0000 : "fota"
+[    0.312266] 0x000006ce0000-0x000008b40000 : "recoveryfs"
+[    0.312785] 0x000008b40000-0x000008b80000 : "sec"
+[    0.313305] 0x000008b80000-0x000020000000 : "system"
+[    0.313840] msm_nand_probe: NANDc phys addr 0x7980000, BAM phys addr 0x7984000, BAM IRQ 29
+[    0.313852] msm_nand_probe: Allocated DMA buffer at virt_addr 0xc6c46000, phys_addr 0x86c46000
+[    0.314988] loading NXP PHY driver: [autonomous mode]
+[    0.315074] tun: Universal TUN/TAP device driver, 1.6
+[    0.315082] tun: (C) 1999-2004 Max Krasnyansky <maxk@qualcomm.com>
+[    0.315174] vcan: Virtual CAN interface driver
+[    0.315188] CAN device driver interface
+[    0.315257] PPP generic driver version 2.4.2
+[    0.315383] NET: Registered protocol family 24
+[    0.315852] usbcore: registered new interface driver asix
+[    0.315928] usbcore: registered new interface driver ax88179_178a
+[    0.315980] usbcore: registered new interface driver cdc_ether
+[    0.316052] usbcore: registered new interface driver smsc75xx
+[    0.316115] usbcore: registered new interface driver smsc95xx
+[    0.316167] usbcore: registered new interface driver net1080
+[    0.316218] usbcore: registered new interface driver cdc_subset
+[    0.316266] usbcore: registered new interface driver zaurus
+[    0.316542] usbcore: registered new interface driver cdc_ncm
+[    0.320871] msm_sharedmem: sharedmem_register_qmi: qmi init successful
+[    0.321742] msm-dwc3 8a00000.ssusb: unable to get dbm device
+[    0.323001] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+[    0.323207] ehci-pci: EHCI PCI platform driver
+[    0.323276] ehci-msm: Qualcomm On-Chip EHCI Host Controller
+[    0.323549] usbcore: registered new interface driver cdc_acm
+[    0.323558] cdc_acm: USB Abstract Control Model driver for USB modems and ISDN adapters
+[    0.323628] usbcore: registered new interface driver usb-storage
+[    0.323674] usbcore: registered new interface driver ums-alauda
+[    0.323723] usbcore: registered new interface driver ums-cypress
+[    0.323767] usbcore: registered new interface driver ums-datafab
+[    0.323811] usbcore: registered new interface driver ums-freecom
+[    0.323853] usbcore: registered new interface driver ums-isd200
+[    0.323894] usbcore: registered new interface driver ums-jumpshot
+[    0.323932] usbcore: registered new interface driver ums-karma
+[    0.323969] usbcore: registered new interface driver ums-onetouch
+[    0.324008] usbcore: registered new interface driver ums-sddr09
+[    0.324046] usbcore: registered new interface driver ums-sddr55
+[    0.324083] usbcore: registered new interface driver ums-usbat
+[    0.324128] usbcore: registered new interface driver usb_ehset_test
+[    0.324968] gbridge_init: gbridge_init successs.
+[    0.325570] qcom,qpnp-rtc qpnp-rtc-5: rtc core: registered qpnp_rtc as rtc0
+[    0.325706] i2c /dev entries driver
+[    0.326178] of_get_named_gpiod_flags: parsed 'gpios' property of node '/soc/pps[0]' - status (0)
+[    0.326304] pps pps0: new PPS source soc:pps.-1
+[    0.326387] pps pps0: Registered IRQ 84 as PPS source
+[    0.326990] unable to find DT imem DLOAD mode node
+[    0.327265] unable to find DT imem EDLOAD mode node
+[    0.327508] unable to find DT imem dload-type node
+[    0.328404] qpnp_vadc_read: Error reading vadc_hc channel 76
+[    0.328422] thermal thermal_zone0: failed to read out thermal zone 0
+[    0.328675] qpnp_vadc_read: Error reading vadc_hc channel 83
+[    0.328687] thermal thermal_zone1: failed to read out thermal zone 1
+[    0.328926] qpnp_vadc_read: Error reading vadc_hc channel 77
+[    0.328938] thermal thermal_zone2: failed to read out thermal zone 2
+[    0.329172] qpnp_vadc_read: Error reading vadc_hc channel 78
+[    0.329184] thermal thermal_zone3: failed to read out thermal zone 3
+[    0.329420] qpnp_vadc_read: Error reading vadc_hc channel 79
+[    0.329431] thermal thermal_zone4: failed to read out thermal zone 4
+[    0.331583] Bluetooth: cf1e7ed8
+[    0.331595] Bluetooth: cf1e7ed0Bluetooth: cf1e7ed0
+[    0.331861] of_get_named_gpiod_flags: parsed 'qca,bt-reset-gpio' property of node '/soc/bt_qca6174[0]' - status (-517)
+[    0.331872] bt_power_populate_dt_pinfo: bt-reset-gpio not provided in device tree
+[    0.331879] bt_power_probe: Failed to populate device tree info
+[    0.332425] sdhci: Secure Digital Host Controller Interface driver
+[    0.332435] sdhci: Copyright(c) Pierre Ossman
+[    0.332447] sdhci-pltfm: SDHCI platform and OF driver helper
+[    0.333251] usbcore: registered new interface driver usbhid
+[    0.333261] usbhid: USB HID core driver
+[    0.333627] tz_log 8600720.tz-log: Hyp log service is not supported
+[    0.336726] devfreq soc:qcom,cpubw: Couldn't update frequency transition information.
+[    0.338036] i2c-msm-v2 78b7000.i2c: msm_bus_scale_register_client(mstr-id:86):0x6 (ok)
+[    0.338329] bmi160 3-0068: Bosch Sensortec Device detected, HW IC name: BMI160C2
+[    0.339688] bmi160 3-0068: 
+[    0.339688] From 0x00:
+[    0.340690] bmi160 3-0068: d1 21 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+[    0.340690] 00 00 00 00 00 00 00 00 3f 19 01 10 00 00 00 00
+[    0.340690] 00 80 00 00 
+[    0.340821] sps: BAM device 0x07884000 is not registered yet.
+[    0.341052] sps:BAM 0x07884000 is registered.
+[    0.341220] sps:BAM 0x07884000 (va:0xc7b40000) enabled: ver:0x19, number of pipes:16
+[    0.343515] bmi160 3-0068: 
+[    0.343515] From 0x40:
+[    0.343569] bmi160 3-0068: 
+[    0.343569] 28 03 28 00 0b 88 80 10 00 00 00 20 80 42 4c 00
+[    0.343569] 00 00 00 00 00 00 00 00 00 00 07 30 81 0b c0 00
+[    0.343569] 14 14 24 04 0a 18 48 08 11 00 00 00 00 00 00 00
+[    0.343569] 00 00 00 00 44 84 13 00 00 00 15 03 00 00 00 00
+[    0.343569] d1 21 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+[    0.343569] 00 00 00 00 00 00 
+[    0.385991] of_get_named_gpiod_flags: parsed 'bmi,gpio_irq' property of node '/soc/i2c@78B7000/bmi160@68[0]' - status (0)
+[    0.386006] bmi160 3-0068: BMI160 qpio number:81
+[    0.387913] input: bmi160_accbuf as /devices/virtual/input/input1
+[    0.388234] input: bmi160_gyrobuf as /devices/virtual/input/input2
+[    0.397421] bmi160 3-0068: sensor_time:65535, 65536
+[    0.397433] bmi160 3-0068: sensor bmi160 probed successfully
+[    0.397476] i2c-core: driver [bmi160] using legacy suspend method
+[    0.397484] i2c-core: driver [bmi160] using legacy resume method
+[    0.397736] coresight-fuse a601c.fuse: Fuse initialized
+[    0.399934] coresight-csr 801000.csr: CSR initialized
+[    0.400656] coresight-tmc 828000.tmc: Byte Counter feature enabled
+[    0.400876] sps:BAM 0x00884000 is registered.
+[    0.400908] coresight-tmc 828000.tmc: invalid cti data
+[    0.401094] coresight-tmc 828000.tmc: TMC initialized
+[    0.401214] coresight-tmc 827000.tmc: invalid cti data
+[    0.401355] coresight-tmc 827000.tmc: TMC initialized
+[    0.402565] coresight-replicator 826000.replicator: REPLICATOR initialized
+[    0.404252] coresight-dbgui 86d000.dbgui: DebugUI capture enabled
+[    0.404379] coresight-dbgui 86d000.dbgui: DebugUI initializaed
+[    0.404821] coresight-stm 802000.stm: STM initialized
+[    0.405174] coresight-hwevent 86c000.hwevent: Hardware Event driver initialized
+[    0.405793] coresight-remote-etm soc:modem_etm0: Remote ETM initialized
+[    0.406055] coresight-remote-etm soc:rpm_etm0: Remote ETM initialized
+[    0.414539] msm_pcm_probe: dev name soc:qcom,msm-voice-host-pcm
+[    0.418457] Netfilter messages via NETLINK v0.30.
+[    0.418522] nf_conntrack version 0.5.0 (1913 buckets, 7652 max)
+[    0.418838] ctnetlink v0.93: registering with nfnetlink.
+[    0.419159] ip_set: protocol 6
+[    0.419493] ip_tables: (C) 2000-2006 Netfilter Core Team
+[    0.419646] arp_tables: (C) 2002 David S. Miller
+[    0.419695] TCP: cubic registered
+[    0.420030] NET: Registered protocol family 10
+[    0.420890] ip6_tables: (C) 2000-2006 Netfilter Core Team
+[    0.421050] sit: IPv6 over IPv4 tunneling driver
+[    0.421513] NET: Registered protocol family 17
+[    0.421608] bridge: automatic filtering via arp/ip/ip6tables has been deprecated. Update your scripts to load br_netfilter if you need this.
+[    0.421625] Ebtables v2.0 registered
+[    0.421701] can: controller area network core (rev 20120528 abi 9)
+[    0.421754] NET: Registered protocol family 29
+[    0.421768] can: raw protocol (rev 20120528)
+[    0.421780] can: broadcast manager protocol (rev 20120528 t)
+[    0.421796] can: netlink gateway (rev 20130117) max_hops=1
+[    0.422053] Bluetooth: cf1e7eb8
+[    0.422072] Bluetooth: cf1e7eb0Bluetooth: cf1e7ec8
+[    0.422111] Bluetooth: cf1e7ea0Bluetooth: cf1e7ea0
+[    0.422128] Bluetooth: cf1e7e98Bluetooth: cf1e7ed8
+[    0.422149] Bluetooth: cf1e7ed8<6>[    0.422181] l2tp_core: L2TP core driver, V2.0
+[    0.422200] l2tp_ppp: PPPoL2TP kernel driver, V2.0
+[    0.422211] l2tp_ip: L2TP IP encapsulation support (L2TPv3)
+[    0.422239] l2tp_netlink: L2TP netlink interface
+[    0.422277] l2tp_eth: L2TP ethernet pseudowire support (L2TPv3)
+[    0.422299] l2tp_debugfs: L2TP debugfs support
+[    0.422311] l2tp_ip6: L2TP IP encapsulation support for IPv6 (L2TPv3)
+[    0.422334] 8021q: 802.1Q VLAN Support v1.8
+[    0.422778] NET: Registered protocol family 27
+[    0.424859] of_get_named_gpiod_flags: parsed 'gpio' property of node '/soc/rome_vreg[0]' - status (-517)
+[    0.425123] of_get_named_gpiod_flags: parsed 'gpios' property of node '/soc/qcom,ipa@07B00000/qcom,smp2pgpio_map_ipa_1_out[0]' - status (-517)
+[    0.425343] of_get_named_gpiod_flags: parsed 'gpios' property of node '/soc/qcom,ipa@07B00000/qcom,smp2pgpio_map_ipa_1_in[0]' - status (-517)
+[    0.425526] gpiochip_find_base: found new base at 864
+[    0.425628] gpiochip_add: registered GPIOs 864 to 895 on device: slave-kernel
+[    0.425826] gpiochip_find_base: found new base at 832
+[    0.425911] gpiochip_add: registered GPIOs 832 to 863 on device: master-kernel
+[    0.425989] gpiochip_find_base: found new base at 800
+[    0.426068] gpiochip_add: registered GPIOs 800 to 831 on device: ipa
+[    0.426140] gpiochip_find_base: found new base at 768
+[    0.426222] gpiochip_add: registered GPIOs 768 to 799 on device: ipa
+[    0.427054] pil-q6v5-mss 4080000.qcom,mss: Failed to find the pas_id.
+[    0.427109] of_get_named_gpiod_flags: parsed 'qcom,gpio-proxy-unvote' property of node '/soc/qcom,mss@4080000[0]' - status (0)
+[    0.427226] IPC_RTR: pil_vote_load_worker: Failed to load modem
+[    0.427274] IPC_RTR: pil_vote_load_worker: Failed to load modem
+[    0.427282] IPC_RTR: pil_vote_load_worker: Failed to load modem
+[    0.427291] IPC_RTR: pil_vote_load_worker: Failed to load modem
+[    0.427299] IPC_RTR: pil_vote_load_worker: Failed to load modem
+[    0.427307] IPC_RTR: pil_vote_load_worker: Failed to load modem
+[    0.427315] IPC_RTR: pil_vote_load_worker: Failed to load modem
+[    0.427323] IPC_RTR: pil_vote_load_worker: Failed to load modem
+[    0.427331] IPC_RTR: pil_vote_load_worker: Failed to load modem
+[    0.427339] IPC_RTR: pil_vote_load_worker: Failed to load modem
+[    0.427347] IPC_RTR: pil_vote_load_worker: Failed to load modem
+[    0.427354] IPC_RTR: pil_vote_load_worker: Failed to load modem
+[    0.427712] of_get_named_gpiod_flags: parsed 'qcom,gpio-err-fatal' property of node '/soc/qcom,mss@4080000[0]' - status (0)
+[    0.427728] of_get_named_gpiod_flags: parsed 'qcom,gpio-err-ready' property of node '/soc/qcom,mss@4080000[0]' - status (0)
+[    0.427741] of_get_named_gpiod_flags: parsed 'qcom,gpio-stop-ack' property of node '/soc/qcom,mss@4080000[0]' - status (0)
+[    0.427754] of_get_named_gpiod_flags: parsed 'qcom,gpio-force-stop' property of node '/soc/qcom,mss@4080000[0]' - status (0)
+[    0.427882] pil-q6v5-mss 4080000.qcom,mss: for modem segments only will be dumped.
+[    0.429293] of_get_named_gpiod_flags: can't parse 'qcom,ext-hub-reset-gpio' property of node '/soc/ssusb@8a00000[0]'
+[    0.431122] sps:BAM 0x08b04000 is registered.
+[    0.431873] of_get_named_gpiod_flags: parsed 'qca,bt-reset-gpio' property of node '/soc/bt_qca6174[0]' - status (-517)
+[    0.431886] bt_power_populate_dt_pinfo: bt-reset-gpio not provided in device tree
+[    0.431894] bt_power_probe: Failed to populate device tree info
+[    0.432124] of_get_named_gpiod_flags: can't parse 'qcom,gpio-mode-sel' property of node '/soc/usb_detect[0]'
+[    0.433305] of_get_named_gpiod_flags: parsed 'gpio' property of node '/soc/rome_vreg[0]' - status (-517)
+[    0.433774] of_get_named_gpiod_flags: parsed 'gpios' property of node '/soc/qcom,ipa@07B00000/qcom,smp2pgpio_map_ipa_1_out[0]' - status (0)
+[    0.433903] of_get_named_gpiod_flags: parsed 'gpios' property of node '/soc/qcom,ipa@07B00000/qcom,smp2pgpio_map_ipa_1_in[0]' - status (0)
+[    0.433957] ipa ipa3_smp2p_probe:6112 failed to enable irq wake
+[    0.434204] of_get_named_gpiod_flags: parsed 'qca,bt-reset-gpio' property of node '/soc/bt_qca6174[0]' - status (-517)
+[    0.434214] bt_power_populate_dt_pinfo: bt-reset-gpio not provided in device tree
+[    0.434221] bt_power_probe: Failed to populate device tree info
+[    0.434369] of_get_named_gpiod_flags: parsed 'gpio' property of node '/soc/rome_vreg[0]' - status (-517)
+[    0.435880] of_get_named_gpiod_flags: parsed 'gpios' property of node '/soc/qcom,smp2pgpio_test_smp2p_15_in[0]' - status (0)
+[    0.435936] of_get_named_gpiod_flags: parsed 'gpios' property of node '/soc/qcom,smp2pgpio_test_smp2p_15_out[0]' - status (0)
+[    0.435982] of_get_named_gpiod_flags: parsed 'gpios' property of node '/soc/qcom,smp2pgpio_test_smp2p_1_in[0]' - status (0)
+[    0.436035] of_get_named_gpiod_flags: parsed 'gpios' property of node '/soc/qcom,smp2pgpio_test_smp2p_1_out[0]' - status (0)
+[    0.444074] of_get_named_gpiod_flags: parsed 'qca,bt-reset-gpio' property of node '/soc/bt_qca6174[0]' - status (-517)
+[    0.444088] bt_power_populate_dt_pinfo: bt-reset-gpio not provided in device tree
+[    0.444095] bt_power_probe: Failed to populate device tree info
+[    0.444388] of_get_named_gpiod_flags: parsed 'gpio' property of node '/soc/rome_vreg[0]' - status (-517)
+[    0.444724] ubi0: attaching mtd16
+[    2.013159] ubi0: scanning is finished
+[    2.020753] ubi0: attached mtd16 (name "system", size 372 MiB)
+[    2.020768] ubi0: PEB size: 131072 bytes (128 KiB), LEB size: 126976 bytes
+[    2.020776] ubi0: min./max. I/O unit sizes: 2048/2048, sub-page size 2048
+[    2.020784] ubi0: VID header offset: 2048 (aligned 2048), data offset: 4096
+[    2.020792] ubi0: good PEBs: 2980, bad PEBs: 0, corrupted PEBs: 0
+[    2.020800] ubi0: user volume: 3, internal volumes: 1, max. volumes count: 128
+[    2.020808] ubi0: max/mean erase counter: 1/0, WL threshold: 4096, image sequence number: 35657280
+[    2.020817] ubi0: available PEBs: 0, total reserved PEBs: 2980, PEBs reserved for bad PEB handling: 80
+[    2.020851] RNDIS_IPA module is loaded.
+[    2.021428] file system registered
+[    2.021681] Number of LUNs=8
+[    2.021694] Mass Storage Function, version: 2009/09/11
+[    2.021704] LUN: removable file: (no medium)
+[    2.021721] Number of LUNs=1
+[    2.021775] LUN: removable file: (no medium)
+[    2.021783] Number of LUNs=1
+[    2.022572] android_usb gadget: android_usb ready
+[    2.022955] of_get_named_gpiod_flags: parsed 'qca,bt-reset-gpio' property of node '/soc/bt_qca6174[0]' - status (-517)
+[    2.022966] bt_power_populate_dt_pinfo: bt-reset-gpio not provided in device tree
+[    2.022974] bt_power_probe: Failed to populate device tree info
+[    2.023170] of_get_named_gpiod_flags: parsed 'gpio' property of node '/soc/rome_vreg[0]' - status (-517)
+[    2.023525] qcom,qpnp-rtc qpnp-rtc-5: setting system clock to 1970-01-01 00:00:04 UTC (4)
+[    2.024094] parse_legacy_cluster_params(): Ignoring cluster params
+[    2.024126] /soc/qcom,lpm-levels/qcom,pm-cluster@0: No CPU phandle, assuming single cluster
+[    2.024151] parse_cpu_levels: idx 1 15002
+[    2.024159] parse_cpu_levels: idx 2 7919
+[    2.024165] calculate_residency: residency < 0 for LPM
+[    2.024172] parse_cpu_levels: idx 2 7300
+[    2.024180] calculate_residency: residency < 0 for LPM
+[    2.024186] calculate_residency: residency < 0 for LPM
+[    2.024793] of_get_named_gpiod_flags: parsed 'qca,bt-reset-gpio' property of node '/soc/bt_qca6174[0]' - status (-517)
+[    2.024805] bt_power_populate_dt_pinfo: bt-reset-gpio not provided in device tree
+[    2.024812] bt_power_probe: Failed to populate device tree info
+[    2.024987] of_get_named_gpiod_flags: parsed 'gpio' property of node '/soc/rome_vreg[0]' - status (-517)
+[    2.025144] ubi0: background thread "ubi_bgt0d" started, PID 146
+[    2.026884] rmnet_ipa3 started initialization
+[    2.027140] of_get_named_gpiod_flags: parsed 'qca,bt-reset-gpio' property of node '/soc/bt_qca6174[0]' - status (-517)
+[    2.027151] bt_power_populate_dt_pinfo: bt-reset-gpio not provided in device tree
+[    2.027158] bt_power_probe: Failed to populate device tree info
+[    2.027339] of_get_named_gpiod_flags: parsed 'gpio' property of node '/soc/rome_vreg[0]' - status (-517)
+[    2.028334] qcom,cc-debug-9650 1874000.qcom,cc-debug: Registered debug mux.
+[    2.028576] of_get_named_gpiod_flags: parsed 'qca,bt-reset-gpio' property of node '/soc/bt_qca6174[0]' - status (-517)
+[    2.028586] bt_power_populate_dt_pinfo: bt-reset-gpio not provided in device tree
+[    2.028593] bt_power_probe: Failed to populate device tree info
+[    2.028770] of_get_named_gpiod_flags: parsed 'gpio' property of node '/soc/rome_vreg[0]' - status (-517)
+[    2.029161] sdc_vreg: disabling
+[    2.029184] clock_late_init: Removing enables held for handed-off clocks
+[    2.031923] ALSA device list:
+[    2.031933]   No soundcards found.
+[    2.032037] Warning: unable to open an initial console.
+[    2.089775] UBIFS (ubi0:0): UBIFS: mounted UBI device 0, volume 0, name "rootfs", R/O mode
+[    2.089791] UBIFS (ubi0:0): LEB size: 126976 bytes (124 KiB), min./max. I/O unit sizes: 2048 bytes/2048 bytes
+[    2.089802] UBIFS (ubi0:0): FS size: 114024448 bytes (108 MiB, 898 LEBs), journal size 9023488 bytes (8 MiB, 72 LEBs)
+[    2.089810] UBIFS (ubi0:0): reserved for root: 0 bytes (0 KiB)
+[    2.089821] UBIFS (ubi0:0): media format: w4/r0 (latest is w4/r0), UUID 601DB367-D040-4B5E-830E-06900CD399EB, small LPT model
+[    2.091347] VFS: Mounted root (ubifs filesystem) readonly on device 0:12.
+[    2.091819] Freeing unused kernel memory: 336K
+[    2.091827] This architecture does not have kernel memory protection.
+[    2.900292] UBIFS (ubi0:1): background thread "ubifs_bgt0_1" started, PID 200
+[    2.933764] UBIFS (ubi0:1): recovery needed
+[    3.033593] UBIFS (ubi0:1): recovery completed
+[    3.033661] UBIFS (ubi0:1): UBIFS: mounted UBI device 0, volume 1, name "usrfs"
+[    3.033672] UBIFS (ubi0:1): LEB size: 126976 bytes (124 KiB), min./max. I/O unit sizes: 2048 bytes/2048 bytes
+[    3.033683] UBIFS (ubi0:1): FS size: 177385472 bytes (169 MiB, 1397 LEBs), journal size 9023488 bytes (8 MiB, 72 LEBs)
+[    3.033691] UBIFS (ubi0:1): reserved for root: 0 bytes (0 KiB)
+[    3.033703] UBIFS (ubi0:1): media format: w4/r0 (latest is w4/r0), UUID 450EF8D6-6C76-4449-9521-F0B1DFFE1BD0, small LPT model
+[    3.069347] ubi1: attaching mtd10
+[    3.280324] Error: Driver 'IPCRTR' is already registered, aborting...
+[    3.280338] IPC_RTR: msm_ipc_router_smd_driver_register: Failed to register platform driver [IPCRTR]
+[    3.280347] IPC_RTR: msm_ipc_router_smd_driver_register Already driver registered IPCRTR
+[    3.280355] IPC_RTR: msm_ipc_router_smd_driver_register Already driver registered IPCRTR
+[    3.340991] ubi1: scanning is finished
+[    3.346722] ubi1: attached mtd10 (name "modem", size 67 MiB)
+[    3.346735] ubi1: PEB size: 131072 bytes (128 KiB), LEB size: 126976 bytes
+[    3.346743] ubi1: min./max. I/O unit sizes: 2048/2048, sub-page size 2048
+[    3.346751] ubi1: VID header offset: 2048 (aligned 2048), data offset: 4096
+[    3.346759] ubi1: good PEBs: 536, bad PEBs: 0, corrupted PEBs: 0
+[    3.346767] ubi1: user volume: 1, internal volumes: 1, max. volumes count: 128
+[    3.346775] ubi1: max/mean erase counter: 3/0, WL threshold: 4096, image sequence number: 1328192
+[    3.346784] ubi1: available PEBs: 0, total reserved PEBs: 536, PEBs reserved for bad PEB handling: 80
+[    3.348596] ubi1: background thread "ubi_bgt1d" started, PID 210
+[    3.398657] UBIFS (ubi1:0): background thread "ubifs_bgt1_0" started, PID 215
+[    3.432318] UBIFS (ubi1:0): recovery needed
+[    3.451317] UBIFS (ubi1:0): recovery completed
+[    3.451387] UBIFS (ubi1:0): UBIFS: mounted UBI device 1, volume 0, name "modem"
+[    3.451398] UBIFS (ubi1:0): LEB size: 126976 bytes (124 KiB), min./max. I/O unit sizes: 2048 bytes/2048 bytes
+[    3.451408] UBIFS (ubi1:0): FS size: 55996416 bytes (53 MiB, 441 LEBs), journal size 9023488 bytes (8 MiB, 72 LEBs)
+[    3.451417] UBIFS (ubi1:0): reserved for root: 0 bytes (0 KiB)
+[    3.451428] UBIFS (ubi1:0): media format: w4/r0 (latest is w4/r0), UUID 23F7465B-8142-4F39-8696-E30F6140584D, small LPT model
+[    3.457857] IPA is loading with non MHI configuration
+[    3.462616] IPA FW loaded successfully
+[    3.462777] gsi soc:qcom,msm_gsi: gsi_register_device:783 GSI irq is wake enabled 25
+[    3.480901] IPA driver initialization was successful.
+[    3.481003] rmnet_ipa3 started initialization
+[    3.481014] IPA SSR support = True
+[    3.481021] IPA ipa-loaduC = False
+[    3.481028] IPA SG support = False
+[    3.483640] ipa ipa3_uc_state_check:307 uC is not loaded
+[    3.487531] rmnet_ipa completed initialization
+[    3.622291] Switching to composition number 0x9025
+[    3.648399] Starting QCMAP_ConnectionManager: QCMAP:start
+[    3.681805] done
+[    3.689068] enable_store: android_usb: already disabled
+[    3.699410] Starting ipacm: 
+[    3.725613] Starting adbd:  done
+[    3.754809] Starting ipacmdiag: done
+[    3.809664] Starting qti: QTI:start
+[    3.855834] done
+[    4.139406] QCMAP:Start Main
+[    4.183361] USB QCMAP NL IOCTL Snd GETNEIGH Succ
+[    4.214929] read descriptors
+[    4.214949] read strings
+[    4.466893] QCMAP:Start DHCP server
+[    4.520233] random: dnsmasq urandom read with 107 bits of entropy available
+[    4.552684] android_work: android_work: sent uevent USB_STATE=CONNECTED
+[    4.576379] QCMAP:DHCP server started
+[    4.696391] device bridge0 entered promiscuous mode
+[    4.768803] ipa-wan ipa3_ssr_notifier_cb:2485 IPA received MPSS BEFORE_POWERUP
+[    4.769038] ipa ipa3_uc_state_check:307 uC is not loaded
+[    4.772342] ipa-wan ipa3_ssr_notifier_cb:2492 IPA BEFORE_POWERUP handling is complete
+[    4.791316] pil-q6v5-mss 4080000.qcom,mss: modem: loading from 0x88000000 to 0x8eb00000
+[    4.846115] pil-q6v5-mss 4080000.qcom,mss: Debug policy not present - msadp. Continue.
+[    4.846445] pil-q6v5-mss 4080000.qcom,mss: Loading MBA and DP (if present) from 0x86d00000 to 0x86e00000 size 100000
+[    4.882835] QCMAP:Init Complete
+[    4.895891] pil-q6v5-mss 4080000.qcom,mss: MBA boot done
+[    5.857804] random: nonblocking pool is initialized
+[    9.595582] pil-q6v5-mss 4080000.qcom,mss: modem: Brought out of reset
+[    9.698857] apr_tal_link_state_cb: edge[mpss] link state[0]
+[    9.700726] of_get_named_gpiod_flags: parsed 'qca,bt-reset-gpio' property of node '/soc/bt_qca6174[0]' - status (-517)
+[    9.700739] bt_power_populate_dt_pinfo: bt-reset-gpio not provided in device tree
+[    9.700746] bt_power_probe: Failed to populate device tree info
+[    9.700943] of_get_named_gpiod_flags: parsed 'gpio' property of node '/soc/rome_vreg[0]' - status (-517)
+[    9.702986] pil-q6v5-mss 4080000.qcom,mss: Subsystem error monitoring/handling services are up
+[    9.703127] pil-q6v5-mss 4080000.qcom,mss: modem: Power/Clock ready interrupt received
+[    9.703409] M-Notify: General: 7
+[    9.703638] ipa-wan ipa3_ssr_notifier_cb:2496 ipa3_ssr_notifier_cb:2496 IPA received MPSS AFTER_POWERUP
+[    9.703657] ipa-wan ipa3_ssr_notifier_cb:2501 IPA AFTER_POWERUP handling is complete
+[    9.704766] of_get_named_gpiod_flags: parsed 'qca,bt-reset-gpio' property of node '/soc/bt_qca6174[0]' - status (-517)
+[    9.704779] bt_power_populate_dt_pinfo: bt-reset-gpio not provided in device tree
+[    9.704786] bt_power_probe: Failed to populate device tree info
+[    9.704964] of_get_named_gpiod_flags: parsed 'gpio' property of node '/soc/rome_vreg[0]' - status (-517)
+[    9.823580] diag: In diag_send_feature_mask_update, control channel is not open, p: 0, c0fa61f8
+[    9.847442] Sending QMI_IPA_INIT_MODEM_DRIVER_REQ_V01
+[    9.850181] ipa-wan ipa3_handle_indication_req:151 not send indication
+[    9.857274] QMI_IPA_INIT_MODEM_DRIVER_REQ_V01 response received
+[    9.869322] ipa ipa3_uc_wdi_event_log_info_handler:362 wdi stats sz invalid exp=164 is=160
+[    9.869345] ipa ipa3_uc_ntn_event_log_info_handler:39 NTN feature missing 0x9
+[   10.018633] IPC_RTR: process_new_server_msg: Server 00001002 create rejected, version = 0
+[   10.240436] of_get_named_gpiod_flags: parsed 'qca,bt-reset-gpio' property of node '/soc/bt_qca6174[0]' - status (-517)
+[   10.240452] bt_power_populate_dt_pinfo: bt-reset-gpio not provided in device tree
+[   10.240460] bt_power_probe: Failed to populate device tree info
+[   10.240660] of_get_named_gpiod_flags: parsed 'gpio' property of node '/soc/rome_vreg[0]' - status (-517)
+[   10.797227] Neutrino:start/load
+[   11.746168] Starting ipacm_perf:  done

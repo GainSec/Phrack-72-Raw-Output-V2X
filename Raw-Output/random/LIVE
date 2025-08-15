@@ -1,0 +1,5 @@
+LABEL live
+        MENU LABEL live image (ver 3.2.0.829.23)
+        LINUX /live/vmlinuz
+        APPEND boot=squashfs root=/dev/disk/by-label/IMAGES root_sfs=/live/rootfs panic=30 quiet console=ttyS0,115200N8 intel_idle.max_cstate=1 controller_hw_type=CB_9160
+        INITRD /live/initrd

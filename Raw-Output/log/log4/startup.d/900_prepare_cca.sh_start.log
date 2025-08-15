@@ -1,0 +1,388 @@
++ set -x
++ . /mnt/c3platpersistent/share/startup/common.sh
++++ basename /mnt/c3platpersistent/etc/startup.d//900_prepare_cca.sh
+++ APP_SCR=900_prepare_cca.sh
++++ readlink -f /mnt/c3platpersistent/etc/startup.d//900_prepare_cca.sh
+++ ACT_DIR=/mnt/c3platpersistent/etc/startup.d/900_prepare_cca.sh
++++ dirname /mnt/c3platpersistent/etc/startup.d/900_prepare_cca.sh
+++ ABS_PATH=/mnt/c3platpersistent/etc/startup.d
+++ LED_STARTUP_PID=/var/run/flash_pid.startup
+++ [[ -n /mnt/c3platpersistent ]]
+++ [[ -z USDoT-QualcommCCA ]]
+++ source /mnt/c3platpersistent/etc/roadside.cfg
++++ [[ false == false ]]
++++ [[ USDoT-QualcommCCA == ITSG5-HWEngland ]]
++++ export ROADSIDE_IPTABLES_ENABLED=false
++++ ROADSIDE_IPTABLES_ENABLED=false
++++ export CERTPATH=/mnt/c3platpersistent/share/its-g5-security-certs/
++++ CERTPATH=/mnt/c3platpersistent/share/its-g5-security-certs/
++ Debugging=1
++ SUCCESS=0
++ Return=1
++ Timeout=60
++ UpTime=0
++ CCA_MAIN=/mnt/c3platpersistent/bin
++ ITS_MAIN=/mnt/c3platpersistent/opt/its-g5
++ CCA_STATUS=/var/log/cv2x.config.startup.log
++ PROC_CL_LIST=(acme cca_al_tx cca_al_rx)
++ PROC_D_LIST=(cv2x-daemon qmux)
++ PROC_KINEMATIC=(kinematics-sample-client kinematics)
++ '[' xstart = xstart ']'
++ '[' xUSDoT-QualcommCCA = xUSDoT-QualcommRR -o xUSDoT-QualcommCCA = xUSDoT-QualcommCCA ']'
++ logger '900_prepare_cca.sh -I- starting CV2X prepare ---'
++ log_kill_processes kill
++ Return=1
++ idx=0
++ '[' -n acme ']'
+++ ps -axu
+++ grep -v grep
+++ grep acme
++ Info=
++ '[' 1 -eq 0 ']'
++ '[' 1 = 2 ']'
++ idx=1
++ '[' -n cca_al_tx ']'
+++ ps -axu
+++ grep -v grep
+++ grep cca_al_tx
++ Info=
++ '[' 1 -eq 0 ']'
++ '[' 1 = 2 ']'
++ idx=2
++ '[' -n cca_al_rx ']'
+++ ps -axu
+++ grep -v grep
+++ grep cca_al_rx
++ Info=
++ '[' 1 -eq 0 ']'
++ '[' 1 = 2 ']'
++ idx=3
++ '[' -n '' ']'
++ idx=0
++ '[' -n kinematics-sample-client ']'
+++ ps -axu
+++ grep -v grep
+++ grep kinematics-sample-client
++ Info=
++ '[' 1 -eq 0 ']'
++ '[' 1 = 2 ']'
++ idx=1
++ '[' -n kinematics ']'
+++ ps -axu
+++ grep kinematics
+++ grep -v grep
++ Info=
++ '[' 1 -eq 0 ']'
++ '[' 1 = 2 ']'
++ idx=2
++ '[' -n '' ']'
++ idx=0
++ '[' -n cv2x-daemon ']'
+++ ps -axu
+++ grep -v grep
+++ grep cv2x-daemon
++ Info=
++ '[' 1 -eq 0 ']'
++ '[' 1 = 2 ']'
++ idx=1
++ '[' -n qmux ']'
+++ ps -axu
+++ grep -v grep
+++ grep qmux
++ Info='root      4030  0.0  0.0  11376   436 ?        Sl   05:17   0:00 /mnt/c3platpersistent/bin/qmuxd'
++ '[' 0 -eq 0 ']'
++ '[' 1 = 2 ']'
++ logger '900_prepare_cca.sh -I- qmux found'
++ '[' xkill = xforce ']'
++ Return=0
++ idx=2
++ '[' -n '' ']'
++ '[' xkill = xforce ']'
++ export LD_LIBRARY_PATH=/mnt/c3platpersistent/lib/:/mnt/c3platpersistent/lib/i386-linux-gnu/:/opt/its-g5/lib:/mnt/c3platpersistent/usr/bin/
++ LD_LIBRARY_PATH=/mnt/c3platpersistent/lib/:/mnt/c3platpersistent/lib/i386-linux-gnu/:/opt/its-g5/lib:/mnt/c3platpersistent/usr/bin/
++ cd /mnt/c3platpersistent/bin
+++ pgrep -f qmuxd
++ Info=4030
++ '[' 0 -ne 0 ']'
++ '[' -x /mnt/c3platpersistent/bin/qmi-wait ']'
++ /mnt/c3platpersistent/bin/qmi-wait
++ logger '900_prepare_cca.sh -I- CV2X qmi-wait returned : 0  ---'
++ sleep 1
+++ ifconfig -a wwan0
+++ grep inet6
++ logger '900_prepare_cca.sh -I- [L:312]  ---'
+++ pgrep -f cv2x-daemon
++ Info=
++ '[' 1 -ne 0 ']'
++ '[' -x /mnt/c3platpersistent/bin/cv2x-daemon ']'
++ Pid1=13262
++ echo 13262
++ /mnt/c3platpersistent/bin/cv2x-daemon
++ logger '900_prepare_cca.sh -I- CV2X daemon started, PID = 13262  ---'
++ sleep 5
+RTNETLINK answers: Permission denied
+++ ifconfig -a wwan0
+++ grep inet6
++ logger '900_prepare_cca.sh -I- [L:323]  ---'
++ logger '900_prepare_cca.sh -I- CV2X daemons should be running  ---'
++ log_kill_processes log
++ Return=1
++ idx=0
++ '[' -n acme ']'
+++ ps -axu
+++ grep -v grep
+++ grep acme
++ Info=
++ '[' 1 -eq 0 ']'
++ '[' 1 = 2 ']'
++ idx=1
++ '[' -n cca_al_tx ']'
+++ ps -axu
+++ grep -v grep
+++ grep cca_al_tx
++ Info=
++ '[' 1 -eq 0 ']'
++ '[' 1 = 2 ']'
++ idx=2
++ '[' -n cca_al_rx ']'
+++ ps -axu
+++ grep -v grep
+++ grep cca_al_rx
++ Info=
++ '[' 1 -eq 0 ']'
++ '[' 1 = 2 ']'
++ idx=3
++ '[' -n '' ']'
++ idx=0
++ '[' -n kinematics-sample-client ']'
+++ ps -axu
+++ grep -v grep
+++ grep kinematics-sample-client
++ Info=
++ '[' 1 -eq 0 ']'
++ '[' 1 = 2 ']'
++ idx=1
++ '[' -n kinematics ']'
+++ ps -axu
+++ grep -v grep
+++ grep kinematics
++ Info=
++ '[' 1 -eq 0 ']'
++ '[' 1 = 2 ']'
++ idx=2
++ '[' -n '' ']'
++ idx=0
++ '[' -n cv2x-daemon ']'
+++ ps -axu
+++ grep -v grep
+++ grep cv2x-daemon
++ Info='root     13262  0.0  0.2  30408  2128 ?        Sl   05:19   0:00 /mnt/c3platpersistent/bin/cv2x-daemon'
++ '[' 0 -eq 0 ']'
++ '[' 1 = 2 ']'
++ logger '900_prepare_cca.sh -I- cv2x-daemon found'
++ '[' xlog = xforce ']'
++ Return=0
++ idx=1
++ '[' -n qmux ']'
+++ ps -axu
+++ grep qmux
+++ grep -v grep
++ Info='root      4030  0.0  0.0  11376   436 ?        Sl   05:17   0:00 /mnt/c3platpersistent/bin/qmuxd'
++ '[' 0 -eq 0 ']'
++ '[' 1 = 2 ']'
++ logger '900_prepare_cca.sh -I- qmux found'
++ '[' xlog = xforce ']'
++ Return=0
++ idx=2
++ '[' -n '' ']'
++ '[' xlog = xforce ']'
++ stop_xtra_daemon
++ logger '900_prepare_cca.sh -I- Stop xtra_daemon'
++ Return=1
++ pgrep -f xtra-daemon
+4449
++ '[' 0 -eq 0 ']'
++ logger '900_prepare_cca.sh -I- killing xtra-daemon'
+++ pgrep -f xtra-daemon
++ kill -9 4449
++ rm -rf /var/xtra-daemon.pid
++ Return=0
++ sleep 1
++ start_xtra_daemon
++ '[' -e /mnt/c3platpersistent/bin/xtra.bin ']'
++ '[' -x /mnt/c3platpersistent/bin/xtra-daemon ']'
++ logger '900_prepare_cca.sh -I- Start xtra_daemon'
++ Pid1=13543
++ echo 13543
++ /mnt/c3platpersistent/bin/xtra-daemon -v -a 127.0.0.1 -d ./ -c
++ logger '900_prepare_cca.sh -I- CV2X xtra-daemon started, PID = 13543 [L:192]  ---'
++ '[' -x /mnt/c3platpersistent/bin/cv2x-config ']'
++ uptime_int
++ UpTime=0
++ Return=1
++ '[' -e /proc/uptime ']'
+++ cat /proc/uptime
+++ awk '{printf "%0.f", $1}'
++ UpTime=204
++ '[' 0 -eq 0 ']'
++ logger '900_prepare_cca.sh -I- UpTime in seconds[proc]: 204 (Timeout = 60)'
++ Return=0
++ Timeout=264
++ '[' 264 -ge 204 ']'
++ get_V2X_status
++ Return=1
++ '[' -x /mnt/c3platpersistent/bin/cv2x-config ']'
++ /mnt/c3platpersistent/bin/cv2x-config --get-v2x-status
++ logger '900_prepare_cca.sh -I- CV2X config check done, result stored : /var/log/cv2x.config.startup.log ---'
++ Return=0
++ '[' 0 -ne 0 ']'
++ check_V2X_status
++ Return=1
++ '[' -e /var/log/cv2x.config.startup.log ']'
++ cat /var/log/cv2x.config.startup.log
++ grep 'V2X rx_status=1'
++ '[' 1 -eq 0 ']'
++ cat /var/log/cv2x.config.startup.log
++ grep 'V2X not started'
++ '[' 1 -eq 0 ']'
++ logger '900_prepare_cca.sh -I- CCA ready but no GPS FIX yet'
++ '[' 1 -ne 0 ']'
++ sleep 5
++ uptime_int
++ UpTime=0
++ Return=1
++ '[' -e /proc/uptime ']'
+++ cat /proc/uptime
+++ awk '{printf "%0.f", $1}'
++ UpTime=210
++ '[' 0 -eq 0 ']'
++ logger '900_prepare_cca.sh -I- UpTime in seconds[proc]: 210 (Timeout = 264)'
++ Return=0
++ logger '900_prepare_cca.sh -I- CV2X get-v2x-status not OK Tmo/Now : 264 / 210 ...'
++ '[' 264 -ge 210 ']'
++ get_V2X_status
++ Return=1
++ '[' -x /mnt/c3platpersistent/bin/cv2x-config ']'
++ /mnt/c3platpersistent/bin/cv2x-config --get-v2x-status
++ logger '900_prepare_cca.sh -I- CV2X config check done, result stored : /var/log/cv2x.config.startup.log ---'
++ Return=0
++ '[' 0 -ne 0 ']'
++ check_V2X_status
++ Return=1
++ '[' -e /var/log/cv2x.config.startup.log ']'
++ cat /var/log/cv2x.config.startup.log
++ grep 'V2X rx_status=1'
++ '[' 1 -eq 0 ']'
++ cat /var/log/cv2x.config.startup.log
++ grep 'V2X not started'
++ '[' 1 -eq 0 ']'
++ logger '900_prepare_cca.sh -I- CCA ready but no GPS FIX yet'
++ '[' 1 -ne 0 ']'
++ sleep 5
++ uptime_int
++ UpTime=0
++ Return=1
++ '[' -e /proc/uptime ']'
+++ cat /proc/uptime
+++ awk '{printf "%0.f", $1}'
++ UpTime=216
++ '[' 0 -eq 0 ']'
++ logger '900_prepare_cca.sh -I- UpTime in seconds[proc]: 216 (Timeout = 264)'
++ Return=0
++ logger '900_prepare_cca.sh -I- CV2X get-v2x-status not OK Tmo/Now : 264 / 216 ...'
++ '[' 264 -ge 216 ']'
++ get_V2X_status
++ Return=1
++ '[' -x /mnt/c3platpersistent/bin/cv2x-config ']'
++ /mnt/c3platpersistent/bin/cv2x-config --get-v2x-status
++ logger '900_prepare_cca.sh -I- CV2X config check done, result stored : /var/log/cv2x.config.startup.log ---'
++ Return=0
++ '[' 0 -ne 0 ']'
++ check_V2X_status
++ Return=1
++ '[' -e /var/log/cv2x.config.startup.log ']'
++ cat /var/log/cv2x.config.startup.log
++ grep 'V2X rx_status=1'
++ '[' 1 -eq 0 ']'
++ cat /var/log/cv2x.config.startup.log
++ grep 'V2X not started'
++ '[' 1 -eq 0 ']'
++ logger '900_prepare_cca.sh -I- CCA ready but no GPS FIX yet'
++ '[' 1 -ne 0 ']'
++ sleep 5
++ uptime_int
++ UpTime=0
++ Return=1
++ '[' -e /proc/uptime ']'
+++ cat /proc/uptime
+++ awk '{printf "%0.f", $1}'
++ UpTime=258
++ '[' 0 -eq 0 ']'
++ logger '900_prepare_cca.sh -I- UpTime in seconds[proc]: 258 (Timeout = 264)'
++ Return=0
++ logger '900_prepare_cca.sh -I- CV2X get-v2x-status not OK Tmo/Now : 264 / 258 ...'
++ '[' 264 -ge 258 ']'
++ get_V2X_status
++ Return=1
++ '[' -x /mnt/c3platpersistent/bin/cv2x-config ']'
++ /mnt/c3platpersistent/bin/cv2x-config --get-v2x-status
++ logger '900_prepare_cca.sh -I- CV2X config check done, result stored : /var/log/cv2x.config.startup.log ---'
++ Return=0
++ '[' 0 -ne 0 ']'
++ check_V2X_status
++ Return=1
++ '[' -e /var/log/cv2x.config.startup.log ']'
++ cat /var/log/cv2x.config.startup.log
++ grep 'V2X rx_status=1'
++ '[' 1 -eq 0 ']'
++ cat /var/log/cv2x.config.startup.log
++ grep 'V2X not started'
++ '[' 1 -eq 0 ']'
++ logger '900_prepare_cca.sh -I- CCA ready but no GPS FIX yet'
++ '[' 1 -ne 0 ']'
++ sleep 5
++ uptime_int
++ UpTime=0
++ Return=1
++ '[' -e /proc/uptime ']'
+++ cat /proc/uptime
+++ awk '{printf "%0.f", $1}'
++ UpTime=264
++ '[' 0 -eq 0 ']'
++ logger '900_prepare_cca.sh -I- UpTime in seconds[proc]: 264 (Timeout = 264)'
++ Return=0
++ logger '900_prepare_cca.sh -I- CV2X get-v2x-status not OK Tmo/Now : 264 / 264 ...'
++ '[' 264 -ge 264 ']'
++ get_V2X_status
++ Return=1
++ '[' -x /mnt/c3platpersistent/bin/cv2x-config ']'
++ /mnt/c3platpersistent/bin/cv2x-config --get-v2x-status
++ logger '900_prepare_cca.sh -I- CV2X config check done, result stored : /var/log/cv2x.config.startup.log ---'
++ Return=0
++ '[' 0 -ne 0 ']'
++ check_V2X_status
++ Return=1
++ '[' -e /var/log/cv2x.config.startup.log ']'
++ cat /var/log/cv2x.config.startup.log
++ grep 'V2X rx_status=1'
++ '[' 1 -eq 0 ']'
++ cat /var/log/cv2x.config.startup.log
++ grep 'V2X not started'
++ '[' 1 -eq 0 ']'
++ logger '900_prepare_cca.sh -I- CCA ready but no GPS FIX yet'
++ '[' 1 -ne 0 ']'
++ sleep 5
++ uptime_int
++ UpTime=0
++ Return=1
++ '[' -e /proc/uptime ']'
+++ cat /proc/uptime
+++ awk '{printf "%0.f", $1}'
++ UpTime=271
++ '[' 0 -eq 0 ']'
++ logger '900_prepare_cca.sh -I- UpTime in seconds[proc]: 271 (Timeout = 264)'
++ Return=0
++ logger '900_prepare_cca.sh -I- CV2X get-v2x-status not OK Tmo/Now : 264 / 271 ...'
++ '[' 264 -ge 271 ']'
++ logger '900_prepare_cca.sh -I- Done. '
++ exit 0

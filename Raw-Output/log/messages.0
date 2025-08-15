@@ -1,0 +1,280 @@
+Jun 19 07:43:07 mdm9650-2k user.debug tftp_server[860]: DBG:pid=860 tid=1204 tftp-server : DBG :[tftp_server.c, 1585] RRQ stats in us:
+Jun 19 07:43:07 mdm9650-2k user.debug tftp_server[860]: DBG:pid=860 tid=1204 tftp-server : DBG :[tftp_server.c, 1586] Total API = 3736
+Jun 19 07:43:07 mdm9650-2k user.debug tftp_server[860]: DBG:pid=860 tid=1204 tftp-server : DBG :[tftp_server.c, 1588] Total-TX = 108
+Jun 19 07:43:07 mdm9650-2k user.debug tftp_server[860]: DBG:pid=860 tid=1204 tftp-server : DBG :[tftp_server.c, 1590] Total-RX = 29
+Jun 19 07:43:07 mdm9650-2k user.debug tftp_server[860]: DBG:pid=860 tid=1204 tftp-server : DBG :[tftp_server.c, 1592] Max-TX = 108
+Jun 19 07:43:07 mdm9650-2k user.debug tftp_server[860]: DBG:pid=860 tid=1204 tftp-server : DBG :[tftp_server.c, 1594] Max-RX = 29
+Jun 19 07:43:07 mdm9650-2k user.debug tftp_server[860]: DBG:pid=860 tid=1204 tftp-server : DBG :[tftp_server.c, 1596] Min-TX = 108
+Jun 19 07:43:07 mdm9650-2k user.debug tftp_server[860]: DBG:pid=860 tid=1204 tftp-server : DBG :[tftp_server.c, 1598] Min-RX = 29
+Jun 19 07:43:07 mdm9650-2k user.notice tftp_server[860]: INFO:pid=860 tid=1205 tftp-server : INF :[tftp_server_utils.c, 113] file [readwrite/mcfg.tmp] : [/system/rfs/mdm/mpss/readwrite/mcfg.tmp]
+Jun 19 07:43:07 mdm9650-2k user.notice tftp_server[860]: INFO:pid=860 tid=1205 tftp-server : INF :[tftp_server.c, 1044] OACK options : [0, 0, 0, 0, 0, 0, 0, 0]
+Jun 19 07:43:07 mdm9650-2k user.notice tftp_server[860]: INFO:pid=860 tid=1205 tftp-server : INF :[tftp_server.c, 1397] unlink was success
+Jun 19 07:43:07 mdm9650-2k user.debug tftp_server[860]: DBG:pid=860 tid=1205 tftp-server : DBG :[tftp_server.c, 1585] WRQ stats in us:
+Jun 19 07:43:07 mdm9650-2k user.debug tftp_server[860]: DBG:pid=860 tid=1205 tftp-server : DBG :[tftp_server.c, 1586] Total API = 1021
+Jun 19 07:43:07 mdm9650-2k user.debug tftp_server[860]: DBG:pid=860 tid=1205 tftp-server : DBG :[tftp_server.c, 1588] Total-TX = 100
+Jun 19 07:43:07 mdm9650-2k user.debug tftp_server[860]: DBG:pid=860 tid=1205 tftp-server : DBG :[tftp_server.c, 1590] Total-RX = 0
+Jun 19 07:43:07 mdm9650-2k user.notice tftp_server[860]: INFO:pid=860 tid=860 tftp-server : INF :[tftp_server.c, 524] rcvd request [3] [118] [1] [3] [73]
+Jun 19 07:43:07 mdm9650-2k user.debug tftp_server[860]: DBG:pid=860 tid=1205 tftp-server : DBG :[tftp_server.c, 1592] Max-TX = 100
+Jun 19 07:43:07 mdm9650-2k user.debug tftp_server[860]: DBG:pid=860 tid=1205 tftp-server : DBG :[tftp_server.c, 1594] Max-RX = 0
+Jun 19 07:43:07 mdm9650-2k user.debug tftp_server[860]: DBG:pid=860 tid=1205 tftp-server : DBG :[tftp_server.c, 1596] Min-TX = 100
+Jun 19 07:43:07 mdm9650-2k user.debug tftp_server[860]: DBG:pid=860 tid=1205 tftp-server : DBG :[tftp_server.c, 1598] Min-RX = 4294967295
+Jun 19 07:43:07 mdm9650-2k user.notice tftp_server[860]: INFO:pid=860 tid=1206 tftp-server : INF :[tftp_server_utils.c, 113] file [readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw/mbn_hw.dig] : [/system/rfs/mdm/mps
+Jun 19 07:43:07 mdm9650-2k user.notice tftp_server[860]: INFO:pid=860 tid=1206 tftp-server : INF :[tftp_server.c, 1044] OACK options : [7680, 200, 0, 10, 0, 0, 0, 0]
+Jun 19 07:43:07 mdm9650-2k user.notice tftp_server[860]: INFO:pid=860 tid=1206 tftp-server : INF :[tftp_os_la.c, 59] open : [-1] [-1] [384] [0] [/system/rfs/mdm/mpss/readonly/firmware/image/modem_pr/mcfg/configs/mcfg_hw
+Jun 19 07:43:07 mdm9650-2k user.err tftp_server[860]: ERR:pid=860 tid=1206 tftp-server : ERR :[tftp_os_la.c, 65] open failed: [2] [No such file or directory]
+Jun 19 07:43:07 mdm9650-2k user.err tftp_server[860]: ERR:pid=860 tid=1206 tftp-server : ERR :[tftp_server.c, 1519] open failed : [-2] [Unknown error -2]
+Jun 19 07:43:07 mdm9650-2k user.notice tftp_server[860]: INFO:pid=860 tid=860 tftp-server : INF :[tftp_server.c, 524] rcvd request [3] [118] [1] [3] [74]
+Jun 19 07:43:07 mdm9650-2k user.err tftp_server[860]: ERR:pid=860 tid=1206 tftp-server : ERR :[tftp_protocol.c, 1146] sending error-pkt. Code = 1, Msg = Err=2 String=No such file or directory
+Jun 19 07:43:07 mdm9650-2k user.debug tftp_server[860]: DBG:pid=860 tid=1206 tftp-server : DBG :[tftp_server.c, 1585] RRQ stats in us:
+Jun 19 07:43:07 mdm9650-2k user.debug tftp_server[860]: DBG:pid=860 tid=1206 tftp-server : DBG :[tftp_server.c, 1586] Total API = 4215
+Jun 19 07:43:07 mdm9650-2k user.debug tftp_server[860]: DBG:pid=860 tid=1206 tftp-server : DBG :[tftp_server.c, 1588] Total-TX = 148
+Jun 19 07:43:07 mdm9650-2k user.debug tftp_server[860]: DBG:pid=860 tid=1206 tftp-server : DBG :[tftp_server.c, 1590] Total-RX = 0
+Jun 19 07:43:07 mdm9650-2k user.debug tftp_server[860]: DBG:pid=860 tid=1206 tftp-server : DBG :[tftp_server.c, 1592] Max-TX = 148
+Jun 19 07:43:07 mdm9650-2k user.debug tftp_server[860]: DBG:pid=860 tid=1206 tftp-server : DBG :[tftp_server.c, 1594] Max-RX = 0
+Jun 19 07:43:07 mdm9650-2k user.debug tftp_server[860]: DBG:pid=860 tid=1206 tftp-server : DBG :[tftp_server.c, 1596] Min-TX = 148
+Jun 19 07:43:07 mdm9650-2k user.debug tftp_server[860]: DBG:pid=860 tid=1206 tftp-server : DBG :[tftp_server.c, 1598] Min-RX = 4294967295
+Jun 19 07:43:07 mdm9650-2k user.notice tftp_server[860]: INFO:pid=860 tid=1207 tftp-server : INF :[tftp_server_utils.c, 113] file [readonly/firmware/image/modem_pr/mcfg/configs/mcfg_sw/mbn_sw.dig] : [/system/rfs/mdm/mps
+Jun 19 07:43:07 mdm9650-2k user.notice tftp_server[860]: INFO:pid=860 tid=1207 tftp-server : INF :[tftp_server.c, 1044] OACK options : [7680, 200, 0, 10, 0, 0, 0, 0]
+Jun 19 07:43:07 mdm9650-2k user.notice tftp_server[860]: INFO:pid=860 tid=1207 tftp-server : INF :[tftp_os_la.c, 59] open : [-1] [-1] [384] [0] [/system/rfs/mdm/mpss/readonly/firmware/image/modem_pr/mcfg/configs/mcfg_sw
+Jun 19 07:43:07 mdm9650-2k user.err tftp_server[860]: ERR:pid=860 tid=1207 tftp-server : ERR :[tftp_os_la.c, 65] open failed: [2] [No such file or directory]
+Jun 19 07:43:07 mdm9650-2k user.err tftp_server[860]: ERR:pid=860 tid=1207 tftp-server : ERR :[tftp_server.c, 1519] open failed : [-2] [Unknown error -2]
+Jun 19 07:43:07 mdm9650-2k user.err tftp_server[860]: ERR:pid=860 tid=1207 tftp-server : ERR :[tftp_protocol.c, 1146] sending error-pkt. Code = 1, Msg = Err=2 String=No such file or directory
+Jun 19 07:43:07 mdm9650-2k user.debug tftp_server[860]: DBG:pid=860 tid=1207 tftp-server : DBG :[tftp_server.c, 1585] RRQ stats in us:
+Jun 19 07:43:07 mdm9650-2k user.debug tftp_server[860]: DBG:pid=860 tid=1207 tftp-server : DBG :[tftp_server.c, 1586] Total API = 1628
+Jun 19 07:43:07 mdm9650-2k user.debug tftp_server[860]: DBG:pid=860 tid=1207 tftp-server : DBG :[tftp_server.c, 1588] Total-TX = 95
+Jun 19 07:43:07 mdm9650-2k user.debug tftp_server[860]: DBG:pid=860 tid=1207 tftp-server : DBG :[tftp_server.c, 1590] Total-RX = 0
+Jun 19 07:43:07 mdm9650-2k user.debug tftp_server[860]: DBG:pid=860 tid=1207 tftp-server : DBG :[tftp_server.c, 1592] Max-TX = 95
+Jun 19 07:43:07 mdm9650-2k user.debug tftp_server[860]: DBG:pid=860 tid=1207 tftp-server : DBG :[tftp_server.c, 1594] Max-RX = 0
+Jun 19 07:43:07 mdm9650-2k user.debug tftp_server[860]: DBG:pid=860 tid=1207 tftp-server : DBG :[tftp_server.c, 1596] Min-TX = 95
+Jun 19 07:43:07 mdm9650-2k user.debug tftp_server[860]: DBG:pid=860 tid=1207 tftp-server : DBG :[tftp_server.c, 1598] Min-RX = 4294967295
+Jun 19 07:43:07 mdm9650-2k user.debug tftp_server[860]: DBG:pid=860 tid=1207 tftp-server : DBG :[tftp_os_wakelocks_la.c, 334] Wake-lock released successfully
+Jun 19 07:43:11 mdm9650-2k user.debug xtra-daemon: [daemon_loop:404]Downloading SNTP time
+Jun 19 07:43:11 mdm9650-2k user.debug xtra-daemon: [downloadSntpTime:70]Resolving hostname for SNTP server time.izatcloud.net
+Jun 19 07:43:11 mdm9650-2k user.err xtra-daemon: [downloadSntpTime:82]DNS resolution on  failedtime.izatcloud.net
+Jun 19 07:43:12 mdm9650-2k daemon.info chronyd[1108]: System clock off from RTC by -0.331563 seconds (slew)
+Jun 19 07:43:12 mdm9650-2k user.info subsystem_ramdump: Usage:./system/bin/subsystem_ramdump [arg1] [arg2] [arg3]
+Jun 19 07:43:12 mdm9650-2k user.info subsystem_ramdump: [arg1]: (1/2) Ramdump location: 1: eMMC: /data/ramdump or 2: SD card: /sdcard/ramdump
+Jun 19 07:43:12 mdm9650-2k user.info subsystem_ramdump: [arg2]: (1/0) 1: Enable RPM log / 0: Disable RPM log
+Jun 19 07:43:12 mdm9650-2k user.info subsystem_ramdump: [arg3]: (1/0) 1: Enable qdss ramdump / 0: Disable qdss ramdump
+Jun 19 07:43:12 mdm9650-2k user.info subsystem_ramdump:  Using default ramdump location 1: eMMC: /data/ramdump
+Jun 19 07:43:12 mdm9650-2k user.info subsystem_ramdump:  Using default 0: Disable RPM log
+Jun 19 07:43:12 mdm9650-2k user.info subsystem_ramdump:  Using default 0: Disable qdss ramdump
+Jun 19 07:43:13 mdm9650-2k user.info kinematics-chrony: [I][setup_socket:198] Connected to the chronyd socket
+Jun 19 07:43:13 mdm9650-2k user.info kinematics-server: run:1262 INFO : Accepted new client connection [fd=16]
+Jun 19 07:43:13 mdm9650-2k user.info kinematics-server: registerQmiLoc:613 INFO : Registering for POSITION_REPORT_V02, GNSS_SV_INFO_V02  and QMI_LOC_EVENT_MASK_ENGINE_STATE_V02
+Jun 19 07:43:13 mdm9650-2k user.info kinematics-server: registerQmiLoc:634 INFO : QMI_LOC_REG_EVENTS_REQ_V02 sent successfully
+Jun 19 07:43:13 mdm9650-2k user.info kinematics-server: qmiLocEventsCallback:434 INFO : QMI Events registration updated.
+Jun 19 07:43:13 mdm9650-2k user.info kinematics-chrony: [I][kinematics_init_cb:127] Initialized the kinematics lib
+Jun 19 07:43:13 mdm9650-2k user.info kinematics-chrony: [I][main:256] Start providing fixes to chronyd
+Jun 19 07:43:13 mdm9650-2k user.info kinematics-chrony: [I][install_rtc_timer:97] Set timer to update rtc file every 11 minutes
+Jun 19 07:43:13 mdm9650-2k user.info kinematics-server: handleMessage:1428 INFO : handleMessage: set rate message received
+Jun 19 07:43:13 mdm9650-2k user.err rild: QMUXD: WARNING qmi_qmux_if_pwr_up_init failed! rc=-6
+Jun 19 07:43:13 mdm9650-2k daemon.err avahi-dnsconfd[1318]: connect(): No such file or directory
+Jun 19 07:43:13 mdm9650-2k daemon.info avahi-dnsconfd[1318]: Failed to connect to the daemon. This probably means that you
+Jun 19 07:43:13 mdm9650-2k daemon.info avahi-dnsconfd[1318]: didn't start avahi-daemon before avahi-dnsconfd.
+Jun 19 07:43:14 mdm9650-2k user.err slim_daemon: QMUXD: WARNING qmi_qmux_if_pwr_up_init failed! rc=-6
+Jun 19 07:43:24 mdm9650-2k user.debug xtra-daemon: [daemon_loop:404]Downloading SNTP time
+Jun 19 07:43:24 mdm9650-2k user.debug xtra-daemon: [downloadSntpTime:70]Resolving hostname for SNTP server time.izatcloud.net
+Jun 19 07:43:24 mdm9650-2k user.err xtra-daemon: [downloadSntpTime:82]DNS resolution on  failedtime.izatcloud.net
+Jun 19 07:43:50 mdm9650-2k user.debug xtra-daemon: [daemon_loop:404]Downloading SNTP time
+Jun 19 07:43:50 mdm9650-2k user.debug xtra-daemon: [downloadSntpTime:70]Resolving hostname for SNTP server time.izatcloud.net
+Jun 19 07:43:50 mdm9650-2k user.err xtra-daemon: [downloadSntpTime:82]DNS resolution on  failedtime.izatcloud.net
+Jun 19 07:44:15 mdm9650-2k user.debug xtra-daemon: [daemon_loop:404]Downloading SNTP time
+Jun 19 07:44:15 mdm9650-2k user.debug xtra-daemon: [downloadSntpTime:70]Resolving hostname for SNTP server time.izatcloud.net
+Jun 19 07:44:15 mdm9650-2k user.err xtra-daemon: [downloadSntpTime:82]DNS resolution on  failedtime.izatcloud.net
+Jun 19 07:44:41 mdm9650-2k user.debug xtra-daemon: [daemon_loop:404]Downloading SNTP time
+Jun 19 07:44:41 mdm9650-2k user.debug xtra-daemon: [downloadSntpTime:70]Resolving hostname for SNTP server time.izatcloud.net
+Jun 19 07:44:41 mdm9650-2k user.err xtra-daemon: [downloadSntpTime:82]DNS resolution on  failedtime.izatcloud.net
+Jun 19 07:45:07 mdm9650-2k user.debug xtra-daemon: [daemon_loop:404]Downloading SNTP time
+Jun 19 07:45:07 mdm9650-2k user.debug xtra-daemon: [downloadSntpTime:70]Resolving hostname for SNTP server time.izatcloud.net
+Jun 19 07:45:07 mdm9650-2k user.err xtra-daemon: [downloadSntpTime:82]DNS resolution on  failedtime.izatcloud.net
+Jun 19 07:45:32 mdm9650-2k user.debug xtra-daemon: [daemon_loop:404]Downloading SNTP time
+Jun 19 07:45:32 mdm9650-2k user.debug xtra-daemon: [downloadSntpTime:70]Resolving hostname for SNTP server time.izatcloud.net
+Jun 19 07:45:32 mdm9650-2k user.err xtra-daemon: [downloadSntpTime:82]DNS resolution on  failedtime.izatcloud.net
+Jun 19 07:45:58 mdm9650-2k user.debug xtra-daemon: [daemon_loop:404]Downloading SNTP time
+Jun 19 07:45:58 mdm9650-2k user.debug xtra-daemon: [downloadSntpTime:70]Resolving hostname for SNTP server time.izatcloud.net
+Jun 19 07:45:58 mdm9650-2k user.err xtra-daemon: [downloadSntpTime:82]DNS resolution on  failedtime.izatcloud.net
+Jun 19 07:46:23 mdm9650-2k user.debug xtra-daemon: [daemon_loop:404]Downloading SNTP time
+Jun 19 07:46:23 mdm9650-2k user.debug xtra-daemon: [downloadSntpTime:70]Resolving hostname for SNTP server time.izatcloud.net
+Jun 19 07:46:23 mdm9650-2k user.err xtra-daemon: [downloadSntpTime:82]DNS resolution on  failedtime.izatcloud.net
+Jun 19 07:46:49 mdm9650-2k user.debug xtra-daemon: [daemon_loop:404]Downloading SNTP time
+Jun 19 07:46:49 mdm9650-2k user.debug xtra-daemon: [downloadSntpTime:70]Resolving hostname for SNTP server time.izatcloud.net
+Jun 19 07:46:49 mdm9650-2k user.err xtra-daemon: [downloadSntpTime:82]DNS resolution on  failedtime.izatcloud.net
+Jun 19 07:47:15 mdm9650-2k user.debug xtra-daemon: [daemon_loop:404]Downloading SNTP time
+Jun 19 07:47:15 mdm9650-2k user.debug xtra-daemon: [downloadSntpTime:70]Resolving hostname for SNTP server time.izatcloud.net
+Jun 19 07:47:15 mdm9650-2k user.err xtra-daemon: [downloadSntpTime:82]DNS resolution on  failedtime.izatcloud.net
+Jun 19 07:47:40 mdm9650-2k user.debug xtra-daemon: [daemon_loop:404]Downloading SNTP time
+Jun 19 07:47:40 mdm9650-2k user.debug xtra-daemon: [downloadSntpTime:70]Resolving hostname for SNTP server time.izatcloud.net
+Jun 19 07:47:40 mdm9650-2k user.err xtra-daemon: [downloadSntpTime:82]DNS resolution on  failedtime.izatcloud.net
+Jun 19 07:48:06 mdm9650-2k user.debug xtra-daemon: [daemon_loop:404]Downloading SNTP time
+Jun 19 07:48:06 mdm9650-2k user.debug xtra-daemon: [downloadSntpTime:70]Resolving hostname for SNTP server time.izatcloud.net
+Jun 19 07:48:06 mdm9650-2k user.err xtra-daemon: [downloadSntpTime:82]DNS resolution on  failedtime.izatcloud.net
+Jun 19 07:48:31 mdm9650-2k user.debug xtra-daemon: [daemon_loop:404]Downloading SNTP time
+Jun 19 07:48:31 mdm9650-2k user.debug xtra-daemon: [downloadSntpTime:70]Resolving hostname for SNTP server time.izatcloud.net
+Jun 19 07:48:31 mdm9650-2k user.err xtra-daemon: [downloadSntpTime:82]DNS resolution on  failedtime.izatcloud.net
+Jun 19 07:48:57 mdm9650-2k user.debug xtra-daemon: [daemon_loop:404]Downloading SNTP time
+Jun 19 07:48:57 mdm9650-2k user.debug xtra-daemon: [downloadSntpTime:70]Resolving hostname for SNTP server time.izatcloud.net
+Jun 19 07:48:57 mdm9650-2k user.err xtra-daemon: [downloadSntpTime:82]DNS resolution on  failedtime.izatcloud.net
+Jun 19 07:49:23 mdm9650-2k user.debug xtra-daemon: [daemon_loop:404]Downloading SNTP time
+Jun 19 07:49:23 mdm9650-2k user.debug xtra-daemon: [downloadSntpTime:70]Resolving hostname for SNTP server time.izatcloud.net
+Jun 19 07:49:23 mdm9650-2k user.err xtra-daemon: [downloadSntpTime:82]DNS resolution on  failedtime.izatcloud.net
+Jun 19 07:49:48 mdm9650-2k user.debug xtra-daemon: [daemon_loop:404]Downloading SNTP time
+Jun 19 07:49:48 mdm9650-2k user.debug xtra-daemon: [downloadSntpTime:70]Resolving hostname for SNTP server time.izatcloud.net
+Jun 19 07:49:48 mdm9650-2k user.err xtra-daemon: [downloadSntpTime:82]DNS resolution on  failedtime.izatcloud.net
+Jun 19 07:50:14 mdm9650-2k user.debug xtra-daemon: [daemon_loop:404]Downloading SNTP time
+Jun 19 07:50:14 mdm9650-2k user.debug xtra-daemon: [downloadSntpTime:70]Resolving hostname for SNTP server time.izatcloud.net
+Jun 19 07:50:14 mdm9650-2k user.err xtra-daemon: [downloadSntpTime:82]DNS resolution on  failedtime.izatcloud.net
+Jun 19 07:50:39 mdm9650-2k user.debug xtra-daemon: [daemon_loop:404]Downloading SNTP time
+Jun 19 07:50:39 mdm9650-2k user.debug xtra-daemon: [downloadSntpTime:70]Resolving hostname for SNTP server time.izatcloud.net
+Jun 19 07:50:39 mdm9650-2k user.err xtra-daemon: [downloadSntpTime:82]DNS resolution on  failedtime.izatcloud.net
+Jun 19 07:51:05 mdm9650-2k user.debug xtra-daemon: [daemon_loop:404]Downloading SNTP time
+Jun 19 07:51:05 mdm9650-2k user.debug xtra-daemon: [downloadSntpTime:70]Resolving hostname for SNTP server time.izatcloud.net
+Jun 19 07:51:05 mdm9650-2k user.err xtra-daemon: [downloadSntpTime:82]DNS resolution on  failedtime.izatcloud.net
+Jun 19 07:51:31 mdm9650-2k user.debug xtra-daemon: [daemon_loop:404]Downloading SNTP time
+Jun 19 07:51:31 mdm9650-2k user.debug xtra-daemon: [downloadSntpTime:70]Resolving hostname for SNTP server time.izatcloud.net
+Jun 19 07:51:31 mdm9650-2k user.err xtra-daemon: [downloadSntpTime:82]DNS resolution on  failedtime.izatcloud.net
+Jun 19 07:51:56 mdm9650-2k user.debug xtra-daemon: [daemon_loop:404]Downloading SNTP time
+Jun 19 07:51:56 mdm9650-2k user.debug xtra-daemon: [downloadSntpTime:70]Resolving hostname for SNTP server time.izatcloud.net
+Jun 19 07:51:56 mdm9650-2k user.err xtra-daemon: [downloadSntpTime:82]DNS resolution on  failedtime.izatcloud.net
+Jun 19 07:52:22 mdm9650-2k user.debug xtra-daemon: [daemon_loop:404]Downloading SNTP time
+Jun 19 07:52:22 mdm9650-2k user.debug xtra-daemon: [downloadSntpTime:70]Resolving hostname for SNTP server time.izatcloud.net
+Jun 19 07:52:22 mdm9650-2k user.err xtra-daemon: [downloadSntpTime:82]DNS resolution on  failedtime.izatcloud.net
+Jun 19 07:52:47 mdm9650-2k user.debug xtra-daemon: [daemon_loop:404]Downloading SNTP time
+Jun 19 07:52:47 mdm9650-2k user.debug xtra-daemon: [downloadSntpTime:70]Resolving hostname for SNTP server time.izatcloud.net
+Jun 19 07:52:47 mdm9650-2k user.err xtra-daemon: [downloadSntpTime:82]DNS resolution on  failedtime.izatcloud.net
+Jun 19 07:53:13 mdm9650-2k user.debug xtra-daemon: [daemon_loop:404]Downloading SNTP time
+Jun 19 07:53:13 mdm9650-2k user.debug xtra-daemon: [downloadSntpTime:70]Resolving hostname for SNTP server time.izatcloud.net
+Jun 19 07:53:13 mdm9650-2k user.err xtra-daemon: [downloadSntpTime:82]DNS resolution on  failedtime.izatcloud.net
+Jun 19 07:53:39 mdm9650-2k user.debug xtra-daemon: [daemon_loop:404]Downloading SNTP time
+Jun 19 07:53:39 mdm9650-2k user.debug xtra-daemon: [downloadSntpTime:70]Resolving hostname for SNTP server time.izatcloud.net
+Jun 19 07:53:39 mdm9650-2k user.err xtra-daemon: [downloadSntpTime:82]DNS resolution on  failedtime.izatcloud.net
+Jun 19 07:54:04 mdm9650-2k user.debug xtra-daemon: [daemon_loop:404]Downloading SNTP time
+Jun 19 07:54:04 mdm9650-2k user.debug xtra-daemon: [downloadSntpTime:70]Resolving hostname for SNTP server time.izatcloud.net
+Jun 19 07:54:04 mdm9650-2k user.err xtra-daemon: [downloadSntpTime:82]DNS resolution on  failedtime.izatcloud.net
+Jun 19 07:54:13 mdm9650-2k user.info kinematics-chrony: [I][write_rtc_file:59] Updating rtc file using: chronyc writertc
+Jun 19 07:54:30 mdm9650-2k user.debug xtra-daemon: [daemon_loop:404]Downloading SNTP time
+Jun 19 07:54:30 mdm9650-2k user.debug xtra-daemon: [downloadSntpTime:70]Resolving hostname for SNTP server time.izatcloud.net
+Jun 19 07:54:30 mdm9650-2k user.err xtra-daemon: [downloadSntpTime:82]DNS resolution on  failedtime.izatcloud.net
+Jun 19 07:54:55 mdm9650-2k user.debug xtra-daemon: [daemon_loop:404]Downloading SNTP time
+Jun 19 07:54:55 mdm9650-2k user.debug xtra-daemon: [downloadSntpTime:70]Resolving hostname for SNTP server time.izatcloud.net
+Jun 19 07:54:55 mdm9650-2k user.err xtra-daemon: [downloadSntpTime:82]DNS resolution on  failedtime.izatcloud.net
+Jun 19 07:55:21 mdm9650-2k user.debug xtra-daemon: [daemon_loop:404]Downloading SNTP time
+Jun 19 07:55:21 mdm9650-2k user.debug xtra-daemon: [downloadSntpTime:70]Resolving hostname for SNTP server time.izatcloud.net
+Jun 19 07:55:21 mdm9650-2k user.err xtra-daemon: [downloadSntpTime:82]DNS resolution on  failedtime.izatcloud.net
+Jun 19 07:55:47 mdm9650-2k user.debug xtra-daemon: [daemon_loop:404]Downloading SNTP time
+Jun 19 07:55:47 mdm9650-2k user.debug xtra-daemon: [downloadSntpTime:70]Resolving hostname for SNTP server time.izatcloud.net
+Jun 19 07:55:47 mdm9650-2k user.err xtra-daemon: [downloadSntpTime:82]DNS resolution on  failedtime.izatcloud.net
+Jun 19 07:56:12 mdm9650-2k user.debug xtra-daemon: [daemon_loop:404]Downloading SNTP time
+Jun 19 07:56:12 mdm9650-2k user.debug xtra-daemon: [downloadSntpTime:70]Resolving hostname for SNTP server time.izatcloud.net
+Jun 19 07:56:12 mdm9650-2k user.err xtra-daemon: [downloadSntpTime:82]DNS resolution on  failedtime.izatcloud.net
+Jun 19 07:56:38 mdm9650-2k user.debug xtra-daemon: [daemon_loop:404]Downloading SNTP time
+Jun 19 07:56:38 mdm9650-2k user.debug xtra-daemon: [downloadSntpTime:70]Resolving hostname for SNTP server time.izatcloud.net
+Jun 19 07:56:38 mdm9650-2k user.err xtra-daemon: [downloadSntpTime:82]DNS resolution on  failedtime.izatcloud.net
+Jun 19 07:57:03 mdm9650-2k user.debug xtra-daemon: [daemon_loop:404]Downloading SNTP time
+Jun 19 07:57:03 mdm9650-2k user.debug xtra-daemon: [downloadSntpTime:70]Resolving hostname for SNTP server time.izatcloud.net
+Jun 19 07:57:03 mdm9650-2k user.err xtra-daemon: [downloadSntpTime:82]DNS resolution on  failedtime.izatcloud.net
+Jun 19 07:57:29 mdm9650-2k user.debug xtra-daemon: [daemon_loop:404]Downloading SNTP time
+Jun 19 07:57:29 mdm9650-2k user.debug xtra-daemon: [downloadSntpTime:70]Resolving hostname for SNTP server time.izatcloud.net
+Jun 19 07:57:29 mdm9650-2k user.err xtra-daemon: [downloadSntpTime:82]DNS resolution on  failedtime.izatcloud.net
+Jun 19 07:57:55 mdm9650-2k user.debug xtra-daemon: [daemon_loop:404]Downloading SNTP time
+Jun 19 07:57:55 mdm9650-2k user.debug xtra-daemon: [downloadSntpTime:70]Resolving hostname for SNTP server time.izatcloud.net
+Jun 19 07:57:55 mdm9650-2k user.err xtra-daemon: [downloadSntpTime:82]DNS resolution on  failedtime.izatcloud.net
+Jun 19 07:58:20 mdm9650-2k user.debug xtra-daemon: [daemon_loop:404]Downloading SNTP time
+Jun 19 07:58:20 mdm9650-2k user.debug xtra-daemon: [downloadSntpTime:70]Resolving hostname for SNTP server time.izatcloud.net
+Jun 19 07:58:20 mdm9650-2k user.err xtra-daemon: [downloadSntpTime:82]DNS resolution on  failedtime.izatcloud.net
+Jun 19 07:58:46 mdm9650-2k user.debug xtra-daemon: [daemon_loop:404]Downloading SNTP time
+Jun 19 07:58:46 mdm9650-2k user.debug xtra-daemon: [downloadSntpTime:70]Resolving hostname for SNTP server time.izatcloud.net
+Jun 19 07:58:46 mdm9650-2k user.err xtra-daemon: [downloadSntpTime:82]DNS resolution on  failedtime.izatcloud.net
+Jun 19 07:59:11 mdm9650-2k user.debug xtra-daemon: [daemon_loop:404]Downloading SNTP time
+Jun 19 07:59:11 mdm9650-2k user.debug xtra-daemon: [downloadSntpTime:70]Resolving hostname for SNTP server time.izatcloud.net
+Jun 19 07:59:11 mdm9650-2k user.err xtra-daemon: [downloadSntpTime:82]DNS resolution on  failedtime.izatcloud.net
+Jun 19 07:59:37 mdm9650-2k user.debug xtra-daemon: [daemon_loop:404]Downloading SNTP time
+Jun 19 07:59:37 mdm9650-2k user.debug xtra-daemon: [downloadSntpTime:70]Resolving hostname for SNTP server time.izatcloud.net
+Jun 19 07:59:37 mdm9650-2k user.err xtra-daemon: [downloadSntpTime:82]DNS resolution on  failedtime.izatcloud.net
+Jun 19 08:00:03 mdm9650-2k user.debug xtra-daemon: [daemon_loop:404]Downloading SNTP time
+Jun 19 08:00:03 mdm9650-2k user.debug xtra-daemon: [downloadSntpTime:70]Resolving hostname for SNTP server time.izatcloud.net
+Jun 19 08:00:03 mdm9650-2k user.err xtra-daemon: [downloadSntpTime:82]DNS resolution on  failedtime.izatcloud.net
+Jun 19 08:00:28 mdm9650-2k user.debug xtra-daemon: [daemon_loop:404]Downloading SNTP time
+Jun 19 08:00:28 mdm9650-2k user.debug xtra-daemon: [downloadSntpTime:70]Resolving hostname for SNTP server time.izatcloud.net
+Jun 19 08:00:28 mdm9650-2k user.err xtra-daemon: [downloadSntpTime:82]DNS resolution on  failedtime.izatcloud.net
+Jun 19 08:00:54 mdm9650-2k user.debug xtra-daemon: [daemon_loop:404]Downloading SNTP time
+Jun 19 08:00:54 mdm9650-2k user.debug xtra-daemon: [downloadSntpTime:70]Resolving hostname for SNTP server time.izatcloud.net
+Jun 19 08:00:54 mdm9650-2k user.err xtra-daemon: [downloadSntpTime:82]DNS resolution on  failedtime.izatcloud.net
+Jun 19 08:01:19 mdm9650-2k user.debug xtra-daemon: [daemon_loop:404]Downloading SNTP time
+Jun 19 08:01:19 mdm9650-2k user.debug xtra-daemon: [downloadSntpTime:70]Resolving hostname for SNTP server time.izatcloud.net
+Jun 19 08:01:19 mdm9650-2k user.err xtra-daemon: [downloadSntpTime:82]DNS resolution on  failedtime.izatcloud.net
+Jun 19 08:01:45 mdm9650-2k user.debug xtra-daemon: [daemon_loop:404]Downloading SNTP time
+Jun 19 08:01:45 mdm9650-2k user.debug xtra-daemon: [downloadSntpTime:70]Resolving hostname for SNTP server time.izatcloud.net
+Jun 19 08:01:45 mdm9650-2k user.err xtra-daemon: [downloadSntpTime:82]DNS resolution on  failedtime.izatcloud.net
+Jun 19 08:02:11 mdm9650-2k user.debug xtra-daemon: [daemon_loop:404]Downloading SNTP time
+Jun 19 08:02:11 mdm9650-2k user.debug xtra-daemon: [downloadSntpTime:70]Resolving hostname for SNTP server time.izatcloud.net
+Jun 19 08:02:11 mdm9650-2k user.err xtra-daemon: [downloadSntpTime:82]DNS resolution on  failedtime.izatcloud.net
+Jun 19 08:02:36 mdm9650-2k user.debug xtra-daemon: [daemon_loop:404]Downloading SNTP time
+Jun 19 08:02:36 mdm9650-2k user.debug xtra-daemon: [downloadSntpTime:70]Resolving hostname for SNTP server time.izatcloud.net
+Jun 19 08:02:36 mdm9650-2k user.err xtra-daemon: [downloadSntpTime:82]DNS resolution on  failedtime.izatcloud.net
+Jun 19 08:03:02 mdm9650-2k user.debug xtra-daemon: [daemon_loop:404]Downloading SNTP time
+Jun 19 08:03:02 mdm9650-2k user.debug xtra-daemon: [downloadSntpTime:70]Resolving hostname for SNTP server time.izatcloud.net
+Jun 19 08:03:02 mdm9650-2k user.err xtra-daemon: [downloadSntpTime:82]DNS resolution on  failedtime.izatcloud.net
+Jun 19 08:03:27 mdm9650-2k user.debug xtra-daemon: [daemon_loop:404]Downloading SNTP time
+Jun 19 08:03:27 mdm9650-2k user.debug xtra-daemon: [downloadSntpTime:70]Resolving hostname for SNTP server time.izatcloud.net
+Jun 19 08:03:27 mdm9650-2k user.err xtra-daemon: [downloadSntpTime:82]DNS resolution on  failedtime.izatcloud.net
+Jun 19 08:03:53 mdm9650-2k user.debug xtra-daemon: [daemon_loop:404]Downloading SNTP time
+Jun 19 08:03:53 mdm9650-2k user.debug xtra-daemon: [downloadSntpTime:70]Resolving hostname for SNTP server time.izatcloud.net
+Jun 19 08:03:53 mdm9650-2k user.err xtra-daemon: [downloadSntpTime:82]DNS resolution on  failedtime.izatcloud.net
+Jun 19 08:04:19 mdm9650-2k user.debug xtra-daemon: [daemon_loop:404]Downloading SNTP time
+Jun 19 08:04:19 mdm9650-2k user.debug xtra-daemon: [downloadSntpTime:70]Resolving hostname for SNTP server time.izatcloud.net
+Jun 19 08:04:19 mdm9650-2k user.err xtra-daemon: [downloadSntpTime:82]DNS resolution on  failedtime.izatcloud.net
+Jun 19 08:04:44 mdm9650-2k user.debug xtra-daemon: [daemon_loop:404]Downloading SNTP time
+Jun 19 08:04:44 mdm9650-2k user.debug xtra-daemon: [downloadSntpTime:70]Resolving hostname for SNTP server time.izatcloud.net
+Jun 19 08:04:44 mdm9650-2k user.err xtra-daemon: [downloadSntpTime:82]DNS resolution on  failedtime.izatcloud.net
+Jun 19 08:05:10 mdm9650-2k user.debug xtra-daemon: [daemon_loop:404]Downloading SNTP time
+Jun 19 08:05:10 mdm9650-2k user.debug xtra-daemon: [downloadSntpTime:70]Resolving hostname for SNTP server time.izatcloud.net
+Jun 19 08:05:10 mdm9650-2k user.err xtra-daemon: [downloadSntpTime:82]DNS resolution on  failedtime.izatcloud.net
+Jun 19 08:05:13 mdm9650-2k user.info kinematics-chrony: [I][write_rtc_file:59] Updating rtc file using: chronyc writertc
+Jun 19 08:05:35 mdm9650-2k user.debug xtra-daemon: [daemon_loop:404]Downloading SNTP time
+Jun 19 08:05:35 mdm9650-2k user.debug xtra-daemon: [downloadSntpTime:70]Resolving hostname for SNTP server time.izatcloud.net
+Jun 19 08:05:35 mdm9650-2k user.err xtra-daemon: [downloadSntpTime:82]DNS resolution on  failedtime.izatcloud.net
+Jun 19 08:06:01 mdm9650-2k user.debug xtra-daemon: [daemon_loop:404]Downloading SNTP time
+Jun 19 08:06:01 mdm9650-2k user.debug xtra-daemon: [downloadSntpTime:70]Resolving hostname for SNTP server time.izatcloud.net
+Jun 19 08:06:01 mdm9650-2k user.err xtra-daemon: [downloadSntpTime:82]DNS resolution on  failedtime.izatcloud.net
+Jun 19 08:06:27 mdm9650-2k user.debug xtra-daemon: [daemon_loop:404]Downloading SNTP time
+Jun 19 08:06:27 mdm9650-2k user.debug xtra-daemon: [downloadSntpTime:70]Resolving hostname for SNTP server time.izatcloud.net
+Jun 19 08:06:27 mdm9650-2k user.err xtra-daemon: [downloadSntpTime:82]DNS resolution on  failedtime.izatcloud.net
+Jun 19 08:06:52 mdm9650-2k user.debug xtra-daemon: [daemon_loop:404]Downloading SNTP time
+Jun 19 08:06:52 mdm9650-2k user.debug xtra-daemon: [downloadSntpTime:70]Resolving hostname for SNTP server time.izatcloud.net
+Jun 19 08:06:52 mdm9650-2k user.err xtra-daemon: [downloadSntpTime:82]DNS resolution on  failedtime.izatcloud.net
+Jun 19 08:07:18 mdm9650-2k user.debug xtra-daemon: [daemon_loop:404]Downloading SNTP time
+Jun 19 08:07:18 mdm9650-2k user.debug xtra-daemon: [downloadSntpTime:70]Resolving hostname for SNTP server time.izatcloud.net
+Jun 19 08:07:18 mdm9650-2k user.err xtra-daemon: [downloadSntpTime:82]DNS resolution on  failedtime.izatcloud.net
+Jun 19 08:07:43 mdm9650-2k user.debug xtra-daemon: [daemon_loop:404]Downloading SNTP time
+Jun 19 08:07:43 mdm9650-2k user.debug xtra-daemon: [downloadSntpTime:70]Resolving hostname for SNTP server time.izatcloud.net
+Jun 19 08:07:43 mdm9650-2k user.err xtra-daemon: [downloadSntpTime:82]DNS resolution on  failedtime.izatcloud.net
+Jun 19 08:08:09 mdm9650-2k user.debug xtra-daemon: [daemon_loop:404]Downloading SNTP time
+Jun 19 08:08:09 mdm9650-2k user.debug xtra-daemon: [downloadSntpTime:70]Resolving hostname for SNTP server time.izatcloud.net
+Jun 19 08:08:09 mdm9650-2k user.err xtra-daemon: [downloadSntpTime:82]DNS resolution on  failedtime.izatcloud.net
+Jun 19 08:08:35 mdm9650-2k user.debug xtra-daemon: [daemon_loop:404]Downloading SNTP time
+Jun 19 08:08:35 mdm9650-2k user.debug xtra-daemon: [downloadSntpTime:70]Resolving hostname for SNTP server time.izatcloud.net
+Jun 19 08:08:35 mdm9650-2k user.err xtra-daemon: [downloadSntpTime:82]DNS resolution on  failedtime.izatcloud.net
+Jun 19 08:09:00 mdm9650-2k user.debug xtra-daemon: [daemon_loop:404]Downloading SNTP time
+Jun 19 08:09:00 mdm9650-2k user.debug xtra-daemon: [downloadSntpTime:70]Resolving hostname for SNTP server time.izatcloud.net
+Jun 19 08:09:00 mdm9650-2k user.err xtra-daemon: [downloadSntpTime:82]DNS resolution on  failedtime.izatcloud.net
+Jun 19 08:09:26 mdm9650-2k user.debug xtra-daemon: [daemon_loop:404]Downloading SNTP time
+Jun 19 08:09:26 mdm9650-2k user.debug xtra-daemon: [downloadSntpTime:70]Resolving hostname for SNTP server time.izatcloud.net
+Jun 19 08:09:26 mdm9650-2k user.err xtra-daemon: [downloadSntpTime:82]DNS resolution on  failedtime.izatcloud.net
+Jun 19 08:09:51 mdm9650-2k user.debug xtra-daemon: [daemon_loop:404]Downloading SNTP time
+Jun 19 08:09:51 mdm9650-2k user.debug xtra-daemon: [downloadSntpTime:70]Resolving hostname for SNTP server time.izatcloud.net
+Jun 19 08:09:51 mdm9650-2k user.err xtra-daemon: [downloadSntpTime:82]DNS resolution on  failedtime.izatcloud.net
+Jun 19 08:10:17 mdm9650-2k user.debug xtra-daemon: [daemon_loop:404]Downloading SNTP time
+Jun 19 08:10:17 mdm9650-2k user.debug xtra-daemon: [downloadSntpTime:70]Resolving hostname for SNTP server time.izatcloud.net
+Jun 19 08:10:17 mdm9650-2k user.err xtra-daemon: [downloadSntpTime:82]DNS resolution on  failedtime.izatcloud.net
+Jun 19 08:10:43 mdm9650-2k user.debug xtra-daemon: [daemon_loop:404]Downloading SNTP time
+Jun 19 08:10:43 mdm9650-2k user.debug xtra-daemon: [downloadSntpTime:70]Resolving hostname for SNTP server time.izatcloud.net
+Jun 19 08:10:43 mdm9650-2k user.err xtra-daemon: [downloadSntpTime:82]DNS resolution on  failedtime.izatcloud.net
+Jun 19 08:11:08 mdm9650-2k user.debug xtra-daemon: [daemon_loop:404]Downloading SNTP time
+Jun 19 08:11:08 mdm9650-2k user.debug xtra-daemon: [downloadSntpTime:70]Resolving hostname for SNTP server time.izatcloud.net
+Jun 19 08:11:08 mdm9650-2k user.err xtra-daemon: [downloadSntpTime:82]DNS resolution on  failedtime.izatcloud.net
+Jun 19 08:11:34 mdm9650-2k user.debug xtra-daemon: [daemon_loop:404]Downloading SNTP time
+Jun 19 08:11:34 mdm9650-2k user.debug xtra-daemon: [downloadSntpTime:70]Resolving hostname for SNTP server time.izatcloud.net
+Jun 19 08:11:34 mdm9650-2k user.err xtra-daemon: [downloadSntpTime:82]DNS resolution on  failedtime.izatcloud.net
+Jun 19 08:11:59 mdm9650-2k user.debug xtra-daemon: [daemon_loop:404]Downloading SNTP time
+Jun 19 08:11:59 mdm9650-2k user.debug xtra-daemon: [downloadSntpTime:70]Resolving hostname for SNTP server time.izatcloud.net

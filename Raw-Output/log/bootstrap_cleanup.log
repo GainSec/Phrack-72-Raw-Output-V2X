@@ -1,0 +1,34 @@
++ [[ yes == yes ]]
++ for file in $FILES
++ rm -rf /mnt/c3platpersistent/sbin
++ for file in $FILES
++ rm -rf /mnt/c3platpersistent/startup.sh
++ for file in $FILES
++ rm -rf /mnt/c3platpersistent/lib
++ for file in $FILES
++ rm -rf /mnt/c3platpersistent/var
++ for file in $FILES
++ rm -rf /mnt/c3platpersistent/etc
++ for file in $FILES
++ rm -rf /mnt/c3platpersistent/opt
++ for file in $FILES
++ rm -rf /mnt/c3platpersistent/bin
++ for file in $FILES
++ rm -rf /mnt/c3platpersistent/qti-telematics
++ for file in $FILES
++ rm -rf /mnt/c3platpersistent/libexec
++ for file in $FILES
++ rm -rf /mnt/c3platpersistent/tq-release
++ for file in $FILES
++ rm -rf /mnt/c3platpersistent/lost+found
++ for file in $FILES
++ rm -rf /mnt/c3platpersistent/update
++ for file in $FILES
++ rm -rf /mnt/c3platpersistent/share
++ echo 'state of /mnt/c3platpersistent/ is now:'
+state of /mnt/c3platpersistent/ is now:
++ ls -l -tra /mnt/c3platpersistent/
+total 8
+drwxr-xr-x 6 root   root    110 Nov 20  2019 ..
+drwxrwxrwx 3 kapsch kapsch 4096 Nov  6  2020 backup
+drwxr-xr-x 3 kapsch kapsch 4096 May 27 20:22 .

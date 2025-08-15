@@ -1,0 +1,173 @@
+# /bin/infotool -d
+{
+    "diskinfo": [
+        [
+            "SSD S.M.A.R.T details",
+            [
+            ]
+        ]
+    ],
+    "eeprom-cb": [
+        [
+            "p.article",
+            "34034340002"
+        ],
+        [
+            "p.cb.article",
+            "34034540110"
+        ],
+        [
+            "p.cb.revision",
+            "02"
+        ],
+        [
+            "p.cb.serial",
+            "PEZ00292"
+        ],
+        [
+            "p.cpu.mod.article",
+            "76000065600"
+        ],
+        [
+            "p.cpu.mod.revision",
+            "00"
+        ],
+        [
+            "p.cpu.mod.serial",
+            "NKDF30216"
+        ],
+        [
+            "p.date",
+            "2018-04-18T13:59:39"
+        ],
+        [
+            "p.gnss.biasvolt",
+            "3V3"
+        ],
+        [
+            "p.gnss.name",
+            "uBlox NEO-M8N"
+        ],
+        [
+            "p.mac",
+            "00:e0:6a:01:48:5a"
+        ],
+        [
+            "p.name1",
+            "RIS-9160-1A0W"
+        ],
+        [
+            "p.name2",
+            "K25104P000000000000"
+        ],
+        [
+            "p.pps.offset",
+            "0x00"
+        ],
+        [
+            "p.ps.extpower",
+            "0"
+        ],
+        [
+            "p.ps.poe",
+            "1"
+        ],
+        [
+            "p.radio1.a.mac",
+            "00:e0:6a:01:48:5b"
+        ],
+        [
+            "p.radio1.ant1.atten",
+            "5"
+        ],
+        [
+            "p.radio1.ant2.atten",
+            "10"
+        ],
+        [
+            "p.radio1.b.mac",
+            "00:e0:6a:01:48:5c"
+        ],
+        [
+            "p.radio1.name",
+            "ALPS UMZ2 V753"
+        ],
+        [
+            "p.revision",
+            "00"
+        ],
+        [
+            "p.root.password",
+            "$6$WgsZ5AlUvm24RbJ7$co17PTSTt.VxZoDc8Fy9u8f602NI8s8T/UGTIT6ZShsLoZ.z4WA4OlZCxE6rsveqN0ktHP2HNEQMipLOwdlIM."
+        ],
+        [
+            "p.serial",
+            "PEM00054"
+        ],
+        [
+            "p.ver",
+            "0"
+        ],
+        [
+            "s.hostname",
+            "PEM00054"
+        ],
+        [
+            "s.ipv4.addr.0",
+            "169.50.50.100/24"
+        ],
+        [
+            "s.ipv4.dns.0",
+            "10.85.50.7"
+        ],
+        [
+            "s.ipv4.mode.0",
+            "static"
+        ],
+        [
+            "s.password.admin",
+            "$6$acxOYZgshDem9PPj$Yt/4oKIzCy.1gmnvSbsXcKimuQtJ5D8KvfIOiogNDetTuR8QlNiKpOIAKqN9Kn7N7osd6Xg.pbGdm8QDnieM2/"
+        ],
+        [
+            "s.password.kapsch",
+            "$6$gFmhi2OFqsoUbsGI$N0imXwLNibM2X9FtAQ6IuWNgGYvQvA0i3ZagdqC5kDwc.CQrhXiNerhA892sZn3bPgKWQYA22DJ8nXcCjx1z31"
+        ],
+        [
+            "s.ssh_host_dsa_key",
+            "-----BEGIN DSA PRIVATE KEY-----\nMIIBugIBAAKBgQCw0QTNA+LsEM9Kgxft/knHJEq/m10loZSxuohPFTWtpUvPACa8\nbC31GiXEuhBPHL8HXZ+Ic+IVjIaMa1Gp+BI3tE6uOuyMdWiZ8cWA6sjF7Uv9AyzP\nYXQr7s5g6fjONecjKqX+AFKWmIZoHLQkFlX5NEZrA3cnMBU7DcJQpGcLNwIVAJot\nobANFh7nOvY1LATkrNBnpoe5AoGAblQRjTDBC2wToohna0kh4OqeSRGholpJM1ai\nWgL3kFb+UP3hN5MpsuInMVvJiryN6Qg2gr5aBDAd8WZ6WK0uI+8Dw13Vb+++4bCx\nNcMTUsw7lBsmLE5eaHvRErm6k6UhxVP7lqTp/8FUMb7XASF/p2dEMHTX3jo+Pd1+\nuvyrJwMCgYAN88vJrLCfT/vNqrck9GkV4/dhlXz1D0uMo/lRtsQ7HZs4WQTJxiLu\n6mnzfXEfuPZAbCy8u65au9C8v7TRRFhVS3tHJ/syEDdfrWJE6rmwPU8WvhAj35W8\nZ+6+Hf/qrQrYuzxjhQVYlGo2WiZDOWqz+7CO8vt8+uEuRVnyeQNerwIUTA35OqCf\nQvenBJ8/rppivacu4XY=\n-----END DSA PRIVATE KEY-----\n"
+        ],
+        [
+            "s.ssh_host_ecdsa_key",
+            "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEIBjhNU6MRl7P5TlvYkgGFbC5RHNN/ObJKmY45tLzwS1goAoGCCqGSM49\nAwEHoUQDQgAESDsmE8PWznnWXyxK4Ir5w8eHZvpZCsnfPnX7GFYj72wdJMXmRT7k\n+wLCNUGWsTZKKHvQuueF67ZU9p4MilF+3g==\n-----END EC PRIVATE KEY-----\n"
+        ],
+        [
+            "s.ssh_host_ed25519_key",
+            "-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACCnpG6PoMlWe01EW7HCpyBNzeDf/zYwvCdKKcdqomkG/QAAAJBp2IwyadiM\nMgAAAAtzc2gtZWQyNTUxOQAAACCnpG6PoMlWe01EW7HCpyBNzeDf/zYwvCdKKcdqomkG/Q\nAAAEBB+asDtx4+TV4sYbdTsjjFEKWmcflBNHKPstn1lPDsoaekbo+gyVZ7TURbscKnIE3N\n4N//NjC8J0opx2qiaQb9AAAADHJvb3RAQ0ItOTE2MAE=\n-----END OPENSSH PRIVATE KEY-----\n"
+        ],
+        [
+            "s.ssh_host_rsa_key",
+            "-----BEGIN RSA PRIVATE KEY-----\nMIIEpgIBAAKCAQEAsS0teRdBx9VB2DeXzk5YCLVYrauuanvDoxF874DX7yZl7TgE\nVWBvTlg576vnNc9vpqQ5jJ/ptzSAcnmvgqf+O6V2ixuM0uV6NVTUQx5+2FdOXlfB\nJC7UXK2bKYxNOnusepoqxB5XwrtwozfndK36qEkTNsYFwh3/L9mJHON9R1Pv9B0s\naF3ghUbg1DQbvM2z9qGnOLfRIkwYTW7oa/Il8/1FKanHobQ8Wiht8zwusj/SBFmT\nJl71QuC/LAtTtctmWQGb+BHnOZqGbHbi+FY82DS47nlZrngJ9XyFmGgvlIhyIHDt\nGrh9EX7sEswtRqkx/8xZia+Vhc0Aq5o90KNkmwIDAQABAoIBAQCOqgUaoyp5oXOC\nick3+weSA4wjU8F+xqeST8udAs9dJzsdl2SN5rfZitsj7PSg9KY/ta8NV9qWhbUD\n+I3llCX3m1Vnz8hGLTeJaAP/A7g5tZtKBjlkTDz9X2E4RFwPQnRwyGC1SIV8LPgW\nxTYfUtQp26WYDj2mwAayXeS1GUzQOCMKMibF9p8agxnTURKfmVbzOrWoGY3opsK5\ndFOzg2sgbX8ARwn6S/ST1aDrxGkAGrtVlBjmxsjRiOMDTe0B4hoFZO7TZ15OxyBy\nHCkcBxXehPlVmO543y61xfjurMCte2Wy1/eZzihblOaaSgySALg38La+geNUVdL5\nQLMrYVbhAoGBAOiH1DhCsWIFDhL995r5WXcE/EkAeoGXqQB8QDhvjXgCH3sJgQi5\nd8PhUsyFnzOe74HJy2fX71AKjOuBFoPiyDH9c6iUHSmgpMONJAvivyHfolDirVuG\ngmQ3sx7TmC1hmGcEV1HMZZy70hxUvE/fbhZ0e8BlmEr9vWFQLopMe8iRAoGBAMMP\nGSuG/uK/zNDaLQwpsTRjetasta/k4nY271rdEtyamJS66R8lwkGWTeHOTMNmslLq\nLe4DQmaTWdqph8Vhc5E7AOXM/f4/gLE0DQL8f8lQQdbZMXbFa3qhIK9LkbzOl15N\nC34Vb3uVGQP20TfBckEfcyoHeJJwYb8AM4cZRZBrAoGBAMtSoa1EG8iitOjEazJ2\nX9UjZdoLchNI4nzLKHhwilnqOU6jQ9G2ItQDfRvapxdDHRf2tEYr2VS6tPfkGyTd\nMsILZYt9X3abwhY/nspJzWi4HDzvyDfkiLVKwvPsfv8HfHRvpk6fFCaVUKZ3LWYF\n70PxPJhB/YVtE6A4tUk2kXIRAoGBAIMf6zOvlDip5u2fPRkoDc/B8BnQEHMl0nbV\nhyH163ARHPEelQgzQdsFR2W8YS4aI1ZJxoZx+nkqJQUxYev2DtJab8gLfdMkrUZy\nTyzqwJx8L0ZWy0GkhRPyrR4qFtZtqqPh9w/TKRZSrHZVvV9V05Cjq69dRlhq48qa\nQAlZm8HxAoGBANTNgr7Qu57U5b7C4Nf5N6bO2yBHEAoNVKycSjjn7jhZp1dX9EHQ\nd4J9tfuYEuL4SQjKgcvD5Je7H8HDBkx7889Sgam6pmQX1G2xEHy1n/Bfovcj6ShY\nHQNNHjpicXxMV9SmqlgSjjBIlKPMbBgrjkSBcaKXtFfFYma2YPLzSsXX\n-----END RSA PRIVATE KEY-----\n"
+        ],
+        [
+            "s.state.admin",
+            "enabled\n"
+        ],
+        [
+            "s.users",
+            "1001:admin:sudo\n"
+        ]
+    ],
+    "eeprom-ih": [ ],
+    "eeprom-ps": [ ],
+    "netinfo": [
+        [
+            "eth0",
+            [
+                [
+                    "speed",
+                    "eth0: negotiated 1000baseT-FD flow-control, link ok"
+                ]
+            ]
+        ]
+    ]
+}

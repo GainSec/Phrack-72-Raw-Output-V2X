@@ -1,0 +1,86 @@
+Jan  1 00:01:39 CB-9160 systemd-logind[396]: New seat seat0.
+Jan  1 00:01:39 CB-9160 systemd-logind[396]: Watching system buttons on /dev/input/event1 (Power Button)
+Jan  1 00:01:39 CB-9160 systemd-logind[396]: Watching system buttons on /dev/input/event2 (Video Bus)
+Jan  1 00:01:39 CB-9160 systemd-logind[396]: Watching system buttons on /dev/input/event0 (Power Button)
+Jan  1 00:01:44 CB-9160 sshd[881]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:01:44 CB-9160 sshd[881]: Server listening on :: port 22.
+Jan  4 05:16:33 CB-9160 sudo:     root : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/usr/sbin/adduser --disabled-login admin --gecos USDoT-QualcommCCA
+Jan  4 05:16:33 CB-9160 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan  4 05:16:33 CB-9160 groupadd[1006]: group added to /etc/group: name=admin, GID=1001
+Jan  4 05:16:33 CB-9160 groupadd[1006]: group added to /etc/gshadow: name=admin
+Jan  4 05:16:33 CB-9160 groupadd[1006]: new group: name=admin, GID=1001
+Jan  4 05:16:33 CB-9160 useradd[1012]: new user: name=admin, UID=1001, GID=1001, home=/home/admin, shell=/bin/bash
+Jan  4 05:16:33 CB-9160 chfn[1021]: pam_unix(chfn:account): account root has password changed in future
+Jan  4 05:16:33 CB-9160 chfn[1021]: changed user 'admin' information
+Jan  4 05:16:33 CB-9160 sudo: pam_unix(sudo:session): session closed for user root
+Jan  4 05:16:33 CB-9160 sudo:     root : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/usr/sbin/chpasswd
+Jan  4 05:16:33 CB-9160 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan  4 05:16:33 CB-9160 chpasswd[1045]: pam_unix(chpasswd:chauthtok): password changed for admin
+Jan  4 05:16:33 CB-9160 sudo: pam_unix(sudo:session): session closed for user root
+Jan  4 05:16:33 CB-9160 sudo:     root : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/usr/sbin/usermod -a -G sudo admin
+Jan  4 05:16:33 CB-9160 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan  4 05:16:33 CB-9160 usermod[1064]: add 'admin' to group 'sudo'
+Jan  4 05:16:33 CB-9160 usermod[1064]: add 'admin' to shadow group 'sudo'
+Jan  4 05:16:33 CB-9160 sudo: pam_unix(sudo:session): session closed for user root
+Jan  4 05:17:01 CB-9160 CRON[3178]: pam_unix(cron:account): account root has password changed in future
+Jan  4 05:17:01 CB-9160 CRON[3178]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  4 05:17:01 CB-9160 CRON[3178]: pam_unix(cron:session): session closed for user root
+Jan  4 05:17:49 CB-9160 sshd[6669]: pam_unix(sshd:account): account root has password changed in future
+Jan  4 05:17:49 CB-9160 sshd[6669]: Accepted publickey for root from 192.168.1.30 port 25736 ssh2: RSA ea:94:19:ac:7b:ad:f7:c5:7d:08:43:52:57:39:5a:61
+Jan  4 05:17:49 CB-9160 sshd[6669]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Jan  4 05:18:50 CB-9160 sshd[10811]: Connection closed by 192.168.1.30 [preauth]
+Jan  4 05:25:01 CB-9160 CRON[17284]: pam_unix(cron:account): account root has password changed in future
+Jan  4 05:25:01 CB-9160 CRON[17284]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  4 05:25:01 CB-9160 CRON[17284]: pam_unix(cron:session): session closed for user root
+Jan  4 05:35:01 CB-9160 CRON[19077]: pam_unix(cron:account): account root has password changed in future
+Jan  4 05:35:01 CB-9160 CRON[19077]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  4 05:35:01 CB-9160 CRON[19077]: pam_unix(cron:session): session closed for user root
+Jan  4 05:45:01 CB-9160 CRON[20868]: pam_unix(cron:account): account root has password changed in future
+Jan  4 05:45:01 CB-9160 CRON[20868]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  4 05:45:01 CB-9160 CRON[20868]: pam_unix(cron:session): session closed for user root
+Jan  4 05:55:01 CB-9160 CRON[22658]: pam_unix(cron:account): account root has password changed in future
+Jan  4 05:55:01 CB-9160 CRON[22658]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  4 05:55:01 CB-9160 CRON[22658]: pam_unix(cron:session): session closed for user root
+Jan  4 05:55:02 CB-9160 sshd[22675]: pam_unix(sshd:account): account root has password changed in future
+Jan  4 05:55:02 CB-9160 sshd[22675]: Accepted publickey for root from 192.168.1.30 port 25732 ssh2: RSA ea:94:19:ac:7b:ad:f7:c5:7d:08:43:52:57:39:5a:61
+Jan  4 05:55:02 CB-9160 sshd[22675]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Jan  4 06:05:01 CB-9160 CRON[24546]: pam_unix(cron:account): account root has password changed in future
+Jan  4 06:05:01 CB-9160 CRON[24546]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  4 06:05:01 CB-9160 CRON[24546]: pam_unix(cron:session): session closed for user root
+Jan  4 06:13:55 CB-9160 sshd[26157]: Connection closed by 192.168.1.30 [preauth]
+Jan  4 06:13:58 CB-9160 sshd[26176]: Connection closed by 192.168.1.30 [preauth]
+Jan  4 06:14:01 CB-9160 sshd[26190]: pam_unix(sshd:account): account root has password changed in future
+Jan  4 06:14:01 CB-9160 sshd[26190]: Accepted publickey for root from 192.168.1.30 port 25758 ssh2: RSA ea:94:19:ac:7b:ad:f7:c5:7d:08:43:52:57:39:5a:61
+Jan  4 06:14:01 CB-9160 sshd[26190]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Jan  4 06:15:01 CB-9160 CRON[26375]: pam_unix(cron:account): account root has password changed in future
+Jan  4 06:15:01 CB-9160 CRON[26375]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  4 06:15:01 CB-9160 CRON[26375]: pam_unix(cron:session): session closed for user root
+Jan  4 06:17:01 CB-9160 CRON[26827]: pam_unix(cron:account): account root has password changed in future
+Jan  4 06:17:01 CB-9160 CRON[26827]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  4 06:17:42 CB-9160 CRON[26827]: pam_unix(cron:session): session closed for user root
+Jan  4 06:25:01 CB-9160 CRON[28298]: pam_unix(cron:account): account root has password changed in future
+Jan  4 06:25:01 CB-9160 CRON[28299]: pam_unix(cron:account): account root has password changed in future
+Jan  4 06:25:01 CB-9160 CRON[28298]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  4 06:25:01 CB-9160 CRON[28299]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  4 06:25:01 CB-9160 CRON[28299]: pam_unix(cron:session): session closed for user root
+Jan  4 06:25:13 CB-9160 CRON[28298]: pam_unix(cron:session): session closed for user root
+Jan  4 06:35:01 CB-9160 CRON[6987]: pam_unix(cron:account): account root has password changed in future
+Jan  4 06:35:01 CB-9160 CRON[6987]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  4 06:35:01 CB-9160 CRON[6987]: pam_unix(cron:session): session closed for user root
+Jan  4 06:45:01 CB-9160 CRON[8789]: pam_unix(cron:account): account root has password changed in future
+Jan  4 06:45:01 CB-9160 CRON[8789]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  4 06:45:01 CB-9160 CRON[8789]: pam_unix(cron:session): session closed for user root
+Jan  4 06:52:38 CB-9160 sshd[26190]: Received disconnect from 192.168.1.30: 11: disconnected by user
+Jan  4 06:52:38 CB-9160 sshd[26190]: pam_unix(sshd:session): session closed for user root
+Jan  4 06:52:43 CB-9160 sshd[22675]: Received disconnect from 192.168.1.30: 11: disconnected by user
+Jan  4 06:52:43 CB-9160 sshd[22675]: pam_unix(sshd:session): session closed for user root
+Jan  4 06:55:01 CB-9160 CRON[10649]: pam_unix(cron:account): account root has password changed in future
+Jan  4 06:55:01 CB-9160 CRON[10649]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  4 06:55:02 CB-9160 CRON[10649]: pam_unix(cron:session): session closed for user root
+Jan  4 06:56:20 CB-9160 sshd[10963]: Connection closed by 192.168.1.30 [preauth]
+Jan  4 06:56:22 CB-9160 sshd[10977]: pam_unix(sshd:account): account root has password changed in future
+Jan  4 06:56:22 CB-9160 sshd[10977]: Accepted publickey for root from 192.168.1.30 port 25728 ssh2: RSA ea:94:19:ac:7b:ad:f7:c5:7d:08:43:52:57:39:5a:61
+Jan  4 06:56:22 CB-9160 sshd[10977]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Jan  4 07:05:01 CB-9160 CRON[12560]: pam_unix(cron:account): account root has password changed in future
+Jan  4 07:05:01 CB-9160 CRON[12560]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  4 07:05:01 CB-9160 CRON[12560]: pam_unix(cron:session): session closed for user root

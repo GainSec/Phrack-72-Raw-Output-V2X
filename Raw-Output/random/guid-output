@@ -1,0 +1,74 @@
+﻿  DevIo                     : AF6AC311-84C3-11D2-8E3C-00A0C969723B   
+  Fs                        : 964E5B22-6459-11D2-8E39-00A0C969723B   
+  DiskIo                    : CE345171-BA0B-11D2-8E4F-00A0C969723B   
+  BlkIo                     : 964E5B21-6459-11D2-8E39-00A0C969723B  *
+  Txtin                     : 387477C1-69C7-11D2-8E39-00A0C969723B   
+  Txtout                    : 387477C2-69C7-11D2-8E39-00A0C969723B  *
+  Load                      : 56EC3091-954C-11D2-8E3F-00A0C969723B   
+  Image                     : 5B1B31A1-9562-11D2-8E3F-00A0C969723B  *
+  UnicodeCollation          : 1D85CD7F-F43D-11D2-9A0C-0090273FC14D   
+  SerialIo                  : BB25CF6F-F1D4-11D2-9A0C-0090273FC1FD   
+  Pxebc                     : 03C4E603-AC28-11D3-9A2D-0090273FC14D   
+  Tcp                       : 02B3D5F2-AC28-11D3-9A2D-0090273FC14D   
+  Net                       : A19832B9-AC25-11D3-9A2D-0090273FC14D   
+  Nii                       : E18541CD-F755-4F73-928D-643C8A79B229   
+  UgaDraw                   : 982C298B-F4FA-41CB-B838-77AA688FB839   
+  UgaIo                     : 61A4D49E-6F68-4F1B-B922-A86EED0B07A2   
+  GraphicsOutput            : 9042A9DE-23DC-4A38-96FB-7ADED080516A  *
+  EdidDiscovered            : 1C0C34F6-D380-41FA-A049-8AD06C1A66AA   
+  EdidActive                : BD8C1056-9F36-44EC-92A8-A6337F817986   
+  EdidOverride              : 48ECB431-FB72-45C0-A922-F458FE040BD5   
+  ShellInt                  : 47C7B223-C42A-11D2-8E57-00A0C969723B   
+  SEnv                      : 47C7B224-C42A-11D2-8E57-00A0C969723B   
+  ShellProtId               : 47C7B226-C42A-11D2-8E57-00A0C969723B   
+  ShellDevPathMap           : 47C7B225-C42A-11D2-8E57-00A0C969723B   
+  ShellAlias                : 47C7B227-C42A-11D2-8E57-00A0C969723B   
+  G0                        : 00000000-0000-0000-0000-000000000000   
+  Efi                       : 8BE4DF61-93CA-11D2-AA0D-00E098032B8C   
+  GenFileInfo               : 09576E92-6D3F-11D2-8E39-00A0C969723B   
+  FileSysInfo               : 09576E93-6D3F-11D2-8E39-00A0C969723B   
+  PcAnsi                    : E0C14753-F9BE-11D2-9A0C-0090273FC14D   
+  Vt100                     : DFA66065-B419-11D3-9A2D-0090273FC14D   
+  Vt100+                    : 7BAEC70B-57E0-4C76-8E87-2F9E28088343   
+  VtUtf8                    : AD15A0D6-8BEC-4ACF-A073-D01DE77E2D88   
+  ESP                       : C12A7328-F81F-11D2-BA4B-00A0C93EC93B   
+  GPT MBR                   : 024DEE41-33E7-11D3-9D69-0008C781F39F   
+  DriverBinding             : 18A031AB-B443-4D1A-A5C0-0C09261E9F71   
+  ComponentName             : 107A772C-D5E1-11D4-9A46-0090273FC14D   
+  Configuration             : 107A772B-D5E1-11D4-9A46-0090273FC14D   
+  Diagnostics               : 0784924F-E296-11D4-9A49-0090273FC14D   
+  PciRootBridgeIo           : 2F707EBB-4A1A-11D4-9A38-0090273FC14D  *
+  PciIo                     : 4CF5B200-68B8-4CA5-9EEC-B23E3F50029A  *
+  IsaIo                     : 7EE2BD44-3DA0-11D4-9A38-0090273FC14D  *
+  UsbIo                     : 2B2F68D6-0CD2-44CF-8E8B-BBA20B1B5B75  *
+  IsaAcpi                   : 64A892DC-5561-4536-92C7-799BFC183355   
+  SimplePointer             : 31878C87-0B75-11D5-9A4F-0090273FC14D   
+  ConIn                     : D3B36F2B-D551-11D4-9A46-0090273FC14D   
+  ConOut                    : D3B36F2C-D551-11D4-9A46-0090273FC14D   
+  StdErr                    : D3B36F2D-D551-11D4-9A46-0090273FC14D   
+  Decompress                : D8117CFE-94A6-11D4-9A3A-0090273FC14D   
+  DebugPort                 : EBA4E8D2-3858-41EC-A281-2647BA9660D0   
+  DebugSupport              : 2755590C-6F3C-42FA-9EA4-A3BA543CDA25  *
+  ScsiPassThru              : A59E8FCF-BDA0-43BB-90B1-D3732ECAA877   
+  ScsiIo                    : 932F47E6-2362-4002-803E-3CD54B138F85   
+  BusSpecificDriverOverride : 3BC1B285-8A15-4A82-AABF-4D7D13FB3265  *
+  UsbHc                     : F5089266-1AA0-4953-97D8-562F8A73B519   
+  UsbHc2                    : 3E745226-9818-45B6-A2AC-D7CD0E8BA2BC   
+  ExtScsiPassThru           : 143B7632-B81B-4CB7-ABD3-B625A5B9BFFE   
+  MNPSb                     : F36FF770-A7E1-42CF-9ED2-56F0F271F44C   
+  MNP                       : 7AB33A91-ACE5-4326-B572-E7EE33D39F16   
+  ARPSb                     : F44C00EE-1F2C-4A00-AA09-1C9F3E0800A3   
+  ARP                       : F4B427BB-BA21-4F16-BC4E-43E416AB619C   
+  DHCPv4Sb                  : 9D9A39D8-BD42-4A73-A4D5-8EE94BE11380   
+  DHCPv4                    : 8A219718-4EF5-4761-91C8-C0F04BDA9E56   
+  TCPv4Sb                   : 00720665-67EB-4A99-BAF7-D3C33A1C7CC9   
+  TCPv4                     : 65530BC7-A359-410F-B010-5AADC7EC2B62   
+  IPv4Sb                    : C51711E7-B4BF-404A-BFB8-0A048EF1FFE4   
+  IPv4                      : 41D94CD2-35B6-455A-8258-D4E51334AADD   
+  IPv4Config                : 3B95AA31-3793-434B-8667-C8070892E05E   
+  UDPv4Sb                   : 83F01464-99BD-45E5-B383-AF6305D8E9E6   
+  UDPv4                     : 3AD9DF29-4501-478D-B1F8-7F7FE70E50F3   
+  MTFTPv4Sb                 : 2FE800BE-8F01-4AA6-946B-D71388E1833F   
+  MTFTPv4                   : 78247C57-63DB-4708-99C2-A8B4A9A61F6B   
+  Dpath                     : 09576E91-6D3F-11D2-8E39-00A0C969723B  *
+  Unknown Device            : CF31FAC5-C24E-11D2-85F3-00A0C93EC93B   

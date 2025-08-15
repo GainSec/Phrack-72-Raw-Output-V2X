@@ -1,0 +1,33 @@
+Jan 12 07:58:30 CB-9160 systemd-logind[428]: New seat seat0.
+Jan 12 07:58:30 CB-9160 systemd-logind[428]: Watching system buttons on /dev/input/event1 (Power Button)
+Jan 12 07:58:30 CB-9160 systemd-logind[428]: Watching system buttons on /dev/input/event2 (Video Bus)
+Jan 12 07:58:30 CB-9160 systemd-logind[428]: Watching system buttons on /dev/input/event0 (Power Button)
+Jan 12 07:58:39 CB-9160 useradd[977]: new group: name=admin, GID=1001
+Jan 12 07:58:39 CB-9160 useradd[977]: new user: name=admin, UID=1001, GID=1001, home=/home/admin, shell=/bin/bash
+Jan 12 07:58:39 CB-9160 useradd[977]: add 'admin' to group 'sudo'
+Jan 12 07:58:39 CB-9160 useradd[977]: add 'admin' to shadow group 'sudo'
+Jan 12 07:58:39 CB-9160 sshd[1043]: Server listening on 0.0.0.0 port 22.
+Jan 12 07:58:39 CB-9160 sshd[1043]: Server listening on :: port 22.
+Jan 12 07:58:49 CB-9160 sshd[1598]: Accepted publickey for root from 192.168.1.30 port 16188 ssh2: RSA SHA256:O3xQ8Z3ZLaCRiWlFQfVRs2pU7XE3lwC6iL8D6oXzlhI
+Jan 12 07:58:49 CB-9160 sshd[1598]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Jan 12 07:59:07 PEM00064 sudo[2817]:     root : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl stop gpsd
+Jan 12 07:59:07 PEM00064 sudo[2817]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 12 07:59:07 PEM00064 sudo[2817]: pam_unix(sudo:session): session closed for user root
+Jan 12 07:59:07 PEM00064 sudo[2830]:     root : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl stop gpsd.socket
+Jan 12 07:59:07 PEM00064 sudo[2830]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 12 07:59:07 PEM00064 sudo[2830]: pam_unix(sudo:session): session closed for user root
+Jan 12 08:00:01 PEM00064 CRON[6122]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 12 08:00:01 PEM00064 CRON[6122]: pam_unix(cron:session): session closed for user root
+Jan 12 08:05:01 PEM00064 CRON[20123]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 12 08:05:01 PEM00064 CRON[20124]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 12 08:05:01 PEM00064 CRON[20123]: pam_unix(cron:session): session closed for user root
+Jan 12 08:05:01 PEM00064 CRON[20124]: pam_unix(cron:session): session closed for user root
+Jan 12 08:10:01 PEM00064 CRON[1568]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 12 08:10:02 PEM00064 CRON[1568]: pam_unix(cron:session): session closed for user root
+Jan 12 08:14:21 PEM00064 sshd[12244]: Accepted publickey for root from 192.168.1.30 port 16196 ssh2: RSA SHA256:O3xQ8Z3ZLaCRiWlFQfVRs2pU7XE3lwC6iL8D6oXzlhI
+Jan 12 08:14:21 PEM00064 sshd[12244]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Jan 12 08:14:21 PEM00064 sshd[12244]: Received disconnect from 192.168.1.30 port 16196:11: disconnected by user
+Jan 12 08:14:21 PEM00064 sshd[12244]: Disconnected from 192.168.1.30 port 16196
+Jan 12 08:14:21 PEM00064 sshd[12244]: pam_unix(sshd:session): session closed for user root
+Jan 12 08:14:24 PEM00064 sshd[12348]: Accepted publickey for root from 192.168.1.30 port 16204 ssh2: RSA SHA256:O3xQ8Z3ZLaCRiWlFQfVRs2pU7XE3lwC6iL8D6oXzlhI
+Jan 12 08:14:24 PEM00064 sshd[12348]: pam_unix(sshd:session): session opened for user root by (uid=0)

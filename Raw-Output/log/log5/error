@@ -1,0 +1,53 @@
+Jan  1 00:01:38 CB-9160 ntpdate[361]: no servers can be used, exiting
+Jan  1 00:01:38 CB-9160 ntpdate[378]: no servers can be used, exiting
+Jan  1 00:01:39 CB-9160 smartd[388]: Problem creating device name scan list
+Jan  1 00:01:39 CB-9160 smartd[388]: In the system's table of devices NO devices found to scan
+Jan  4 05:16:37 CB-9160 systemd[1]: Failed to listen on GPS (Global Positioning System) Daemon Sockets.
+Jan  4 05:16:37 CB-9160 systemd[1]: Dependency failed for GPS (Global Positioning System) Daemon.
+Jan  4 05:16:38 CB-9160 ntpd[1501]: line 29 column 0 syntax error, unexpected T_String, expecting $end
+Jan  4 05:16:38 CB-9160 ntpd[1501]: syntax error in /etc/ntpd.conf line 29, column 0
+Jan  4 05:16:38 CB-9160 ntpd[1501]: syntax error in /etc/ntpd.conf line 29, column 0
+Jan  4 05:16:38 CB-9160 ntpd[1501]: syntax error in /etc/ntpd.conf line 29, column 0
+Jan  4 05:20:14 CB-9160 cv2x-config: QMUXD: WARNING qmi_qmux_if_alloc_service_client failed! service_id = 1, conn_id = 29, rc=-3 error = 0
+Jan  4 05:20:40 CB-9160 snmpd[16291]: Cannot statfs /localroot: No such file or directory
+Jan  4 05:20:41 CB-9160 snmpd[16291]: dlsym failed: can't find 'init_rsuG5ForwardTable'
+Jan  4 05:20:41 CB-9160 snmpd[16291]: dlsym failed: can't find 'init_rsuG5SRMStatusTable'
+Jan  4 05:20:41 CB-9160 kapsch KVE: QMUXD: WARNING qmi_qmux_if_pwr_up_init failed! rc=-1
+Jan  4 05:20:41 CB-9160 kapsch KVE: QMUXD: WARNING qmi_qmux_if_pwr_up_init failed! rc=-1
+Jan  4 05:20:41 CB-9160 kapsch KVE: [E][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:410] Failed to initialize NAS client
+Jan  4 05:20:41 CB-9160 kapsch KVE: #01/04/2010 05:20:41:497 #WSMP# Failed to open AL channels, none is open
+Jan  4 05:20:41 CB-9160 kapsch KVE: QMUXD: WARNING qmi_qmux_if_pwr_up_init failed! rc=-1
+Jan  4 05:20:41 CB-9160 kapsch KVE: QMUXD: WARNING qmi_qmux_if_pwr_up_init failed! rc=-1
+Jan  4 05:20:41 CB-9160 kapsch KVE: [E][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:410] Failed to initialize NAS client
+Jan  4 05:20:41 CB-9160 kapsch KVE: #01/04/2010 05:20:41:505 #WSMP# Failed to open AL channels, none is open
+Jan  4 05:20:41 CB-9160 kapsch KVE: #01/04/2010 05:20:41:507 #WSMP# wsmp_open: Failed to allocate channel 172
+Jan  4 05:20:41 CB-9160 kapsch KVE: #01/04/2010 05:20:41:508 #WSMP# wsmp_open: Failed to allocate channel 172
+Jan  4 05:59:54 CB-9160 snmpd[23574]: Cannot statfs /localroot: No such file or directory
+Jan  4 05:59:54 CB-9160 snmpd[23574]: dlsym failed: can't find 'init_rsuG5ForwardTable'
+Jan  4 05:59:54 CB-9160 snmpd[23574]: dlsym failed: can't find 'init_rsuG5SRMStatusTable'
+Jan  4 05:59:54 CB-9160 kapsch KVE: QMUXD: WARNING qmi_qmux_if_pwr_up_init failed! rc=-1
+Jan  4 05:59:54 CB-9160 kapsch KVE: QMUXD: WARNING qmi_qmux_if_pwr_up_init failed! rc=-1
+Jan  4 05:59:54 CB-9160 kapsch KVE: [E][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:410] Failed to initialize NAS client
+Jan  4 05:59:54 CB-9160 kapsch KVE: #01/04/2010 05:59:54:546 #WSMP# Failed to open AL channels, none is open
+Jan  4 05:59:54 CB-9160 kapsch KVE: #01/04/2010 05:59:54:548 #WSMP# wsmp_open: Failed to allocate channel 172
+Jan  4 05:59:54 CB-9160 kapsch KVE: QMUXD: WARNING qmi_qmux_if_pwr_up_init failed! rc=-1
+Jan  4 05:59:54 CB-9160 kapsch KVE: QMUXD: WARNING qmi_qmux_if_pwr_up_init failed! rc=-1
+Jan  4 05:59:54 CB-9160 kapsch KVE: [E][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:410] Failed to initialize NAS client
+Jan  4 05:59:54 CB-9160 kapsch KVE: #01/04/2010 05:59:54:554 #WSMP# Failed to open AL channels, none is open
+Jan  4 05:59:54 CB-9160 kapsch KVE: #01/04/2010 05:59:54:555 #WSMP# wsmp_open: Failed to allocate channel 172
+Jan  4 06:01:14 CB-9160 bluetoothd[23915]: Failed to open RFKILL control device
+Jan  4 06:02:10 CB-9160 bluetoothd[24074]: Unable to get on D-Bus
+Jan  4 06:04:45 CB-9160 bluetoothd[23915]: Sap driver initialization failed.
+Jan  4 06:04:45 CB-9160 bluetoothd[23915]: sap-server: Operation not permitted (1)
+Jan  4 06:04:45 CB-9160 bluetoothd[23915]: hci0 Load Connection Parameters failed: Unknown Command (0x01)
+Jan  4 06:05:08 CB-9160 bluetoothd[24578]: Unable to get on D-Bus
+Jan  4 06:05:10 CB-9160 bluetoothd[24588]: Unable to get on D-Bus
+Jan  4 06:05:14 CB-9160 bluetoothd[24597]: Unable to get on D-Bus
+Jan  4 07:03:00 CB-9160 cv2x-config: QMUXD: WARNING qmi_qmux_if_pwr_up_init failed! rc=-1
+Jan  4 07:03:00 CB-9160 cv2x-config: QMUXD: WARNING qmi_qmux_if_pwr_up_init failed! rc=-1
+Jan  4 07:06:14 CB-9160 v2x_radio_test: QMUXD: WARNING qmi_qmux_if_pwr_up_init failed! rc=-1
+Jan  4 07:06:14 CB-9160 v2x_radio_test: QMUXD: WARNING qmi_qmux_if_pwr_up_init failed! rc=-1
+Jan  4 07:06:14 CB-9160 v2x_radio_test: [E][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:410] Failed to initialize NAS client
+Jan  4 07:07:17 CB-9160 sudo: pam_unix(sudo:auth): conversation failed
+Jan  4 07:07:17 CB-9160 sudo: pam_unix(sudo:auth): auth could not identify password for [kapsch]
+Jan  4 07:07:17 CB-9160 sudo:   kapsch : 1 incorrect password attempt ; TTY=pts/1 ; PWD=/var/backups ; USER=root ; COMMAND=/bin/systemctl restart ModemManager

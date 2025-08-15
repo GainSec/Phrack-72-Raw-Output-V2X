@@ -1,0 +1,138 @@
+Usage: roadside [<opts>] <command> [<subcommand>] [...]
+
+Supported Options
+
+  Option      Description
+  ----------- ---------------------------------------
+  -t <ip>     Use <ip> as target for SNMP commands.
+  -f <file>   Use <file> to create ITSG5 messages.
+  -h          Print this help.
+
+The following options determine the timestamps used for adding SNMP messages with snmp msg-*.
+
+  Option        Description
+  ------------- -----------------------------------------------------------------
+  -d <window>   Creates a time window from now +/- <window> seconds. Eg. with
+                -d 600 created messages are valid from 10 minutes before now to
+                10 minutes from now. Default: 600s.
+  -s <shift>    Creates a time window from now +/- <window> seconds and shifts
+                it by <shift> seconds. Eg. -d 600 -s 120 uses now-8 minutes as
+                the start time and now+12 minutes as the end time. Default: 0s.
+
+Supported Commands
+
+  Command   Description
+  --------- ------------------------------------
+  help      The full help screen.
+  check     See Check Subcommands for details.
+  admin     See Admin Subcommands for details.
+  snmp      See SNMP Subcommands for details.
+
+
+Check Subcommands
+
+  Command                                                   Description
+  --------------------------------------------------------- ------------------------------------------------------------------
+  snmp                                                      Lists loaded SNMPd modules, some errors are normal but at least
+                                                            some modules should have been loaded.
+  packages                                                  List installed packages and their versions.
+  ifm                                                       Sends a small IFM payload.
+  udp                                                       Sends a small UDP SPAT to port 5000.
+  udp-continous {-n <interval>}  {<ip> {<port> {<spat>}}}   Sends a hex-SPAT every seconds, default interval is 0.1 seconds.
+  ra-connection                                             Check connection with ISS registration authority.
+
+
+Admin Subcommands
+
+  Command                         Description
+  ------------------------------- ---------------------------------------------------------------------------
+  update                          Deprecated. Use kdpkg -i instead.
+  ntpd-test [0,1]                 Enable/disable NTPd test servers.
+  al-config                       Enable/disable and configure ALs.
+  usdot-channel <channel>         Change USDoT channel.
+  wave-security [0,1]             Disable/enable security.
+  wave-security-tolerance [0,1]   Disable/enable tolerant package handling.
+  wave-security-dump [0,1]        Disable/enable dumping of droped packages.
+  backup-clear                    Uninstall ALL (including kdpkg) packages from persistence and
+                                  create backup.
+  gnss-position {<lat> <lon>}     Set gnss position to default or to <lat> and
+                                  <lon> when provided or to default when position
+                                  is not provided.
+  gpsd-feeder [N,<file>]          Disable/enable KML-GPS feeder.
+  gpsd-config <server> {<port>}   Set <server>:<port> as default GPSd provider.
+                                  If port is not given its not changed.
+  gpsd-server                     Configure RIS to act as GPSd server. WARNING: this disables the firewall.
+  lte-enable                      Enable LTE module.
+  lte-config                      Configure LTE module.
+  mac-scanner-enable              Activate MAC-Scanner module.
+  wifi-bt-enable                  Specify usage for WiFi/BT Module(s).
+  pair-bt                         Activate BT discoverability to enable pairing.
+  rtcm-survey                     Configure survey-in mode of RTCM base station.
+  configure                       Run a set of questions to configure RSU.
+  kmqtt                           Configure and connection to a kMSG server.
+  vehicle                         Set parameters to configure device for vehicle usage.
+  dummy-crls                      Create dummy-crls for system without SCMS connection.
+  hsm-check                       Report state of SXA-1700 HSM.
+  hsm-switch                      Switch between OBS HSM libraries.
+
+
+SNMP Subcommands
+
+  Command           Description
+  ----------------- ----------------------------------------------------------
+  walk              Retreive all information in the RSU-MIB/RSUG5-MIB -tree.
+  check             Same as command roadside check snmp.
+  enable|operate    Set rsuMode to 4 and enable all services.
+  disable|standby   Set rsuMode to 2 and disable all services.
+  status            Check rsuMode.
+
+The following commands all take <id> as parameter and manipulate the entries in row <id>.
+
+  Command                 Description
+  ----------------------- ----------------------------------------------------------
+  fw-default <id>         Switches RSU to standby and stores a dummy configuration
+                          in the rsuDsrcFwd table.
+  fw-delete <id>          Removes dummy rsuDsrcFwd configuration.
+  fw-recv                 Receive messages from fw-default rsuDsrcFwd
+                          configuration.
+  msg-default <id>        Switches RSU to standbu and stores a dummy configuration
+                          in the rsuSRM table.
+  msg-file <id> <file>    Reads PSID and message from <file> and creates entry
+                          <id>. See MSG File Format for details.
+  msg-delete <id>         Removes dummy rsuSRM configuration.
+  fw-long <id>            Switches RSU to standby and stores a dummy configuration
+                          in the rsuDsrcFwd table.
+  fw-long-delete <id>     Removes dummy rsuDsrcFwd configuration.
+  msg-long <id>           Switches RSU to standbu and stores a dummy configuration
+                          in the rsuSRM table.
+  msg-long-delete <id>    Removes dummy rsuSRM configuration.
+  msg-enable <id> <0,1>   Disables/enables rsuSRM <id>.
+  fw-enable <id> <0,1>    Disables/enables rsuDsrcFwd <id>.
+  logging <id> <0,1>      Stop/start logging for logging entry <id>. See
+                          SNMP Logging Configuration for details.
+
+MSG File Format
+
+The message file has three lines:
+
+-   Line 1: serves as description for the the file content.
+-   Line 2: must be of the form PSID=<PSID> where <PSID> stands for the PSID the message should be sent with.
+-   Line 3: the message in ASCII hexadecimal notation.
+
+See file <pers>/share/messages/TIM_PSID:83.msg for an example.
+
+SNMP Logging Configuration
+
+The logging configuration is split into two parts, first the part that is done via SNMP, each logging entry in SNMP contains the following settings:
+
+-   rsuIfaceGenerate: Enable, disable logging.
+-   rsuIfaceMaxFileSize: Maximum logging file size in MB, after the file reaches this size, a new files is created.
+-   rsuIfaceMaxFileTime: Maximum logging time in hours. After enabling the log, stops logging when time has been reached.
+-   rsuIfaceLogIndex: Split logfiles in Rx/Tx logs.
+-   rsuIfaceName: Interface name to log messages from.
+
+To see which interfaces are configured use ./bin/roadside snmp walk | grep Iface. To change values use snmpset 127.0.0.1 <OID> i <value>, for example snmpset 127.0.0.1 RSU-MIB::rsuIfaceLogByDir.3 i 0.
+
+When using the command ./bin/roadside snmp logging <id> <0|1> the relevant entry is enabled/disabled, e.g. snmpset 127.0.0.1 RSU-MIB::rsuIfaceGenerate.<id> i <0|1>.
+
+The logs are placed in /var/log/pcap and the default PCAP filter used is not (port 22 || port 137 || arp) which prevents SSH, MDNS and ARP traffic from being logged.

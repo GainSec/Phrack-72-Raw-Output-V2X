@@ -1,0 +1,406 @@
++ set -x
+++ basename /mnt/c3platpersistent/etc/startup.d//898_wait_cca_ready_check.sh
++ APP_SCR=898_wait_cca_ready_check.sh
++ Debugging=1
++ SUCCESS=0
++ Timeout=100
++ UpTime=0
++ ADB_TOOL=/mnt/c3platpersistent/opt/platform-tools/adb
++ CCA_MAIN=/mnt/c3platpersistent/bin
++ GPS_DATA=/var/log/kinematics-sample-client.log.txt
++ CCA_VERS=/var/log/cca_version_info.txt
++ CCA_STATUS=/var/log/cv2x.config.startup.log
++ LED_PID=/var/run/wait_cca_flash_pid.startup
++ LED_STARTUP_PID=/var/run/flash_pid.startup
++ PROC_CL_LIST=(cca_al_tx cca_al_rx)
++ PROC_D_LIST=(cv2x-daemon qmux)
++ '[' xstart = xstart ']'
++ '[' xUSDoT-QualcommCCA = xUSDoT-QualcommRR -o xUSDoT-QualcommCCA = xUSDoT-QualcommCCA ']'
++ logger '898_wait_cca_ready_check.sh -I- Check if CCA board become ready in time ---'
++ '[' -x /mnt/c3platpersistent/opt/platform-tools/adb ']'
++ /mnt/c3platpersistent/opt/platform-tools/adb devices
+List of devices attached
+* daemon not running. starting it now on port 5037 *
+* daemon started successfully *
+
++ sleep 2
++ uptime_int
++ UpTime=0
++ Return=1
++ '[' -e /proc/uptime ']'
+++ cat /proc/uptime
+++ awk '{printf "%0.f", $1}'
++ UpTime=38
++ '[' 0 -eq 0 ']'
++ logger '898_wait_cca_ready_check.sh -I- UpTime in seconds[proc]: 38 (Timeout = 100)'
++ Return=0
++ '[' 0 -ne 0 ']'
++ Timeout=178
++ logger '898_wait_cca_ready_check.sh -I- We are waiting til UpTime does exceed 178 (38)'
++ '[' 178 -ge 38 ']'
++ checkAdapter_available
++ Return=1
+++ ifconfig -a wwan0
++ Info='wwan0     Link encap:Ethernet  HWaddr a2:78:b1:4b:77:f1  
+          BROADCAST MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)'
++ '[' 0 -eq 0 ']'
++ logger '898_wait_cca_ready_check.sh -I- Required interface is available now [L:126]'
++ Return=0
++ '[' 1 = 1 ']'
++ logger '898_wait_cca_ready_check.sh -D- wwan0     Link encap:Ethernet  HWaddr a2:78:b1:4b:77:f1  
+          BROADCAST MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B) '
++ '[' 0 -ne 0 ']'
++ sleep 2
++ logger '898_wait_cca_ready_check.sh -I-  wwan0 interface found ...'
++ break
++ '[' 178 -le 38 ']'
++ '[' 178 -ge 38 ']'
+++ /mnt/c3platpersistent/opt/platform-tools/adb shell 'ifconfig rmnet_ipa0'
++ Info='rmnet_ipa0 Link encap:UNSPEC  HWaddr 00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00  
+          [NO FLAGS]  MTU:2000  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+'
++ '[' 0 -eq 0 ']'
++ uptime_int
++ UpTime=0
++ Return=1
++ '[' -e /proc/uptime ']'
+++ cat /proc/uptime
+++ awk '{printf "%0.f", $1}'
++ UpTime=40
++ '[' 0 -eq 0 ']'
++ logger '898_wait_cca_ready_check.sh -I- UpTime in seconds[proc]: 40 (Timeout = 178)'
++ Return=0
++ logger '898_wait_cca_ready_check.sh -I- /mnt/c3platpersistent/opt/platform-tools/adb was executing successfully, rmnet is up and running (Tmo/Now : 178 / 40)...'
++ break
++ '[' 178 -le 40 ']'
++ logger '898_wait_cca_ready_check.sh =D= From "rmnet" ready to applications started on CCA takes app. 20-25 seconds ... [L:357] =D='
++ logger '898_wait_cca_ready_check.sh =D= We must not proceed faster as GPS fix will take some time anyhow =D='
++ sleep 25
++ uptime_int
++ UpTime=0
++ Return=1
++ '[' -e /proc/uptime ']'
+++ cat /proc/uptime
+++ awk '{printf "%0.f", $1}'
++ UpTime=65
++ '[' 0 -eq 0 ']'
++ logger '898_wait_cca_ready_check.sh -I- UpTime in seconds[proc]: 65 (Timeout = 178)'
++ Return=0
++ logger '898_wait_cca_ready_check.sh =D= Continue with test applications to check radio status (Tmo/Now : 178 / 65)... =D='
++ prepare_cv2x_apps
++ Return=1
++ log_kill_processes kill
++ Return=1
++ idx=0
++ '[' -n cca_al_tx ']'
+++ ps -axu
+++ grep cca_al_tx
+++ grep -v grep
++ Info=
++ '[' 1 -eq 0 ']'
++ '[' 1 = 2 ']'
++ idx=1
++ '[' -n cca_al_rx ']'
+++ ps -axu
+++ grep cca_al_rx
+++ grep -v grep
++ Info=
++ '[' 1 -eq 0 ']'
++ '[' 1 = 2 ']'
++ idx=2
++ '[' -n '' ']'
++ idx=0
++ '[' -n cv2x-daemon ']'
+++ ps -axu
+++ grep -v grep
+++ grep cv2x-daemon
++ Info=
++ '[' 1 -eq 0 ']'
++ '[' 1 = 2 ']'
++ idx=1
++ '[' -n qmux ']'
+++ ps -axu
+++ grep -v grep
+++ grep qmux
++ Info=
++ '[' 1 -eq 0 ']'
++ '[' 1 = 2 ']'
++ idx=2
++ '[' -n '' ']'
++ sleep 1
++ rm -rf '/mnt/c3platpersistent/bin/qmux_connect_socket *'
++ rm -rf '/mnt/c3platpersistent/bin/qmux_client_socket *'
++ rm -rf '/bin/qmux_connect_socket *'
++ rm -rf '/examples/qmux_connect_socket *'
++ export LD_LIBRARY_PATH=/mnt/c3platpersistent/lib/:/mnt/c3platpersistent/lib/i386-linux-gnu/:/opt/its-g5/lib:/mnt/c3platpersistent/usr/bin/
++ LD_LIBRARY_PATH=/mnt/c3platpersistent/lib/:/mnt/c3platpersistent/lib/i386-linux-gnu/:/opt/its-g5/lib:/mnt/c3platpersistent/usr/bin/
++ cd /mnt/c3platpersistent/bin
++ '[' -x /mnt/c3platpersistent/bin/qmuxd ']'
++ Pid1=4030
++ /mnt/c3platpersistent/bin/qmuxd
++ echo 4030
++ sleep 2
++ logger '898_wait_cca_ready_check.sh -I- CV2X qmux started, PID = 4030  ---'
++ Return=0
++ '[' -x /mnt/c3platpersistent/bin/qmi-wait ']'
++ /mnt/c3platpersistent/bin/qmi-wait
++ logger '898_wait_cca_ready_check.sh -I- CV2X qmi-wait returned : 0  ---'
++ sleep 1
++ '[' -x /mnt/c3platpersistent/bin/cv2x-daemon ']'
++ Pid1=4292
++ echo 4292
++ /mnt/c3platpersistent/bin/cv2x-daemon
++ sleep 2
++ logger '898_wait_cca_ready_check.sh -I- CV2X daemon started, PID = 4292  ---'
++ Return=0
++ start_xtra_daemon
++ '[' -e /mnt/c3platpersistent/bin/xtra.bin ']'
++ '[' -x /mnt/c3platpersistent/bin/xtra-daemon ']'
++ logger '898_wait_cca_ready_check.sh -I- Start xtra_daemon'
++ Pid1=4436
++ echo 4436
++ logger '898_wait_cca_ready_check.sh -I- CV2X xtra-daemon started, PID = 4436 [L:164]  ---'
++ /mnt/c3platpersistent/bin/xtra-daemon -v -a 127.0.0.1 -d ./ -c
++ log_kill_processes log
++ Return=1
++ idx=0
++ '[' -n cca_al_tx ']'
+++ grep -v grep
+++ grep cca_al_tx
+++ ps -axu
++ Info=
++ '[' 1 -eq 0 ']'
++ '[' 1 = 2 ']'
++ idx=1
++ '[' -n cca_al_rx ']'
+++ ps -axu
+++ grep -v grep
+++ grep cca_al_rx
++ Info=
++ '[' 1 -eq 0 ']'
++ '[' 1 = 2 ']'
++ idx=2
++ '[' -n '' ']'
++ idx=0
++ '[' -n cv2x-daemon ']'
+++ grep cv2x-daemon
+++ grep -v grep
+++ ps -axu
++ Info='root      4292  0.0  0.2  30408  2064 ?        Sl   05:17   0:00 /mnt/c3platpersistent/bin/cv2x-daemon'
++ '[' 0 -eq 0 ']'
++ '[' 1 = 2 ']'
++ logger '898_wait_cca_ready_check.sh -I- cv2x-daemon found'
++ Return=0
++ idx=1
++ '[' -n qmux ']'
+++ ps -axu
+++ grep -v grep
+++ grep qmux
++ Info='root      4030  0.0  0.0  11376   436 ?        Sl   05:17   0:00 /mnt/c3platpersistent/bin/qmuxd'
++ '[' 0 -eq 0 ']'
++ '[' 1 = 2 ']'
++ logger '898_wait_cca_ready_check.sh -I- qmux found'
++ Return=0
++ idx=2
++ '[' -n '' ']'
++ '[' 0 -ne 0 ']'
++ logger '898_wait_cca_ready_check.sh -I- qmux should be up now ...'
++ uptime_int
++ UpTime=0
++ Return=1
++ '[' -e /proc/uptime ']'
+++ cat /proc/uptime
+++ awk '{printf "%0.f", $1}'
++ UpTime=72
++ '[' 0 -eq 0 ']'
++ logger '898_wait_cca_ready_check.sh -I- UpTime in seconds[proc]: 72 (Timeout = 178)'
++ Return=0
++ '[' 178 -ge 72 ']'
++ get_V2X_status
++ Return=1
++ '[' -x /mnt/c3platpersistent/bin/cv2x-config ']'
++ /mnt/c3platpersistent/bin/cv2x-config --get-v2x-status
++ grep -q 'V2X rx_status=1' /var/log/cv2x.config.startup.log
++ '[' 1 -eq 0 ']'
++ logger '898_wait_cca_ready_check.sh -I- Module started but no GPS FIX yet [L:147]'
++ '[' 1 -ne 0 ']'
++ logger '898_wait_cca_ready_check.sh -I- CV2X status not OK (Tmo/Now : 178 / 72) ...'
++ sleep 5
++ uptime_int
++ UpTime=0
++ Return=1
++ '[' -e /proc/uptime ']'
+++ cat /proc/uptime
+++ awk '{printf "%0.f", $1}'
++ UpTime=79
++ '[' 0 -eq 0 ']'
++ logger '898_wait_cca_ready_check.sh -I- UpTime in seconds[proc]: 79 (Timeout = 178)'
++ Return=0
++ '[' 178 -ge 79 ']'
++ get_V2X_status
++ Return=1
++ '[' -x /mnt/c3platpersistent/bin/cv2x-config ']'
++ /mnt/c3platpersistent/bin/cv2x-config --get-v2x-status
++ grep -q 'V2X rx_status=1' /var/log/cv2x.config.startup.log
++ '[' 1 -eq 0 ']'
++ logger '898_wait_cca_ready_check.sh -I- Module started but no GPS FIX yet [L:147]'
++ '[' 1 -ne 0 ']'
++ logger '898_wait_cca_ready_check.sh -I- CV2X status not OK (Tmo/Now : 178 / 79) ...'
++ sleep 5
++ uptime_int
++ UpTime=0
++ Return=1
++ '[' -e /proc/uptime ']'
+++ cat /proc/uptime
+++ awk '{printf "%0.f", $1}'
++ UpTime=85
++ '[' 0 -eq 0 ']'
++ logger '898_wait_cca_ready_check.sh -I- UpTime in seconds[proc]: 85 (Timeout = 178)'
++ Return=0
++ '[' 178 -ge 85 ']'
++ get_V2X_status
++ Return=1
++ '[' -x /mnt/c3platpersistent/bin/cv2x-config ']'
++ /mnt/c3platpersistent/bin/cv2x-config --get-v2x-status
++ grep -q 'V2X rx_status=1' /var/log/cv2x.config.startup.log
++ '[' 1 -eq 0 ']'
++ logger '898_wait_cca_ready_check.sh -I- Module started but no GPS FIX yet [L:147]'
++ '[' 1 -ne 0 ']'
++ logger '898_wait_cca_ready_check.sh -I- CV2X status not OK (Tmo/Now : 178 / 85) ...'
++ sleep 5
++ uptime_int
++ UpTime=0
++ Return=1
++ '[' -e /proc/uptime ']'
+++ cat /proc/uptime
+++ awk '{printf "%0.f", $1}'
++ UpTime=91
++ '[' 0 -eq 0 ']'
++ logger '898_wait_cca_ready_check.sh -I- UpTime in seconds[proc]: 91 (Timeout = 178)'
++ Return=0
++ '[' 178 -ge 91 ']'
++ get_V2X_status
++ Return=1
++ '[' -x /mnt/c3platpersistent/bin/cv2x-config ']'
++ /mnt/c3platpersistent/bin/cv2x-config --get-v2x-status
++ grep -q 'V2X rx_status=1' /var/log/cv2x.config.startup.log
++ '[' 1 -eq 0 ']'
++ logger '898_wait_cca_ready_check.sh -I- Module started but no GPS FIX yet [L:147]'
++ '[' 1 -ne 0 ']'
++ logger '898_wait_cca_ready_check.sh -I- CV2X status not OK (Tmo/Now : 178 / 91) ...'
++ sleep 5
++ uptime_int
++ UpTime=0
++ Return=1
++ '[' -e /proc/uptime ']'
+++ cat /proc/uptime
+++ awk '{printf "%0.f", $1}'
++ UpTime=97
++ '[' 0 -eq 0 ']'
++ logger '898_wait_cca_ready_check.sh -I- UpTime in seconds[proc]: 97 (Timeout = 178)'
++ Return=0
++ '[' 178 -ge 97 ']'
++ get_V2X_status
++ Return=1
++ '[' -x /mnt/c3platpersistent/bin/cv2x-config ']'
++ /mnt/c3platpersistent/bin/cv2x-config --get-v2x-status
++ grep -q 'V2X rx_status=1' /var/log/cv2x.config.startup.log
++ '[' 1 -eq 0 ']'
++ logger '898_wait_cca_ready_check.sh -I- Module started but no GPS FIX yet [L:147]'
++ '[' 1 -ne 0 ']'
++ logger '898_wait_cca_ready_check.sh -I- CV2X status not OK (Tmo/Now : 178 / 97) ...'
++ sleep 5
++ uptime_int
++ UpTime=0
++ Return=1
++ '[' -e /proc/uptime ']'
+++ cat /proc/uptime
+++ awk '{printf "%0.f", $1}'
++ UpTime=194
++ '[' 0 -eq 0 ']'
++ logger '898_wait_cca_ready_check.sh -I- UpTime in seconds[proc]: 194 (Timeout = 178)'
++ Return=0
++ '[' 178 -ge 194 ']'
++ '[' 178 -le 194 ']'
++ indicate_cca_ok
++ '[' -e /var/run/wait_cca_flash_pid.startup ']'
++ logger '898_wait_cca_ready_check.sh -I- Stop wait_cca_flash on OK  ---'
+++ cat /var/run/wait_cca_flash_pid.startup
++ kill -9 1589
++ sleep 0.5
++ rm /var/run/wait_cca_flash_pid.startup
++ logger '898_wait_cca_ready_check.sh -I- Turn CCA LED OFF  ---'
++ /bin/status_leds.sh same green off off
++ indicate_default_startup
++ '[' -e /var/run/flash_pid.startup ']'
++ echo 13066
++ logger '898_wait_cca_ready_check.sh -I- Return to normal flash sequence  ---'
++ logger '898_wait_cca_ready_check.sh -I- Timeout reached! 178 / 194'
++ stop_cv2x_apps default
++ logger '898_wait_cca_ready_check.sh -I- stop_cv2x_apps()  ---'
++ '[' -e /var/cv2x-daemon.pid ']'
+++ cat /var/cv2x-daemon.pid
++ Pid=4292
++ rm -rf /var/cv2x-daemon.pid
++ logger '898_wait_cca_ready_check.sh -I- Stopping 4292 now'
++ kill -9 4292
++ rm -rf '/mnt/c3platpersistent/bin/qmux_client_socket*'
+/mnt/c3platpersistent/etc/startup.d//898_wait_cca_ready_check.sh: line 237:  4292 Killed                  $CCA_MAIN/cv2x-daemon &> /dev/null
++ '[' xdefault = xstop ']'
++ '[' -e /var/log/cv2x.config.startup.log ']'
++ rm -rf /var/log/cv2x.config.startup.log
++ log_kill_processes kill
++ Return=1
++ idx=0
++ '[' -n cca_al_tx ']'
+++ grep -v grep
+++ grep cca_al_tx
+++ ps -axu
++ Info=
++ '[' 1 -eq 0 ']'
++ '[' 1 = 2 ']'
++ idx=1
++ '[' -n cca_al_rx ']'
+++ grep cca_al_rx
+++ grep -v grep
+++ ps -axu
++ Info=
++ '[' 1 -eq 0 ']'
++ '[' 1 = 2 ']'
++ idx=2
++ '[' -n '' ']'
++ idx=0
++ '[' -n cv2x-daemon ']'
+++ ps -axu
+++ grep -v grep
+++ grep cv2x-daemon
++ Info=
++ '[' 1 -eq 0 ']'
++ '[' 1 = 2 ']'
++ idx=1
++ '[' -n qmux ']'
+++ ps -axu
+++ grep qmux
+++ grep -v grep
++ Info='root      4030  0.0  0.0  11376   436 ?        Sl   05:17   0:00 /mnt/c3platpersistent/bin/qmuxd'
++ '[' 0 -eq 0 ']'
++ '[' 1 = 2 ']'
++ logger '898_wait_cca_ready_check.sh -I- qmux found'
++ Return=0
++ idx=2
++ '[' -n '' ']'
++ sleep 1
++ logger '898_wait_cca_ready_check.sh -I- Check CCA board done ---'
++ exit 0

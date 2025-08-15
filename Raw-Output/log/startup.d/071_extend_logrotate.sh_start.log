@@ -1,0 +1,107 @@
++ . /mnt/c3platpersistent/share/startup/common.sh
+++ source /etc/os-release
++++ PRETTY_NAME='Debian GNU/Linux 9 (stretch)'
++++ NAME='Debian GNU/Linux'
++++ VERSION_ID=9
++++ VERSION='9 (stretch)'
++++ VERSION_CODENAME=stretch
++++ ID=debian
++++ HOME_URL=https://www.debian.org/
++++ SUPPORT_URL=https://www.debian.org/support
++++ BUG_REPORT_URL=https://bugs.debian.org/
+++ export DEBIAN_VERSION=9
+++ DEBIAN_VERSION=9
+++ export LD_LIBRARY_PATH=/mnt/c3platpersistent/lib/deb9:/mnt/c3platpersistent/lib
+++ LD_LIBRARY_PATH=/mnt/c3platpersistent/lib/deb9:/mnt/c3platpersistent/lib
++++ basename -- /mnt/c3platpersistent/etc/startup.d//071_extend_logrotate.sh
+++ APP_SCR=071_extend_logrotate.sh
++++ readlink -f -- /mnt/c3platpersistent/etc/startup.d//071_extend_logrotate.sh
+++ ACT_DIR=/mnt/c3platpersistent/etc/startup.d/071_extend_logrotate.sh
++++ dirname /mnt/c3platpersistent/etc/startup.d/071_extend_logrotate.sh
+++ ABS_PATH=/mnt/c3platpersistent/etc/startup.d
+++ ENABLE_LED_HANDLER=false
+++ LED_STARTUP_PID=/var/run/flash_pid.startup
+++ LED_HANDLER_IP=127.0.0.1
+++ LED_HANDLER_PORT=6001
+++ LED_HANDLER_AIRLINK_STATISTICS=tx
+++ ETH_IF=eth0
+++ [[ -n /mnt/c3platpersistent ]]
++++ cat /mnt/c3platpersistent/etc/issue
++++ head -n 1
+++ export VARIANTRS=USDoT-NAStack
+++ VARIANTRS=USDoT-NAStack
+++ export WATCHDOG_SCRIPTS_PATH=/var/run/supervision/scripts
+++ WATCHDOG_SCRIPTS_PATH=/var/run/supervision/scripts
+++ mkdir -p /var/run/supervision/scripts
+++ [[ false == false ]]
+++ export ROADSIDE_IPTABLES_ENABLED=true
+++ ROADSIDE_IPTABLES_ENABLED=true
+++ export CERTPATH=/mnt/c3platpersistent/share/its-g5-security-certs/
+++ CERTPATH=/mnt/c3platpersistent/share/its-g5-security-certs/
+++ export GPSD_DEBUG=0
+++ GPSD_DEBUG=0
+++ export GPSD_OPTS=
+++ GPSD_OPTS=
+++ [[ 9 == 9 ]]
+++ export PPSDEVICE=/dev/pps1
+++ PPSDEVICE=/dev/pps1
+++ export GPSD_CYCLE_TIME=1.0
+++ GPSD_CYCLE_TIME=1.0
+++ [[ USDoT-NAStack =~ .*CCA.* ]]
+++ [[ USDoT-NAStack =~ USDoT-QualcommRR ]]
+++ export ENABLED_RADIOS=:NXP:
+++ ENABLED_RADIOS=:NXP:
+++ [[ -e /etc/eeprom-cb/a.dualradio.mode ]]
+++ [[ -e /mnt/c3platpersistent/etc/roadside.cfg ]]
+++ source /mnt/c3platpersistent/etc/roadside.cfg
++++ export AEROLINK_BASE=/mnt/c3platpersistent/etc/aerolink/ieee
++++ AEROLINK_BASE=/mnt/c3platpersistent/etc/aerolink/ieee
++++ export AEROLINK_CONFIG_DIR=/mnt/c3platpersistent/etc/aerolink/ieee/config/
++++ AEROLINK_CONFIG_DIR=/mnt/c3platpersistent/etc/aerolink/ieee/config/
++++ export AEROLINK_STATE_DIR=/mnt/c3platpersistent/etc/aerolink/ieee/state/
++++ AEROLINK_STATE_DIR=/mnt/c3platpersistent/etc/aerolink/ieee/state/
++++ export INIT_TARGET=./share/urb/cfgdb2stack.usdot.urb
++++ INIT_TARGET=./share/urb/cfgdb2stack.usdot.urb
++ LOGROTATE=/etc/logrotate.conf
++ '[' start = start ']'
++ logger '071_extend_logrotate.sh -I- Start ---'
++ '[' -e /etc/logrotate.conf ']'
++ extend_logrotate
++ local 'DEFAULTS=
+   rotate 14
+   daily
+   maxsize=4096k
+   missingok
+   compress
+   copytruncate'
++ local 'MARK=of automatically added content by 071_extend_logrotate.sh'
++ local 'STARTMARK=# --- Start of automatically added content by 071_extend_logrotate.sh ---'
++ local 'ENDMARK=# --- End of automatically added content by 071_extend_logrotate.sh ---'
++ safelyReplaceInFile .orig '/^# --- Start of automatically added content by 071_extend_logrotate.sh ---/,/^# --- End of automatically added content by 071_extend_logrotate.sh ---/c\' /etc/logrotate.conf
++ local backup_extension=.orig
++ local 'regex=/^# --- Start of automatically added content by 071_extend_logrotate.sh ---/,/^# --- End of automatically added content by 071_extend_logrotate.sh ---/c\'
++ local file=/etc/logrotate.conf
++ [[ ! -e /etc/logrotate.conf.safelyReplaceInFile.bak ]]
++ cp -rp /etc/logrotate.conf /etc/logrotate.conf.safelyReplaceInFile.bak
++ [[ -f /etc/logrotate.conf ]]
++ sed -i.orig -e '/^# --- Start of automatically added content by 071_extend_logrotate.sh ---/,/^# --- End of automatically added content by 071_extend_logrotate.sh ---/c\' /etc/logrotate.conf
++ sync
++ cat
++ safelyReplaceInFile .orig '/^\/var\/log\/wtmp *{ *$/,/^}/c\# moved to /etc/logrotate.d/var_log_xtmp' /etc/logrotate.conf
++ local backup_extension=.orig
++ local 'regex=/^\/var\/log\/wtmp *{ *$/,/^}/c\# moved to /etc/logrotate.d/var_log_xtmp'
++ local file=/etc/logrotate.conf
++ [[ ! -e /etc/logrotate.conf.safelyReplaceInFile.bak ]]
++ [[ -f /etc/logrotate.conf ]]
++ sed -i.orig -e '/^\/var\/log\/wtmp *{ *$/,/^}/c\# moved to /etc/logrotate.d/var_log_xtmp' /etc/logrotate.conf
++ sync
++ safelyReplaceInFile .orig '/^\/var\/log\/btmp *{ *$/,/^}/c\# moved to /etc/logrotate.d/var_log_xtmp' /etc/logrotate.conf
++ local backup_extension=.orig
++ local 'regex=/^\/var\/log\/btmp *{ *$/,/^}/c\# moved to /etc/logrotate.d/var_log_xtmp'
++ local file=/etc/logrotate.conf
++ [[ ! -e /etc/logrotate.conf.safelyReplaceInFile.bak ]]
++ [[ -f /etc/logrotate.conf ]]
++ sed -i.orig -e '/^\/var\/log\/btmp *{ *$/,/^}/c\# moved to /etc/logrotate.d/var_log_xtmp' /etc/logrotate.conf
++ sync
++ cat
++ logger '071_extend_logrotate.sh -I- Done ---'

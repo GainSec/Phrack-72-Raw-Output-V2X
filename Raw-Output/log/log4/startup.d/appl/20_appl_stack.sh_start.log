@@ -1,0 +1,16 @@
++ set -x
++ set -x
+++ basename /mnt/c3platpersistent/etc/startup.d/appl/20_appl_stack.sh
++ APP_SCR=20_appl_stack.sh
++ SUCCESS=0
++ TEST_APP=imis_app
++ ITS_DIR=/opt/its-g5/examples
++ APPLICATION=run_sender.sh
++ RUN_SCR=/mnt/c3platpersistent/bin
++ APP_LIST=(run_imis.sh cca_al_tx cca_al_rx imis_app denm_app cam_agg fl_start)
++ '[' xstart = xstart ']'
++ sleep 0.1
++ '[' xUSDoT-QualcommCCA = xUSDoT-QualcommRR -o xUSDoT-QualcommCCA = xUSDoT-QualcommCCA ']'
++ '[' -x /mnt/c3platpersistent/bin/cca_al_tx ']'
++ '[' xUSDoT-QualcommCCA = xITSG5-Spain ']'
++ exit 0

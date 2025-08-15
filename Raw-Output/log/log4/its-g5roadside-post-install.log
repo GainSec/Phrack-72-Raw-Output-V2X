@@ -1,0 +1,17 @@
+Mon Jan  4 06:51:42 UTC 2010 -- configuring its-g5roadside --
+Mon Jan  4 07:00:02 UTC 2010 -- configuring its-g5roadside --
+-- running ./config_init --
+/mnt/c3platpersistent/bin/its-g5roadside-dbg-postinst: line 17: ./config_init: No such file or directory
+-- running ./config_tool configure --
+-- copying /opt/its-g5/etc/init.d/its_g5 to /etc/init.d --
+cp: cannot stat ‘/opt/its-g5/etc/init.d/its_g5’: No such file or directory
+-- running update-rc.d for its_g5 --
+update-rc.d: error: initscript does not exist: /etc/init.d/its_g5
+-- copying /opt/its-g5roadside/etc/init.d/* to /etc/init.d --
+cp: cannot stat ‘/opt/its-g5roadside/etc/init.d/*’: No such file or directory
+-- creating backup of nt.cfg --
+cp: cannot stat ‘/opt/its-g5/cfg/nt.cfg’: No such file or directory
+-- changing value Radio0 in nt.cfg --
+sed: can't read /opt/its-g5/cfg/nt.cfg: No such file or directory
+-- writing value  to al.cfg --
+Mon Jan  4 07:00:26 UTC 2010 -- configuring its-g5roadside finished --

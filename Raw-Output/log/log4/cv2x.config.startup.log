@@ -1,0 +1,7 @@
+[I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:433] Initialized QMI clients
+[I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:597] Read V2X radio status
+[I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:491] Registered WDS callback
+[I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:491] Registered WDS callback
+[I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:597] Read V2X radio status
+[I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-config.c:422] V2X rx_status=2, tx_status=2
+[I][/local/mnt/workspace/aditmath/cv2x-sdk/cv2x-tools/src/cv2x-qmi.c:445] De-initialized QMI clients

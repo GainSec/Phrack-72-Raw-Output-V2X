@@ -1,0 +1,71 @@
+Thu Jan  1 00:00:13 1970: MTD : Detected block device : /firmware for modem
+Thu Jan  1 00:00:13 1970: UBI device number 1, total 536 LEBs (68059136 bytes, 64.9 MiB), available 0 LEBs (0 bytes), LEB size 126976 bytes (124.0 KiB)
+Thu Jan  1 00:00:13 1970: soc: MDM9650
+Thu Jan  1 00:00:13 1970: serialno: 91dc40e9
+Thu Jan  1 00:00:13 1970: done
+Thu Jan  1 00:00:13 1970: Starting modem dependent daemons: /firmware/image
+Thu Jan  1 00:00:13 1970: ls: *.bin: No such file or directory
+Thu Jan  1 00:00:13 1970: mkdir: can't create directory '/lib/firmware/qca9377': Read-only file system
+Thu Jan  1 00:00:13 1970: ls: mba.b00: No such file or directory
+Thu Jan  1 00:00:13 1970: PIL no wcnss image found
+Thu Jan  1 00:00:13 1970: PIL no wcnss image found
+Thu Jan  1 00:00:13 1970: /etc/rcS.d/S37firmware-links.sh: line 150: cd: /firmware/image/qca9377: No such file or directory
+Thu Jan  1 00:00:13 1970: Starting/Loading Ethernet Driver: ifconfig: SIOCGIFFLAGS: No such device
+Thu Jan  1 00:00:14 1970: /etc/rcS.d/S37populate-volatile.sh: line 224: /sbin/restorecon: No such file or directory
+Thu Jan  1 00:00:14 1970: Starting kinematics-server: 
+Thu Jan  1 00:00:14 1970: done
+Thu Jan  1 00:00:14 1970: Starting XTRA daemon: 
+Thu Jan  1 00:00:14 1970: done
+Thu Aug 16 13:26:37 2018: Thu Aug 16 13:26:37 UTC 2018
+Thu Aug 16 13:26:37 2018: hwclock: RTC_SET_TIME: Invalid argument
+Thu Aug 16 13:26:37 2018: INIT: Entering runlevel: 5
+Thu Aug 16 13:26:37 2018: Configuring network interfaces... Cannot find device "mhi_dev_net0"
+Thu Aug 16 13:26:37 2018: Error: argument "mhi_dev_net0" is wrong: Unknown device
+Thu Aug 16 13:26:37 2018: Cannot find device "mhi_dev_net0"
+Thu Aug 16 13:26:37 2018: kernel.core_pattern = /var/tmp/core.%e.%p.%s.%t
+Thu Aug 16 13:26:37 2018: Starting securemsm qseecomd daemon....: done
+Thu Aug 16 13:26:37 2018: mkdir: can't create directory '/system/vendor/': Read-only file system
+Thu Aug 16 13:26:37 2018: ln: /system/lib: Read-only file system
+Thu Aug 16 13:26:37 2018: ln: /vendor: Read-only file system
+Thu Aug 16 13:26:37 2018: chown: /media/card: No such file or directory
+Thu Aug 16 13:26:37 2018: chown: /sdcard: Read-only file system
+Thu Jan  1 00:00:15 1970: Starting LKCore: done
+Thu Jan  1 00:00:15 1970: Starting syslogd done
+Thu Jan  1 00:00:15 1970: Starting tftp_server: /sbin/tftp_server is already running
+Thu Jan  1 00:00:15 1970: 860
+Thu Jan  1 00:00:15 1970: Starting irsc_util: Starting irsc tool
+Thu Jan  1 00:00:15 1970: Failed to open file:/etc/sec_config
+Thu Jan  1 00:00:15 1970: Absent/Invalid config,Default rules apply
+Thu Jan  1 00:00:15 1970: Ending irsc tool
+Thu Jan  1 00:00:15 1970: done
+Thu Jan  1 00:00:15 1970: Starting time_services: done
+Thu Jan  1 00:00:15 1970: Starting/Loading embms_kernel module: done loading embms_kernel module
+Sun Jan  6 00:00:15 1980: Starting atreset: done
+Sun Jan  6 00:00:15 1980: Starting thermal-engine: done
+Sun Jan  6 00:00:15 1980: Starting csd_server: done
+Sun Jan  6 00:00:15 1980: Error: argument "can0" is wrong: Unknown device
+Sun Jan  6 00:00:15 1980: Error: argument "can0" is wrong: Unknown device
+Sun Jan  6 00:00:15 1980: Starting netmgrd: done
+Sun Jan  6 00:00:15 1980: Starting qmi_shutdown_modem: done
+Sun Jan  6 00:00:15 1980: Starting Lighttpd Web Server: self-signing certificates already exist for webserver: lighttpd.
+Sun Jan  6 00:00:16 1980: Starting eMBMs_TunnelingModule: done
+Sun Jan  6 00:00:16 1980: SFS configuration completed.
+Sun Jan  6 00:00:16 1980: Starting qmi_ip: done
+Sun Jan  6 00:00:16 1980: Starting chronyd: done
+Wed Jun 19 07:43:12 2019: Starting rild: done
+Wed Jun 19 07:43:12 2019: Starting subsystem_ramdump: done
+Wed Jun 19 07:43:12 2019: Starting wlan_services... start
+Wed Jun 19 07:43:12 2019: done
+Wed Jun 19 07:43:12 2019: Creating ebtables rule for 802.1Q packets: Done creating routing rule
+Wed Jun 19 07:43:12 2019: 802.1Q packets will be received on eth0
+Wed Jun 19 07:43:12 2019: Starting/Loading Ethernet Driver: done loading ethernet driver
+Wed Jun 19 07:43:12 2019: Starting kinematics-chrony: 
+Wed Jun 19 07:43:12 2019: done
+Wed Jun 19 07:43:13 2019: Starting system message bus: dbus.
+Wed Jun 19 07:43:13 2019: Starting miscellaneous daemons: Starting atreset: done
+Wed Jun 19 07:43:13 2019: done
+Wed Jun 19 07:43:13 2019: Completed starting miscellaneous daemonsStarting Location Launcher Services: done
+Wed Jun 19 07:43:13 2019:  * Starting Avahi Unicast DNS Configuration Daemon: avahi-dnsconfd
+Wed Jun 19 07:43:13 2019:    ...fail!
+Wed Jun 19 07:43:13 2019: Starting powerconfig for MDM9650: Starting fs-scrub-daemon: /sbin/fs-scrub-daemon is already running
+Wed Jun 19 07:43:13 2019: 861

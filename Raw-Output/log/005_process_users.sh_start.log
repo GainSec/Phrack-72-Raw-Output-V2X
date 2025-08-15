@@ -1,0 +1,181 @@
++ test -x /bin/leo_helpers.sh
++ . /mnt/c3platpersistent/share/startup/common.sh
+++ source /etc/os-release
++++ PRETTY_NAME='Debian GNU/Linux 9 (stretch)'
++++ NAME='Debian GNU/Linux'
++++ VERSION_ID=9
++++ VERSION='9 (stretch)'
++++ VERSION_CODENAME=stretch
++++ ID=debian
++++ HOME_URL=https://www.debian.org/
++++ SUPPORT_URL=https://www.debian.org/support
++++ BUG_REPORT_URL=https://bugs.debian.org/
+++ export DEBIAN_VERSION=9
+++ DEBIAN_VERSION=9
+++ export LD_LIBRARY_PATH=/mnt/c3platpersistent/lib/deb9:/mnt/c3platpersistent/lib
+++ LD_LIBRARY_PATH=/mnt/c3platpersistent/lib/deb9:/mnt/c3platpersistent/lib
++++ basename -- /mnt/c3platpersistent/etc/startup.d//005_process_users.sh
+++ APP_SCR=005_process_users.sh
++++ readlink -f -- /mnt/c3platpersistent/etc/startup.d//005_process_users.sh
+++ ACT_DIR=/mnt/c3platpersistent/etc/startup.d/005_process_users.sh
++++ dirname /mnt/c3platpersistent/etc/startup.d/005_process_users.sh
+++ ABS_PATH=/mnt/c3platpersistent/etc/startup.d
+++ ENABLE_LED_HANDLER=false
+++ LED_STARTUP_PID=/var/run/flash_pid.startup
+++ LED_HANDLER_IP=127.0.0.1
+++ LED_HANDLER_PORT=6001
+++ LED_HANDLER_AIRLINK_STATISTICS=tx
+++ ETH_IF=eth0
+++ [[ -n /mnt/c3platpersistent ]]
++++ cat /mnt/c3platpersistent/etc/issue
++++ head -n 1
+++ export VARIANTRS=USDoT-NAStack
+++ VARIANTRS=USDoT-NAStack
+++ export WATCHDOG_SCRIPTS_PATH=/var/run/supervision/scripts
+++ WATCHDOG_SCRIPTS_PATH=/var/run/supervision/scripts
+++ mkdir -p /var/run/supervision/scripts
+++ [[ false == false ]]
+++ export ROADSIDE_IPTABLES_ENABLED=true
+++ ROADSIDE_IPTABLES_ENABLED=true
+++ export CERTPATH=/mnt/c3platpersistent/share/its-g5-security-certs/
+++ CERTPATH=/mnt/c3platpersistent/share/its-g5-security-certs/
+++ export GPSD_DEBUG=0
+++ GPSD_DEBUG=0
+++ export GPSD_OPTS=
+++ GPSD_OPTS=
+++ [[ 9 == 9 ]]
+++ export PPSDEVICE=/dev/pps1
+++ PPSDEVICE=/dev/pps1
+++ export GPSD_CYCLE_TIME=1.0
+++ GPSD_CYCLE_TIME=1.0
+++ [[ USDoT-NAStack =~ .*CCA.* ]]
+++ [[ USDoT-NAStack =~ USDoT-QualcommRR ]]
+++ export ENABLED_RADIOS=:NXP:
+++ ENABLED_RADIOS=:NXP:
+++ [[ -e /etc/eeprom-cb/a.dualradio.mode ]]
+++ [[ -e /mnt/c3platpersistent/etc/roadside.cfg ]]
+++ source /mnt/c3platpersistent/etc/roadside.cfg
++++ export AEROLINK_BASE=/mnt/c3platpersistent/etc/aerolink/ieee
++++ AEROLINK_BASE=/mnt/c3platpersistent/etc/aerolink/ieee
++++ export AEROLINK_CONFIG_DIR=/mnt/c3platpersistent/etc/aerolink/ieee/config/
++++ AEROLINK_CONFIG_DIR=/mnt/c3platpersistent/etc/aerolink/ieee/config/
++++ export AEROLINK_STATE_DIR=/mnt/c3platpersistent/etc/aerolink/ieee/state/
++++ AEROLINK_STATE_DIR=/mnt/c3platpersistent/etc/aerolink/ieee/state/
++++ export INIT_TARGET=./share/urb/cfgdb2stack.usdot.urb
++++ INIT_TARGET=./share/urb/cfgdb2stack.usdot.urb
++ '[' xstart = xstart ']'
++ logger '005_process_users.sh -I- Start ---'
++ [[ ! -e /mnt/c3platpersistent/etc/admin.accounts ]]
++ IFS='
+'
+++ cat /mnt/c3platpersistent/etc/admin.accounts
++ for LINE in $(cat "${KAPSCH_ROOT}/etc/admin.accounts")
++ IFS=';'
++ read -r -a INFO
++ [[ -n '' ]]
++ GECOS=USDoT-NAStack
++ logger '005_process_users.sh -D- adding user admin (info: USDoT-NAStack)'
++ getent passwd admin
+admin:x:1001:1001::/home/admin:/bin/bash
++ chmod 0400 /mnt/c3platpersistent/etc/admin.accounts
++ chown root:root /mnt/c3platpersistent/etc/admin.accounts
++ cp -vp /etc/skel/.bash_logout /etc/skel/.bashrc /etc/skel/.profile /root
+'/etc/skel/.bash_logout' -> '/root/.bash_logout'
+'/etc/skel/.bashrc' -> '/root/.bashrc'
+'/etc/skel/.profile' -> '/root/.profile'
++ chown -R root: /root
+++ mktemp
++ DIRCOLORS_FILE=/tmp/tmp.kftYhLn1Aq
++ dircolors -p
++ safelyReplaceInFile .orig 's/DIR 01;34/DIR 01;94/g' /tmp/tmp.kftYhLn1Aq
++ local backup_extension=.orig
++ local 'regex=s/DIR 01;34/DIR 01;94/g'
++ local file=/tmp/tmp.kftYhLn1Aq
++ [[ ! -e /tmp/tmp.kftYhLn1Aq.safelyReplaceInFile.bak ]]
++ cp -rp /tmp/tmp.kftYhLn1Aq /tmp/tmp.kftYhLn1Aq.safelyReplaceInFile.bak
++ [[ -f /tmp/tmp.kftYhLn1Aq ]]
++ sed -i.orig -e 's/DIR 01;34/DIR 01;94/g' /tmp/tmp.kftYhLn1Aq
++ sync
+++ cat /etc/eeprom-cb/s.users
+++ cut -d : -f 2
+++ cat /mnt/c3platpersistent/etc/admin.accounts
+++ cut -d ';' -f 2
++ for i in root kapsch $(cat /etc/eeprom-cb/s.users | cut -d : -f 2) $(cat ${KAPSCH_ROOT}/etc/admin.accounts | cut -d \; -f 2)
++ [[ root == root ]]
++ TGTHOME=/root
++ [[ ! -e /root ]]
++ [[ -e /mnt/c3platpersistent/etc/ssh/admin.keys/root.pub ]]
++ logger '005_process_users.sh -I- configuring bash for user root'
++ extend_bashrc /root/.bashrc
++ [[ ! -e /root/.bashrc ]]
++ cat
+++ cat /mnt/c3platpersistent/etc/issue
+++ head -n 1
++ extend_bash_alias /root/.bash_aliases
++ cat
++ create_vimrc /root/.vimrc
++ [[ ! -e /root/.vimrc ]]
++ [[ -e /usr/share/vim/vim80/defaults.vim ]]
++ cp -rp /usr/share/vim/vim80/defaults.vim /root/.vimrc
++ cat
++ cp /tmp/tmp.kftYhLn1Aq /root/.dircolors
++ chown -R root: /root
++ for i in root kapsch $(cat /etc/eeprom-cb/s.users | cut -d : -f 2) $(cat ${KAPSCH_ROOT}/etc/admin.accounts | cut -d \; -f 2)
++ [[ kapsch == root ]]
++ TGTHOME=/home/kapsch
++ [[ ! -e /home/kapsch ]]
++ [[ -e /mnt/c3platpersistent/etc/ssh/admin.keys/kapsch.pub ]]
++ logger '005_process_users.sh -I- configuring bash for user kapsch'
++ extend_bashrc /home/kapsch/.bashrc
++ [[ ! -e /home/kapsch/.bashrc ]]
++ cat
+++ cat /mnt/c3platpersistent/etc/issue
+++ head -n 1
++ extend_bash_alias /home/kapsch/.bash_aliases
++ cat
++ create_vimrc /home/kapsch/.vimrc
++ [[ ! -e /home/kapsch/.vimrc ]]
++ [[ -e /usr/share/vim/vim80/defaults.vim ]]
++ cp -rp /usr/share/vim/vim80/defaults.vim /home/kapsch/.vimrc
++ cat
++ cp /tmp/tmp.kftYhLn1Aq /home/kapsch/.dircolors
++ chown -R kapsch: /home/kapsch
++ for i in root kapsch $(cat /etc/eeprom-cb/s.users | cut -d : -f 2) $(cat ${KAPSCH_ROOT}/etc/admin.accounts | cut -d \; -f 2)
++ [[ admin == root ]]
++ TGTHOME=/home/admin
++ [[ ! -e /home/admin ]]
++ [[ -e /mnt/c3platpersistent/etc/ssh/admin.keys/admin.pub ]]
++ logger '005_process_users.sh -I- configuring bash for user admin'
++ extend_bashrc /home/admin/.bashrc
++ [[ ! -e /home/admin/.bashrc ]]
++ cat
+++ cat /mnt/c3platpersistent/etc/issue
+++ head -n 1
++ extend_bash_alias /home/admin/.bash_aliases
++ cat
++ create_vimrc /home/admin/.vimrc
++ [[ ! -e /home/admin/.vimrc ]]
++ [[ -e /usr/share/vim/vim80/defaults.vim ]]
++ cp -rp /usr/share/vim/vim80/defaults.vim /home/admin/.vimrc
++ cat
++ cp /tmp/tmp.kftYhLn1Aq /home/admin/.dircolors
++ chown -R admin: /home/admin
++ for i in root kapsch $(cat /etc/eeprom-cb/s.users | cut -d : -f 2) $(cat ${KAPSCH_ROOT}/etc/admin.accounts | cut -d \; -f 2)
++ [[ admin == root ]]
++ TGTHOME=/home/admin
++ [[ ! -e /home/admin ]]
++ [[ -e /mnt/c3platpersistent/etc/ssh/admin.keys/admin.pub ]]
++ logger '005_process_users.sh -I- configuring bash for user admin'
++ extend_bashrc /home/admin/.bashrc
++ [[ ! -e /home/admin/.bashrc ]]
++ cat
+++ cat /mnt/c3platpersistent/etc/issue
+++ head -n 1
++ extend_bash_alias /home/admin/.bash_aliases
++ cat
++ create_vimrc /home/admin/.vimrc
++ [[ ! -e /home/admin/.vimrc ]]
++ cat
++ cp /tmp/tmp.kftYhLn1Aq /home/admin/.dircolors
++ chown -R admin: /home/admin
++ rm -f /tmp/tmp.kftYhLn1Aq

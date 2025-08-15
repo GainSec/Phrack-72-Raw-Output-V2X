@@ -1,0 +1,17 @@
+Editing `/etc/wvdial.conf'.
+
+Scanning your serial ports for a modem.
+
+ttyS0<*1>: ATQ0 V1 E1 -- failed with 2400 baud, next try: 9600 baud
+ttyS0<*1>: ATQ0 V1 E1 -- failed with 9600 baud, next try: 115200 baud
+ttyS0<*1>: ATQ0 V1 E1 -- and failed too at 115200, giving up.
+ttyS1<*1>: ATQ0 V1 E1 -- failed with 2400 baud, next try: 9600 baud
+ttyS1<*1>: ATQ0 V1 E1 -- failed with 9600 baud, next try: 115200 baud
+ttyS1<*1>: ATQ0 V1 E1 -- and failed too at 115200, giving up.
+Modem Port Scan<*1>: S2   S3   
+
+
+Sorry, no modem was detected!  Is it in use by another program?
+Did you configure it properly with setserial?
+
+Please read the FAQ at http://alumnit.ca/wiki/?WvDial

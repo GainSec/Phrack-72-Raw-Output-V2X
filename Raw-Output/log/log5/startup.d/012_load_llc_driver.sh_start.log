@@ -1,0 +1,23 @@
++ set -x
++ . /mnt/c3platpersistent/share/startup/common.sh
++++ basename /mnt/c3platpersistent/etc/startup.d//012_load_llc_driver.sh
+++ APP_SCR=012_load_llc_driver.sh
++++ readlink -f /mnt/c3platpersistent/etc/startup.d//012_load_llc_driver.sh
+++ ACT_DIR=/mnt/c3platpersistent/etc/startup.d/012_load_llc_driver.sh
++++ dirname /mnt/c3platpersistent/etc/startup.d/012_load_llc_driver.sh
+++ ABS_PATH=/mnt/c3platpersistent/etc/startup.d
+++ LED_STARTUP_PID=/var/run/flash_pid.startup
+++ [[ -n /mnt/c3platpersistent ]]
+++ [[ -z USDoT-QualcommCCA ]]
+++ source /mnt/c3platpersistent/etc/roadside.cfg
++++ [[ false == false ]]
++++ [[ USDoT-QualcommCCA == ITSG5-HWEngland ]]
++++ export ROADSIDE_IPTABLES_ENABLED=false
++++ ROADSIDE_IPTABLES_ENABLED=false
++++ export CERTPATH=/mnt/c3platpersistent/share/its-g5-security-certs/
++++ CERTPATH=/mnt/c3platpersistent/share/its-g5-security-certs/
++ DRIVER=/mnt/c3platpersistent/opt/11p/modules/cw-llc.ko
++ '[' xstart = xstart ']'
++ '[' xUSDoT-QualcommCCA = xUSDoT-QualcommRR -o xUSDoT-QualcommCCA = xUSDoT-QualcommCCA ']'
++ logger '012_load_llc_driver.sh -D- Skip due to board configuration'
++ exit 0

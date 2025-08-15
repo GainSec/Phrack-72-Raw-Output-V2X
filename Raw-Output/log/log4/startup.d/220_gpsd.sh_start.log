@@ -1,0 +1,35 @@
++ set -x
++ . /mnt/c3platpersistent/share/startup/common.sh
++++ basename /mnt/c3platpersistent/etc/startup.d//220_gpsd.sh
+++ APP_SCR=220_gpsd.sh
++++ readlink -f /mnt/c3platpersistent/etc/startup.d//220_gpsd.sh
+++ ACT_DIR=/mnt/c3platpersistent/etc/startup.d/220_gpsd.sh
++++ dirname /mnt/c3platpersistent/etc/startup.d/220_gpsd.sh
+++ ABS_PATH=/mnt/c3platpersistent/etc/startup.d
+++ LED_STARTUP_PID=/var/run/flash_pid.startup
+++ [[ -n /mnt/c3platpersistent ]]
+++ [[ -z USDoT-QualcommCCA ]]
+++ source /mnt/c3platpersistent/etc/roadside.cfg
++++ [[ false == false ]]
++++ [[ USDoT-QualcommCCA == ITSG5-HWEngland ]]
++++ export ROADSIDE_IPTABLES_ENABLED=false
++++ ROADSIDE_IPTABLES_ENABLED=false
++++ export CERTPATH=/mnt/c3platpersistent/share/its-g5-security-certs/
++++ CERTPATH=/mnt/c3platpersistent/share/its-g5-security-certs/
++ GPSDSCRIPTSRC=/mnt/c3platpersistent/etc/gpsd.in
++ GPSDSCRIPT=/etc/init.d/gpsd
++ PIDFILE=/var/run/gpsd.pid
++ GPSDCONFIG=/etc/default/gpsd
++ '[' -e /dev/ttyGNSS ']'
++ GPSDEVICE=/dev/ttyGNSS
++ logger 'Startup::GPSD using device /dev/ttyGNSS'
++ '[' xstart = xstart ']'
++ cp /mnt/c3platpersistent/etc/gpsd.in /etc/init.d/gpsd
++ chmod 0755 /etc/init.d/gpsd
++ cat
++ echo out
++ echo 1
++ logger 'Startup::GPSD PPS source switchted to GNSS'
++ '[' -x /usr/sbin/gpsd ']'
++ systemctl start gpsd
+A dependency job for gpsd.service failed. See 'journalctl -xn' for details.

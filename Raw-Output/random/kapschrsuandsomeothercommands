@@ -1,0 +1,39 @@
+/mnt/c3platpersistent/bin/roadside
+
+./roadside snmp fw-default
+
+--
+This enables forwarding of V2X messages with the default configuration.
+The script sets the destination IP to 127.0.0.1 and uses the default forwarding port ($FWDPORT_PSID20), which is 12345.
+--
+
+./road snmp fw-recv
+--
+This command uses nc (netcat) to listen on the port (12345) and prints captured data in a hex dump format.
+--
+
+Set the forwarding destination IPv4 address to localhost (127.0.0.1):
+-
+snmpset -v2c -c public 127.0.0.1 RSU-MIB::rsuDsrcFwdDestIpAddr.1 x 7f000001
+-
+Set the forwarding destination port (e.g., 12345):
+-
+snmpset -v2c -c public 127.0.0.1 RSU-MIB::rsuDsrcFwdDestPort.1 i 12345
+-
+Enable forwarding:
+-
+snmpset -v2c -c public 127.0.0.1 RSU-MIB::rsuDsrcFwdEnable.1 i 1
+-
+Optionally, set the PSID or specific message type (if required):
+-
+snmpset -v2c -c public 127.0.0.1 RSU-MIB::rsuDsrcFwdPsid.1 x 20
+-
+
+---
+Using nc: Listen for UDP messages on the configured port:
+-
+nc -u -l -p 12345
+-
+Using tcpdump: Monitor the loopback interface for UDP packets on the forwarding port:
+-
+tcpdump -i lo udp port 12345 -X

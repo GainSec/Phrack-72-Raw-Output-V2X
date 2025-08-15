@@ -1,0 +1,63 @@
++ set -x
++ . /mnt/c3platpersistent/share/startup/common.sh
++++ basename /mnt/c3platpersistent/etc/startup.d//100_check_production_data.sh
+++ APP_SCR=100_check_production_data.sh
++++ readlink -f /mnt/c3platpersistent/etc/startup.d//100_check_production_data.sh
+++ ACT_DIR=/mnt/c3platpersistent/etc/startup.d/100_check_production_data.sh
++++ dirname /mnt/c3platpersistent/etc/startup.d/100_check_production_data.sh
+++ ABS_PATH=/mnt/c3platpersistent/etc/startup.d
+++ LED_STARTUP_PID=/var/run/flash_pid.startup
+++ [[ -n /mnt/c3platpersistent ]]
+++ [[ -z USDoT-QualcommCCA ]]
+++ source /mnt/c3platpersistent/etc/roadside.cfg
++++ [[ false == false ]]
++++ [[ USDoT-QualcommCCA == ITSG5-HWEngland ]]
++++ export ROADSIDE_IPTABLES_ENABLED=false
++++ ROADSIDE_IPTABLES_ENABLED=false
++++ export CERTPATH=/mnt/c3platpersistent/share/its-g5-security-certs/
++++ CERTPATH=/mnt/c3platpersistent/share/its-g5-security-certs/
++ ProdDir=/etc/eeprom-cb
++ PredefinedDir=/mnt/c3platpersistent/etc/eeprom-cb
++ Files='p.radio1.a.mac p.radio1.ant1.atten p.radio1.ant2.atten p.radio1.b.mac p.radio1.name p.radio2.a.mac p.radio2.ant1.atten p.radio2.ant2.atten p.radio2.b.mac p.radio2.name'
++ '[' xstart = xstart ']'
++ for a in '$Files'
++ '[' -e /etc/eeprom-cb/p.radio1.a.mac ']'
++ echo '100_check_production_data.sh -I- /etc/eeprom-cb/p.radio1.a.mac existing'
+100_check_production_data.sh -I- /etc/eeprom-cb/p.radio1.a.mac existing
++ for a in '$Files'
++ '[' -e /etc/eeprom-cb/p.radio1.ant1.atten ']'
++ echo '100_check_production_data.sh -I- /etc/eeprom-cb/p.radio1.ant1.atten existing'
+100_check_production_data.sh -I- /etc/eeprom-cb/p.radio1.ant1.atten existing
++ for a in '$Files'
++ '[' -e /etc/eeprom-cb/p.radio1.ant2.atten ']'
++ echo '100_check_production_data.sh -I- /etc/eeprom-cb/p.radio1.ant2.atten existing'
+100_check_production_data.sh -I- /etc/eeprom-cb/p.radio1.ant2.atten existing
++ for a in '$Files'
++ '[' -e /etc/eeprom-cb/p.radio1.b.mac ']'
++ echo '100_check_production_data.sh -I- /etc/eeprom-cb/p.radio1.b.mac existing'
+100_check_production_data.sh -I- /etc/eeprom-cb/p.radio1.b.mac existing
++ for a in '$Files'
++ '[' -e /etc/eeprom-cb/p.radio1.name ']'
++ echo '100_check_production_data.sh -I- /etc/eeprom-cb/p.radio1.name existing'
+100_check_production_data.sh -I- /etc/eeprom-cb/p.radio1.name existing
++ for a in '$Files'
++ '[' -e /etc/eeprom-cb/p.radio2.a.mac ']'
++ echo '100_check_production_data.sh -I- /etc/eeprom-cb/p.radio2.a.mac existing'
+100_check_production_data.sh -I- /etc/eeprom-cb/p.radio2.a.mac existing
++ for a in '$Files'
++ '[' -e /etc/eeprom-cb/p.radio2.ant1.atten ']'
++ echo '100_check_production_data.sh -I- /etc/eeprom-cb/p.radio2.ant1.atten existing'
+100_check_production_data.sh -I- /etc/eeprom-cb/p.radio2.ant1.atten existing
++ for a in '$Files'
++ '[' -e /etc/eeprom-cb/p.radio2.ant2.atten ']'
++ echo '100_check_production_data.sh -I- /etc/eeprom-cb/p.radio2.ant2.atten existing'
+100_check_production_data.sh -I- /etc/eeprom-cb/p.radio2.ant2.atten existing
++ for a in '$Files'
++ '[' -e /etc/eeprom-cb/p.radio2.b.mac ']'
++ echo '100_check_production_data.sh -I- /etc/eeprom-cb/p.radio2.b.mac existing'
+100_check_production_data.sh -I- /etc/eeprom-cb/p.radio2.b.mac existing
++ for a in '$Files'
++ '[' -e /etc/eeprom-cb/p.radio2.name ']'
++ echo '100_check_production_data.sh -I- /etc/eeprom-cb/p.radio2.name existing'
+100_check_production_data.sh -I- /etc/eeprom-cb/p.radio2.name existing
++ logger '100_check_production_data.sh -D- Done. ---'

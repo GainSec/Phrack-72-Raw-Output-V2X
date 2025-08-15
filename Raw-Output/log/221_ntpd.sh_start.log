@@ -1,0 +1,137 @@
++ . /mnt/c3platpersistent/share/startup/common.sh
+++ source /etc/os-release
++++ PRETTY_NAME='Debian GNU/Linux 9 (stretch)'
++++ NAME='Debian GNU/Linux'
++++ VERSION_ID=9
++++ VERSION='9 (stretch)'
++++ VERSION_CODENAME=stretch
++++ ID=debian
++++ HOME_URL=https://www.debian.org/
++++ SUPPORT_URL=https://www.debian.org/support
++++ BUG_REPORT_URL=https://bugs.debian.org/
+++ export DEBIAN_VERSION=9
+++ DEBIAN_VERSION=9
+++ export LD_LIBRARY_PATH=/mnt/c3platpersistent/lib/deb9:/mnt/c3platpersistent/lib
+++ LD_LIBRARY_PATH=/mnt/c3platpersistent/lib/deb9:/mnt/c3platpersistent/lib
++++ basename -- /mnt/c3platpersistent/etc/startup.d//221_ntpd.sh
+++ APP_SCR=221_ntpd.sh
++++ readlink -f -- /mnt/c3platpersistent/etc/startup.d//221_ntpd.sh
+++ ACT_DIR=/mnt/c3platpersistent/etc/startup.d/221_ntpd.sh
++++ dirname /mnt/c3platpersistent/etc/startup.d/221_ntpd.sh
+++ ABS_PATH=/mnt/c3platpersistent/etc/startup.d
+++ ENABLE_LED_HANDLER=false
+++ LED_STARTUP_PID=/var/run/flash_pid.startup
+++ LED_HANDLER_IP=127.0.0.1
+++ LED_HANDLER_PORT=6001
+++ LED_HANDLER_AIRLINK_STATISTICS=tx
+++ ETH_IF=eth0
+++ [[ -n /mnt/c3platpersistent ]]
++++ cat /mnt/c3platpersistent/etc/issue
++++ head -n 1
+++ export VARIANTRS=USDoT-NAStack
+++ VARIANTRS=USDoT-NAStack
+++ export WATCHDOG_SCRIPTS_PATH=/var/run/supervision/scripts
+++ WATCHDOG_SCRIPTS_PATH=/var/run/supervision/scripts
+++ mkdir -p /var/run/supervision/scripts
+++ [[ false == false ]]
+++ export ROADSIDE_IPTABLES_ENABLED=true
+++ ROADSIDE_IPTABLES_ENABLED=true
+++ export CERTPATH=/mnt/c3platpersistent/share/its-g5-security-certs/
+++ CERTPATH=/mnt/c3platpersistent/share/its-g5-security-certs/
+++ export GPSD_DEBUG=0
+++ GPSD_DEBUG=0
+++ export GPSD_OPTS=
+++ GPSD_OPTS=
+++ [[ 9 == 9 ]]
+++ export PPSDEVICE=/dev/pps1
+++ PPSDEVICE=/dev/pps1
+++ export GPSD_CYCLE_TIME=1.0
+++ GPSD_CYCLE_TIME=1.0
+++ [[ USDoT-NAStack =~ .*CCA.* ]]
+++ [[ USDoT-NAStack =~ USDoT-QualcommRR ]]
+++ export ENABLED_RADIOS=:NXP:
+++ ENABLED_RADIOS=:NXP:
+++ [[ -e /etc/eeprom-cb/a.dualradio.mode ]]
+++ [[ -e /mnt/c3platpersistent/etc/roadside.cfg ]]
+++ source /mnt/c3platpersistent/etc/roadside.cfg
++++ export AEROLINK_BASE=/mnt/c3platpersistent/etc/aerolink/ieee
++++ AEROLINK_BASE=/mnt/c3platpersistent/etc/aerolink/ieee
++++ export AEROLINK_CONFIG_DIR=/mnt/c3platpersistent/etc/aerolink/ieee/config/
++++ AEROLINK_CONFIG_DIR=/mnt/c3platpersistent/etc/aerolink/ieee/config/
++++ export AEROLINK_STATE_DIR=/mnt/c3platpersistent/etc/aerolink/ieee/state/
++++ AEROLINK_STATE_DIR=/mnt/c3platpersistent/etc/aerolink/ieee/state/
++++ export INIT_TARGET=./share/urb/cfgdb2stack.usdot.urb
++++ INIT_TARGET=./share/urb/cfgdb2stack.usdot.urb
++ NTPDCONFIG=/etc/ntpd.conf
++ NTPDSCRIPTSRC=/mnt/c3platpersistent/etc/init.d/ntp.in
++ NTPDSCRIPT=/etc/init.d/ntp
++ PIDFILE=/var/run/ntpd.pid
++ HWCLOCKSYNCPID=/var/run/ntp_to_hwclock.pid
++ [[ -x /mnt/c3platpersistent/sbin/hwclock ]]
++ HWCBIN='/mnt/c3platpersistent/sbin/hwclock -v'
++ mv /etc/init.d/ntp /etc/init.d/ntp.orig
++ cp /mnt/c3platpersistent/etc/init.d/ntp.in /etc/init.d/ntp
++ chmod 0755 /etc/init.d/ntp
++ mv /etc/ntpd.conf /etc/ntpd.conf.orig
+mv: cannot stat '/etc/ntpd.conf': No such file or directory
++ true
++ export ACT_DIR
++ export PIDFILE
++ cat /mnt/c3platpersistent/etc/ntpd.conf.in
++ envsubst
++ [[ start == start ]]
++ echo 'NTPD_OPTS="-u ntp:ntp -g -l /var/log/ntpd.log"'
++ date
+Fri Jan 17 02:29:05 UTC 2025
++ /mnt/c3platpersistent/sbin/hwclock -v --show --utc
+hwclock from util-linux UNKNOWN
+System Time: 1737080945.480957
+Trying to open: /dev/rtc0
+Using the rtc interface to the clock.
+Last drift adjustment done at 1736998414 seconds after 1969
+Last calibration done at 1736998414 seconds after 1969
+Hardware clock is on UTC time
+Assuming hardware clock is kept in UTC time.
+Waiting for clock tick...
+ioctl(3, RTC_UIE_ON, 0): Invalid argument
+Waiting in loop for time from /dev/rtc0 to change
+...got clock tick
+Time read from Hardware Clock: 2025/01/17 02:29:06
+Hw clock time : 2025/01/17 02:29:06 = 1737080946 seconds since 1969
+Time since last adjustment is 82532 seconds
+Calculated Hardware Clock drift is 0.000000 seconds
+2025-01-17 02:29:05.481612+00:00
++ /etc/init.d/ntp start
+Starting ntp (via systemctl): ntp.service.
++ sleep 5
++ logger 'startup::NTPD started.'
++ timeout -k 5 3 ntpq -pn
+     remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+ 127.127.46.0    .GPSd.           0 l    -   16    0    0.000    0.000   0.000
++ timeout -k 5 3 ntpshmmon
+ntpshmmon: version 3.21
+#      Name  Seen@                 Clock                 Real                 L Prc
++ true
++ date
+Fri Jan 17 02:29:14 UTC 2025
++ /mnt/c3platpersistent/sbin/hwclock -v --show --utc
+hwclock from util-linux UNKNOWN
+System Time: 1737080954.385224
+Trying to open: /dev/rtc0
+Using the rtc interface to the clock.
+Last drift adjustment done at 1736998414 seconds after 1969
+Last calibration done at 1736998414 seconds after 1969
+Hardware clock is on UTC time
+Assuming hardware clock is kept in UTC time.
+Waiting for clock tick...
+ioctl(3, RTC_UIE_ON, 0): Invalid argument
+Waiting in loop for time from /dev/rtc0 to change
+...got clock tick
+Time read from Hardware Clock: 2025/01/17 02:29:15
+Hw clock time : 2025/01/17 02:29:15 = 1737080955 seconds since 1969
+Time since last adjustment is 82541 seconds
+Calculated Hardware Clock drift is 0.000000 seconds
+2025-01-17 02:29:14.385827+00:00
++ echo 3193
++ /mnt/c3platpersistent/bin/ntp_to_hwclock

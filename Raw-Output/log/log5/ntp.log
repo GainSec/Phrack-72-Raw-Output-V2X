@@ -1,0 +1,6 @@
+ 4 Jan 05:16:38 ntpd[1501]: Listen and drop on 0 v6wildcard [::]:123
+ 4 Jan 05:16:38 ntpd[1501]: Listen and drop on 1 v4wildcard 0.0.0.0:123
+ 4 Jan 05:16:38 ntpd[1501]: Listen normally on 2 lo 127.0.0.1:123
+ 4 Jan 05:16:38 ntpd[1501]: Listen normally on 3 eth0:1 192.168.1.172:123
+ 4 Jan 05:16:38 ntpd[1501]: Listen normally on 4 eth0 192.168.1.171:123
+ 4 Jan 05:16:38 ntpd[1501]: Listening on routing socket on fd #21 for interface updates

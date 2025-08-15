@@ -1,0 +1,474 @@
+++ date
++ echo 'Fri Jan 17 03:17:01 UTC 2025 --- starting logrotate'
+Fri Jan 17 03:17:01 UTC 2025 --- starting logrotate
++ test -x /usr/sbin/logrotate
++ [[ 0 != 0 ]]
++ /usr/sbin/logrotate -v /etc/logrotate.conf
+reading config file /etc/logrotate.conf
+including /etc/logrotate.d
+Ignoring rsyslog.disabled, because of *.disabled pattern match
+reading config file apt
+reading config file dpkg
+reading config file ppp
+reading config file pure-ftpd-common
+reading config file syslog-ng
+reading config file var_log_xtmp
+reading config file watchdog
+Reading state from file: /var/lib/logrotate/status
+Allocating hash table for state file, size 64 entries
+
+Handling 23 logs
+
+rotating pattern: /var/log/apt/term.log  monthly (12 rotations)
+empty log files are not rotated, log files >= 4194304 are rotated earlier, old logs are removed
+considering log /var/log/apt/term.log
+Creating new state
+  Now: 2025-01-17 03:17
+  Last rotated at 2025-01-17 03:00
+  log does not need rotating (log has been already rotated)
+
+rotating pattern: /var/log/apt/history.log  monthly (12 rotations)
+empty log files are not rotated, log files >= 4194304 are rotated earlier, old logs are removed
+considering log /var/log/apt/history.log
+Creating new state
+  Now: 2025-01-17 03:17
+  Last rotated at 2025-01-17 03:00
+  log does not need rotating (log has been already rotated)
+
+rotating pattern: /var/log/dpkg.log  monthly (12 rotations)
+empty log files are not rotated, log files >= 4194304 are rotated earlier, old logs are removed
+considering log /var/log/dpkg.log
+Creating new state
+  Now: 2025-01-17 03:17
+  Last rotated at 2025-01-17 03:00
+  log does not need rotating (log has been already rotated)
+
+rotating pattern: /var/log/alternatives.log  monthly (12 rotations)
+empty log files are not rotated, log files >= 4194304 are rotated earlier, old logs are removed
+considering log /var/log/alternatives.log
+Creating new state
+  Now: 2025-01-17 03:17
+  Last rotated at 2025-01-17 03:00
+  log does not need rotating (log has been already rotated)
+
+rotating pattern: /var/log/ppp-connect-errors  weekly (4 rotations)
+empty log files are not rotated, log files >= 4194304 are rotated earlier, old logs are removed
+considering log /var/log/ppp-connect-errors
+  log /var/log/ppp-connect-errors does not exist -- skipping
+Creating new state
+
+rotating pattern: /var/log/pure-ftpd/transfer.log  after 1 days (6 rotations)
+empty log files are not rotated, log files >= 4194304 are rotated earlier, old logs are removed
+considering log /var/log/pure-ftpd/transfer.log
+  log /var/log/pure-ftpd/transfer.log does not exist -- skipping
+Creating new state
+
+rotating pattern: /var/log/syslog
+ after 1 days (6 rotations)
+empty log files are not rotated, log files >= 4194304 are rotated earlier, old logs are removed
+considering log /var/log/syslog
+Creating new state
+  Now: 2025-01-17 03:17
+  Last rotated at 2025-01-17 03:00
+  log does not need rotating (log has been already rotated)
+
+rotating pattern: /var/log/mail.info
+/var/log/mail.warn
+/var/log/mail.err
+/var/log/mail.log
+/var/log/daemon.log
+/var/log/kern.log
+/var/log/auth.log
+/var/log/user.log
+/var/log/lpr.log
+/var/log/cron.log
+/var/log/debug
+/var/log/messages
+/var/log/error
+ after 1 days (6 rotations)
+empty log files are not rotated, log files >= 4194304 are rotated earlier, old logs are removed
+considering log /var/log/mail.info
+  log /var/log/mail.info does not exist -- skipping
+Creating new state
+considering log /var/log/mail.warn
+  log /var/log/mail.warn does not exist -- skipping
+Creating new state
+considering log /var/log/mail.err
+  log /var/log/mail.err does not exist -- skipping
+Creating new state
+considering log /var/log/mail.log
+  log /var/log/mail.log does not exist -- skipping
+Creating new state
+considering log /var/log/daemon.log
+Creating new state
+  Now: 2025-01-17 03:17
+  Last rotated at 2025-01-17 03:00
+  log does not need rotating (log has been already rotated)
+considering log /var/log/kern.log
+Creating new state
+  Now: 2025-01-17 03:17
+  Last rotated at 2025-01-17 03:00
+  log does not need rotating (log has been already rotated)
+considering log /var/log/auth.log
+Creating new state
+  Now: 2025-01-17 03:17
+  Last rotated at 2025-01-17 03:00
+  log does not need rotating (log has been already rotated)
+considering log /var/log/user.log
+Creating new state
+  Now: 2025-01-17 03:17
+  Last rotated at 2025-01-17 03:00
+  log does not need rotating (log has been already rotated)
+considering log /var/log/lpr.log
+  log /var/log/lpr.log does not exist -- skipping
+Creating new state
+considering log /var/log/cron.log
+Creating new state
+  Now: 2025-01-17 03:17
+  Last rotated at 2025-01-17 03:00
+  log does not need rotating (log has been already rotated)
+considering log /var/log/debug
+Creating new state
+  Now: 2025-01-17 03:17
+  Last rotated at 2025-01-17 03:00
+  log does not need rotating (log has been already rotated)
+considering log /var/log/messages
+Creating new state
+  Now: 2025-01-17 03:17
+  Last rotated at 2025-01-17 03:00
+  log does not need rotating (log has been already rotated)
+considering log /var/log/error
+Creating new state
+  Now: 2025-01-17 03:17
+  Last rotated at 2025-01-17 03:00
+  log does not need rotating (log has been already rotated)
+not running postrotate script, since no logs were rotated
+
+rotating pattern: /var/log/wtmp  after 1 days (14 rotations)
+empty log files are rotated, log files >= 4194304 are rotated earlier, old logs are removed
+considering log /var/log/wtmp
+Creating new state
+  Now: 2025-01-17 03:17
+  Last rotated at 2025-01-17 03:00
+  log does not need rotating (log has been already rotated)
+
+rotating pattern: /var/log/btmp  after 1 days (14 rotations)
+empty log files are rotated, log files >= 4194304 are rotated earlier, old logs are removed
+considering log /var/log/btmp
+Creating new state
+  Now: 2025-01-17 03:17
+  Last rotated at 2025-01-17 03:00
+  log does not need rotating (log has been already rotated)
+
+rotating pattern: /var/log/watchdog/*
+ after 1 days (6 rotations)
+empty log files are not rotated, log files >= 4194304 are rotated earlier, old logs are removed
+considering log /var/log/watchdog/test-bin.stderr
+Creating new state
+  Now: 2025-01-17 03:17
+  Last rotated at 2025-01-17 03:00
+  log does not need rotating (log has been already rotated)
+considering log /var/log/watchdog/test-bin.stdout
+Creating new state
+  Now: 2025-01-17 03:17
+  Last rotated at 2025-01-17 03:00
+  log does not need rotating (log has been already rotated)
+considering log /var/log/watchdog/test-kapschrsu_startup.sh_startup.log
+Creating new state
+  Now: 2025-01-17 03:17
+  Last rotated at 2025-01-17 03:00
+  log does not need rotating (log has been already rotated)
+
+rotating pattern: /var/log/cca_al*.log  after 1 days (14 rotations)
+empty log files are rotated, log files >= 4194304 are rotated earlier, old logs are removed
+considering log /var/log/cca_al*.log
+  log /var/log/cca_al*.log does not exist -- skipping
+Creating new state
+
+rotating pattern: /var/log/aerolink.log  after 1 days (14 rotations)
+empty log files are rotated, log files >= 4194304 are rotated earlier, old logs are removed
+considering log /var/log/aerolink.log
+  log /var/log/aerolink.log does not exist -- skipping
+Creating new state
+
+rotating pattern: /mnt/c3platpersistent/var/log/board*.log  after 1 days (14 rotations)
+empty log files are rotated, log files >= 4194304 are rotated earlier, old logs are removed
+considering log /mnt/c3platpersistent/var/log/board.log
+Creating new state
+  Now: 2025-01-17 03:17
+  Last rotated at 2025-01-17 03:00
+  log does not need rotating (log has been already rotated)
+
+rotating pattern: /var/log/gpsd*.log  after 1 days (14 rotations)
+empty log files are rotated, log files >= 4194304 are rotated earlier, old logs are removed
+considering log /var/log/gpsd*.log
+  log /var/log/gpsd*.log does not exist -- skipping
+Creating new state
+
+rotating pattern: /var/log/*_scan.csv  after 1 days (14 rotations)
+empty log files are not rotated, log files >= 4194304 are rotated earlier, old logs are removed
+considering log /var/log/*_scan.csv
+  log /var/log/*_scan.csv does not exist -- skipping
+Creating new state
+
+rotating pattern: /var/log/roadside*.log  after 1 days (14 rotations)
+empty log files are rotated, log files >= 4194304 are rotated earlier, old logs are removed
+considering log /var/log/roadside_logrotate.log
+Creating new state
+  Now: 2025-01-17 03:17
+  Last rotated at 2025-01-17 03:00
+  log does not need rotating (log has been already rotated)
+considering log /var/log/roadside_snmp2config.log
+Creating new state
+  Now: 2025-01-17 03:17
+  Last rotated at 2025-01-17 03:00
+  log does not need rotating (log has been already rotated)
+
+rotating pattern: /var/log/disk-monitoring*.log  after 1 days (14 rotations)
+empty log files are rotated, log files >= 4194304 are rotated earlier, old logs are removed
+considering log /var/log/disk-monitoring.log
+Creating new state
+  Now: 2025-01-17 03:17
+  Last rotated at 2025-01-17 03:00
+  log does not need rotating (log has been already rotated)
+
+rotating pattern: /var/log/mm_server*.log  after 1 days (14 rotations)
+empty log files are rotated, log files >= 4194304 are rotated earlier, old logs are removed
+considering log /var/log/mm_server*.log
+  log /var/log/mm_server*.log does not exist -- skipping
+Creating new state
+
+rotating pattern: /var/log/backup-service*.log  after 1 days (14 rotations)
+empty log files are rotated, log files >= 4194304 are rotated earlier, old logs are removed
+considering log /var/log/backup-service.log
+Creating new state
+  Now: 2025-01-17 03:17
+  Last rotated at 2025-01-17 03:00
+  log does not need rotating (log has been already rotated)
+
+rotating pattern: /var/log/startup.d/*.log  after 1 days (14 rotations)
+empty log files are rotated, log files >= 4194304 are rotated earlier, old logs are removed
+considering log /var/log/startup.d/000_begin.sh_start.log
+Creating new state
+  Now: 2025-01-17 03:17
+  Last rotated at 2025-01-17 03:00
+  log does not need rotating (log has been already rotated)
+considering log /var/log/startup.d/001_configure_ld.so.cache.sh_start.log
+Creating new state
+  Now: 2025-01-17 03:17
+  Last rotated at 2025-01-17 03:00
+  log does not need rotating (log has been already rotated)
+considering log /var/log/startup.d/003_iptables_rules.sh_start.log
+Creating new state
+  Now: 2025-01-17 03:17
+  Last rotated at 2025-01-17 03:00
+  log does not need rotating (log has been already rotated)
+considering log /var/log/startup.d/004_sanitize_system_time.sh_start.log
+Creating new state
+  Now: 2025-01-17 03:17
+  Last rotated at 2025-01-17 03:00
+  log does not need rotating (log has been already rotated)
+considering log /var/log/startup.d/005_extend_sudoers.sh_start.log
+Creating new state
+  Now: 2025-01-17 03:17
+  Last rotated at 2025-01-17 03:00
+  log does not need rotating (log has been already rotated)
+considering log /var/log/startup.d/005_process_users.sh_start.log
+Creating new state
+  Now: 2025-01-17 03:17
+  Last rotated at 2025-01-17 03:00
+  log does not need rotating (log has been already rotated)
+considering log /var/log/startup.d/006_start_mm_server.sh_start.log
+Creating new state
+  Now: 2025-01-17 03:17
+  Last rotated at 2025-01-17 03:00
+  log does not need rotating (log has been already rotated)
+considering log /var/log/startup.d/007_led_flash.sh_start.log
+Creating new state
+  Now: 2025-01-17 03:17
+  Last rotated at 2025-01-17 03:00
+  log does not need rotating (log has been already rotated)
+considering log /var/log/startup.d/009_reset_radios.sh_start.log
+Creating new state
+  Now: 2025-01-17 03:17
+  Last rotated at 2025-01-17 03:00
+  log does not need rotating (log has been already rotated)
+considering log /var/log/startup.d/010_load_firmware_radio_1.sh_start.log
+Creating new state
+  Now: 2025-01-17 03:17
+  Last rotated at 2025-01-17 03:00
+  log does not need rotating (log has been already rotated)
+considering log /var/log/startup.d/012_load_llc_driver.sh_start.log
+Creating new state
+  Now: 2025-01-17 03:17
+  Last rotated at 2025-01-17 03:00
+  log does not need rotating (log has been already rotated)
+considering log /var/log/startup.d/013_load_calibration_to_radio_1.sh_start.log
+Creating new state
+  Now: 2025-01-17 03:17
+  Last rotated at 2025-01-17 03:00
+  log does not need rotating (log has been already rotated)
+considering log /var/log/startup.d/014_load_llc_ipv6_module.sh_start.log
+Creating new state
+  Now: 2025-01-17 03:17
+  Last rotated at 2025-01-17 03:00
+  log does not need rotating (log has been already rotated)
+considering log /var/log/startup.d/014_load_mcp2210_driver.sh_start.log
+Creating new state
+  Now: 2025-01-17 03:17
+  Last rotated at 2025-01-17 03:00
+  log does not need rotating (log has been already rotated)
+considering log /var/log/startup.d/015_setup_ethernet_ipv6.sh_start.log
+Creating new state
+  Now: 2025-01-17 03:17
+  Last rotated at 2025-01-17 03:00
+  log does not need rotating (log has been already rotated)
+considering log /var/log/startup.d/020_enable_vtty.sh_start.log
+Creating new state
+  Now: 2025-01-17 03:17
+  Last rotated at 2025-01-17 03:00
+  log does not need rotating (log has been already rotated)
+considering log /var/log/startup.d/050_ssd.sh_start.log
+Creating new state
+  Now: 2025-01-17 03:17
+  Last rotated at 2025-01-17 03:00
+  log does not need rotating (log has been already rotated)
+considering log /var/log/startup.d/070_reconfigure_syslog.sh_start.log
+Creating new state
+  Now: 2025-01-17 03:17
+  Last rotated at 2025-01-17 03:00
+  log does not need rotating (log has been already rotated)
+considering log /var/log/startup.d/071_extend_logrotate.sh_start.log
+Creating new state
+  Now: 2025-01-17 03:17
+  Last rotated at 2025-01-17 03:00
+  log does not need rotating (log has been already rotated)
+considering log /var/log/startup.d/100_check_production_data.sh_start.log
+Creating new state
+  Now: 2025-01-17 03:17
+  Last rotated at 2025-01-17 03:00
+  log does not need rotating (log has been already rotated)
+considering log /var/log/startup.d/200_prepare_its-g5.sh_start.log
+Creating new state
+  Now: 2025-01-17 03:17
+  Last rotated at 2025-01-17 03:00
+  log does not need rotating (log has been already rotated)
+considering log /var/log/startup.d/219_gnss.sh_start.log
+Creating new state
+  Now: 2025-01-17 03:17
+  Last rotated at 2025-01-17 03:00
+  log does not need rotating (log has been already rotated)
+considering log /var/log/startup.d/220_gpsd.sh_start.log
+Creating new state
+  Now: 2025-01-17 03:17
+  Last rotated at 2025-01-17 03:00
+  log does not need rotating (log has been already rotated)
+considering log /var/log/startup.d/221_ntpd.sh_start.log
+Creating new state
+  Now: 2025-01-17 03:17
+  Last rotated at 2025-01-17 03:00
+  log does not need rotating (log has been already rotated)
+considering log /var/log/startup.d/230_lte.sh_start.log
+Creating new state
+  Now: 2025-01-17 03:17
+  Last rotated at 2025-01-17 03:00
+  log does not need rotating (log has been already rotated)
+considering log /var/log/startup.d/240_gpio_optionboard.sh_start.log
+Creating new state
+  Now: 2025-01-17 03:17
+  Last rotated at 2025-01-17 03:00
+  log does not need rotating (log has been already rotated)
+considering log /var/log/startup.d/300_activate_bluetooth.sh_start.log
+Creating new state
+  Now: 2025-01-17 03:17
+  Last rotated at 2025-01-17 03:00
+  log does not need rotating (log has been already rotated)
+considering log /var/log/startup.d/300_activate_wifi_bt.sh_start.log
+Creating new state
+  Now: 2025-01-17 03:17
+  Last rotated at 2025-01-17 03:00
+  log does not need rotating (log has been already rotated)
+considering log /var/log/startup.d/955_snmpd.sh_start.log
+Creating new state
+  Now: 2025-01-17 03:17
+  Last rotated at 2025-01-17 03:00
+  log does not need rotating (log has been already rotated)
+considering log /var/log/startup.d/960_ee2snmp.sh_start.log
+Creating new state
+  Now: 2025-01-17 03:17
+  Last rotated at 2025-01-17 03:00
+  log does not need rotating (log has been already rotated)
+considering log /var/log/startup.d/968_sxa_wakeup.sh_start.log
+Creating new state
+  Now: 2025-01-17 03:17
+  Last rotated at 2025-01-17 03:00
+  log does not need rotating (log has been already rotated)
+considering log /var/log/startup.d/970_urb_startup.sh_start.log
+Creating new state
+  Now: 2025-01-17 03:17
+  Last rotated at 2025-01-17 03:00
+  log does not need rotating (log has been already rotated)
+considering log /var/log/startup.d/971_backup-service.sh_start.log
+Creating new state
+  Now: 2025-01-17 03:17
+  Last rotated at 2025-01-17 03:00
+  log does not need rotating (log has been already rotated)
+considering log /var/log/startup.d/973_disk-monitoring.sh_start.log
+Creating new state
+  Now: 2025-01-17 03:17
+  Last rotated at 2025-01-17 03:00
+  log does not need rotating (log has been already rotated)
+considering log /var/log/startup.d/990_led_green.sh_start.log
+Creating new state
+  Now: 2025-01-17 03:17
+  Last rotated at 2025-01-17 03:00
+  log does not need rotating (log has been already rotated)
+considering log /var/log/startup.d/996_sysinfo2x.sh_start.log
+Creating new state
+  Now: 2025-01-17 03:17
+  Last rotated at 2025-01-17 03:00
+  log does not need rotating (log has been already rotated)
+considering log /var/log/startup.d/998_cron_jobs.sh_start.log
+Creating new state
+  Now: 2025-01-17 03:17
+  Last rotated at 2025-01-17 03:00
+  log does not need rotating (log has been already rotated)
+considering log /var/log/startup.d/998_kapsch_rsu.sh_start.log
+Creating new state
+  Now: 2025-01-17 03:17
+  Last rotated at 2025-01-17 03:00
+  log does not need rotating (log has been already rotated)
+considering log /var/log/startup.d/998_kapsch_snmp_rcu.sh_start.log
+Creating new state
+  Now: 2025-01-17 03:17
+  Last rotated at 2025-01-17 03:00
+  log does not need rotating (log has been already rotated)
+considering log /var/log/startup.d/998_pcaplogd.sh_start.log
+Creating new state
+  Now: 2025-01-17 03:17
+  Last rotated at 2025-01-17 03:00
+  log does not need rotating (log has been already rotated)
+considering log /var/log/startup.d/999_end.sh_start.log
+Creating new state
+  Now: 2025-01-17 03:17
+  Last rotated at 2025-01-17 03:00
+  log does not need rotating (log has been already rotated)
+considering log /var/log/startup.d/etc_ntp_startup.log
+Creating new state
+  Now: 2025-01-17 03:17
+  Last rotated at 2025-01-17 03:00
+  log does not need rotating (log has been already rotated)
+
+rotating pattern: /var/log/kapsch-rsu/*.log  after 1 days (14 rotations)
+empty log files are rotated, log files >= 4194304 are rotated earlier, old logs are removed
+considering log /var/log/kapsch-rsu/rsu.log
+Creating new state
+  Now: 2025-01-17 03:17
+  Last rotated at 2025-01-17 03:00
+  log does not need rotating (log has been already rotated)
+
+rotating pattern: /var/log/rfcomm*.log  after 1 days (14 rotations)
+empty log files are rotated, log files >= 4194304 are rotated earlier, old logs are removed
+considering log /var/log/rfcomm*.log
+  log /var/log/rfcomm*.log does not exist -- skipping
+Creating new state

@@ -1,0 +1,46 @@
+﻿            T   D
+D           Y C I
+R           P F A
+V  VERSION  E G G #D #C DRIVER NAME                         IMAGE NAME
+== ======== = = = == == =================================== ===================
+C6 00000010 ? - -  -  - <UNKNOWN>                           KEUDGCpldUartDxe
+E7 00000010 D - -  1  - Usb Xhci Driver                     SystemXhciDxe
+E8 00000010 ? - -  -  - <UNKNOWN>                           SystemEhciDxe
+E9 00000011 ? - -  -  - <UNKNOWN>                           SystemUsbMassStorageDxe
+10D 00000010 ? - -  -  - <UNKNOWN>                           W83627DHGSioDxe
+113 00000003 ? - -  -  - <UNKNOWN>                           BlockIoDxe
+114 00000003 ? - -  -  - <UNKNOWN>                           KeyboardDxe
+115 00000003 ? - -  -  - <UNKNOWN>                           BiosSnp16
+116 0000000A ? - -  -  - <UNKNOWN>                           ScsiBus
+117 0000000A ? - -  -  - <UNKNOWN>                           ScsiDisk
+118 0000000A ? - -  -  - <UNKNOWN>                           UefiPxeBcDxe
+11D 0000000A B - -  1 14 <UNKNOWN>                           SystemPciBusDxe
+11F 00000000 B - -  1  2 <UNKNOWN>                           SystemPciIsaBusDxe
+120 0000000A ? - -  -  - <UNKNOWN>                           SystemIsaSerialDxe
+121 0000000A ? - -  -  - <UNKNOWN>                           SystemPs2MouseDxe
+122 0000000A ? - -  -  - <UNKNOWN>                           SystemPs2KeyboardDxe
+123 0000000A ? - -  -  - <UNKNOWN>                           SystemIdeBusDxe
+124 0000000A ? - -  -  - <UNKNOWN>                           SystemIdeAtaAtapiPassThruDxe
+125 0000000B D - -  1  - <UNKNOWN>                           SystemAhciBusDxe
+126 0000000A D - -  1  - <UNKNOWN>                           SystemAhciAtaAtapiPassThruDxe
+127 0000000A B - -  1 15 <UNKNOWN>                           SystemUsbBusDxe
+128 0000000A D - -  1  - <UNKNOWN>                           SystemUsbKbDxe
+129 0000000A ? - -  -  - <UNKNOWN>                           SystemUsbMouseDxe
+132 0000000A D - -  2  - <UNKNOWN>                           SystemConPlatformDxe
+133 0000000A D - -  2  - <UNKNOWN>                           SystemConPlatformDxe
+134 0000000A B - -  2  2 <UNKNOWN>                           SystemConSplitterDxe
+135 0000000A ? - -  -  - <UNKNOWN>                           SystemConSplitterDxe
+136 0000000A B - -  2  2 <UNKNOWN>                           SystemConSplitterDxe
+137 0000000A ? - -  -  - <UNKNOWN>                           SystemConSplitterDxe
+138 0000000A ? - -  -  - <UNKNOWN>                           SystemConSplitterDxe
+13C 0000000A D - -  1  - <UNKNOWN>                           SystemGraphicsConsoleDxe
+13E 0000000A B - -  1  1 <UNKNOWN>                           SystemTerminalDxe
+13F 0000000A ? - -  -  - <UNKNOWN>                           SystemTextConsoleVgaDxe
+140 0000000A D - -  5  - <UNKNOWN>                           SystemDiskIoDxe
+141 0000000A B - -  2  3 <UNKNOWN>                           SystemPartitionDxe
+152 00000010 D - -  1  - UEFI MMC/SD Media Device Driver     MmcMediaDevice
+153 00000001 D - -  1  - <UNKNOWN>                           SataController
+154 00000010 D - -  2  - UEFI SD Host Controller Driver      MmcHost
+155 00000010 D - -  1  - UEFI SD Card Device Driver          SDCardDevice
+158 0000000A D - -  2  - <UNKNOWN>                           961578FE-B6B7-44C3
+196 00000000 B - -  1  1 <UNKNOWN>                           SystemVgaDxe

@@ -1,0 +1,108 @@
++ set -x
++ . /mnt/c3platpersistent/share/startup/common.sh
++++ basename /mnt/c3platpersistent/etc/startup.d//008_handle_optionboard.sh
+++ APP_SCR=008_handle_optionboard.sh
++++ readlink -f /mnt/c3platpersistent/etc/startup.d//008_handle_optionboard.sh
+++ ACT_DIR=/mnt/c3platpersistent/etc/startup.d/008_handle_optionboard.sh
++++ dirname /mnt/c3platpersistent/etc/startup.d/008_handle_optionboard.sh
+++ ABS_PATH=/mnt/c3platpersistent/etc/startup.d
+++ LED_STARTUP_PID=/var/run/flash_pid.startup
+++ [[ -n /mnt/c3platpersistent ]]
+++ [[ -z USDoT-QualcommCCA ]]
+++ source /mnt/c3platpersistent/etc/roadside.cfg
++++ [[ false == false ]]
++++ [[ USDoT-QualcommCCA == ITSG5-HWEngland ]]
++++ export ROADSIDE_IPTABLES_ENABLED=false
++++ ROADSIDE_IPTABLES_ENABLED=false
++++ export CERTPATH=/mnt/c3platpersistent/share/its-g5-security-certs/
++++ CERTPATH=/mnt/c3platpersistent/share/its-g5-security-certs/
++ IO16_ADDR=0x24
++ I2CBUS=9
++ IOERROR=1
++ source /bin/leo_helpers.sh
++ '[' 0 '!=' 0 ']'
++ is_cb_9160
+++ get_controller_hw_type
++++ cat -E /proc/cmdline
++++ sed 's/.*controller_hw_type=\(\w*\)[ $].*/\1/'
+++ echo CB_9160
++ '[' CB_9160 = CB_9160 ']'
++ return 0
++ I2C_DRIVER=(pcf8574)
++ declare -a I2C_DRIVER
++ I2C_ADDR=(0x24)
++ declare -a I2C_ADDR
++ IO_8_NAMES=(board_config_0 board_config_1 board_in_1 board_in_2 board_in_3 board_out_1 board_out_2 board_out_3)
++ declare -a IO_8_NAMES
+++ /bin/i2cadapter.sh
++ I2C_ADAPTER=/sys/class/i2c-adapter/i2c-9
++ '[' -z /sys/class/i2c-adapter/i2c-9 ']'
++ '[' xstart = xstart ']'
++ '[' xUSDoT-QualcommCCA = xUSDoT-QualcommRR -o xUSDoT-QualcommCCA = xUSDoT-QualcommCCA ']'
++ logger '008_handle_optionboard.sh -I- Unregistering EEPROM devices with Linux I2C subsystem'
++ unregister_kernel_drivers
++ idx=0
++ '[' -n 0x24 ']'
++ echo 0x24
++ idx=1
++ '[' -n '' ']'
++ idx=0
++ '[' -n board_config_0 ']'
++ echo /dev/gpio_option_board_config_0
+/dev/gpio_option_board_config_0
++ rm -rf /dev/gpio_option_board_config_0
++ idx=1
++ '[' -n board_config_1 ']'
++ echo /dev/gpio_option_board_config_1
+/dev/gpio_option_board_config_1
++ rm -rf /dev/gpio_option_board_config_1
++ idx=2
++ '[' -n board_in_1 ']'
++ echo /dev/gpio_option_board_in_1
+/dev/gpio_option_board_in_1
++ rm -rf /dev/gpio_option_board_in_1
++ idx=3
++ '[' -n board_in_2 ']'
++ echo /dev/gpio_option_board_in_2
+/dev/gpio_option_board_in_2
++ rm -rf /dev/gpio_option_board_in_2
++ idx=4
++ '[' -n board_in_3 ']'
++ echo /dev/gpio_option_board_in_3
+/dev/gpio_option_board_in_3
++ rm -rf /dev/gpio_option_board_in_3
++ idx=5
++ '[' -n board_out_1 ']'
++ echo /dev/gpio_option_board_out_1
+/dev/gpio_option_board_out_1
++ rm -rf /dev/gpio_option_board_out_1
++ idx=6
++ '[' -n board_out_2 ']'
++ echo /dev/gpio_option_board_out_2
+/dev/gpio_option_board_out_2
++ rm -rf /dev/gpio_option_board_out_2
++ idx=7
++ '[' -n board_out_3 ']'
++ echo /dev/gpio_option_board_out_3
+/dev/gpio_option_board_out_3
++ rm -rf /dev/gpio_option_board_out_3
++ idx=8
++ '[' -n '' ']'
++ sleep 0.1
+++ readWord 0xFF
++++ i2cget -y 9 0x24 0xFF w
+++ echo 0xff9e
++ CurrentIo=0xff9e
++ reset_CCA_board
++ logger '008_handle_optionboard.sh -I- CCA-Board Reset : ON ---'
++ writeWord 0xC1 0xFF
++ i2cset -y 9 0x24 0xC1 0xFF w
++ sleep 0.3
++ writeWord 0xFF 0xFF
++ i2cset -y 9 0x24 0xFF 0xFF w
++ logger '008_handle_optionboard.sh -I- CCA-Board Reset : OFF ---'
+++ readWord 0xFF
++++ i2cget -y 9 0x24 0xFF w
+++ echo 0xffbe
++ AfterResetIo=0xffbe
++ logger '008_handle_optionboard.sh -I- Reset of CCA done, checking if ready to be done later ---'

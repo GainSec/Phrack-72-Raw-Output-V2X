@@ -1,0 +1,34 @@
++ . /mnt/c3platpersistent/share/startup/common.sh
++++ basename /mnt/c3platpersistent/etc/startup.d//221_ntpd.sh
+++ APP_SCR=221_ntpd.sh
++++ readlink -f /mnt/c3platpersistent/etc/startup.d//221_ntpd.sh
+++ ACT_DIR=/mnt/c3platpersistent/etc/startup.d/221_ntpd.sh
++++ dirname /mnt/c3platpersistent/etc/startup.d/221_ntpd.sh
+++ ABS_PATH=/mnt/c3platpersistent/etc/startup.d
+++ LED_STARTUP_PID=/var/run/flash_pid.startup
+++ [[ -n /mnt/c3platpersistent ]]
+++ [[ -z USDoT-QualcommCCA ]]
+++ source /mnt/c3platpersistent/etc/roadside.cfg
++++ [[ false == false ]]
++++ [[ USDoT-QualcommCCA == ITSG5-HWEngland ]]
++++ export ROADSIDE_IPTABLES_ENABLED=false
++++ ROADSIDE_IPTABLES_ENABLED=false
++++ export CERTPATH=/mnt/c3platpersistent/share/its-g5-security-certs/
++++ CERTPATH=/mnt/c3platpersistent/share/its-g5-security-certs/
++ NTPDCONFIG=/etc/ntpd.conf
++ NTPDSCRIPTSRC=/mnt/c3platpersistent/etc/ntp.in
++ NTPDSCRIPT=/etc/init.d/ntp
++ PIDFILE=/var/run/ntpd.pid
++ PPSDEVICE=/dev/pps0
++ cp /mnt/c3platpersistent/etc/ntp.in /etc/init.d/ntp
++ cat
+++ which ppsctl
++ PPSCTL=/usr/bin/ppsctl
++ /usr/bin/ppsctl -a -f /dev/pps0
++ logger 'startup::distributing PPS source thru kernel on /dev/pps0'
++ [[ start == start ]]
++ systemctl start ntp
++ sleep 1
+++ cat /var/run/ntpd.pid
++ ntpdpid=1501
++ logger 'startup::NTPD started. pid=1501'

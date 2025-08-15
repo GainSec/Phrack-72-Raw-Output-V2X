@@ -1,0 +1,8 @@
++ SCRIPTFOLDER=/mnt/c3platpersistent//share/startup
++ chmod 0755 /mnt/c3platpersistent//share/startup/USDoT_update.sh
++ TECHNOLOGY=USDoT
++ [[ -f /mnt/c3platpersistent//share/startup/USDoT_update.sh ]]
++ /mnt/c3platpersistent//share/startup/USDoT_update.sh none 1.19.0-deb9-x86
++ /mnt/c3platpersistent//bin/config_tool 'default-ns urb_config .wsmp.country_code 0 840'
+ERROR: config_tool not available on this platform
++ [[ -f /mnt/c3platpersistent//share/startup/USDoT-NAStack_update.sh ]]

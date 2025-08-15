@@ -1,0 +1,40 @@
+﻿
+################################################################
+##                                                            ##
+##  CHIPSEC: Platform Hardware Security Assessment Framework  ##
+##                                                            ##
+################################################################
+[CHIPSEC] Version  : 1.13.8
+[CHIPSEC] Arguments: mmio list
+
+
+[CHIPSEC] OS      : uefi   
+[CHIPSEC] Python  : 3.6.8 (64-bit) - Enabled GIL
+[CHIPSEC] Helper  : EfiHelper 
+[CHIPSEC] Platform: Bay Trail SoC
+[CHIPSEC]    CPUID: 30679
+[CHIPSEC]      VID: 8086
+[CHIPSEC]      DID: 0F00
+[CHIPSEC]      RID: 11
+[CHIPSEC] Executing command 'mmio' with args ['list']
+
+
+--------------------------------------------------------------------------------------
+ MMIO Range   | BUS | BAR Register   | Base             | Size     | En? | Description
+--------------------------------------------------------------------------------------
+WARNING: [mmio] Base address was determined to be invalid: 0x0000000000000000
+WARNING: [mmio] Base address was determined to be invalid: 0x0000000000000000
+WARNING: [mmio] Base address was determined to be invalid: 0x0000000000000000
+ GTTMMADR     |  00 | 00:02.0 + 16   | 0000000050000000 | 00001000 | 1   | Graphics Translation Table Range
+ GMADR        |  00 | 00:02.0 + 24   | 0000000040000000 | 00001000 | 1   | Graphics Memory Range
+WARNING: [mmio] Base address was determined to be invalid: 0x0000007FFFFFF000
+WARNING: [mmio] Base address was determined to be invalid: 0x0000007FFFFFC000
+ RCBA         |  00 | 00:1F.0 + 240  | 00000000FED1C000 | 00004000 | 1   | PCH Root Complex Register Range
+ SPIBAR       |  00 | SBASE          | 00000000FED01000 | 00000200 | 1   | SPI Base
+ RCBA_RTC     |  00 | 00:1F.0 + 240  | 00000000FED1F400 | 00000200 | 1   | General Control Register Range
+ PMBASE       |  00 | PBASE          | 00000000FED03000 | 00000200 | 1   | PM Base
+ IOBASE       |  00 | IOBASE         | 00000000FED0C000 | 00002000 | 1   | I/O Controller Base
+ IBASE        |  00 | IBASE          | 00000000FED08000 | 00000200 | 1   | iLB Base
+ MPBASE       |  00 | MPBASE         | 00000000FEF00000 | 00100000 | 1   | MPHY Base
+ PUBASE       |  00 | PUBASE         | 00000000FED05000 | 00000800 | 1   | PUnit Base
+[CHIPSEC] Time elapsed 0.000

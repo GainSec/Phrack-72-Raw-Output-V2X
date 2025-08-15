@@ -1,0 +1,28 @@
++ set -x
++ . /mnt/c3platpersistent/share/startup/common.sh
++++ basename /mnt/c3platpersistent/etc/startup.d//990_led_green.sh
+++ APP_SCR=990_led_green.sh
++++ readlink -f /mnt/c3platpersistent/etc/startup.d//990_led_green.sh
+++ ACT_DIR=/mnt/c3platpersistent/etc/startup.d/990_led_green.sh
++++ dirname /mnt/c3platpersistent/etc/startup.d/990_led_green.sh
+++ ABS_PATH=/mnt/c3platpersistent/etc/startup.d
+++ LED_STARTUP_PID=/var/run/flash_pid.startup
+++ [[ -n /mnt/c3platpersistent ]]
+++ [[ -z USDoT-QualcommCCA ]]
+++ source /mnt/c3platpersistent/etc/roadside.cfg
++++ [[ false == false ]]
++++ [[ USDoT-QualcommCCA == ITSG5-HWEngland ]]
++++ export ROADSIDE_IPTABLES_ENABLED=false
++++ ROADSIDE_IPTABLES_ENABLED=false
++++ export CERTPATH=/mnt/c3platpersistent/share/its-g5-security-certs/
++++ CERTPATH=/mnt/c3platpersistent/share/its-g5-security-certs/
++ '[' xstart = xstart ']'
++ kill_led_startup
++ PIDFILE=/var/run/flash_pid.startup
++ [[ -n '' ]]
++ '[' -e /var/run/flash_pid.startup ']'
++ logger '990_led_green.sh -D- Stop LED flash  ---'
+++ cat /var/run/flash_pid.startup
++ kill -9 13066
++ rm /var/run/flash_pid.startup
++ /bin/status_leds.sh green same same same

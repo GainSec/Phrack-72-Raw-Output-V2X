@@ -1,0 +1,428 @@
+Jan 12 07:58:39 CB-9160 root[1065]: startup.sh[LOCK] - locking startup with file /var/run/startup.sh.active.1058
+Jan 12 07:58:39 CB-9160 root[1073]: startup.sh[LOCK] - locking successful, waited 0, continuing with script
+Jan 12 07:58:39 CB-9160 root[1082]: startup.sh - variant is USDoT-NAStack [Debug = ]
+Jan 12 07:58:39 CB-9160 root[1083]: startup.sh - forced startup logging
+Jan 12 07:58:39 CB-9160 root[1094]: startup.sh -I- enabled radios: :NXP:
+Jan 12 07:58:39 CB-9160 root[1096]: startup.sh - INFO: Starting applications!
+Jan 12 07:58:39 CB-9160 root[1101]: startup.sh - going to execute /mnt/c3platpersistent/etc/startup.d//000_begin.sh start
+Jan 12 07:58:40 CB-9160 root[1115]: 000_begin.sh -I- begin of start script execution
+Jan 12 07:58:40 CB-9160 root[1142]: 000_begin.sh -I- perparing adjtime and reading from HW clock
+Jan 12 07:58:40 CB-9160 root[1153]: 000_begin.sh -I- system clock from HW clock done
+Jan 12 07:58:40 CB-9160 root[1157]: 000_begin.sh -I- Start done; Version = 9
+Jan 12 07:58:40 CB-9160 root[1160]: startup.sh - going to execute /mnt/c3platpersistent/etc/startup.d//001_configure_ld.so.cache.sh start
+Jan 12 07:58:40 CB-9160 root[1174]: 001_configure_ld.so.cache.sh -D- executing ---
+Jan 12 07:58:42 CB-9160 root[1179]: startup.sh - going to execute /mnt/c3platpersistent/etc/startup.d//003_iptables_rules.sh start
+Jan 12 07:58:42 CB-9160 root[1196]: 003_iptables_rules.sh -I- reset rules and read in FW configuration
+Jan 12 07:58:42 CB-9160 root[1221]: startup.sh - going to execute /mnt/c3platpersistent/etc/startup.d//004_sanitize_system_time.sh start
+Jan 12 07:58:42 CB-9160 root[1244]: startup.sh - going to execute /mnt/c3platpersistent/etc/startup.d//005_extend_sudoers.sh start
+Jan 12 07:58:42 CB-9160 root[1258]: 005_extend_sudoers.sh -I- Start ---
+Jan 12 07:58:43 CB-9160 root[1265]: 005_extend_sudoers.sh -I- Done ---
+Jan 12 07:58:43 CB-9160 root[1268]: startup.sh - going to execute /mnt/c3platpersistent/etc/startup.d//005_process_users.sh start
+Jan 12 07:58:43 CB-9160 root[1282]: 005_process_users.sh -I- Start ---
+Jan 12 07:58:43 CB-9160 root[1284]: 005_process_users.sh -D- adding user admin (info: USDoT-NAStack)
+Jan 12 07:58:43 CB-9160 root[1301]: 005_process_users.sh -I- configuring bash for user root
+Jan 12 07:58:43 CB-9160 root[1311]: 005_process_users.sh -I- configuring bash for user kapsch
+Jan 12 07:58:43 CB-9160 root[1321]: 005_process_users.sh -I- configuring bash for user admin
+Jan 12 07:58:43 CB-9160 root[1331]: 005_process_users.sh -I- configuring bash for user admin
+Jan 12 07:58:43 CB-9160 root[1343]: startup.sh - going to execute /mnt/c3platpersistent/etc/startup.d//006_start_mm_server.sh start
+Jan 12 07:58:44 CB-9160 root[1366]: startup.sh - going to execute /mnt/c3platpersistent/etc/startup.d//007_led_flash.sh start
+Jan 12 07:58:44 CB-9160 root[1402]: startup.sh - going to execute /mnt/c3platpersistent/etc/startup.d//009_reset_radios.sh start
+Jan 12 07:58:44 CB-9160 root[1416]: 009_reset_radios.sh -I- resetting radios on startup, might have been a reboot
+Jan 12 07:58:45 CB-9160 root[1439]: 009_reset_radios.sh -I- Done.
+Jan 12 07:58:45 CB-9160 root[1443]: startup.sh - going to execute /mnt/c3platpersistent/etc/startup.d//010_load_firmware_radio_1.sh start
+Jan 12 07:58:45 CB-9160 root[1483]: 010_load_firmware_radio_1.sh -I- found devices:
+Jan 12 07:58:45 CB-9160 root[1484]: 010_load_firmware_radio_1.sh -I- Found Runtime: [1fc9:0102] ver=0100, devnum=5, cfg=1, intf=0, path="1-1", alt=0, name="UNKNOWN", serial="UNKNOWN"
+Jan 12 07:58:45 CB-9160 root[1485]: 010_load_firmware_radio_1.sh -I- selecting first path 1-1
+Jan 12 07:58:56 CB-9160 root[1945]: 010_load_firmware_radio_1.sh -I- done
+Jan 12 07:58:57 CB-9160 root[1948]: startup.sh - going to execute /mnt/c3platpersistent/etc/startup.d//012_load_llc_driver.sh start
+Jan 12 07:58:57 CB-9160 root[1981]: 012_load_llc_driver.sh -D- executing ---
+Jan 12 07:58:58 CB-9160 root[2024]: 012_load_llc_driver.sh -I- update link to correct kernel module
+Jan 12 07:58:59 CB-9160 root[2142]: 012_load_llc_driver.sh -I- bringing cw-llc up
+Jan 12 07:59:00 CB-9160 root[2181]: 012_load_llc_driver.sh -I- Done.
+Jan 12 07:59:00 CB-9160 root[2184]: startup.sh - going to execute /mnt/c3platpersistent/etc/startup.d//013_load_calibration_to_radio_1.sh start
+Jan 12 07:59:00 CB-9160 root[2212]: 013_load_calibration_to_radio_1.sh -I- starting up
+Jan 12 07:59:00 CB-9160 root[2215]: 013_load_calibration_to_radio_1.sh -D- unconditional write to HSM ! ---
+Jan 12 07:59:01 CB-9160 root[2362]: 013_load_calibration_to_radio_1.sh -I- radio calibration success
+Jan 12 07:59:01 CB-9160 root[2365]: startup.sh - going to execute /mnt/c3platpersistent/etc/startup.d//014_load_llc_ipv6_module.sh start
+Jan 12 07:59:01 CB-9160 root[2398]: 014_load_llc_ipv6_module.sh -D- executing ---
+Jan 12 07:59:01 CB-9160 root[2404]: 014_load_llc_ipv6_module.sh -I- update link to correct kernel module
+Jan 12 07:59:01 CB-9160 root[2406]: 014_load_llc_ipv6_module.sh -I- loading kernel module
+Jan 12 07:59:02 CB-9160 root[2457]: 014_load_llc_ipv6_module.sh -I- bringing wave1 up
+Jan 12 07:59:03 CB-9160 root[2479]: 014_load_llc_ipv6_module.sh -I- setting up IPV6 forwarding settings for OS
+Jan 12 07:59:03 CB-9160 root[2481]: 014_load_llc_ipv6_module.sh -I- Done.
+Jan 12 07:59:03 CB-9160 root[2500]: startup.sh - going to execute /mnt/c3platpersistent/etc/startup.d//014_load_mcp2210_driver.sh start
+Jan 12 07:59:04 CB-9160 root[2515]: 014_load_mcp2210_driver.sh -D- executing ---
+Jan 12 07:59:04 CB-9160 root[2530]: 014_load_mcp2210_driver.sh -I- No MCP2210 device found
+Jan 12 07:59:04 CB-9160 root[2533]: startup.sh - going to execute /mnt/c3platpersistent/etc/startup.d//015_setup_ethernet_ipv6.sh start
+Jan 12 07:59:04 CB-9160 root[2565]: 015_setup_ethernet_ipv6.sh -D- executing ---
+Jan 12 07:59:04 CB-9160 root[2566]: 015_setup_ethernet_ipv6.sh -I- Done.
+Jan 12 07:59:04 CB-9160 root[2569]: startup.sh - going to execute /mnt/c3platpersistent/etc/startup.d//020_enable_vtty.sh start
+Jan 12 07:59:04 CB-9160 root[2584]: 020_enable_vtty.sh -I- Done.
+Jan 12 07:59:04 CB-9160 root[2587]: startup.sh - going to execute /mnt/c3platpersistent/etc/startup.d//050_ssd.sh start
+Jan 12 07:59:05 CB-9160 root[2624]: 050_ssd.sh -D- microSD has been mounted
+Jan 12 07:59:05 PEM00064 root[2627]: startup.sh - going to execute /mnt/c3platpersistent/etc/startup.d//070_reconfigure_syslog.sh start
+Jan 12 07:59:05 PEM00064 root[2641]: 070_reconfigure_syslog.sh -I- Start ---
+Jan 12 07:59:05 PEM00064 root[2663]: 070_reconfigure_syslog.sh -I- Done ---
+Jan 12 07:59:05 PEM00064 root[2668]: startup.sh - going to execute /mnt/c3platpersistent/etc/startup.d//071_extend_logrotate.sh start
+Jan 12 07:59:05 PEM00064 root[2682]: 071_extend_logrotate.sh -I- Start ---
+Jan 12 07:59:05 PEM00064 root[2692]: 071_extend_logrotate.sh -I- Done ---
+Jan 12 07:59:06 PEM00064 root[2700]: startup.sh - going to execute /mnt/c3platpersistent/etc/startup.d//100_check_production_data.sh start
+Jan 12 07:59:06 PEM00064 root[2727]: 100_check_production_data.sh -D- Done. ---
+Jan 12 07:59:06 PEM00064 root[2730]: startup.sh - going to execute /mnt/c3platpersistent/etc/startup.d//200_prepare_its-g5.sh start
+Jan 12 07:59:06 PEM00064 root[2744]: 200_prepare_its-g5.sh -I- enter its-g5 prepare ---
+Jan 12 07:59:06 PEM00064 root[2769]: startup.sh - going to execute /mnt/c3platpersistent/etc/startup.d//219_gnss.sh start
+Jan 12 07:59:06 PEM00064 root[2784]: 219_gnss.sh -D-  No GNSS power switching
+Jan 12 07:59:06 PEM00064 root[2787]: startup.sh - going to execute /mnt/c3platpersistent/etc/startup.d//220_gpsd.sh start
+Jan 12 07:59:07 PEM00064 root[2810]: Startup::GPSD using device /dev/ttyGNSS
+Jan 12 07:59:07 PEM00064 root[2815]: Startup::GPSD using options  -N -n -P /var/run/gpsd.pid
+Jan 12 07:59:07 PEM00064 root[2850]: Startup::GPSD PPS source switchted to GNSS
+Jan 12 07:59:07 PEM00064 root[2854]: startup::distributing PPS source thru kernel on /dev/pps1
+Jan 12 07:59:07 PEM00064 root[2858]: Startup::GPSD activating watchdog service
+Jan 12 07:59:07 PEM00064 root[2879]: startup.sh - going to execute /mnt/c3platpersistent/etc/startup.d//221_ntpd.sh start
+Jan 12 07:59:07 PEM00064 root[2923]: gps_monitor.sh -I- GPS 3D fix successful
+Jan 12 07:59:13 PEM00064 root[3120]: startup::NTPD started.
+Jan 12 07:59:16 PEM00064 root[3252]: startup.sh - going to execute /mnt/c3platpersistent/etc/startup.d//230_lte.sh start
+Jan 12 07:59:16 PEM00064 root[3287]: 230_lte.sh -I- LTE is disabled!
+Jan 12 07:59:16 PEM00064 root[3295]: startup.sh - going to execute /mnt/c3platpersistent/etc/startup.d//240_gpio_optionboard.sh start
+Jan 12 07:59:16 PEM00064 root[3322]: 240_gpio_optionboard.sh -I- Checking option board ---
+Jan 12 07:59:16 PEM00064 root[3323]: 240_gpio_optionboard.sh -I- No option board detected
+Jan 12 07:59:16 PEM00064 root[3326]: startup.sh - going to execute /mnt/c3platpersistent/etc/startup.d//300_activate_bluetooth.sh start
+Jan 12 07:59:17 PEM00064 root[3363]: 300_activate_bluetooth.sh -D- Redpine rs9113 does not exist
+Jan 12 07:59:17 PEM00064 root[3366]: startup.sh - going to execute /mnt/c3platpersistent/etc/startup.d//300_activate_wifi_bt.sh start
+Jan 12 07:59:18 PEM00064 root[3408]: 300_activate_wifi_bt.sh -D- Redpine rs9113 does not exist
+Jan 12 07:59:18 PEM00064 root[3431]: 300_activate_wifi_bt.sh -D- SparkLAN QCA6174 does not exist
+Jan 12 07:59:18 PEM00064 root[3434]: startup.sh - going to execute /mnt/c3platpersistent/etc/startup.d//955_snmpd.sh start
+Jan 12 07:59:18 PEM00064 root[3477]: startup.sh - going to execute /mnt/c3platpersistent/etc/startup.d//960_ee2snmp.sh start
+Jan 12 07:59:19 PEM00064 root[3494]: 960_ee2snmp.sh -I- Fill configuration database with producation data  ---
+Jan 12 07:59:19 PEM00064 root[3620]: startup.sh - going to execute /mnt/c3platpersistent/etc/startup.d//968_sxa_wakeup.sh start
+Jan 12 07:59:19 PEM00064 root[3642]: 968_sxa_wakeup.sh -D- executing ---
+Jan 12 07:59:19 PEM00064 root[3644]: 968_sxa_wakeup.sh -D- unconditional write to HSM ! ---
+Jan 12 07:59:20 PEM00064 root[3653]: startup.sh - going to execute /mnt/c3platpersistent/etc/startup.d//970_urb_startup.sh start
+Jan 12 07:59:20 PEM00064 root[3690]: startup.sh - going to execute /mnt/c3platpersistent/etc/startup.d//971_backup-service.sh start
+Jan 12 07:59:20 PEM00064 root[3704]: 971_backup-service.sh -I- Starting backup service!
+Jan 12 07:59:21 PEM00064 root[3813]: startup.sh - going to execute /mnt/c3platpersistent/etc/startup.d//973_disk-monitoring.sh start
+Jan 12 07:59:22 PEM00064 root[3827]: 973_disk-monitoring.sh -I- Starting disk monitoring service!
+Jan 12 07:59:23 PEM00064 root[3972]: startup.sh - going to execute /mnt/c3platpersistent/etc/startup.d//990_led_green.sh start
+Jan 12 07:59:23 PEM00064 root[3986]: 990_led_green.sh -D- Stop LED flash  ---
+Jan 12 07:59:23 PEM00064 root[4009]: startup.sh - going to execute /mnt/c3platpersistent/etc/startup.d//996_sysinfo2x.sh start
+Jan 12 07:59:24 PEM00064 root[4048]: startup.sh - going to execute /mnt/c3platpersistent/etc/startup.d//998_cron_jobs.sh start
+Jan 12 07:59:24 PEM00064 root[4097]: 998_cron_jobs.sh -I- Fill prepared cron job entries  ---
+Jan 12 07:59:24 PEM00064 root[4102]: 998_cron_jobs.sh -I- Promote daily logrotate to hourly ---
+Jan 12 07:59:24 PEM00064 root[4116]: 998_cron_jobs.sh -I- Restarting cron daemon ---
+Jan 12 07:59:24 PEM00064 root[4128]: startup.sh - going to execute /mnt/c3platpersistent/etc/startup.d//998_kapsch_rsu.sh start
+Jan 12 07:59:24 PEM00064 root[4165]: startup.sh - going to execute /mnt/c3platpersistent/etc/startup.d//998_kapsch_snmp_rcu.sh start
+Jan 12 07:59:25 PEM00064 root[4185]: 998_kapsch_snmp_rcu.sh -D- executing ---
+Jan 12 07:59:25 PEM00064 root[4186]: 998_kapsch_snmp_rcu.sh -I- No RCU config directory at /mnt/c3platpersistent/etc/rcu-conf so not starting
+Jan 12 07:59:25 PEM00064 root[4205]: startup.sh - going to execute /mnt/c3platpersistent/etc/startup.d//998_pcaplogd.sh start
+Jan 12 07:59:25 PEM00064 root[4247]: 998_pcaplogd.sh -D- executing ---
+Jan 12 07:59:25 PEM00064 root[4268]: pcaplogd -D- executing ---
+Jan 12 07:59:25 PEM00064 pki_conn_lib[4153]: Registering network availability callback, cb=0xb757e550
+Jan 12 07:59:25 PEM00064 pki_conn_lib[4153]: Creating new instance of OBSConnectionManager
+Jan 12 07:59:25 PEM00064 root[4288]: pcaplogd -D- NXP logging started ---
+Jan 12 07:59:25 PEM00064 root[4307]: startup.sh - going to execute /mnt/c3platpersistent/etc/startup.d//999_end.sh start
+Jan 12 07:59:26 PEM00064 root[4321]: 999_end.sh - all startup executed (mode=start)
+Jan 12 07:59:26 PEM00064 root[4331]: startup.sh - system was started up, reseting boot counter
+Jan 12 07:59:26 PEM00064 root[4351]: startup.sh - all items started successfully
+Jan 12 07:59:26 PEM00064 root[4352]: startup.sh[LOCK] - unlocking startup
+Jan 12 07:59:34 PEM00064 pki_conn_lib[4153]: networkAvailabilityChanged avail=1
+Jan 12 07:59:34 PEM00064 pki_conn_lib[4153]: Calling network availability callback
+Jan 12 07:59:34 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 07:59:36 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 07:59:37 PEM00064 root[5014]: Startup::GPSD setting cycle time to 1.0
+Jan 12 07:59:38 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 07:59:40 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 07:59:42 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 07:59:43 PEM00064 root[5367]: Startup::GPSD finished setting cycle time: 0
+Jan 12 07:59:44 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 07:59:46 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 07:59:48 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 07:59:50 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 07:59:52 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 07:59:54 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 07:59:55 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 07:59:55 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 07:59:55 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 07:59:55 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 07:59:57 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 07:59:59 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:00:01 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:00:03 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:00:05 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:00:07 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:00:09 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:00:11 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:00:13 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:00:15 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:00:17 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:00:46 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:00:48 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:00:50 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:00:52 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:00:54 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:00:56 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:00:58 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:01:00 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:01:02 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:01:04 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:01:06 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:01:08 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:01:10 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:01:12 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:01:14 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:01:16 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:01:18 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:01:20 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:01:22 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:01:24 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:01:26 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:01:28 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:01:30 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:01:32 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:01:34 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:01:36 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:01:38 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:01:40 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:01:42 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:01:44 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:01:46 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:01:48 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:01:50 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:01:52 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:01:54 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:01:56 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:01:58 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:02:00 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:02:02 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:02:04 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:02:06 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:02:08 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:02:10 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:02:12 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:02:14 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:02:16 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:02:18 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:02:20 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:02:22 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:02:24 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:02:26 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:02:28 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:02:30 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:02:32 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:02:34 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:02:36 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:02:38 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:02:40 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:02:42 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:02:44 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:02:46 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:02:48 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:02:50 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:02:52 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:02:54 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:02:56 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:02:58 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:03:00 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:03:02 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:04:55 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:04:57 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:04:59 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:05:01 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:05:03 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:05:05 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:05:07 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:05:09 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:05:11 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:05:13 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:05:15 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:05:17 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:05:19 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:05:21 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:05:23 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:05:25 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:05:27 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:05:29 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:05:31 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:05:33 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:05:35 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:05:37 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:05:39 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:05:41 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:05:43 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:05:45 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:05:47 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:05:49 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:05:51 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:05:53 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:05:55 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:05:57 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:05:59 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:06:01 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:06:03 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:06:28 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:06:30 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:06:32 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:06:34 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:06:36 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:06:38 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:06:40 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:06:42 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:06:44 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:06:46 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:06:48 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:06:50 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:06:52 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:06:54 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:06:56 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:06:58 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:07:00 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:07:02 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:07:04 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:07:06 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:07:08 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:07:10 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:07:12 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:07:14 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:07:16 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:08:29 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:08:31 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:08:33 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:08:35 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:08:37 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:08:39 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:08:41 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:08:43 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:08:45 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:08:47 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:08:49 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:08:51 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:08:53 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:08:55 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:08:57 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:08:59 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:09:01 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:09:03 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:09:05 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:09:07 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:09:09 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:09:11 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:09:13 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:09:15 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:09:17 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:09:19 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:09:21 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:09:23 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:09:25 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:09:27 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:09:29 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:09:31 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:09:33 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:09:35 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:09:37 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:09:39 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:09:41 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:09:43 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:09:45 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:09:47 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:09:49 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:09:51 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:09:53 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:09:55 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:09:57 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:09:59 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:10:01 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:10:52 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:10:54 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:10:56 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:10:58 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:11:00 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:11:02 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:11:04 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:11:06 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:11:08 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:11:10 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:11:12 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:11:14 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:11:16 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:11:18 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:11:20 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:11:22 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:11:24 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:11:26 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:11:28 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:11:30 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:11:32 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:11:34 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:11:36 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:11:38 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:11:40 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:11:42 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:11:44 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:11:46 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:11:48 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:11:50 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:11:52 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:11:54 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:11:56 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:11:58 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:12:00 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:12:02 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:12:04 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:12:06 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:12:08 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:12:10 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:12:12 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:12:14 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:12:16 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:12:18 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:12:20 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:12:22 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:12:24 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:12:26 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:12:28 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:12:30 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:12:32 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:12:34 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:12:36 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:12:38 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:12:40 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:12:42 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:12:44 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:12:46 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:12:48 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:12:50 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:12:52 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:12:54 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:12:56 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:12:58 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:13:00 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:13:02 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:13:04 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:13:06 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:13:08 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:13:10 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:13:12 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:13:14 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:13:16 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:13:18 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:13:20 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:13:22 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:13:24 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:13:26 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:13:28 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:13:30 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:13:32 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:13:34 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:13:36 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:14:00 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:14:02 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:14:04 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:14:06 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:14:08 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:14:10 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:14:12 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:14:14 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:14:16 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:14:18 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:14:20 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:14:22 PEM00064 pki_conn_lib[4153]: connect called
+Jan 12 08:14:24 PEM00064 pki_conn_lib[4153]: connect called

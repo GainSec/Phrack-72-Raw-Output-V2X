@@ -1,0 +1,28 @@
+﻿   Seg  Bus  Dev  Func
+   ---  ---  ---  ----
+    00   00   00    00 ==> Bridge Device - Host/PCI bridge
+             Vendor 8086 Device 0F00 Prog Interface 0
+    00   00   02    00 ==> Display Controller - VGA/8514 controller
+             Vendor 8086 Device 0F31 Prog Interface 0
+    00   00   12    00 ==> Base System Peripherals - UNDEFINED
+             Vendor 8086 Device 0F16 Prog Interface 1
+    00   00   13    00 ==> Mass Storage Controller - UNDEFINED
+             Vendor 8086 Device 0F23 Prog Interface 1
+    00   00   14    00 ==> Serial Bus Controllers - USB
+             Vendor 8086 Device 0F35 Prog Interface 30
+    00   00   17    00 ==> Base System Peripherals - UNDEFINED
+             Vendor 8086 Device 0F50 Prog Interface 1
+    00   00   1C    00 ==> Bridge Device - PCI/PCI bridge
+             Vendor 8086 Device 0F48 Prog Interface 0
+    00   00   1C    01 ==> Bridge Device - PCI/PCI bridge
+             Vendor 8086 Device 0F4A Prog Interface 0
+    00   00   1C    02 ==> Bridge Device - PCI/PCI bridge
+             Vendor 8086 Device 0F4C Prog Interface 0
+    00   00   1C    03 ==> Bridge Device - PCI/PCI bridge
+             Vendor 8086 Device 0F4E Prog Interface 0
+    00   00   1F    00 ==> Bridge Device - PCI/ISA bridge
+             Vendor 8086 Device 0F1C Prog Interface 0
+    00   00   1F    03 ==> Serial Bus Controllers - System Management Bus
+             Vendor 8086 Device 0F12 Prog Interface 0
+    00   04   00    00 ==> Network Controller - Ethernet controller
+             Vendor 8086 Device 157B Prog Interface 0

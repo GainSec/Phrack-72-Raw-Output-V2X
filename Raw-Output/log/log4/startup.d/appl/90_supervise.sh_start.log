@@ -1,0 +1,15 @@
++ set -x
+++ basename /mnt/c3platpersistent/etc/startup.d/appl/90_supervise.sh
++ APP_SCR=90_supervise.sh
++ APPLICATION=run_tests.sh
++ RUN_SCR=/mnt/c3platpersistent/share/CCA
++ '[' xstart = xstart ']'
++ sleep 0.1
++ '[' xUSDoT-QualcommCCA = xUSDoT-QualcommCCA ']'
++ '[' -x /mnt/c3platpersistent/share/CCA/run_tests.sh ']'
++ Pid1=16149
++ echo 16149
++ bash /mnt/c3platpersistent/share/CCA/run_tests.sh update
++ sleep 0.1
++ logger '90_supervise.sh -I- Started run_tests.sh with ids "16149"'
++ exit 0

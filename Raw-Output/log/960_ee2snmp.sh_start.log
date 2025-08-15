@@ -1,0 +1,220 @@
++ . /mnt/c3platpersistent/share/startup/common.sh
+++ source /etc/os-release
++++ PRETTY_NAME='Debian GNU/Linux 9 (stretch)'
++++ NAME='Debian GNU/Linux'
++++ VERSION_ID=9
++++ VERSION='9 (stretch)'
++++ VERSION_CODENAME=stretch
++++ ID=debian
++++ HOME_URL=https://www.debian.org/
++++ SUPPORT_URL=https://www.debian.org/support
++++ BUG_REPORT_URL=https://bugs.debian.org/
+++ export DEBIAN_VERSION=9
+++ DEBIAN_VERSION=9
+++ export LD_LIBRARY_PATH=/mnt/c3platpersistent/lib/deb9:/mnt/c3platpersistent/lib
+++ LD_LIBRARY_PATH=/mnt/c3platpersistent/lib/deb9:/mnt/c3platpersistent/lib
++++ basename -- /mnt/c3platpersistent/etc/startup.d//960_ee2snmp.sh
+++ APP_SCR=960_ee2snmp.sh
++++ readlink -f -- /mnt/c3platpersistent/etc/startup.d//960_ee2snmp.sh
+++ ACT_DIR=/mnt/c3platpersistent/etc/startup.d/960_ee2snmp.sh
++++ dirname /mnt/c3platpersistent/etc/startup.d/960_ee2snmp.sh
+++ ABS_PATH=/mnt/c3platpersistent/etc/startup.d
+++ ENABLE_LED_HANDLER=false
+++ LED_STARTUP_PID=/var/run/flash_pid.startup
+++ LED_HANDLER_IP=127.0.0.1
+++ LED_HANDLER_PORT=6001
+++ LED_HANDLER_AIRLINK_STATISTICS=tx
+++ ETH_IF=eth0
+++ [[ -n /mnt/c3platpersistent ]]
++++ head -n 1
++++ cat /mnt/c3platpersistent/etc/issue
+++ export VARIANTRS=USDoT-NAStack
+++ VARIANTRS=USDoT-NAStack
+++ export WATCHDOG_SCRIPTS_PATH=/var/run/supervision/scripts
+++ WATCHDOG_SCRIPTS_PATH=/var/run/supervision/scripts
+++ mkdir -p /var/run/supervision/scripts
+++ [[ false == false ]]
+++ export ROADSIDE_IPTABLES_ENABLED=true
+++ ROADSIDE_IPTABLES_ENABLED=true
+++ export CERTPATH=/mnt/c3platpersistent/share/its-g5-security-certs/
+++ CERTPATH=/mnt/c3platpersistent/share/its-g5-security-certs/
+++ export GPSD_DEBUG=0
+++ GPSD_DEBUG=0
+++ export GPSD_OPTS=
+++ GPSD_OPTS=
+++ [[ 9 == 9 ]]
+++ export PPSDEVICE=/dev/pps1
+++ PPSDEVICE=/dev/pps1
+++ export GPSD_CYCLE_TIME=1.0
+++ GPSD_CYCLE_TIME=1.0
+++ [[ USDoT-NAStack =~ .*CCA.* ]]
+++ [[ USDoT-NAStack =~ USDoT-QualcommRR ]]
+++ export ENABLED_RADIOS=:NXP:
+++ ENABLED_RADIOS=:NXP:
+++ [[ -e /etc/eeprom-cb/a.dualradio.mode ]]
+++ [[ -e /mnt/c3platpersistent/etc/roadside.cfg ]]
+++ source /mnt/c3platpersistent/etc/roadside.cfg
++++ export AEROLINK_BASE=/mnt/c3platpersistent/etc/aerolink/ieee
++++ AEROLINK_BASE=/mnt/c3platpersistent/etc/aerolink/ieee
++++ export AEROLINK_CONFIG_DIR=/mnt/c3platpersistent/etc/aerolink/ieee/config/
++++ AEROLINK_CONFIG_DIR=/mnt/c3platpersistent/etc/aerolink/ieee/config/
++++ export AEROLINK_STATE_DIR=/mnt/c3platpersistent/etc/aerolink/ieee/state/
++++ AEROLINK_STATE_DIR=/mnt/c3platpersistent/etc/aerolink/ieee/state/
++++ export INIT_TARGET=./share/urb/cfgdb2stack.usdot.urb
++++ INIT_TARGET=./share/urb/cfgdb2stack.usdot.urb
++ ProdDir=/etc/eeprom-cb
++ ConfigTool=/mnt/c3platpersistent/bin/config_tool
++ '[' xstart = xstart ']'
++ '[' '!' -e /etc/eeprom-cb ']'
++ logger '960_ee2snmp.sh -I- Fill configuration database with producation data  ---'
+++ ls /etc/eeprom-cb
++ for file in `ls ${ProdDir}`
++ case $file in
++ for file in `ls ${ProdDir}`
++ case $file in
++ for file in `ls ${ProdDir}`
++ case $file in
++ for file in `ls ${ProdDir}`
++ case $file in
++ for file in `ls ${ProdDir}`
++ case $file in
++ for file in `ls ${ProdDir}`
++ case $file in
++ for file in `ls ${ProdDir}`
++ case $file in
++ for file in `ls ${ProdDir}`
++ case $file in
++ for file in `ls ${ProdDir}`
++ case $file in
++ for file in `ls ${ProdDir}`
++ case $file in
++ for file in `ls ${ProdDir}`
++ case $file in
++ for file in `ls ${ProdDir}`
++ case $file in
++ for file in `ls ${ProdDir}`
++ case $file in
++ for file in `ls ${ProdDir}`
++ case $file in
++ for file in `ls ${ProdDir}`
++ case $file in
++ for file in `ls ${ProdDir}`
++ case $file in
++ for file in `ls ${ProdDir}`
++ case $file in
+++ sed s/://g
+++ tr -d '\n\r'
+++ cat /etc/eeprom-cb/p.radio1.a.mac
++ var=00e06a01485b
++ /mnt/c3platpersistent/bin/config_tool 'set-blob snmp .1.0.15628.4.1.1 0 00e06a01485b'
++ for file in `ls ${ProdDir}`
++ case $file in
++ for file in `ls ${ProdDir}`
++ case $file in
++ for file in `ls ${ProdDir}`
++ case $file in
+++ cat /etc/eeprom-cb/p.radio1.b.mac
+++ tr -d '\n\r'
+++ sed s/://g
++ var=00e06a01485c
++ /mnt/c3platpersistent/bin/config_tool 'set-blob snmp .1.0.15628.4.1.2 0 00e06a01485c'
++ for file in `ls ${ProdDir}`
++ case $file in
+++ cat /etc/eeprom-cb/p.radio1.name
+++ tr -d '\n\r'
+++ hexdump -v -e '/1 "%02x"'
++ var=414c505320554d5a322056373533
++ /mnt/c3platpersistent/bin/config_tool 'set-blob snmp .1.0.15628.4.1.12.rsuDCMRadio 1 414c505320554d5a322056373533'
++ for file in `ls ${ProdDir}`
++ case $file in
++ for file in `ls ${ProdDir}`
++ case $file in
++ for file in `ls ${ProdDir}`
++ case $file in
+++ cat /etc/eeprom-cb/p.serial
+++ hexdump -v -e '/1 "%02x"'
+++ tr -d '\n\r'
++ var=50454d3030303534
++ /mnt/c3platpersistent/bin/config_tool 'set-blob snmp .1.0.15628.4.1.17.4 0 50454d3030303534'
++ for file in `ls ${ProdDir}`
++ case $file in
++ for file in `ls ${ProdDir}`
++ case $file in
++ for file in `ls ${ProdDir}`
++ case $file in
++ for file in `ls ${ProdDir}`
++ case $file in
++ for file in `ls ${ProdDir}`
++ case $file in
++ for file in `ls ${ProdDir}`
++ case $file in
++ for file in `ls ${ProdDir}`
++ case $file in
++ for file in `ls ${ProdDir}`
++ case $file in
++ for file in `ls ${ProdDir}`
++ case $file in
++ for file in `ls ${ProdDir}`
++ case $file in
++ for file in `ls ${ProdDir}`
++ case $file in
++ for file in `ls ${ProdDir}`
++ case $file in
++ for file in `ls ${ProdDir}`
++ case $file in
++ '[' -e /mnt/c3platpersistent/etc/issue ']'
+++ cat /mnt/c3platpersistent/etc/issue
+++ hexdump -v -e '/1 "%02x"'
+++ tr -d '\n\r'
+++ grep 'deb[1-9]'
++ version=312e31392e302d646562392d783836
+++ cat /mnt/c3platpersistent/etc/issue
+++ awk '{print " " $3}'
+++ hexdump -v -e '/1 "%02x"'
+++ grep 'build number'
+++ tr -d '\n\r'
++ build=20313030320a
++ var=312e31392e302d646562392d78383620313030320a
++ /mnt/c3platpersistent/bin/config_tool 'set-blob snmp .1.0.15628.4.1.17.2 0 312e31392e302d646562392d78383620313030320a'
++ '[' -e /mnt/c3platpersistent/share/snmp/mibs/RSU41a-MIB.txt ']'
+++ cat /mnt/c3platpersistent/share/snmp/mibs/RSU41a-MIB.txt
+++ hexdump -v -e '/1 "%02x"'
+++ awk '{print $2}'
+++ sed 's/"//g'
+++ grep LAST-UPDATED
+++ tr -d '\n\r'
++ date=3230313831323036303030305a0a
+++ cat /mnt/c3platpersistent/share/snmp/mibs/RSU41a-MIB.txt
+++ hexdump -v -e '/1 "%02x"'
+++ sed 's/^.*version(//g; s/)//g'
+++ awk '{ print $6 "." $7 }'
+++ tr -d '\n\r'
+++ grep '::= { iso'
++ version=342e310a
+++ echo 'rsuMIB '
+++ hexdump -v -e '/1 "%02x"'
+++ tr -d '\n'
++ name=7273754d494220
++ var=7273754d494220342e310a3230313831323036303030305a0a
++ /mnt/c3platpersistent/bin/config_tool 'set-blob snmp .1.0.15628.4.1.17.1 0 7273754d494220342e310a3230313831323036303030305a0a'
+++ date --rfc-3339=seconds
+++ awk '{printf "%02x%02x%02x", $1, $2,  $3}'
+++ sed 's/^[0-9][0-9]//g; s/\(^[+-]\)/\1 /g; s/-/45/g; s/+/43/g'
+++ awk '{print $4 " " $5}'
+++ sed 's/:/ /g'
+++ tr -d '\r\n'
++ tz=2b0000
+++ who -b
+++ awk '{printf "%04x%02x%02x%02x%02x%02x%02x", $1, $2, $3, $4, $5, 0, 0}'
+++ awk '{print $3 " " $4 }'
+++ sed 's/[-:]/ /g'
++ var=07da010100000000
++ /mnt/c3platpersistent/bin/config_tool 'set-blob snmp .1.0.15628.4.1.16.6 0 07da0101000000002b0000'
+++ eeprom_tool g o.operating_hours
+++ tr -d '\n\r'
+++ sed 's/^.*value=//g'
+I: [main] Running on HW controller type=CB_9160
+I: [main] Get parameter=o.operating_hours from device={adapter=10, device=eeprom_carrier_board}
++ hour=23402
++ [[ -z 23402 ]]
++ /mnt/c3platpersistent/bin/config_tool 'set-ns snmp .1.0.15628.4.1.16.2 0 84247200'

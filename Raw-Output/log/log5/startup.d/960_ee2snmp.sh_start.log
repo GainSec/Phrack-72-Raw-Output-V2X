@@ -1,0 +1,137 @@
++ set -x
++ . /mnt/c3platpersistent/share/startup/common.sh
++++ basename /mnt/c3platpersistent/etc/startup.d//960_ee2snmp.sh
+++ APP_SCR=960_ee2snmp.sh
++++ readlink -f /mnt/c3platpersistent/etc/startup.d//960_ee2snmp.sh
+++ ACT_DIR=/mnt/c3platpersistent/etc/startup.d/960_ee2snmp.sh
++++ dirname /mnt/c3platpersistent/etc/startup.d/960_ee2snmp.sh
+++ ABS_PATH=/mnt/c3platpersistent/etc/startup.d
+++ LED_STARTUP_PID=/var/run/flash_pid.startup
+++ [[ -n /mnt/c3platpersistent ]]
+++ [[ -z USDoT-QualcommCCA ]]
+++ source /mnt/c3platpersistent/etc/roadside.cfg
++++ [[ false == false ]]
++++ [[ USDoT-QualcommCCA == ITSG5-HWEngland ]]
++++ export ROADSIDE_IPTABLES_ENABLED=false
++++ ROADSIDE_IPTABLES_ENABLED=false
++++ export CERTPATH=/mnt/c3platpersistent/share/its-g5-security-certs/
++++ CERTPATH=/mnt/c3platpersistent/share/its-g5-security-certs/
++ ProdDir=/etc/eeprom-cb
++ ConfigTool=/mnt/c3platpersistent/bin/config_tool
++ '[' xstart = xstart ']'
++ logger '960_ee2snmp.sh -I- Fill configuration database with producation data  ---'
+++ ls /etc/eeprom-cb
++ for file in '`ls ${ProdDir}`'
++ case $file in
++ for file in '`ls ${ProdDir}`'
++ case $file in
++ for file in '`ls ${ProdDir}`'
++ case $file in
++ for file in '`ls ${ProdDir}`'
++ case $file in
++ for file in '`ls ${ProdDir}`'
++ case $file in
++ for file in '`ls ${ProdDir}`'
++ case $file in
++ for file in '`ls ${ProdDir}`'
++ case $file in
++ for file in '`ls ${ProdDir}`'
++ case $file in
++ for file in '`ls ${ProdDir}`'
++ case $file in
++ for file in '`ls ${ProdDir}`'
++ case $file in
++ for file in '`ls ${ProdDir}`'
++ case $file in
++ for file in '`ls ${ProdDir}`'
++ case $file in
++ for file in '`ls ${ProdDir}`'
++ case $file in
++ for file in '`ls ${ProdDir}`'
++ case $file in
++ for file in '`ls ${ProdDir}`'
++ case $file in
++ for file in '`ls ${ProdDir}`'
++ case $file in
++ for file in '`ls ${ProdDir}`'
++ case $file in
++ for file in '`ls ${ProdDir}`'
++ case $file in
++ for file in '`ls ${ProdDir}`'
++ case $file in
++ for file in '`ls ${ProdDir}`'
++ case $file in
++ for file in '`ls ${ProdDir}`'
++ case $file in
++ for file in '`ls ${ProdDir}`'
++ case $file in
++ for file in '`ls ${ProdDir}`'
++ case $file in
++ for file in '`ls ${ProdDir}`'
++ case $file in
++ for file in '`ls ${ProdDir}`'
++ case $file in
+++ sed s/://g
+++ tr -d '\n\r'
+++ cat /etc/eeprom-cb/p.radio1.a.mac
++ var=00e06a01716c
++ /mnt/c3platpersistent/bin/config_tool 'set-blob snmp .1.0.15628.4.1.1 0 00e06a01716c'
++ for file in '`ls ${ProdDir}`'
++ case $file in
++ for file in '`ls ${ProdDir}`'
++ case $file in
++ for file in '`ls ${ProdDir}`'
++ case $file in
+++ cat /etc/eeprom-cb/p.radio1.b.mac
+++ sed s/://g
+++ tr -d '\n\r'
++ var=00e06a01716d
++ /mnt/c3platpersistent/bin/config_tool 'set-blob snmp .1.0.15628.4.1.2 0 00e06a01716d'
++ for file in '`ls ${ProdDir}`'
++ case $file in
+++ tr -d '\n\r'
+++ hexdump -v -e '/1 "%02x"'
+++ cat /etc/eeprom-cb/p.radio1.name
++ var=414c50532d554d505a32413330303141
++ /mnt/c3platpersistent/bin/config_tool 'set-blob snmp .1.0.15628.4.1.12.rsuDCMRadio 1 414c50532d554d505a32413330303141'
++ for file in '`ls ${ProdDir}`'
++ case $file in
++ for file in '`ls ${ProdDir}`'
++ case $file in
++ for file in '`ls ${ProdDir}`'
++ case $file in
++ for file in '`ls ${ProdDir}`'
++ case $file in
++ for file in '`ls ${ProdDir}`'
++ case $file in
+++ cat /etc/eeprom-cb/p.radio2.name
+++ tr -d '\n\r'
+++ hexdump -v -e '/1 "%02x"'
++ var=414c505320554d5a322056373533
++ /mnt/c3platpersistent/bin/config_tool 'set-blob snmp .1.0.15628.4.1.12.rsuDCMRadio 2 414c505320554d5a322056373533'
++ for file in '`ls ${ProdDir}`'
++ case $file in
++ for file in '`ls ${ProdDir}`'
++ case $file in
++ for file in '`ls ${ProdDir}`'
++ case $file in
++ for file in '`ls ${ProdDir}`'
++ case $file in
++ for file in '`ls ${ProdDir}`'
++ case $file in
++ for file in '`ls ${ProdDir}`'
++ case $file in
++ for file in '`ls ${ProdDir}`'
++ case $file in
++ for file in '`ls ${ProdDir}`'
++ case $file in
++ for file in '`ls ${ProdDir}`'
++ case $file in
++ for file in '`ls ${ProdDir}`'
++ case $file in
++ for file in '`ls ${ProdDir}`'
++ case $file in
++ for file in '`ls ${ProdDir}`'
++ case $file in
++ for file in '`ls ${ProdDir}`'
++ case $file in

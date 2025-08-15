@@ -1,0 +1,46 @@
+12 Jan 07:59:08 ntpd[2952]: ntpd 4.2.8p13@1.3847-o Tue Dec 22 23:27:13 UTC 2020 (1): Starting
+12 Jan 07:59:08 ntpd[2952]: Command line: /mnt/c3platpersistent/sbin/ntpd -p /var/run/ntpd.pid -c /etc/ntpd.conf -u ntp:ntp -g -l /var/log/ntpd.log
+12 Jan 07:59:08 ntpd[2954]: proto: precision = 0.390 usec (-21)
+12 Jan 07:59:08 ntpd[2954]: basedate set to 2020-12-11
+12 Jan 07:59:08 ntpd[2954]: gps base set to 2020-12-13 (week 2136)
+12 Jan 07:59:08 ntpd[2954]: restrict default: KOD does nothing without LIMITED.
+12 Jan 07:59:08 ntpd[2954]: restrict ::: KOD does nothing without LIMITED.
+12 Jan 07:59:08 ntpd[2954]: Listen and drop on 0 v6wildcard [::]:123
+12 Jan 07:59:08 ntpd[2954]: Listen and drop on 1 v4wildcard 0.0.0.0:123
+12 Jan 07:59:08 ntpd[2954]: Listen normally on 2 lo 127.0.0.1:123
+12 Jan 07:59:08 ntpd[2954]: Listen normally on 3 eth0 169.50.50.100:123
+12 Jan 07:59:08 ntpd[2954]: Listen normally on 4 eth0 192.168.1.200:123
+12 Jan 07:59:08 ntpd[2954]: Listen normally on 5 lo [::1]:123
+12 Jan 07:59:08 ntpd[2954]: Listen normally on 6 eth0 [fe80::2e0:6aff:fe01:4878%2]:123
+12 Jan 07:59:08 ntpd[2954]: Listen normally on 7 cw-llc [fe80::eca4:f428:26d1:8de3%4]:123
+12 Jan 07:59:08 ntpd[2954]: Listen normally on 8 wave1 [fe80::d87d:2bff:fe55:ed9a%21]:123
+12 Jan 07:59:08 ntpd[2954]: Listening on routing socket on fd #25 for interface updates
+12 Jan 07:59:08 ntpd[2954]: GPSD_JSON(0): startup, device is '/dev/gps0'
+12 Jan 07:59:08 ntpd[2954]: GPSD_JSON(0) 8011 81 mobilize assoc 33183
+12 Jan 07:59:08 ntpd[2954]: kernel reports TIME_ERROR: 0x41: Clock Unsynchronized
+12 Jan 07:59:08 ntpd[2954]: 0.0.0.0 c01d 0d kern kernel time sync enabled
+12 Jan 07:59:08 ntpd[2954]: kernel reports TIME_ERROR: 0x41: Clock Unsynchronized
+12 Jan 07:59:08 ntpd[2954]: 0.0.0.0 c012 02 freq_set kernel 500.000 PPM
+12 Jan 07:59:08 ntpd[2954]: 0.0.0.0 c016 06 restart
+12 Jan 07:59:09 ntpd[2954]: GPSD_JSON(0) 801b 8b clock_event clk_fault
+12 Jan 07:59:10 ntpd[2954]: GPSD_JSON(0): GPSD revision=3.21 release=3.21 protocol=3.14
+12 Jan 07:59:10 ntpd[2954]: GPSD_JSON(0) 802b 8b clock_event clk_unspec
+12 Jan 07:59:25 ntpd[2954]: GPSD_JSON(0) 8014 84 reachable
+12 Jan 07:59:25 ntpd[2954]: GPSD_JSON(0) 901a 8a sys_peer
+12 Jan 07:59:25 ntpd[2954]: 0.0.0.0 c41c 0c clock_step +0.275343 s
+12 Jan 07:59:25 ntpd[2954]: 0.0.0.0 c415 05 clock_sync
+12 Jan 07:59:41 ntpd[2954]: 0.0.0.0 c418 08 no_sys_peer
+12 Jan 07:59:41 ntpd[2954]: GPSD_JSON(0) 8014 84 reachable
+12 Jan 07:59:41 ntpd[2954]: GPSD_JSON(0) 901a 8a sys_peer
+29 May 08:00:29 ntpd[2954]: 0.0.0.0 0413 03 spike_detect +619315200.072798 s
+12 Jan 08:01:01 ntpd[2954]: 0.0.0.0 0415 05 clock_sync
+29 May 08:03:25 ntpd[2954]: 0.0.0.0 0413 03 spike_detect +619315200.065007 s
+12 Jan 08:05:17 ntpd[2954]: 0.0.0.0 0415 05 clock_sync
+29 May 08:06:20 ntpd[2954]: 0.0.0.0 0413 03 spike_detect +619315200.079373 s
+12 Jan 08:06:52 ntpd[2954]: 0.0.0.0 0415 05 clock_sync
+29 May 08:07:40 ntpd[2954]: 0.0.0.0 0413 03 spike_detect +619315200.082482 s
+12 Jan 08:08:44 ntpd[2954]: 0.0.0.0 0415 05 clock_sync
+29 May 08:10:20 ntpd[2954]: 0.0.0.0 0413 03 spike_detect +619315200.065047 s
+12 Jan 08:11:08 ntpd[2954]: 0.0.0.0 0415 05 clock_sync
+29 May 08:13:48 ntpd[2954]: 0.0.0.0 0413 03 spike_detect +619315200.084687 s
+12 Jan 08:14:20 ntpd[2954]: 0.0.0.0 0415 05 clock_sync

@@ -1,0 +1,90 @@
+UART> bridge
+UART bridge. Press Bus Pirate button to exit.
+
+Format: Log Type - Time(micr
+Format: Log Type - Time(microsec) - Message - Optional Info
+Log Type: B - Since Boot(Power On Reset),  D - Delta,  S - Statistic
+S - QC_IMAGE_VERSION_STRING=BOOT.BF.3.1-00303
+S - IMAGE_VARIANT_STRING=MAATANAZA
+S - OEM_IMAGE_VERSION_STRING=CRM
+S - Boot Interface: NAND
+S - Secure Boot: Off
+S - Boot Config @ 0x000a602c = 0x000000a1
+S - JTAG ID @ 0x000a607c = 0x100320e1
+S - OEM ID @ 0x000a6080 = 0x00000000
+S - Serial Number @ 0x000a4128 = 0x587f86f9
+S - OEM Config Row 0 @ 0x000a4150 = 0x0900000000000000
+S - OEM Config Row 1 @ 0x000a4158 = 0x0000000000000000
+S - Feature Config Row 0 @ 0x000a4160 = 0x1400000000000960
+S - Feature Config Row 1 @ 0x000a4168 = 0x0342f80200000005
+B -      3309 - PBL, Start
+B -      6711 - bootable_media_detect_entry, Start
+B -      7671 - bootable_media_detect_success, Start
+B -      7675 - elf_loader_entry, Start
+B -      9875 - auth_hash_seg_entry, Start
+B -     10130 - auth_hash_seg_exit, Start
+B -     65423 - elf_segs_hash_verify_entry, Start
+B -    124896 - PBL, End
+B -    138074 - SBL1, Start
+B -    230000 - pm_device_init, Start
+B -    290451 - PM_SET_VAL:Skip
+D -     59261 - pm_device_init, Delta
+B -    291488 - usb: usb: hs_phy_nondrive_start
+B -    295667 - usb: usb: hs_phy_nondrive_finish
+B -    298961 - boot_config_data_table_init, Start
+D -     10522 - boot_config_data_table_init, Delta - (422 Bytes)
+B -    314150 - CDT Version:3,Platform ID:30,Major ID:1,Minor ID:0,Subtype:1
+B -    320402 - sbl1_ddr_set_params, Start
+D -       183 - sbl1_ddr_set_params, Delta
+B -    327905 - Pre_DDR_clock_init, Start
+D -       396 - Pre_DDR_clock_init, Delta
+B -    342911 - pm_driver_init, Start
+D -      1830 - pm_driver_init, Delta
+B -    344772 - clock_init, Start
+D -       183 - clock_init, Delta
+B -    349438 - boot_flash_init, Start
+D -     20282 - boot_flash_init, Delta
+B -    572637 - Image Load, Start
+D -      5063 - DEVCFG Image Loaded, Delta - (32736 Bytes)
+B -    578066 - SEC Image Loaded, Start
+D -       305 - SEC Image Loaded, Delta - (2048 Bytes)
+B -    584990 - Image Load, Start
+D -    100345 - QSEE Image Loaded, Delta - (1004996 Bytes)
+B -    685365 - QSEE Execution, Start
+D -     38796 - QSEE Execution, Delta
+D -       213 - boot_pm_post_tz_device_init, Delta
+B -    727821 - Image Load, Start
+D -     20313 - RPM Image Loaded, Delta - (161916 Bytes)
+B -    749476 - Image Load, Start
+D -     43524 - APPSBL Image Loaded, Delta - (447160 Bytes)
+B -    793000 - sbl1_efs_handle_cookies, Start
+D -         0 - sbl1_efs_handle_cookies, Delta
+B -    800350 - SBL1, End
+D -    664564 - SBL1, Delta
+S - Throughput, 9000 KB/s  (1649470 Bytes,  173813 us)
+S - DDR Frequency, 518 MHz
+S - Core 0 Frequency, 1190 MHz
+Android Bootloader - UART_DM Initialized!!!
+[0] welcome to lk
+
+[10] platform_init()
+[10] target_init()
+[10] Waiting for the RPM to populate smd channel table
+[20] smem ptable found: ver: 4 len: 17
+[30] ERROR: No devinfo partition found
+[30] Neither 'config' nor 'frp' partition found
+[30] Loading (boot) image (9748480): start
+[1100] Loading (boot) image (9748480): done
+[1100] Authenticating boot image (9748480): start
+[1180] Authenticating boot image: done return value = 1
+[1230] DTB Total entry: 256, DTB version: 3
+[1230] Using DTB entry 0x0000011b/00010001/0x0000001e/1 for device 0x0000011b/00010001/0x0101001e/1
+[1240] cmdline: noinitrd ro console=ttyHSL0,115200,n8 androidboot.hardware=qcom ehci-hcd.park=3 msm_rtb.filter=0x37 lpm_levels.sleep_disabled=1 earlycon=msm_hsl_uart,0x78b1000t
+[1340] Updating device tree: done
+[1340] Channel alloc freed
+[1350] booting linux @ 0x80008000, ramdisk @ 0x80008000 (0), tags/device tree @ 0x82000000
+
+mdm-perf 201808161432 mdm9650-2k /dev/ttyHSL0
+
+mdm9650-2k login: 
+

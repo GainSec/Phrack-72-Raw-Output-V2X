@@ -1,0 +1,31 @@
++ set -x
++ set -x
+++ basename /mnt/c3platpersistent/etc/startup.d/appl/10_appl_prepare.sh
++ APP_SCR=10_appl_prepare.sh
++ SUCCESS=0
++ RR_CFG=RoadRunner.xml
++ RR_CFG_IN=/mnt/c3platpersistent/etc/RoadRunner.xml
++ ITS_DIRS=(/tmp/upload /tmp/download /tmp/error /tmp/upload/done /tmp/upload/error /tmp/upload/tmp)
++ ADB_TOOL=/mnt/c3platpersistent/opt/platform-tools/adb
++ '[' xstart = xstart ']'
++ idx=0
++ '[' -n /tmp/upload ']'
++ mkdir -p /tmp/upload
++ idx=1
++ '[' -n /tmp/download ']'
++ mkdir -p /tmp/download
++ idx=2
++ '[' -n /tmp/error ']'
++ mkdir -p /tmp/error
++ idx=3
++ '[' -n /tmp/upload/done ']'
++ mkdir -p /tmp/upload/done
++ idx=4
++ '[' -n /tmp/upload/error ']'
++ mkdir -p /tmp/upload/error
++ idx=5
++ '[' -n /tmp/upload/tmp ']'
++ mkdir -p /tmp/upload/tmp
++ idx=6
++ '[' -n '' ']'
++ exit 0

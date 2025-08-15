@@ -1,0 +1,172 @@
++ source /mnt/c3platpersistent/share/startup/common.sh
+++ source /etc/os-release
++++ PRETTY_NAME='Debian GNU/Linux 9 (stretch)'
++++ NAME='Debian GNU/Linux'
++++ VERSION_ID=9
++++ VERSION='9 (stretch)'
++++ VERSION_CODENAME=stretch
++++ ID=debian
++++ HOME_URL=https://www.debian.org/
++++ SUPPORT_URL=https://www.debian.org/support
++++ BUG_REPORT_URL=https://bugs.debian.org/
+++ export DEBIAN_VERSION=9
+++ DEBIAN_VERSION=9
+++ export LD_LIBRARY_PATH=/mnt/c3platpersistent/lib/deb9:/mnt/c3platpersistent/lib
+++ LD_LIBRARY_PATH=/mnt/c3platpersistent/lib/deb9:/mnt/c3platpersistent/lib
++++ basename -- /mnt/c3platpersistent/etc/startup.d//230_lte.sh
+++ APP_SCR=230_lte.sh
++++ readlink -f -- /mnt/c3platpersistent/etc/startup.d//230_lte.sh
+++ ACT_DIR=/mnt/c3platpersistent/etc/startup.d/230_lte.sh
++++ dirname /mnt/c3platpersistent/etc/startup.d/230_lte.sh
+++ ABS_PATH=/mnt/c3platpersistent/etc/startup.d
+++ ENABLE_LED_HANDLER=false
+++ LED_STARTUP_PID=/var/run/flash_pid.startup
+++ LED_HANDLER_IP=127.0.0.1
+++ LED_HANDLER_PORT=6001
+++ LED_HANDLER_AIRLINK_STATISTICS=tx
+++ ETH_IF=eth0
+++ [[ -n /mnt/c3platpersistent ]]
++++ cat /mnt/c3platpersistent/etc/issue
++++ head -n 1
+++ export VARIANTRS=USDoT-NAStack
+++ VARIANTRS=USDoT-NAStack
+++ export WATCHDOG_SCRIPTS_PATH=/var/run/supervision/scripts
+++ WATCHDOG_SCRIPTS_PATH=/var/run/supervision/scripts
+++ mkdir -p /var/run/supervision/scripts
+++ [[ false == false ]]
+++ export ROADSIDE_IPTABLES_ENABLED=true
+++ ROADSIDE_IPTABLES_ENABLED=true
+++ export CERTPATH=/mnt/c3platpersistent/share/its-g5-security-certs/
+++ CERTPATH=/mnt/c3platpersistent/share/its-g5-security-certs/
+++ export GPSD_DEBUG=0
+++ GPSD_DEBUG=0
+++ export GPSD_OPTS=
+++ GPSD_OPTS=
+++ [[ 9 == 9 ]]
+++ export PPSDEVICE=/dev/pps1
+++ PPSDEVICE=/dev/pps1
+++ export GPSD_CYCLE_TIME=1.0
+++ GPSD_CYCLE_TIME=1.0
+++ [[ USDoT-NAStack =~ .*CCA.* ]]
+++ [[ USDoT-NAStack =~ USDoT-QualcommRR ]]
+++ export ENABLED_RADIOS=:NXP:
+++ ENABLED_RADIOS=:NXP:
+++ [[ -e /etc/eeprom-cb/a.dualradio.mode ]]
+++ [[ -e /mnt/c3platpersistent/etc/roadside.cfg ]]
+++ source /mnt/c3platpersistent/etc/roadside.cfg
++++ export AEROLINK_BASE=/mnt/c3platpersistent/etc/aerolink/ieee
++++ AEROLINK_BASE=/mnt/c3platpersistent/etc/aerolink/ieee
++++ export AEROLINK_CONFIG_DIR=/mnt/c3platpersistent/etc/aerolink/ieee/config/
++++ AEROLINK_CONFIG_DIR=/mnt/c3platpersistent/etc/aerolink/ieee/config/
++++ export AEROLINK_STATE_DIR=/mnt/c3platpersistent/etc/aerolink/ieee/state/
++++ AEROLINK_STATE_DIR=/mnt/c3platpersistent/etc/aerolink/ieee/state/
++++ export INIT_TARGET=./share/urb/cfgdb2stack.usdot.urb
++++ INIT_TARGET=./share/urb/cfgdb2stack.usdot.urb
++ WVDIALCFG=/etc/wvdial.conf
++ SYSTEMD_NETWORK_CFG=/etc/systemd/network/
++ LTE_UDEV_RULE=/etc/udev/rules.d/21-ublox-lte.rules
++ RESOLV_CONF=/etc/resolv.conf
++ MINICOM=/mnt/c3platpersistent/bin/minicom
++ LTEMONSCRIPT=/mnt/c3platpersistent/bin/ltemon.sh
++ LTEMONPIDFILE=/var/run/ltemon.pid
++ LTEMON_LOG=/var/log/roadside_lte.log
++ NETWORK_IF=
++ [[ -f /mnt/c3platpersistent/etc/lte.system.cfg ]]
++ source /mnt/c3platpersistent/etc/lte.system.cfg
+++ source /mnt/c3platpersistent/etc/lte.cfg
++++ ENABLE_LTE=0
++++ KEEP_LTE_ON=1
++++ MODE=lte-umts
++++ SIMPIN=7267
++++ PHONE='*99#'
++++ APN_USERNAME=ppp@a1plus.at
++++ APN_PASSWORD=ppp
++++ PDP_CONTEXT=fixip.A1.net
++++ PLMN=0
++++ ROUTING=()
++++ MONITORINGINTERVAL=15
++++ MONITORING_SERVER=google.com
++++ MONITORING_PORT=443
+++ LTEMODEM=/dev/ttyLTE
+++ MODEM_DEFAULT_INIT=("ATZ" "ATQ0 V1 E1 S0=0" "AT+UDCONF=67,0")
+++ MODEM_TYPE='USB Modem'
+++ MODEM_BAUD=460800
+++ ETHGW=172.20.32.1
+++ KTC_INTERNAL=148.198.0.0/16
+++ KTC_VPN=172.19.0.0/16
+++ UMTS_IF=ppp0
+++ LTE_IF=lte0
+++ LTE_RNDIS_IP=192.168.1.100
+++ EEPROM_PARAM_PATH=/etc/eeprom-cb
+++ EEPROM_DB_LTE_STATE=("$EEPROM_PARAM_PATH/a.lte.state" "1" "$ENABLE_LTE" "Enable LTE modem?")
+++ EEPROM_DB_LTE_SIM_PIN=("$EEPROM_PARAM_PATH/a.lte.sim.pin" "1" "$SIMPIN" "SIM Pin?")
+++ EEPROM_DB_KEEP_LTE_ON=("$EEPROM_PARAM_PATH/a.lte.config" "6" "$KEEP_LTE_ON" "Keep LTE always on?")
+++ EEPROM_DB_LTE_PHONE=("$EEPROM_PARAM_PATH/a.lte.config" "4" "$PHONE" "Dial number?")
+++ EEPROM_DB_LTE_MODE=("$EEPROM_PARAM_PATH/a.lte.config" "7" "$MODE" "Mode (umts,lte,lte-umts)?")
+++ EEPROM_DB_LTE_APN_USERNAME=("$EEPROM_PARAM_PATH/a.lte.config" "2" "$APN_USERNAME" "APN user?")
+++ EEPROM_DB_LTE_APN_PASSWORD=("$EEPROM_PARAM_PATH/a.lte.config" "3" "$APN_PASSWORD" "APN password?")
+++ EEPROM_DB_LTE_PDP_CONTEXT=("$EEPROM_PARAM_PATH/a.lte.config" "1" "$PDP_CONTEXT" "APN?")
+++ EEPROM_DB_LTE_SIM_PLMN=("$EEPROM_PARAM_PATH/a.lte.config" "5" "$PLMN" "PLMN?")
++ retrieve_lte_config
++ read_eeprom_db_or_default ENABLE_LTE /etc/eeprom-cb/a.lte.state 1 0 'Enable LTE modem?'
++ local -n var_ref=ENABLE_LTE
++ shift
++ eeprom_db_arr=("$@")
++ local eeprom_db_arr
++ [[ -f /etc/eeprom-cb/a.lte.state ]]
++ read_eeprom_db_or_default KEEP_LTE_ON /etc/eeprom-cb/a.lte.config 6 1 'Keep LTE always on?'
++ local -n var_ref=KEEP_LTE_ON
++ shift
++ eeprom_db_arr=("$@")
++ local eeprom_db_arr
++ [[ -f /etc/eeprom-cb/a.lte.config ]]
++ read_eeprom_db_or_default SIMPIN /etc/eeprom-cb/a.lte.sim.pin 1 7267 'SIM Pin?'
++ local -n var_ref=SIMPIN
++ shift
++ eeprom_db_arr=("$@")
++ local eeprom_db_arr
++ [[ -f /etc/eeprom-cb/a.lte.sim.pin ]]
++ read_eeprom_db_or_default PHONE /etc/eeprom-cb/a.lte.config 4 '*99#' 'Dial number?'
++ local -n var_ref=PHONE
++ shift
++ eeprom_db_arr=("$@")
++ local eeprom_db_arr
++ [[ -f /etc/eeprom-cb/a.lte.config ]]
++ read_eeprom_db_or_default MODE /etc/eeprom-cb/a.lte.config 7 lte-umts 'Mode (umts,lte,lte-umts)?'
++ local -n var_ref=MODE
++ shift
++ eeprom_db_arr=("$@")
++ local eeprom_db_arr
++ [[ -f /etc/eeprom-cb/a.lte.config ]]
++ read_eeprom_db_or_default APN_USERNAME /etc/eeprom-cb/a.lte.config 2 ppp@a1plus.at 'APN user?'
++ local -n var_ref=APN_USERNAME
++ shift
++ eeprom_db_arr=("$@")
++ local eeprom_db_arr
++ [[ -f /etc/eeprom-cb/a.lte.config ]]
++ read_eeprom_db_or_default APN_PASSWORD /etc/eeprom-cb/a.lte.config 3 ppp 'APN password?'
++ local -n var_ref=APN_PASSWORD
++ shift
++ eeprom_db_arr=("$@")
++ local eeprom_db_arr
++ [[ -f /etc/eeprom-cb/a.lte.config ]]
++ read_eeprom_db_or_default PDP_CONTEXT /etc/eeprom-cb/a.lte.config 1 fixip.A1.net 'APN?'
++ local -n var_ref=PDP_CONTEXT
++ shift
++ eeprom_db_arr=("$@")
++ local eeprom_db_arr
++ [[ -f /etc/eeprom-cb/a.lte.config ]]
++ read_eeprom_db_or_default PLMN /etc/eeprom-cb/a.lte.config 5 0 'PLMN?'
++ local -n var_ref=PLMN
++ shift
++ eeprom_db_arr=("$@")
++ local eeprom_db_arr
++ [[ -f /etc/eeprom-cb/a.lte.config ]]
++ [[ ! -z lte-umts ]]
++ get_mobile_network_mode lte-umts NETWORK_IF
++ local -n var_ref=NETWORK_IF
++ case "$1" in
++ var_ref=lte0
++ [[ start == start ]]
++ [[ 0 -eq 1 ]]
++ logger '230_lte.sh -I- LTE is disabled!'

@@ -1,0 +1,15 @@
+Jan 12 07:58:28 CB-9160 kernel: watchdog: watchdog0: watchdog did not stop!
+Jan 12 07:58:30 CB-9160 gpsdctl[434]: gpsd_control(action=add, arg=/dev/ttyACM0)
+Jan 12 07:58:31 CB-9160 smartd[433]: DEVICESCAN failed: glob(3) aborted matching pattern /dev/discs/disc*
+Jan 12 07:58:31 CB-9160 smartd[433]: In the system's table of devices NO devices found to scan
+Jan 12 07:58:36 CB-9160 avahi-daemon[836]: chroot.c: open() failed: No such file or directory
+Jan 12 07:58:58 CB-9160 kernel: LLC_USBOutReq: USB device not present
+Jan 12 07:58:58 CB-9160 kernel: LLC_USBOutReq: USB device not present
+Jan 12 07:58:58 CB-9160 kernel: LLC_USBOutReq: USB device not present
+Jan 12 07:58:58 CB-9160 kernel: LLC_USBInterfaceProbe: MKx now attached to cw-llc-1
+Jan 12 07:58:59 CB-9160 kernel: LLC_MsgSend ERROR: Unknown send message type 65535
+Jan 12 07:59:03 CB-9160 kernel: LLC_MsgSend ERROR: Unknown send message type 65535
+Jan 12 07:59:03 CB-9160 kernel: LLC_MsgSend ERROR: Unknown send message type 65535
+Jan 12 07:59:03 CB-9160 kernel: LLC_MsgSend ERROR: Unknown send message type 65535
+Jan 12 07:59:07 PEM00064 gpsdctl[2837]: gpsd_control(action=remove, arg=/dev/ttyACM0)
+Jan 12 07:59:07 PEM00064 gpsdctl[2837]: can't reach gpsd

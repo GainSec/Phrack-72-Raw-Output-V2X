@@ -1,0 +1,2 @@
+Jan  4 05:20:43 CB-9160 watchdog[16589]: adding /etc/watchdog.d/test-sshd.sh to list of auto-repair binaries
+Jan  4 05:20:43 CB-9160 watchdog[16589]: adding /etc/watchdog.d/supervision_wrapper.sh to list of auto-repair binaries

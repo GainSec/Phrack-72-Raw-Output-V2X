@@ -1,0 +1,13 @@
+
+LABEL rescue
+        MENU LABEL rescue system shell (ver 3.2.0.829.23)
+        LINUX /rescue/vmlinuz
+        APPEND boot=squashfs root=/dev/disk/by-label/IMAGES root_sfs=/rescue/rootfs panic=30 rescue_mode=shell quiet console=ttyS0,115200N8 intel_idle.max_cstate=1 controller_hw_type=CB_9160
+        INITRD /rescue/initrd
+
+LABEL update
+        MENU LABEL update system (ver 3.2.0.829.23)
+        LINUX /rescue/vmlinuz
+        APPEND boot=squashfs root=/dev/disk/by-label/IMAGES root_sfs=/rescue/rootfs panic=30 rescue_mode=update quiet console=ttyS0,115200N8 intel_idle.max_cstate=1 controller_hw_type=CB_9160
+        INITRD /rescue/initrd
+

@@ -1,0 +1,199 @@
++ set -x
++ . /mnt/c3platpersistent/share/startup/common.sh
++++ basename /mnt/c3platpersistent/etc/startup.d//940_application_startup.sh
+++ APP_SCR=940_application_startup.sh
++++ readlink -f /mnt/c3platpersistent/etc/startup.d//940_application_startup.sh
+++ ACT_DIR=/mnt/c3platpersistent/etc/startup.d/940_application_startup.sh
++++ dirname /mnt/c3platpersistent/etc/startup.d/940_application_startup.sh
+++ ABS_PATH=/mnt/c3platpersistent/etc/startup.d
+++ LED_STARTUP_PID=/var/run/flash_pid.startup
+++ [[ -n /mnt/c3platpersistent ]]
+++ [[ -z USDoT-QualcommCCA ]]
+++ source /mnt/c3platpersistent/etc/roadside.cfg
++++ [[ false == false ]]
++++ [[ USDoT-QualcommCCA == ITSG5-HWEngland ]]
++++ export ROADSIDE_IPTABLES_ENABLED=false
++++ ROADSIDE_IPTABLES_ENABLED=false
++++ export CERTPATH=/mnt/c3platpersistent/share/its-g5-security-certs/
++++ CERTPATH=/mnt/c3platpersistent/share/its-g5-security-certs/
++ APPL_PATH=/mnt/c3platpersistent/etc/startup.d/appl
++ LOG_PATH=/var/log/startup.d/appl
++ '[' start = start ']'
+++ sort -V
+++ ls /mnt/c3platpersistent/etc/startup.d/appl/10_appl_prepare.sh /mnt/c3platpersistent/etc/startup.d/appl/20_appl_stack.sh /mnt/c3platpersistent/etc/startup.d/appl/30_appl_utilities.sh /mnt/c3platpersistent/etc/startup.d/appl/90_supervise.sh /mnt/c3platpersistent/etc/startup.d/appl/99_appl_done.sh
++ for unit in '`ls $APPL_PATH/*.sh | sort -V`'
+++ basename /mnt/c3platpersistent/etc/startup.d/appl/10_appl_prepare.sh
++ name=10_appl_prepare.sh
++ logger '940_application_startup.sh -D- Execute appl/10_appl_prepare.sh with parameters ---'
++ start_stop_unit /mnt/c3platpersistent/etc/startup.d/appl/10_appl_prepare.sh start
++ unit=/mnt/c3platpersistent/etc/startup.d/appl/10_appl_prepare.sh
+++ basename /mnt/c3platpersistent/etc/startup.d/appl/10_appl_prepare.sh
++ name=10_appl_prepare.sh
++ '[' -x /mnt/c3platpersistent/etc/startup.d/appl/10_appl_prepare.sh ']'
++ logger '/mnt/c3platpersistent/etc/startup.d//940_application_startup.sh - going to execute /mnt/c3platpersistent/etc/startup.d/appl/10_appl_prepare.sh'
++ sleep 0.1
++ [[ -n false ]]
++ mkdir -p /var/log/startup.d/appl
++ /mnt/c3platpersistent/etc/startup.d/appl/10_appl_prepare.sh start
++ tee /var/log/startup.d/appl/10_appl_prepare.sh_start.log
++ set -x
++ set -x
+++ basename /mnt/c3platpersistent/etc/startup.d/appl/10_appl_prepare.sh
++ APP_SCR=10_appl_prepare.sh
++ SUCCESS=0
++ RR_CFG=RoadRunner.xml
++ RR_CFG_IN=/mnt/c3platpersistent/etc/RoadRunner.xml
++ ITS_DIRS=(/tmp/upload /tmp/download /tmp/error /tmp/upload/done /tmp/upload/error /tmp/upload/tmp)
++ ADB_TOOL=/mnt/c3platpersistent/opt/platform-tools/adb
++ '[' xstart = xstart ']'
++ idx=0
++ '[' -n /tmp/upload ']'
++ mkdir -p /tmp/upload
++ idx=1
++ '[' -n /tmp/download ']'
++ mkdir -p /tmp/download
++ idx=2
++ '[' -n /tmp/error ']'
++ mkdir -p /tmp/error
++ idx=3
++ '[' -n /tmp/upload/done ']'
++ mkdir -p /tmp/upload/done
++ idx=4
++ '[' -n /tmp/upload/error ']'
++ mkdir -p /tmp/upload/error
++ idx=5
++ '[' -n /tmp/upload/tmp ']'
++ mkdir -p /tmp/upload/tmp
++ idx=6
++ '[' -n '' ']'
++ exit 0
++ sleep 0.1
++ sleep 0.1
++ for unit in '`ls $APPL_PATH/*.sh | sort -V`'
+++ basename /mnt/c3platpersistent/etc/startup.d/appl/20_appl_stack.sh
++ name=20_appl_stack.sh
++ logger '940_application_startup.sh -D- Execute appl/20_appl_stack.sh with parameters ---'
++ start_stop_unit /mnt/c3platpersistent/etc/startup.d/appl/20_appl_stack.sh start
++ unit=/mnt/c3platpersistent/etc/startup.d/appl/20_appl_stack.sh
+++ basename /mnt/c3platpersistent/etc/startup.d/appl/20_appl_stack.sh
++ name=20_appl_stack.sh
++ '[' -x /mnt/c3platpersistent/etc/startup.d/appl/20_appl_stack.sh ']'
++ logger '/mnt/c3platpersistent/etc/startup.d//940_application_startup.sh - going to execute /mnt/c3platpersistent/etc/startup.d/appl/20_appl_stack.sh'
++ sleep 0.1
++ [[ -n false ]]
++ mkdir -p /var/log/startup.d/appl
++ /mnt/c3platpersistent/etc/startup.d/appl/20_appl_stack.sh start
++ tee /var/log/startup.d/appl/20_appl_stack.sh_start.log
++ set -x
++ set -x
+++ basename /mnt/c3platpersistent/etc/startup.d/appl/20_appl_stack.sh
++ APP_SCR=20_appl_stack.sh
++ SUCCESS=0
++ TEST_APP=imis_app
++ ITS_DIR=/opt/its-g5/examples
++ APPLICATION=run_sender.sh
++ RUN_SCR=/mnt/c3platpersistent/bin
++ APP_LIST=(run_imis.sh cca_al_tx cca_al_rx imis_app denm_app cam_agg fl_start)
++ '[' xstart = xstart ']'
++ sleep 0.1
++ '[' xUSDoT-QualcommCCA = xUSDoT-QualcommRR -o xUSDoT-QualcommCCA = xUSDoT-QualcommCCA ']'
++ '[' -x /mnt/c3platpersistent/bin/cca_al_tx ']'
++ '[' xUSDoT-QualcommCCA = xITSG5-Spain ']'
++ exit 0
++ sleep 0.1
++ sleep 0.1
++ for unit in '`ls $APPL_PATH/*.sh | sort -V`'
+++ basename /mnt/c3platpersistent/etc/startup.d/appl/30_appl_utilities.sh
++ name=30_appl_utilities.sh
++ logger '940_application_startup.sh -D- Execute appl/30_appl_utilities.sh with parameters ---'
++ start_stop_unit /mnt/c3platpersistent/etc/startup.d/appl/30_appl_utilities.sh start
++ unit=/mnt/c3platpersistent/etc/startup.d/appl/30_appl_utilities.sh
+++ basename /mnt/c3platpersistent/etc/startup.d/appl/30_appl_utilities.sh
++ name=30_appl_utilities.sh
++ '[' -x /mnt/c3platpersistent/etc/startup.d/appl/30_appl_utilities.sh ']'
++ logger '/mnt/c3platpersistent/etc/startup.d//940_application_startup.sh - going to execute /mnt/c3platpersistent/etc/startup.d/appl/30_appl_utilities.sh'
++ sleep 0.1
++ [[ -n false ]]
++ mkdir -p /var/log/startup.d/appl
++ tee /var/log/startup.d/appl/30_appl_utilities.sh_start.log
++ /mnt/c3platpersistent/etc/startup.d/appl/30_appl_utilities.sh start
++ set -x
+++ basename /mnt/c3platpersistent/etc/startup.d/appl/30_appl_utilities.sh
++ APP_SCR=30_appl_utilities.sh
++ APPLICATION=backup_clean.sh
++ RUN_SCR=/mnt/c3platpersistent/share/CCA
++ Samples=/mnt/c3platpersistent/share/imis_app
++ '[' xstart = xstart ']'
++ '[' xUSDoT-QualcommCCA = xUSDoT-QualcommCCA ']'
++ '[' -x /mnt/c3platpersistent/share/CCA/backup_clean.sh ']'
++ Pid1=16104
++ echo 16104
++ sh /mnt/c3platpersistent/share/CCA/backup_clean.sh update_clean
++ sleep 0.1
++ logger '30_appl_utilities.sh -I- Started backup_clean.sh with pid "16104"'
++ sleep 0.1
++ logger '30_appl_utilities.sh -I- Prepare templates if any given  ---'
+++ ls '/mnt/c3platpersistent/share/imis_app/*.xml'
+ls: cannot access /mnt/c3platpersistent/share/imis_app/*.xml: No such file or directory
++ exit 0
++ sleep 0.1
++ sleep 0.1
++ for unit in '`ls $APPL_PATH/*.sh | sort -V`'
+++ basename /mnt/c3platpersistent/etc/startup.d/appl/90_supervise.sh
++ name=90_supervise.sh
++ logger '940_application_startup.sh -D- Execute appl/90_supervise.sh with parameters ---'
++ start_stop_unit /mnt/c3platpersistent/etc/startup.d/appl/90_supervise.sh start
++ unit=/mnt/c3platpersistent/etc/startup.d/appl/90_supervise.sh
+++ basename /mnt/c3platpersistent/etc/startup.d/appl/90_supervise.sh
++ name=90_supervise.sh
++ '[' -x /mnt/c3platpersistent/etc/startup.d/appl/90_supervise.sh ']'
++ logger '/mnt/c3platpersistent/etc/startup.d//940_application_startup.sh - going to execute /mnt/c3platpersistent/etc/startup.d/appl/90_supervise.sh'
++ sleep 0.1
++ [[ -n false ]]
++ mkdir -p /var/log/startup.d/appl
++ /mnt/c3platpersistent/etc/startup.d/appl/90_supervise.sh start
++ tee /var/log/startup.d/appl/90_supervise.sh_start.log
++ set -x
+++ basename /mnt/c3platpersistent/etc/startup.d/appl/90_supervise.sh
++ APP_SCR=90_supervise.sh
++ APPLICATION=run_tests.sh
++ RUN_SCR=/mnt/c3platpersistent/share/CCA
++ '[' xstart = xstart ']'
++ sleep 0.1
++ '[' xUSDoT-QualcommCCA = xUSDoT-QualcommCCA ']'
++ '[' -x /mnt/c3platpersistent/share/CCA/run_tests.sh ']'
++ Pid1=16149
++ echo 16149
++ bash /mnt/c3platpersistent/share/CCA/run_tests.sh update
++ sleep 0.1
++ logger '90_supervise.sh -I- Started run_tests.sh with ids "16149"'
++ exit 0
++ sleep 0.1
++ sleep 0.1
++ for unit in '`ls $APPL_PATH/*.sh | sort -V`'
+++ basename /mnt/c3platpersistent/etc/startup.d/appl/99_appl_done.sh
++ name=99_appl_done.sh
++ logger '940_application_startup.sh -D- Execute appl/99_appl_done.sh with parameters ---'
++ start_stop_unit /mnt/c3platpersistent/etc/startup.d/appl/99_appl_done.sh start
++ unit=/mnt/c3platpersistent/etc/startup.d/appl/99_appl_done.sh
+++ basename /mnt/c3platpersistent/etc/startup.d/appl/99_appl_done.sh
++ name=99_appl_done.sh
++ '[' -x /mnt/c3platpersistent/etc/startup.d/appl/99_appl_done.sh ']'
++ logger '/mnt/c3platpersistent/etc/startup.d//940_application_startup.sh - going to execute /mnt/c3platpersistent/etc/startup.d/appl/99_appl_done.sh'
++ sleep 0.1
++ [[ -n false ]]
++ mkdir -p /var/log/startup.d/appl
++ tee /var/log/startup.d/appl/99_appl_done.sh_start.log
++ /mnt/c3platpersistent/etc/startup.d/appl/99_appl_done.sh start
++ set -x
+++ basename /mnt/c3platpersistent/etc/startup.d/appl/99_appl_done.sh
++ APP_SCR=99_appl_done.sh
++ Comments='99_appl_done.sh -I- All done ...'
++ '[' xstart = xstart ']'
++ sleep 0.1
++ echo '99_appl_done.sh -I- All done ...'
+99_appl_done.sh -I- All done ...
++ logger '99_appl_done.sh -I- All done ...'
++ exit 0
++ sleep 0.1
++ sleep 0.1

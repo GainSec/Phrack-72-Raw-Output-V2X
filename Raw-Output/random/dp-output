@@ -1,0 +1,789 @@
+﻿
+EFI Build Version    :       
+System CPU Frequency :       1339 (MHz)
+
+SEC   Phase Duration :         77 (ms)
+PEI   Phase Duration :       1566 (ms)
+DXE   Phase Duration :       2344 (ms)
+BDS   Phase Duration :       5208 (ms)
+Total       Duration :       9195 (ms)
+
+                                                            Start End Ttl  Ttl-
+Name(GUID)                          Description             (ms)  (ms)(ms) subs
+-------------------------------------------------------------------------------
+                                                        SEC     0    77  77  77
+                                                        PEI    77  16441567   0
+                                                     PreMem    77   396 319  32
+9618C0DC-50A4-496C-994F-7241F282ED01                   PEIM    82    85   3   3
+DCA41C06-FD2B-41E4-BBE7-946444DB0BD9                   PEIM    85   111  26  26
+AE265864-CF5D-41A8-913D-71C155E76442                   PEIM   112   112   0   0
+863095D8-3BF4-447C-AE10-15B3AE9936FD                   PEIM   113   113   0   0
+C779F6D8-7113-4AA1-9648-EB1633C7D53B                   PEIM   113   113   0   0
+D9F5B28C-9FF1-47D6-B503-3DC23BD345FF                   PEIM   114   120   6   6
+27A5159D-5E61-4809-919A-422E887101EF                   PEIM   120   120   0   0
+ED52984E-6ED7-4445-9D5D-200C3201F51E                   PEIM   121   121   0   0
+2D4E151A-C8F8-49D4-9A33-EDAB56F8C780                   PEIM   122   123   1   1
+D2CB970C-8622-46E1-9083-DB2EA20CA6E3                   PEIM   123   128   5   5
+5D669C7E-3BB6-4A86-B33D-EB08D3D009DC                   PEIM   128   129   1   1
+B3938F8B-7803-44D9-A1DA-42FE0B2A24FB                   PEIM   129   129   0   0
+950216A2-A621-479C-A13D-2990617BDFE7                   PEIM   130   131   1   1
+C30A0310-5FE8-4FDE-9C44-D9EF5B62BBE3                   PEIM   131   132   1   1
+9DC0E126-AFE6-4F97-AC67-BEFF81B821B6                   PEIM   132   132   0   0
+D4EE25EA-0B48-43AE-A016-4D6E8B6C43B3                   PEIM   133   376 243 243
+                                                    PostMem   396  163712411216
+                                                     DisMem   396   406  10  10
+AE265864-CF5D-41A8-913D-71C155E76442                   PEIM   407   407   0   0
+53C9E2D6-4F2E-41E7-9472-B82168ACC79A                   PEIM   408   414   6   6
+F0BE321F-22CA-4F12-8273-B43969DF1DC7                   PEIM   415   415   0   0
+9B3ADA4F-AE56-4C24-8DEA-F03B7558AE50                   PEIM   417   417   0   0
+1CAE7577-D662-4727-BAEC-777631D3A958                   PEIM   418   420   2   2
+37DCBC92-179C-4786-A2C7-732E0F3F24DB                   PEIM   421   421   0   0
+0DA00928-9AE9-4334-92F9-80CB2F7D1E8E                   PEIM   425   425   0   0
+A8CF6278-8758-458D-ADFB-3471F5AD50B1                   PEIM   425   425   0   0
+01359D99-9446-456D-ADA4-50A711C03ADB                   PEIM   428   428   0   0
+0A5EA2E1-BE0B-44A0-A775-F429C9A018A0                   PEIM   437   439   2   2
+D82D57AC-99F9-4C7A-B591-BBCF8A0E7FBE                   PEIM   441   441   0   0
+FD236AE7-0791-48C4-B29E-29BDEEE1A838                   PEIM   443   443   0   0
+AA652CB9-2D52-4624-9FAE-D4E58B67CA46                   PEIM   445   445   0   0
+B4E0CDFC-30CD-4B29-A445-B0AA95A532E4                   PEIM   446   446   0   0
+FF456B9C-0DC7-4682-9E92-0DE84B6E4067                   PEIM   446   446   0   0
+89E549B0-7CFE-449D-9BA3-10D8B2312D71                   PEIM   450   450   0   0
+C866BD71-7C79-4BF1-A93B-066B830D8F9A                   PEIM   452   452   0   0
+49B7F3E1-6C08-4A5B-911C-E9E397ED4178                   PEIM   453   453   0   0
+1C8B7F78-1699-40E6-AF33-9B995D16B043                   PEIM   454   454   0   0
+C2223A0B-80D3-4C35-891F-BD0CC4E990F0                   PEIM   460   461   1   1
+A9874C4B-599B-4B46-8161-FA4E72E53BBA                   PEIM   461   461   0   0
+B63CF548-3838-4233-B8E2-4D35A0AF654F                   PEIM   462   462   0   0
+233DF097-3218-47B2-9E09-FE58C2B20D22                   PEIM   463   463   0   0
+6A3AEA11-2CC2-4B66-B4D3-A8779D6087C1                   PEIM   464   464   0   0
+86D70125-BAA3-4296-A62F-602BEBBB9081                   PEIM   470   470   0   0
+87F4E0A5-F488-494F-8ED4-6CA47A4A1D87                   PEIM   471   471   0   0
+9E21FD93-9C72-4C15-8C4B-E77F1DB2D792                   PEIM  1630  1630   0   0
+24169E35-2454-4940-92BC-82321A2C7562                   PEIM  1633  1637   4   4
+DXE Phase Start
+                             DxeMain CoreInitializeDispatch  2771  2778   7   7
+                             DxeMain         CoreDispatcher  2778  39881210   0
+D93CE3D8-A7EB-4730-8C8E-CC466A9ECC3C             LoadImage:  2778  2778   0   0
+D93CE3D8-A7EB-4730-8C8E-CC466A9ECC3C            StartImage:  2778  2779   1   1
+DAE6B815-877D-4597-A637-CFCFCCC431ED             LoadImage:  2779  2779   0   0
+DAE6B815-877D-4597-A637-CFCFCCC431ED            StartImage:  2779  2779   0   0
+F80697E9-7FD6-4665-8646-88E33EF71DFC             LoadImage:  2779  2779   0   0
+F80697E9-7FD6-4665-8646-88E33EF71DFC            StartImage:  2779  2779   0   0
+80CF7257-87AB-47F9-A3FE-D50B76D89541             LoadImage:  2779  2779   0   0
+80CF7257-87AB-47F9-A3FE-D50B76D89541            StartImage:  2779  2779   0   0
+                            KEMaEAPI             LoadImage:  2779  2779   0   0
+                            KEMaEAPI            StartImage:  2779  2779   0   0
+                            MARSInit             LoadImage:  2779  2779   0   0
+                            MARSInit            StartImage:  2779  2779   0   0
+                    SystemRuntimeDxe             LoadImage:  2779  2779   0   0
+                    SystemRuntimeDxe            StartImage:  2779  2779   0   0
+            SystemStatusCodePort80Rt             LoadImage:  2779  2779   0   0
+            SystemStatusCodePort80Rt            StartImage:  2779  2779   0   0
+                       SystemCmosDxe             LoadImage:  2779  2779   0   0
+                       SystemCmosDxe            StartImage:  2779  2780   1   1
+                 SystemDevicePathDxe             LoadImage:  2780  2780   0   0
+                 SystemDevicePathDxe            StartImage:  2780  2780   0   0
+             SystemNullMemoryTestDxe             LoadImage:  2780  2780   0   0
+             SystemNullMemoryTestDxe            StartImage:  2780  2780   0   0
+                     SystemSmbiosBcp             LoadImage:  2780  2780   0   0
+                     SystemSmbiosBcp            StartImage:  2780  2780   0   0
+                  SystemiCryptSvcDxe             LoadImage:  2780  2780   0   0
+                  SystemiCryptSvcDxe            StartImage:  2780  2782   2   2
+                                                 LoadImage:  2783  2783   0   0
+                                                StartImage:  2783  2783   0   0
+                SystemAcpiSupportDxe             LoadImage:  2783  2783   0   0
+                SystemAcpiSupportDxe            StartImage:  2783  2783   0   0
+                SystemHiiDatabaseDxe             LoadImage:  2783  2783   0   0
+                SystemHiiDatabaseDxe            StartImage:  2783  2783   0   0
+               SystemImageDecoderDxe             LoadImage:  2783  2783   0   0
+               SystemImageDecoderDxe            StartImage:  2783  2783   0   0
+              SystemCapsulePolicyDxe             LoadImage:  2783  2783   0   0
+              SystemCapsulePolicyDxe            StartImage:  2783  2784   1   1
+5007A40E-A5E0-44F7-86AE-662F9A91DA26             LoadImage:  2784  2784   0   0
+5007A40E-A5E0-44F7-86AE-662F9A91DA26            StartImage:  2784  2784   0   0
+BAE7599F-3C6B-43B7-BDF0-9CE07AA91AA6             LoadImage:  2784  2784   0   0
+BAE7599F-3C6B-43B7-BDF0-9CE07AA91AA6            StartImage:  2784  2784   0   0
+53BCC14F-C24F-434C-B294-8ED2D4CC1860             LoadImage:  2784  2784   0   0
+53BCC14F-C24F-434C-B294-8ED2D4CC1860            StartImage:  2784  2784   0   0
+A210F973-229D-4F4D-AA37-9895E6C9EABA             LoadImage:  2784  2784   0   0
+A210F973-229D-4F4D-AA37-9895E6C9EABA            StartImage:  2784  2784   0   0
+BDCE85BB-FBAA-4F4E-9264-501A2C249581             LoadImage:  2784  2784   0   0
+BDCE85BB-FBAA-4F4E-9264-501A2C249581            StartImage:  2784  2784   0   0
+A19B1FE7-C1BC-49F8-875F-54A5D542443F             LoadImage:  2784  2784   0   0
+A19B1FE7-C1BC-49F8-875F-54A5D542443F            StartImage:  2784  2784   0   0
+    SystemDiagnosticSummaryScreenDxe             LoadImage:  2784  2784   0   0
+    SystemDiagnosticSummaryScreenDxe            StartImage:  2784  2785   1   1
+            SystemFormBrowserCoreDxe             LoadImage:  2785  2785   0   0
+            SystemFormBrowserCoreDxe            StartImage:  2785  2785   0   0
+  SystemFormBrowserSimpleTextViewDxe             LoadImage:  2785  2785   0   0
+  SystemFormBrowserSimpleTextViewDxe            StartImage:  2785  2785   0   0
+SystemFormBrowserGraphicalTextViewDxe             LoadImage:  2785  2785   0   0
+SystemFormBrowserGraphicalTextViewDxe            StartImage:  2786  2786   0   0
+DD787473-07CE-4C63-82CE-930B33F39C09             LoadImage:  2786  2786   0   0
+DD787473-07CE-4C63-82CE-930B33F39C09            StartImage:  2786  2786   0   0
+F821665C-0137-4F34-A7A1-57A0BD256D62             LoadImage:  2786  2786   0   0
+F821665C-0137-4F34-A7A1-57A0BD256D62            StartImage:  2786  2786   0   0
+BFD59D42-FE0F-4251-B772-4B098A1AEC85             LoadImage:  2786  2786   0   0
+BFD59D42-FE0F-4251-B772-4B098A1AEC85            StartImage:  2786  2786   0   0
+F5883FC5-F8EE-4E44-B386-6021FB320C9B             LoadImage:  2786  2786   0   0
+F5883FC5-F8EE-4E44-B386-6021FB320C9B            StartImage:  2786  2786   0   0
+C194C6EA-B68C-4981-B64B-9BD271474B20             LoadImage:  2786  2786   0   0
+C194C6EA-B68C-4981-B64B-9BD271474B20            StartImage:  2786  2786   0   0
+D6AC4AC2-8BC2-4CDD-8776-280E1469DE02             LoadImage:  2786  2786   0   0
+D6AC4AC2-8BC2-4CDD-8776-280E1469DE02            StartImage:  2786  2786   0   0
+CFEF94C4-4167-466A-8893-8779459DFA86             LoadImage:  2786  2787   1   1
+CFEF94C4-4167-466A-8893-8779459DFA86            StartImage:  2787  2787   0   0
+C9885C06-88F0-436E-A8BF-834C1C0B5E22             LoadImage:  2788  2788   0   0
+C9885C06-88F0-436E-A8BF-834C1C0B5E22            StartImage:  2788  2788   0   0
+17D09362-326C-4920-A50C-76F8A116A093             LoadImage:  2788  2788   0   0
+17D09362-326C-4920-A50C-76F8A116A093            StartImage:  2788  2788   0   0
+FE5CEA76-4F72-49E8-986F-2CD899DFFE5D             LoadImage:  2788  2788   0   0
+FE5CEA76-4F72-49E8-986F-2CD899DFFE5D            StartImage:  2788  2788   0   0
+                  SystemMetronomeDxe             LoadImage:  2788  2788   0   0
+                  SystemMetronomeDxe            StartImage:  2788  2788   0   0
+    System8259InterruptControllerDxe             LoadImage:  2788  2788   0   0
+    System8259InterruptControllerDxe            StartImage:  2788  2788   0   0
+                   SystemBootMenuDxe             LoadImage:  2789  2789   0   0
+                   SystemBootMenuDxe            StartImage:  2789  2789   0   0
+                     SystemSmbiosDxe             LoadImage:  2789  2789   0   0
+                     SystemSmbiosDxe            StartImage:  2789  2789   0   0
+                       SystemFontDxe             LoadImage:  2789  2789   0   0
+                       SystemFontDxe            StartImage:  2789  2789   0   0
+SystemFormBrowserSimpleTextViewLayoutDxe             LoadImage:  2789  2790   1   1
+SystemFormBrowserSimpleTextViewLayoutDxe            StartImage:  2790  2790   0   0
+SystemFormBrowserGraphicalTextViewLayoutDxe             LoadImage:  2790  2790   0   0
+SystemFormBrowserGraphicalTextViewLayoutDxe            StartImage:  2790  2790   0   0
+       SystemFrameworkHiiDatabaseDxe             LoadImage:  2790  2790   0   0
+       SystemFrameworkHiiDatabaseDxe            StartImage:  2790  2791   1   1
+99796403-CF03-42EC-A817-7183411D79E2             LoadImage:  2791  2791   0   0
+99796403-CF03-42EC-A817-7183411D79E2            StartImage:  2791  2791   0   0
+B55A4515-5895-4EA8-845B-75B7480F6502             LoadImage:  2791  2791   0   0
+B55A4515-5895-4EA8-845B-75B7480F6502            StartImage:  2791  2791   0   0
+062ACC82-1D1E-4F61-AA94-8B0C47236A3D             LoadImage:  2791  2791   0   0
+062ACC82-1D1E-4F61-AA94-8B0C47236A3D            StartImage:  2791  2791   0   0
+9FD2360E-6B48-11D5-8E71-00902707B35E             LoadImage:  2791  2792   1   1
+9FD2360E-6B48-11D5-8E71-00902707B35E            StartImage:  2792  2792   0   0
+326E9CC6-9839-4885-B2ED-275903B668E1             LoadImage:  2792  2792   0   0
+326E9CC6-9839-4885-B2ED-275903B668E1            StartImage:  2792  2792   0   0
+3FB856A5-C8B0-4760-B49A-2EDD4FA35BFA             LoadImage:  2792  2792   0   0
+3FB856A5-C8B0-4760-B49A-2EDD4FA35BFA            StartImage:  2792  2792   0   0
+22473A0B-F36E-492E-A023-F45E9578768D             LoadImage:  2792  2792   0   0
+22473A0B-F36E-492E-A023-F45E9578768D            StartImage:  2792  2792   0   0
+2FA2A6DA-11D5-4DC3-999A-749648B03C56             LoadImage:  2793  2793   0   0
+2FA2A6DA-11D5-4DC3-999A-749648B03C56            StartImage:  2793  2793   0   0
+                    PlatformFlashDxe             LoadImage:  2793  2793   0   0
+                    PlatformFlashDxe            StartImage:  2793  2793   0   0
+B8B8B609-0B6C-4B8C-A731-DE03A6C3F3DC             LoadImage:  2801  2801   0   0
+B8B8B609-0B6C-4B8C-A731-DE03A6C3F3DC            StartImage:  2801  2801   0   0
+70C755B6-A3F9-481E-B576-38D9CBD3D858             LoadImage:  2801  2801   0   0
+70C755B6-A3F9-481E-B576-38D9CBD3D858            StartImage:  2801  2801   0   0
+                  W25Q64FlashPartDxe             LoadImage:  2802  2802   0   0
+                  W25Q64FlashPartDxe            StartImage:  2803  2803   0   0
+                MX25L64XFlashPartDxe             LoadImage:  2803  2803   0   0
+                MX25L64XFlashPartDxe            StartImage:  2803  2803   0   0
+               S25FL164KFlashPartDxe             LoadImage:  2803  2803   0   0
+               S25FL164KFlashPartDxe            StartImage:  2803  2803   0   0
+                   W25Q64FlashPartRt             LoadImage:  2803  2803   0   0
+                   W25Q64FlashPartRt            StartImage:  2803  2803   0   0
+             SystemFirmwareDeviceDxe             LoadImage:  2804  2804   0   0
+             SystemFirmwareDeviceDxe            StartImage:  2804  2814  10  10
+                   SystemVariableDxe             LoadImage:  2815  2815   0   0
+                   SystemVariableDxe                FindHob  2815  2815   0   0
+                   SystemVariableDxe          CalculateFdla  2816  2816   0   0
+                   SystemVariableDxe  BuildEvsaAndNvStorage  2816  2924 108   0
+                   SystemVariableDxe          BuildProcess1  2816  2923 107   0
+                   SystemVariableDxe          EiBuildEvsa:1  2816  2831  15  15
+                   SystemVariableDxe          EiBuildEvsa:2  2831  2862  31  31
+                   SystemVariableDxe          EiBuildEvsa:3  2862  2881  19  19
+                   SystemVariableDxe          EiBuildEvsa:5  2881  2923  42  42
+                   SystemVariableDxe          BuildProcess2  2923  2923   0   0
+                   SystemVariableDxe          BuildProcess3  2923  2924   1   0
+                   SystemVariableDxe            CheckIfFree  2923  2923   0   0
+                   SystemVariableDxe            StartImage:  2815  2924 109 109
+                     SystemCapsuleRt             LoadImage:  2925  2925   0   0
+                     SystemCapsuleRt            StartImage:  2925  2925   0   0
+            SystemMonotonicCounterRt             LoadImage:  2925  2925   0   0
+            SystemMonotonicCounterRt            StartImage:  2925  2926   1   1
+                 SystemSecureBootDxe             LoadImage:  2926  2926   0   0
+                 SystemSecureBootDxe            StartImage:  2926  2926   0   0
+                SystemBootManagerDxe             LoadImage:  2926  2926   0   0
+                SystemBootManagerDxe            StartImage:  2927  2927   0   0
+     SystemDiagnosticSplashScreenDxe             LoadImage:  2927  2927   0   0
+     SystemDiagnosticSplashScreenDxe            StartImage:  2927  2928   1   1
+           SystemUsbMemoryManagerDxe             LoadImage:  2928  2928   0   0
+           SystemUsbMemoryManagerDxe            StartImage:  2928  2928   0   0
+                 SctPolicyManagerDxe             LoadImage:  2928  2928   0   0
+                 SctPolicyManagerDxe            StartImage:  2928  2928   0   0
+               SystemSecureConfigDxe             LoadImage:  2928  2928   0   0
+               SystemSecureConfigDxe            StartImage:  2928  2928   0   0
+C7EA9787-CA0A-43B4-B1E5-25EF87391F8D             LoadImage:  2928  2928   0   0
+271DD6F2-54CB-45E6-8585-8C923C1AC706             LoadImage:  2928  2928   0   0
+C7EA9787-CA0A-43B4-B1E5-25EF87391F8D            StartImage:  2928  2929   1   1
+CE7CD764-A1D9-44E5-9857-14FEFAAE96DD             LoadImage:  2929  2929   0   0
+CE7CD764-A1D9-44E5-9857-14FEFAAE96DD            StartImage:  2929  2930   1   1
+                                                 LoadImage:  2930  2930   0   0
+                                                StartImage:  2930  2930   0   0
+025F738B-4EBD-4D55-B728-5F421B601F1F             LoadImage:  2930  2930   0   0
+025F738B-4EBD-4D55-B728-5F421B601F1F            StartImage:  2930  2930   0   0
+025F738B-4EBD-4D55-B728-5F421B601F20             LoadImage:  2930  2931   1   1
+025F738B-4EBD-4D55-B728-5F421B601F20            StartImage:  2931  2931   0   0
+E2441B64-7EF4-41FE-B3A3-8CAA7F8D3017             LoadImage:  2931  2931   0   0
+E2441B64-7EF4-41FE-B3A3-8CAA7F8D3017            StartImage:  2931  2931   0   0
+                                                 LoadImage:  2931  2931   0   0
+                                                StartImage:  2931  2947  16  16
+CB933912-DF8F-4305-B1F9-7B44FA11395C             LoadImage:  2947  2947   0   0
+CB933912-DF8F-4305-B1F9-7B44FA11395C            StartImage:  2947  2947   0   0
+9737D7CA-D869-45E5-A5EF-75D9438688DE             LoadImage:  2947  2947   0   0
+9737D7CA-D869-45E5-A5EF-75D9438688DE            StartImage:  2947  2947   0   0
+EC98FF95-242C-4513-B1BC-69FA24111C58             LoadImage:  2947  2947   0   0
+EC98FF95-242C-4513-B1BC-69FA24111C58            StartImage:  2947  2947   0   0
+                SystemUsbDatabaseDxe             LoadImage:  2948  2948   0   0
+                SystemUsbDatabaseDxe            StartImage:  2948  2948   0   0
+           SystemUsbSupportPolicyDxe             LoadImage:  2948  2949   1   1
+           SystemUsbSupportPolicyDxe            StartImage:  2949  2949   0   0
+62D171CB-78CD-4480-8678-C6A2A797A8DE             LoadImage:  2949  2949   0   0
+62D171CB-78CD-4480-8678-C6A2A797A8DE            StartImage:  2949  3207 258 258
+EDA39402-F375-4496-92D3-83B43CB8A76A             LoadImage:  3207  3207   0   0
+EDA39402-F375-4496-92D3-83B43CB8A76A            StartImage:  3207  3219  12  12
+                         KEMrCPLDDxe             LoadImage:  3223  3223   0   0
+                         KEMrCPLDDxe            StartImage:  3223  3224   1   1
+2BDED685-F733-455F-A840-43A22B791FB3             LoadImage:  3224  3224   0   0
+2BDED685-F733-455F-A840-43A22B791FB3            StartImage:  3224  3224   0   0
+                         SystemRtcRt             LoadImage:  3224  3224   0   0
+                         SystemRtcRt            StartImage:  3224  3225   1   1
+                  SystemUsbSwitchDxe             LoadImage:  3225  3225   0   0
+                  SystemUsbSwitchDxe            StartImage:  3225  3225   0   0
+           SystemNUserUserManagerDxe             LoadImage:  3225  3225   0   0
+           SystemNUserUserManagerDxe            StartImage:  3225  3225   0   0
+90CB75DB-71FC-489D-AACF-943477EC7212             LoadImage:  3225  3225   0   0
+90CB75DB-71FC-489D-AACF-943477EC7212            StartImage:  3226  3226   0   0
+                                                 LoadImage:  3226  3226   0   0
+                                                StartImage:  3226  3226   0   0
+2EE72E7C-FB9E-4318-B888-33A315C7A91D             LoadImage:  3226  3226   0   0
+2EE72E7C-FB9E-4318-B888-33A315C7A91D            StartImage:  3226  3226   0   0
+F0F6F006-DAB4-44B2-A7A1-0F72EEDCA716             LoadImage:  3226  3226   0   0
+F0F6F006-DAB4-44B2-A7A1-0F72EEDCA716            StartImage:  3226  3228   2   2
+FA20568B-548B-4B2B-81EF-1BA08D4A3CEC             LoadImage:  3228  3228   0   0
+FA20568B-548B-4B2B-81EF-1BA08D4A3CEC            StartImage:  3228  3229   1   1
+21CCF0B7-246B-412C-A334-0B65A07B28DF             LoadImage:  3229  3229   0   0
+21CCF0B7-246B-412C-A334-0B65A07B28DF            StartImage:  3229  3229   0   0
+                    KEUDGCpldUartDxe             LoadImage:  3230  3230   0   0
+                    KEUDGCpldUartDxe            StartImage:  3230  3230   0   0
+                          KEMrWDTDxe             LoadImage:  3230  3230   0   0
+                          KEMrWDTDxe            StartImage:  3230  3231   1   1
+                         KEMaEEEPDxe             LoadImage:  3231  3231   0   0
+                         KEMaEEEPDxe            StartImage:  3231  3568 337 337
+                            kJTAGDXE             LoadImage:  3568  3568   0   0
+                            kJTAGDXE            StartImage:  3568  3569   1   1
+                        KEMhS5ECODxe             LoadImage:  3569  3569   0   0
+                        KEMhS5ECODxe            StartImage:  3569  3569   0   0
+           SystemStatusCodePort80Smm             LoadImage:  3569  3569   0   0
+C0CFEB8B-6EE1-443B-BCC9-854E7C9B416D             LoadImage:  3569  3569   0   0
+C0CFEB8B-6EE1-443B-BCC9-854E7C9B416D            StartImage:  3569  3569   0   0
+           SystemStatusCodePort80Smm            StartImage:  3569  3569   0   0
+       SystemSecureFlashSleepTrapSmm             LoadImage:  3569  3569   0   0
+                                                 LoadImage:  3569  3570   1   1
+FCE47C4E-5ECC-4A41-B90E-0BAB09968D02             LoadImage:  3570  3570   0   0
+FCE47C4E-5ECC-4A41-B90E-0BAB09968D02            StartImage:  3570  3570   0   0
+       SystemSecureFlashSleepTrapSmm            StartImage:  3569  3570   1   1
+                       SystemCmosSmm             LoadImage:  3570  3570   0   0
+                                                 LoadImage:  3570  3571   1   1
+46D8ACDD-29C3-4013-81E8-37A425AB4F99             LoadImage:  3571  3571   0   0
+46D8ACDD-29C3-4013-81E8-37A425AB4F99            StartImage:  3571  3571   0   0
+                       SystemCmosSmm            StartImage:  3570  3571   1   1
+              SystemWatchdogTimerDxe             LoadImage:  3571  3571   0   0
+              SystemWatchdogTimerDxe            StartImage:  3571  3571   0   0
+             SystemSmbiosEventLogDxe             LoadImage:  3571  3571   0   0
+             SystemSmbiosEventLogDxe            StartImage:  3571  3573   2   2
+             SystemSwSmiAllocatorSmm             LoadImage:  3573  3573   0   0
+54024E8A-E77A-4E09-AE02-34A1872BB7DD             LoadImage:  3573  3573   0   0
+54024E8A-E77A-4E09-AE02-34A1872BB7DD            StartImage:  3573  3574   1   0
+             SystemSwSmiAllocatorSmm            StartImage:  3573  3574   1   1
+                  SystemBusIsaRtcSmm             LoadImage:  3574  3574   0   0
+                                                 LoadImage:  3574  3574   0   0
+CDC0191E-1891-4119-817E-0B6A3685A511             LoadImage:  3574  3574   0   0
+CDC0191E-1891-4119-817E-0B6A3685A511            StartImage:  3574  3574   0   0
+                  SystemBusIsaRtcSmm            StartImage:  3574  3575   1   1
+        SystemIdeAtaAtapiPassThruSmm             LoadImage:  3575  3575   0   0
+                                                 LoadImage:  3575  3575   0   0
+7391A960-CCD1-11DD-AD8B-0800200C9A66             LoadImage:  3575  3575   0   0
+7391A960-CCD1-11DD-AD8B-0800200C9A66            StartImage:  3575  3575   0   0
+        SystemIdeAtaAtapiPassThruSmm            StartImage:  3575  3575   0   0
+       SystemAhciAtaAtapiPassThruSmm             LoadImage:  3575  3576   1   1
+                                                 LoadImage:  3576  3576   0   0
+BCB59C90-DC86-11DD-AD8B-0800200C9A66             LoadImage:  3576  3576   0   0
+BCB59C90-DC86-11DD-AD8B-0800200C9A66            StartImage:  3576  3576   0   0
+       SystemAhciAtaAtapiPassThruSmm            StartImage:  3576  3576   0   0
+                  SystemSmmRuntimeRt             LoadImage:  3576  3577   1   1
+                                                 LoadImage:  3577  3577   0   0
+7C79AC8C-5E6C-4E3D-BA6F-C260EE7C172E             LoadImage:  3577  3577   0   0
+7C79AC8C-5E6C-4E3D-BA6F-C260EE7C172E            StartImage:  3577  3577   0   0
+                  SystemSmmRuntimeRt            StartImage:  3577  3577   0   0
+                       SystemXhciDxe             LoadImage:  3577  3578   1   1
+                       SystemXhciDxe            StartImage:  3578  3578   0   0
+                       SystemEhciDxe             LoadImage:  3578  3578   0   0
+                       SystemEhciDxe            StartImage:  3578  3578   0   0
+             SystemUsbMassStorageDxe             LoadImage:  3578  3578   0   0
+             SystemUsbMassStorageDxe            StartImage:  3578  3578   0   0
+    SystemNUserPasswordCredentialDxe             LoadImage:  3578  3579   1   1
+    SystemNUserPasswordCredentialDxe            StartImage:  3579  3579   0   0
+056E7324-A718-465B-9A84-228F06642B4F             LoadImage:  3579  3580   1   1
+056E7324-A718-465B-9A84-228F06642B4F            StartImage:  3580  3582   2   2
+                    PlatformFlashSmm             LoadImage:  3582  3582   0   0
+706C1E0C-44FC-4012-9B71-3DBFEC762F35             LoadImage:  3582  3582   0   0
+706C1E0C-44FC-4012-9B71-3DBFEC762F35            StartImage:  3582  3582   0   0
+                    PlatformFlashSmm            StartImage:  3582  3583   1   1
+3E3099F5-CBCC-4AE8-AEA0-2B7D1E7F8294             LoadImage:  3583  3583   0   0
+3E3099F5-CBCC-4AE8-AEA0-2B7D1E7F8294            StartImage:  3583  3583   0   0
+39AB7B23-814E-4289-9BD9-67EB025C35DF             LoadImage:  3583  3583   0   0
+39AB7B23-814E-4289-9BD9-67EB025C35DF            StartImage:  3583  3584   1   1
+A1897FF5-288A-481D-89EC-239F2448D426             LoadImage:  3584  3584   0   0
+A1897FF5-288A-481D-89EC-239F2448D426            StartImage:  3584  3584   0   0
+                        PlatformSmm2             LoadImage:  3584  3584   0   0
+CB73C3D9-2F01-4342-AE67-04DDE5264092             LoadImage:  3584  3584   0   0
+CB73C3D9-2F01-4342-AE67-04DDE5264092            StartImage:  3585  3585   0   0
+                        PlatformSmm2            StartImage:  3584  3585   1   1
+                  W25Q64FlashPartSmm             LoadImage:  3587  3588   1   1
+                                                 LoadImage:  3588  3591   3   3
+79547F87-AD39-49C5-8D2C-67E5690F8BE2             LoadImage:  3591  3591   0   0
+79547F87-AD39-49C5-8D2C-67E5690F8BE2            StartImage:  3591  3591   0   0
+                  W25Q64FlashPartSmm            StartImage:  3588  3591   3   3
+                MX25L64XFlashPartSmm             LoadImage:  3591  3592   1   1
+                                                 LoadImage:  3592  3592   0   0
+DB4DB11A-0E5C-40B5-8E46-17D04486A21B             LoadImage:  3592  3592   0   0
+DB4DB11A-0E5C-40B5-8E46-17D04486A21B            StartImage:  3592  3593   1   0
+                MX25L64XFlashPartSmm            StartImage:  3592  3593   1   1
+               S25FL164KFlashPartSmm             LoadImage:  3593  3593   0   0
+                                                 LoadImage:  3593  3594   1   1
+78DFFE10-862C-4EC0-8257-BA6DE261FF7E             LoadImage:  3594  3594   0   0
+78DFFE10-862C-4EC0-8257-BA6DE261FF7E            StartImage:  3594  3594   0   0
+               S25FL164KFlashPartSmm            StartImage:  3593  3595   2   2
+                     W83627DHGSioDxe             LoadImage:  3595  3595   0   0
+                     W83627DHGSioDxe            StartImage:  3595  3595   0   0
+                      KEMrBootCntDxe             LoadImage:  3595  3595   0   0
+                      KEMrBootCntDxe            StartImage:  3595  3596   1   1
+                         KemSetupDxe             LoadImage:  3596  3596   0   0
+                         KemSetupDxe            StartImage:  3596  3597   1   1
+                          KEMhSMBEFI             LoadImage:  3597  3597   0   0
+                          KEMhSMBEFI            StartImage:  3597  3597   0   0
+                       KSlicTableDxe             LoadImage:  3597  3597   0   0
+                       KSlicTableDxe            StartImage:  3597  3597   0   0
+4495E47E-42A9-4007-8C17-B6664F909D04             LoadImage:  3598  3598   0   0
+4495E47E-42A9-4007-8C17-B6664F909D04            StartImage:  3598  3598   0   0
+5479662B-6AE4-49E8-A6BD-6DE4B625811F             LoadImage:  3598  3598   0   0
+5479662B-6AE4-49E8-A6BD-6DE4B625811F            StartImage:  3598  3598   0   0
+D0CAA91E-2DE4-4B0D-B3DC-09C67E854E34             LoadImage:  3598  3599   1   1
+D0CAA91E-2DE4-4B0D-B3DC-09C67E854E34            StartImage:  3599  3599   0   0
+0167CCC4-D0F7-4F21-A3EF-9E64B7CDCE8B             LoadImage:  3599  3599   0   0
+0167CCC4-D0F7-4F21-A3EF-9E64B7CDCE8B            StartImage:  3599  3599   0   0
+0A66E322-3740-4CCE-AD62-BD172CECCA35             LoadImage:  3599  3600   1   1
+0A66E322-3740-4CCE-AD62-BD172CECCA35            StartImage:  3600  3600   0   0
+3B1DEAB5-C75D-442E-9238-8E2FFB62B0BB             LoadImage:  3600  3600   0   0
+3B1DEAB5-C75D-442E-9238-8E2FFB62B0BB            StartImage:  3600  3600   0   0
+               SystemMemoryManagerRt             LoadImage:  3600  3601   1   1
+               SystemMemoryManagerRt            StartImage:  3601  3601   0   0
+             SystemSwSmiAllocatorDxe             LoadImage:  3601  3602   1   1
+             SystemSwSmiAllocatorDxe            StartImage:  3602  3602   0   0
+                     SystemPciBusDxe             LoadImage:  3602  3602   0   0
+                     SystemPciBusDxe            StartImage:  3603  3603   0   0
+                  SystemPciIsaBusDxe             LoadImage:  3603  3603   0   0
+                  SystemPciIsaBusDxe            StartImage:  3604  3604   0   0
+                  SystemIsaSerialDxe             LoadImage:  3604  3604   0   0
+                  SystemIsaSerialDxe            StartImage:  3604  3604   0   0
+                   SystemPs2MouseDxe             LoadImage:  3604  3605   1   1
+                   SystemPs2MouseDxe            StartImage:  3605  3605   0   0
+                SystemPs2KeyboardDxe             LoadImage:  3605  3606   1   1
+                SystemPs2KeyboardDxe            StartImage:  3606  3606   0   0
+                     SystemIdeBusDxe             LoadImage:  3606  3606   0   0
+                     SystemIdeBusDxe            StartImage:  3606  3606   0   0
+        SystemIdeAtaAtapiPassThruDxe             LoadImage:  3607  3607   0   0
+        SystemIdeAtaAtapiPassThruDxe            StartImage:  3607  3607   0   0
+                    SystemAhciBusDxe             LoadImage:  3607  3608   1   1
+                    SystemAhciBusDxe            StartImage:  3608  3608   0   0
+       SystemAhciAtaAtapiPassThruDxe             LoadImage:  3608  3609   1   1
+       SystemAhciAtaAtapiPassThruDxe            StartImage:  3609  3609   0   0
+                     SystemUsbBusDxe             LoadImage:  3609  3610   1   1
+                     SystemUsbBusDxe            StartImage:  3610  3610   0   0
+                      SystemUsbKbDxe             LoadImage:  3610  3611   1   1
+                      SystemUsbKbDxe            StartImage:  3611  3611   0   0
+                   SystemUsbMouseDxe             LoadImage:  3611  3612   1   1
+                   SystemUsbMouseDxe            StartImage:  3612  3612   0   0
+                SystemUsbDatabaseSmm             LoadImage:  3612  3613   1   1
+                                                 LoadImage:  3613  3614   1   1
+316190D1-5E48-4C15-AC72-37532F3A1EC1             LoadImage:  3614  3614   0   0
+316190D1-5E48-4C15-AC72-37532F3A1EC1            StartImage:  3614  3615   1   0
+                SystemUsbDatabaseSmm            StartImage:  3613  3615   2   2
+                  SystemUsbSwitchSmm             LoadImage:  3615  3616   1   1
+0B6A8DE0-6281-40A2-8E9A-09F1A18A6D40             LoadImage:  3616  3617   1   1
+0B6A8DE0-6281-40A2-8E9A-09F1A18A6D40            StartImage:  3617  3617   0   0
+                  SystemUsbSwitchSmm            StartImage:  3616  3618   2   2
+           SystemUsbMemoryManagerSmm             LoadImage:  3618  3619   1   1
+                                                 LoadImage:  3619  3620   1   1
+2ACB1E45-DFA4-4FF3-8F81-91F7D787D22D             LoadImage:  3620  3621   1   1
+2ACB1E45-DFA4-4FF3-8F81-91F7D787D22D            StartImage:  3621  3621   0   0
+           SystemUsbMemoryManagerSmm            StartImage:  3619  3622   3   3
+           SystemUsbSupportPolicySmm             LoadImage:  3622  3622   0   0
+240612B7-A063-11D4-9A3A-0090273FC14C             LoadImage:  3623  3623   0   0
+240612B7-A063-11D4-9A3A-0090273FC14C            StartImage:  3623  3623   0   0
+           SystemUsbSupportPolicySmm            StartImage:  3622  3624   2   2
+                SystemConPlatformDxe             LoadImage:  3624  3625   1   1
+                SystemConPlatformDxe            StartImage:  3625  3626   1   1
+                SystemConSplitterDxe             LoadImage:  3626  3627   1   1
+                SystemConSplitterDxe            StartImage:  3627  3635   8   8
+            SystemGraphicsConsoleDxe             LoadImage:  3635  3637   2   2
+            SystemGraphicsConsoleDxe            StartImage:  3637  3638   1   1
+                   SystemTerminalDxe             LoadImage:  3638  3639   1   1
+                   SystemTerminalDxe            StartImage:  3639  3639   0   0
+             SystemTextConsoleVgaDxe             LoadImage:  3639  3640   1   1
+             SystemTextConsoleVgaDxe            StartImage:  3640  3640   0   0
+                     SystemDiskIoDxe             LoadImage:  3640  3642   2   2
+                     SystemDiskIoDxe            StartImage:  3642  3642   0   0
+                  SystemPartitionDxe             LoadImage:  3642  3643   1   1
+                  SystemPartitionDxe            StartImage:  3643  3643   0   0
+                  SystemSetupMainDxe             LoadImage:  3643  3645   2   2
+                  SystemSetupMainDxe            StartImage:  3645  3646   1   1
+                  SystemSetupExitDxe             LoadImage:  3646  3647   1   1
+                  SystemSetupExitDxe            StartImage:  3648  3649   1   1
+                    SystemEnglishDxe             LoadImage:  3649  3650   1   1
+                    SystemEnglishDxe            StartImage:  3650  3653   3   3
+         EfiSystemPartCapsuleStorage             LoadImage:  3653  3654   1   1
+         EfiSystemPartCapsuleStorage            StartImage:  3654  3655   1   1
+               SctPartCapsuleStorage             LoadImage:  3655  3657   2   2
+               SctPartCapsuleStorage            StartImage:  3657  3658   1   1
+DE23ACEE-CF55-4FB6-AA77-984AB53DE823             LoadImage:  3658  3659   1   1
+DE23ACEE-CF55-4FB6-AA77-984AB53DE823            StartImage:  3660  3661   1   1
+93C81A74-B648-4F7F-925E-E4A0CDCC776D             LoadImage:  3661  3662   1   1
+93C81A74-B648-4F7F-925E-E4A0CDCC776D            StartImage:  3663  3666   3   3
+1D000AE9-756B-4937-B736-1F3D96A5A8F0             LoadImage:  3667  3668   1   1
+1D000AE9-756B-4937-B736-1F3D96A5A8F0            StartImage:  3668  3668   0   0
+DD223EF8-6D1B-490A-A53E-BA86FAAEB778             LoadImage:  3668  3669   1   1
+DD223EF8-6D1B-490A-A53E-BA86FAAEB778            StartImage:  3669  3670   1   1
+BB65942B-521F-4EC3-BAF9-A92540CF60D2             LoadImage:  3670  3671   1   1
+BB65942B-521F-4EC3-BAF9-A92540CF60D2            StartImage:  3671  3671   0   0
+F51AD83C-FE02-4BBE-944B-EDB428AFD6C9             LoadImage:  3671  3673   2   2
+F51AD83C-FE02-4BBE-944B-EDB428AFD6C9            StartImage:  3673  3673   0   0
+76D66F2B-FC26-4CFE-9A7E-BC6491BE0EE5             LoadImage:  3673  3674   1   1
+76D66F2B-FC26-4CFE-9A7E-BC6491BE0EE5            StartImage:  3674  3675   1   1
+                      VlvPlatformDxe             LoadImage:  3675  3676   1   1
+                      VlvPlatformDxe            StartImage:  3676  3683   7   7
+961578FE-B6B7-44C3-AF35-6BC705CD2B1F             LoadImage:  3683  3685   2   2
+961578FE-B6B7-44C3-AF35-6BC705CD2B1F            StartImage:  3685  3685   0   0
+                            KEMhDISP             LoadImage:  3686  3688   2   2
+                            KEMhDISP            StartImage:  3688  3690   2   2
+                       KEMaSMBIOSDxe             LoadImage:  3690  3692   2   2
+                       KEMaSMBIOSDxe            StartImage:  3692  3692   0   0
+                         NCT7802YDxe             LoadImage:  3692  3694   2   2
+                         NCT7802YDxe            StartImage:  3694  3780  86  86
+           SystemUserMasterHddPwdDxe             LoadImage:  3780  3782   2   2
+           SystemUserMasterHddPwdDxe            StartImage:  3782  3784   2   2
+                     SystemHddPwdOem             LoadImage:  3784  3786   2   2
+                     SystemHddPwdOem            StartImage:  3786  3786   0   0
+           SystemSmmAhciAspiLegacyRt             LoadImage:  3786  3787   1   1
+124A2E7A-1949-483E-899F-6032904CA0A7             LoadImage:  3787  3789   2   2
+124A2E7A-1949-483E-899F-6032904CA0A7            StartImage:  3789  3789   0   0
+           SystemSmmAhciAspiLegacyRt            StartImage:  3787  3791   4   4
+           SystemSmmCommunicationSmm             LoadImage:  3791  3792   1   1
+           SystemSmmCommunicationSmm            StartImage:  3792  3793   1   1
+                SystemSecurityTpmDxe             LoadImage:  3793  3794   1   1
+                SystemSecurityTpmDxe            StartImage:  3794  3795   1   1
+            SystemHiiImageDisplayDxe             LoadImage:  3795  3796   1   1
+            SystemHiiImageDisplayDxe            StartImage:  3796  3796   0   0
+                   LegacyBiosMiscSmm             LoadImage:  3797  3798   1   1
+                                                 LoadImage:  3798  3799   1   1
+86E82AC3-D6AF-47A4-8C93-0C76C7B3CCD3             LoadImage:  3799  3801   2   2
+86E82AC3-D6AF-47A4-8C93-0C76C7B3CCD3            StartImage:  3801  3801   0   0
+                   LegacyBiosMiscSmm            StartImage:  3798  3802   4   4
+             SystemSmmSdMemLegacySmm             LoadImage:  3802  3804   2   2
+                                                 LoadImage:  3804  3805   1   1
+C11B7A48-BA61-48B4-9198-48972B538007             LoadImage:  3805  3807   2   2
+C11B7A48-BA61-48B4-9198-48972B538007            StartImage:  3807  3807   0   0
+             SystemSmmSdMemLegacySmm            StartImage:  3804  3810   6   6
+             SystemFirmwareDeviceSmm             LoadImage:  3810  3811   1   1
+                                                 LoadImage:  3812  3813   1   1
+54C32CBF-A3B9-4CCE-9C43-E059E32255DF             LoadImage:  3813  3814   1   1
+54C32CBF-A3B9-4CCE-9C43-E059E32255DF            StartImage:  3814  3826  12   0
+             SystemFirmwareDeviceSmm            StartImage:  3812  3828  16  16
+                 SystemAcpiTablesSmm             LoadImage:  3828  3829   1   1
+E7D62FEC-4994-4030-8B3F-AB4606A33350             LoadImage:  3829  3831   2   2
+E7D62FEC-4994-4030-8B3F-AB4606A33350            StartImage:  3831  3832   1   0
+                 SystemAcpiTablesSmm            StartImage:  3829  3837   8   8
+                   PiSaveStateAccess             LoadImage:  3837  3839   2   2
+                                                 LoadImage:  3839  3840   1   1
+707B3C6E-99A6-4E17-84A0-40284C1B3F38             LoadImage:  3840  3841   1   1
+707B3C6E-99A6-4E17-84A0-40284C1B3F38            StartImage:  3841  3841   0   0
+                   PiSaveStateAccess            StartImage:  3839  3843   4   4
+         SystemFlashCommunicationDxe             LoadImage:  3843  3845   2   2
+         SystemFlashCommunicationDxe            StartImage:  3845  3848   3   3
+                SystemSmmServicesSmm             LoadImage:  3848  3850   2   2
+                                                 LoadImage:  3850  3851   1   1
+1504BA7B-58F8-4D12-9638-B494A7044376             LoadImage:  3851  3852   1   1
+1504BA7B-58F8-4D12-9638-B494A7044376            StartImage:  3852  3853   1   0
+                SystemSmmServicesSmm            StartImage:  3850  3854   4   4
+        SystemLegacySetupSecurityDxe             LoadImage:  3854  3856   2   2
+        SystemLegacySetupSecurityDxe            StartImage:  3856  3859   3   3
+                 SystemAcpiTablesDxe             LoadImage:  3859  3860   1   1
+                 SystemAcpiTablesDxe            StartImage:  3860  3911  51  51
+                      PlatformCsmDxe             LoadImage:  3911  3913   2   2
+                      PlatformCsmDxe            StartImage:  3913  3915   2   2
+                   SystemVariableSmm             LoadImage:  3915  3917   2   2
+                                                 LoadImage:  3917  3918   1   1
+65246A3B-33EF-4F7E-B657-A4A633F130B0             LoadImage:  3918  3920   2   2
+65246A3B-33EF-4F7E-B657-A4A633F130B0            StartImage:  3920  3923   3   0
+                   SystemVariableSmm            StartImage:  3917  3928  11  11
+                                                 LoadImage:  3928  3930   2   2
+6CDF9BAA-0934-43C2-A85F-286386097604             LoadImage:  3930  3932   2   2
+6CDF9BAA-0934-43C2-A85F-286386097604            StartImage:  3932  3932   0   0
+                                                StartImage:  3930  3935   5   5
+         SystemFlashCommunicationSmm             LoadImage:  3935  3937   2   2
+                                                 LoadImage:  3937  3938   1   1
+B9CABA9B-E5C5-41DC-86E2-E7CEF87B81CB             LoadImage:  3938  3940   2   2
+B9CABA9B-E5C5-41DC-86E2-E7CEF87B81CB            StartImage:  3940  3940   0   0
+         SystemFlashCommunicationSmm            StartImage:  3937  3942   5   5
+                        SmbiosBcpSmm             LoadImage:  3942  3943   1   1
+                                                 LoadImage:  3944  3944   0   0
+0559E886-AC78-4BCC-899A-E7830B5D6462             LoadImage:  3944  3946   2   2
+0559E886-AC78-4BCC-899A-E7830B5D6462            StartImage:  3946  3948   2   0
+                        SmbiosBcpSmm            StartImage:  3944  3953   9   9
+                     SystemSmBiosSmm             LoadImage:  3953  3954   1   1
+                                                 LoadImage:  3954  3955   1   1
+CD92B9B9-2D4C-466B-8458-95447D8E4AFE             LoadImage:  3955  3957   2   2
+CD92B9B9-2D4C-466B-8458-95447D8E4AFE            StartImage:  3957  3957   0   0
+                     SystemSmBiosSmm            StartImage:  3954  3959   5   5
+             SystemSmbiosEventLogSmm             LoadImage:  3959  3961   2   2
+                                                 LoadImage:  3961  3962   1   1
+799B0CB3-F2FD-4571-8522-29536EFE30BF             LoadImage:  3962  3963   1   1
+799B0CB3-F2FD-4571-8522-29536EFE30BF            StartImage:  3963  3965   2   0
+             SystemSmbiosEventLogSmm            StartImage:  3961  3968   7   7
+                SystemSecurityTpmSmm             LoadImage:  3968  3970   2   2
+DFDBC6B5-985B-4DE3-A1DF-C91520604A75             LoadImage:  3970  3972   2   2
+DFDBC6B5-985B-4DE3-A1DF-C91520604A75            StartImage:  3972  3972   0   0
+                SystemSecurityTpmSmm            StartImage:  3970  3974   4   4
+               SystemXhciResetSystem             LoadImage:  3974  3975   1   1
+8E5C4BEA-34FF-4E32-8358-3363DA01E628             LoadImage:  3975  3977   2   2
+8E5C4BEA-34FF-4E32-8358-3363DA01E628            StartImage:  3977  3977   0   0
+               SystemXhciResetSystem            StartImage:  3975  3979   4   4
+                        RasErrLogSmm             LoadImage:  3979  3981   2   2
+A93307FB-301F-4046-9983-E9ED1D4357A5             LoadImage:  3981  3983   2   2
+A93307FB-301F-4046-9983-E9ED1D4357A5            StartImage:  3983  3984   1   0
+                        RasErrLogSmm            StartImage:  3981  3988   7   7
+BDS Phase Start
+                         BootManager         MsTaskBdsEntry  3988  3988   0   0
+                        SystemVgaDxe             LoadImage:  3989  3991   2   2
+                        SystemVgaDxe            StartImage:  3991  3991   0   0
+                 SystemLegacyBiosDxe             LoadImage:  3991  3993   2   2
+                 SystemLegacyBiosDxe            StartImage:  3993  4015  22  22
+                     SystemSplashDxe             LoadImage:  4015  4017   2   2
+                     SystemSplashDxe            StartImage:  4017  4017   0   0
+                         BootManager DiscoverBmEssentialVar  4017  4033  16  16
+                         BootManager  InitializeLoadOptions  4033  4034   1   1
+                         BootManager       InitializeHotKey  4034  4034   0   0
+                         BootManager InitializeHotkeyString  4034  4034   0   0
+                         BootManager  InitializeHotkeyImage  4034  4034   0   0
+                         BootManager        CheckBmVariable  4035  4035   0   0
+                         BootManager         ConnectDrivers  4035  4035   0   0
+                         BootManager      ConnectConsoleOut  4035  4406 371   0
+                     SystemPciBusDxe              DB:Start:  4036  4040   4   4
+                  SystemPciIsaBusDxe              DB:Start:  4043  4043   0   0
+                    KEUDGCpldUartDxe              DB:Start:  4045  4046   1   1
+                     W83627DHGSioDxe              DB:Start:  4046  4046   0   0
+                  SystemIsaSerialDxe              DB:Start:  4048  4048   0   0
+                   SystemTerminalDxe              DB:Start:  4052  4058   6   6
+                SystemConPlatformDxe              DB:Start:  4060  4060   0   0
+                SystemConPlatformDxe              DB:Start:  4061  4061   0   0
+                SystemConSplitterDxe              DB:Start:  4062  4062   0   0
+                SystemConSplitterDxe              DB:Start:  4063  4064   1   1
+                     SystemPciBusDxe              DB:Start:  4066  4066   0   0
+                        SystemVgaDxe              DB:Start:  4068  4231 163   6
+                                 CSM EfiPlatformHookPrepare  4069  4104  35  35
+                                 CSM    LegacyBiosFarCall86  4104  4226 122 122
+            SystemGraphicsConsoleDxe              DB:Start:  4233  4233   0   0
+                SystemConPlatformDxe              DB:Start:  4234  4236   2   2
+                SystemConSplitterDxe              DB:Start:  4237  4404 167 167
+                     SystemPciBusDxe              DB:Start:  4406  4406   0   0
+                     SystemPciBusDxe              DB:Start:  4408  4408   0   0
+                     SystemPciBusDxe              DB:Start:  4411  4411   0   0
+                     SystemPciBusDxe              DB:Start:  4414  4414   0   0
+                       SystemXhciDxe              DB:Start:  4416  4416   0   0
+                     SystemUsbBusDxe              DB:Start:  4417  600215851585
+                     SystemPciBusDxe              DB:Start:  6007  6007   0   0
+                     SystemPciBusDxe              DB:Start:  6009  6009   0   0
+                     SystemPciBusDxe              DB:Start:  6012  6012   0   0
+                     SystemPciBusDxe              DB:Start:  6014  6014   0   0
+F51AD83C-FE02-4BBE-944B-EDB428AFD6C9              DB:Start:  6016  6016   0   0
+DD223EF8-6D1B-490A-A53E-BA86FAAEB778              DB:Start:  6017  6082  65  65
+                     SystemPciBusDxe              DB:Start:  6084  6084   0   0
+F51AD83C-FE02-4BBE-944B-EDB428AFD6C9              DB:Start:  6086  6087   1   1
+DD223EF8-6D1B-490A-A53E-BA86FAAEB778              DB:Start:  6087  6132  45  45
+76D66F2B-FC26-4CFE-9A7E-BC6491BE0EE5              DB:Start:  6133  71411008 977
+                      SystemUsbKbDxe              DB:Start:  6380  6401  21  21
+                SystemConPlatformDxe              DB:Start:  6402  6402   0   0
+                SystemConSplitterDxe              DB:Start:  6403  6413  10  10
+                     SystemPciBusDxe              DB:Start:  7143  7144   1   1
+4495E47E-42A9-4007-8C17-B6664F909D04              DB:Start:  7145  7146   1   1
+BB65942B-521F-4EC3-BAF9-A92540CF60D2              DB:Start:  7147  7147   0   0
+       SystemAhciAtaAtapiPassThruDxe              DB:Start:  7148  7154   6   6
+                    SystemAhciBusDxe              DB:Start:  7154  7154   0   0
+0167CCC4-D0F7-4F21-A3EF-9E64B7CDCE8B              DB:Start:  7156  7156   0   0
+                         BootManager    DisplaySplashScreen  7157  7266 109   0
+                         BootManager       ConnectConsoleIn  7157  7266 109  45
+                     SystemPciBusDxe              DB:Start:  7158  7158   0   0
+                    SystemAhciBusSmm             LoadImage:  7162  7163   1   1
+                                                 LoadImage:  7164  7165   1   1
+B31FF060-8363-11DF-8395-0800200C9A66             LoadImage:  7165  7166   1   1
+B31FF060-8363-11DF-8395-0800200C9A66            StartImage:  7166  7168   2   0
+                    SystemAhciBusSmm            StartImage:  7164  7172   8   8
+               SystemSmmUsbLegacySmm             LoadImage:  7172  7174   2   2
+                                                 LoadImage:  7174  7182   8   8
+EF33C296-F64C-4146-AD04-347899702C84             LoadImage:  7182  7184   2   2
+EF33C296-F64C-4146-AD04-347899702C84            StartImage:  7184  7185   1   0
+               SystemSmmUsbLegacySmm            StartImage:  7174  7188  14  14
+                     SystemPciBusDxe              DB:Start:  7193  7193   0   0
+                     W83627DHGSioDxe              DB:Start:  7195  7196   1   1
+                     W83627DHGSioDxe              DB:Start:  7198  7198   0   0
+                     SystemPciBusDxe              DB:Start:  7200  7200   0   0
+                     SystemPciBusDxe              DB:Start:  7202  7202   0   0
+                     SystemPciBusDxe              DB:Start:  7205  7205   0   0
+                     SystemPciBusDxe              DB:Start:  7207  7207   0   0
+                     SystemUsbBusDxe              DB:Start:  7210  7233  23  23
+                     SystemPciBusDxe              DB:Start:  7262  7262   0   0
+                         BootManager          DisplayHotKey  7266  7266   0   0
+                         BootManager        ConnectErrorOut  7266  7270   4   4
+                     SystemPciBusDxe              DB:Start:  7267  7267   0   0
+                         BootManager  ConnectDefaultDevices  7270  7293  23  21
+                     SystemPciBusDxe              DB:Start:  7271  7271   0   0
+                     W83627DHGSioDxe              DB:Start:  7276  7277   1   1
+                  SystemIsaSerialDxe              DB:Start:  7279  7279   0   0
+                   SystemTerminalDxe              DB:Start:  7282  7282   0   0
+                  SystemIsaSerialDxe              DB:Start:  7289  7290   1   1
+                         BootManager     CollectAllConsoles  7293  7294   1   1
+                         BootManager   ConnectAllPciDevices  7294  7298   4   3
+                     SystemPciBusDxe              DB:Start:  7295  7296   1   1
+                         BootManager               TpmCheck  7518  7518   0   0
+                         BootManager     CapsuleFlashUpdate  7518  7518   0   0
+                         BootManager         ConnectDevices  7519  7524   5   3
+                 KEMoPLATFORMMENUDxe             LoadImage:  7519  7521   2   2
+                 KEMoPLATFORMMENUDxe            StartImage:  7521  7521   0   0
+                         BootManager     InitializeSecurity  7524  7524   0   0
+                         BootManager             LegacyInit  7524  7608  84  59
+                     SystemPciBusDxe              DB:Start:  7525  7525   0   0
+                     SystemPciBusDxe              DB:Start:  7527  7528   1   1
+                     SystemPciBusDxe              DB:Start:  7530  7530   0   0
+                     SystemPciBusDxe              DB:Start:  7532  7532   0   0
+                     SystemUsbBusDxe              DB:Start:  7535  7558  23  23
+                     SystemPciBusDxe              DB:Start:  7587  7587   0   0
+                     SystemPciBusDxe              DB:Start:  7590  7590   0   0
+                     SystemPciBusDxe              DB:Start:  7592  7592   0   0
+                     SystemPciBusDxe              DB:Start:  7594  7594   0   0
+                     SystemPciBusDxe              DB:Start:  7598  7598   0   0
+                     SystemPciBusDxe              DB:Start:  7602  7603   1   1
+                    SystemAhciBusDxe              DB:Start:  7605  7605   0   0
+0167CCC4-D0F7-4F21-A3EF-9E64B7CDCE8B              DB:Start:  7606  7606   0   0
+                         BootManager         RunDiagnostics  7608  7608   0   0
+                         BootManager           HotkeyDetect  7608  864010321032
+                     SystemPciBusDxe              DB:Start:  8641  8641   0   0
+                    SystemAhciBusDxe              DB:Start:  8643  8643   0   0
+0167CCC4-D0F7-4F21-A3EF-9E64B7CDCE8B              DB:Start:  8645  8645   0   0
+                         BootManager             LegacyInit  8647  8647   0   0
+                   SystemBootMenuDxe             LoadImage:  9195  9196   1   1
+                       PrepareToBoot    ShowErrLogMsgScreen  9197  9197   0   0
+                     SystemPciBusDxe              DB:Start:  9198  9198   0   0
+                     SystemPciBusDxe              DB:Start:  9201  9201   0   0
+                     SystemPciBusDxe              DB:Start:  9205  9205   0   0
+                     SystemPciBusDxe              DB:Start:  9207  9207   0   0
+                     SystemUsbBusDxe              DB:Start:  9210  9234  24  24
+                     SystemPciBusDxe              DB:Start:  9264  9264   0   0
+                    SystemAhciBusDxe              DB:Start:  9266  9266   0   0
+0167CCC4-D0F7-4F21-A3EF-9E64B7CDCE8B              DB:Start:  9267  9267   0   0
+                     SystemPciBusDxe              DB:Start:  9270  9270   0   0
+                     SystemPciBusDxe              DB:Start:  9272  9272   0   0
+                     SystemPciBusDxe              DB:Start:  9275  9275   0   0
+                     SystemPciBusDxe              DB:Start:  9277  9277   0   0
+                     SystemPciBusDxe              DB:Start:  9281  9281   0   0
+                     SystemPciBusDxe              DB:Start:  9287  9288   1   1
+                     SystemPciBusDxe              DB:Start:  9294  9294   0   0
+                     SystemPciBusDxe              DB:Start:  9300  9300   0   0
+D0CAA91E-2DE4-4B0D-B3DC-09C67E854E34              DB:Start:  9303  9575 272  58
+                    SystemAhciBusDxe              DB:Start:  9305  9305   0   0
+0167CCC4-D0F7-4F21-A3EF-9E64B7CDCE8B              DB:Start:  9305  9305   0   0
+                    SystemAhciBusDxe              DB:Start:  9306  9306   0   0
+0167CCC4-D0F7-4F21-A3EF-9E64B7CDCE8B              DB:Start:  9306  9306   0   0
+                                 CSM EfiPlatformHookPrepare  9308  9364  56  56
+                                 CSM    LegacyBiosFarCall86  9386  9387   1   1
+                       SystemXhciDxe              DB:Start:  9387  9387   0   0
+                     SystemUsbBusDxe              DB:Start:  9387  9387   0   0
+                                 CSM       SetVesaVideoMode  9389  9515 126 126
+                      SystemUsbKbDxe              DB:Start:  9532  9553  21  21
+                SystemConPlatformDxe              DB:Start:  9554  9554   0   0
+                SystemConSplitterDxe              DB:Start:  9555  9565  10  10
+                     SystemPciBusDxe              DB:Start:  9578  9578   0   0
+                    SystemAhciBusDxe              DB:Start:  9581  9581   0   0
+0167CCC4-D0F7-4F21-A3EF-9E64B7CDCE8B              DB:Start:  9582  9582   0   0
+                            UefiBoot      ConnectDevicePath 13172 13176   4   4
+                            UefiBoot  OpenProtocol:FWVolume 13176 13176   0   0
+                            UefiBoot EfiDuplicateDevicePath 13176 13176   0   0
+                            UefiBoot              LoadImage 13176 13181   5   0
+                               Shell             LoadImage: 13176 13181   5   5
+                            UefiBoot                 SetTpl 13181 13181   0   0
+                            UefiBoot          PrepareToBoot 13181 13528 347   0
+                       PrepareToBoot    ShowErrLogMsgScreen 13181 13181   0   0
+                       PrepareToBoot CreateEventReadyToBoot 13181 13527 346 346
+                       PrepareToBoot             SaveS3Data 13527 13527   0   0
+                       PrepareToBoot           SetBootState 13527 13528   1   1
+                         BootManager        WatchdogTimeout 13528 13528   0   0
+                         BootManager    UefiBoot:StartImage 13529 13529   0   0
+                     SystemPciBusDxe              DB:Start: 13739 13740   1   1
+                     W83627DHGSioDxe              DB:Start: 13745 13745   0   0
+                  SystemIsaSerialDxe              DB:Start: 13747 13747   0   0
+                   SystemTerminalDxe              DB:Start: 13750 13750   0   0
+                  SystemIsaSerialDxe              DB:Start: 13757 13757   0   0
+                     SystemUsbBusDxe              DB:Start: 13766 13789  23  23
+                    SystemAhciBusDxe              DB:Start: 13819 13819   0   0
+0167CCC4-D0F7-4F21-A3EF-9E64B7CDCE8B              DB:Start: 13820 13820   0   0
+D0CAA91E-2DE4-4B0D-B3DC-09C67E854E34              DB:Start: 13833 13833   0   0
+                     SystemDiskIoDxe              DB:Start: 15194 15194   0   0
+                  SystemPartitionDxe              DB:Start: 15195 15198   3   3
+                     SystemDiskIoDxe              DB:Start: 15201 15201   0   0
+                  SystemPartitionDxe              DB:Start: 15202 15202   0   0
+961578FE-B6B7-44C3-AF35-6BC705CD2B1F              DB:Start: 15204 15205   1   1
+                     SystemDiskIoDxe              DB:Start: 15208 15208   0   0
+                  SystemPartitionDxe              DB:Start: 15209 15209   0   0
+961578FE-B6B7-44C3-AF35-6BC705CD2B1F              DB:Start: 15211 15211   0   0
+                     SystemDiskIoDxe              DB:Start: 15216 15216   0   0
+                  SystemPartitionDxe              DB:Start: 15217 15219   2   2
+                     SystemDiskIoDxe              DB:Start: 15221 15222   1   1
+                  SystemPartitionDxe              DB:Start: 15223 15223   0   0
+961578FE-B6B7-44C3-AF35-6BC705CD2B1F              DB:Start: 15225 15226   1   1
+                     SystemPciBusDxe              DB:Start: 15368 15368   0   0
+                     W83627DHGSioDxe              DB:Start: 15373 15373   0   0
+                  SystemIsaSerialDxe              DB:Start: 15375 15376   1   1
+                   SystemTerminalDxe              DB:Start: 15379 15379   0   0
+                  SystemIsaSerialDxe              DB:Start: 15386 15386   0   0
+                     SystemUsbBusDxe              DB:Start: 15395 15418  23  23
+                    SystemAhciBusDxe              DB:Start: 15449 15449   0   0
+0167CCC4-D0F7-4F21-A3EF-9E64B7CDCE8B              DB:Start: 15449 15450   1   1
+D0CAA91E-2DE4-4B0D-B3DC-09C67E854E34              DB:Start: 15463 15463   0   0
+                  SystemPartitionDxe              DB:Start: 15764 15765   1   1
+                  SystemPartitionDxe              DB:Start: 15769 15770   1   1
+961578FE-B6B7-44C3-AF35-6BC705CD2B1F              DB:Start: 15771 15772   1   1
+                  SystemPartitionDxe              DB:Start: 15776 15778   2   2
+                     SystemDiskIoDxe              DB:Start: 15826 15827   1   1
+                  SystemPartitionDxe              DB:Start: 15828 15828   0   0
+                     SystemDiskIoDxe              DB:Start: 15831 15831   0   0
+                  SystemPartitionDxe              DB:Start: 15832 15833   1   1
+961578FE-B6B7-44C3-AF35-6BC705CD2B1F              DB:Start: 15834 15835   1   1
+                     SystemDiskIoDxe              DB:Start: 15838 15838   0   0
+                  SystemPartitionDxe              DB:Start: 15839 15840   1   1
+961578FE-B6B7-44C3-AF35-6BC705CD2B1F              DB:Start: 15841 15842   1   1
+                     SystemDiskIoDxe              DB:Start: 15846 15846   0   0
+                  SystemPartitionDxe              DB:Start: 15847 15848   1   1
+                     SystemDiskIoDxe              DB:Start: 15850 15851   1   1
+                  SystemPartitionDxe              DB:Start: 15852 15852   0   0
+961578FE-B6B7-44C3-AF35-6BC705CD2B1F              DB:Start: 15853 15855   2   2
+                                                 LoadImage: 83459 83459   0   0
+                                                 LoadImage: 83459 83459   0   0
+                                                 LoadImage: 83459 83460   1   1
+                                                 LoadImage: 83460 83460   0   0
+                                                 LoadImage: 83529 83529   0   0
+                                                 LoadImage: 83529 83529   0   0
+                                                 LoadImage: 83529 83530   1   1
+                                                 LoadImage: 83530 83530   0   0

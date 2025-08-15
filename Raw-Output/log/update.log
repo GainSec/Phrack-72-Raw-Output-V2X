@@ -1,0 +1,810 @@
++ rm -f /mnt/c3platpersistent//var/log/update.log.pkgops
++ pushd /home/admin
+/home/admin /home/admin
++ PREVFWVERSION=none
++ CURRFWVERSION=none
++ [[ -e /mnt/c3platpersistent//etc/issue ]]
++ INSTALLABLE_VARIANT_FOUND=false
++ for V in $VARIANTS
++ [[ USDoT-NAStack == USDoT-NAStack ]]
++ INSTALLABLE_VARIANT_FOUND=true
++ continue
++ [[ true == false ]]
++ [[ -e /mnt/c3platpersistent//startup.sh ]]
++ set +x
+/mnt/c3platpersistent /home/admin /home/admin
+/home/admin /home/admin
++ popd
+/home/admin
++ mv kapsch-al_1.19.0-deb9-x86-nxp.deb kapsch-asn1c_1.19.0-deb9-x86.deb kapsch-bc_1.19.0-deb9-x86.deb kapsch-boost_1.19.0-deb9-x86.deb kapsch-cppnetlib_1.19.0-deb9-x86.deb kapsch-curl_1.19.0-deb9-x86.deb kapsch-dfu_util_1.19.0-deb9-x86.deb kapsch-embedded_device_1.19.0-deb9-x86-native.deb kapsch-gpsd_1.19.0-deb9-x86.deb kapsch-json_c_1.19.0-deb9-x86.deb kapsch-kapsch_updater_1.19.0-deb9-x86.deb kapsch-kdpkg_1.19.0-deb9-x86.deb kapsch-libaerolink_1.19.0-deb9-x86-sxa1700.deb kapsch-libaerolink_pki_1.19.0-deb9-x86.deb kapsch-libaerolink_tools_1.19.0-deb9-x86-sxa1700.deb kapsch-libmodbus_1.19.0-deb9-x86.deb kapsch-libpcap_1.19.0-deb9-x86.deb kapsch-llc_tool_1.19.0-deb9-x86.deb kapsch-log4cplus_1.19.0-deb9-x86.deb kapsch-mac_scanner_1.19.0-deb9-x86.deb kapsch-management_1.19.0-deb9-x86.deb kapsch-mcp2210_utils_1.19.0-deb9-x86.deb kapsch-minicom_1.19.0-deb9-x86.deb kapsch-net_snmp_1.19.0-deb9-x86.deb kapsch-ntpd_1.19.0-deb9-x86.deb kapsch-openssl_1.19.0-deb9-x86.deb kapsch-pcaplogd_1.19.0-deb9-x86.deb kapsch-persistence_1.19.0-deb9-x86-USDoT-NAStack.deb kapsch-protobuf_1.19.0-deb9-x86.deb kapsch-requests_1.19.0-deb9-x86.deb kapsch-rsync_1.19.0-deb9-x86.deb kapsch-sfmt_1.19.0-deb9-x86.deb kapsch-socat_1.19.0-deb9-x86.deb kapsch-sxa_unlock_target_1.19.0-deb9-x86.deb kapsch-sxf1800_utils_1.19.0-deb9-x86.deb kapsch-unzip_1.19.0-deb9-x86.deb kapsch-util_kapsch_1.19.0-deb9-x86.deb kapsch-util_linux_1.19.0-deb9-x86.deb kapsch-wifi_1.19.0-deb9-x86.deb kapsch-zip_1.19.0-deb9-x86.deb /mnt/c3platpersistent//var/packages/
++ pushd /mnt/c3platpersistent/
+/mnt/c3platpersistent /home/admin
++ for i in "${PLUGINS_LIST[@]}"
+++ find /mnt/c3platpersistent//var/packages/ -name 'kapsch-nothing_[0-9]*.deb'
++ DEB=
++ [[ -n '' ]]
++ for i in "${PLUGINS_LIST[@]}"
+++ find /mnt/c3platpersistent//var/packages/ -name 'kapsch-kdpkg_[0-9]*.deb'
++ DEB=/mnt/c3platpersistent//var/packages/kapsch-kdpkg_1.19.0-deb9-x86.deb
++ [[ -n /mnt/c3platpersistent//var/packages/kapsch-kdpkg_1.19.0-deb9-x86.deb ]]
++ kdpkg --force-overwrite --force-confold -i /mnt/c3platpersistent//var/packages/kapsch-kdpkg_1.19.0-deb9-x86.deb
+Selecting previously unselected package kapsch-kdpkg.
+(Reading database ... 0 files and directories currently installed.)
+Preparing to unpack .../kapsch-kdpkg_1.19.0-deb9-x86.deb ...
+Unpacking kapsch-kdpkg (1.19.0-deb9-x86) ...
+Setting up kapsch-kdpkg (1.19.0-deb9-x86) ...
+++ basename /mnt/c3platpersistent//var/packages/kapsch-kdpkg_1.19.0-deb9-x86.deb
++ echo '-- installing kapsch-kdpkg_1.19.0-deb9-x86.deb'
++ for i in "${PLUGINS_LIST[@]}"
+++ find /mnt/c3platpersistent//var/packages/ -name 'kapsch-openssl_[0-9]*.deb'
++ DEB=/mnt/c3platpersistent//var/packages/kapsch-openssl_1.19.0-deb9-x86.deb
++ [[ -n /mnt/c3platpersistent//var/packages/kapsch-openssl_1.19.0-deb9-x86.deb ]]
++ kdpkg --force-overwrite --force-confold -i /mnt/c3platpersistent//var/packages/kapsch-openssl_1.19.0-deb9-x86.deb
+Selecting previously unselected package kapsch-openssl.
+(Reading database ... 261 files and directories currently installed.)
+Preparing to unpack .../kapsch-openssl_1.19.0-deb9-x86.deb ...
+Unpacking kapsch-openssl (1.19.0-deb9-x86) ...
+Setting up kapsch-openssl (1.19.0-deb9-x86) ...
+++ basename /mnt/c3platpersistent//var/packages/kapsch-openssl_1.19.0-deb9-x86.deb
++ echo '-- installing kapsch-openssl_1.19.0-deb9-x86.deb'
++ for i in "${PLUGINS_LIST[@]}"
+++ find /mnt/c3platpersistent//var/packages/ -name 'kapsch-development_ca_[0-9]*.deb'
++ DEB=
++ [[ -n '' ]]
++ for i in "${PLUGINS_LIST[@]}"
+++ find /mnt/c3platpersistent//var/packages/ -name 'kapsch-i2c_pca9671_[0-9]*.deb'
++ DEB=
++ [[ -n '' ]]
++ for i in "${PLUGINS_LIST[@]}"
+++ find /mnt/c3platpersistent//var/packages/ -name 'kapsch-libaerolink_pki_[0-9]*.deb'
++ DEB=/mnt/c3platpersistent//var/packages/kapsch-libaerolink_pki_1.19.0-deb9-x86.deb
++ [[ -n /mnt/c3platpersistent//var/packages/kapsch-libaerolink_pki_1.19.0-deb9-x86.deb ]]
++ kdpkg --force-overwrite --force-confold -i /mnt/c3platpersistent//var/packages/kapsch-libaerolink_pki_1.19.0-deb9-x86.deb
+Selecting previously unselected package kapsch-libaerolink-pki.
+(Reading database ... 272 files and directories currently installed.)
+Preparing to unpack .../kapsch-libaerolink_pki_1.19.0-deb9-x86.deb ...
+Unpacking kapsch-libaerolink-pki (1.19.0-deb9-x86) ...
+Setting up kapsch-libaerolink-pki (1.19.0-deb9-x86) ...
+++ basename /mnt/c3platpersistent//var/packages/kapsch-libaerolink_pki_1.19.0-deb9-x86.deb
++ echo '-- installing kapsch-libaerolink_pki_1.19.0-deb9-x86.deb'
++ for i in "${PLUGINS_LIST[@]}"
+++ find /mnt/c3platpersistent//var/packages/ -name 'kapsch-mcp2210_utils_[0-9]*.deb'
++ DEB=/mnt/c3platpersistent//var/packages/kapsch-mcp2210_utils_1.19.0-deb9-x86.deb
++ [[ -n /mnt/c3platpersistent//var/packages/kapsch-mcp2210_utils_1.19.0-deb9-x86.deb ]]
++ kdpkg --force-overwrite --force-confold -i /mnt/c3platpersistent//var/packages/kapsch-mcp2210_utils_1.19.0-deb9-x86.deb
+Selecting previously unselected package kapsch-mcp2210-utils.
+(Reading database ... 274 files and directories currently installed.)
+Preparing to unpack .../kapsch-mcp2210_utils_1.19.0-deb9-x86.deb ...
+Unpacking kapsch-mcp2210-utils (1.19.0-deb9-x86) ...
+Setting up kapsch-mcp2210-utils (1.19.0-deb9-x86) ...
+++ basename /mnt/c3platpersistent//var/packages/kapsch-mcp2210_utils_1.19.0-deb9-x86.deb
++ echo '-- installing kapsch-mcp2210_utils_1.19.0-deb9-x86.deb'
++ for i in "${PLUGINS_LIST[@]}"
+++ find /mnt/c3platpersistent//var/packages/ -name 'kapsch-sxa_unlock_target_[0-9]*.deb'
++ DEB=/mnt/c3platpersistent//var/packages/kapsch-sxa_unlock_target_1.19.0-deb9-x86.deb
++ [[ -n /mnt/c3platpersistent//var/packages/kapsch-sxa_unlock_target_1.19.0-deb9-x86.deb ]]
++ kdpkg --force-overwrite --force-confold -i /mnt/c3platpersistent//var/packages/kapsch-sxa_unlock_target_1.19.0-deb9-x86.deb
+Selecting previously unselected package kapsch-sxa-unlock-target.
+(Reading database ... 279 files and directories currently installed.)
+Preparing to unpack .../kapsch-sxa_unlock_target_1.19.0-deb9-x86.deb ...
+Unpacking kapsch-sxa-unlock-target (1.19.0-deb9-x86) ...
+Setting up kapsch-sxa-unlock-target (1.19.0-deb9-x86) ...
+++ basename /mnt/c3platpersistent//var/packages/kapsch-sxa_unlock_target_1.19.0-deb9-x86.deb
++ echo '-- installing kapsch-sxa_unlock_target_1.19.0-deb9-x86.deb'
++ for i in "${PLUGINS_LIST[@]}"
+++ find /mnt/c3platpersistent//var/packages/ -name 'kapsch-sxf1800_utils_[0-9]*.deb'
++ DEB=/mnt/c3platpersistent//var/packages/kapsch-sxf1800_utils_1.19.0-deb9-x86.deb
++ [[ -n /mnt/c3platpersistent//var/packages/kapsch-sxf1800_utils_1.19.0-deb9-x86.deb ]]
++ kdpkg --force-overwrite --force-confold -i /mnt/c3platpersistent//var/packages/kapsch-sxf1800_utils_1.19.0-deb9-x86.deb
+Selecting previously unselected package kapsch-sxf1800-utils.
+(Reading database ... 283 files and directories currently installed.)
+Preparing to unpack .../kapsch-sxf1800_utils_1.19.0-deb9-x86.deb ...
+Unpacking kapsch-sxf1800-utils (1.19.0-deb9-x86) ...
+Setting up kapsch-sxf1800-utils (1.19.0-deb9-x86) ...
+++ basename /mnt/c3platpersistent//var/packages/kapsch-sxf1800_utils_1.19.0-deb9-x86.deb
++ echo '-- installing kapsch-sxf1800_utils_1.19.0-deb9-x86.deb'
++ for i in "${PLUGINS_LIST[@]}"
+++ find /mnt/c3platpersistent//var/packages/ -name 'kapsch-libaerolink_[0-9]*.deb'
++ DEB=/mnt/c3platpersistent//var/packages/kapsch-libaerolink_1.19.0-deb9-x86-sxa1700.deb
++ [[ -n /mnt/c3platpersistent//var/packages/kapsch-libaerolink_1.19.0-deb9-x86-sxa1700.deb ]]
++ kdpkg --force-overwrite --force-confold -i /mnt/c3platpersistent//var/packages/kapsch-libaerolink_1.19.0-deb9-x86-sxa1700.deb
+Selecting previously unselected package kapsch-libaerolink.
+(Reading database ... 297 files and directories currently installed.)
+Preparing to unpack .../kapsch-libaerolink_1.19.0-deb9-x86-sxa1700.deb ...
+Unpacking kapsch-libaerolink (1.19.0-deb9-x86-sxa1700) ...
+Setting up kapsch-libaerolink (1.19.0-deb9-x86-sxa1700) ...
+++ basename /mnt/c3platpersistent//var/packages/kapsch-libaerolink_1.19.0-deb9-x86-sxa1700.deb
++ echo '-- installing kapsch-libaerolink_1.19.0-deb9-x86-sxa1700.deb'
++ for i in "${PLUGINS_LIST[@]}"
+++ find /mnt/c3platpersistent//var/packages/ -name 'kapsch-libaerolink_tools_[0-9]*.deb'
++ DEB=/mnt/c3platpersistent//var/packages/kapsch-libaerolink_tools_1.19.0-deb9-x86-sxa1700.deb
++ [[ -n /mnt/c3platpersistent//var/packages/kapsch-libaerolink_tools_1.19.0-deb9-x86-sxa1700.deb ]]
++ kdpkg --force-overwrite --force-confold -i /mnt/c3platpersistent//var/packages/kapsch-libaerolink_tools_1.19.0-deb9-x86-sxa1700.deb
+Selecting previously unselected package kapsch-libaerolink-tools.
+(Reading database ... 365 files and directories currently installed.)
+Preparing to unpack .../kapsch-libaerolink_tools_1.19.0-deb9-x86-sxa1700.deb ...
+Unpacking kapsch-libaerolink-tools (1.19.0-deb9-x86-sxa1700) ...
+Setting up kapsch-libaerolink-tools (1.19.0-deb9-x86-sxa1700) ...
+++ basename /mnt/c3platpersistent//var/packages/kapsch-libaerolink_tools_1.19.0-deb9-x86-sxa1700.deb
++ echo '-- installing kapsch-libaerolink_tools_1.19.0-deb9-x86-sxa1700.deb'
++ for i in "${PLUGINS_LIST[@]}"
+++ find /mnt/c3platpersistent//var/packages/ -name 'kapsch-itsg5_certs_[0-9]*.deb'
++ DEB=
++ [[ -n '' ]]
++ for i in "${PLUGINS_LIST[@]}"
+++ find /mnt/c3platpersistent//var/packages/ -name 'kapsch-json_c_[0-9]*.deb'
++ DEB=/mnt/c3platpersistent//var/packages/kapsch-json_c_1.19.0-deb9-x86.deb
++ [[ -n /mnt/c3platpersistent//var/packages/kapsch-json_c_1.19.0-deb9-x86.deb ]]
++ kdpkg --force-overwrite --force-confold -i /mnt/c3platpersistent//var/packages/kapsch-json_c_1.19.0-deb9-x86.deb
+Selecting previously unselected package kapsch-json-c.
+(Reading database ... 378 files and directories currently installed.)
+Preparing to unpack .../kapsch-json_c_1.19.0-deb9-x86.deb ...
+Unpacking kapsch-json-c (1.19.0-deb9-x86) ...
+Setting up kapsch-json-c (1.19.0-deb9-x86) ...
+++ basename /mnt/c3platpersistent//var/packages/kapsch-json_c_1.19.0-deb9-x86.deb
++ echo '-- installing kapsch-json_c_1.19.0-deb9-x86.deb'
++ for i in "${PLUGINS_LIST[@]}"
+++ find /mnt/c3platpersistent//var/packages/ -name 'kapsch-libpcap_[0-9]*.deb'
++ DEB=/mnt/c3platpersistent//var/packages/kapsch-libpcap_1.19.0-deb9-x86.deb
++ [[ -n /mnt/c3platpersistent//var/packages/kapsch-libpcap_1.19.0-deb9-x86.deb ]]
++ kdpkg --force-overwrite --force-confold -i /mnt/c3platpersistent//var/packages/kapsch-libpcap_1.19.0-deb9-x86.deb
+Selecting previously unselected package kapsch-libpcap.
+(Reading database ... 381 files and directories currently installed.)
+Preparing to unpack .../kapsch-libpcap_1.19.0-deb9-x86.deb ...
+Unpacking kapsch-libpcap (1.19.0-deb9-x86) ...
+Setting up kapsch-libpcap (1.19.0-deb9-x86) ...
+++ basename /mnt/c3platpersistent//var/packages/kapsch-libpcap_1.19.0-deb9-x86.deb
++ echo '-- installing kapsch-libpcap_1.19.0-deb9-x86.deb'
++ for i in "${PLUGINS_LIST[@]}"
+++ find /mnt/c3platpersistent//var/packages/ -name 'kapsch-llc_tool_[0-9]*.deb'
++ DEB=/mnt/c3platpersistent//var/packages/kapsch-llc_tool_1.19.0-deb9-x86.deb
++ [[ -n /mnt/c3platpersistent//var/packages/kapsch-llc_tool_1.19.0-deb9-x86.deb ]]
++ kdpkg --force-overwrite --force-confold -i /mnt/c3platpersistent//var/packages/kapsch-llc_tool_1.19.0-deb9-x86.deb
+Selecting previously unselected package kapsch-llc-tool.
+(Reading database ... 384 files and directories currently installed.)
+Preparing to unpack .../kapsch-llc_tool_1.19.0-deb9-x86.deb ...
+Unpacking kapsch-llc-tool (1.19.0-deb9-x86) ...
+Setting up kapsch-llc-tool (1.19.0-deb9-x86) ...
+++ basename /mnt/c3platpersistent//var/packages/kapsch-llc_tool_1.19.0-deb9-x86.deb
++ echo '-- installing kapsch-llc_tool_1.19.0-deb9-x86.deb'
++ for i in "${PLUGINS_LIST[@]}"
+++ find /mnt/c3platpersistent//var/packages/ -name 'kapsch-gpsd_[0-9]*.deb'
++ DEB=/mnt/c3platpersistent//var/packages/kapsch-gpsd_1.19.0-deb9-x86.deb
++ [[ -n /mnt/c3platpersistent//var/packages/kapsch-gpsd_1.19.0-deb9-x86.deb ]]
++ kdpkg --force-overwrite --force-confold -i /mnt/c3platpersistent//var/packages/kapsch-gpsd_1.19.0-deb9-x86.deb
+Selecting previously unselected package kapsch-gpsd.
+(Reading database ... 418 files and directories currently installed.)
+Preparing to unpack .../kapsch-gpsd_1.19.0-deb9-x86.deb ...
+Unpacking kapsch-gpsd (1.19.0-deb9-x86) ...
+Setting up kapsch-gpsd (1.19.0-deb9-x86) ...
+++ basename /mnt/c3platpersistent//var/packages/kapsch-gpsd_1.19.0-deb9-x86.deb
++ echo '-- installing kapsch-gpsd_1.19.0-deb9-x86.deb'
++ for i in "${PLUGINS_LIST[@]}"
+++ find /mnt/c3platpersistent//var/packages/ -name 'kapsch-ntpd_[0-9]*.deb'
++ DEB=/mnt/c3platpersistent//var/packages/kapsch-ntpd_1.19.0-deb9-x86.deb
++ [[ -n /mnt/c3platpersistent//var/packages/kapsch-ntpd_1.19.0-deb9-x86.deb ]]
++ kdpkg --force-overwrite --force-confold -i /mnt/c3platpersistent//var/packages/kapsch-ntpd_1.19.0-deb9-x86.deb
+Selecting previously unselected package kapsch-ntpd.
+(Reading database ... 446 files and directories currently installed.)
+Preparing to unpack .../kapsch-ntpd_1.19.0-deb9-x86.deb ...
+Unpacking kapsch-ntpd (1.19.0-deb9-x86) ...
+Setting up kapsch-ntpd (1.19.0-deb9-x86) ...
+++ basename /mnt/c3platpersistent//var/packages/kapsch-ntpd_1.19.0-deb9-x86.deb
++ echo '-- installing kapsch-ntpd_1.19.0-deb9-x86.deb'
++ for i in "${PLUGINS_LIST[@]}"
+++ find /mnt/c3platpersistent//var/packages/ -name 'kapsch-sfmt_[0-9]*.deb'
++ DEB=/mnt/c3platpersistent//var/packages/kapsch-sfmt_1.19.0-deb9-x86.deb
++ [[ -n /mnt/c3platpersistent//var/packages/kapsch-sfmt_1.19.0-deb9-x86.deb ]]
++ kdpkg --force-overwrite --force-confold -i /mnt/c3platpersistent//var/packages/kapsch-sfmt_1.19.0-deb9-x86.deb
+Selecting previously unselected package kapsch-sfmt.
+(Reading database ... 475 files and directories currently installed.)
+Preparing to unpack .../kapsch-sfmt_1.19.0-deb9-x86.deb ...
+Unpacking kapsch-sfmt (1.19.0-deb9-x86) ...
+Setting up kapsch-sfmt (1.19.0-deb9-x86) ...
+++ basename /mnt/c3platpersistent//var/packages/kapsch-sfmt_1.19.0-deb9-x86.deb
++ echo '-- installing kapsch-sfmt_1.19.0-deb9-x86.deb'
++ for i in "${PLUGINS_LIST[@]}"
+++ find /mnt/c3platpersistent//var/packages/ -name 'kapsch-management_[0-9]*.deb'
++ DEB=/mnt/c3platpersistent//var/packages/kapsch-management_1.19.0-deb9-x86.deb
++ [[ -n /mnt/c3platpersistent//var/packages/kapsch-management_1.19.0-deb9-x86.deb ]]
++ kdpkg --force-overwrite --force-confold -i /mnt/c3platpersistent//var/packages/kapsch-management_1.19.0-deb9-x86.deb
+Selecting previously unselected package kapsch-management.
+(Reading database ... 476 files and directories currently installed.)
+Preparing to unpack .../kapsch-management_1.19.0-deb9-x86.deb ...
+Unpacking kapsch-management (1.19.0-deb9-x86) ...
+Setting up kapsch-management (1.19.0-deb9-x86) ...
+++ basename /mnt/c3platpersistent//var/packages/kapsch-management_1.19.0-deb9-x86.deb
++ echo '-- installing kapsch-management_1.19.0-deb9-x86.deb'
++ for i in "${PLUGINS_LIST[@]}"
+++ find /mnt/c3platpersistent//var/packages/ -name 'kapsch-al_[0-9]*.deb'
++ DEB=/mnt/c3platpersistent//var/packages/kapsch-al_1.19.0-deb9-x86-nxp.deb
++ [[ -n /mnt/c3platpersistent//var/packages/kapsch-al_1.19.0-deb9-x86-nxp.deb ]]
++ kdpkg --force-overwrite --force-confold -i /mnt/c3platpersistent//var/packages/kapsch-al_1.19.0-deb9-x86-nxp.deb
+Selecting previously unselected package kapsch-al.
+(Reading database ... 477 files and directories currently installed.)
+Preparing to unpack .../kapsch-al_1.19.0-deb9-x86-nxp.deb ...
+Unpacking kapsch-al (1.19.0-deb9-x86-nxp) ...
+Setting up kapsch-al (1.19.0-deb9-x86-nxp) ...
+++ basename /mnt/c3platpersistent//var/packages/kapsch-al_1.19.0-deb9-x86-nxp.deb
++ echo '-- installing kapsch-al_1.19.0-deb9-x86-nxp.deb'
++ for i in "${PLUGINS_LIST[@]}"
+++ find /mnt/c3platpersistent//var/packages/ -name 'kapsch-asn1c_[0-9]*.deb'
++ DEB=/mnt/c3platpersistent//var/packages/kapsch-asn1c_1.19.0-deb9-x86.deb
++ [[ -n /mnt/c3platpersistent//var/packages/kapsch-asn1c_1.19.0-deb9-x86.deb ]]
++ kdpkg --force-overwrite --force-confold -i /mnt/c3platpersistent//var/packages/kapsch-asn1c_1.19.0-deb9-x86.deb
+Selecting previously unselected package kapsch-asn1c.
+(Reading database ... 512 files and directories currently installed.)
+Preparing to unpack .../kapsch-asn1c_1.19.0-deb9-x86.deb ...
+Unpacking kapsch-asn1c (1.19.0-deb9-x86) ...
+Setting up kapsch-asn1c (1.19.0-deb9-x86) ...
+++ basename /mnt/c3platpersistent//var/packages/kapsch-asn1c_1.19.0-deb9-x86.deb
++ echo '-- installing kapsch-asn1c_1.19.0-deb9-x86.deb'
++ for i in "${PLUGINS_LIST[@]}"
+++ find /mnt/c3platpersistent//var/packages/ -name 'kapsch-boost_[0-9]*.deb'
++ DEB=/mnt/c3platpersistent//var/packages/kapsch-boost_1.19.0-deb9-x86.deb
++ [[ -n /mnt/c3platpersistent//var/packages/kapsch-boost_1.19.0-deb9-x86.deb ]]
++ kdpkg --force-overwrite --force-confold -i /mnt/c3platpersistent//var/packages/kapsch-boost_1.19.0-deb9-x86.deb
+Selecting previously unselected package kapsch-boost.
+(Reading database ... 518 files and directories currently installed.)
+Preparing to unpack .../kapsch-boost_1.19.0-deb9-x86.deb ...
+Unpacking kapsch-boost (1.19.0-deb9-x86) ...
+Setting up kapsch-boost (1.19.0-deb9-x86) ...
+++ basename /mnt/c3platpersistent//var/packages/kapsch-boost_1.19.0-deb9-x86.deb
++ echo '-- installing kapsch-boost_1.19.0-deb9-x86.deb'
++ for i in "${PLUGINS_LIST[@]}"
+++ find /mnt/c3platpersistent//var/packages/ -name 'kapsch-cppnetlib_[0-9]*.deb'
++ DEB=/mnt/c3platpersistent//var/packages/kapsch-cppnetlib_1.19.0-deb9-x86.deb
++ [[ -n /mnt/c3platpersistent//var/packages/kapsch-cppnetlib_1.19.0-deb9-x86.deb ]]
++ kdpkg --force-overwrite --force-confold -i /mnt/c3platpersistent//var/packages/kapsch-cppnetlib_1.19.0-deb9-x86.deb
+Selecting previously unselected package kapsch-cppnetlib.
+(Reading database ... 528 files and directories currently installed.)
+Preparing to unpack .../kapsch-cppnetlib_1.19.0-deb9-x86.deb ...
+Unpacking kapsch-cppnetlib (1.19.0-deb9-x86) ...
+Setting up kapsch-cppnetlib (1.19.0-deb9-x86) ...
+++ basename /mnt/c3platpersistent//var/packages/kapsch-cppnetlib_1.19.0-deb9-x86.deb
++ echo '-- installing kapsch-cppnetlib_1.19.0-deb9-x86.deb'
++ for i in "${PLUGINS_LIST[@]}"
+++ find /mnt/c3platpersistent//var/packages/ -name 'kapsch-libmodbus_[0-9]*.deb'
++ DEB=/mnt/c3platpersistent//var/packages/kapsch-libmodbus_1.19.0-deb9-x86.deb
++ [[ -n /mnt/c3platpersistent//var/packages/kapsch-libmodbus_1.19.0-deb9-x86.deb ]]
++ kdpkg --force-overwrite --force-confold -i /mnt/c3platpersistent//var/packages/kapsch-libmodbus_1.19.0-deb9-x86.deb
+Selecting previously unselected package kapsch-libmodbus.
+(Reading database ... 537 files and directories currently installed.)
+Preparing to unpack .../kapsch-libmodbus_1.19.0-deb9-x86.deb ...
+Unpacking kapsch-libmodbus (1.19.0-deb9-x86) ...
+Setting up kapsch-libmodbus (1.19.0-deb9-x86) ...
+++ basename /mnt/c3platpersistent//var/packages/kapsch-libmodbus_1.19.0-deb9-x86.deb
++ echo '-- installing kapsch-libmodbus_1.19.0-deb9-x86.deb'
++ for i in "${PLUGINS_LIST[@]}"
+++ find /mnt/c3platpersistent//var/packages/ -name 'kapsch-log4cplus_[0-9]*.deb'
++ DEB=/mnt/c3platpersistent//var/packages/kapsch-log4cplus_1.19.0-deb9-x86.deb
++ [[ -n /mnt/c3platpersistent//var/packages/kapsch-log4cplus_1.19.0-deb9-x86.deb ]]
++ kdpkg --force-overwrite --force-confold -i /mnt/c3platpersistent//var/packages/kapsch-log4cplus_1.19.0-deb9-x86.deb
+Selecting previously unselected package kapsch-log4cplus.
+(Reading database ... 540 files and directories currently installed.)
+Preparing to unpack .../kapsch-log4cplus_1.19.0-deb9-x86.deb ...
+Unpacking kapsch-log4cplus (1.19.0-deb9-x86) ...
+Setting up kapsch-log4cplus (1.19.0-deb9-x86) ...
+++ basename /mnt/c3platpersistent//var/packages/kapsch-log4cplus_1.19.0-deb9-x86.deb
++ echo '-- installing kapsch-log4cplus_1.19.0-deb9-x86.deb'
++ for i in "${PLUGINS_LIST[@]}"
+++ find /mnt/c3platpersistent//var/packages/ -name 'kapsch-minicsv_[0-9]*.deb'
++ DEB=
++ [[ -n '' ]]
++ for i in "${PLUGINS_LIST[@]}"
+++ find /mnt/c3platpersistent//var/packages/ -name 'kapsch-net_snmp_[0-9]*.deb'
++ DEB=/mnt/c3platpersistent//var/packages/kapsch-net_snmp_1.19.0-deb9-x86.deb
++ [[ -n /mnt/c3platpersistent//var/packages/kapsch-net_snmp_1.19.0-deb9-x86.deb ]]
++ kdpkg --force-overwrite --force-confold -i /mnt/c3platpersistent//var/packages/kapsch-net_snmp_1.19.0-deb9-x86.deb
+Selecting previously unselected package kapsch-net-snmp.
+(Reading database ... 543 files and directories currently installed.)
+Preparing to unpack .../kapsch-net_snmp_1.19.0-deb9-x86.deb ...
+Unpacking kapsch-net-snmp (1.19.0-deb9-x86) ...
+Setting up kapsch-net-snmp (1.19.0-deb9-x86) ...
+++ basename /mnt/c3platpersistent//var/packages/kapsch-net_snmp_1.19.0-deb9-x86.deb
++ echo '-- installing kapsch-net_snmp_1.19.0-deb9-x86.deb'
++ for i in "${PLUGINS_LIST[@]}"
+++ find /mnt/c3platpersistent//var/packages/ -name 'kapsch-protobuf_[0-9]*.deb'
++ DEB=/mnt/c3platpersistent//var/packages/kapsch-protobuf_1.19.0-deb9-x86.deb
++ [[ -n /mnt/c3platpersistent//var/packages/kapsch-protobuf_1.19.0-deb9-x86.deb ]]
++ kdpkg --force-overwrite --force-confold -i /mnt/c3platpersistent//var/packages/kapsch-protobuf_1.19.0-deb9-x86.deb
+Selecting previously unselected package kapsch-protobuf.
+(Reading database ... 912 files and directories currently installed.)
+Preparing to unpack .../kapsch-protobuf_1.19.0-deb9-x86.deb ...
+Unpacking kapsch-protobuf (1.19.0-deb9-x86) ...
+Setting up kapsch-protobuf (1.19.0-deb9-x86) ...
+++ basename /mnt/c3platpersistent//var/packages/kapsch-protobuf_1.19.0-deb9-x86.deb
++ echo '-- installing kapsch-protobuf_1.19.0-deb9-x86.deb'
++ for i in "${PLUGINS_LIST[@]}"
+++ find /mnt/c3platpersistent//var/packages/ -name 'kapsch-rapidjson_[0-9]*.deb'
++ DEB=
++ [[ -n '' ]]
++ for i in "${PLUGINS_LIST[@]}"
+++ find /mnt/c3platpersistent//var/packages/ -name 'kapsch-requests_[0-9]*.deb'
++ DEB=/mnt/c3platpersistent//var/packages/kapsch-requests_1.19.0-deb9-x86.deb
++ [[ -n /mnt/c3platpersistent//var/packages/kapsch-requests_1.19.0-deb9-x86.deb ]]
++ kdpkg --force-overwrite --force-confold -i /mnt/c3platpersistent//var/packages/kapsch-requests_1.19.0-deb9-x86.deb
+Selecting previously unselected package kapsch-requests.
+(Reading database ... 922 files and directories currently installed.)
+Preparing to unpack .../kapsch-requests_1.19.0-deb9-x86.deb ...
+Unpacking kapsch-requests (1.19.0-deb9-x86) ...
+Setting up kapsch-requests (1.19.0-deb9-x86) ...
+++ basename /mnt/c3platpersistent//var/packages/kapsch-requests_1.19.0-deb9-x86.deb
++ echo '-- installing kapsch-requests_1.19.0-deb9-x86.deb'
++ for i in "${PLUGINS_LIST[@]}"
+++ find /mnt/c3platpersistent//var/packages/ -name 'kapsch-websocketpp_[0-9]*.deb'
++ DEB=
++ [[ -n '' ]]
++ for i in "${PLUGINS_LIST[@]}"
+++ find /mnt/c3platpersistent//var/packages/ -name 'kapsch-embedded_device_[0-9]*.deb'
++ DEB=/mnt/c3platpersistent//var/packages/kapsch-embedded_device_1.19.0-deb9-x86-native.deb
++ [[ -n /mnt/c3platpersistent//var/packages/kapsch-embedded_device_1.19.0-deb9-x86-native.deb ]]
++ kdpkg --force-overwrite --force-confold -i /mnt/c3platpersistent//var/packages/kapsch-embedded_device_1.19.0-deb9-x86-native.deb
+Selecting previously unselected package kapsch-embedded-device.
+(Reading database ... 1079 files and directories currently installed.)
+Preparing to unpack .../kapsch-embedded_device_1.19.0-deb9-x86-native.deb ...
+Unpacking kapsch-embedded-device (1.19.0-deb9-x86-native) ...
+Setting up kapsch-embedded-device (1.19.0-deb9-x86-native) ...
+++ basename /mnt/c3platpersistent//var/packages/kapsch-embedded_device_1.19.0-deb9-x86-native.deb
++ echo '-- installing kapsch-embedded_device_1.19.0-deb9-x86-native.deb'
++ for i in "${PLUGINS_LIST[@]}"
+++ find /mnt/c3platpersistent//var/packages/ -name 'kapsch-dfu_util_[0-9]*.deb'
++ DEB=/mnt/c3platpersistent//var/packages/kapsch-dfu_util_1.19.0-deb9-x86.deb
++ [[ -n /mnt/c3platpersistent//var/packages/kapsch-dfu_util_1.19.0-deb9-x86.deb ]]
++ kdpkg --force-overwrite --force-confold -i /mnt/c3platpersistent//var/packages/kapsch-dfu_util_1.19.0-deb9-x86.deb
+Selecting previously unselected package kapsch-dfu-util.
+(Reading database ... 1081 files and directories currently installed.)
+Preparing to unpack .../kapsch-dfu_util_1.19.0-deb9-x86.deb ...
+Unpacking kapsch-dfu-util (1.19.0-deb9-x86) ...
+Setting up kapsch-dfu-util (1.19.0-deb9-x86) ...
+++ basename /mnt/c3platpersistent//var/packages/kapsch-dfu_util_1.19.0-deb9-x86.deb
++ echo '-- installing kapsch-dfu_util_1.19.0-deb9-x86.deb'
++ for i in "${PLUGINS_LIST[@]}"
+++ find /mnt/c3platpersistent//var/packages/ -name 'kapsch-minicom_[0-9]*.deb'
++ DEB=/mnt/c3platpersistent//var/packages/kapsch-minicom_1.19.0-deb9-x86.deb
++ [[ -n /mnt/c3platpersistent//var/packages/kapsch-minicom_1.19.0-deb9-x86.deb ]]
++ kdpkg --force-overwrite --force-confold -i /mnt/c3platpersistent//var/packages/kapsch-minicom_1.19.0-deb9-x86.deb
+Selecting previously unselected package kapsch-minicom.
+(Reading database ... 1085 files and directories currently installed.)
+Preparing to unpack .../kapsch-minicom_1.19.0-deb9-x86.deb ...
+Unpacking kapsch-minicom (1.19.0-deb9-x86) ...
+Setting up kapsch-minicom (1.19.0-deb9-x86) ...
+++ basename /mnt/c3platpersistent//var/packages/kapsch-minicom_1.19.0-deb9-x86.deb
++ echo '-- installing kapsch-minicom_1.19.0-deb9-x86.deb'
++ for i in "${PLUGINS_LIST[@]}"
+++ find /mnt/c3platpersistent//var/packages/ -name 'kapsch-util_kapsch_[0-9]*.deb'
++ DEB=/mnt/c3platpersistent//var/packages/kapsch-util_kapsch_1.19.0-deb9-x86.deb
++ [[ -n /mnt/c3platpersistent//var/packages/kapsch-util_kapsch_1.19.0-deb9-x86.deb ]]
++ kdpkg --force-overwrite --force-confold -i /mnt/c3platpersistent//var/packages/kapsch-util_kapsch_1.19.0-deb9-x86.deb
+Selecting previously unselected package kapsch-util-kapsch.
+(Reading database ... 1093 files and directories currently installed.)
+Preparing to unpack .../kapsch-util_kapsch_1.19.0-deb9-x86.deb ...
+Unpacking kapsch-util-kapsch (1.19.0-deb9-x86) ...
+Setting up kapsch-util-kapsch (1.19.0-deb9-x86) ...
+++ basename /mnt/c3platpersistent//var/packages/kapsch-util_kapsch_1.19.0-deb9-x86.deb
++ echo '-- installing kapsch-util_kapsch_1.19.0-deb9-x86.deb'
++ for i in "${PLUGINS_LIST[@]}"
+++ find /mnt/c3platpersistent//var/packages/ -name 'kapsch-wifi_[0-9]*.deb'
++ DEB=/mnt/c3platpersistent//var/packages/kapsch-wifi_1.19.0-deb9-x86.deb
++ [[ -n /mnt/c3platpersistent//var/packages/kapsch-wifi_1.19.0-deb9-x86.deb ]]
++ kdpkg --force-overwrite --force-confold -i /mnt/c3platpersistent//var/packages/kapsch-wifi_1.19.0-deb9-x86.deb
+Selecting previously unselected package kapsch-wifi.
+(Reading database ... 1094 files and directories currently installed.)
+Preparing to unpack .../kapsch-wifi_1.19.0-deb9-x86.deb ...
+Unpacking kapsch-wifi (1.19.0-deb9-x86) ...
+Setting up kapsch-wifi (1.19.0-deb9-x86) ...
+++ basename /mnt/c3platpersistent//var/packages/kapsch-wifi_1.19.0-deb9-x86.deb
++ echo '-- installing kapsch-wifi_1.19.0-deb9-x86.deb'
++ for i in "${PLUGINS_LIST[@]}"
+++ find /mnt/c3platpersistent//var/packages/ -name 'kapsch-mac_scanner_[0-9]*.deb'
++ DEB=/mnt/c3platpersistent//var/packages/kapsch-mac_scanner_1.19.0-deb9-x86.deb
++ [[ -n /mnt/c3platpersistent//var/packages/kapsch-mac_scanner_1.19.0-deb9-x86.deb ]]
++ kdpkg --force-overwrite --force-confold -i /mnt/c3platpersistent//var/packages/kapsch-mac_scanner_1.19.0-deb9-x86.deb
+Selecting previously unselected package kapsch-mac-scanner.
+(Reading database ... 1263 files and directories currently installed.)
+Preparing to unpack .../kapsch-mac_scanner_1.19.0-deb9-x86.deb ...
+Unpacking kapsch-mac-scanner (1.19.0-deb9-x86) ...
+Setting up kapsch-mac-scanner (1.19.0-deb9-x86) ...
+++ basename /mnt/c3platpersistent//var/packages/kapsch-mac_scanner_1.19.0-deb9-x86.deb
++ echo '-- installing kapsch-mac_scanner_1.19.0-deb9-x86.deb'
++ for i in "${PLUGINS_LIST[@]}"
+++ find /mnt/c3platpersistent//var/packages/ -name 'kapsch-libpsl_[0-9]*.deb'
++ DEB=
++ [[ -n '' ]]
++ for i in "${PLUGINS_LIST[@]}"
+++ find /mnt/c3platpersistent//var/packages/ -name 'kapsch-curl_[0-9]*.deb'
++ DEB=/mnt/c3platpersistent//var/packages/kapsch-curl_1.19.0-deb9-x86.deb
++ [[ -n /mnt/c3platpersistent//var/packages/kapsch-curl_1.19.0-deb9-x86.deb ]]
++ kdpkg --force-overwrite --force-confold -i /mnt/c3platpersistent//var/packages/kapsch-curl_1.19.0-deb9-x86.deb
+Selecting previously unselected package kapsch-curl.
+(Reading database ... 1268 files and directories currently installed.)
+Preparing to unpack .../kapsch-curl_1.19.0-deb9-x86.deb ...
+Unpacking kapsch-curl (1.19.0-deb9-x86) ...
+Setting up kapsch-curl (1.19.0-deb9-x86) ...
+++ basename /mnt/c3platpersistent//var/packages/kapsch-curl_1.19.0-deb9-x86.deb
++ echo '-- installing kapsch-curl_1.19.0-deb9-x86.deb'
++ for i in "${PLUGINS_LIST[@]}"
+++ find /mnt/c3platpersistent//var/packages/ -name 'kapsch-socat_[0-9]*.deb'
++ DEB=/mnt/c3platpersistent//var/packages/kapsch-socat_1.19.0-deb9-x86.deb
++ [[ -n /mnt/c3platpersistent//var/packages/kapsch-socat_1.19.0-deb9-x86.deb ]]
++ kdpkg --force-overwrite --force-confold -i /mnt/c3platpersistent//var/packages/kapsch-socat_1.19.0-deb9-x86.deb
+Selecting previously unselected package kapsch-socat.
+(Reading database ... 1702 files and directories currently installed.)
+Preparing to unpack .../kapsch-socat_1.19.0-deb9-x86.deb ...
+Unpacking kapsch-socat (1.19.0-deb9-x86) ...
+Setting up kapsch-socat (1.19.0-deb9-x86) ...
+++ basename /mnt/c3platpersistent//var/packages/kapsch-socat_1.19.0-deb9-x86.deb
++ echo '-- installing kapsch-socat_1.19.0-deb9-x86.deb'
++ for i in "${PLUGINS_LIST[@]}"
+++ find /mnt/c3platpersistent//var/packages/ -name 'kapsch-unzip_[0-9]*.deb'
++ DEB=/mnt/c3platpersistent//var/packages/kapsch-unzip_1.19.0-deb9-x86.deb
++ [[ -n /mnt/c3platpersistent//var/packages/kapsch-unzip_1.19.0-deb9-x86.deb ]]
++ kdpkg --force-overwrite --force-confold -i /mnt/c3platpersistent//var/packages/kapsch-unzip_1.19.0-deb9-x86.deb
+Selecting previously unselected package kapsch-unzip.
+(Reading database ... 1706 files and directories currently installed.)
+Preparing to unpack .../kapsch-unzip_1.19.0-deb9-x86.deb ...
+Unpacking kapsch-unzip (1.19.0-deb9-x86) ...
+Setting up kapsch-unzip (1.19.0-deb9-x86) ...
+++ basename /mnt/c3platpersistent//var/packages/kapsch-unzip_1.19.0-deb9-x86.deb
++ echo '-- installing kapsch-unzip_1.19.0-deb9-x86.deb'
++ for i in "${PLUGINS_LIST[@]}"
+++ find /mnt/c3platpersistent//var/packages/ -name 'kapsch-zip_[0-9]*.deb'
++ DEB=/mnt/c3platpersistent//var/packages/kapsch-zip_1.19.0-deb9-x86.deb
++ [[ -n /mnt/c3platpersistent//var/packages/kapsch-zip_1.19.0-deb9-x86.deb ]]
++ kdpkg --force-overwrite --force-confold -i /mnt/c3platpersistent//var/packages/kapsch-zip_1.19.0-deb9-x86.deb
+Selecting previously unselected package kapsch-zip.
+(Reading database ... 1716 files and directories currently installed.)
+Preparing to unpack .../kapsch-zip_1.19.0-deb9-x86.deb ...
+Unpacking kapsch-zip (1.19.0-deb9-x86) ...
+Setting up kapsch-zip (1.19.0-deb9-x86) ...
+++ basename /mnt/c3platpersistent//var/packages/kapsch-zip_1.19.0-deb9-x86.deb
++ echo '-- installing kapsch-zip_1.19.0-deb9-x86.deb'
++ for i in "${PLUGINS_LIST[@]}"
+++ find /mnt/c3platpersistent//var/packages/ -name 'kapsch-util_linux_[0-9]*.deb'
++ DEB=/mnt/c3platpersistent//var/packages/kapsch-util_linux_1.19.0-deb9-x86.deb
++ [[ -n /mnt/c3platpersistent//var/packages/kapsch-util_linux_1.19.0-deb9-x86.deb ]]
++ kdpkg --force-overwrite --force-confold -i /mnt/c3platpersistent//var/packages/kapsch-util_linux_1.19.0-deb9-x86.deb
+Selecting previously unselected package kapsch-util-linux.
+(Reading database ... 1724 files and directories currently installed.)
+Preparing to unpack .../kapsch-util_linux_1.19.0-deb9-x86.deb ...
+Unpacking kapsch-util-linux (1.19.0-deb9-x86) ...
+Setting up kapsch-util-linux (1.19.0-deb9-x86) ...
+++ basename /mnt/c3platpersistent//var/packages/kapsch-util_linux_1.19.0-deb9-x86.deb
++ echo '-- installing kapsch-util_linux_1.19.0-deb9-x86.deb'
++ for i in "${PLUGINS_LIST[@]}"
+++ find /mnt/c3platpersistent//var/packages/ -name 'kapsch-persistence_[0-9]*.deb'
++ DEB=/mnt/c3platpersistent//var/packages/kapsch-persistence_1.19.0-deb9-x86-USDoT-NAStack.deb
++ [[ -n /mnt/c3platpersistent//var/packages/kapsch-persistence_1.19.0-deb9-x86-USDoT-NAStack.deb ]]
++ kdpkg --force-overwrite --force-confold -i /mnt/c3platpersistent//var/packages/kapsch-persistence_1.19.0-deb9-x86-USDoT-NAStack.deb
+Selecting previously unselected package kapsch-persistence.
+(Reading database ... 1728 files and directories currently installed.)
+Preparing to unpack .../kapsch-persistence_1.19.0-deb9-x86-USDoT-NAStack.deb ...
++ [[ ! -d /mnt/c3platpersistent ]]
++ pushd /mnt/c3platpersistent
+/mnt/c3platpersistent /
++ for i in etc/cron.hourly/logrotate etc/eeprom-cb/p.radio2.*
++ [[ -e etc/cron.hourly/logrotate ]]
++ for i in etc/cron.hourly/logrotate etc/eeprom-cb/p.radio2.*
++ [[ -e etc/eeprom-cb/p.radio2.* ]]
++ popd
+/
+Unpacking kapsch-persistence (1.19.0-deb9-x86-USDoT-NAStack) ...
+Setting up kapsch-persistence (1.19.0-deb9-x86-USDoT-NAStack) ...
++ [[ ! -d /mnt/c3platpersistent ]]
++ pushd /mnt/c3platpersistent
+/mnt/c3platpersistent /
++ [[ ! -e ./bin/config_tool ]]
++ cp -rp ./bin/config_tool.dummy ./bin/config_tool
++ rm -f ./bin/config_tool.dummy
++ popd
+/
+++ basename /mnt/c3platpersistent//var/packages/kapsch-persistence_1.19.0-deb9-x86-USDoT-NAStack.deb
++ echo '-- installing kapsch-persistence_1.19.0-deb9-x86-USDoT-NAStack.deb'
++ for i in "${PLUGINS_LIST[@]}"
+++ find /mnt/c3platpersistent//var/packages/ -name 'kapsch-kapsch_updater_[0-9]*.deb'
++ DEB=/mnt/c3platpersistent//var/packages/kapsch-kapsch_updater_1.19.0-deb9-x86.deb
++ [[ -n /mnt/c3platpersistent//var/packages/kapsch-kapsch_updater_1.19.0-deb9-x86.deb ]]
++ kdpkg --force-overwrite --force-confold -i /mnt/c3platpersistent//var/packages/kapsch-kapsch_updater_1.19.0-deb9-x86.deb
+Selecting previously unselected package kapsch-kapsch-updater.
+(Reading database ... 2146 files and directories currently installed.)
+Preparing to unpack .../kapsch-kapsch_updater_1.19.0-deb9-x86.deb ...
++ '[' '!' -d /mnt/c3platpersistent ']'
++ AEROLINK_SHARE_DIR=/mnt/c3platpersistent/share/aerolink/ieee-v3-installed
++ '[' -d /mnt/c3platpersistent/share/aerolink/ieee-v3-installed ']'
+Unpacking kapsch-kapsch-updater (1.19.0-deb9-x86) ...
+Setting up kapsch-kapsch-updater (1.19.0-deb9-x86) ...
++ [[ ! -d /mnt/c3platpersistent ]]
++ AEROLINK_ETC_DIR=/mnt/c3platpersistent/etc/aerolink/ieee
++ '[' -d /mnt/c3platpersistent/etc/aerolink/ieee ']'
++ RSU_CONFIGURATION_FILE=/mnt/c3platpersistent//etc/rsu-conf/rsu_configuration.json
++ echo 'Updating SNMP MIB firmware version'
+Updating SNMP MIB firmware version
++ ISSUE_FILE=/mnt/c3platpersistent//etc/issue
+++ cat /mnt/c3platpersistent//etc/issue
+++ head -2
+++ tail -1
+++ cat /mnt/c3platpersistent//etc/issue
+++ sed 's/build number //'
+++ tail -1
+++ head -6
++ FIRMWARE_VERSION='1.19.0-deb9-x86 1002'
++ sed -i 's/\(^.*firmwareVersion"\).*$/\1 : "1.19.0-deb9-x86 1002",/' /mnt/c3platpersistent//etc/rsu-conf/rsu_configuration.json
+++ grep -c '"id": ""' /mnt/c3platpersistent//etc/rsu-conf/rsu_configuration.json
++ COUNT_CHECK=1
++ '[' 1 -gt 0 ']'
++ echo 'Updating SNMP MIB RSU id'
+Updating SNMP MIB RSU id
+++ cat /etc/eeprom-cb/p.serial
++ SERIAL_NUMBER=PEM00064
++ sed -i 's/"id": ""/"id": "PEM00064"/' /mnt/c3platpersistent//etc/rsu-conf/rsu_configuration.json
++ '[' -f /mnt/c3platpersistent//lib/libal-ubloxv13.so -a -f /mnt/c3platpersistent//lib/libal-nxp.so ']'
++ mv /mnt/c3platpersistent//lib/libal-nxp.so /mnt/c3platpersistent//lib/libal-nxp.so.sav
++ ln -sr /mnt/c3platpersistent//lib/libal-ubloxv13.so /mnt/c3platpersistent//lib/libal-nxp.so
++ exit 0
+++ basename /mnt/c3platpersistent//var/packages/kapsch-kapsch_updater_1.19.0-deb9-x86.deb
++ echo '-- installing kapsch-kapsch_updater_1.19.0-deb9-x86.deb'
++ for i in "${PLUGINS_LIST[@]}"
+++ find /mnt/c3platpersistent//var/packages/ -name 'kapsch-pcaplogd_[0-9]*.deb'
++ DEB=/mnt/c3platpersistent//var/packages/kapsch-pcaplogd_1.19.0-deb9-x86.deb
++ [[ -n /mnt/c3platpersistent//var/packages/kapsch-pcaplogd_1.19.0-deb9-x86.deb ]]
++ kdpkg --force-overwrite --force-confold -i /mnt/c3platpersistent//var/packages/kapsch-pcaplogd_1.19.0-deb9-x86.deb
+Selecting previously unselected package kapsch-pcaplogd.
+(Reading database ... 2193 files and directories currently installed.)
+Preparing to unpack .../kapsch-pcaplogd_1.19.0-deb9-x86.deb ...
+Unpacking kapsch-pcaplogd (1.19.0-deb9-x86) ...
+Setting up kapsch-pcaplogd (1.19.0-deb9-x86) ...
+++ basename /mnt/c3platpersistent//var/packages/kapsch-pcaplogd_1.19.0-deb9-x86.deb
++ echo '-- installing kapsch-pcaplogd_1.19.0-deb9-x86.deb'
++ for i in "${PLUGINS_LIST[@]}"
+++ find /mnt/c3platpersistent//var/packages/ -name 'kapsch-ris_appl_[0-9]*.deb'
++ DEB=
++ [[ -n '' ]]
++ for i in "${PLUGINS_LIST[@]}"
+++ find /mnt/c3platpersistent//var/packages/ -name 'kapsch-mbedtls_[0-9]*.deb'
++ DEB=
++ [[ -n '' ]]
++ for i in "${PLUGINS_LIST[@]}"
+++ find /mnt/c3platpersistent//var/packages/ -name 'kapsch-aws_client_[0-9]*.deb'
++ DEB=
++ [[ -n '' ]]
++ for i in "${PLUGINS_LIST[@]}"
+++ find /mnt/c3platpersistent//var/packages/ -name 'kapsch-ossasn1_[0-9]*.deb'
++ DEB=
++ [[ -n '' ]]
++ for i in "${PLUGINS_LIST[@]}"
+++ find /mnt/c3platpersistent//var/packages/ -name 'kapsch-oss_asn1_encdec_[0-9]*.deb'
++ DEB=
++ [[ -n '' ]]
++ for i in "${PLUGINS_LIST[@]}"
+++ find /mnt/c3platpersistent//var/packages/ -name 'kapsch-a_stack_[0-9]*.deb'
++ DEB=
++ [[ -n '' ]]
++ for i in "${PLUGINS_LIST[@]}"
+++ find /mnt/c3platpersistent//var/packages/ -name 'kapsch-facility_[0-9]*.deb'
++ DEB=
++ [[ -n '' ]]
++ for i in "${PLUGINS_LIST[@]}"
+++ find /mnt/c3platpersistent//var/packages/ -name 'kapsch-libgpio_api_[0-9]*.deb'
++ DEB=
++ [[ -n '' ]]
++ for i in "${PLUGINS_LIST[@]}"
+++ find /mnt/c3platpersistent//var/packages/ -name 'kapsch-libtelnet_[0-9]*.deb'
++ DEB=
++ [[ -n '' ]]
++ for i in "${PLUGINS_LIST[@]}"
+++ find /mnt/c3platpersistent//var/packages/ -name 'kapsch-libwebsockets_[0-9]*.deb'
++ DEB=
++ [[ -n '' ]]
++ for i in "${PLUGINS_LIST[@]}"
+++ find /mnt/c3platpersistent//var/packages/ -name 'kapsch-mosquitto_[0-9]*.deb'
++ DEB=
++ [[ -n '' ]]
++ for i in "${PLUGINS_LIST[@]}"
+++ find /mnt/c3platpersistent//var/packages/ -name 'kapsch-gdbm_[0-9]*.deb'
++ DEB=
++ [[ -n '' ]]
++ for i in "${PLUGINS_LIST[@]}"
+++ find /mnt/c3platpersistent//var/packages/ -name 'kapsch-cyrus_sasl_[0-9]*.deb'
++ DEB=
++ [[ -n '' ]]
++ for i in "${PLUGINS_LIST[@]}"
+++ find /mnt/c3platpersistent//var/packages/ -name 'kapsch-qpid_proton_[0-9]*.deb'
++ DEB=
++ [[ -n '' ]]
++ for i in "${PLUGINS_LIST[@]}"
+++ find /mnt/c3platpersistent//var/packages/ -name 'kapsch-rabbitmq_c_[0-9]*.deb'
++ DEB=
++ [[ -n '' ]]
++ for i in "${PLUGINS_LIST[@]}"
+++ find /mnt/c3platpersistent//var/packages/ -name 'kapsch-sqlite3_[0-9]*.deb'
++ DEB=
++ [[ -n '' ]]
++ for i in "${PLUGINS_LIST[@]}"
+++ find /mnt/c3platpersistent//var/packages/ -name 'kapsch-sxmlc_[0-9]*.deb'
++ DEB=
++ [[ -n '' ]]
++ for i in "${PLUGINS_LIST[@]}"
+++ find /mnt/c3platpersistent//var/packages/ -name 'kapsch-xercescpp_[0-9]*.deb'
++ DEB=
++ [[ -n '' ]]
++ for i in "${PLUGINS_LIST[@]}"
+++ find /mnt/c3platpersistent//var/packages/ -name 'kapsch-libsodium_[0-9]*.deb'
++ DEB=
++ [[ -n '' ]]
++ for i in "${PLUGINS_LIST[@]}"
+++ find /mnt/c3platpersistent//var/packages/ -name 'kapsch-zeromq_[0-9]*.deb'
++ DEB=
++ [[ -n '' ]]
++ for i in "${PLUGINS_LIST[@]}"
+++ find /mnt/c3platpersistent//var/packages/ -name 'kapsch-roadside_[0-9]*.deb'
++ DEB=
++ [[ -n '' ]]
++ for i in "${PLUGINS_LIST[@]}"
+++ find /mnt/c3platpersistent//var/packages/ -name 'kapsch-ris_ssh_ca_[0-9]*.deb'
++ DEB=
++ [[ -n '' ]]
++ for i in "${PLUGINS_LIST[@]}"
+++ find /mnt/c3platpersistent//var/packages/ -name 'kapsch-sxa_unlock_host_[0-9]*.deb'
++ DEB=
++ [[ -n '' ]]
++ for i in "${PLUGINS_LIST[@]}"
+++ find /mnt/c3platpersistent//var/packages/ -name 'kapsch-bc_[0-9]*.deb'
++ DEB=/mnt/c3platpersistent//var/packages/kapsch-bc_1.19.0-deb9-x86.deb
++ [[ -n /mnt/c3platpersistent//var/packages/kapsch-bc_1.19.0-deb9-x86.deb ]]
++ kdpkg --force-overwrite --force-confold -i /mnt/c3platpersistent//var/packages/kapsch-bc_1.19.0-deb9-x86.deb
+Selecting previously unselected package kapsch-bc.
+(Reading database ... 2195 files and directories currently installed.)
+Preparing to unpack .../kapsch-bc_1.19.0-deb9-x86.deb ...
+Unpacking kapsch-bc (1.19.0-deb9-x86) ...
+Setting up kapsch-bc (1.19.0-deb9-x86) ...
+++ basename /mnt/c3platpersistent//var/packages/kapsch-bc_1.19.0-deb9-x86.deb
++ echo '-- installing kapsch-bc_1.19.0-deb9-x86.deb'
++ for i in "${PLUGINS_LIST[@]}"
+++ find /mnt/c3platpersistent//var/packages/ -name 'kapsch-gdb_[0-9]*.deb'
++ DEB=
++ [[ -n '' ]]
++ for i in "${PLUGINS_LIST[@]}"
+++ find /mnt/c3platpersistent//var/packages/ -name 'kapsch-oniguruma_[0-9]*.deb'
++ DEB=
++ [[ -n '' ]]
++ for i in "${PLUGINS_LIST[@]}"
+++ find /mnt/c3platpersistent//var/packages/ -name 'kapsch-jq_[0-9]*.deb'
++ DEB=
++ [[ -n '' ]]
++ for i in "${PLUGINS_LIST[@]}"
+++ find /mnt/c3platpersistent//var/packages/ -name 'kapsch-rsync_[0-9]*.deb'
++ DEB=/mnt/c3platpersistent//var/packages/kapsch-rsync_1.19.0-deb9-x86.deb
++ [[ -n /mnt/c3platpersistent//var/packages/kapsch-rsync_1.19.0-deb9-x86.deb ]]
++ kdpkg --force-overwrite --force-confold -i /mnt/c3platpersistent//var/packages/kapsch-rsync_1.19.0-deb9-x86.deb
+Selecting previously unselected package kapsch-rsync.
+(Reading database ... 2199 files and directories currently installed.)
+Preparing to unpack .../kapsch-rsync_1.19.0-deb9-x86.deb ...
+Unpacking kapsch-rsync (1.19.0-deb9-x86) ...
+Setting up kapsch-rsync (1.19.0-deb9-x86) ...
+++ basename /mnt/c3platpersistent//var/packages/kapsch-rsync_1.19.0-deb9-x86.deb
++ echo '-- installing kapsch-rsync_1.19.0-deb9-x86.deb'
++ for i in "${PLUGINS_LIST[@]}"
+++ find /mnt/c3platpersistent//var/packages/ -name 'kapsch-strace_[0-9]*.deb'
++ DEB=
++ [[ -n '' ]]
++ for i in "${PLUGINS_LIST[@]}"
+++ find /mnt/c3platpersistent//var/packages/ -name 'kapsch-valgrind_[0-9]*.deb'
++ DEB=
++ [[ -n '' ]]
++ for i in "${PLUGINS_LIST[@]}"
+++ find /mnt/c3platpersistent//var/packages/ -name 'kapsch-all_[0-9]*.deb'
++ DEB=
++ [[ -n '' ]]
++ kdpkg-query --list
+Desired=Unknown/Install/Remove/Purge/Hold
+| Status=Not/Inst/Conf-files/Unpacked/halF-conf/Half-inst/trig-aWait/Trig-pend
+|/ Err?=(none)/Reinst-required (Status,Err: uppercase=bad)
+||/ Name                     Version                       Architecture Description
++++-========================-=============================-============-=================================
+ii  kapsch-al                1.19.0-deb9-x86-nxp           i386         None Available
+ii  kapsch-asn1c             1.19.0-deb9-x86               i386         None Available
+ii  kapsch-bc                1.19.0-deb9-x86               i386         None Available
+ii  kapsch-boost             1.19.0-deb9-x86               i386         None Available
+ii  kapsch-cppnetlib         1.19.0-deb9-x86               i386         None Available
+ii  kapsch-curl              1.19.0-deb9-x86               i386         None Available
+ii  kapsch-dfu-util          1.19.0-deb9-x86               i386         None Available
+ii  kapsch-embedded-device   1.19.0-deb9-x86-native        i386         None Available
+ii  kapsch-gpsd              1.19.0-deb9-x86               i386         None Available
+ii  kapsch-json-c            1.19.0-deb9-x86               i386         None Available
+ii  kapsch-kapsch-updater    1.19.0-deb9-x86               i386         None Available
+ii  kapsch-kdpkg             1.19.0-deb9-x86               i386         None Available
+ii  kapsch-libaerolink       1.19.0-deb9-x86-sxa1700       i386         None Available
+ii  kapsch-libaerolink-pki   1.19.0-deb9-x86               i386         None Available
+ii  kapsch-libaerolink-tools 1.19.0-deb9-x86-sxa1700       i386         None Available
+ii  kapsch-libmodbus         1.19.0-deb9-x86               i386         None Available
+ii  kapsch-libpcap           1.19.0-deb9-x86               i386         None Available
+ii  kapsch-llc-tool          1.19.0-deb9-x86               i386         None Available
+ii  kapsch-log4cplus         1.19.0-deb9-x86               i386         None Available
+ii  kapsch-mac-scanner       1.19.0-deb9-x86               i386         None Available
+ii  kapsch-management        1.19.0-deb9-x86               i386         None Available
+ii  kapsch-mcp2210-utils     1.19.0-deb9-x86               i386         None Available
+ii  kapsch-minicom           1.19.0-deb9-x86               i386         None Available
+ii  kapsch-net-snmp          1.19.0-deb9-x86               i386         None Available
+ii  kapsch-ntpd              1.19.0-deb9-x86               i386         None Available
+ii  kapsch-openssl           1.19.0-deb9-x86               i386         None Available
+ii  kapsch-pcaplogd          1.19.0-deb9-x86               i386         None Available
+ii  kapsch-persistence       1.19.0-deb9-x86-USDoT-NAStack i386         None Available
+ii  kapsch-protobuf          1.19.0-deb9-x86               i386         None Available
+ii  kapsch-requests          1.19.0-deb9-x86               i386         None Available
+ii  kapsch-rsync             1.19.0-deb9-x86               i386         None Available
+ii  kapsch-sfmt              1.19.0-deb9-x86               i386         None Available
+ii  kapsch-socat             1.19.0-deb9-x86               i386         None Available
+ii  kapsch-sxa-unlock-target 1.19.0-deb9-x86               i386         None Available
+ii  kapsch-sxf1800-utils     1.19.0-deb9-x86               i386         None Available
+ii  kapsch-unzip             1.19.0-deb9-x86               i386         None Available
+ii  kapsch-util-kapsch       1.19.0-deb9-x86               i386         None Available
+ii  kapsch-util-linux        1.19.0-deb9-x86               i386         None Available
+ii  kapsch-wifi              1.19.0-deb9-x86               i386         None Available
+ii  kapsch-zip               1.19.0-deb9-x86               i386         None Available
++ chown -R kapsch: /mnt/c3platpersistent/
++ fixperms 0400 root /mnt/c3platpersistent//etc/admin.accounts
++ PERMS=0400
++ USER=root
++ FILE=/mnt/c3platpersistent//etc/admin.accounts
++ shift 3
++ [[ ! -e /mnt/c3platpersistent//etc/admin.accounts ]]
++ chown root: /mnt/c3platpersistent//etc/admin.accounts
++ chmod 0400 /mnt/c3platpersistent//etc/admin.accounts
++ [[ ! -e /mnt/c3platpersistent//etc/configpath.cfg ]]
++ echo /mnt/c3platpersistent//etc
++ tee -a /mnt/c3platpersistent//etc/configpath.cfg
+/mnt/c3platpersistent//etc
++ fixperms 0444 root /mnt/c3platpersistent//etc/configpath.cfg
++ PERMS=0444
++ USER=root
++ FILE=/mnt/c3platpersistent//etc/configpath.cfg
++ shift 3
++ [[ ! -e /mnt/c3platpersistent//etc/configpath.cfg ]]
++ chown root: /mnt/c3platpersistent//etc/configpath.cfg
++ chmod 0444 /mnt/c3platpersistent//etc/configpath.cfg
++ command -v config_init
++ popd
+/home/admin
++ set +x
+-- the following kdpkg operations were performed:
+-- installing kapsch-kdpkg_1.19.0-deb9-x86.deb
+-- installing kapsch-openssl_1.19.0-deb9-x86.deb
+-- installing kapsch-libaerolink_pki_1.19.0-deb9-x86.deb
+-- installing kapsch-mcp2210_utils_1.19.0-deb9-x86.deb
+-- installing kapsch-sxa_unlock_target_1.19.0-deb9-x86.deb
+-- installing kapsch-sxf1800_utils_1.19.0-deb9-x86.deb
+-- installing kapsch-libaerolink_1.19.0-deb9-x86-sxa1700.deb
+-- installing kapsch-libaerolink_tools_1.19.0-deb9-x86-sxa1700.deb
+-- installing kapsch-json_c_1.19.0-deb9-x86.deb
+-- installing kapsch-libpcap_1.19.0-deb9-x86.deb
+-- installing kapsch-llc_tool_1.19.0-deb9-x86.deb
+-- installing kapsch-gpsd_1.19.0-deb9-x86.deb
+-- installing kapsch-ntpd_1.19.0-deb9-x86.deb
+-- installing kapsch-sfmt_1.19.0-deb9-x86.deb
+-- installing kapsch-management_1.19.0-deb9-x86.deb
+-- installing kapsch-al_1.19.0-deb9-x86-nxp.deb
+-- installing kapsch-asn1c_1.19.0-deb9-x86.deb
+-- installing kapsch-boost_1.19.0-deb9-x86.deb
+-- installing kapsch-cppnetlib_1.19.0-deb9-x86.deb
+-- installing kapsch-libmodbus_1.19.0-deb9-x86.deb
+-- installing kapsch-log4cplus_1.19.0-deb9-x86.deb
+-- installing kapsch-net_snmp_1.19.0-deb9-x86.deb
+-- installing kapsch-protobuf_1.19.0-deb9-x86.deb
+-- installing kapsch-requests_1.19.0-deb9-x86.deb
+-- installing kapsch-embedded_device_1.19.0-deb9-x86-native.deb
+-- installing kapsch-dfu_util_1.19.0-deb9-x86.deb
+-- installing kapsch-minicom_1.19.0-deb9-x86.deb
+-- installing kapsch-util_kapsch_1.19.0-deb9-x86.deb
+-- installing kapsch-wifi_1.19.0-deb9-x86.deb
+-- installing kapsch-mac_scanner_1.19.0-deb9-x86.deb
+-- installing kapsch-curl_1.19.0-deb9-x86.deb
+-- installing kapsch-socat_1.19.0-deb9-x86.deb
+-- installing kapsch-unzip_1.19.0-deb9-x86.deb
+-- installing kapsch-zip_1.19.0-deb9-x86.deb
+-- installing kapsch-util_linux_1.19.0-deb9-x86.deb
+-- installing kapsch-persistence_1.19.0-deb9-x86-USDoT-NAStack.deb
+-- installing kapsch-kapsch_updater_1.19.0-deb9-x86.deb
+-- installing kapsch-pcaplogd_1.19.0-deb9-x86.deb
+-- installing kapsch-bc_1.19.0-deb9-x86.deb
+-- installing kapsch-rsync_1.19.0-deb9-x86.deb
+-- now running update script for USDoT-NAStack from none to 1.19.0-deb9-x86

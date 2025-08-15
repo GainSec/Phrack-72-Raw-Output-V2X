@@ -1,0 +1,42 @@
++ set -x
++ . /mnt/c3platpersistent/share/startup/common.sh
++++ basename /mnt/c3platpersistent/etc/startup.d//998_cron_jobs.sh
+++ APP_SCR=998_cron_jobs.sh
++++ readlink -f /mnt/c3platpersistent/etc/startup.d//998_cron_jobs.sh
+++ ACT_DIR=/mnt/c3platpersistent/etc/startup.d/998_cron_jobs.sh
++++ dirname /mnt/c3platpersistent/etc/startup.d/998_cron_jobs.sh
+++ ABS_PATH=/mnt/c3platpersistent/etc/startup.d
+++ LED_STARTUP_PID=/var/run/flash_pid.startup
+++ [[ -n /mnt/c3platpersistent ]]
+++ [[ -z USDoT-QualcommCCA ]]
+++ source /mnt/c3platpersistent/etc/roadside.cfg
++++ [[ false == false ]]
++++ [[ USDoT-QualcommCCA == ITSG5-HWEngland ]]
++++ export ROADSIDE_IPTABLES_ENABLED=false
++++ ROADSIDE_IPTABLES_ENABLED=false
++++ export CERTPATH=/mnt/c3platpersistent/share/its-g5-security-certs/
++++ CERTPATH=/mnt/c3platpersistent/share/its-g5-security-certs/
++ CRON_DIR=(cron.daily cron.hourly cron.monthly cron.weekly)
++ '[' xstart = xstart ']'
++ logger '998_cron_jobs.sh -I- Fill prepared cron job entries  ---'
++ idx=0
++ '[' -n cron.daily ']'
++ '[' -e /etc/cron.daily ']'
++ cp -p /mnt/c3platpersistent/etc/cron.daily/cleanup_logs /etc/cron.daily/
++ idx=1
++ '[' -n cron.hourly ']'
++ '[' -e /etc/cron.hourly ']'
++ cp -p /mnt/c3platpersistent/etc/cron.hourly/logrotate /etc/cron.hourly/
++ idx=2
++ '[' -n cron.monthly ']'
++ '[' -e /etc/cron.monthly ']'
++ cp -p '/mnt/c3platpersistent/etc/cron.monthly/*' /etc/cron.monthly/
++ idx=3
++ '[' -n cron.weekly ']'
++ '[' -e /etc/cron.weekly ']'
++ cp -p '/mnt/c3platpersistent/etc/cron.weekly/*' /etc/cron.weekly/
++ idx=4
++ '[' -n '' ']'
++ '[' -x /etc/init.d/cron ']'
++ /etc/init.d/cron restart
+Restarting cron (via systemctl): cron.service.

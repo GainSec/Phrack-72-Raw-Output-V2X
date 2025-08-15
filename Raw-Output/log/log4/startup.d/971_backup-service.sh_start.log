@@ -1,0 +1,18 @@
++ KAPSCH_ROOT=/mnt/c3platpersistent
++ BACKUP_SERVICE=bin/backup-service
++ CRON_LINK=/etc/cron.hourly/backup-service
++ PIDFILE=/var/run/backup-service.pid
++ LOGFILE=/var/log/backup-service.log
++ case "$1" in
++ start
++ echo -n 'Starting backup service!'
+Starting backup service!+ ln -s /mnt/c3platpersistent/bin/backup-service /etc/cron.hourly/backup-service
++ /etc/init.d/cron restart
+Restarting cron (via systemctl): cron.service.
++ sleep 1
++ /mnt/c3platpersistent/bin/backup-service
+/usr/bin/find: `/var/run/imis_app/upload/': No such file or directory
+/usr/bin/find: `/var/run/imis_app/download/': No such file or directory
++ echo 16433
++ echo .
+.

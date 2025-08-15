@@ -1,0 +1,10 @@
++ set -x
+++ basename /mnt/c3platpersistent/etc/startup.d/appl/99_appl_done.sh
++ APP_SCR=99_appl_done.sh
++ Comments='99_appl_done.sh -I- All done ...'
++ '[' xstart = xstart ']'
++ sleep 0.1
++ echo '99_appl_done.sh -I- All done ...'
+99_appl_done.sh -I- All done ...
++ logger '99_appl_done.sh -I- All done ...'
++ exit 0

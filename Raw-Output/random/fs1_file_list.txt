@@ -1,0 +1,35 @@
+﻿Directory of: fs1:\
+
+  01/01/10  12:01a <DIR>          4,096  rescue
+  01/01/10  12:02a <DIR>          4,096  live
+  01/01/10  12:00a                   98  syslinux.cfg
+          1 File(s)          98 bytes
+          2 Dir(s)
+
+Directory of: fs1:\rescue
+
+  01/01/10  12:00a <DIR>          4,096  .
+  01/01/10  12:00a <DIR>              0  ..
+  01/01/10  12:00a            3,582,442  initrd
+  01/01/10  12:00a            6,282,160  vmlinuz
+  01/01/10  12:01a          161,873,920  rootfs
+  01/01/10  12:01a                  642  RESCUE
+          4 File(s) 171,739,164 bytes
+          2 Dir(s)
+
+Directory of: fs1:\live
+
+  01/01/10  12:00a <DIR>          4,096  .
+  01/01/10  12:00a <DIR>              0  ..
+  01/01/10  12:02a                  287  LIVE
+  01/01/10  12:02a                  195  Manifest
+  01/01/10  12:02a                  819  Manifest.asc
+  01/01/10  12:02a            3,583,649  initrd
+  01/01/10  12:02a          222,695,424  rootfs
+  01/01/10  12:02a            6,282,160  vmlinuz
+          6 File(s) 232,562,534 bytes
+          2 Dir(s)
+
+  Total Summary:
+         11 File(s) 404,301,796 bytes
+          6 Dir(s)

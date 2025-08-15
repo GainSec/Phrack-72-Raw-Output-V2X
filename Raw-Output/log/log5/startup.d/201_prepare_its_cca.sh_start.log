@@ -1,0 +1,38 @@
++ set -x
++ . /mnt/c3platpersistent/share/startup/common.sh
++++ basename /mnt/c3platpersistent/etc/startup.d//201_prepare_its_cca.sh
+++ APP_SCR=201_prepare_its_cca.sh
++++ readlink -f /mnt/c3platpersistent/etc/startup.d//201_prepare_its_cca.sh
+++ ACT_DIR=/mnt/c3platpersistent/etc/startup.d/201_prepare_its_cca.sh
++++ dirname /mnt/c3platpersistent/etc/startup.d/201_prepare_its_cca.sh
+++ ABS_PATH=/mnt/c3platpersistent/etc/startup.d
+++ LED_STARTUP_PID=/var/run/flash_pid.startup
+++ [[ -n /mnt/c3platpersistent ]]
+++ [[ -z USDoT-QualcommCCA ]]
+++ source /mnt/c3platpersistent/etc/roadside.cfg
++++ [[ false == false ]]
++++ [[ USDoT-QualcommCCA == ITSG5-HWEngland ]]
++++ export ROADSIDE_IPTABLES_ENABLED=false
++++ ROADSIDE_IPTABLES_ENABLED=false
++++ export CERTPATH=/mnt/c3platpersistent/share/its-g5-security-certs/
++++ CERTPATH=/mnt/c3platpersistent/share/its-g5-security-certs/
++ APP_NAMES=(cca_al_tx cca_al_rx imis_app)
++ ITS_G5_ROOT=/opt/its-g5
++ ITS_G5_BIN=/opt/its-g5/bin
++ ITS_G5_EXA=/opt/its-g5/examples
++ ITS_G5_UT=/opt/its-g5/unittest
++ CCA_MAIN=/mnt/c3platpersistent/bin
++ '[' xstart = xstart ']'
++ '[' xUSDoT-QualcommCCA = xUSDoT-QualcommRR -o xUSDoT-QualcommCCA = xUSDoT-QualcommCCA ']'
++ logger '201_prepare_its_cca.sh -I- Config its-g5 to run with CCA  ---'
++ idx=0
++ '[' -n cca_al_tx ']'
++ '[' -x /opt/its-g5/examples/cca_al_tx ']'
++ idx=1
++ '[' -n cca_al_rx ']'
++ '[' -x /opt/its-g5/examples/cca_al_rx ']'
++ idx=2
++ '[' -n imis_app ']'
++ '[' -x /opt/its-g5/examples/imis_app ']'
++ idx=3
++ '[' -n '' ']'

@@ -1,0 +1,38 @@
+Disk /dev/mtdblock16 doesn't contain a valid partition table
+sh-3.2# cat /proc/partitions
+major minor  #blocks  name
+
+  31        0       1280 mtdblock0
+  31        1       1280 mtdblock1
+  31        2      11264 mtdblock2
+  31        3       2304 mtdblock3
+  31        4        384 mtdblock4
+  31        5        384 mtdblock5
+  31        6        640 mtdblock6
+  31        7        768 mtdblock7
+  31        8      10624 mtdblock8
+  31        9        256 mtdblock9
+  31       10      68608 mtdblock10
+  31       11       1536 mtdblock11
+  31       12      10624 mtdblock12
+  31       13       1536 mtdblock13
+  31       14      31104 mtdblock14
+  31       15        256 mtdblock15
+  31       16     381440 mtdblock16
+
+
+   cat /proc/mounts
+rootfs / rootfs rw 0 0
+ubi0:rootfs / ubifs ro,relatime,bulk_read,chk_data_crc 0 0
+proc /proc proc rw,relatime 0 0
+sysfs /sys sysfs rw,relatime 0 0
+debugfs /sys/kernel/debug debugfs rw,relatime 0 0
+tmpfs /dev tmpfs rw,relatime,size=64k,nr_inodes=15352,mode=755 0 0
+devpts /dev/pts devpts rw,relatime,gid=5,mode=620 0 0
+tmpfs /run tmpfs rw,nosuid,nodev,size=61408k,nr_inodes=15352,mode=755 0 0
+tmpfs /var/volatile tmpfs rw,relatime,size=61408k,nr_inodes=15352 0 0
+tmpfs /var/lib tmpfs rw,relatime,size=61408k,nr_inodes=15352 0 0
+ubi0:usrfs /data ubifs rw,relatime,bulk_read,chk_data_crc 0 0
+/dev/ubi1_0 /firmware ubifs rw,relatime,bulk_read,chk_data_crc 0 0
+none /sys/kernel/config configfs rw,relatime 0 0
+adb /dev/usb-ffs/adb functionfs rw,relatime 0 0

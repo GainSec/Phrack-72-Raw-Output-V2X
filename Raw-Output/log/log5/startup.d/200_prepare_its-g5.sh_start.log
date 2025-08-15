@@ -1,0 +1,30 @@
++ set -x
++ . /mnt/c3platpersistent/share/startup/common.sh
++++ basename /mnt/c3platpersistent/etc/startup.d//200_prepare_its-g5.sh
+++ APP_SCR=200_prepare_its-g5.sh
++++ readlink -f /mnt/c3platpersistent/etc/startup.d//200_prepare_its-g5.sh
+++ ACT_DIR=/mnt/c3platpersistent/etc/startup.d/200_prepare_its-g5.sh
++++ dirname /mnt/c3platpersistent/etc/startup.d/200_prepare_its-g5.sh
+++ ABS_PATH=/mnt/c3platpersistent/etc/startup.d
+++ LED_STARTUP_PID=/var/run/flash_pid.startup
+++ [[ -n /mnt/c3platpersistent ]]
+++ [[ -z USDoT-QualcommCCA ]]
+++ source /mnt/c3platpersistent/etc/roadside.cfg
++++ [[ false == false ]]
++++ [[ USDoT-QualcommCCA == ITSG5-HWEngland ]]
++++ export ROADSIDE_IPTABLES_ENABLED=false
++++ ROADSIDE_IPTABLES_ENABLED=false
++++ export CERTPATH=/mnt/c3platpersistent/share/its-g5-security-certs/
++++ CERTPATH=/mnt/c3platpersistent/share/its-g5-security-certs/
++ ITS_G5_MAIN=/mnt/c3platpersistent/opt/its-g5
++ TOLLING_MAIN=/mnt/c3platpersistent/opt/kapsch
++ '[' xstart = xstart ']'
++ logger '200_prepare_its-g5.sh -I- enter its-g5 prepare ---'
++ mount -l
++ grep /opt
++ grep -v grep
++ '[' 1 -ne ']'
+/mnt/c3platpersistent/etc/startup.d//200_prepare_its-g5.sh: line 17: [: 1: unary operator expected
++ '[' xUSDoT-QualcommCCA = xUSDoT-QualcommRR -o xUSDoT-QualcommCCA = xUSDoT-QualcommCCA ']'
++ logger '200_prepare_its-g5.sh -D- Skip rest due to board configuration'
++ exit 0

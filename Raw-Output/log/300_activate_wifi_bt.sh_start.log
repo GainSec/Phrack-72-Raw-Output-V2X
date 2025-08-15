@@ -1,0 +1,88 @@
++ source /mnt/c3platpersistent/share/startup/common.sh
+++ source /etc/os-release
++++ PRETTY_NAME='Debian GNU/Linux 9 (stretch)'
++++ NAME='Debian GNU/Linux'
++++ VERSION_ID=9
++++ VERSION='9 (stretch)'
++++ VERSION_CODENAME=stretch
++++ ID=debian
++++ HOME_URL=https://www.debian.org/
++++ SUPPORT_URL=https://www.debian.org/support
++++ BUG_REPORT_URL=https://bugs.debian.org/
+++ export DEBIAN_VERSION=9
+++ DEBIAN_VERSION=9
+++ export LD_LIBRARY_PATH=/mnt/c3platpersistent/lib/deb9:/mnt/c3platpersistent/lib
+++ LD_LIBRARY_PATH=/mnt/c3platpersistent/lib/deb9:/mnt/c3platpersistent/lib
++++ basename -- /mnt/c3platpersistent/etc/startup.d//300_activate_wifi_bt.sh
+++ APP_SCR=300_activate_wifi_bt.sh
++++ readlink -f -- /mnt/c3platpersistent/etc/startup.d//300_activate_wifi_bt.sh
+++ ACT_DIR=/mnt/c3platpersistent/etc/startup.d/300_activate_wifi_bt.sh
++++ dirname /mnt/c3platpersistent/etc/startup.d/300_activate_wifi_bt.sh
+++ ABS_PATH=/mnt/c3platpersistent/etc/startup.d
+++ ENABLE_LED_HANDLER=false
+++ LED_STARTUP_PID=/var/run/flash_pid.startup
+++ LED_HANDLER_IP=127.0.0.1
+++ LED_HANDLER_PORT=6001
+++ LED_HANDLER_AIRLINK_STATISTICS=tx
+++ ETH_IF=eth0
+++ [[ -n /mnt/c3platpersistent ]]
++++ cat /mnt/c3platpersistent/etc/issue
++++ head -n 1
+++ export VARIANTRS=USDoT-NAStack
+++ VARIANTRS=USDoT-NAStack
+++ export WATCHDOG_SCRIPTS_PATH=/var/run/supervision/scripts
+++ WATCHDOG_SCRIPTS_PATH=/var/run/supervision/scripts
+++ mkdir -p /var/run/supervision/scripts
+++ [[ false == false ]]
+++ export ROADSIDE_IPTABLES_ENABLED=true
+++ ROADSIDE_IPTABLES_ENABLED=true
+++ export CERTPATH=/mnt/c3platpersistent/share/its-g5-security-certs/
+++ CERTPATH=/mnt/c3platpersistent/share/its-g5-security-certs/
+++ export GPSD_DEBUG=0
+++ GPSD_DEBUG=0
+++ export GPSD_OPTS=
+++ GPSD_OPTS=
+++ [[ 9 == 9 ]]
+++ export PPSDEVICE=/dev/pps1
+++ PPSDEVICE=/dev/pps1
+++ export GPSD_CYCLE_TIME=1.0
+++ GPSD_CYCLE_TIME=1.0
+++ [[ USDoT-NAStack =~ .*CCA.* ]]
+++ [[ USDoT-NAStack =~ USDoT-QualcommRR ]]
+++ export ENABLED_RADIOS=:NXP:
+++ ENABLED_RADIOS=:NXP:
+++ [[ -e /etc/eeprom-cb/a.dualradio.mode ]]
+++ [[ -e /mnt/c3platpersistent/etc/roadside.cfg ]]
+++ source /mnt/c3platpersistent/etc/roadside.cfg
++++ export AEROLINK_BASE=/mnt/c3platpersistent/etc/aerolink/ieee
++++ AEROLINK_BASE=/mnt/c3platpersistent/etc/aerolink/ieee
++++ export AEROLINK_CONFIG_DIR=/mnt/c3platpersistent/etc/aerolink/ieee/config/
++++ AEROLINK_CONFIG_DIR=/mnt/c3platpersistent/etc/aerolink/ieee/config/
++++ export AEROLINK_STATE_DIR=/mnt/c3platpersistent/etc/aerolink/ieee/state/
++++ AEROLINK_STATE_DIR=/mnt/c3platpersistent/etc/aerolink/ieee/state/
++++ export INIT_TARGET=./share/urb/cfgdb2stack.usdot.urb
++++ INIT_TARGET=./share/urb/cfgdb2stack.usdot.urb
++ PATH_TO_FWFILES=/mnt/c3platpersistent/opt/firmware/rs9113
++ PATH_TO_MODULES=/mnt/c3platpersistent/opt/modules/rs9113/onebox
++ MODULE_CM=onebox_common_gpl
++ MODULE_WLAN=(wlan_wep wlan_tkip wlan_ccmp wlan_aes_cmac wlan_acl wlan_xauth wlan_scan_sta)
++ MODULE_WLAN_OB=(wlan onebox_wlan_nongpl onebox_wlan_gpl)
++ MODULE_ZB=(onebox_zigb_nongpl onebox_zigb_gpl)
+++ uname -r
++ UNAME_R=4.9.124-ris-152.29
++ MODE_FILE=/mnt/c3platpersistent/share/wifi/wifi_bt_mode
++ LEO_VERSION_FILE=/etc/leo_version
++ REDPINE_DETECTED=0
++ SPARKLAN_QCA6174_DETECTED=0
+++ grep 'ID 1618:9113'
+++ lsusb
++ [[ -z '' ]]
++ logger '300_activate_wifi_bt.sh -D- Redpine rs9113 does not exist'
+++ lsusb
+++ grep 'ID 0cf3:e300'
++ [[ -z '' ]]
++ logger '300_activate_wifi_bt.sh -D- SparkLAN QCA6174 does not exist'
++ ((  REDPINE_DETECTED + SPARKLAN_QCA6174_DETECTED  ))
++ echo 'No Redpine or SparkLAN modules detected'
+No Redpine or SparkLAN modules detected
++ exit 0

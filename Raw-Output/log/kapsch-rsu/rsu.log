@@ -1,0 +1,1019 @@
+01/12 07:59:25.389 [3047810816] INFO  application.core - Using logging parameters from ./log4cplus.properties
+01/12 07:59:25.389 [3047810816] INFO  application.core - Starting eTrans DSRC application, version: eTrans Default Device Software -> Build info : 1.2.3-DEVELOPMENT-kapsch-rsu Dec 23 2020 00:59:44
+01/12 07:59:25.390 [3047810816] INFO  syslog - Starting eTrans DSRC application.
+01/12 07:59:25.390 [3047810816] INFO  application.core - Loading options from local config file...
+01/12 07:59:25.394 [3047810816] INFO  etrans.signalhandler - Adding signal handler for 2
+01/12 07:59:25.395 [3047810816] INFO  etrans.signalhandler - Adding signal handler for 15
+01/12 07:59:25.399 [3047810816] INFO  device.dsrc - Initializing device.
+01/12 07:59:25.399 [3047810816] INFO  v13.radiodriver - Initialize UbloxV13RadioDriver
+01/12 07:59:25.412 [3047810816] INFO  application.core - Using 2016 version of J2735 spec
+01/12 07:59:25.413 [3047810816] INFO  gpsclient.gpsd - Starting gpsd connection to localhost:2947
+01/12 07:59:25.416 [3047810816] INFO  gpsclient.gpsd - Connection to gpsd successful
+01/12 07:59:25.416 [3047810816] INFO  application.core - Initializing application security
+01/12 07:59:25.417 [3047810816] INFO  onboardsecurity.connection - Initializing OBSConnectionManager
+01/12 07:59:25.417 [3047810816] INFO  json.configuration - Reading OnboardSecurity configuration file: /mnt/c3platpersistent/etc/aerolink/ieee/obs_config_rsu.json
+01/12 07:59:25.420 [3047810816] INFO  onboardsecurity.config - Loading SSP: 000001E040 for psid: 2113685
+01/12 07:59:25.421 [3047810816] INFO  onboardsecurity.config - Loading SSP: 0080012040 for psid: 2113687
+01/12 07:59:25.421 [3047810816] INFO  onboardsecurity.config - Loading SSP: 0080013040 for psid: 130
+01/12 07:59:25.421 [3047810816] INFO  onboardsecurity.config - Loading SSP: 008001F040 for psid: 131
+01/12 07:59:25.422 [3047810816] INFO  security.onboardsecurity - Initializing library version: 6.8.0.0
+01/12 07:59:25.770 [3047810816] INFO  onboardsecurity.connection - Registering network availability callback
+01/12 07:59:25.771 [3047810816] INFO  onboardsecurity.connection - Initializing OBSConnectionManager
+01/12 07:59:25.807 [3047810816] INFO  security.onboardsecurity - Registering callbacks for id changes
+01/12 07:59:25.807 [3047810816] INFO  security.onboardsecurity - Using country code: 840
+01/12 07:59:25.807 [3047810816] INFO  application.core - Initializing bluetooth connections, enabled: 1
+01/12 07:59:25.807 [3047810816] INFO  device.dsrc - Setting up radio channel parameters, radio: 0 access type: CONTINUOUS default channel: 172 service channel: 0
+01/12 07:59:25.807 [3047810816] INFO  device.dsrc - Setting up radio channel parameters, radio: 1 access type: CONTINUOUS default channel: 178 service channel: 0
+01/12 07:59:25.808 [3047810816] INFO  device.dsrc - Registering parameters for message: 20 with PSID: 0x20 tx channel: 172 tx Power: -1 data rate: 0
+01/12 07:59:25.808 [3047810816] INFO  device.dsrc - Registering parameters for message: 18 with PSID: 0x82 tx channel: 172 tx Power: -1 data rate: 0
+01/12 07:59:25.808 [3047810816] INFO  device.dsrc - Registering parameters for message: 19 with PSID: 0x82 tx channel: 172 tx Power: -1 data rate: 0
+01/12 07:59:25.808 [3047810816] INFO  device.dsrc - Registering parameters for message: 27 with PSID: 0x83 tx channel: 172 tx Power: -1 data rate: 0
+01/12 07:59:25.808 [3047810816] INFO  device.dsrc - Registering parameters for message: 29 with PSID: 0x204096 tx channel: 172 tx Power: -1 data rate: 0
+01/12 07:59:25.808 [3047810816] INFO  device.dsrc - Registering parameters for message: 30 with PSID: 0x204095 tx channel: 172 tx Power: -1 data rate: 0
+01/12 07:59:25.809 [3047810816] INFO  device.dsrc - Registering parameters for message: 31 with PSID: 0x83 tx channel: 172 tx Power: -1 data rate: 0
+01/12 07:59:25.809 [3047810816] INFO  device.dsrc - Registering parameters for message: 32 with PSID: 0x27 tx channel: 172 tx Power: -1 data rate: 0
+01/12 07:59:25.809 [3047810816] INFO  device.dsrc - Registering parameters for message: 23 with PSID: 0x82 tx channel: 172 tx Power: -1 data rate: 0
+01/12 07:59:25.809 [3047810816] INFO  device.dsrc - Registering parameters for message: 201 with PSID: 0x20 tx channel: 172 tx Power: -1 data rate: 0
+01/12 07:59:25.810 [3047810816] INFO  device.dsrc - Registering parameters for message: 26 with PSID: 0x84 tx channel: 172 tx Power: -1 data rate: 0
+01/12 07:59:25.810 [3047810816] INFO  device.dsrc - Registering parameters for message: 25 with PSID: 0x84 tx channel: 172 tx Power: -1 data rate: 0
+01/12 07:59:25.810 [3047810816] INFO  device.dsrc - Registering parameters for message: 22 with PSID: 0x83 tx channel: 172 tx Power: -1 data rate: 0
+01/12 07:59:25.810 [3047810816] INFO  device.dsrc - Registering parameters for message: 28 with PSID: 0x80 tx channel: 172 tx Power: -1 data rate: 0
+01/12 07:59:25.810 [3047810816] INFO  device.dsrc - Registering parameters for message: 203 with PSID: 0x82 tx channel: 172 tx Power: -1 data rate: 0
+01/12 07:59:25.810 [3047810816] INFO  device.dsrc - Registering parameters for message: 34 with PSID: 0x28 tx channel: 172 tx Power: -1 data rate: 0
+01/12 07:59:25.811 [3047810816] INFO  device.dsrc - Registering parameters for message: 33 with PSID: 0x29 tx channel: 172 tx Power: -1 data rate: 0
+01/12 07:59:25.811 [3047810816] INFO  device.dsrc - Registering parameters for message: 35 with PSID: 0x30 tx channel: 172 tx Power: -1 data rate: 0
+01/12 07:59:25.822 [3047810816] INFO  waveprotocol.deviceradiointerface - initializeRadio
+01/12 07:59:25.822 [3047810816] INFO  v13.radiodriver - Setting channel configuration for radio 0
+01/12 07:59:25.822 [3047810816] INFO  v13.radiodriver - Setting channel configuration for radio 1
+01/12 07:59:25.822 [3047810816] INFO  kapschubloxv13.device - Setting MAC address from EEPROM entries
+01/12 07:59:25.822 [3047810816] INFO  utilities.macfromeeprom - Reading eeprom MAC file: /etc/eeprom-cb/p.radio1.a.mac
+01/12 07:59:25.823 [3047810816] INFO  kapschubloxv13.device - Setting radio 1 MAC to: 00E06A014879
+01/12 07:59:25.823 [3047810816] INFO  v13.radiodriver - Set MAC address for radio 0 to 00E06A014879
+01/12 07:59:25.823 [3047810816] INFO  utilities.macfromeeprom - Reading eeprom MAC file: /etc/eeprom-cb/p.radio1.b.mac
+01/12 07:59:25.823 [3047810816] INFO  kapschubloxv13.device - Setting radio 2 MAC to: 00E06A01487A
+01/12 07:59:25.823 [3047810816] INFO  v13.radiodriver - Set MAC address for radio 1 to 00E06A01487A
+01/12 07:59:25.824 [3047810816] INFO  component.devicedebug - Initializing Bluetooth connection
+01/12 07:59:25.824 [3047810816] INFO  bluetooth.device - Registering bluetooth service: eTrans Bluetooth Debugging
+01/12 07:59:25.824 [3047810816] ERROR bluetooth.bluez - Bluetooth Initialization: SDP connect failed to return a session!
+01/12 07:59:25.824 [3047810816] WARN  bluetooth.bluez - Check that the Bluetooth daemon is running on the unit.
+01/12 07:59:25.824 [3047810816] ERROR bluetooth.device - Service registration failed.
+01/12 07:59:25.824 [3047810816] INFO  service.socket - Setting up TCP debugging at port 19008
+01/12 07:59:25.825 [3047810816] INFO  domain.ghostprocessor - Initializing domain ghost processing
+01/12 07:59:25.830 [3047810816] INFO  udp.forwarder - Setting up UDP forwarder to address: 127.255.255.255:12109
+01/12 07:59:25.831 [3047810816] INFO  component.rsu - Initializing RSU Processing
+01/12 07:59:25.831 [3047810816] INFO  rsu.scheduledsender - Loaded 0 messages
+01/12 07:59:25.832 [3047810816] INFO  forward.udp - Setting up ImmediateForwardUDPListener at port: 1516
+01/12 07:59:25.832 [3047810816] INFO  json.configuration - Reading RSU configuration file: rsu_configuration.json
+01/12 07:59:25.835 [3047810816] INFO  rsu.configuration - Reading RSU configuration document
+01/12 07:59:25.836 [3047810816] INFO  json.configuration - Reading RSU Runtime configuration file: rsu_configuration.json.runtime
+01/12 07:59:25.837 [3047810816] INFO  configuration.runtime - Reading RSU runtime data document
+01/12 07:59:25.838 [3047810816] INFO  v13.radiodriver - Setting channel configuration for radio 0
+01/12 07:59:25.838 [3047810816] INFO  v13.radiodriver - Setting channel configuration for radio 1
+01/12 07:59:25.838 [3047810816] INFO  rsu.processor - Mac: 00E06A014879
+01/12 07:59:25.838 [3047810816] INFO  rsu.configuration - updateStoreAndRepeatConfiguration
+01/12 07:59:25.839 [3047810816] INFO  forward.service - adding enabled forwarder, id=1
+01/12 07:59:25.839 [3047810816] WARN  forward.forwarder - Unable to handle end time string: 3103072441700, setting to max time.
+01/12 07:59:25.840 [3047810816] INFO  forward.forwarder - Setting up UDP forwarding to: ::ffff:10.235.1.66 port: 46800 for PSID: 0x20 security setting: 0
+01/12 07:59:25.840 [3047810816] INFO  udp.forwarder - Setting up UDP forwarder to address: ::ffff:10.235.1.66:46800
+01/12 07:59:25.840 [3047810816] INFO  forward.service - adding enabled forwarder, id=2
+01/12 07:59:25.840 [3047810816] WARN  forward.forwarder - Unable to handle end time string: 3103072441700, setting to max time.
+01/12 07:59:25.841 [3047810816] INFO  forward.forwarder - Setting up UDP forwarding to: ::ffff:10.235.1.36 port: 46800 for PSID: 0x20 security setting: 0
+01/12 07:59:25.841 [3047810816] INFO  udp.forwarder - Setting up UDP forwarder to address: ::ffff:10.235.1.36:46800
+01/12 07:59:25.841 [3047810816] INFO  pedestrian.txprocessor - Initializing PedestrianTransmitProcessor
+01/12 07:59:25.841 [3047810816] INFO  rsu.processor - Setting device tx power to: 19.5
+01/12 07:59:25.841 [3047810816] WARN  rsu.processor - Unit is not running in operating mode!
+01/12 07:59:25.841 [3047810816] INFO  rsu.netsnmp - Using directory /mnt/c3platpersistent/etc/snmp for SNMP configuration
+01/12 07:59:25.842 [3047810816] INFO  rsu.netsnmp - Initializing Net SNMP server library
+01/12 07:59:25.842 [3047810816] INFO  netsnmp.trap - TrapSink, sink IP address: fe80::1, sink port: 162
+01/12 07:59:25.843 [3047810816] INFO  netsnmp.snmpconfparse - createUser line: createUser rwUser       SHA "herbertherbert" AES size: 5
+01/12 07:59:25.843 [3047810816] INFO  netsnmp.snmpconfparse - Using createUser line with no AES credentials
+01/12 07:59:25.843 [3047810816] INFO  netsnmp.snmpconfparse - UserName = rwUser, authProtocol: SHA, authenticationPassword: herbertherbert, privProtocol: AES, privacyPassword: 
+01/12 07:59:25.843 [3047810816] INFO  netsnmp.trap - UserName = rwUser, authProtocol: SHA, authenticationPassword: herbertherbert, privProtocol: AES, privacyPassword: 
+01/12 07:59:25.844 [3047810816] INFO  netsnmp.trap - No updates to trap session
+01/12 07:59:26.114 [3047810816] INFO  rsu.netsnmp - [SNMP 3] : unknown snmp version 193
+
+01/12 07:59:26.114 [3047810816] INFO  rsu.netsnmp - [SNMP 6] : NET-SNMP version 5.8 AgentX subagent connected
+
+01/12 07:59:26.128 [3047810816] INFO  snmp.gps - SNMP GPS connection established
+01/12 07:59:26.129 [3047810816] INFO  rsu.netsnmp - Setting up upTime_LastLogin
+01/12 07:59:26.129 [3047810816] INFO  rsu.netsnmp - Startup RSUConfig_TotalRunTime.TotalRunTime 33715080
+01/12 07:59:26.129 [3047810816] INFO  rsu.netsnmp - Startup RSUConfig_TotalRunTime.configurationFileUpdateTime: 15
+01/12 07:59:26.129 [3047810816] INFO  rsu.netsnmp - Startup LastLoginData.time: 1608681912
+01/12 07:59:26.129 [3047810816] INFO  rsu.netsnmp - Startup LastLoginData.name: root
+01/12 07:59:26.129 [3047810816] INFO  rsu.netsnmp - Startup LastLoginData.host: 192.168.1.30
+01/12 07:59:26.129 [3047810816] INFO  snmp.upTime_LastLogin - UpTime_LastLogin::initialize
+01/12 07:59:26.130 [3047810816] WARN  snmp.tamperdetect - mq_open: Could not open receive message queue
+01/12 07:59:26.130 [3047810816] INFO  vehicle.algorithm - Setting up collision algorithm
+01/12 07:59:26.130 [3047810816] INFO  vehicle.algorithm - Setting up intersection light warning algorithm
+01/12 07:59:26.130 [3047810816] INFO  vehicle.algorithm - Setting up pedestrian warning algorithm
+01/12 07:59:26.131 [3047810816] INFO  vehicle.algorithm - Setting up EEBL Algorithm
+01/12 07:59:26.131 [3047810816] INFO  vehicle.algorithm - Setting up Road Condition Alert algorithms
+01/12 07:59:26.131 [3047810816] INFO  vehicle.algorithm - Setting up Speed Warning algorithms
+01/12 07:59:26.131 [3047810816] INFO  vehicle.algorithm - Setting up TravelInformation Warning
+01/12 07:59:26.131 [3047810816] INFO  vehicle.algorithm - Setting up SecurityStatus Warning algorithms
+01/12 07:59:26.131 [3047810816] INFO  component.install - Running check for update installation
+01/12 07:59:26.131 [3047810816] INFO  device.install - No directory available at: 
+01/12 07:59:26.132 [3047810816] INFO  application.core - Connecting device debugging log message publishing to appender: BLUETOOTH
+01/12 07:59:26.132 [3047810816] INFO  waveprotocol.device - systemInitializationComplete
+01/12 07:59:26.132 [3047810816] INFO  application.core - Starting main loop, blockUntilDeviceStopped: 1
+01/12 07:59:26.132 [3047810816] INFO  syslog - Entering processing loop
+01/12 07:59:26.132 [3047810816] INFO  waveprotocol.deviceradiointerface - startReceiveProcessing
+01/12 07:59:26.133 [3047810816] INFO  v13.radiodriver - Start receive processing
+01/12 07:59:26.133 [2752879424] INFO  device.dsrc - Starting transmit loop
+01/12 07:59:26.133 [2752879424] INFO  device.dsrc - GPS fix type changed to: ThreeDimensionalFix
+01/12 07:59:26.133 [2752879424] INFO  device.dsrc - GPS fix started with lat: 41.70929 lon: -73.86327
+01/12 07:59:27.134 [2786450240] INFO  snmp.upTime_LastLogin - New Login detected at: 1736668729 seconds. Sun Jan 12 07:58:49 2025
+
+01/12 07:59:27.134 [2786450240] INFO  snmp.upTime_LastLogin - User Name: root
+01/12 07:59:27.134 [2786450240] INFO  snmp.upTime_LastLogin - Host: 192.168.1.30
+01/12 07:59:27.134 [2786450240] INFO  snmp.upTime_LastLogin - UpTime_LastLogin::login changed
+01/12 07:59:27.134 [2786450240] INFO  configuration.runtime - setLoginNewValues
+01/12 07:59:29.075 [2803235648] INFO  snmp.gps - Sending GPS deviation trap: calc = 14661810 cm, max = 2e+06 cm
+01/12 07:59:29.130 [2769664832] INFO  rsu.netsnmp - Starting agent processing
+01/12 07:59:31.129 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,075931.00,4142.55703,N,07351.79590,W,2,09,1.07,55.4,M,-34.1,M,,0000*4F
+01/12 07:59:34.900 [3037723456] INFO  device.networkavailability - Changing network availability to: 1
+01/12 07:59:34.901 [3037723456] INFO  security.onboardsecurity - Network availability changed to: 1 informing connection manager
+01/12 07:59:34.901 [3037723456] INFO  onboardsecurity.connection - Calling network availability callback: 1
+01/12 07:59:34.901 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 07:59:34.957 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 07:59:35.622 [2761272128] WARN  v13.radiodriver - MKx_Recv returned error code: -1
+01/12 07:59:36.129 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,075936.00,4142.5566,N,07351.7962,W,2,09,1.07,55.98,M,-34.100,M,,*6F
+01/12 07:59:36.958 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 07:59:36.958 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 07:59:38.959 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 07:59:38.959 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 07:59:40.960 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 07:59:40.960 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 07:59:41.129 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,075941.00,4142.55625,N,07351.79653,W,2,09,1.07,57.3,M,-34.1,M,,0000*44
+01/12 07:59:42.961 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 07:59:42.961 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 07:59:44.962 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 07:59:44.963 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 07:59:46.129 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,075946.00,4142.55579,N,07351.79668,W,2,09,1.07,58.1,M,-34.1,M,,0000*4C
+01/12 07:59:46.963 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 07:59:46.964 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 07:59:48.964 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 07:59:48.965 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 07:59:50.965 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 07:59:50.966 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 07:59:51.130 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,075951.00,4142.55528,N,07351.79711,W,2,10,1.07,58.9,M,-34.1,M,,0000*41
+01/12 07:59:52.966 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 07:59:52.967 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 07:59:53.003 [2803235648] INFO  snmp.gps - Setting date and time to: 2025-01-12 07:59:53
+01/12 07:59:54.967 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 07:59:54.968 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 07:59:55.807 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 07:59:55.807 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 07:59:55.808 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 07:59:55.808 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 07:59:55.808 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 07:59:55.809 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 07:59:55.809 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 07:59:55.810 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 07:59:56.035 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,075956.00,4142.55527,N,07351.79751,W,2,10,0.91,59.5,M,-34.1,M,,0000*4E
+01/12 07:59:57.810 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 07:59:57.811 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 07:59:59.811 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 07:59:59.812 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:00:01.036 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,080001.00,4142.5552,N,07351.7979,W,2,09,0.94,60.00,M,-34.100,M,,*69
+01/12 08:00:01.812 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:00:01.813 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:00:03.813 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:00:03.814 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:00:05.814 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:00:05.815 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:00:06.036 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: GGP,080006.00,4142.55493,N,07351.79742,W,2,11,0.89,59.2,M,-34.1,M,,0000*4B
+01/12 08:00:07.625 [2761272128] WARN  v13.radiodriver - MKx_Recv returned error code: -1
+01/12 08:00:07.815 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:00:07.816 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:00:09.816 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:00:09.817 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:00:11.036 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,080011.00,4142.55496,N,07351.79757,W,2,12,0.91,59.3,M,-34.1,M,,0000*47
+01/12 08:00:11.817 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:00:11.818 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:00:13.818 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:00:13.819 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:00:15.820 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:00:15.820 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:00:16.037 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,080016.00,4142.55542,N,07351.79660,W,2,11,0.87,57.7,M,-34.1,M,,0000*43
+01/12 08:00:17.821 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:00:17.821 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+05/29 08:00:19.000 [2803235648] INFO  snmp.gps - Setting date and time to: 2005-05-29 08:00:19
+05/29 08:00:21.029 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,080021.00,4142.55564,N,07351.79616,W,2,11,0.87,56.9,M,-34.1,M,,0000*4D
+05/29 08:00:26.026 [2794842944] INFO  snmp.gps - Endpoint address: fe80::1 , port: 1024
+05/29 08:00:26.027 [2794842944] INFO  snmp.gps - sendGpggaPacketToRemoteServer: NMEA sentence: $GPGGA,080026.00,4142.5553,N,07351.7962,W,2,11,0.87,57.30,M,-34.100,M,,*6B
+05/29 08:00:26.029 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,080026.00,4142.5553,N,07351.7962,W,2,11,0.87,57.30,M,-34.100,M,,*6B
+05/29 08:00:31.029 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,080031.00,4142.55518,N,07351.79649,W,2,11,0.87,57.7,M,-34.1,M,,0000*42
+05/29 08:00:36.030 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,080036.00,4142.5552,N,07351.7969,W,2,12,0.86,57.83,M,-34.100,M,,*6A
+05/29 08:00:41.030 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,080041.00,4142.55507,N,07351.79737,W,2,12,0.86,58.1,M,-34.1,M,,0000*48
+01/12 08:00:46.000 [2803235648] INFO  snmp.gps - Setting date and time to: 2025-01-12 08:00:46
+01/12 08:00:46.000 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:00:46.005 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:00:46.006 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,080046.00,4142.55493,N,07351.79742,W,2,12,0.86,57.9,M,-34.1,M,,0000*46
+01/12 08:00:48.006 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:00:48.006 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:00:50.007 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:00:50.007 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:00:51.007 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,080051.00,4142.55492,N,07351.79741,W,2,12,0.86,58.2,M,-34.1,M,,0000*46
+01/12 08:00:52.008 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:00:52.008 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:00:54.009 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:00:54.010 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:00:56.007 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,080056.00,4142.55474,N,07351.79713,W,2,12,1.01,58.1,M,-34.1,M,,0000*43
+01/12 08:00:56.010 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:00:56.011 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:00:58.011 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:00:58.012 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:01:00.012 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:01:00.013 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:01:01.007 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,080101.00,4142.55470,N,07351.79690,W,2,12,1.01,58.2,M,-34.1,M,,0000*4D
+01/12 08:01:02.013 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:01:02.014 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:01:04.015 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:01:04.015 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:01:06.007 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,080106.00,4142.5546,N,07351.7967,W,2,11,1.01,58.10,M,-34.100,M,,*6B
+01/12 08:01:06.016 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:01:06.016 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:01:08.017 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:01:08.018 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:01:10.000 [2803235648] INFO  snmp.gps - Setting date and time to: 2025-01-12 08:01:10
+01/12 08:01:10.018 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:01:10.019 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:01:10.995 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,080110.00,4142.55474,N,07351.79647,W,2,12,1.01,57.9,M,-34.1,M,,0000*47
+01/12 08:01:12.019 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:01:12.020 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:01:14.020 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:01:14.021 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:01:15.995 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,080115.00,4142.55505,N,07351.79642,W,2,12,1.01,57.2,M,-34.1,M,,0000*4B
+01/12 08:01:16.021 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:01:16.023 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:01:18.024 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:01:18.025 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:01:20.025 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:01:20.026 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:01:20.996 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,080120.00,4142.55557,N,07351.79665,W,2,12,0.86,57.0,M,-34.1,M,,0000*43
+01/12 08:01:22.026 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:01:22.027 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:01:24.027 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:01:24.028 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:01:25.990 [2794842944] INFO  snmp.gps - Endpoint address: fe80::1 , port: 1024
+01/12 08:01:25.991 [2794842944] INFO  snmp.gps - sendGpggaPacketToRemoteServer: NMEA sentence: $GPGGA,080125.00,4142.55607,N,07351.79711,W,2,12,1.01,56.9,M,-34.1,M,,0000*44
+01/12 08:01:25.996 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,080125.00,4142.55607,N,07351.79711,W,2,12,1.01,56.9,M,-34.1,M,,0000*44
+01/12 08:01:26.028 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:01:26.029 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:01:28.029 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:01:28.030 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:01:30.030 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:01:30.031 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:01:30.996 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,080130.00,4142.55620,N,07351.79720,W,2,12,1.01,56.4,M,-34.1,M,,0000*4A
+01/12 08:01:32.031 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:01:32.032 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:01:33.000 [2803235648] INFO  snmp.gps - Setting date and time to: 2025-01-12 08:01:33
+01/12 08:01:34.032 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:01:34.033 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:01:35.965 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,080135.00,4142.55631,N,07351.79742,W,2,12,1.01,56.7,M,-34.1,M,,0000*48
+01/12 08:01:36.033 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:01:36.034 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:01:38.034 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:01:38.035 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:01:40.035 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:01:40.036 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:01:40.965 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,080140.00,4142.5564,N,07351.7975,W,2,11,1.01,56.78,M,-34.100,M,,*6A
+01/12 08:01:42.036 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:01:42.037 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:01:44.037 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:01:44.038 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:01:45.965 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,080145.00,4142.5565,N,07351.7974,W,2,10,1.05,56.45,M,-34.100,M,,*64
+01/12 08:01:46.039 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:01:46.039 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:01:48.040 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:01:48.040 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:01:50.041 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:01:50.041 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:01:50.965 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,080150.00,4142.55655,N,07351.79738,W,2,12,1.05,56.3,M,-34.1,M,,0000*44
+01/12 08:01:52.042 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:01:52.042 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:01:54.043 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:01:54.043 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:01:55.966 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,080155.00,4142.55649,N,07351.79714,W,2,12,1.01,56.2,M,-34.1,M,,0000*47
+01/12 08:01:56.044 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:01:56.044 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:01:57.005 [2803235648] INFO  snmp.gps - Setting date and time to: 2025-01-12 08:01:57
+01/12 08:01:58.045 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:01:58.045 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:02:00.046 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:02:00.046 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:02:00.948 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,080200.00,4142.55648,N,07351.79683,W,2,12,1.01,55.7,M,-34.1,M,,0000*4C
+01/12 08:02:02.047 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:02:02.048 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:02:02.505 [2803235648] WARN  snmp.gps - No data returned
+01/12 08:02:04.007 [2803235648] WARN  snmp.gps - No data returned
+01/12 08:02:04.048 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:02:04.049 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:02:05.508 [2803235648] WARN  snmp.gps - No data returned
+01/12 08:02:05.948 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,080201.00,4142.5565,N,07351.7968,W,2,12,1.01,55.70,M,-34.100,M,,*69
+01/12 08:02:06.049 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:02:06.050 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:02:07.009 [2803235648] WARN  snmp.gps - No data returned
+01/12 08:02:08.050 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:02:08.051 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:02:08.510 [2803235648] WARN  snmp.gps - No data returned
+01/12 08:02:10.011 [2803235648] WARN  snmp.gps - No data returned
+01/12 08:02:10.051 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:02:10.052 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:02:10.949 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,080201.00,4142.5565,N,07351.7968,W,2,12,1.01,55.70,M,-34.100,M,,*69
+01/12 08:02:11.512 [2803235648] WARN  snmp.gps - No data returned
+01/12 08:02:12.052 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:02:12.053 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:02:13.013 [2803235648] WARN  snmp.gps - No data returned
+01/12 08:02:14.053 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:02:14.054 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:02:14.514 [2803235648] WARN  snmp.gps - No data returned
+01/12 08:02:15.949 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,080201.00,4142.5565,N,07351.7968,W,2,12,1.01,55.70,M,-34.100,M,,*69
+01/12 08:02:16.015 [2803235648] WARN  snmp.gps - No data returned
+01/12 08:02:16.045 [2752879424] INFO  device.dsrc - GPS fix started with lat: 41.709269 lon: -73.863256
+01/12 08:02:16.054 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:02:16.055 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:02:17.015 [2803235648] WARN  snmp.gps - Altitude unavailable in NMEA sentence.
+01/12 08:02:18.055 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:02:18.056 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:02:19.003 [2803235648] INFO  snmp.gps - Setting date and time to: 2025-01-12 08:02:19
+01/12 08:02:20.056 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:02:20.057 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:02:20.926 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,080220.00,4142.55599,N,07351.79495,W,2,12,1.02,52.8,M,-34.1,M,,0000*4F
+01/12 08:02:22.057 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:02:22.058 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:02:24.058 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:02:24.059 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:02:25.917 [2794842944] INFO  snmp.gps - Endpoint address: fe80::1 , port: 1024
+01/12 08:02:25.917 [2794842944] INFO  snmp.gps - sendGpggaPacketToRemoteServer: NMEA sentence: $GPGGA,080225.00,4142.55591,N,07351.79449,W,2,12,1.02,52.5,M,-34.1,M,,0000*4E
+01/12 08:02:25.926 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,080225.00,4142.55591,N,07351.79449,W,2,12,1.02,52.5,M,-34.1,M,,0000*4E
+01/12 08:02:26.059 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:02:26.060 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:02:28.060 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:02:28.061 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:02:30.061 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:02:30.062 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:02:30.926 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,080230.00,4142.55579,N,07351.79433,W,2,12,0.99,52.4,M,-34.1,M,,0000*43
+01/12 08:02:32.062 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:02:32.063 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:02:34.063 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:02:34.064 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:02:35.926 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,080235.00,4142.5558,N,07351.7944,W,2,12,0.99,52.74,M,-34.100,M,,*6D
+01/12 08:02:36.065 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:02:36.065 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:02:38.066 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:02:38.066 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:02:40.000 [2803235648] INFO  snmp.gps - Setting date and time to: 2025-01-12 08:02:40
+01/12 08:02:40.066 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:02:40.067 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:02:40.909 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,080240.00,4142.55602,N,07351.79455,W,2,12,1.19,53.4,M,-34.1,M,,0000*43
+01/12 08:02:42.068 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:02:42.068 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:02:44.069 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:02:44.069 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:02:45.909 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,080245.00,4142.55625,N,07351.79456,W,2,12,1.19,53.6,M,-34.1,M,,0000*42
+01/12 08:02:46.070 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:02:46.070 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:02:48.071 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:02:48.071 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:02:50.072 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:02:50.072 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:02:50.910 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,080250.00,4142.55644,N,07351.79449,W,2,12,0.98,53.6,M,-34.1,M,,0000*47
+01/12 08:02:52.073 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:02:52.073 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:02:54.074 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:02:54.074 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:02:55.910 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,080255.00,4142.55644,N,07351.79420,W,2,12,0.98,53.4,M,-34.1,M,,0000*4F
+01/12 08:02:56.075 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:02:56.076 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:02:58.076 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:02:58.077 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:03:00.077 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:03:00.078 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:03:00.910 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,080300.00,4142.55659,N,07351.79395,W,2,12,0.94,53.7,M,-34.1,M,,0000*44
+01/12 08:03:02.078 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:03:02.079 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+05/29 08:03:04.008 [2803235648] INFO  snmp.gps - Setting date and time to: 2005-05-29 08:03:04
+05/29 08:03:05.894 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,080305.00,4142.55682,N,07351.79408,W,2,12,1.22,54.6,M,-34.1,M,,0000*4E
+05/29 08:03:10.895 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,080310.00,4142.55750,N,07351.79520,W,2,12,0.82,56.6,M,-34.1,M,,0000*46
+05/29 08:03:14.013 [2803235648] WARN  snmp.gps - Altitude unavailable in NMEA sentence.
+05/29 08:03:15.895 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,080315.00,4142.55806,N,07351.79605,W,2,12,0.92,58.2,M,-34.1,M,,0000*40
+05/29 08:03:20.895 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: GGP,080320.00,4142.55851,N,07351.79674,W,2,12,0.82,59.2,M,-34.1,M,,0000*42
+05/29 08:03:25.884 [2794842944] INFO  snmp.gps - Endpoint address: fe80::1 , port: 1024
+05/29 08:03:25.884 [2794842944] INFO  snmp.gps - sendGpggaPacketToRemoteServer: NMEA sentence: $GPGGA,080325.00,4142.55889,N,07351.79726,W,2,12,0.92,60.1,M,-34.1,M,,0000*4C
+05/29 08:03:25.895 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,080325.00,4142.55889,N,07351.79726,W,2,12,0.92,60.1,M,-34.1,M,,0000*4C
+05/29 08:03:27.001 [2803235648] INFO  snmp.gps - Setting date and time to: 2005-05-29 08:03:27
+05/29 08:03:30.871 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,080330.00,4142.5591,N,07351.7974,W,2,11,1.22,60.20,M,-34.100,M,,*6D
+05/29 08:03:35.871 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,080335.00,4142.5591,N,07351.7973,W,2,11,1.22,60.12,M,-34.100,M,,*6E
+05/29 08:03:40.871 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,080340.00,4142.5592,N,07351.7973,W,2,11,1.22,60.28,M,-34.100,M,,*66
+05/29 08:03:45.872 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,080345.00,4142.5592,N,07351.7973,W,2,11,1.22,60.37,M,-34.100,M,,*6D
+05/29 08:03:50.872 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,080350.00,4142.5593,N,07351.7974,W,2,11,1.22,60.50,M,-34.100,M,,*6E
+05/29 08:03:51.521 [2803235648] WARN  snmp.gps - No data returned
+05/29 08:03:53.022 [2803235648] WARN  snmp.gps - No data returned
+05/29 08:03:54.523 [2803235648] WARN  snmp.gps - No data returned
+05/29 08:03:55.872 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,080350.00,4142.5593,N,07351.7974,W,2,11,1.22,60.50,M,-34.100,M,,*6E
+05/29 08:03:56.024 [2803235648] WARN  snmp.gps - No data returned
+05/29 08:03:57.525 [2803235648] WARN  snmp.gps - No data returned
+05/29 08:03:59.026 [2803235648] WARN  snmp.gps - No data returned
+05/29 08:04:00.527 [2803235648] WARN  snmp.gps - No data returned
+05/29 08:04:00.872 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,080350.00,4142.5593,N,07351.7974,W,2,11,1.22,60.50,M,-34.100,M,,*6E
+05/29 08:04:02.028 [2803235648] WARN  snmp.gps - No data returned
+05/29 08:04:03.529 [2803235648] WARN  snmp.gps - No data returned
+05/29 08:04:05.064 [2752879424] INFO  device.dsrc - GPS fix started with lat: 41.70932 lon: -73.863288
+05/29 08:04:05.873 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,080350.00,4142.5593,N,07351.7974,W,2,11,1.22,60.50,M,-34.100,M,,*6E
+05/29 08:04:06.032 [2803235648] WARN  snmp.gps - Altitude unavailable in NMEA sentence.
+05/29 08:04:08.000 [2803235648] INFO  snmp.gps - Setting date and time to: 2005-05-29 08:04:08
+05/29 08:04:09.003 [2803235648] INFO  snmp.gps - Setting date and time to: 2005-05-29 08:04:09
+05/29 08:04:10.848 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,080410.00,4142.55929,N,07351.79731,W,2,12,0.97,61.3,M,-34.1,M,,0000*46
+05/29 08:04:15.849 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,080415.00,4142.5591,N,07351.7973,W,2,12,0.97,61.21,M,-34.100,M,,*66
+05/29 08:04:20.849 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,080420.00,4142.5588,N,07351.7971,W,2,11,1.22,61.11,M,-34.100,M,,*65
+05/29 08:04:25.835 [2794842944] INFO  snmp.gps - Endpoint address: fe80::1 , port: 1024
+05/29 08:04:25.835 [2794842944] INFO  snmp.gps - sendGpggaPacketToRemoteServer: NMEA sentence: $GPGGA,080425.00,4142.55853,N,07351.79675,W,2,12,1.22,61.1,M,-34.1,M,,0000*40
+05/29 08:04:25.849 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,080425.00,4142.55853,N,07351.79675,W,2,12,1.22,61.1,M,-34.1,M,,0000*40
+05/29 08:04:30.849 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,080430.00,4142.5584,N,07351.7966,W,2,10,1.22,61.07,M,-34.100,M,,*68
+05/29 08:04:33.000 [2803235648] INFO  snmp.gps - Setting date and time to: 2005-05-29 08:04:33
+05/29 08:04:35.847 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,080435.00,4142.55850,N,07351.79684,W,2,12,0.92,60.7,M,-34.1,M,,0000*41
+05/29 08:04:40.848 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,080440.00,4142.55858,N,07351.79708,W,2,12,0.92,59.4,M,-34.1,M,,0000*47
+05/29 08:04:45.848 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,080445.00,4142.55844,N,07351.79707,W,2,12,1.22,58.2,M,-34.1,M,,0000*4D
+05/29 08:04:50.848 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,080450.00,4142.55825,N,07351.79686,W,2,12,1.22,57.5,M,-34.1,M,,0000*4E
+01/12 08:04:55.000 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:04:55.000 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:04:55.001 [2865744704] WARN  security.onboardsecurity - Not setting up randomization yet as no certs available
+01/12 08:04:55.001 [2865744704] INFO  security.onboardsecurity - IdChangeDoneCallback
+01/12 08:04:55.011 [2803235648] INFO  snmp.gps - Setting date and time to: 2025-01-12 08:04:55
+01/12 08:04:55.835 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,080455.00,4142.55824,N,07351.79672,W,2,11,1.22,56.7,M,-34.1,M,,0000*41
+01/12 08:04:57.001 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:04:57.002 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:04:59.002 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:04:59.003 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:05:00.835 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,080500.00,4142.55808,N,07351.79636,W,2,12,1.22,56.2,M,-34.1,M,,0000*48
+01/12 08:05:01.003 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:05:01.004 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:05:03.004 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:05:03.005 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:05:05.005 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:05:05.006 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:05:05.835 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,080505.00,4142.55799,N,07351.79606,W,2,12,1.22,56.1,M,-34.1,M,,0000*4A
+01/12 08:05:07.008 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:05:07.008 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:05:09.009 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:05:09.009 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:05:10.836 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,080510.00,4142.5578,N,07351.7958,W,2,11,1.22,56.07,M,-34.100,M,,*60
+01/12 08:05:11.011 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:05:11.011 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:05:13.012 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:05:13.012 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:05:15.013 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:05:15.014 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:05:15.836 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,080515.00,4142.55795,N,07351.79583,W,2,12,0.98,55.9,M,-34.1,M,,0000*42
+01/12 08:05:17.014 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:05:17.015 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:05:19.015 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:05:19.016 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:05:20.836 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,080520.00,4142.55801,N,07351.79587,W,2,12,0.98,55.4,M,-34.1,M,,0000*4F
+01/12 08:05:21.016 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:05:21.017 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:05:21.004 [2803235648] INFO  snmp.gps - Setting date and time to: 2025-01-12 08:05:21
+01/12 08:05:23.017 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:05:23.018 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:05:25.018 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:05:25.019 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:05:25.797 [2794842944] INFO  snmp.gps - Endpoint address: fe80::1 , port: 1024
+01/12 08:05:25.797 [2794842944] INFO  snmp.gps - sendGpggaPacketToRemoteServer: NMEA sentence: $GPGGA,080525.00,4142.55811,N,07351.79601,W,2,12,0.98,55.0,M,-34.1,M,,0000*42
+01/12 08:05:25.814 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,080525.00,4142.55811,N,07351.79601,W,2,12,0.98,55.0,M,-34.1,M,,0000*42
+01/12 08:05:27.020 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:05:27.020 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:05:29.021 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:05:29.021 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:05:30.814 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,080530.00,4142.55831,N,07351.79597,W,2,12,0.98,54.6,M,-34.1,M,,0000*4F
+01/12 08:05:31.022 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:05:31.022 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:05:33.023 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:05:33.023 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:05:35.024 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:05:35.024 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:05:35.513 [2803235648] WARN  snmp.gps - No data returned
+01/12 08:05:35.814 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,080534.00,4142.5582,N,07351.7959,W,2,11,0.98,54.40,M,-34.100,M,,*63
+01/12 08:05:37.014 [2803235648] WARN  snmp.gps - No data returned
+01/12 08:05:37.025 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:05:37.025 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:05:38.514 [2803235648] WARN  snmp.gps - No data returned
+01/12 08:05:39.026 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:05:39.026 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:05:40.016 [2803235648] WARN  snmp.gps - No data returned
+01/12 08:05:40.815 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,080534.00,4142.5582,N,07351.7959,W,2,11,0.98,54.40,M,-34.100,M,,*63
+01/12 08:05:41.027 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:05:41.028 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:05:41.516 [2803235648] WARN  snmp.gps - No data returned
+01/12 08:05:43.017 [2803235648] WARN  snmp.gps - No data returned
+01/12 08:05:43.028 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:05:43.029 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:05:44.518 [2803235648] WARN  snmp.gps - No data returned
+01/12 08:05:45.029 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:05:45.030 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:05:45.815 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,080534.00,4142.5582,N,07351.7959,W,2,11,0.98,54.40,M,-34.100,M,,*63
+01/12 08:05:46.019 [2803235648] WARN  snmp.gps - No data returned
+01/12 08:05:47.030 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:05:47.031 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:05:47.520 [2803235648] WARN  snmp.gps - No data returned
+01/12 08:05:48.101 [2752879424] INFO  device.dsrc - GPS fix started with lat: 41.709295 lon: -73.863257
+01/12 08:05:49.022 [2803235648] WARN  snmp.gps - Altitude unavailable in NMEA sentence.
+01/12 08:05:49.031 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:05:49.032 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:05:50.815 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,080550.00,4142.5576,N,07351.7954,W,2,12,0.98,53.68,M,-34.100,M,,*69
+01/12 08:05:51.002 [2803235648] INFO  snmp.gps - Setting date and time to: 2025-01-12 08:05:51
+01/12 08:05:51.032 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:05:51.033 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:05:53.033 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:05:53.034 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:05:55.034 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:05:55.035 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:05:55.792 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,080555.00,4142.55732,N,07351.79538,W,2,12,0.98,53.7,M,-34.1,M,,0000*43
+01/12 08:05:57.035 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:05:57.036 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:05:59.036 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:05:59.037 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:06:00.792 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,080600.00,4142.5571,N,07351.7953,W,2,12,0.98,53.97,M,-34.100,M,,*6F
+01/12 08:06:01.037 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:06:01.038 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:06:03.039 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:06:03.039 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+05/29 08:06:04.001 [2803235648] INFO  snmp.gps - Setting date and time to: 2005-05-29 08:06:04
+05/29 08:06:05.774 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,080605.00,4142.55705,N,07351.79515,W,2,12,0.98,54.2,M,-34.1,M,,0000*4C
+05/29 08:06:10.774 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,080610.00,4142.55707,N,07351.79514,W,2,12,0.87,54.7,M,-34.1,M,,0000*40
+05/29 08:06:15.775 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,080615.00,4142.5574,N,07351.7954,W,2,13,0.87,55.47,M,-34.100,M,,*6D
+05/29 08:06:20.775 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,080620.00,4142.5577,N,07351.7956,W,2,13,0.80,55.87,M,-34.100,M,,*61
+05/29 08:06:25.755 [2794842944] INFO  snmp.gps - Endpoint address: fe80::1 , port: 1024
+05/29 08:06:25.755 [2794842944] INFO  snmp.gps - sendGpggaPacketToRemoteServer: NMEA sentence: $GPGGA,080625.00,4142.5579,N,07351.7959,W,2,14,0.79,55.73,M,-34.100,M,,*6F
+05/29 08:06:25.775 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,080625.00,4142.5579,N,07351.7959,W,2,14,0.79,55.73,M,-34.100,M,,*6F
+01/12 08:06:28.000 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:06:28.000 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:06:28.001 [2803235648] INFO  snmp.gps - Setting date and time to: 2025-01-12 08:06:28
+01/12 08:06:30.001 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:06:30.001 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:06:30.751 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,080630.00,4142.55791,N,07351.79598,W,2,12,0.79,55.7,M,-34.1,M,,0000*49
+01/12 08:06:32.002 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:06:32.003 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:06:34.003 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:06:34.004 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:06:35.752 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,080635.00,4142.55784,N,07351.79598,W,2,12,0.87,55.9,M,-34.1,M,,0000*47
+01/12 08:06:36.004 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:06:36.005 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:06:38.005 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:06:38.006 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:06:40.006 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:06:40.007 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:06:40.752 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,080640.00,4142.5579,N,07351.7960,W,2,13,0.87,55.93,M,-34.100,M,,*6E
+01/12 08:06:42.007 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:06:42.008 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:06:44.008 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:06:44.009 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:06:45.752 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,080645.00,4142.55811,N,07351.79625,W,2,12,0.87,56.0,M,-34.1,M,,0000*4C
+01/12 08:06:46.009 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:06:46.010 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:06:48.010 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:06:48.011 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:06:50.011 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:06:50.012 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:06:50.752 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,080650.00,4142.55820,N,07351.79644,W,2,12,0.87,56.0,M,-34.1,M,,0000*4D
+01/12 08:06:51.004 [2803235648] INFO  snmp.gps - Setting date and time to: 2025-01-12 08:06:51
+01/12 08:06:52.012 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:06:52.013 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:06:54.013 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:06:54.014 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:06:55.752 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,080655.00,4142.5583,N,07351.7966,W,2,13,0.87,55.95,M,-34.100,M,,*6F
+01/12 08:06:56.014 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:06:56.015 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:06:58.015 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:06:58.016 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:07:00.016 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:07:00.017 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:07:00.752 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,080700.00,4142.55839,N,07351.79675,W,2,12,0.87,55.5,M,-34.1,M,,0000*45
+01/12 08:07:02.018 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:07:02.018 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:07:04.019 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:07:04.019 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:07:05.753 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,080705.00,4142.5586,N,07351.7969,W,2,13,0.88,54.70,M,-34.100,M,,*64
+01/12 08:07:06.020 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:07:06.020 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:07:08.021 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:07:08.021 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:07:10.022 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:07:10.022 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:07:10.753 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,080710.00,4142.5588,N,07351.7969,W,2,14,0.88,54.09,M,-34.100,M,,*67
+01/12 08:07:12.023 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:07:12.023 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:07:14.024 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:07:14.025 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:07:15.753 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,080715.00,4142.55887,N,07351.79691,W,2,12,0.79,53.7,M,-34.1,M,,0000*4B
+01/12 08:07:16.025 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:07:16.026 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+05/29 08:07:16.000 [2803235648] INFO  snmp.gps - Setting date and time to: 2005-05-29 08:07:16
+05/29 08:07:20.717 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,080720.00,4142.55895,N,07351.79679,W,2,12,0.79,53.5,M,-34.1,M,,0000*4A
+05/29 08:07:25.694 [2794842944] INFO  snmp.gps - Endpoint address: fe80::1 , port: 1024
+05/29 08:07:25.694 [2794842944] INFO  snmp.gps - sendGpggaPacketToRemoteServer: NMEA sentence: $GPGGA,080725.00,4142.55906,N,07351.79672,W,2,12,0.82,53.7,M,-34.1,M,,0000*49
+05/29 08:07:25.717 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,080725.00,4142.55906,N,07351.79672,W,2,12,0.82,53.7,M,-34.1,M,,0000*49
+05/29 08:07:30.717 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,080730.00,4142.55901,N,07351.79652,W,2,12,0.79,54.0,M,-34.1,M,,0000*4C
+05/29 08:07:35.717 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,080735.00,4142.55909,N,07351.79637,W,2,12,0.79,53.8,M,-34.1,M,,0000*4D
+05/29 08:07:40.718 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,080740.00,4142.55932,N,07351.79632,W,2,12,0.82,53.0,M,-34.1,M,,0000*4E
+05/29 08:07:41.003 [2803235648] INFO  snmp.gps - Setting date and time to: 2005-05-29 08:07:41
+05/29 08:07:45.716 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,080745.00,4142.55934,N,07351.79613,W,2,12,0.79,53.2,M,-34.1,M,,0000*48
+05/29 08:07:50.716 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,080750.00,4142.5591,N,07351.7958,W,2,14,0.79,53.67,M,-34.100,M,,*68
+05/29 08:07:55.716 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,080755.00,4142.5590,N,07351.7957,W,2,14,0.79,53.84,M,-34.100,M,,*6E
+05/29 08:08:00.716 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,080800.00,4142.55906,N,07351.79557,W,2,12,0.88,54.0,M,-34.1,M,,0000*4F
+05/29 08:08:05.000 [2803235648] INFO  snmp.gps - Setting date and time to: 2005-05-29 08:08:05
+05/29 08:08:05.710 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,080805.00,4142.55934,N,07351.79558,W,2,12,0.88,54.2,M,-34.1,M,,0000*46
+05/29 08:08:10.711 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,080810.00,4142.5595,N,07351.7957,W,2,13,0.88,54.42,M,-34.100,M,,*61
+05/29 08:08:15.711 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,080815.00,4142.55936,N,07351.79562,W,2,12,0.88,54.2,M,-34.1,M,,0000*4C
+05/29 08:08:20.711 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,080820.00,4142.5593,N,07351.7955,W,2,13,0.88,54.32,M,-34.100,M,,*61
+05/29 08:08:25.685 [2794842944] INFO  snmp.gps - Endpoint address: fe80::1 , port: 1024
+05/29 08:08:25.686 [2794842944] INFO  snmp.gps - sendGpggaPacketToRemoteServer: NMEA sentence: $GPGGA,080825.00,4142.55944,N,07351.79557,W,2,12,0.88,54.0,M,-34.1,M,,0000*4E
+05/29 08:08:25.711 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,080825.00,4142.55944,N,07351.79557,W,2,12,0.88,54.0,M,-34.1,M,,0000*4E
+01/12 08:08:29.000 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:08:29.000 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:08:29.001 [2803235648] INFO  snmp.gps - Setting date and time to: 2025-01-12 08:08:29
+01/12 08:08:30.696 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,080830.00,4142.55957,N,07351.79555,W,2,12,0.88,53.5,M,-34.1,M,,0000*48
+01/12 08:08:31.001 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:08:31.002 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:08:33.004 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:08:33.004 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:08:35.005 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:08:35.006 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:08:35.696 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,080835.00,4142.55936,N,07351.79546,W,2,12,0.93,53.0,M,-34.1,M,,0000*47
+01/12 08:08:37.006 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:08:37.007 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:08:39.007 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:08:39.008 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:08:40.696 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,080840.00,4142.5592,N,07351.7954,W,2,12,0.93,52.54,M,-34.100,M,,*6A
+01/12 08:08:41.008 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:08:41.009 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:08:43.009 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:08:43.010 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:08:45.010 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:08:45.011 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:08:45.697 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,080845.00,4142.5590,N,07351.7952,W,2,13,0.88,52.13,M,-34.100,M,,*63
+01/12 08:08:47.011 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:08:47.012 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:08:49.012 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:08:49.013 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:08:50.697 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,080850.00,4142.55879,N,07351.79507,W,2,12,0.88,52.2,M,-34.1,M,,0000*42
+01/12 08:08:51.013 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:08:51.014 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:08:52.000 [2803235648] INFO  snmp.gps - Setting date and time to: 2025-01-12 08:08:52
+01/12 08:08:53.014 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:08:53.015 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:08:55.015 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:08:55.016 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:08:55.675 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,080855.00,4142.55858,N,07351.79497,W,2,12,0.88,52.3,M,-34.1,M,,0000*4D
+01/12 08:08:57.017 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:08:57.017 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:08:59.018 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:08:59.018 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:09:00.675 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,080900.00,4142.5583,N,07351.7948,W,2,13,0.88,51.82,M,-34.100,M,,*61
+01/12 08:09:01.019 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:09:01.019 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:09:03.020 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:09:03.020 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:09:05.021 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:09:05.021 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:09:05.675 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,080905.00,4142.55804,N,07351.79455,W,2,12,1.00,50.5,M,-34.1,M,,0000*4B
+01/12 08:09:07.022 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:09:07.022 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:09:09.023 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:09:09.023 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:09:10.675 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,080910.00,4142.5576,N,07351.7941,W,2,13,0.89,49.63,M,-34.100,M,,*64
+01/12 08:09:11.024 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:09:11.025 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:09:13.025 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:09:13.026 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:09:15.026 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:09:15.027 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:09:15.676 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,080915.00,4142.55725,N,07351.79378,W,2,12,0.79,49.2,M,-34.1,M,,0000*4E
+01/12 08:09:16.004 [2803235648] INFO  snmp.gps - Setting date and time to: 2025-01-12 08:09:16
+01/12 08:09:17.027 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:09:17.028 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:09:19.028 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:09:19.029 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:09:20.646 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,080920.00,4142.55719,N,07351.79375,W,2,12,0.79,48.4,M,-34.1,M,,0000*4D
+01/12 08:09:21.030 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:09:21.030 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:09:23.031 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:09:23.031 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:09:25.032 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:09:25.032 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:09:25.617 [2794842944] INFO  snmp.gps - Endpoint address: fe80::1 , port: 1024
+01/12 08:09:25.618 [2794842944] INFO  snmp.gps - sendGpggaPacketToRemoteServer: NMEA sentence: GGP,080925.00,4142.55714,N,07351.79371,W,2,12,0.79,47.8,M,-34.1,M,,0000*42
+01/12 08:09:25.647 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: GGP,080925.00,4142.55714,N,07351.79371,W,2,12,0.79,47.8,M,-34.1,M,,0000*42
+01/12 08:09:27.033 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:09:27.033 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:09:29.034 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:09:29.034 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:09:30.647 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,080930.00,4142.55699,N,07351.79362,W,2,12,0.79,48.2,M,-34.1,M,,0000*45
+01/12 08:09:31.035 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:09:31.036 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:09:33.036 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:09:33.037 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:09:35.037 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:09:35.038 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:09:35.647 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,080935.00,4142.55673,N,07351.79347,W,2,12,0.79,48.5,M,-34.1,M,,0000*44
+01/12 08:09:37.038 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:09:37.039 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:09:39.039 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:09:39.040 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:09:40.000 [2803235648] INFO  snmp.gps - Setting date and time to: 2025-01-12 08:09:40
+01/12 08:09:40.620 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,080940.00,4142.55627,N,07351.79322,W,2,12,0.79,48.8,M,-34.1,M,,0000*49
+01/12 08:09:41.040 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:09:41.041 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:09:43.041 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:09:43.042 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:09:45.042 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:09:45.043 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:09:45.620 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,080945.00,4142.5561,N,07351.7932,W,2,14,0.79,49.25,M,-34.100,M,,*6C
+01/12 08:09:47.043 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:09:47.044 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:09:49.044 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:09:49.045 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:09:50.620 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,080950.00,4142.55586,N,07351.79311,W,2,12,0.86,49.2,M,-34.1,M,,0000*4B
+01/12 08:09:51.045 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:09:51.046 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:09:53.046 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:09:53.047 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:09:55.001 [2865744704] WARN  security.onboardsecurity - Not setting up randomization yet as no certs available
+01/12 08:09:55.001 [2865744704] INFO  security.onboardsecurity - IdChangeDoneCallback
+01/12 08:09:55.047 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:09:55.048 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:09:55.620 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,080955.00,4142.55564,N,07351.79314,W,2,12,0.86,49.0,M,-34.1,M,,0000*45
+01/12 08:09:57.048 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:09:57.049 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:09:59.050 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:09:59.050 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:10:00.621 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,081000.00,4142.55534,N,07351.79311,W,2,12,1.00,48.5,M,-34.1,M,,0000*46
+01/12 08:10:01.051 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:10:01.051 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+05/29 08:10:03.000 [2803235648] INFO  snmp.gps - Setting date and time to: 2005-05-29 08:10:03
+05/29 08:10:05.596 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,081005.00,4142.55541,N,07351.79343,W,2,12,1.00,47.8,M,-34.1,M,,0000*44
+05/29 08:10:10.596 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: GGP,081010.00,4142.55553,N,07351.79374,W,2,12,1.10,47.9,M,-34.1,M,,0000*47
+05/29 08:10:15.596 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,081015.00,4142.5554,N,07351.7939,W,2,11,1.10,48.62,M,-34.100,M,,*65
+05/29 08:10:20.597 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,081020.00,4142.55506,N,07351.79383,W,2,12,0.89,49.7,M,-34.1,M,,0000*4D
+05/29 08:10:25.565 [2794842944] INFO  snmp.gps - Endpoint address: fe80::1 , port: 1024
+05/29 08:10:25.565 [2794842944] INFO  snmp.gps - sendGpggaPacketToRemoteServer: NMEA sentence: $GPGGA,081025.00,4142.5551,N,07351.7942,W,2,13,0.89,50.01,M,-34.100,M,,*60
+05/29 08:10:25.597 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,081025.00,4142.5551,N,07351.7942,W,2,13,0.89,50.01,M,-34.100,M,,*60
+05/29 08:10:28.003 [2803235648] INFO  snmp.gps - Setting date and time to: 2005-05-29 08:10:28
+05/29 08:10:30.563 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,081030.00,4142.55505,N,07351.79453,W,2,12,0.89,50.6,M,-34.1,M,,0000*4C
+05/29 08:10:35.563 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,081035.00,4142.55517,N,07351.79496,W,2,12,0.90,51.0,M,-34.1,M,,0000*4C
+05/29 08:10:40.563 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,081040.00,4142.55521,N,07351.79524,W,2,12,0.90,51.5,M,-34.1,M,,0000*46
+05/29 08:10:45.564 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,081045.00,4142.5552,N,07351.7954,W,2,13,0.89,52.16,M,-34.100,M,,*66
+05/29 08:10:50.564 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,081050.00,4142.5553,N,07351.7957,W,2,13,0.89,52.32,M,-34.100,M,,*66
+01/12 08:10:52.000 [2803235648] INFO  snmp.gps - Setting date and time to: 2025-01-12 08:10:52
+01/12 08:10:52.000 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:10:52.001 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:10:54.002 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:10:54.002 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:10:55.551 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,081055.00,4142.55496,N,07351.79559,W,2,12,0.89,52.9,M,-34.1,M,,0000*42
+01/12 08:10:56.003 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:10:56.004 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:10:58.004 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:10:58.005 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:11:00.005 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:11:00.006 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:11:00.552 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,081100.00,4142.55410,N,07351.79507,W,2,12,0.90,53.8,M,-34.1,M,,0000*4E
+01/12 08:11:02.006 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:11:02.007 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:11:04.008 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:11:04.009 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:11:05.552 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,081105.00,4142.55349,N,07351.79462,W,2,12,0.79,54.0,M,-34.1,M,,0000*4A
+01/12 08:11:06.009 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:11:06.010 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:11:08.010 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:11:08.011 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:11:10.011 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:11:10.012 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:11:10.552 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,081110.00,4142.5537,N,07351.7949,W,2,13,0.79,53.43,M,-34.100,M,,*66
+01/12 08:11:12.013 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:11:12.013 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:11:14.014 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:11:14.016 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:11:14.575 [2761272128] WARN  v13.radiodriver - MKx_Recv returned error code: -1
+01/12 08:11:15.552 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,081115.00,4142.5542,N,07351.7952,W,2,13,0.90,53.47,M,-34.100,M,,*68
+01/12 08:11:16.000 [2803235648] INFO  snmp.gps - Setting date and time to: 2025-01-12 08:11:16
+01/12 08:11:16.017 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:11:16.017 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:11:18.018 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:11:18.018 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:11:20.019 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:11:20.020 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:11:20.537 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,081120.00,4142.55407,N,07351.79513,W,2,12,0.79,53.3,M,-34.1,M,,0000*43
+01/12 08:11:22.020 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:11:22.021 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:11:24.021 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:11:24.022 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:11:25.503 [2794842944] INFO  snmp.gps - Endpoint address: fe80::1 , port: 1024
+01/12 08:11:25.503 [2794842944] INFO  snmp.gps - sendGpggaPacketToRemoteServer: NMEA sentence: $GPGGA,081125.00,4142.55348,N,07351.79459,W,2,12,0.95,52.6,M,-34.1,M,,0000*43
+01/12 08:11:25.537 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,081125.00,4142.55348,N,07351.79459,W,2,12,0.95,52.6,M,-34.1,M,,0000*43
+01/12 08:11:26.022 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:11:26.023 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:11:28.023 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:11:28.024 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:11:30.024 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:11:30.025 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:11:30.537 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,081130.00,4142.55224,N,07351.79342,W,2,12,0.83,53.0,M,-34.1,M,,0000*41
+01/12 08:11:32.025 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:11:32.026 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:11:34.026 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:11:34.027 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:11:35.538 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: GGP,081135.00,4142.55146,N,07351.79269,W,2,12,0.79,52.9,M,-34.1,M,,0000*46
+01/12 08:11:36.027 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:11:36.028 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:11:38.028 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:11:38.029 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:11:38.003 [2803235648] INFO  snmp.gps - Setting date and time to: 2025-01-12 08:11:38
+01/12 08:11:40.029 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:11:40.030 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:11:40.506 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: GGP,081140.00,4142.55059,N,07351.79180,W,2,12,0.76,53.6,M,-34.1,M,,0000*4E
+01/12 08:11:42.031 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:11:42.031 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:11:44.032 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:11:44.032 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:11:45.506 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,081145.00,4142.55210,N,07351.79289,W,2,12,0.74,52.4,M,-34.1,M,,0000*4F
+01/12 08:11:46.033 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:11:46.033 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:11:48.034 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:11:48.034 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:11:50.035 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:11:50.035 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:11:50.506 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,081150.00,4142.55356,N,07351.79397,W,2,12,0.74,51.0,M,-34.1,M,,0000*41
+01/12 08:11:52.036 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:11:52.036 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:11:54.037 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:11:54.037 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:11:55.507 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,081155.00,4142.55421,N,07351.79437,W,2,12,0.83,51.0,M,-34.1,M,,0000*46
+01/12 08:11:56.038 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:11:56.038 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:11:58.039 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:11:58.040 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:12:00.040 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:12:00.041 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:12:00.507 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,081200.00,4142.5549,N,07351.7948,W,2,14,0.74,51.70,M,-34.100,M,,*64
+01/12 08:12:01.000 [2803235648] INFO  snmp.gps - Setting date and time to: 2025-01-12 08:12:01
+01/12 08:12:02.041 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:12:02.042 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:12:04.042 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:12:04.043 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:12:05.477 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,081205.00,4142.5556,N,07351.7950,W,2,14,0.84,52.75,M,-34.100,M,,*6F
+01/12 08:12:06.043 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:12:06.044 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:12:08.044 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:12:08.045 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:12:10.045 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:12:10.046 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:12:10.479 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,081210.00,4142.55628,N,07351.79517,W,2,12,0.86,53.2,M,-34.1,M,,0000*49
+01/12 08:12:12.046 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:12:12.047 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:12:14.047 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:12:14.048 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:12:15.480 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,081215.00,4142.5570,N,07351.7955,W,2,13,0.86,53.88,M,-34.100,M,,*69
+01/12 08:12:16.048 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:12:16.049 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:12:18.049 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:12:18.050 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:12:20.051 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:12:20.051 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:12:20.482 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,081220.00,4142.5579,N,07351.7964,W,2,12,0.86,55.27,M,-34.100,M,,*66
+01/12 08:12:22.052 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:12:22.052 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:12:24.053 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:12:24.053 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:12:25.441 [2794842944] INFO  snmp.gps - Endpoint address: fe80::1 , port: 1024
+01/12 08:12:25.441 [2794842944] INFO  snmp.gps - sendGpggaPacketToRemoteServer: NMEA sentence: $GPGGA,081225.00,4142.55892,N,07351.79754,W,2,12,0.95,56.3,M,-34.1,M,,0000*43
+01/12 08:12:25.482 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,081225.00,4142.55892,N,07351.79754,W,2,12,0.95,56.3,M,-34.1,M,,0000*43
+01/12 08:12:26.000 [2803235648] INFO  snmp.gps - Setting date and time to: 2025-01-12 08:12:26
+01/12 08:12:26.054 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:12:26.054 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:12:28.055 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:12:28.055 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:12:30.056 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:12:30.056 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:12:30.464 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,081230.00,4142.55989,N,07351.79849,W,2,12,0.95,57.2,M,-34.1,M,,0000*4F
+01/12 08:12:32.057 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:12:32.057 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:12:34.058 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:12:34.058 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:12:35.465 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,081235.00,4142.56023,N,07351.79903,W,2,12,0.95,57.2,M,-34.1,M,,0000*4F
+01/12 08:12:36.059 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:12:36.059 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:12:38.060 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:12:38.060 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:12:40.061 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:12:40.061 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:12:40.465 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,081240.00,4142.56026,N,07351.79908,W,2,12,0.95,57.4,M,-34.1,M,,0000*45
+01/12 08:12:42.062 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:12:42.062 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:12:44.063 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:12:44.063 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:12:45.465 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,081245.00,4142.56049,N,07351.79925,W,2,12,1.00,57.9,M,-34.1,M,,0000*46
+01/12 08:12:46.064 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:12:46.064 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:12:48.004 [2803235648] INFO  snmp.gps - Setting date and time to: 2025-01-12 08:12:48
+01/12 08:12:48.065 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:12:48.065 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:12:50.066 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:12:50.067 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:12:50.434 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,081250.00,4142.56046,N,07351.79921,W,2,12,0.95,58.0,M,-34.1,M,,0000*42
+01/12 08:12:52.067 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:12:52.068 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:12:54.068 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:12:54.069 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:12:55.435 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,081255.00,4142.5602,N,07351.7991,W,2,12,0.90,57.89,M,-34.100,M,,*60
+01/12 08:12:56.069 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:12:56.070 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:12:58.070 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:12:58.071 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:13:00.071 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:13:00.072 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:13:00.435 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,081300.00,4142.5597,N,07351.7989,W,2,13,0.87,57.88,M,-34.100,M,,*61
+01/12 08:13:02.072 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:13:02.073 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:13:04.073 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:13:04.074 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:13:05.436 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,081305.00,4142.55930,N,07351.79903,W,2,12,0.87,58.4,M,-34.1,M,,0000*4F
+01/12 08:13:06.074 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:13:06.075 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:13:08.075 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:13:08.076 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:13:10.076 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:13:10.077 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:13:10.438 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,081310.00,4142.55902,N,07351.79897,W,2,12,0.87,58.3,M,-34.1,M,,0000*41
+01/12 08:13:12.077 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:13:12.078 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:13:13.000 [2803235648] INFO  snmp.gps - Setting date and time to: 2025-01-12 08:13:13
+01/12 08:13:14.078 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:13:14.079 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:13:15.407 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,081315.00,4142.55848,N,07351.79870,W,2,12,0.87,58.5,M,-34.1,M,,0000*44
+01/12 08:13:16.079 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:13:16.080 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:13:18.081 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:13:18.081 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:13:20.082 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:13:20.082 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:13:20.410 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,081320.00,4142.55823,N,07351.79864,W,2,12,0.87,58.4,M,-34.1,M,,0000*4B
+01/12 08:13:22.083 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:13:22.083 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:13:22.575 [2761272128] WARN  v13.radiodriver - MKx_Recv returned error code: -1
+01/12 08:13:24.084 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:13:24.084 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:13:25.355 [2794842944] INFO  snmp.gps - Endpoint address: fe80::1 , port: 1024
+01/12 08:13:25.355 [2794842944] INFO  snmp.gps - sendGpggaPacketToRemoteServer: NMEA sentence: $GPGGA,081325.00,4142.55796,N,07351.79838,W,2,12,0.84,58.3,M,-34.1,M,,0000*42
+01/12 08:13:25.413 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,081325.00,4142.55796,N,07351.79838,W,2,12,0.84,58.3,M,-34.1,M,,0000*42
+01/12 08:13:26.085 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:13:26.085 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:13:28.086 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:13:28.086 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:13:30.087 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:13:30.087 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:13:30.415 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,081330.00,4142.5578,N,07351.7981,W,2,14,0.92,58.63,M,-34.100,M,,*62
+01/12 08:13:32.088 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:13:32.088 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:13:34.089 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:13:34.089 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:13:35.416 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,081335.00,4142.55762,N,07351.79804,W,2,12,0.84,59.2,M,-34.1,M,,0000*47
+01/12 08:13:36.090 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:13:36.090 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+05/29 08:13:37.000 [2803235648] INFO  snmp.gps - Setting date and time to: 2005-05-29 08:13:37
+05/29 08:13:40.388 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,081340.00,4142.55774,N,07351.79800,W,2,12,0.84,59.7,M,-34.1,M,,0000*43
+05/29 08:13:45.390 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,081345.00,4142.55772,N,07351.79778,W,2,12,0.95,60.2,M,-34.1,M,,0000*4F
+05/29 08:13:50.391 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,081350.00,4142.55784,N,07351.79763,W,2,12,0.92,60.5,M,-34.1,M,,0000*48
+05/29 08:13:55.391 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,081355.00,4142.5578,N,07351.7973,W,2,12,0.92,60.31,M,-34.100,M,,*66
+01/12 08:14:00.000 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:14:00.000 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:14:00.001 [2803235648] INFO  snmp.gps - Setting date and time to: 2025-01-12 08:14:00
+01/12 08:14:00.390 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,081400.00,4142.55759,N,07351.79694,W,2,12,0.92,60.2,M,-34.1,M,,0000*44
+01/12 08:14:02.001 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:14:02.001 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:14:03.020 [3020938048] WARN  v13.radiodriver - Did not get radio packet with valid 802.11 frame header
+01/12 08:14:04.004 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:14:04.005 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:14:05.393 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,081405.00,4142.55762,N,07351.79669,W,2,12,0.84,60.1,M,-34.1,M,,0000*4F
+01/12 08:14:06.005 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:14:06.006 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:14:08.007 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:14:08.007 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:14:10.008 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:14:10.008 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:14:10.396 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,081410.00,4142.55751,N,07351.79632,W,2,12,0.74,59.3,M,-34.1,M,,0000*42
+01/12 08:14:12.009 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:14:12.009 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:14:14.010 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:14:14.010 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:14:15.397 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,081415.00,4142.55745,N,07351.79612,W,2,12,0.92,58.6,M,-34.1,M,,0000*4C
+01/12 08:14:16.011 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:14:16.012 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:14:18.012 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:14:18.013 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:14:20.013 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:14:20.014 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:14:20.401 [2794842944] INFO  snmp.gps - sendGpggaNotification: NMEA sentence: $GPGGA,081420.00,4142.55730,N,07351.79596,W,2,12,0.78,57.9,M,-34.1,M,,0000*43
+01/12 08:14:22.014 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:14:22.015 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
+01/12 08:14:24.016 [2857352000] INFO  onboardsecurity.connection - Create connection to ra.pilot.v2x.isscms.com:8892
+01/12 08:14:24.016 [2857352000] WARN  onboardsecurity.connection - Unable to resolve query for host: ra.pilot.v2x.isscms.com
